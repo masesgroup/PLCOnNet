@@ -1,0 +1,3645 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+      <title>Class PlcReadResponse | MASES Group - PLC4Net </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class PlcReadResponse | MASES Group - PLC4Net ">
+      <meta name="description" content="This is a descriptive page of PLC4Net, the PLC4X suite for .NET">
+      <meta name="description" content="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcReadResponse.html">
+      <link rel="icon" href="../images/favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/masesgroup/PLC4Net/new/master/apiSpec/new?filename=Org_Apache_Plc4x_JavaNs_Api_Messages_PlcReadResponse.md&amp;value=---%0Auid%3A%20Org.Apache.Plc4x.JavaNs.Api.Messages.PlcReadResponse%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../images/logo.png" alt="">
+            
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="Org.Apache.Plc4x.JavaNs.Api.Messages.PlcReadResponse">
+
+
+
+  <h1 id="Org_Apache_Plc4x_JavaNs_Api_Messages_PlcReadResponse" data-uid="Org.Apache.Plc4x.JavaNs.Api.Messages.PlcReadResponse" class="text-break">
+Class PlcReadResponse  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/PLC4Net/blob/master/src/net/PLC4Net/Generated/Org/Apache/Plc4x/JavaNs/Api/Messages/PlcReadResponse.cs/#L94"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="Org.html">Org</a>.<a class="xref" href="Org.Apache.html">Apache</a>.<a class="xref" href="Org.Apache.Plc4x.html">Plc4x</a>.<a class="xref" href="Org.Apache.Plc4x.JavaNs.html">JavaNs</a>.<a class="xref" href="Org.Apache.Plc4x.JavaNs.Api.html">Api</a>.<a class="xref" href="Org.Apache.Plc4x.JavaNs.Api.Messages.html">Messages</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>MASES.PLC4Net.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"><p><a href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcReadResponse.html">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcReadResponse.html</a></p>
+</div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class PlcReadResponse : PlcTagResponse, IDynamicMetaObjectProvider, IJVMBridgeCore, IDisposable, IJVMBridgeBaseStatic, IJVMBridgeBase, IJVMBridgeDefinition, IPlcReadResponse, IPlcTagResponse, IPlcResponse, IPlcMessage</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.dynamic.dynamicobject">DynamicObject</a></div>
+      <div><span class="xref">JVMBridgeBase</span></div>
+      <div><span class="xref">JVMBridgeBase</span>&lt;<a class="xref" href="Org.Apache.Plc4x.JavaNs.Api.Messages.PlcMessage.html">PlcMessage</a>&gt;</div>
+      <div><a class="xref" href="Org.Apache.Plc4x.JavaNs.Api.Messages.PlcMessage.html">PlcMessage</a></div>
+      <div><a class="xref" href="Org.Apache.Plc4x.JavaNs.Api.Messages.PlcResponse.html">PlcResponse</a></div>
+      <div><a class="xref" href="Org.Apache.Plc4x.JavaNs.Api.Messages.PlcTagResponse.html">PlcTagResponse</a></div>
+      <div><span class="xref">PlcReadResponse</span></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist implements">
+    <dt>Implements</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.dynamic.idynamicmetaobjectprovider">IDynamicMetaObjectProvider</a></div>
+      <div><span class="xref">IJVMBridgeCore</span></div>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.idisposable">IDisposable</a></div>
+      <div><span class="xref">IJVMBridgeBaseStatic</span></div>
+      <div><span class="xref">IJVMBridgeBase</span></div>
+      <div><span class="xref">IJVMBridgeDefinition</span></div>
+      <div><a class="xref" href="Org.Apache.Plc4x.JavaNs.Api.Messages.IPlcReadResponse.html">IPlcReadResponse</a></div>
+      <div><a class="xref" href="Org.Apache.Plc4x.JavaNs.Api.Messages.IPlcTagResponse.html">IPlcTagResponse</a></div>
+      <div><a class="xref" href="Org.Apache.Plc4x.JavaNs.Api.Messages.IPlcResponse.html">IPlcResponse</a></div>
+      <div><a class="xref" href="Org.Apache.Plc4x.JavaNs.Api.Messages.IPlcMessage.html">IPlcMessage</a></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist derived">
+    <dt>Derived</dt>
+    <dd>
+      <div><a class="xref" href="Org.Apache.Plc4x.JavaNs.Api.Messages.PlcSubscriptionEvent.html">PlcSubscriptionEvent</a></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="Org.Apache.Plc4x.JavaNs.Api.Messages.PlcTagResponse.html#Org_Apache_Plc4x_JavaNs_Api_Messages_PlcTagResponse_TagNames">PlcTagResponse.TagNames</a>
+    </div>
+    <div>
+      <a class="xref" href="Org.Apache.Plc4x.JavaNs.Api.Messages.PlcTagResponse.html#Org_Apache_Plc4x_JavaNs_Api_Messages_PlcTagResponse_GetTag_Java_Lang_String_">PlcTagResponse.GetTag(String)</a>
+    </div>
+    <div>
+      <a class="xref" href="Org.Apache.Plc4x.JavaNs.Api.Messages.PlcTagResponse.html#Org_Apache_Plc4x_JavaNs_Api_Messages_PlcTagResponse_GetResponseCode_Java_Lang_String_">PlcTagResponse.GetResponseCode(String)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;PlcMessage&gt;.SExecute(IJavaType, string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;PlcMessage&gt;.SExecuteWithSignature(IJavaType, string, string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;PlcMessage&gt;.SExecute(string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;PlcMessage&gt;.SExecuteWithSignature(string, string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;PlcMessage&gt;.SExecute&lt;TReturn&gt;(IJavaType, string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;PlcMessage&gt;.SExecuteWithSignature&lt;TReturn&gt;(IJavaType, string, string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;PlcMessage&gt;.SExecute&lt;TReturn&gt;(string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;PlcMessage&gt;.SExecuteWithSignature&lt;TReturn&gt;(string, string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">JVMBridgeBase&lt;PlcMessage&gt;.SExecute(Type, IJavaType, string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">JVMBridgeBase&lt;PlcMessage&gt;.SExecuteWithSignature(Type, IJavaType, string, string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">JVMBridgeBase&lt;PlcMessage&gt;.SExecute(Type, string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">JVMBridgeBase&lt;PlcMessage&gt;.SExecuteWithSignature(Type, string, string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;PlcMessage&gt;.SExecute&lt;TNewClass, TReturn&gt;(IJavaType, string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;PlcMessage&gt;.SExecuteWithSignature&lt;TNewClass, TReturn&gt;(IJavaType, string, string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;PlcMessage&gt;.SExecute&lt;TNewClass, TReturn&gt;(string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;PlcMessage&gt;.SExecuteWithSignature&lt;TNewClass, TReturn&gt;(string, string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">JVMBridgeBase&lt;PlcMessage&gt;.SExecute&lt;TReturn&gt;(Type, IJavaType, string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">JVMBridgeBase&lt;PlcMessage&gt;.SExecuteWithSignature&lt;TReturn&gt;(Type, IJavaType, string, string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">JVMBridgeBase&lt;PlcMessage&gt;.SExecute&lt;TReturn&gt;(Type, string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">JVMBridgeBase&lt;PlcMessage&gt;.SExecuteWithSignature&lt;TReturn&gt;(Type, string, string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;PlcMessage&gt;.SExecute&lt;TNewClass, TReturn, TConverter&gt;(IJavaType, string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;PlcMessage&gt;.SExecuteWithSignature&lt;TNewClass, TReturn, TConverter&gt;(IJavaType, string, string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;PlcMessage&gt;.SExecute&lt;TNewClass, TReturn, TConverter&gt;(string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;PlcMessage&gt;.SExecuteWithSignature&lt;TNewClass, TReturn, TConverter&gt;(string, string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">JVMBridgeBase&lt;PlcMessage&gt;.SExecute&lt;TReturn, TConverter&gt;(Type, IJavaType, string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">JVMBridgeBase&lt;PlcMessage&gt;.SExecuteWithSignature&lt;TReturn, TConverter&gt;(Type, IJavaType, string, string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">JVMBridgeBase&lt;PlcMessage&gt;.SExecute&lt;TReturn, TConverter&gt;(Type, string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">JVMBridgeBase&lt;PlcMessage&gt;.SExecuteWithSignature&lt;TReturn, TConverter&gt;(Type, string, string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;PlcMessage&gt;.SExecuteArray&lt;T&gt;(IJavaType, string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;PlcMessage&gt;.SExecuteWithSignatureArray&lt;T&gt;(IJavaType, string, string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;PlcMessage&gt;.SExecuteArray&lt;T&gt;(string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;PlcMessage&gt;.SExecuteWithSignatureArray&lt;T&gt;(string, string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;PlcMessage&gt;.SGetField(IJavaType, string)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;PlcMessage&gt;.SGetField(string)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;PlcMessage&gt;.SGetField&lt;TReturn&gt;(IJavaType, string)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;PlcMessage&gt;.SGetField&lt;TReturn&gt;(string)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;PlcMessage&gt;.SGetFieldArray&lt;TReturn&gt;(IJavaType, string)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;PlcMessage&gt;.SGetFieldArray&lt;TReturn&gt;(string)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;PlcMessage&gt;.SSetField(IJavaType, string, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;PlcMessage&gt;.SSetField(string, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;PlcMessage&gt;.SSetField&lt;TValue&gt;(IJavaType, string, TValue)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;PlcMessage&gt;.SSetField&lt;TValue&gt;(string, TValue)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;PlcMessage&gt;.IsAssignableFrom(string)</a>
+    </div>
+    <div>
+      <span class="xref">JVMBridgeBase&lt;PlcMessage&gt;.IsAssignableFrom(IJavaType)</span>
+    </div>
+    <div>
+      <span class="xref">JVMBridgeBase&lt;PlcMessage&gt;.IsAssignableFrom&lt;T&gt;()</span>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">JVMBridgeBase&lt;PlcMessage&gt;.New(params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;PlcMessage&gt;.NewWithSignature(string, params object[])</a>
+    </div>
+    <div>
+      <span class="xref">JVMBridgeBase&lt;PlcMessage&gt;.Execute&lt;T&gt;(params T[])</span>
+    </div>
+    <div>
+      <span class="xref">JVMBridgeBase&lt;PlcMessage&gt;.DynBridgeClazz</span>
+    </div>
+    <div>
+      <span class="xref">JVMBridgeBase&lt;PlcMessage&gt;.BridgeClazz</span>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">JVMBridgeBase.ClazzOf&lt;TClass&gt;(bool)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase.ClazzOf(string, bool)</a>
+    </div>
+    <div>
+      <span class="xref">JVMBridgeBase.RuntimeClassNameOf&lt;T&gt;()</span>
+    </div>
+    <div>
+      <span class="xref">JVMBridgeBase.ClassNameOf&lt;T&gt;()</span>
+    </div>
+    <div>
+      <span class="xref">JVMBridgeBase.ClassOf&lt;T&gt;()</span>
+    </div>
+    <div>
+      <span class="xref">JVMBridgeBase.WrapsDirect&lt;TNewClass&gt;(IJavaObject)</span>
+    </div>
+    <div>
+      <span class="xref">JVMBridgeBase.Wraps&lt;TNewClass&gt;(IJavaObject)</span>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">JVMBridgeBase.Wraps(Type, IJavaObject, string)</a>
+    </div>
+    <div>
+      <span class="xref">JVMBridgeBase.Wraps&lt;TNewClass, TReturn&gt;(IJavaObject)</span>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">JVMBridgeBase.Wraps&lt;TReturn&gt;(Type, IJavaObject, string)</a>
+    </div>
+    <div>
+      <span class="xref">JVMBridgeBase.Wraps&lt;TNewClass, TReturn, TConverter&gt;(IJavaObject)</span>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">JVMBridgeBase.Wraps&lt;TReturn, TConverter&gt;(Type, IJavaObject)</a>
+    </div>
+    <div>
+      <span class="xref">JVMBridgeBase.MonitorEnter()</span>
+    </div>
+    <div>
+      <span class="xref">JVMBridgeBase.MonitorExit()</span>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase.IsInstanceOf(string)</a>
+    </div>
+    <div>
+      <span class="xref">JVMBridgeBase.IsInstanceOf(IJavaType)</span>
+    </div>
+    <div>
+      <span class="xref">JVMBridgeBase.IsInstanceOf&lt;T&gt;()</span>
+    </div>
+    <div>
+      <span class="xref">JVMBridgeBase.RuntimeIsInstanceOf&lt;T&gt;()</span>
+    </div>
+    <div>
+      <span class="xref">JVMBridgeBase.CastTo&lt;TNewClass&gt;()</span>
+    </div>
+    <div>
+      <span class="xref">JVMBridgeBase.CastDirect&lt;TNewClass&gt;()</span>
+    </div>
+    <div>
+      <span class="xref">JVMBridgeBase.Dispose()</span>
+    </div>
+    <div>
+      <span class="xref">JVMBridgeBase.ToString()</span>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">JVMBridgeBase.Equals(object)</a>
+    </div>
+    <div>
+      <span class="xref">JVMBridgeBase.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">JVMBridgeBase.Notify()</span>
+    </div>
+    <div>
+      <span class="xref">JVMBridgeBase.NotifyAll()</span>
+    </div>
+    <div>
+      <span class="xref">JVMBridgeBase.Wait()</span>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">JVMBridgeBase.Wait(long)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">JVMBridgeBase.Wait(long, int)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase.IExecute(string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase.IExecuteWithSignature(string, string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase.IExecute&lt;TReturn&gt;(string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase.IExecuteWithSignature&lt;TReturn&gt;(string, string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase.IExecute&lt;TNewClass, TReturn&gt;(string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase.IExecuteWithSignature&lt;TNewClass, TReturn&gt;(string, string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase.IExecute&lt;TNewClass, TReturn, TConverter&gt;(string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase.IExecuteWithSignature&lt;TNewClass, TReturn, TConverter&gt;(string, string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase.IExecuteArray&lt;T&gt;(string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase.IExecuteWithSignatureArray&lt;T&gt;(string, string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase.IGetField(string)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase.IGetField&lt;TReturn&gt;(string)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase.IGetFieldArray&lt;TReturn&gt;(string)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase.ISetField(string, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase.ISetField&lt;TValue&gt;(string, TValue)</a>
+    </div>
+    <div>
+      <span class="xref">JVMBridgeBase.DynBridgeInstance</span>
+    </div>
+    <div>
+      <span class="xref">JVMBridgeBase.BridgeInstance</span>
+    </div>
+    <div>
+      <span class="xref">JVMBridgeBase.IsBridgeListener</span>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.dynamic.dynamicobject.trygetmember">DynamicObject.TryGetMember(GetMemberBinder, out object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.dynamic.dynamicobject.trysetmember">DynamicObject.TrySetMember(SetMemberBinder, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.dynamic.dynamicobject.trydeletemember">DynamicObject.TryDeleteMember(DeleteMemberBinder)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.dynamic.dynamicobject.tryinvokemember">DynamicObject.TryInvokeMember(InvokeMemberBinder, object[], out object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.dynamic.dynamicobject.tryconvert">DynamicObject.TryConvert(ConvertBinder, out object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.dynamic.dynamicobject.trycreateinstance">DynamicObject.TryCreateInstance(CreateInstanceBinder, object[], out object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.dynamic.dynamicobject.tryinvoke">DynamicObject.TryInvoke(InvokeBinder, object[], out object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.dynamic.dynamicobject.trybinaryoperation">DynamicObject.TryBinaryOperation(BinaryOperationBinder, object, out object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.dynamic.dynamicobject.tryunaryoperation">DynamicObject.TryUnaryOperation(UnaryOperationBinder, out object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.dynamic.dynamicobject.trygetindex">DynamicObject.TryGetIndex(GetIndexBinder, object[], out object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.dynamic.dynamicobject.trysetindex">DynamicObject.TrySetIndex(SetIndexBinder, object[], object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.dynamic.dynamicobject.trydeleteindex">DynamicObject.TryDeleteIndex(DeleteIndexBinder, object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.dynamic.dynamicobject.getdynamicmembernames">DynamicObject.GetDynamicMemberNames()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.dynamic.dynamicobject.getmetaobject">DynamicObject.GetMetaObject(Expression)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+  </dd></dl>
+
+
+
+
+
+
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+
+  <a id="Org_Apache_Plc4x_JavaNs_Api_Messages_PlcReadResponse__ctor_" data-uid="Org.Apache.Plc4x.JavaNs.Api.Messages.PlcReadResponse.#ctor*"></a>
+
+  <h3 id="Org_Apache_Plc4x_JavaNs_Api_Messages_PlcReadResponse__ctor" data-uid="Org.Apache.Plc4x.JavaNs.Api.Messages.PlcReadResponse.#ctor">
+  PlcReadResponse()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/PLC4Net/blob/master/src/net/PLC4Net/Generated/Org/Apache/Plc4x/JavaNs/Api/Messages/PlcReadResponse.cs/#L38"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Default constructor: even if the corresponding Java class does not have one, it is mandatory for JCOBridge</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;PlcReadResponse class represents, in .NET, an instance of a JVM interface or abstract class. This public initializer is needed for JCOBridge internal use, other uses can produce unidentible behaviors.&quot;)]
+public PlcReadResponse()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Plc4x_JavaNs_Api_Messages_PlcReadResponse__ctor_" data-uid="Org.Apache.Plc4x.JavaNs.Api.Messages.PlcReadResponse.#ctor*"></a>
+
+  <h3 id="Org_Apache_Plc4x_JavaNs_Api_Messages_PlcReadResponse__ctor_System_Object___" data-uid="Org.Apache.Plc4x.JavaNs.Api.Messages.PlcReadResponse.#ctor(System.Object[])">
+  PlcReadResponse(params object[])
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/PLC4Net/blob/master/src/net/PLC4Net/Generated/Org/Apache/Plc4x/JavaNs/Api/Messages/PlcReadResponse.cs/#L43"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Generic constructor: it is useful for JCOBridge when there is a derived class which needs to pass arguments to the highest JVMBridgeBase class</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;PlcReadResponse class represents, in .NET, an instance of a JVM interface or abstract class. This public initializer is needed for JCOBridge internal use, other uses can produce unidentible behaviors.&quot;)]
+public PlcReadResponse(params object[] args)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>args</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a>[]</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="Org_Apache_Plc4x_JavaNs_Api_Messages_PlcReadResponse_AsPlcValue_" data-uid="Org.Apache.Plc4x.JavaNs.Api.Messages.PlcReadResponse.AsPlcValue*"></a>
+
+  <h3 id="Org_Apache_Plc4x_JavaNs_Api_Messages_PlcReadResponse_AsPlcValue" data-uid="Org.Apache.Plc4x.JavaNs.Api.Messages.PlcReadResponse.AsPlcValue">
+  AsPlcValue
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/PLC4Net/blob/master/src/net/PLC4Net/Generated/Org/Apache/Plc4x/JavaNs/Api/Messages/PlcReadResponse.cs/#L116"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcReadResponse.html#getAsPlcValue--">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcReadResponse.html#getAsPlcValue--</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public PlcValue AsPlcValue { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Org.Apache.Plc4x.JavaNs.Api.Value.PlcValue.html">PlcValue</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Plc4x_JavaNs_Api_Messages_PlcReadResponse_BridgeClassName_" data-uid="Org.Apache.Plc4x.JavaNs.Api.Messages.PlcReadResponse.BridgeClassName*"></a>
+
+  <h3 id="Org_Apache_Plc4x_JavaNs_Api_Messages_PlcReadResponse_BridgeClassName" data-uid="Org.Apache.Plc4x.JavaNs.Api.Messages.PlcReadResponse.BridgeClassName">
+  BridgeClassName
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/PLC4Net/blob/master/src/net/PLC4Net/Generated/Org/Apache/Plc4x/JavaNs/Api/Messages/PlcReadResponse.cs/#L52"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.jcobridge.com/api-clr/html/P_MASES_JCOBridge_C2JBridge_JVMBridgeBase_BridgeClassName.htm">https://www.jcobridge.com/api-clr/html/P_MASES_JCOBridge_C2JBridge_JVMBridgeBase_BridgeClassName.htm</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override string BridgeClassName { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Plc4x_JavaNs_Api_Messages_PlcReadResponse_IsBridgeAbstract_" data-uid="Org.Apache.Plc4x.JavaNs.Api.Messages.PlcReadResponse.IsBridgeAbstract*"></a>
+
+  <h3 id="Org_Apache_Plc4x_JavaNs_Api_Messages_PlcReadResponse_IsBridgeAbstract" data-uid="Org.Apache.Plc4x.JavaNs.Api.Messages.PlcReadResponse.IsBridgeAbstract">
+  IsBridgeAbstract
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/PLC4Net/blob/master/src/net/PLC4Net/Generated/Org/Apache/Plc4x/JavaNs/Api/Messages/PlcReadResponse.cs/#L56"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.jcobridge.com/api-clr/html/P_MASES_JCOBridge_C2JBridge_JVMBridgeBase_IsBridgeAbstract.htm">https://www.jcobridge.com/api-clr/html/P_MASES_JCOBridge_C2JBridge_JVMBridgeBase_IsBridgeAbstract.htm</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override bool IsBridgeAbstract { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Plc4x_JavaNs_Api_Messages_PlcReadResponse_IsBridgeCloseable_" data-uid="Org.Apache.Plc4x.JavaNs.Api.Messages.PlcReadResponse.IsBridgeCloseable*"></a>
+
+  <h3 id="Org_Apache_Plc4x_JavaNs_Api_Messages_PlcReadResponse_IsBridgeCloseable" data-uid="Org.Apache.Plc4x.JavaNs.Api.Messages.PlcReadResponse.IsBridgeCloseable">
+  IsBridgeCloseable
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/PLC4Net/blob/master/src/net/PLC4Net/Generated/Org/Apache/Plc4x/JavaNs/Api/Messages/PlcReadResponse.cs/#L60"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.jcobridge.com/api-clr/html/P_MASES_JCOBridge_C2JBridge_JVMBridgeBase_IsBridgeCloseable.htm">https://www.jcobridge.com/api-clr/html/P_MASES_JCOBridge_C2JBridge_JVMBridgeBase_IsBridgeCloseable.htm</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override bool IsBridgeCloseable { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Plc4x_JavaNs_Api_Messages_PlcReadResponse_IsBridgeInterface_" data-uid="Org.Apache.Plc4x.JavaNs.Api.Messages.PlcReadResponse.IsBridgeInterface*"></a>
+
+  <h3 id="Org_Apache_Plc4x_JavaNs_Api_Messages_PlcReadResponse_IsBridgeInterface" data-uid="Org.Apache.Plc4x.JavaNs.Api.Messages.PlcReadResponse.IsBridgeInterface">
+  IsBridgeInterface
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/PLC4Net/blob/master/src/net/PLC4Net/Generated/Org/Apache/Plc4x/JavaNs/Api/Messages/PlcReadResponse.cs/#L64"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.jcobridge.com/api-clr/html/P_MASES_JCOBridge_C2JBridge_JVMBridgeBase_IsBridgeInterface.htm">https://www.jcobridge.com/api-clr/html/P_MASES_JCOBridge_C2JBridge_JVMBridgeBase_IsBridgeInterface.htm</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override bool IsBridgeInterface { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Plc4x_JavaNs_Api_Messages_PlcReadResponse_IsBridgeStatic_" data-uid="Org.Apache.Plc4x.JavaNs.Api.Messages.PlcReadResponse.IsBridgeStatic*"></a>
+
+  <h3 id="Org_Apache_Plc4x_JavaNs_Api_Messages_PlcReadResponse_IsBridgeStatic" data-uid="Org.Apache.Plc4x.JavaNs.Api.Messages.PlcReadResponse.IsBridgeStatic">
+  IsBridgeStatic
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/PLC4Net/blob/master/src/net/PLC4Net/Generated/Org/Apache/Plc4x/JavaNs/Api/Messages/PlcReadResponse.cs/#L68"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.jcobridge.com/api-clr/html/P_MASES_JCOBridge_C2JBridge_JVMBridgeBase_IsBridgeStatic.htm">https://www.jcobridge.com/api-clr/html/P_MASES_JCOBridge_C2JBridge_JVMBridgeBase_IsBridgeStatic.htm</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override bool IsBridgeStatic { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Plc4x_JavaNs_Api_Messages_PlcReadResponse_Request_" data-uid="Org.Apache.Plc4x.JavaNs.Api.Messages.PlcReadResponse.Request*"></a>
+
+  <h3 id="Org_Apache_Plc4x_JavaNs_Api_Messages_PlcReadResponse_Request" data-uid="Org.Apache.Plc4x.JavaNs.Api.Messages.PlcReadResponse.Request">
+  Request
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/PLC4Net/blob/master/src/net/PLC4Net/Generated/Org/Apache/Plc4x/JavaNs/Api/Messages/PlcReadResponse.cs/#L123"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcReadResponse.html#getRequest--">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcReadResponse.html#getRequest--</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public PlcTagRequest Request { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Org.Apache.Plc4x.JavaNs.Api.Messages.PlcTagRequest.html">PlcTagRequest</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="Org_Apache_Plc4x_JavaNs_Api_Messages_PlcReadResponse_GetAllBigDecimals_" data-uid="Org.Apache.Plc4x.JavaNs.Api.Messages.PlcReadResponse.GetAllBigDecimals*"></a>
+
+  <h3 id="Org_Apache_Plc4x_JavaNs_Api_Messages_PlcReadResponse_GetAllBigDecimals_Java_Lang_String_" data-uid="Org.Apache.Plc4x.JavaNs.Api.Messages.PlcReadResponse.GetAllBigDecimals(Java.Lang.String)">
+  GetAllBigDecimals(String)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/PLC4Net/blob/master/src/net/PLC4Net/Generated/Org/Apache/Plc4x/JavaNs/Api/Messages/PlcReadResponse.cs/#L735"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcReadResponse.html#getAllBigDecimals-java.lang.String-">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcReadResponse.html#getAllBigDecimals-java.lang.String-</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Collection&lt;BigDecimal&gt; GetAllBigDecimals(String arg0)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>arg0</code> <a class="xref" href="https://jnet.masesgroup.com/api/Java.Lang.String.html">String</a></dt>
+    <dd><p><a class="xref" href="https://jnet.masesgroup.com/api/Java.Lang.String.html">String</a></p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://jnet.masesgroup.com/api/Java.Util.Collection-1.html">Collection</a>&lt;<a class="xref" href="https://jnet.masesgroup.com/api/Java.Math.BigDecimal.html">BigDecimal</a>&gt;</dt>
+    <dd><p><a class="xref" href="https://jnet.masesgroup.com/api/Java.Util.Collection.html">Collection</a></p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Plc4x_JavaNs_Api_Messages_PlcReadResponse_GetAllBigIntegers_" data-uid="Org.Apache.Plc4x.JavaNs.Api.Messages.PlcReadResponse.GetAllBigIntegers*"></a>
+
+  <h3 id="Org_Apache_Plc4x_JavaNs_Api_Messages_PlcReadResponse_GetAllBigIntegers_Java_Lang_String_" data-uid="Org.Apache.Plc4x.JavaNs.Api.Messages.PlcReadResponse.GetAllBigIntegers(Java.Lang.String)">
+  GetAllBigIntegers(String)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/PLC4Net/blob/master/src/net/PLC4Net/Generated/Org/Apache/Plc4x/JavaNs/Api/Messages/PlcReadResponse.cs/#L744"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcReadResponse.html#getAllBigIntegers-java.lang.String-">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcReadResponse.html#getAllBigIntegers-java.lang.String-</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Collection&lt;BigInteger&gt; GetAllBigIntegers(String arg0)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>arg0</code> <a class="xref" href="https://jnet.masesgroup.com/api/Java.Lang.String.html">String</a></dt>
+    <dd><p><a class="xref" href="https://jnet.masesgroup.com/api/Java.Lang.String.html">String</a></p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://jnet.masesgroup.com/api/Java.Util.Collection-1.html">Collection</a>&lt;<a class="xref" href="https://jnet.masesgroup.com/api/Java.Math.BigInteger.html">BigInteger</a>&gt;</dt>
+    <dd><p><a class="xref" href="https://jnet.masesgroup.com/api/Java.Util.Collection.html">Collection</a></p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Plc4x_JavaNs_Api_Messages_PlcReadResponse_GetAllBooleans_" data-uid="Org.Apache.Plc4x.JavaNs.Api.Messages.PlcReadResponse.GetAllBooleans*"></a>
+
+  <h3 id="Org_Apache_Plc4x_JavaNs_Api_Messages_PlcReadResponse_GetAllBooleans_Java_Lang_String_" data-uid="Org.Apache.Plc4x.JavaNs.Api.Messages.PlcReadResponse.GetAllBooleans(Java.Lang.String)">
+  GetAllBooleans(String)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/PLC4Net/blob/master/src/net/PLC4Net/Generated/Org/Apache/Plc4x/JavaNs/Api/Messages/PlcReadResponse.cs/#L654"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcReadResponse.html#getAllBooleans-java.lang.String-">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcReadResponse.html#getAllBooleans-java.lang.String-</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Collection&lt;Boolean&gt; GetAllBooleans(String arg0)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>arg0</code> <a class="xref" href="https://jnet.masesgroup.com/api/Java.Lang.String.html">String</a></dt>
+    <dd><p><a class="xref" href="https://jnet.masesgroup.com/api/Java.Lang.String.html">String</a></p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://jnet.masesgroup.com/api/Java.Util.Collection-1.html">Collection</a>&lt;<a class="xref" href="https://jnet.masesgroup.com/api/Java.Lang.Boolean.html">Boolean</a>&gt;</dt>
+    <dd><p><a class="xref" href="https://jnet.masesgroup.com/api/Java.Util.Collection.html">Collection</a></p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Plc4x_JavaNs_Api_Messages_PlcReadResponse_GetAllBytes_" data-uid="Org.Apache.Plc4x.JavaNs.Api.Messages.PlcReadResponse.GetAllBytes*"></a>
+
+  <h3 id="Org_Apache_Plc4x_JavaNs_Api_Messages_PlcReadResponse_GetAllBytes_Java_Lang_String_" data-uid="Org.Apache.Plc4x.JavaNs.Api.Messages.PlcReadResponse.GetAllBytes(Java.Lang.String)">
+  GetAllBytes(String)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/PLC4Net/blob/master/src/net/PLC4Net/Generated/Org/Apache/Plc4x/JavaNs/Api/Messages/PlcReadResponse.cs/#L663"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcReadResponse.html#getAllBytes-java.lang.String-">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcReadResponse.html#getAllBytes-java.lang.String-</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Collection&lt;Byte&gt; GetAllBytes(String arg0)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>arg0</code> <a class="xref" href="https://jnet.masesgroup.com/api/Java.Lang.String.html">String</a></dt>
+    <dd><p><a class="xref" href="https://jnet.masesgroup.com/api/Java.Lang.String.html">String</a></p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://jnet.masesgroup.com/api/Java.Util.Collection-1.html">Collection</a>&lt;<a class="xref" href="https://jnet.masesgroup.com/api/Java.Lang.Byte.html">Byte</a>&gt;</dt>
+    <dd><p><a class="xref" href="https://jnet.masesgroup.com/api/Java.Util.Collection.html">Collection</a></p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Plc4x_JavaNs_Api_Messages_PlcReadResponse_GetAllDateTimes_" data-uid="Org.Apache.Plc4x.JavaNs.Api.Messages.PlcReadResponse.GetAllDateTimes*"></a>
+
+  <h3 id="Org_Apache_Plc4x_JavaNs_Api_Messages_PlcReadResponse_GetAllDateTimes_Java_Lang_String_" data-uid="Org.Apache.Plc4x.JavaNs.Api.Messages.PlcReadResponse.GetAllDateTimes(Java.Lang.String)">
+  GetAllDateTimes(String)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/PLC4Net/blob/master/src/net/PLC4Net/Generated/Org/Apache/Plc4x/JavaNs/Api/Messages/PlcReadResponse.cs/#L762"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcReadResponse.html#getAllDateTimes-java.lang.String-">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcReadResponse.html#getAllDateTimes-java.lang.String-</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Collection&lt;LocalDateTime&gt; GetAllDateTimes(String arg0)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>arg0</code> <a class="xref" href="https://jnet.masesgroup.com/api/Java.Lang.String.html">String</a></dt>
+    <dd><p><a class="xref" href="https://jnet.masesgroup.com/api/Java.Lang.String.html">String</a></p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://jnet.masesgroup.com/api/Java.Util.Collection-1.html">Collection</a>&lt;<a class="xref" href="https://jnet.masesgroup.com/api/Java.Time.LocalDateTime.html">LocalDateTime</a>&gt;</dt>
+    <dd><p><a class="xref" href="https://jnet.masesgroup.com/api/Java.Util.Collection.html">Collection</a></p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Plc4x_JavaNs_Api_Messages_PlcReadResponse_GetAllDates_" data-uid="Org.Apache.Plc4x.JavaNs.Api.Messages.PlcReadResponse.GetAllDates*"></a>
+
+  <h3 id="Org_Apache_Plc4x_JavaNs_Api_Messages_PlcReadResponse_GetAllDates_Java_Lang_String_" data-uid="Org.Apache.Plc4x.JavaNs.Api.Messages.PlcReadResponse.GetAllDates(Java.Lang.String)">
+  GetAllDates(String)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/PLC4Net/blob/master/src/net/PLC4Net/Generated/Org/Apache/Plc4x/JavaNs/Api/Messages/PlcReadResponse.cs/#L753"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcReadResponse.html#getAllDates-java.lang.String-">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcReadResponse.html#getAllDates-java.lang.String-</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Collection&lt;LocalDate&gt; GetAllDates(String arg0)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>arg0</code> <a class="xref" href="https://jnet.masesgroup.com/api/Java.Lang.String.html">String</a></dt>
+    <dd><p><a class="xref" href="https://jnet.masesgroup.com/api/Java.Lang.String.html">String</a></p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://jnet.masesgroup.com/api/Java.Util.Collection-1.html">Collection</a>&lt;<a class="xref" href="https://jnet.masesgroup.com/api/Java.Time.LocalDate.html">LocalDate</a>&gt;</dt>
+    <dd><p><a class="xref" href="https://jnet.masesgroup.com/api/Java.Util.Collection.html">Collection</a></p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Plc4x_JavaNs_Api_Messages_PlcReadResponse_GetAllDoubles_" data-uid="Org.Apache.Plc4x.JavaNs.Api.Messages.PlcReadResponse.GetAllDoubles*"></a>
+
+  <h3 id="Org_Apache_Plc4x_JavaNs_Api_Messages_PlcReadResponse_GetAllDoubles_Java_Lang_String_" data-uid="Org.Apache.Plc4x.JavaNs.Api.Messages.PlcReadResponse.GetAllDoubles(Java.Lang.String)">
+  GetAllDoubles(String)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/PLC4Net/blob/master/src/net/PLC4Net/Generated/Org/Apache/Plc4x/JavaNs/Api/Messages/PlcReadResponse.cs/#L672"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcReadResponse.html#getAllDoubles-java.lang.String-">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcReadResponse.html#getAllDoubles-java.lang.String-</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Collection&lt;Double&gt; GetAllDoubles(String arg0)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>arg0</code> <a class="xref" href="https://jnet.masesgroup.com/api/Java.Lang.String.html">String</a></dt>
+    <dd><p><a class="xref" href="https://jnet.masesgroup.com/api/Java.Lang.String.html">String</a></p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://jnet.masesgroup.com/api/Java.Util.Collection-1.html">Collection</a>&lt;<a class="xref" href="https://jnet.masesgroup.com/api/Java.Lang.Double.html">Double</a>&gt;</dt>
+    <dd><p><a class="xref" href="https://jnet.masesgroup.com/api/Java.Util.Collection.html">Collection</a></p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Plc4x_JavaNs_Api_Messages_PlcReadResponse_GetAllFloats_" data-uid="Org.Apache.Plc4x.JavaNs.Api.Messages.PlcReadResponse.GetAllFloats*"></a>
+
+  <h3 id="Org_Apache_Plc4x_JavaNs_Api_Messages_PlcReadResponse_GetAllFloats_Java_Lang_String_" data-uid="Org.Apache.Plc4x.JavaNs.Api.Messages.PlcReadResponse.GetAllFloats(Java.Lang.String)">
+  GetAllFloats(String)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/PLC4Net/blob/master/src/net/PLC4Net/Generated/Org/Apache/Plc4x/JavaNs/Api/Messages/PlcReadResponse.cs/#L681"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcReadResponse.html#getAllFloats-java.lang.String-">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcReadResponse.html#getAllFloats-java.lang.String-</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Collection&lt;Float&gt; GetAllFloats(String arg0)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>arg0</code> <a class="xref" href="https://jnet.masesgroup.com/api/Java.Lang.String.html">String</a></dt>
+    <dd><p><a class="xref" href="https://jnet.masesgroup.com/api/Java.Lang.String.html">String</a></p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://jnet.masesgroup.com/api/Java.Util.Collection-1.html">Collection</a>&lt;<a class="xref" href="https://jnet.masesgroup.com/api/Java.Lang.Float.html">Float</a>&gt;</dt>
+    <dd><p><a class="xref" href="https://jnet.masesgroup.com/api/Java.Util.Collection.html">Collection</a></p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Plc4x_JavaNs_Api_Messages_PlcReadResponse_GetAllIntegers_" data-uid="Org.Apache.Plc4x.JavaNs.Api.Messages.PlcReadResponse.GetAllIntegers*"></a>
+
+  <h3 id="Org_Apache_Plc4x_JavaNs_Api_Messages_PlcReadResponse_GetAllIntegers_Java_Lang_String_" data-uid="Org.Apache.Plc4x.JavaNs.Api.Messages.PlcReadResponse.GetAllIntegers(Java.Lang.String)">
+  GetAllIntegers(String)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/PLC4Net/blob/master/src/net/PLC4Net/Generated/Org/Apache/Plc4x/JavaNs/Api/Messages/PlcReadResponse.cs/#L690"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcReadResponse.html#getAllIntegers-java.lang.String-">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcReadResponse.html#getAllIntegers-java.lang.String-</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Collection&lt;Integer&gt; GetAllIntegers(String arg0)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>arg0</code> <a class="xref" href="https://jnet.masesgroup.com/api/Java.Lang.String.html">String</a></dt>
+    <dd><p><a class="xref" href="https://jnet.masesgroup.com/api/Java.Lang.String.html">String</a></p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://jnet.masesgroup.com/api/Java.Util.Collection-1.html">Collection</a>&lt;<a class="xref" href="https://jnet.masesgroup.com/api/Java.Lang.Integer.html">Integer</a>&gt;</dt>
+    <dd><p><a class="xref" href="https://jnet.masesgroup.com/api/Java.Util.Collection.html">Collection</a></p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Plc4x_JavaNs_Api_Messages_PlcReadResponse_GetAllLongs_" data-uid="Org.Apache.Plc4x.JavaNs.Api.Messages.PlcReadResponse.GetAllLongs*"></a>
+
+  <h3 id="Org_Apache_Plc4x_JavaNs_Api_Messages_PlcReadResponse_GetAllLongs_Java_Lang_String_" data-uid="Org.Apache.Plc4x.JavaNs.Api.Messages.PlcReadResponse.GetAllLongs(Java.Lang.String)">
+  GetAllLongs(String)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/PLC4Net/blob/master/src/net/PLC4Net/Generated/Org/Apache/Plc4x/JavaNs/Api/Messages/PlcReadResponse.cs/#L699"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcReadResponse.html#getAllLongs-java.lang.String-">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcReadResponse.html#getAllLongs-java.lang.String-</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Collection&lt;Long&gt; GetAllLongs(String arg0)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>arg0</code> <a class="xref" href="https://jnet.masesgroup.com/api/Java.Lang.String.html">String</a></dt>
+    <dd><p><a class="xref" href="https://jnet.masesgroup.com/api/Java.Lang.String.html">String</a></p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://jnet.masesgroup.com/api/Java.Util.Collection-1.html">Collection</a>&lt;<a class="xref" href="https://jnet.masesgroup.com/api/Java.Lang.Long.html">Long</a>&gt;</dt>
+    <dd><p><a class="xref" href="https://jnet.masesgroup.com/api/Java.Util.Collection.html">Collection</a></p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Plc4x_JavaNs_Api_Messages_PlcReadResponse_GetAllObjects_" data-uid="Org.Apache.Plc4x.JavaNs.Api.Messages.PlcReadResponse.GetAllObjects*"></a>
+
+  <h3 id="Org_Apache_Plc4x_JavaNs_Api_Messages_PlcReadResponse_GetAllObjects_Java_Lang_String_" data-uid="Org.Apache.Plc4x.JavaNs.Api.Messages.PlcReadResponse.GetAllObjects(Java.Lang.String)">
+  GetAllObjects(String)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/PLC4Net/blob/master/src/net/PLC4Net/Generated/Org/Apache/Plc4x/JavaNs/Api/Messages/PlcReadResponse.cs/#L708"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcReadResponse.html#getAllObjects-java.lang.String-">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcReadResponse.html#getAllObjects-java.lang.String-</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Collection&lt;object&gt; GetAllObjects(String arg0)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>arg0</code> <a class="xref" href="https://jnet.masesgroup.com/api/Java.Lang.String.html">String</a></dt>
+    <dd><p><a class="xref" href="https://jnet.masesgroup.com/api/Java.Lang.String.html">String</a></p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://jnet.masesgroup.com/api/Java.Util.Collection-1.html">Collection</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a>&gt;</dt>
+    <dd><p><a class="xref" href="https://jnet.masesgroup.com/api/Java.Util.Collection.html">Collection</a></p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Plc4x_JavaNs_Api_Messages_PlcReadResponse_GetAllShorts_" data-uid="Org.Apache.Plc4x.JavaNs.Api.Messages.PlcReadResponse.GetAllShorts*"></a>
+
+  <h3 id="Org_Apache_Plc4x_JavaNs_Api_Messages_PlcReadResponse_GetAllShorts_Java_Lang_String_" data-uid="Org.Apache.Plc4x.JavaNs.Api.Messages.PlcReadResponse.GetAllShorts(Java.Lang.String)">
+  GetAllShorts(String)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/PLC4Net/blob/master/src/net/PLC4Net/Generated/Org/Apache/Plc4x/JavaNs/Api/Messages/PlcReadResponse.cs/#L717"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcReadResponse.html#getAllShorts-java.lang.String-">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcReadResponse.html#getAllShorts-java.lang.String-</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Collection&lt;Short&gt; GetAllShorts(String arg0)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>arg0</code> <a class="xref" href="https://jnet.masesgroup.com/api/Java.Lang.String.html">String</a></dt>
+    <dd><p><a class="xref" href="https://jnet.masesgroup.com/api/Java.Lang.String.html">String</a></p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://jnet.masesgroup.com/api/Java.Util.Collection-1.html">Collection</a>&lt;<a class="xref" href="https://jnet.masesgroup.com/api/Java.Lang.Short.html">Short</a>&gt;</dt>
+    <dd><p><a class="xref" href="https://jnet.masesgroup.com/api/Java.Util.Collection.html">Collection</a></p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Plc4x_JavaNs_Api_Messages_PlcReadResponse_GetAllStrings_" data-uid="Org.Apache.Plc4x.JavaNs.Api.Messages.PlcReadResponse.GetAllStrings*"></a>
+
+  <h3 id="Org_Apache_Plc4x_JavaNs_Api_Messages_PlcReadResponse_GetAllStrings_Java_Lang_String_" data-uid="Org.Apache.Plc4x.JavaNs.Api.Messages.PlcReadResponse.GetAllStrings(Java.Lang.String)">
+  GetAllStrings(String)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/PLC4Net/blob/master/src/net/PLC4Net/Generated/Org/Apache/Plc4x/JavaNs/Api/Messages/PlcReadResponse.cs/#L726"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcReadResponse.html#getAllStrings-java.lang.String-">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcReadResponse.html#getAllStrings-java.lang.String-</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Collection&lt;String&gt; GetAllStrings(String arg0)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>arg0</code> <a class="xref" href="https://jnet.masesgroup.com/api/Java.Lang.String.html">String</a></dt>
+    <dd><p><a class="xref" href="https://jnet.masesgroup.com/api/Java.Lang.String.html">String</a></p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://jnet.masesgroup.com/api/Java.Util.Collection-1.html">Collection</a>&lt;<a class="xref" href="https://jnet.masesgroup.com/api/Java.Lang.String.html">String</a>&gt;</dt>
+    <dd><p><a class="xref" href="https://jnet.masesgroup.com/api/Java.Util.Collection.html">Collection</a></p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Plc4x_JavaNs_Api_Messages_PlcReadResponse_GetAllTimes_" data-uid="Org.Apache.Plc4x.JavaNs.Api.Messages.PlcReadResponse.GetAllTimes*"></a>
+
+  <h3 id="Org_Apache_Plc4x_JavaNs_Api_Messages_PlcReadResponse_GetAllTimes_Java_Lang_String_" data-uid="Org.Apache.Plc4x.JavaNs.Api.Messages.PlcReadResponse.GetAllTimes(Java.Lang.String)">
+  GetAllTimes(String)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/PLC4Net/blob/master/src/net/PLC4Net/Generated/Org/Apache/Plc4x/JavaNs/Api/Messages/PlcReadResponse.cs/#L771"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcReadResponse.html#getAllTimes-java.lang.String-">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcReadResponse.html#getAllTimes-java.lang.String-</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Collection&lt;LocalTime&gt; GetAllTimes(String arg0)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>arg0</code> <a class="xref" href="https://jnet.masesgroup.com/api/Java.Lang.String.html">String</a></dt>
+    <dd><p><a class="xref" href="https://jnet.masesgroup.com/api/Java.Lang.String.html">String</a></p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://jnet.masesgroup.com/api/Java.Util.Collection-1.html">Collection</a>&lt;<a class="xref" href="https://jnet.masesgroup.com/api/Java.Time.LocalTime.html">LocalTime</a>&gt;</dt>
+    <dd><p><a class="xref" href="https://jnet.masesgroup.com/api/Java.Util.Collection.html">Collection</a></p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Plc4x_JavaNs_Api_Messages_PlcReadResponse_GetBigDecimal_" data-uid="Org.Apache.Plc4x.JavaNs.Api.Messages.PlcReadResponse.GetBigDecimal*"></a>
+
+  <h3 id="Org_Apache_Plc4x_JavaNs_Api_Messages_PlcReadResponse_GetBigDecimal_Java_Lang_String_" data-uid="Org.Apache.Plc4x.JavaNs.Api.Messages.PlcReadResponse.GetBigDecimal(Java.Lang.String)">
+  GetBigDecimal(String)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/PLC4Net/blob/master/src/net/PLC4Net/Generated/Org/Apache/Plc4x/JavaNs/Api/Messages/PlcReadResponse.cs/#L569"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcReadResponse.html#getBigDecimal-java.lang.String-">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcReadResponse.html#getBigDecimal-java.lang.String-</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public BigDecimal GetBigDecimal(String arg0)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>arg0</code> <a class="xref" href="https://jnet.masesgroup.com/api/Java.Lang.String.html">String</a></dt>
+    <dd><p><a class="xref" href="https://jnet.masesgroup.com/api/Java.Lang.String.html">String</a></p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://jnet.masesgroup.com/api/Java.Math.BigDecimal.html">BigDecimal</a></dt>
+    <dd><p><a class="xref" href="https://jnet.masesgroup.com/api/Java.Math.BigDecimal.html">BigDecimal</a></p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Plc4x_JavaNs_Api_Messages_PlcReadResponse_GetBigDecimal_" data-uid="Org.Apache.Plc4x.JavaNs.Api.Messages.PlcReadResponse.GetBigDecimal*"></a>
+
+  <h3 id="Org_Apache_Plc4x_JavaNs_Api_Messages_PlcReadResponse_GetBigDecimal_Java_Lang_String_System_Int32_" data-uid="Org.Apache.Plc4x.JavaNs.Api.Messages.PlcReadResponse.GetBigDecimal(Java.Lang.String,System.Int32)">
+  GetBigDecimal(String, int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/PLC4Net/blob/master/src/net/PLC4Net/Generated/Org/Apache/Plc4x/JavaNs/Api/Messages/PlcReadResponse.cs/#L560"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcReadResponse.html#getBigDecimal-java.lang.String-int-">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcReadResponse.html#getBigDecimal-java.lang.String-int-</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public BigDecimal GetBigDecimal(String arg0, int arg1)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>arg0</code> <a class="xref" href="https://jnet.masesgroup.com/api/Java.Lang.String.html">String</a></dt>
+    <dd><p><a class="xref" href="https://jnet.masesgroup.com/api/Java.Lang.String.html">String</a></p>
+</dd>
+    <dt><code>arg1</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://jnet.masesgroup.com/api/Java.Math.BigDecimal.html">BigDecimal</a></dt>
+    <dd><p><a class="xref" href="https://jnet.masesgroup.com/api/Java.Math.BigDecimal.html">BigDecimal</a></p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Plc4x_JavaNs_Api_Messages_PlcReadResponse_GetBigInteger_" data-uid="Org.Apache.Plc4x.JavaNs.Api.Messages.PlcReadResponse.GetBigInteger*"></a>
+
+  <h3 id="Org_Apache_Plc4x_JavaNs_Api_Messages_PlcReadResponse_GetBigInteger_Java_Lang_String_" data-uid="Org.Apache.Plc4x.JavaNs.Api.Messages.PlcReadResponse.GetBigInteger(Java.Lang.String)">
+  GetBigInteger(String)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/PLC4Net/blob/master/src/net/PLC4Net/Generated/Org/Apache/Plc4x/JavaNs/Api/Messages/PlcReadResponse.cs/#L588"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcReadResponse.html#getBigInteger-java.lang.String-">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcReadResponse.html#getBigInteger-java.lang.String-</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public BigInteger GetBigInteger(String arg0)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>arg0</code> <a class="xref" href="https://jnet.masesgroup.com/api/Java.Lang.String.html">String</a></dt>
+    <dd><p><a class="xref" href="https://jnet.masesgroup.com/api/Java.Lang.String.html">String</a></p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://jnet.masesgroup.com/api/Java.Math.BigInteger.html">BigInteger</a></dt>
+    <dd><p><a class="xref" href="https://jnet.masesgroup.com/api/Java.Math.BigInteger.html">BigInteger</a></p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Plc4x_JavaNs_Api_Messages_PlcReadResponse_GetBigInteger_" data-uid="Org.Apache.Plc4x.JavaNs.Api.Messages.PlcReadResponse.GetBigInteger*"></a>
+
+  <h3 id="Org_Apache_Plc4x_JavaNs_Api_Messages_PlcReadResponse_GetBigInteger_Java_Lang_String_System_Int32_" data-uid="Org.Apache.Plc4x.JavaNs.Api.Messages.PlcReadResponse.GetBigInteger(Java.Lang.String,System.Int32)">
+  GetBigInteger(String, int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/PLC4Net/blob/master/src/net/PLC4Net/Generated/Org/Apache/Plc4x/JavaNs/Api/Messages/PlcReadResponse.cs/#L579"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcReadResponse.html#getBigInteger-java.lang.String-int-">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcReadResponse.html#getBigInteger-java.lang.String-int-</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public BigInteger GetBigInteger(String arg0, int arg1)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>arg0</code> <a class="xref" href="https://jnet.masesgroup.com/api/Java.Lang.String.html">String</a></dt>
+    <dd><p><a class="xref" href="https://jnet.masesgroup.com/api/Java.Lang.String.html">String</a></p>
+</dd>
+    <dt><code>arg1</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://jnet.masesgroup.com/api/Java.Math.BigInteger.html">BigInteger</a></dt>
+    <dd><p><a class="xref" href="https://jnet.masesgroup.com/api/Java.Math.BigInteger.html">BigInteger</a></p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Plc4x_JavaNs_Api_Messages_PlcReadResponse_GetBoolean_" data-uid="Org.Apache.Plc4x.JavaNs.Api.Messages.PlcReadResponse.GetBoolean*"></a>
+
+  <h3 id="Org_Apache_Plc4x_JavaNs_Api_Messages_PlcReadResponse_GetBoolean_Java_Lang_String_" data-uid="Org.Apache.Plc4x.JavaNs.Api.Messages.PlcReadResponse.GetBoolean(Java.Lang.String)">
+  GetBoolean(String)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/PLC4Net/blob/master/src/net/PLC4Net/Generated/Org/Apache/Plc4x/JavaNs/Api/Messages/PlcReadResponse.cs/#L398"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcReadResponse.html#getBoolean-java.lang.String-">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcReadResponse.html#getBoolean-java.lang.String-</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Boolean GetBoolean(String arg0)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>arg0</code> <a class="xref" href="https://jnet.masesgroup.com/api/Java.Lang.String.html">String</a></dt>
+    <dd><p><a class="xref" href="https://jnet.masesgroup.com/api/Java.Lang.String.html">String</a></p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://jnet.masesgroup.com/api/Java.Lang.Boolean.html">Boolean</a></dt>
+    <dd><p><a class="xref" href="https://jnet.masesgroup.com/api/Java.Lang.Boolean.html">Boolean</a></p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Plc4x_JavaNs_Api_Messages_PlcReadResponse_GetBoolean_" data-uid="Org.Apache.Plc4x.JavaNs.Api.Messages.PlcReadResponse.GetBoolean*"></a>
+
+  <h3 id="Org_Apache_Plc4x_JavaNs_Api_Messages_PlcReadResponse_GetBoolean_Java_Lang_String_System_Int32_" data-uid="Org.Apache.Plc4x.JavaNs.Api.Messages.PlcReadResponse.GetBoolean(Java.Lang.String,System.Int32)">
+  GetBoolean(String, int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/PLC4Net/blob/master/src/net/PLC4Net/Generated/Org/Apache/Plc4x/JavaNs/Api/Messages/PlcReadResponse.cs/#L389"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcReadResponse.html#getBoolean-java.lang.String-int-">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcReadResponse.html#getBoolean-java.lang.String-int-</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Boolean GetBoolean(String arg0, int arg1)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>arg0</code> <a class="xref" href="https://jnet.masesgroup.com/api/Java.Lang.String.html">String</a></dt>
+    <dd><p><a class="xref" href="https://jnet.masesgroup.com/api/Java.Lang.String.html">String</a></p>
+</dd>
+    <dt><code>arg1</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://jnet.masesgroup.com/api/Java.Lang.Boolean.html">Boolean</a></dt>
+    <dd><p><a class="xref" href="https://jnet.masesgroup.com/api/Java.Lang.Boolean.html">Boolean</a></p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Plc4x_JavaNs_Api_Messages_PlcReadResponse_GetByte_" data-uid="Org.Apache.Plc4x.JavaNs.Api.Messages.PlcReadResponse.GetByte*"></a>
+
+  <h3 id="Org_Apache_Plc4x_JavaNs_Api_Messages_PlcReadResponse_GetByte_Java_Lang_String_" data-uid="Org.Apache.Plc4x.JavaNs.Api.Messages.PlcReadResponse.GetByte(Java.Lang.String)">
+  GetByte(String)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/PLC4Net/blob/master/src/net/PLC4Net/Generated/Org/Apache/Plc4x/JavaNs/Api/Messages/PlcReadResponse.cs/#L417"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcReadResponse.html#getByte-java.lang.String-">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcReadResponse.html#getByte-java.lang.String-</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Byte GetByte(String arg0)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>arg0</code> <a class="xref" href="https://jnet.masesgroup.com/api/Java.Lang.String.html">String</a></dt>
+    <dd><p><a class="xref" href="https://jnet.masesgroup.com/api/Java.Lang.String.html">String</a></p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://jnet.masesgroup.com/api/Java.Lang.Byte.html">Byte</a></dt>
+    <dd><p><a class="xref" href="https://jnet.masesgroup.com/api/Java.Lang.Byte.html">Byte</a></p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Plc4x_JavaNs_Api_Messages_PlcReadResponse_GetByte_" data-uid="Org.Apache.Plc4x.JavaNs.Api.Messages.PlcReadResponse.GetByte*"></a>
+
+  <h3 id="Org_Apache_Plc4x_JavaNs_Api_Messages_PlcReadResponse_GetByte_Java_Lang_String_System_Int32_" data-uid="Org.Apache.Plc4x.JavaNs.Api.Messages.PlcReadResponse.GetByte(Java.Lang.String,System.Int32)">
+  GetByte(String, int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/PLC4Net/blob/master/src/net/PLC4Net/Generated/Org/Apache/Plc4x/JavaNs/Api/Messages/PlcReadResponse.cs/#L408"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcReadResponse.html#getByte-java.lang.String-int-">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcReadResponse.html#getByte-java.lang.String-int-</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Byte GetByte(String arg0, int arg1)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>arg0</code> <a class="xref" href="https://jnet.masesgroup.com/api/Java.Lang.String.html">String</a></dt>
+    <dd><p><a class="xref" href="https://jnet.masesgroup.com/api/Java.Lang.String.html">String</a></p>
+</dd>
+    <dt><code>arg1</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://jnet.masesgroup.com/api/Java.Lang.Byte.html">Byte</a></dt>
+    <dd><p><a class="xref" href="https://jnet.masesgroup.com/api/Java.Lang.Byte.html">Byte</a></p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Plc4x_JavaNs_Api_Messages_PlcReadResponse_GetDate_" data-uid="Org.Apache.Plc4x.JavaNs.Api.Messages.PlcReadResponse.GetDate*"></a>
+
+  <h3 id="Org_Apache_Plc4x_JavaNs_Api_Messages_PlcReadResponse_GetDate_Java_Lang_String_" data-uid="Org.Apache.Plc4x.JavaNs.Api.Messages.PlcReadResponse.GetDate(Java.Lang.String)">
+  GetDate(String)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/PLC4Net/blob/master/src/net/PLC4Net/Generated/Org/Apache/Plc4x/JavaNs/Api/Messages/PlcReadResponse.cs/#L607"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcReadResponse.html#getDate-java.lang.String-">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcReadResponse.html#getDate-java.lang.String-</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public LocalDate GetDate(String arg0)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>arg0</code> <a class="xref" href="https://jnet.masesgroup.com/api/Java.Lang.String.html">String</a></dt>
+    <dd><p><a class="xref" href="https://jnet.masesgroup.com/api/Java.Lang.String.html">String</a></p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://jnet.masesgroup.com/api/Java.Time.LocalDate.html">LocalDate</a></dt>
+    <dd><p><a class="xref" href="https://jnet.masesgroup.com/api/Java.Time.LocalDate.html">LocalDate</a></p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Plc4x_JavaNs_Api_Messages_PlcReadResponse_GetDate_" data-uid="Org.Apache.Plc4x.JavaNs.Api.Messages.PlcReadResponse.GetDate*"></a>
+
+  <h3 id="Org_Apache_Plc4x_JavaNs_Api_Messages_PlcReadResponse_GetDate_Java_Lang_String_System_Int32_" data-uid="Org.Apache.Plc4x.JavaNs.Api.Messages.PlcReadResponse.GetDate(Java.Lang.String,System.Int32)">
+  GetDate(String, int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/PLC4Net/blob/master/src/net/PLC4Net/Generated/Org/Apache/Plc4x/JavaNs/Api/Messages/PlcReadResponse.cs/#L598"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcReadResponse.html#getDate-java.lang.String-int-">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcReadResponse.html#getDate-java.lang.String-int-</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public LocalDate GetDate(String arg0, int arg1)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>arg0</code> <a class="xref" href="https://jnet.masesgroup.com/api/Java.Lang.String.html">String</a></dt>
+    <dd><p><a class="xref" href="https://jnet.masesgroup.com/api/Java.Lang.String.html">String</a></p>
+</dd>
+    <dt><code>arg1</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://jnet.masesgroup.com/api/Java.Time.LocalDate.html">LocalDate</a></dt>
+    <dd><p><a class="xref" href="https://jnet.masesgroup.com/api/Java.Time.LocalDate.html">LocalDate</a></p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Plc4x_JavaNs_Api_Messages_PlcReadResponse_GetDateTime_" data-uid="Org.Apache.Plc4x.JavaNs.Api.Messages.PlcReadResponse.GetDateTime*"></a>
+
+  <h3 id="Org_Apache_Plc4x_JavaNs_Api_Messages_PlcReadResponse_GetDateTime_Java_Lang_String_" data-uid="Org.Apache.Plc4x.JavaNs.Api.Messages.PlcReadResponse.GetDateTime(Java.Lang.String)">
+  GetDateTime(String)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/PLC4Net/blob/master/src/net/PLC4Net/Generated/Org/Apache/Plc4x/JavaNs/Api/Messages/PlcReadResponse.cs/#L626"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcReadResponse.html#getDateTime-java.lang.String-">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcReadResponse.html#getDateTime-java.lang.String-</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public LocalDateTime GetDateTime(String arg0)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>arg0</code> <a class="xref" href="https://jnet.masesgroup.com/api/Java.Lang.String.html">String</a></dt>
+    <dd><p><a class="xref" href="https://jnet.masesgroup.com/api/Java.Lang.String.html">String</a></p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://jnet.masesgroup.com/api/Java.Time.LocalDateTime.html">LocalDateTime</a></dt>
+    <dd><p><a class="xref" href="https://jnet.masesgroup.com/api/Java.Time.LocalDateTime.html">LocalDateTime</a></p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Plc4x_JavaNs_Api_Messages_PlcReadResponse_GetDateTime_" data-uid="Org.Apache.Plc4x.JavaNs.Api.Messages.PlcReadResponse.GetDateTime*"></a>
+
+  <h3 id="Org_Apache_Plc4x_JavaNs_Api_Messages_PlcReadResponse_GetDateTime_Java_Lang_String_System_Int32_" data-uid="Org.Apache.Plc4x.JavaNs.Api.Messages.PlcReadResponse.GetDateTime(Java.Lang.String,System.Int32)">
+  GetDateTime(String, int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/PLC4Net/blob/master/src/net/PLC4Net/Generated/Org/Apache/Plc4x/JavaNs/Api/Messages/PlcReadResponse.cs/#L617"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcReadResponse.html#getDateTime-java.lang.String-int-">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcReadResponse.html#getDateTime-java.lang.String-int-</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public LocalDateTime GetDateTime(String arg0, int arg1)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>arg0</code> <a class="xref" href="https://jnet.masesgroup.com/api/Java.Lang.String.html">String</a></dt>
+    <dd><p><a class="xref" href="https://jnet.masesgroup.com/api/Java.Lang.String.html">String</a></p>
+</dd>
+    <dt><code>arg1</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://jnet.masesgroup.com/api/Java.Time.LocalDateTime.html">LocalDateTime</a></dt>
+    <dd><p><a class="xref" href="https://jnet.masesgroup.com/api/Java.Time.LocalDateTime.html">LocalDateTime</a></p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Plc4x_JavaNs_Api_Messages_PlcReadResponse_GetDouble_" data-uid="Org.Apache.Plc4x.JavaNs.Api.Messages.PlcReadResponse.GetDouble*"></a>
+
+  <h3 id="Org_Apache_Plc4x_JavaNs_Api_Messages_PlcReadResponse_GetDouble_Java_Lang_String_" data-uid="Org.Apache.Plc4x.JavaNs.Api.Messages.PlcReadResponse.GetDouble(Java.Lang.String)">
+  GetDouble(String)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/PLC4Net/blob/master/src/net/PLC4Net/Generated/Org/Apache/Plc4x/JavaNs/Api/Messages/PlcReadResponse.cs/#L436"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcReadResponse.html#getDouble-java.lang.String-">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcReadResponse.html#getDouble-java.lang.String-</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Double GetDouble(String arg0)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>arg0</code> <a class="xref" href="https://jnet.masesgroup.com/api/Java.Lang.String.html">String</a></dt>
+    <dd><p><a class="xref" href="https://jnet.masesgroup.com/api/Java.Lang.String.html">String</a></p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://jnet.masesgroup.com/api/Java.Lang.Double.html">Double</a></dt>
+    <dd><p><a class="xref" href="https://jnet.masesgroup.com/api/Java.Lang.Double.html">Double</a></p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Plc4x_JavaNs_Api_Messages_PlcReadResponse_GetDouble_" data-uid="Org.Apache.Plc4x.JavaNs.Api.Messages.PlcReadResponse.GetDouble*"></a>
+
+  <h3 id="Org_Apache_Plc4x_JavaNs_Api_Messages_PlcReadResponse_GetDouble_Java_Lang_String_System_Int32_" data-uid="Org.Apache.Plc4x.JavaNs.Api.Messages.PlcReadResponse.GetDouble(Java.Lang.String,System.Int32)">
+  GetDouble(String, int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/PLC4Net/blob/master/src/net/PLC4Net/Generated/Org/Apache/Plc4x/JavaNs/Api/Messages/PlcReadResponse.cs/#L427"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcReadResponse.html#getDouble-java.lang.String-int-">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcReadResponse.html#getDouble-java.lang.String-int-</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Double GetDouble(String arg0, int arg1)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>arg0</code> <a class="xref" href="https://jnet.masesgroup.com/api/Java.Lang.String.html">String</a></dt>
+    <dd><p><a class="xref" href="https://jnet.masesgroup.com/api/Java.Lang.String.html">String</a></p>
+</dd>
+    <dt><code>arg1</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://jnet.masesgroup.com/api/Java.Lang.Double.html">Double</a></dt>
+    <dd><p><a class="xref" href="https://jnet.masesgroup.com/api/Java.Lang.Double.html">Double</a></p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Plc4x_JavaNs_Api_Messages_PlcReadResponse_GetFloat_" data-uid="Org.Apache.Plc4x.JavaNs.Api.Messages.PlcReadResponse.GetFloat*"></a>
+
+  <h3 id="Org_Apache_Plc4x_JavaNs_Api_Messages_PlcReadResponse_GetFloat_Java_Lang_String_" data-uid="Org.Apache.Plc4x.JavaNs.Api.Messages.PlcReadResponse.GetFloat(Java.Lang.String)">
+  GetFloat(String)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/PLC4Net/blob/master/src/net/PLC4Net/Generated/Org/Apache/Plc4x/JavaNs/Api/Messages/PlcReadResponse.cs/#L455"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcReadResponse.html#getFloat-java.lang.String-">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcReadResponse.html#getFloat-java.lang.String-</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Float GetFloat(String arg0)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>arg0</code> <a class="xref" href="https://jnet.masesgroup.com/api/Java.Lang.String.html">String</a></dt>
+    <dd><p><a class="xref" href="https://jnet.masesgroup.com/api/Java.Lang.String.html">String</a></p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://jnet.masesgroup.com/api/Java.Lang.Float.html">Float</a></dt>
+    <dd><p><a class="xref" href="https://jnet.masesgroup.com/api/Java.Lang.Float.html">Float</a></p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Plc4x_JavaNs_Api_Messages_PlcReadResponse_GetFloat_" data-uid="Org.Apache.Plc4x.JavaNs.Api.Messages.PlcReadResponse.GetFloat*"></a>
+
+  <h3 id="Org_Apache_Plc4x_JavaNs_Api_Messages_PlcReadResponse_GetFloat_Java_Lang_String_System_Int32_" data-uid="Org.Apache.Plc4x.JavaNs.Api.Messages.PlcReadResponse.GetFloat(Java.Lang.String,System.Int32)">
+  GetFloat(String, int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/PLC4Net/blob/master/src/net/PLC4Net/Generated/Org/Apache/Plc4x/JavaNs/Api/Messages/PlcReadResponse.cs/#L446"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcReadResponse.html#getFloat-java.lang.String-int-">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcReadResponse.html#getFloat-java.lang.String-int-</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Float GetFloat(String arg0, int arg1)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>arg0</code> <a class="xref" href="https://jnet.masesgroup.com/api/Java.Lang.String.html">String</a></dt>
+    <dd><p><a class="xref" href="https://jnet.masesgroup.com/api/Java.Lang.String.html">String</a></p>
+</dd>
+    <dt><code>arg1</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://jnet.masesgroup.com/api/Java.Lang.Float.html">Float</a></dt>
+    <dd><p><a class="xref" href="https://jnet.masesgroup.com/api/Java.Lang.Float.html">Float</a></p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Plc4x_JavaNs_Api_Messages_PlcReadResponse_GetInteger_" data-uid="Org.Apache.Plc4x.JavaNs.Api.Messages.PlcReadResponse.GetInteger*"></a>
+
+  <h3 id="Org_Apache_Plc4x_JavaNs_Api_Messages_PlcReadResponse_GetInteger_Java_Lang_String_" data-uid="Org.Apache.Plc4x.JavaNs.Api.Messages.PlcReadResponse.GetInteger(Java.Lang.String)">
+  GetInteger(String)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/PLC4Net/blob/master/src/net/PLC4Net/Generated/Org/Apache/Plc4x/JavaNs/Api/Messages/PlcReadResponse.cs/#L474"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcReadResponse.html#getInteger-java.lang.String-">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcReadResponse.html#getInteger-java.lang.String-</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Integer GetInteger(String arg0)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>arg0</code> <a class="xref" href="https://jnet.masesgroup.com/api/Java.Lang.String.html">String</a></dt>
+    <dd><p><a class="xref" href="https://jnet.masesgroup.com/api/Java.Lang.String.html">String</a></p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://jnet.masesgroup.com/api/Java.Lang.Integer.html">Integer</a></dt>
+    <dd><p><a class="xref" href="https://jnet.masesgroup.com/api/Java.Lang.Integer.html">Integer</a></p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Plc4x_JavaNs_Api_Messages_PlcReadResponse_GetInteger_" data-uid="Org.Apache.Plc4x.JavaNs.Api.Messages.PlcReadResponse.GetInteger*"></a>
+
+  <h3 id="Org_Apache_Plc4x_JavaNs_Api_Messages_PlcReadResponse_GetInteger_Java_Lang_String_System_Int32_" data-uid="Org.Apache.Plc4x.JavaNs.Api.Messages.PlcReadResponse.GetInteger(Java.Lang.String,System.Int32)">
+  GetInteger(String, int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/PLC4Net/blob/master/src/net/PLC4Net/Generated/Org/Apache/Plc4x/JavaNs/Api/Messages/PlcReadResponse.cs/#L465"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcReadResponse.html#getInteger-java.lang.String-int-">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcReadResponse.html#getInteger-java.lang.String-int-</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Integer GetInteger(String arg0, int arg1)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>arg0</code> <a class="xref" href="https://jnet.masesgroup.com/api/Java.Lang.String.html">String</a></dt>
+    <dd><p><a class="xref" href="https://jnet.masesgroup.com/api/Java.Lang.String.html">String</a></p>
+</dd>
+    <dt><code>arg1</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://jnet.masesgroup.com/api/Java.Lang.Integer.html">Integer</a></dt>
+    <dd><p><a class="xref" href="https://jnet.masesgroup.com/api/Java.Lang.Integer.html">Integer</a></p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Plc4x_JavaNs_Api_Messages_PlcReadResponse_GetLong_" data-uid="Org.Apache.Plc4x.JavaNs.Api.Messages.PlcReadResponse.GetLong*"></a>
+
+  <h3 id="Org_Apache_Plc4x_JavaNs_Api_Messages_PlcReadResponse_GetLong_Java_Lang_String_" data-uid="Org.Apache.Plc4x.JavaNs.Api.Messages.PlcReadResponse.GetLong(Java.Lang.String)">
+  GetLong(String)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/PLC4Net/blob/master/src/net/PLC4Net/Generated/Org/Apache/Plc4x/JavaNs/Api/Messages/PlcReadResponse.cs/#L493"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcReadResponse.html#getLong-java.lang.String-">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcReadResponse.html#getLong-java.lang.String-</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Long GetLong(String arg0)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>arg0</code> <a class="xref" href="https://jnet.masesgroup.com/api/Java.Lang.String.html">String</a></dt>
+    <dd><p><a class="xref" href="https://jnet.masesgroup.com/api/Java.Lang.String.html">String</a></p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://jnet.masesgroup.com/api/Java.Lang.Long.html">Long</a></dt>
+    <dd><p><a class="xref" href="https://jnet.masesgroup.com/api/Java.Lang.Long.html">Long</a></p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Plc4x_JavaNs_Api_Messages_PlcReadResponse_GetLong_" data-uid="Org.Apache.Plc4x.JavaNs.Api.Messages.PlcReadResponse.GetLong*"></a>
+
+  <h3 id="Org_Apache_Plc4x_JavaNs_Api_Messages_PlcReadResponse_GetLong_Java_Lang_String_System_Int32_" data-uid="Org.Apache.Plc4x.JavaNs.Api.Messages.PlcReadResponse.GetLong(Java.Lang.String,System.Int32)">
+  GetLong(String, int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/PLC4Net/blob/master/src/net/PLC4Net/Generated/Org/Apache/Plc4x/JavaNs/Api/Messages/PlcReadResponse.cs/#L484"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcReadResponse.html#getLong-java.lang.String-int-">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcReadResponse.html#getLong-java.lang.String-int-</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Long GetLong(String arg0, int arg1)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>arg0</code> <a class="xref" href="https://jnet.masesgroup.com/api/Java.Lang.String.html">String</a></dt>
+    <dd><p><a class="xref" href="https://jnet.masesgroup.com/api/Java.Lang.String.html">String</a></p>
+</dd>
+    <dt><code>arg1</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://jnet.masesgroup.com/api/Java.Lang.Long.html">Long</a></dt>
+    <dd><p><a class="xref" href="https://jnet.masesgroup.com/api/Java.Lang.Long.html">Long</a></p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Plc4x_JavaNs_Api_Messages_PlcReadResponse_GetNumberOfValues_" data-uid="Org.Apache.Plc4x.JavaNs.Api.Messages.PlcReadResponse.GetNumberOfValues*"></a>
+
+  <h3 id="Org_Apache_Plc4x_JavaNs_Api_Messages_PlcReadResponse_GetNumberOfValues_Java_Lang_String_" data-uid="Org.Apache.Plc4x.JavaNs.Api.Messages.PlcReadResponse.GetNumberOfValues(Java.Lang.String)">
+  GetNumberOfValues(String)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/PLC4Net/blob/master/src/net/PLC4Net/Generated/Org/Apache/Plc4x/JavaNs/Api/Messages/PlcReadResponse.cs/#L379"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcReadResponse.html#getNumberOfValues-java.lang.String-">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcReadResponse.html#getNumberOfValues-java.lang.String-</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int GetNumberOfValues(String arg0)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>arg0</code> <a class="xref" href="https://jnet.masesgroup.com/api/Java.Lang.String.html">String</a></dt>
+    <dd><p><a class="xref" href="https://jnet.masesgroup.com/api/Java.Lang.String.html">String</a></p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Plc4x_JavaNs_Api_Messages_PlcReadResponse_GetObject_" data-uid="Org.Apache.Plc4x.JavaNs.Api.Messages.PlcReadResponse.GetObject*"></a>
+
+  <h3 id="Org_Apache_Plc4x_JavaNs_Api_Messages_PlcReadResponse_GetObject_Java_Lang_String_" data-uid="Org.Apache.Plc4x.JavaNs.Api.Messages.PlcReadResponse.GetObject(Java.Lang.String)">
+  GetObject(String)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/PLC4Net/blob/master/src/net/PLC4Net/Generated/Org/Apache/Plc4x/JavaNs/Api/Messages/PlcReadResponse.cs/#L512"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcReadResponse.html#getObject-java.lang.String-">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcReadResponse.html#getObject-java.lang.String-</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public object GetObject(String arg0)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>arg0</code> <a class="xref" href="https://jnet.masesgroup.com/api/Java.Lang.String.html">String</a></dt>
+    <dd><p><a class="xref" href="https://jnet.masesgroup.com/api/Java.Lang.String.html">String</a></p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></dt>
+    <dd><p><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Plc4x_JavaNs_Api_Messages_PlcReadResponse_GetObject_" data-uid="Org.Apache.Plc4x.JavaNs.Api.Messages.PlcReadResponse.GetObject*"></a>
+
+  <h3 id="Org_Apache_Plc4x_JavaNs_Api_Messages_PlcReadResponse_GetObject_Java_Lang_String_System_Int32_" data-uid="Org.Apache.Plc4x.JavaNs.Api.Messages.PlcReadResponse.GetObject(Java.Lang.String,System.Int32)">
+  GetObject(String, int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/PLC4Net/blob/master/src/net/PLC4Net/Generated/Org/Apache/Plc4x/JavaNs/Api/Messages/PlcReadResponse.cs/#L503"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcReadResponse.html#getObject-java.lang.String-int-">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcReadResponse.html#getObject-java.lang.String-int-</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public object GetObject(String arg0, int arg1)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>arg0</code> <a class="xref" href="https://jnet.masesgroup.com/api/Java.Lang.String.html">String</a></dt>
+    <dd><p><a class="xref" href="https://jnet.masesgroup.com/api/Java.Lang.String.html">String</a></p>
+</dd>
+    <dt><code>arg1</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></dt>
+    <dd><p><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Plc4x_JavaNs_Api_Messages_PlcReadResponse_GetPlcValue_" data-uid="Org.Apache.Plc4x.JavaNs.Api.Messages.PlcReadResponse.GetPlcValue*"></a>
+
+  <h3 id="Org_Apache_Plc4x_JavaNs_Api_Messages_PlcReadResponse_GetPlcValue_Java_Lang_String_" data-uid="Org.Apache.Plc4x.JavaNs.Api.Messages.PlcReadResponse.GetPlcValue(Java.Lang.String)">
+  GetPlcValue(String)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/PLC4Net/blob/master/src/net/PLC4Net/Generated/Org/Apache/Plc4x/JavaNs/Api/Messages/PlcReadResponse.cs/#L780"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcReadResponse.html#getPlcValue-java.lang.String-">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcReadResponse.html#getPlcValue-java.lang.String-</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public PlcValue GetPlcValue(String arg0)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>arg0</code> <a class="xref" href="https://jnet.masesgroup.com/api/Java.Lang.String.html">String</a></dt>
+    <dd><p><a class="xref" href="https://jnet.masesgroup.com/api/Java.Lang.String.html">String</a></p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Org.Apache.Plc4x.JavaNs.Api.Value.PlcValue.html">PlcValue</a></dt>
+    <dd><p><a class="xref" href="Org.Apache.Plc4x.JavaNs.Api.Value.PlcValue.html">PlcValue</a></p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Plc4x_JavaNs_Api_Messages_PlcReadResponse_GetShort_" data-uid="Org.Apache.Plc4x.JavaNs.Api.Messages.PlcReadResponse.GetShort*"></a>
+
+  <h3 id="Org_Apache_Plc4x_JavaNs_Api_Messages_PlcReadResponse_GetShort_Java_Lang_String_" data-uid="Org.Apache.Plc4x.JavaNs.Api.Messages.PlcReadResponse.GetShort(Java.Lang.String)">
+  GetShort(String)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/PLC4Net/blob/master/src/net/PLC4Net/Generated/Org/Apache/Plc4x/JavaNs/Api/Messages/PlcReadResponse.cs/#L531"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcReadResponse.html#getShort-java.lang.String-">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcReadResponse.html#getShort-java.lang.String-</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Short GetShort(String arg0)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>arg0</code> <a class="xref" href="https://jnet.masesgroup.com/api/Java.Lang.String.html">String</a></dt>
+    <dd><p><a class="xref" href="https://jnet.masesgroup.com/api/Java.Lang.String.html">String</a></p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://jnet.masesgroup.com/api/Java.Lang.Short.html">Short</a></dt>
+    <dd><p><a class="xref" href="https://jnet.masesgroup.com/api/Java.Lang.Short.html">Short</a></p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Plc4x_JavaNs_Api_Messages_PlcReadResponse_GetShort_" data-uid="Org.Apache.Plc4x.JavaNs.Api.Messages.PlcReadResponse.GetShort*"></a>
+
+  <h3 id="Org_Apache_Plc4x_JavaNs_Api_Messages_PlcReadResponse_GetShort_Java_Lang_String_System_Int32_" data-uid="Org.Apache.Plc4x.JavaNs.Api.Messages.PlcReadResponse.GetShort(Java.Lang.String,System.Int32)">
+  GetShort(String, int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/PLC4Net/blob/master/src/net/PLC4Net/Generated/Org/Apache/Plc4x/JavaNs/Api/Messages/PlcReadResponse.cs/#L522"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcReadResponse.html#getShort-java.lang.String-int-">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcReadResponse.html#getShort-java.lang.String-int-</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Short GetShort(String arg0, int arg1)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>arg0</code> <a class="xref" href="https://jnet.masesgroup.com/api/Java.Lang.String.html">String</a></dt>
+    <dd><p><a class="xref" href="https://jnet.masesgroup.com/api/Java.Lang.String.html">String</a></p>
+</dd>
+    <dt><code>arg1</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://jnet.masesgroup.com/api/Java.Lang.Short.html">Short</a></dt>
+    <dd><p><a class="xref" href="https://jnet.masesgroup.com/api/Java.Lang.Short.html">Short</a></p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Plc4x_JavaNs_Api_Messages_PlcReadResponse_GetString_" data-uid="Org.Apache.Plc4x.JavaNs.Api.Messages.PlcReadResponse.GetString*"></a>
+
+  <h3 id="Org_Apache_Plc4x_JavaNs_Api_Messages_PlcReadResponse_GetString_Java_Lang_String_" data-uid="Org.Apache.Plc4x.JavaNs.Api.Messages.PlcReadResponse.GetString(Java.Lang.String)">
+  GetString(String)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/PLC4Net/blob/master/src/net/PLC4Net/Generated/Org/Apache/Plc4x/JavaNs/Api/Messages/PlcReadResponse.cs/#L550"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcReadResponse.html#getString-java.lang.String-">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcReadResponse.html#getString-java.lang.String-</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public String GetString(String arg0)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>arg0</code> <a class="xref" href="https://jnet.masesgroup.com/api/Java.Lang.String.html">String</a></dt>
+    <dd><p><a class="xref" href="https://jnet.masesgroup.com/api/Java.Lang.String.html">String</a></p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://jnet.masesgroup.com/api/Java.Lang.String.html">String</a></dt>
+    <dd><p><a class="xref" href="https://jnet.masesgroup.com/api/Java.Lang.String.html">String</a></p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Plc4x_JavaNs_Api_Messages_PlcReadResponse_GetString_" data-uid="Org.Apache.Plc4x.JavaNs.Api.Messages.PlcReadResponse.GetString*"></a>
+
+  <h3 id="Org_Apache_Plc4x_JavaNs_Api_Messages_PlcReadResponse_GetString_Java_Lang_String_System_Int32_" data-uid="Org.Apache.Plc4x.JavaNs.Api.Messages.PlcReadResponse.GetString(Java.Lang.String,System.Int32)">
+  GetString(String, int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/PLC4Net/blob/master/src/net/PLC4Net/Generated/Org/Apache/Plc4x/JavaNs/Api/Messages/PlcReadResponse.cs/#L541"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcReadResponse.html#getString-java.lang.String-int-">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcReadResponse.html#getString-java.lang.String-int-</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public String GetString(String arg0, int arg1)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>arg0</code> <a class="xref" href="https://jnet.masesgroup.com/api/Java.Lang.String.html">String</a></dt>
+    <dd><p><a class="xref" href="https://jnet.masesgroup.com/api/Java.Lang.String.html">String</a></p>
+</dd>
+    <dt><code>arg1</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://jnet.masesgroup.com/api/Java.Lang.String.html">String</a></dt>
+    <dd><p><a class="xref" href="https://jnet.masesgroup.com/api/Java.Lang.String.html">String</a></p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Plc4x_JavaNs_Api_Messages_PlcReadResponse_GetTime_" data-uid="Org.Apache.Plc4x.JavaNs.Api.Messages.PlcReadResponse.GetTime*"></a>
+
+  <h3 id="Org_Apache_Plc4x_JavaNs_Api_Messages_PlcReadResponse_GetTime_Java_Lang_String_" data-uid="Org.Apache.Plc4x.JavaNs.Api.Messages.PlcReadResponse.GetTime(Java.Lang.String)">
+  GetTime(String)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/PLC4Net/blob/master/src/net/PLC4Net/Generated/Org/Apache/Plc4x/JavaNs/Api/Messages/PlcReadResponse.cs/#L645"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcReadResponse.html#getTime-java.lang.String-">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcReadResponse.html#getTime-java.lang.String-</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public LocalTime GetTime(String arg0)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>arg0</code> <a class="xref" href="https://jnet.masesgroup.com/api/Java.Lang.String.html">String</a></dt>
+    <dd><p><a class="xref" href="https://jnet.masesgroup.com/api/Java.Lang.String.html">String</a></p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://jnet.masesgroup.com/api/Java.Time.LocalTime.html">LocalTime</a></dt>
+    <dd><p><a class="xref" href="https://jnet.masesgroup.com/api/Java.Time.LocalTime.html">LocalTime</a></p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Plc4x_JavaNs_Api_Messages_PlcReadResponse_GetTime_" data-uid="Org.Apache.Plc4x.JavaNs.Api.Messages.PlcReadResponse.GetTime*"></a>
+
+  <h3 id="Org_Apache_Plc4x_JavaNs_Api_Messages_PlcReadResponse_GetTime_Java_Lang_String_System_Int32_" data-uid="Org.Apache.Plc4x.JavaNs.Api.Messages.PlcReadResponse.GetTime(Java.Lang.String,System.Int32)">
+  GetTime(String, int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/PLC4Net/blob/master/src/net/PLC4Net/Generated/Org/Apache/Plc4x/JavaNs/Api/Messages/PlcReadResponse.cs/#L636"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcReadResponse.html#getTime-java.lang.String-int-">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcReadResponse.html#getTime-java.lang.String-int-</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public LocalTime GetTime(String arg0, int arg1)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>arg0</code> <a class="xref" href="https://jnet.masesgroup.com/api/Java.Lang.String.html">String</a></dt>
+    <dd><p><a class="xref" href="https://jnet.masesgroup.com/api/Java.Lang.String.html">String</a></p>
+</dd>
+    <dt><code>arg1</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://jnet.masesgroup.com/api/Java.Time.LocalTime.html">LocalTime</a></dt>
+    <dd><p><a class="xref" href="https://jnet.masesgroup.com/api/Java.Time.LocalTime.html">LocalTime</a></p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Plc4x_JavaNs_Api_Messages_PlcReadResponse_IsValidBigDecimal_" data-uid="Org.Apache.Plc4x.JavaNs.Api.Messages.PlcReadResponse.IsValidBigDecimal*"></a>
+
+  <h3 id="Org_Apache_Plc4x_JavaNs_Api_Messages_PlcReadResponse_IsValidBigDecimal_Java_Lang_String_" data-uid="Org.Apache.Plc4x.JavaNs.Api.Messages.PlcReadResponse.IsValidBigDecimal(Java.Lang.String)">
+  IsValidBigDecimal(String)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/PLC4Net/blob/master/src/net/PLC4Net/Generated/Org/Apache/Plc4x/JavaNs/Api/Messages/PlcReadResponse.cs/#L142"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcReadResponse.html#isValidBigDecimal-java.lang.String-">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcReadResponse.html#isValidBigDecimal-java.lang.String-</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsValidBigDecimal(String arg0)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>arg0</code> <a class="xref" href="https://jnet.masesgroup.com/api/Java.Lang.String.html">String</a></dt>
+    <dd><p><a class="xref" href="https://jnet.masesgroup.com/api/Java.Lang.String.html">String</a></p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Plc4x_JavaNs_Api_Messages_PlcReadResponse_IsValidBigDecimal_" data-uid="Org.Apache.Plc4x.JavaNs.Api.Messages.PlcReadResponse.IsValidBigDecimal*"></a>
+
+  <h3 id="Org_Apache_Plc4x_JavaNs_Api_Messages_PlcReadResponse_IsValidBigDecimal_Java_Lang_String_System_Int32_" data-uid="Org.Apache.Plc4x.JavaNs.Api.Messages.PlcReadResponse.IsValidBigDecimal(Java.Lang.String,System.Int32)">
+  IsValidBigDecimal(String, int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/PLC4Net/blob/master/src/net/PLC4Net/Generated/Org/Apache/Plc4x/JavaNs/Api/Messages/PlcReadResponse.cs/#L133"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcReadResponse.html#isValidBigDecimal-java.lang.String-int-">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcReadResponse.html#isValidBigDecimal-java.lang.String-int-</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsValidBigDecimal(String arg0, int arg1)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>arg0</code> <a class="xref" href="https://jnet.masesgroup.com/api/Java.Lang.String.html">String</a></dt>
+    <dd><p><a class="xref" href="https://jnet.masesgroup.com/api/Java.Lang.String.html">String</a></p>
+</dd>
+    <dt><code>arg1</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Plc4x_JavaNs_Api_Messages_PlcReadResponse_IsValidBigInteger_" data-uid="Org.Apache.Plc4x.JavaNs.Api.Messages.PlcReadResponse.IsValidBigInteger*"></a>
+
+  <h3 id="Org_Apache_Plc4x_JavaNs_Api_Messages_PlcReadResponse_IsValidBigInteger_Java_Lang_String_" data-uid="Org.Apache.Plc4x.JavaNs.Api.Messages.PlcReadResponse.IsValidBigInteger(Java.Lang.String)">
+  IsValidBigInteger(String)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/PLC4Net/blob/master/src/net/PLC4Net/Generated/Org/Apache/Plc4x/JavaNs/Api/Messages/PlcReadResponse.cs/#L161"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcReadResponse.html#isValidBigInteger-java.lang.String-">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcReadResponse.html#isValidBigInteger-java.lang.String-</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsValidBigInteger(String arg0)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>arg0</code> <a class="xref" href="https://jnet.masesgroup.com/api/Java.Lang.String.html">String</a></dt>
+    <dd><p><a class="xref" href="https://jnet.masesgroup.com/api/Java.Lang.String.html">String</a></p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Plc4x_JavaNs_Api_Messages_PlcReadResponse_IsValidBigInteger_" data-uid="Org.Apache.Plc4x.JavaNs.Api.Messages.PlcReadResponse.IsValidBigInteger*"></a>
+
+  <h3 id="Org_Apache_Plc4x_JavaNs_Api_Messages_PlcReadResponse_IsValidBigInteger_Java_Lang_String_System_Int32_" data-uid="Org.Apache.Plc4x.JavaNs.Api.Messages.PlcReadResponse.IsValidBigInteger(Java.Lang.String,System.Int32)">
+  IsValidBigInteger(String, int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/PLC4Net/blob/master/src/net/PLC4Net/Generated/Org/Apache/Plc4x/JavaNs/Api/Messages/PlcReadResponse.cs/#L152"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcReadResponse.html#isValidBigInteger-java.lang.String-int-">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcReadResponse.html#isValidBigInteger-java.lang.String-int-</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsValidBigInteger(String arg0, int arg1)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>arg0</code> <a class="xref" href="https://jnet.masesgroup.com/api/Java.Lang.String.html">String</a></dt>
+    <dd><p><a class="xref" href="https://jnet.masesgroup.com/api/Java.Lang.String.html">String</a></p>
+</dd>
+    <dt><code>arg1</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Plc4x_JavaNs_Api_Messages_PlcReadResponse_IsValidBoolean_" data-uid="Org.Apache.Plc4x.JavaNs.Api.Messages.PlcReadResponse.IsValidBoolean*"></a>
+
+  <h3 id="Org_Apache_Plc4x_JavaNs_Api_Messages_PlcReadResponse_IsValidBoolean_Java_Lang_String_" data-uid="Org.Apache.Plc4x.JavaNs.Api.Messages.PlcReadResponse.IsValidBoolean(Java.Lang.String)">
+  IsValidBoolean(String)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/PLC4Net/blob/master/src/net/PLC4Net/Generated/Org/Apache/Plc4x/JavaNs/Api/Messages/PlcReadResponse.cs/#L180"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcReadResponse.html#isValidBoolean-java.lang.String-">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcReadResponse.html#isValidBoolean-java.lang.String-</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsValidBoolean(String arg0)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>arg0</code> <a class="xref" href="https://jnet.masesgroup.com/api/Java.Lang.String.html">String</a></dt>
+    <dd><p><a class="xref" href="https://jnet.masesgroup.com/api/Java.Lang.String.html">String</a></p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Plc4x_JavaNs_Api_Messages_PlcReadResponse_IsValidBoolean_" data-uid="Org.Apache.Plc4x.JavaNs.Api.Messages.PlcReadResponse.IsValidBoolean*"></a>
+
+  <h3 id="Org_Apache_Plc4x_JavaNs_Api_Messages_PlcReadResponse_IsValidBoolean_Java_Lang_String_System_Int32_" data-uid="Org.Apache.Plc4x.JavaNs.Api.Messages.PlcReadResponse.IsValidBoolean(Java.Lang.String,System.Int32)">
+  IsValidBoolean(String, int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/PLC4Net/blob/master/src/net/PLC4Net/Generated/Org/Apache/Plc4x/JavaNs/Api/Messages/PlcReadResponse.cs/#L171"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcReadResponse.html#isValidBoolean-java.lang.String-int-">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcReadResponse.html#isValidBoolean-java.lang.String-int-</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsValidBoolean(String arg0, int arg1)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>arg0</code> <a class="xref" href="https://jnet.masesgroup.com/api/Java.Lang.String.html">String</a></dt>
+    <dd><p><a class="xref" href="https://jnet.masesgroup.com/api/Java.Lang.String.html">String</a></p>
+</dd>
+    <dt><code>arg1</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Plc4x_JavaNs_Api_Messages_PlcReadResponse_IsValidByte_" data-uid="Org.Apache.Plc4x.JavaNs.Api.Messages.PlcReadResponse.IsValidByte*"></a>
+
+  <h3 id="Org_Apache_Plc4x_JavaNs_Api_Messages_PlcReadResponse_IsValidByte_Java_Lang_String_" data-uid="Org.Apache.Plc4x.JavaNs.Api.Messages.PlcReadResponse.IsValidByte(Java.Lang.String)">
+  IsValidByte(String)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/PLC4Net/blob/master/src/net/PLC4Net/Generated/Org/Apache/Plc4x/JavaNs/Api/Messages/PlcReadResponse.cs/#L199"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcReadResponse.html#isValidByte-java.lang.String-">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcReadResponse.html#isValidByte-java.lang.String-</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsValidByte(String arg0)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>arg0</code> <a class="xref" href="https://jnet.masesgroup.com/api/Java.Lang.String.html">String</a></dt>
+    <dd><p><a class="xref" href="https://jnet.masesgroup.com/api/Java.Lang.String.html">String</a></p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Plc4x_JavaNs_Api_Messages_PlcReadResponse_IsValidByte_" data-uid="Org.Apache.Plc4x.JavaNs.Api.Messages.PlcReadResponse.IsValidByte*"></a>
+
+  <h3 id="Org_Apache_Plc4x_JavaNs_Api_Messages_PlcReadResponse_IsValidByte_Java_Lang_String_System_Int32_" data-uid="Org.Apache.Plc4x.JavaNs.Api.Messages.PlcReadResponse.IsValidByte(Java.Lang.String,System.Int32)">
+  IsValidByte(String, int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/PLC4Net/blob/master/src/net/PLC4Net/Generated/Org/Apache/Plc4x/JavaNs/Api/Messages/PlcReadResponse.cs/#L190"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcReadResponse.html#isValidByte-java.lang.String-int-">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcReadResponse.html#isValidByte-java.lang.String-int-</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsValidByte(String arg0, int arg1)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>arg0</code> <a class="xref" href="https://jnet.masesgroup.com/api/Java.Lang.String.html">String</a></dt>
+    <dd><p><a class="xref" href="https://jnet.masesgroup.com/api/Java.Lang.String.html">String</a></p>
+</dd>
+    <dt><code>arg1</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Plc4x_JavaNs_Api_Messages_PlcReadResponse_IsValidDate_" data-uid="Org.Apache.Plc4x.JavaNs.Api.Messages.PlcReadResponse.IsValidDate*"></a>
+
+  <h3 id="Org_Apache_Plc4x_JavaNs_Api_Messages_PlcReadResponse_IsValidDate_Java_Lang_String_" data-uid="Org.Apache.Plc4x.JavaNs.Api.Messages.PlcReadResponse.IsValidDate(Java.Lang.String)">
+  IsValidDate(String)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/PLC4Net/blob/master/src/net/PLC4Net/Generated/Org/Apache/Plc4x/JavaNs/Api/Messages/PlcReadResponse.cs/#L218"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcReadResponse.html#isValidDate-java.lang.String-">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcReadResponse.html#isValidDate-java.lang.String-</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsValidDate(String arg0)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>arg0</code> <a class="xref" href="https://jnet.masesgroup.com/api/Java.Lang.String.html">String</a></dt>
+    <dd><p><a class="xref" href="https://jnet.masesgroup.com/api/Java.Lang.String.html">String</a></p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Plc4x_JavaNs_Api_Messages_PlcReadResponse_IsValidDate_" data-uid="Org.Apache.Plc4x.JavaNs.Api.Messages.PlcReadResponse.IsValidDate*"></a>
+
+  <h3 id="Org_Apache_Plc4x_JavaNs_Api_Messages_PlcReadResponse_IsValidDate_Java_Lang_String_System_Int32_" data-uid="Org.Apache.Plc4x.JavaNs.Api.Messages.PlcReadResponse.IsValidDate(Java.Lang.String,System.Int32)">
+  IsValidDate(String, int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/PLC4Net/blob/master/src/net/PLC4Net/Generated/Org/Apache/Plc4x/JavaNs/Api/Messages/PlcReadResponse.cs/#L209"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcReadResponse.html#isValidDate-java.lang.String-int-">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcReadResponse.html#isValidDate-java.lang.String-int-</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsValidDate(String arg0, int arg1)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>arg0</code> <a class="xref" href="https://jnet.masesgroup.com/api/Java.Lang.String.html">String</a></dt>
+    <dd><p><a class="xref" href="https://jnet.masesgroup.com/api/Java.Lang.String.html">String</a></p>
+</dd>
+    <dt><code>arg1</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Plc4x_JavaNs_Api_Messages_PlcReadResponse_IsValidDateTime_" data-uid="Org.Apache.Plc4x.JavaNs.Api.Messages.PlcReadResponse.IsValidDateTime*"></a>
+
+  <h3 id="Org_Apache_Plc4x_JavaNs_Api_Messages_PlcReadResponse_IsValidDateTime_Java_Lang_String_" data-uid="Org.Apache.Plc4x.JavaNs.Api.Messages.PlcReadResponse.IsValidDateTime(Java.Lang.String)">
+  IsValidDateTime(String)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/PLC4Net/blob/master/src/net/PLC4Net/Generated/Org/Apache/Plc4x/JavaNs/Api/Messages/PlcReadResponse.cs/#L237"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcReadResponse.html#isValidDateTime-java.lang.String-">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcReadResponse.html#isValidDateTime-java.lang.String-</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsValidDateTime(String arg0)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>arg0</code> <a class="xref" href="https://jnet.masesgroup.com/api/Java.Lang.String.html">String</a></dt>
+    <dd><p><a class="xref" href="https://jnet.masesgroup.com/api/Java.Lang.String.html">String</a></p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Plc4x_JavaNs_Api_Messages_PlcReadResponse_IsValidDateTime_" data-uid="Org.Apache.Plc4x.JavaNs.Api.Messages.PlcReadResponse.IsValidDateTime*"></a>
+
+  <h3 id="Org_Apache_Plc4x_JavaNs_Api_Messages_PlcReadResponse_IsValidDateTime_Java_Lang_String_System_Int32_" data-uid="Org.Apache.Plc4x.JavaNs.Api.Messages.PlcReadResponse.IsValidDateTime(Java.Lang.String,System.Int32)">
+  IsValidDateTime(String, int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/PLC4Net/blob/master/src/net/PLC4Net/Generated/Org/Apache/Plc4x/JavaNs/Api/Messages/PlcReadResponse.cs/#L228"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcReadResponse.html#isValidDateTime-java.lang.String-int-">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcReadResponse.html#isValidDateTime-java.lang.String-int-</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsValidDateTime(String arg0, int arg1)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>arg0</code> <a class="xref" href="https://jnet.masesgroup.com/api/Java.Lang.String.html">String</a></dt>
+    <dd><p><a class="xref" href="https://jnet.masesgroup.com/api/Java.Lang.String.html">String</a></p>
+</dd>
+    <dt><code>arg1</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Plc4x_JavaNs_Api_Messages_PlcReadResponse_IsValidDouble_" data-uid="Org.Apache.Plc4x.JavaNs.Api.Messages.PlcReadResponse.IsValidDouble*"></a>
+
+  <h3 id="Org_Apache_Plc4x_JavaNs_Api_Messages_PlcReadResponse_IsValidDouble_Java_Lang_String_" data-uid="Org.Apache.Plc4x.JavaNs.Api.Messages.PlcReadResponse.IsValidDouble(Java.Lang.String)">
+  IsValidDouble(String)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/PLC4Net/blob/master/src/net/PLC4Net/Generated/Org/Apache/Plc4x/JavaNs/Api/Messages/PlcReadResponse.cs/#L256"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcReadResponse.html#isValidDouble-java.lang.String-">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcReadResponse.html#isValidDouble-java.lang.String-</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsValidDouble(String arg0)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>arg0</code> <a class="xref" href="https://jnet.masesgroup.com/api/Java.Lang.String.html">String</a></dt>
+    <dd><p><a class="xref" href="https://jnet.masesgroup.com/api/Java.Lang.String.html">String</a></p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Plc4x_JavaNs_Api_Messages_PlcReadResponse_IsValidDouble_" data-uid="Org.Apache.Plc4x.JavaNs.Api.Messages.PlcReadResponse.IsValidDouble*"></a>
+
+  <h3 id="Org_Apache_Plc4x_JavaNs_Api_Messages_PlcReadResponse_IsValidDouble_Java_Lang_String_System_Int32_" data-uid="Org.Apache.Plc4x.JavaNs.Api.Messages.PlcReadResponse.IsValidDouble(Java.Lang.String,System.Int32)">
+  IsValidDouble(String, int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/PLC4Net/blob/master/src/net/PLC4Net/Generated/Org/Apache/Plc4x/JavaNs/Api/Messages/PlcReadResponse.cs/#L247"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcReadResponse.html#isValidDouble-java.lang.String-int-">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcReadResponse.html#isValidDouble-java.lang.String-int-</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsValidDouble(String arg0, int arg1)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>arg0</code> <a class="xref" href="https://jnet.masesgroup.com/api/Java.Lang.String.html">String</a></dt>
+    <dd><p><a class="xref" href="https://jnet.masesgroup.com/api/Java.Lang.String.html">String</a></p>
+</dd>
+    <dt><code>arg1</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Plc4x_JavaNs_Api_Messages_PlcReadResponse_IsValidFloat_" data-uid="Org.Apache.Plc4x.JavaNs.Api.Messages.PlcReadResponse.IsValidFloat*"></a>
+
+  <h3 id="Org_Apache_Plc4x_JavaNs_Api_Messages_PlcReadResponse_IsValidFloat_Java_Lang_String_" data-uid="Org.Apache.Plc4x.JavaNs.Api.Messages.PlcReadResponse.IsValidFloat(Java.Lang.String)">
+  IsValidFloat(String)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/PLC4Net/blob/master/src/net/PLC4Net/Generated/Org/Apache/Plc4x/JavaNs/Api/Messages/PlcReadResponse.cs/#L275"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcReadResponse.html#isValidFloat-java.lang.String-">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcReadResponse.html#isValidFloat-java.lang.String-</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsValidFloat(String arg0)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>arg0</code> <a class="xref" href="https://jnet.masesgroup.com/api/Java.Lang.String.html">String</a></dt>
+    <dd><p><a class="xref" href="https://jnet.masesgroup.com/api/Java.Lang.String.html">String</a></p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Plc4x_JavaNs_Api_Messages_PlcReadResponse_IsValidFloat_" data-uid="Org.Apache.Plc4x.JavaNs.Api.Messages.PlcReadResponse.IsValidFloat*"></a>
+
+  <h3 id="Org_Apache_Plc4x_JavaNs_Api_Messages_PlcReadResponse_IsValidFloat_Java_Lang_String_System_Int32_" data-uid="Org.Apache.Plc4x.JavaNs.Api.Messages.PlcReadResponse.IsValidFloat(Java.Lang.String,System.Int32)">
+  IsValidFloat(String, int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/PLC4Net/blob/master/src/net/PLC4Net/Generated/Org/Apache/Plc4x/JavaNs/Api/Messages/PlcReadResponse.cs/#L266"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcReadResponse.html#isValidFloat-java.lang.String-int-">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcReadResponse.html#isValidFloat-java.lang.String-int-</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsValidFloat(String arg0, int arg1)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>arg0</code> <a class="xref" href="https://jnet.masesgroup.com/api/Java.Lang.String.html">String</a></dt>
+    <dd><p><a class="xref" href="https://jnet.masesgroup.com/api/Java.Lang.String.html">String</a></p>
+</dd>
+    <dt><code>arg1</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Plc4x_JavaNs_Api_Messages_PlcReadResponse_IsValidInteger_" data-uid="Org.Apache.Plc4x.JavaNs.Api.Messages.PlcReadResponse.IsValidInteger*"></a>
+
+  <h3 id="Org_Apache_Plc4x_JavaNs_Api_Messages_PlcReadResponse_IsValidInteger_Java_Lang_String_" data-uid="Org.Apache.Plc4x.JavaNs.Api.Messages.PlcReadResponse.IsValidInteger(Java.Lang.String)">
+  IsValidInteger(String)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/PLC4Net/blob/master/src/net/PLC4Net/Generated/Org/Apache/Plc4x/JavaNs/Api/Messages/PlcReadResponse.cs/#L294"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcReadResponse.html#isValidInteger-java.lang.String-">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcReadResponse.html#isValidInteger-java.lang.String-</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsValidInteger(String arg0)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>arg0</code> <a class="xref" href="https://jnet.masesgroup.com/api/Java.Lang.String.html">String</a></dt>
+    <dd><p><a class="xref" href="https://jnet.masesgroup.com/api/Java.Lang.String.html">String</a></p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Plc4x_JavaNs_Api_Messages_PlcReadResponse_IsValidInteger_" data-uid="Org.Apache.Plc4x.JavaNs.Api.Messages.PlcReadResponse.IsValidInteger*"></a>
+
+  <h3 id="Org_Apache_Plc4x_JavaNs_Api_Messages_PlcReadResponse_IsValidInteger_Java_Lang_String_System_Int32_" data-uid="Org.Apache.Plc4x.JavaNs.Api.Messages.PlcReadResponse.IsValidInteger(Java.Lang.String,System.Int32)">
+  IsValidInteger(String, int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/PLC4Net/blob/master/src/net/PLC4Net/Generated/Org/Apache/Plc4x/JavaNs/Api/Messages/PlcReadResponse.cs/#L285"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcReadResponse.html#isValidInteger-java.lang.String-int-">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcReadResponse.html#isValidInteger-java.lang.String-int-</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsValidInteger(String arg0, int arg1)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>arg0</code> <a class="xref" href="https://jnet.masesgroup.com/api/Java.Lang.String.html">String</a></dt>
+    <dd><p><a class="xref" href="https://jnet.masesgroup.com/api/Java.Lang.String.html">String</a></p>
+</dd>
+    <dt><code>arg1</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Plc4x_JavaNs_Api_Messages_PlcReadResponse_IsValidLong_" data-uid="Org.Apache.Plc4x.JavaNs.Api.Messages.PlcReadResponse.IsValidLong*"></a>
+
+  <h3 id="Org_Apache_Plc4x_JavaNs_Api_Messages_PlcReadResponse_IsValidLong_Java_Lang_String_" data-uid="Org.Apache.Plc4x.JavaNs.Api.Messages.PlcReadResponse.IsValidLong(Java.Lang.String)">
+  IsValidLong(String)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/PLC4Net/blob/master/src/net/PLC4Net/Generated/Org/Apache/Plc4x/JavaNs/Api/Messages/PlcReadResponse.cs/#L313"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcReadResponse.html#isValidLong-java.lang.String-">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcReadResponse.html#isValidLong-java.lang.String-</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsValidLong(String arg0)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>arg0</code> <a class="xref" href="https://jnet.masesgroup.com/api/Java.Lang.String.html">String</a></dt>
+    <dd><p><a class="xref" href="https://jnet.masesgroup.com/api/Java.Lang.String.html">String</a></p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Plc4x_JavaNs_Api_Messages_PlcReadResponse_IsValidLong_" data-uid="Org.Apache.Plc4x.JavaNs.Api.Messages.PlcReadResponse.IsValidLong*"></a>
+
+  <h3 id="Org_Apache_Plc4x_JavaNs_Api_Messages_PlcReadResponse_IsValidLong_Java_Lang_String_System_Int32_" data-uid="Org.Apache.Plc4x.JavaNs.Api.Messages.PlcReadResponse.IsValidLong(Java.Lang.String,System.Int32)">
+  IsValidLong(String, int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/PLC4Net/blob/master/src/net/PLC4Net/Generated/Org/Apache/Plc4x/JavaNs/Api/Messages/PlcReadResponse.cs/#L304"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcReadResponse.html#isValidLong-java.lang.String-int-">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcReadResponse.html#isValidLong-java.lang.String-int-</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsValidLong(String arg0, int arg1)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>arg0</code> <a class="xref" href="https://jnet.masesgroup.com/api/Java.Lang.String.html">String</a></dt>
+    <dd><p><a class="xref" href="https://jnet.masesgroup.com/api/Java.Lang.String.html">String</a></p>
+</dd>
+    <dt><code>arg1</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Plc4x_JavaNs_Api_Messages_PlcReadResponse_IsValidShort_" data-uid="Org.Apache.Plc4x.JavaNs.Api.Messages.PlcReadResponse.IsValidShort*"></a>
+
+  <h3 id="Org_Apache_Plc4x_JavaNs_Api_Messages_PlcReadResponse_IsValidShort_Java_Lang_String_" data-uid="Org.Apache.Plc4x.JavaNs.Api.Messages.PlcReadResponse.IsValidShort(Java.Lang.String)">
+  IsValidShort(String)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/PLC4Net/blob/master/src/net/PLC4Net/Generated/Org/Apache/Plc4x/JavaNs/Api/Messages/PlcReadResponse.cs/#L332"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcReadResponse.html#isValidShort-java.lang.String-">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcReadResponse.html#isValidShort-java.lang.String-</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsValidShort(String arg0)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>arg0</code> <a class="xref" href="https://jnet.masesgroup.com/api/Java.Lang.String.html">String</a></dt>
+    <dd><p><a class="xref" href="https://jnet.masesgroup.com/api/Java.Lang.String.html">String</a></p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Plc4x_JavaNs_Api_Messages_PlcReadResponse_IsValidShort_" data-uid="Org.Apache.Plc4x.JavaNs.Api.Messages.PlcReadResponse.IsValidShort*"></a>
+
+  <h3 id="Org_Apache_Plc4x_JavaNs_Api_Messages_PlcReadResponse_IsValidShort_Java_Lang_String_System_Int32_" data-uid="Org.Apache.Plc4x.JavaNs.Api.Messages.PlcReadResponse.IsValidShort(Java.Lang.String,System.Int32)">
+  IsValidShort(String, int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/PLC4Net/blob/master/src/net/PLC4Net/Generated/Org/Apache/Plc4x/JavaNs/Api/Messages/PlcReadResponse.cs/#L323"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcReadResponse.html#isValidShort-java.lang.String-int-">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcReadResponse.html#isValidShort-java.lang.String-int-</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsValidShort(String arg0, int arg1)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>arg0</code> <a class="xref" href="https://jnet.masesgroup.com/api/Java.Lang.String.html">String</a></dt>
+    <dd><p><a class="xref" href="https://jnet.masesgroup.com/api/Java.Lang.String.html">String</a></p>
+</dd>
+    <dt><code>arg1</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Plc4x_JavaNs_Api_Messages_PlcReadResponse_IsValidString_" data-uid="Org.Apache.Plc4x.JavaNs.Api.Messages.PlcReadResponse.IsValidString*"></a>
+
+  <h3 id="Org_Apache_Plc4x_JavaNs_Api_Messages_PlcReadResponse_IsValidString_Java_Lang_String_" data-uid="Org.Apache.Plc4x.JavaNs.Api.Messages.PlcReadResponse.IsValidString(Java.Lang.String)">
+  IsValidString(String)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/PLC4Net/blob/master/src/net/PLC4Net/Generated/Org/Apache/Plc4x/JavaNs/Api/Messages/PlcReadResponse.cs/#L351"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcReadResponse.html#isValidString-java.lang.String-">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcReadResponse.html#isValidString-java.lang.String-</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsValidString(String arg0)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>arg0</code> <a class="xref" href="https://jnet.masesgroup.com/api/Java.Lang.String.html">String</a></dt>
+    <dd><p><a class="xref" href="https://jnet.masesgroup.com/api/Java.Lang.String.html">String</a></p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Plc4x_JavaNs_Api_Messages_PlcReadResponse_IsValidString_" data-uid="Org.Apache.Plc4x.JavaNs.Api.Messages.PlcReadResponse.IsValidString*"></a>
+
+  <h3 id="Org_Apache_Plc4x_JavaNs_Api_Messages_PlcReadResponse_IsValidString_Java_Lang_String_System_Int32_" data-uid="Org.Apache.Plc4x.JavaNs.Api.Messages.PlcReadResponse.IsValidString(Java.Lang.String,System.Int32)">
+  IsValidString(String, int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/PLC4Net/blob/master/src/net/PLC4Net/Generated/Org/Apache/Plc4x/JavaNs/Api/Messages/PlcReadResponse.cs/#L342"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcReadResponse.html#isValidString-java.lang.String-int-">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcReadResponse.html#isValidString-java.lang.String-int-</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsValidString(String arg0, int arg1)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>arg0</code> <a class="xref" href="https://jnet.masesgroup.com/api/Java.Lang.String.html">String</a></dt>
+    <dd><p><a class="xref" href="https://jnet.masesgroup.com/api/Java.Lang.String.html">String</a></p>
+</dd>
+    <dt><code>arg1</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Plc4x_JavaNs_Api_Messages_PlcReadResponse_IsValidTime_" data-uid="Org.Apache.Plc4x.JavaNs.Api.Messages.PlcReadResponse.IsValidTime*"></a>
+
+  <h3 id="Org_Apache_Plc4x_JavaNs_Api_Messages_PlcReadResponse_IsValidTime_Java_Lang_String_" data-uid="Org.Apache.Plc4x.JavaNs.Api.Messages.PlcReadResponse.IsValidTime(Java.Lang.String)">
+  IsValidTime(String)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/PLC4Net/blob/master/src/net/PLC4Net/Generated/Org/Apache/Plc4x/JavaNs/Api/Messages/PlcReadResponse.cs/#L370"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcReadResponse.html#isValidTime-java.lang.String-">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcReadResponse.html#isValidTime-java.lang.String-</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsValidTime(String arg0)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>arg0</code> <a class="xref" href="https://jnet.masesgroup.com/api/Java.Lang.String.html">String</a></dt>
+    <dd><p><a class="xref" href="https://jnet.masesgroup.com/api/Java.Lang.String.html">String</a></p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Plc4x_JavaNs_Api_Messages_PlcReadResponse_IsValidTime_" data-uid="Org.Apache.Plc4x.JavaNs.Api.Messages.PlcReadResponse.IsValidTime*"></a>
+
+  <h3 id="Org_Apache_Plc4x_JavaNs_Api_Messages_PlcReadResponse_IsValidTime_Java_Lang_String_System_Int32_" data-uid="Org.Apache.Plc4x.JavaNs.Api.Messages.PlcReadResponse.IsValidTime(Java.Lang.String,System.Int32)">
+  IsValidTime(String, int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/PLC4Net/blob/master/src/net/PLC4Net/Generated/Org/Apache/Plc4x/JavaNs/Api/Messages/PlcReadResponse.cs/#L361"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcReadResponse.html#isValidTime-java.lang.String-int-">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcReadResponse.html#isValidTime-java.lang.String-int-</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsValidTime(String arg0, int arg1)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>arg0</code> <a class="xref" href="https://jnet.masesgroup.com/api/Java.Lang.String.html">String</a></dt>
+    <dd><p><a class="xref" href="https://jnet.masesgroup.com/api/Java.Lang.String.html">String</a></p>
+</dd>
+    <dt><code>arg1</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/masesgroup/PLC4Net/blob/master/src/net/PLC4Net/Generated/Org/Apache/Plc4x/JavaNs/Api/Messages/PlcReadResponse.cs/#L94" class="edit-link">Edit this page</a>
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <script type="text/javascript">document.write('<div style="text-align: center;">Copyright © 2024 - ' + new Date().getFullYear() + ' MASES s.r.l. | Via San Cesidio 16 - San Valentino in A.C. - PE | P.I. 01932310681</div>');</script>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
