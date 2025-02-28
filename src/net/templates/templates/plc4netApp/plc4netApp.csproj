@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+	<PropertyGroup>
+		<OutputType>Exe</OutputType>
+		<TargetFrameworks>net462;net8.0;net9.0</TargetFrameworks>
+		<!--see https://learn.microsoft.com/en-us/dotnet/core/compatibility/interop/9.0/cet-support-->
+		<CETCompat>false</CETCompat>
+	</PropertyGroup>
+	<ItemGroup Condition="'$(TargetFramework)' == 'net462'">
+		<Reference Include="Microsoft.CSharp" />
+	</ItemGroup>
+	<ItemGroup Condition="Exists('..\..\..\PLC4Net\PLC4Net.csproj')">
+		<!--Within GitHub repo: used for test purpose-->
+		<ProjectReference Include="..\..\..\PLC4Net\PLC4Net.csproj" />
+	</ItemGroup>
+	<ItemGroup Condition="!Exists('..\..\..\PLC4Net\PLC4Net.csproj')">
+		<!--Outside GitHub repo-->
+		<PackageReference Include="MASES.PLC4Net" Version="0.12.0" IncludeAssets="All" PrivateAssets="None" />
+	</ItemGroup>
+</Project>

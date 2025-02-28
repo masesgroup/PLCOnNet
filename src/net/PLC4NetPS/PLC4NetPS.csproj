@@ -1,0 +1,57 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+	<Import Project="..\Common\Common.props" />
+	<PropertyGroup>
+		<GeneratePackageOnBuild>false</GeneratePackageOnBuild>
+		<AssemblyName>MASES.PLC4NetPS</AssemblyName>
+		<RootNamespace>MASES.PLC4NetPS</RootNamespace>
+		<Title>PLC4NetPS - PLC4Net (PLC4X suite for .NET) PowerShell command line interface</Title>
+		<Description>PLC4NetPS - PLC4Net (PLC4X suite for .NET) PowerShell command line interface</Description>
+		<Product>PLC4NetPS</Product>
+		<OutputPath>..\..\..\MASES.PLC4NetPS\</OutputPath>
+		<TargetFrameworks>net462;net8.0</TargetFrameworks>
+		<RunAnalyzersDuringLiveAnalysis>False</RunAnalyzersDuringLiveAnalysis>
+		<RunAnalyzersDuringBuild>False</RunAnalyzersDuringBuild>
+	</PropertyGroup>
+
+	<PropertyGroup Condition="'$(TargetFramework)' == 'net8.0'">
+		<OutputType>Exe</OutputType>
+	</PropertyGroup>
+
+	<ItemGroup Condition="True">
+		<plc4netps_jars Include="$(ProjectDir)\..\..\..\jars\*.*" />
+		<plc4netps_config Include="$(ProjectDir)\..\..\config\*.*" />
+	</ItemGroup>
+
+	<Target Name="CopyCustomContent" AfterTargets="AfterBuild">
+		<Copy SourceFiles="@(plc4netps_jars)" DestinationFolder="$(OutDir)\jars" />
+		<Copy SourceFiles="@(plc4netps_config)" DestinationFolder="$(OutDir)\config" />
+	</Target>
+	<Target Name="CopyCustomContentOnPublish" AfterTargets="Publish">
+		<Copy SourceFiles="@(plc4netps_jars)" DestinationFolder="$(OutDir)\jars" />
+		<Copy SourceFiles="@(plc4netps_config)" DestinationFolder="$(OutDir)\config" />
+	</Target>
+	<ItemGroup>
+		<Compile Include="..\PLC4NetCLI\PLC4NetCLICore.cs" Link="PLC4NetCLICore.cs" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\PLC4Net\PLC4Net.csproj" />
+		<PackageReference Include="MASES.JNetPSCore" Version="2.5.12" />
+		<PackageReference Include="Microsoft.SourceLink.GitHub" Version="8.0.0">
+			<PrivateAssets>all</PrivateAssets>
+			<IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+		</PackageReference>
+		<PackageReference Include="PowerShellStandard.Library" Version="5.1.1">
+			<PrivateAssets>All</PrivateAssets>
+		</PackageReference>
+	</ItemGroup>
+
+	<ItemGroup>
+		<None Update="MASES.PLC4NetPSFramework.psd1" Condition="'$(TargetFramework)' == 'net462'">
+			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</None>
+		<None Update="MASES.PLC4NetPSCore.psd1" Condition="'$(TargetFramework)' == 'net8.0'">
+			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</None>
+	</ItemGroup>
+</Project>

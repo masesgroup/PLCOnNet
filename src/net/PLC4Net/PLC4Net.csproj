@@ -1,0 +1,58 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+	<Import Project="..\Common\Common.props" />
+	<PropertyGroup>
+		<AssemblyName>MASES.PLC4Net</AssemblyName>
+		<RootNamespace>MASES.PLC4Net</RootNamespace>
+		<Title>PLC4X suite for .NET - a comprehensive suite of libraries and tools to use PLC4X and .NET side-by-side</Title>
+		<Description>PLC4X suite for .NET - a comprehensive suite of libraries and tools to use PLC4X and .NET side-by-side</Description>
+		<Product>PLC4Net</Product>
+		<OutputPath>..\..\..\bin\</OutputPath>
+		<PackageTags>plc4net plc plc4x dotnet clr jvm dotnetcore netcore dotnet8 net8 java bridge gateway</PackageTags>
+		<PackageId>MASES.PLC4Net</PackageId>
+		<PackageReadmeFile>usage.md</PackageReadmeFile>
+		<GenerateDocumentationFile>true</GenerateDocumentationFile>
+		<RunAnalyzersDuringLiveAnalysis>False</RunAnalyzersDuringLiveAnalysis>
+		<RunAnalyzersDuringBuild>False</RunAnalyzersDuringBuild>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(GITHUB_SIMPLIFIED_GENERATION)' == 'true'">
+		<DefineConstants>$(DefineConstants);PLC4NET_SIMPLIFIED_GENERATION</DefineConstants>
+	</PropertyGroup>
+	<ItemGroup Condition="True">
+		<plc4net_jars Include="$(ProjectDir)\..\..\..\jars\*.*">
+			<InProject>false</InProject>
+		</plc4net_jars>
+		<plc4net_config Include="$(ProjectDir)\..\..\config\*.*" />
+	</ItemGroup>
+	<Target Name="CopyCustomContent" AfterTargets="AfterBuild" Condition="'$(GITHUB_ACTIONS)' != 'true' Or '$(GITHUB_TEST_PREPARATION)' == 'true'">
+		<Copy SourceFiles="@(plc4net_jars)" DestinationFolder="$(OutDir)\jars" />
+		<Copy SourceFiles="@(plc4net_config)" DestinationFolder="$(OutDir)\config" />
+	</Target>
+	<Target Name="CopyCustomContentOnPublish" AfterTargets="Publish" Condition="'$(GITHUB_ACTIONS)' != 'true' Or '$(GITHUB_TEST_PREPARATION)' == 'true'">
+		<Copy SourceFiles="@(plc4net_jars)" DestinationFolder="$(OutDir)\jars" />
+		<Copy SourceFiles="@(plc4net_config)" DestinationFolder="$(OutDir)\config" />
+	</Target>
+	<ItemGroup>
+		<None Include="mases.plc4net.targets" Pack="true" PackagePath="build" />
+		<None Include="..\..\..\jars\*.jar" Pack="true" PackagePath="build\jars" />
+		<None Include="..\..\config\**\*" Pack="true" PackagePath="build\config" />
+		<None Include="..\..\documentation\articles\usage.md" Pack="true" PackagePath="\" />
+	</ItemGroup>
+	<ItemGroup Condition="'$(GITHUB_SIMPLIFIED_GENERATION)' == 'true'">
+		<Compile Remove="Developed\**" />
+		<Compile Remove="Generated\**" />
+		<Compile Remove="Specific\**" />
+		<EmbeddedResource Remove="Developed\**" />
+		<EmbeddedResource Remove="Generated\**" />
+		<EmbeddedResource Remove="Specific\**" />
+		<None Remove="Developed\**" />
+		<None Remove="Generated\**" />
+		<None Remove="Specific\**" />
+	</ItemGroup>
+	<ItemGroup>
+		<PackageReference Include="MASES.JNet" Version="2.5.12">
+			<IncludeAssets>All</IncludeAssets>
+			<PrivateAssets>None</PrivateAssets>
+		</PackageReference>
+		<PackageReference Include="Microsoft.SourceLink.GitHub" Version="8.0.0" PrivateAssets="All" />
+	</ItemGroup>
+</Project>
