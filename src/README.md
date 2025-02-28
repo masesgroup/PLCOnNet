@@ -52,7 +52,8 @@ The configuration is:
     "java.awt.desktop",
     "java.awt.image",
     "java.awt.event",
-    "java.awt.font"
+    "java.awt.font",
+    "org.apache.plc4x.java"
   ]
 }
 ```
