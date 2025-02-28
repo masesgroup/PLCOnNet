@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
+  <metadata>
+    <id>MASES.PLC4NetCLI</id>
+    <version>0.12.0</version>
+    <title>PLC4Net command line interface - PLC4X suite for .NET</title>
+    <authors>MASES s.r.l.</authors>
+    <owners>MASES s.r.l.</owners>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <projectUrl>https://github.com/masesgroup/PLC4Net/</projectUrl>
+    <repository type="git" url="https://github.com/masesgroup/PLC4Net/" />
+    <description>Command line interface of PLC4X suite for .NET. PLC4Net is a comprehensive suite of libraries and tools to use PLC4X and .NET side-by-side.</description>
+    <releaseNotes>https://github.com/masesgroup/PLC4Net/releases</releaseNotes>
+    <copyright>Copyright ©  MASES s.r.l. 2025</copyright>
+    <license type="file">LICENSE</license>
+    <icon>JCOB128x128.png</icon>
+    <tags>plc4net cli plc plc4x dotnet clr netcore net8 gateway</tags>
+    <packageTypes>
+    <packageType name="DotnetTool" />
+    </packageTypes>
+    <readme>usageCLI.md</readme>
+  </metadata>
+	<files>
+		<file src="..\..\..\LICENSE" target="LICENSE" />
+		<file src="..\Common\JCOB128x128.png" target="" />
+		<file src="..\..\documentation\articles\usageCLI.md" target="" />
+		<file src="..\..\..\binCLI\net8.0\" target="tools\net8.0\any\" />
+	</files>
+</package>
