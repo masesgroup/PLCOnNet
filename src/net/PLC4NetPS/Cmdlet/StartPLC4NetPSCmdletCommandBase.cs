@@ -43,8 +43,6 @@ namespace MASES.PLC4NetPS.Cmdlet
         {
             PLC4NetPSHelper<PLC4NetPSCore>.SetCommonLoggingPath(CommonLoggingPath);
             PLC4NetPSHelper<PLC4NetPSCore>.SetLogPath(LogPath);
-            PLC4NetPSHelper<PLC4NetPSCore>.SetFontCachePath(FontCachePath);
-            PLC4NetPSHelper<PLC4NetPSCore>.SetUsePureJavaCMYKConversion(UsePureJavaCMYKConversion.HasValue ? UsePureJavaCMYKConversion.Value : false);
         }
     }
 }
