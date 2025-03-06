@@ -1,15 +1,13 @@
-<?xml version="1.0" encoding="utf-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0"
-         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.masesgroup</groupId>
-	<artifactId>plc4net</artifactId>
-	<name>mases.plc4net</name>
-	<description>PLC4Net-Java interface bridging implementation</description>
+	<artifactId>plc4net-test</artifactId>
+	<name>mases.plc4net-test</name>
+	<description>PLC4Net-Java test library</description>
 	<url>https://github.com/masesgroup/PLC4Net</url>
-	<version>${plc4netversion}</version>
+	<version>${plc4nettestversion}</version>
 
 	<licenses>
 		<license>
@@ -40,13 +38,8 @@
 		<maven.compiler.source>11</maven.compiler.source>
 		<maven.compiler.target>11</maven.compiler.target>
 		<classpathfile>${basedir}/classpathfile.classpath</classpathfile>
-		<mavenSkipMain>false</mavenSkipMain>
-		<!-- set mavenSkipMain to true to avoid source compilation: use directive in command-line -->
-		<jnetVersion>2.5.12.0</jnetVersion>
-		<plc4xVersion>0.12.0</plc4xVersion>
-		<plc4netversion>0.12.0.0</plc4netversion>
+		<plc4nettestversion>1.0.0.0</plc4nettestversion>
 		<jcobridgepath>../../../bin/net8.0/JCOBridge.jar</jcobridgepath>
-		<jnetpath>../../../bin/net8.0/jars/jnet-${jnetVersion}.jar</jnetpath>
 	</properties>
 	<distributionManagement>
 		<snapshotRepository>
@@ -65,7 +58,7 @@
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-dependency-plugin</artifactId>
-				<version>3.8.1</version>
+				<version>3.6.1</version>
 				<executions>
 					<execution>
 						<id>build-classpath</id>
@@ -134,21 +127,25 @@
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-compiler-plugin</artifactId>
-				<version>3.14.0</version>
+				<version>3.11.0</version>
 				<configuration>
 					<compilerArgs>
 						<arg>-cp</arg>
-						<arg>${originalClassPath}${path.separator}${basedir}/${jcobridgepath}${path.separator}${basedir}/${jnetpath}</arg>
+						<arg>${originalClassPath}${path.separator}${basedir}/${jcobridgepath}</arg>
 					</compilerArgs>
 					<source>11</source>
 					<target>11</target>
-					<skipMain>${mavenSkipMain}</skipMain>
 				</configuration>
 			</plugin>
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<version>3.11.0</version>
+			</plugin>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-source-plugin</artifactId>
-				<version>3.3.1</version>
+				<version>3.3.0</version>
 				<executions>
 					<execution>
 						<id>attach-sources</id>
@@ -168,7 +165,7 @@
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-gpg-plugin</artifactId>
-				<version>3.2.7</version>
+				<version>3.1.0</version>
 				<configuration>
 					<gpgArguments>
 						<arg>--pinentry-mode</arg>
@@ -188,7 +185,7 @@
 			<plugin>
 				<groupId>org.sonatype.plugins</groupId>
 				<artifactId>nexus-staging-maven-plugin</artifactId>
-				<version>1.7.0</version>
+				<version>1.6.13</version>
 				<extensions>true</extensions>
 				<configuration>
 					<serverId>ossrh</serverId>
@@ -200,26 +197,10 @@
 	</build>
 	<dependencies>
 		<dependency>
-			<groupId>org.apache.plc4x</groupId>
-			<artifactId>plc4j-driver-all</artifactId>
-			<version>${plc4xVersion}</version>
-			<type>pom</type>
-		</dependency>
-		<dependency>
-			<groupId>org.apache.plc4x</groupId>
-			<artifactId>plc4j-plc4x-server</artifactId>
-			<version>${plc4xVersion}</version>
-		</dependency>
-		<dependency>
-			<groupId>org.apache.plc4x</groupId>
-			<artifactId>plc4x-opcua-server</artifactId>
-			<version>${plc4xVersion}</version>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<version>4.13.2</version>
+			<scope>test</scope>
 		</dependency>
 	</dependencies>
-	<repositories>
-		<repository>
-			<id>Central</id>
-			<url>https://repo1.maven.org/maven2/</url>
-		</repository>
-	</repositories>
 </project>
