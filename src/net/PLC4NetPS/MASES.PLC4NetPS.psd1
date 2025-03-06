@@ -12,7 +12,7 @@ ModuleVersion = '0.12.0'
 
 CompatiblePSEditions = 'Desktop', 'Core'
 
-GUID = '579EB835-AF47-49CD-9D0C-E5A3F13AA176'
+GUID = 'FE6DE86E-0DFB-44E0-A6C6-1604E9A9B7C6'
 
 Author = 'MASES s.r.l.'
 
@@ -54,7 +54,10 @@ FunctionsToExport = @()
 
 CmdletsToExport = @(
     'Start-PLC4NetPS',
-    'New-PLCObject'
+    'New-PlcUsernamePasswordAuthentication',
+    'Get-ProtocolCodes',
+    'Get-PlcDriver',
+    'Get-PlcConnection'
 )
 
 VariablesToExport = '*'
@@ -71,7 +74,7 @@ PrivateData = @{
 
     PSData = @{
 
-        Tags = @('PLC4NetPS', 'PLC4Net', 'PSEdition_Core', 'PSEdition_Desktop', 'Windows', 'Linux', 'JVM', 'Java', 'PLC4X', 'PLC', 'bridge', 'gateway')
+        Tags = @('PLC4NetPS', 'PLC4Net', 'PSEdition_Core', 'PSEdition_Desktop', 'Windows', 'Linux', 'JVM', 'Java', 'PLC4X', 'PLC', 'IOT', 'bridge', 'gateway')
 
         LicenseUri = 'https://github.com/masesgroup/PLC4Net/blob/master/LICENSE'
 
