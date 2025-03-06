@@ -199,15 +199,27 @@
 		</plugins>
 	</build>
 	<dependencies>
-		<!--<dependency>
-			<groupId>org.apache.plc4x</groupId>
-			<artifactId>plc4j-spi</artifactId>
-			<version>${plc4xVersion}</version>
-		</dependency>-->
 		<dependency>
 			<groupId>org.apache.plc4x</groupId>
 			<artifactId>plc4j-driver-all</artifactId>
 			<version>${plc4xVersion}</version>
+			<type>pom</type>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.plc4x</groupId>
+			<artifactId>plc4j-plc4x-server</artifactId>
+			<version>${plc4xVersion}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.plc4x</groupId>
+			<artifactId>plc4x-opcua-server</artifactId>
+			<version>${plc4xVersion}</version>
 		</dependency>
 	</dependencies>
+	<repositories>
+		<repository>
+			<id>Central</id>
+			<url>https://repo1.maven.org/maven2/</url>
+		</repository>
+	</repositories>
 </project>
