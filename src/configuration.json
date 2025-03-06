@@ -26,7 +26,9 @@
     }
   ],
   "NamespacesToAvoid": [
-    "org.apache.commons.logging"
+    "org.apache.commons.logging",
+    "org.apache.plc4x.java.tools.plc4xserver.protocol",
+    "org.eclipse.milo"
   ],
   "ClassesToBeListener": [
 
