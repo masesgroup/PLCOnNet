@@ -29,7 +29,7 @@ namespace Org.Apache.Plc4x.JavaNs.Opcuaserver.Backend
     /// <summary>
     /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4x-opcua-server/0.12.0/org/apache/plc4x/java/opcuaserver/backend/Plc4xNamespace.html"/>
     /// </summary>
-    public partial class Plc4xNamespace : Org.Eclipse.Milo.Opcua.Sdk.Server.Api.ManagedNamespaceWithLifecycle
+    public partial class Plc4xNamespace : MASES.JCOBridge.C2JBridge.JVMBridgeBase<Plc4xNamespace>
     {
         const string _bridgeClassName = "org.apache.plc4x.java.opcuaserver.backend.Plc4xNamespace";
         /// <summary>
@@ -74,15 +74,6 @@ namespace Org.Apache.Plc4x.JavaNs.Opcuaserver.Backend
     public partial class Plc4xNamespace
     {
         #region Constructors
-        /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4x-opcua-server/0.12.0/org/apache/plc4x/java/opcuaserver/backend/Plc4xNamespace.html#org.apache.plc4x.java.opcuaserver.backend.Plc4xNamespace(org.eclipse.milo.opcua.sdk.server.OpcUaServer,org.apache.plc4x.java.opcuaserver.configuration.Configuration)"/>
-        /// </summary>
-        /// <param name="arg0"><see cref="Org.Eclipse.Milo.Opcua.Sdk.Server.OpcUaServer"/></param>
-        /// <param name="arg1"><see cref="Org.Apache.Plc4x.JavaNs.Opcuaserver.Configuration.Configuration"/></param>
-        public Plc4xNamespace(Org.Eclipse.Milo.Opcua.Sdk.Server.OpcUaServer arg0, Org.Apache.Plc4x.JavaNs.Opcuaserver.Configuration.Configuration arg1)
-            : base(arg0, arg1)
-        {
-        }
 
         #endregion
 

@@ -29,7 +29,7 @@ namespace Org.Apache.Plc4x.JavaNs.Opcuaserver.Backend
     /// <summary>
     /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4x-opcua-server/0.12.0/org/apache/plc4x/java/opcuaserver/backend/Plc4xCommunication.html"/>
     /// </summary>
-    public partial class Plc4xCommunication : Org.Eclipse.Milo.Opcua.Sdk.Server.AbstractLifecycle
+    public partial class Plc4xCommunication : MASES.JCOBridge.C2JBridge.JVMBridgeBase<Plc4xCommunication>
     {
         const string _bridgeClassName = "org.apache.plc4x.java.opcuaserver.backend.Plc4xCommunication";
         /// <summary>
@@ -86,15 +86,6 @@ namespace Org.Apache.Plc4x.JavaNs.Opcuaserver.Backend
         #endregion
 
         #region Static methods
-        /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4x-opcua-server/0.12.0/org/apache/plc4x/java/opcuaserver/backend/Plc4xCommunication.html#getNodeId-org.apache.plc4x.java.api.types.PlcValueType-"/>
-        /// </summary>
-        /// <param name="arg0"><see cref="Org.Apache.Plc4x.JavaNs.Api.Types.PlcValueType"/></param>
-        /// <returns><see cref="Org.Eclipse.Milo.Opcua.Stack.Core.Types.Builtin.NodeId"/></returns>
-        public static Org.Eclipse.Milo.Opcua.Stack.Core.Types.Builtin.NodeId GetNodeId(Org.Apache.Plc4x.JavaNs.Api.Types.PlcValueType arg0)
-        {
-            return SExecuteWithSignature<Org.Eclipse.Milo.Opcua.Stack.Core.Types.Builtin.NodeId>(LocalBridgeClazz, "getNodeId", "(Lorg/apache/plc4x/java/api/types/PlcValueType;)Lorg/eclipse/milo/opcua/stack/core/types/builtin/NodeId;", arg0);
-        }
 
         #endregion
 
@@ -116,33 +107,6 @@ namespace Org.Apache.Plc4x.JavaNs.Opcuaserver.Backend
         public Org.Apache.Plc4x.JavaNs.Api.Model.PlcTag GetTag(Java.Lang.String arg0, Java.Lang.String arg1)
         {
             return IExecuteWithSignature<Org.Apache.Plc4x.JavaNs.Api.Model.PlcTag>("getTag", "(Ljava/lang/String;Ljava/lang/String;)Lorg/apache/plc4x/java/api/model/PlcTag;", arg0, arg1);
-        }
-        /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4x-opcua-server/0.12.0/org/apache/plc4x/java/opcuaserver/backend/Plc4xCommunication.html#getValue-org.eclipse.milo.opcua.sdk.server.nodes.filters.AttributeFilterContext.GetAttributeContext-java.lang.String-java.lang.String-"/>
-        /// </summary>
-        /// <param name="arg0"><see cref="Org.Eclipse.Milo.Opcua.Sdk.Server.Nodes.Filters.AttributeFilterContext.GetAttributeContext"/></param>
-        /// <param name="arg1"><see cref="Java.Lang.String"/></param>
-        /// <param name="arg2"><see cref="Java.Lang.String"/></param>
-        /// <returns><see cref="Org.Eclipse.Milo.Opcua.Stack.Core.Types.Builtin.DataValue"/></returns>
-        public Org.Eclipse.Milo.Opcua.Stack.Core.Types.Builtin.DataValue GetValue(Org.Eclipse.Milo.Opcua.Sdk.Server.Nodes.Filters.AttributeFilterContext.GetAttributeContext arg0, Java.Lang.String arg1, Java.Lang.String arg2)
-        {
-            return IExecuteWithSignature<Org.Eclipse.Milo.Opcua.Stack.Core.Types.Builtin.DataValue>("getValue", "(Lorg/eclipse/milo/opcua/sdk/server/nodes/filters/AttributeFilterContext$GetAttributeContext;Ljava/lang/String;Ljava/lang/String;)Lorg/eclipse/milo/opcua/stack/core/types/builtin/DataValue;", arg0, arg1, arg2);
-        }
-        /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4x-opcua-server/0.12.0/org/apache/plc4x/java/opcuaserver/backend/Plc4xCommunication.html#addTag-org.eclipse.milo.opcua.sdk.server.api.DataItem-"/>
-        /// </summary>
-        /// <param name="arg0"><see cref="Org.Eclipse.Milo.Opcua.Sdk.Server.Api.DataItem"/></param>
-        public void AddTag(Org.Eclipse.Milo.Opcua.Sdk.Server.Api.DataItem arg0)
-        {
-            IExecuteWithSignature("addTag", "(Lorg/eclipse/milo/opcua/sdk/server/api/DataItem;)V", arg0);
-        }
-        /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4x-opcua-server/0.12.0/org/apache/plc4x/java/opcuaserver/backend/Plc4xCommunication.html#removeTag-org.eclipse.milo.opcua.sdk.server.api.DataItem-"/>
-        /// </summary>
-        /// <param name="arg0"><see cref="Org.Eclipse.Milo.Opcua.Sdk.Server.Api.DataItem"/></param>
-        public void RemoveTag(Org.Eclipse.Milo.Opcua.Sdk.Server.Api.DataItem arg0)
-        {
-            IExecuteWithSignature("removeTag", "(Lorg/eclipse/milo/opcua/sdk/server/api/DataItem;)V", arg0);
         }
         /// <summary>
         /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4x-opcua-server/0.12.0/org/apache/plc4x/java/opcuaserver/backend/Plc4xCommunication.html#setValue-java.lang.String-java.lang.String-java.lang.String-"/>
