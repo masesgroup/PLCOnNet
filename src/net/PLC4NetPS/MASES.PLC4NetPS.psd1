@@ -57,7 +57,9 @@ CmdletsToExport = @(
     'New-PlcUsernamePasswordAuthentication',
     'Get-ProtocolCodes',
     'Get-PlcDriver',
-    'Get-PlcConnection'
+    'Get-PlcConnection',
+    'Start-OPCUAServer',
+    'Start-Plc4xServer'
 )
 
 VariablesToExport = '*'
