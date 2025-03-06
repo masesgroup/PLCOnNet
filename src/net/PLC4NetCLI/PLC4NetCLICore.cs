@@ -198,8 +198,8 @@ namespace MASES.PLC4NetCLI
 
             switch (ClassToRun?.ToLowerInvariant())
             {
-                case "OPCUAServer":
-                case "Plc4xServer":
+                case "opcuaserver":
+                case "plc4xserver":
 
                 default:
                     ApplicationHeapSize ??= "256M";

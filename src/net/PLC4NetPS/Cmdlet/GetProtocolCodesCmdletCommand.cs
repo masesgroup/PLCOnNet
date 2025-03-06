@@ -18,6 +18,7 @@
 
 using Java.Io;
 using Org.Apache.Plc4x.JavaNs;
+using Org.Apache.Plc4x.JavaNs.Api;
 using Org.Apache.Plc4x.JavaNs.Api.Authentication;
 using System;
 using System.Collections.Generic;
@@ -39,7 +40,7 @@ namespace MASES.PLC4NetPS.Cmdlet
         protected override void ProcessCommand()
         {
             List<string> protos = new List<string>();
-            var manager = DefaultPlcDriverManager.Instance;
+            var manager = PlcDriverManager.Default;
             foreach (var item in manager.ProtocolCodes)
             {
                 protos.Add(item.ToString());
