@@ -108,29 +108,6 @@ namespace Org.Apache.Plc4x.JavaNs.Opcuaserver
         #endregion
 
         #region Instance methods
-        /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4x-opcua-server/0.12.0/org/apache/plc4x/java/opcuaserver/OPCUAServer.html#getServer--"/> 
-        /// </summary>
-        public Org.Eclipse.Milo.Opcua.Sdk.Server.OpcUaServer Server
-        {
-            get { return IExecuteWithSignature<Org.Eclipse.Milo.Opcua.Sdk.Server.OpcUaServer>("getServer", "()Lorg/eclipse/milo/opcua/sdk/server/OpcUaServer;"); }
-        }
-        /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4x-opcua-server/0.12.0/org/apache/plc4x/java/opcuaserver/OPCUAServer.html#shutdown--"/>
-        /// </summary>
-        /// <returns><see cref="Java.Util.Concurrent.CompletableFuture"/></returns>
-        public Java.Util.Concurrent.CompletableFuture<Org.Eclipse.Milo.Opcua.Sdk.Server.OpcUaServer> Shutdown()
-        {
-            return IExecuteWithSignature<Java.Util.Concurrent.CompletableFuture<Org.Eclipse.Milo.Opcua.Sdk.Server.OpcUaServer>>("shutdown", "()Ljava/util/concurrent/CompletableFuture;");
-        }
-        /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4x-opcua-server/0.12.0/org/apache/plc4x/java/opcuaserver/OPCUAServer.html#startup--"/>
-        /// </summary>
-        /// <returns><see cref="Java.Util.Concurrent.CompletableFuture"/></returns>
-        public Java.Util.Concurrent.CompletableFuture<Org.Eclipse.Milo.Opcua.Sdk.Server.OpcUaServer> Startup()
-        {
-            return IExecuteWithSignature<Java.Util.Concurrent.CompletableFuture<Org.Eclipse.Milo.Opcua.Sdk.Server.OpcUaServer>>("startup", "()Ljava/util/concurrent/CompletableFuture;");
-        }
 
         #endregion
 
