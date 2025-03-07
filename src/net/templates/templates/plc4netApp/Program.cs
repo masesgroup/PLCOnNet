@@ -1,15 +1,11 @@
-﻿using Java.Lang;
-using Java.Time;
-using Java.Util.Concurrent;
+﻿using Java.Time;
 using Java.Util.Function;
-using MASES.JCOBridge.C2JBridge;
 using MASES.PLC4Net;
 using Org.Apache.Plc4x.JavaNs.Api;
 using Org.Apache.Plc4x.JavaNs.Api.Messages;
 using Org.Apache.Plc4x.JavaNs.Api.Model;
 using Org.Apache.Plc4x.JavaNs.Api.Types;
 using System;
-using System.Diagnostics;
 
 namespace MASES.PLC4NetTemplate.PLC4NetApp
 {
@@ -230,7 +226,7 @@ namespace MASES.PLC4NetTemplate.PLC4NetApp
             }
         }
 
-        static void ProcessEvnt(PlcSubscriptionEvent e)
+        static void ProcessEvent(PlcSubscriptionEvent e)
         {
             foreach (Java.Lang.String tagName in e.TagNames)
             {
@@ -242,7 +238,7 @@ namespace MASES.PLC4NetTemplate.PLC4NetApp
         {
             _plcEvent ??= new Consumer<PlcSubscriptionEvent>()
             {
-                OnAccept = ProcessEvnt
+                OnAccept = ProcessEvent
             };
 
             foreach (PlcSubscriptionHandle subscriptionHandle in response.SubscriptionHandles)
