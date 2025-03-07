@@ -44,8 +44,8 @@ docker run masesgroup/plc4net -i
 
 _plc4net_ accepts the following command-line switch:
 
+* **ClassToRun**: has precedence to all others and needs a second parameter which identify the command class to be executed
 * **Interactive** (**i**): Activates an interactive shell
-* **RunCommand** (**r**): executes the main method of a specific Java class in argument and exit
 * **Script** (**s**): Executes the c# script in the file arument
 * **JarList** (**jl**): A CSV list of JAR to be used or folders containing the JARs
 * **NamespaceList** (**nl**): A CSV list of namespace to be used for interactive shell, PLC4Net namespace are added automatically

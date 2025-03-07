@@ -13,6 +13,8 @@ namespace MASES.PLC4NetTemplate.PLC4NetApp
             var appArgs = MyPLC4NetCore.FilteredArgs; // contains the remaining arguments: the PLC4Net, JNet and JCOBridge arguments are discarded
             if (appArgs.Length != 0)
             {
+
+
                 Console.WriteLine($"Opening {appArgs[0]}");
             }
         }

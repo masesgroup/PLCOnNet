@@ -179,14 +179,12 @@ namespace MASES.PLC4NetCLI
             Console.WriteLine(_assembly.GetName().Name + " -ClassToRun classname [-KafkaLocation kafkaFolder] <JCOBridgeArguments> <ClassArguments>");
             Console.WriteLine();
             Console.WriteLine("ClassToRun: the class to be invoked ({0}...). ", avTypes.ToString());
-            Console.WriteLine("KafkaLocation: The folder where Kafka package is available. Default consider this application uses the package jars folder.");
-            Console.WriteLine("ScalaVersion: the scala version to be used. The default version (2.13.6) is binded to the deafult Apache Kafka version available in the package.");
             Console.WriteLine("Log4JConfiguration: the log4j configuration file; the default uses the file within the package.");
             Console.WriteLine("JCOBridgeArguments: the arguments of JCOBridge (see online at https://www.jcobridge.com/net-examples/command-line-options/ for the possible values). ");
             Console.WriteLine("ClassArguments: the arguments of the class. Depends on the ClassToRun value, to obtain them runs the application or look at Apache Kafka documentation.");
             Console.WriteLine();
             Console.WriteLine("Examples:");
-            Console.WriteLine(_assembly.GetName().Name + " -ClassToRun ConsoleConsumer --bootstrap-server SERVER-ADDRESS:9093 --topic topic_name --from-beginning");
+            Console.WriteLine(_assembly.GetName().Name + " -ClassToRun OPCUAServer -c {path-to-config-file} -i");
         }
     }
 }
