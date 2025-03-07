@@ -16,6 +16,7 @@
 *  Refer to LICENSE for more information.
 */
 
+using Java.Lang;
 using MASES.JCOBridge.C2JBridge;
 
 namespace Org.Apache.Plc4x.JavaNs
@@ -36,7 +37,7 @@ namespace Org.Apache.Plc4x.JavaNs
             {
                 lock(locker)
                 {
-                    if (_instance == null) _instance = new DefaultPlcDriverManager();
+                    if (_instance == null) _instance = new DefaultPlcDriverManager(ClassLoader.SystemClassLoader);
                     return _instance;
                 }
             }

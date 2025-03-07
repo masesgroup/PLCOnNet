@@ -56,9 +56,9 @@ namespace MASES.PLC4NetPS.Cmdlet
         // This method will be called for each input received from the pipeline to this cmdlet; if no input is received, this method is not called
         protected override void ProcessCommand()
         {
-            var manager = DefaultPlcDriverManager.Instance;
-
-            var connection = Authentication != null ? manager.GetConnection(Url, Authentication) : manager.GetConnection(Url);
+            var driverManager = PlcDriverManager.Default;
+            var connManager = driverManager.ConnectionManager;
+            var connection = Authentication != null ? connManager.GetConnection(Url, Authentication) : connManager.GetConnection(Url);
 
             WriteObject(connection);
         }
