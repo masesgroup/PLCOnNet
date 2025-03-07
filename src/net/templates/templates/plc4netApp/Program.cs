@@ -1,4 +1,5 @@
 ﻿using Java.Time;
+using Java.Util.Concurrent;
 using Java.Util.Function;
 using MASES.PLC4Net;
 using Org.Apache.Plc4x.JavaNs.Api;
@@ -6,6 +7,7 @@ using Org.Apache.Plc4x.JavaNs.Api.Messages;
 using Org.Apache.Plc4x.JavaNs.Api.Model;
 using Org.Apache.Plc4x.JavaNs.Api.Types;
 using System;
+using System.Threading;
 
 namespace MASES.PLC4NetTemplate.PLC4NetApp
 {
@@ -29,8 +31,49 @@ namespace MASES.PLC4NetTemplate.PLC4NetApp
 
                 ReadRequest(plcConnection);
                 WriteRequest(plcConnection);
-
                 SubscriptionRequest(plcConnection);
+            }
+        }
+
+        static void Completable<T>(CompletableFuture<T> cf, Action<T> process, bool isAsync = false)
+        {
+            try
+            {
+                if (isAsync)
+                {
+                    Java.Lang.Exception _exception = null;
+                    ManualResetEvent _resetEvent = new(false);
+                    try
+                    {
+                        using Java.Util.Function.BiConsumer<T, Java.Lang.Exception> responseWaiter = new()
+                        {
+                            OnAccept = (r, e) =>
+                            {
+                                _exception = e;
+                                _resetEvent.Set();
+                                if (_exception == null)
+                                {
+                                    process(r);
+                                }
+                            }
+                        };
+                        var cpStage = cf.WhenComplete(responseWaiter);
+                        _resetEvent.WaitOne();
+                        if (_exception != null) throw _exception;
+                    }
+                    finally
+                    {
+                        _resetEvent.Dispose();
+                    }
+                }
+                else
+                {
+                    var response = cf.Get();
+                    process(response);
+                }
+            }
+            catch (Java.Lang.Exception)
+            {
             }
         }
 
@@ -51,36 +94,7 @@ namespace MASES.PLC4NetTemplate.PLC4NetApp
             PlcRequest readRequest = builder.Build();
 
             var cfResponse = readRequest.Execute<PlcReadResponse>();
-
-            try
-            {
-                if (_useAsync)
-                {
-                    Java.Lang.Exception _exception = null;
-                    using Java.Util.Function.BiConsumer<PlcReadResponse, Java.Lang.Exception> responseWaiter = new()
-                    {
-                        OnAccept = (r, e) =>
-                        {
-                            _exception = e;
-                            if (_exception != null)
-                            {
-                                return;
-                            }
-                            ProcessResponse(r);
-                        }
-                    };
-                    if (_exception != null) throw _exception;
-                }
-                else
-                {
-
-                    var response = cfResponse.Get();
-                    ProcessResponse(response);
-                }
-            }
-            catch (Java.Lang.Exception)
-            {
-            }
+            Completable(cfResponse, ProcessResponse, _useAsync);
         }
 
         static void WriteRequest(PlcConnection plcConnection)
@@ -100,36 +114,7 @@ namespace MASES.PLC4NetTemplate.PLC4NetApp
             PlcRequest writeRequest = builder.Build();
 
             var cfResponse = writeRequest.Execute<PlcWriteResponse>();
-
-            try
-            {
-                if (_useAsync)
-                {
-                    Java.Lang.Exception _exception = null;
-                    using Java.Util.Function.BiConsumer<PlcWriteResponse, Java.Lang.Exception> responseWaiter = new()
-                    {
-                        OnAccept = (r, e) =>
-                        {
-                            _exception = e;
-                            if (_exception != null)
-                            {
-                                return;
-                            }
-                            ProcessResponse(r);
-                        }
-                    };
-                    if (_exception != null) throw _exception;
-                }
-                else
-                {
-
-                    var response = cfResponse.Get();
-                    ProcessResponse(response);
-                }
-            }
-            catch (Java.Lang.Exception)
-            {
-            }
+            Completable(cfResponse, ProcessResponse, _useAsync);
         }
 
         static void SubscriptionRequest(PlcConnection plcConnection)
@@ -148,36 +133,7 @@ namespace MASES.PLC4NetTemplate.PLC4NetApp
             PlcRequest subscriptionRequest = builder.Build();
 
             var cfResponse = subscriptionRequest.Execute<PlcSubscriptionResponse>();
-
-            try
-            {
-                if (_useAsync)
-                {
-                    Java.Lang.Exception _exception = null;
-                    using Java.Util.Function.BiConsumer<PlcSubscriptionResponse, Java.Lang.Exception> responseWaiter = new()
-                    {
-                        OnAccept = (r, e) =>
-                        {
-                            _exception = e;
-                            if (_exception != null)
-                            {
-                                return;
-                            }
-                            ProcessResponse(r);
-                        }
-                    };
-                    if (_exception != null) throw _exception;
-                }
-                else
-                {
-
-                    var response = cfResponse.Get();
-                    ProcessResponse(response);
-                }
-            }
-            catch (Java.Lang.Exception)
-            {
-            }
+            Completable(cfResponse, ProcessResponse, _useAsync);
         }
 
         static void ProcessResponse(PlcReadResponse response)
