@@ -16,8 +16,9 @@
 *  Refer to LICENSE for more information.
 */
 
-using Java.Lang;
 using MASES.PLC4NetTest.Common;
+using Org.Apache.Plc4x.JavaNs.Api;
+using System;
 
 namespace MASES.PLC4NetTest
 {
@@ -28,6 +29,8 @@ namespace MASES.PLC4NetTest
             System.Console.WriteLine("Starting PLC4NetTest");
 
             Initialize();
+
+            ListProtocols();
 
             // TO BE COMPLETED
         }
@@ -41,12 +44,22 @@ namespace MASES.PLC4NetTest
                 PLC4NetTestCore.CreateGlobalInstance();
                 var appArgs = PLC4NetTestCore.FilteredArgs;
 
-                System.Console.WriteLine($"Initialized PLC4NetTestCore, remaining arguments are {string.Join(" ", appArgs)}");
+                Console.WriteLine($"Initialized PLC4NetTestCore, remaining arguments are {string.Join(" ", appArgs)}");
             }
-            catch (Exception ex)
+            catch (Java.Lang.Exception ex)
             {
-                System.Console.WriteLine(ex);
+                Console.WriteLine(ex);
                 throw;
+            }
+        }
+
+        static void ListProtocols()
+        {
+            Console.WriteLine("Managed protocols are:");
+            var codes = PlcDriverManager.Default.ProtocolCodes;
+            foreach (var item in codes)
+            {
+                Console.WriteLine(item);
             }
         }
 
