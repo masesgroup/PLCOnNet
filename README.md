@@ -30,6 +30,122 @@ Looking for the help of experts? MASES Group can help you design, build, deploy,
 
 This project aims to create a set of libraries and tools to direct access, from .NET, all the features available in the [PLC4X](https://plc4x.apache.org).
 
+<table>
+<tr>
+<th>Java</th>
+<th>C#</th>
+</tr>
+<tr>
+<td>
+  
+```java
+
+String connectionString = "s7://10.10.64.20";
+
+try (PlcConnection plcConnection = PlcDriverManager.getDefault().getConnectionManager().getConnection(connectionString)) {
+
+  ... do something with the connection here ...
+
+  // Check if this connection support reading of data.
+  if (!plcConnection.getMetadata().isReadSupported()) {
+    logger.error("This connection doesn't support reading.");
+    return;
+  }
+
+  // Create a new read request:
+  // - Give the single item requested an alias name
+  PlcReadRequest.Builder builder = plcConnection.readRequestBuilder();
+  builder.addTagAddress("value-1", "%Q0.4:BOOL");
+  builder.addTagAddress("value-2", "%Q0:BYTE");
+  builder.addTagAddress("value-3", "%I0.2:BOOL");
+  builder.addTagAddress("value-4", "%DB.DB1.4:INT");
+  PlcReadRequest readRequest = builder.build();
+
+  PlcReadResponse response = readRequest.execute().get(5000, TimeUnit.MILLISECONDS);
+
+  for (String tagName : response.getTagNames()) {
+      if(response.getResponseCode(tagName) == PlcResponseCode.OK) {
+          int numValues = response.getNumberOfValues(tagName);
+          // If it's just one element, output just one single line.
+          if(numValues == 1) {
+              logger.info("Value[" + tagName + "]: " + response.getObject(tagName));
+          }
+          // If it's more than one element, output each in a single row.
+          else {
+              logger.info("Value[" + tagName + "]:");
+              for(int i = 0; i < numValues; i++) {
+                  logger.info(" - " + response.getObject(tagName, i));
+              }
+          }
+      }
+      // Something went wrong, to output an error message instead.
+      else {
+          logger.error("Error[" + tagName + "]: " + response.getResponseCode(tagName).name());
+      }
+  }
+}
+
+```
+  
+</td>
+<td>
+
+```C#
+
+const string connectionString = "s7://10.10.64.20";
+
+using var plcConnection = PlcDriverManager.Default.ConnectionManager.GetConnection(connectionString);
+
+if (!plcConnection.Metadata.IsReadSupported())
+{
+    Console.WriteLine("This connection doesn't support reading.");
+    return;
+}
+// Create a new read request:
+// - Give the single item requested an alias name
+PlcReadRequest.Builder builder = plcConnection.ReadRequestBuilder();
+builder.AddTagAddress("value-1", "%Q0.4:BOOL");
+builder.AddTagAddress("value-2", "%Q0:BYTE");
+builder.AddTagAddress("value-3", "%I0.2:BOOL");
+builder.AddTagAddress("value-4", "%DB.DB1.4:INT");
+PlcRequest readRequest = builder.Build();
+
+var cf = readRequest.Execute<PlcReadResponse>();
+var response = cf.Get();
+
+foreach (Java.Lang.String tagName in response.TagNames)
+{
+    if (response.GetResponseCode(tagName) == PlcResponseCode.OK)
+    {
+        int numValues = response.GetNumberOfValues(tagName);
+        // If it's just one element, output just one single line.
+        if (numValues == 1)
+        {
+            Console.WriteLine($"Value[{tagName}]: {response.GetObject(tagName)}");
+        }
+        // If it's more than one element, output each in a single row.
+        else
+        {
+            Console.WriteLine($"Value[{tagName}]:");
+            for (int i = 0; i < numValues; i++)
+            {
+                Console.WriteLine($" - {response.GetObject(tagName, i)}");
+            }
+        }
+    }
+    // Something went wrong, to output an error message instead.
+    else
+    {
+        Console.WriteLine($"Error[{tagName}]: {response.GetResponseCode(tagName).Name()}");
+    }
+}
+
+```
+
+</td>
+</tr>
+</table>
+
 See [PLC4Net usage](src/documentation/articles/usage.md) for a comprehensive example.
 
 ### Community and Contribution
