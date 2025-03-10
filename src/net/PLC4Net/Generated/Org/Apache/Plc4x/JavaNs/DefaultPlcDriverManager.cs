@@ -75,7 +75,7 @@ namespace Org.Apache.Plc4x.JavaNs
     {
         #region Constructors
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/DefaultPlcDriverManager.html#org.apache.plc4x.java.DefaultPlcDriverManager(java.lang.ClassLoader)"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/DefaultPlcDriverManager.html#%3Cinit%3E(java.lang.ClassLoader)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Lang.ClassLoader"/></param>
         public DefaultPlcDriverManager(Java.Lang.ClassLoader arg0)
@@ -107,21 +107,21 @@ namespace Org.Apache.Plc4x.JavaNs
 
         #region Instance methods
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/DefaultPlcDriverManager.html#getConnectionManager--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/DefaultPlcDriverManager.html#getConnectionManager()"/> 
         /// </summary>
         public Org.Apache.Plc4x.JavaNs.Api.PlcConnectionManager ConnectionManager
         {
             get { return IExecuteWithSignature<Org.Apache.Plc4x.JavaNs.Api.PlcConnectionManager>("getConnectionManager", "()Lorg/apache/plc4x/java/api/PlcConnectionManager;"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/DefaultPlcDriverManager.html#getProtocolCodes--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/DefaultPlcDriverManager.html#getProtocolCodes()"/> 
         /// </summary>
         public Java.Util.Set<Java.Lang.String> ProtocolCodes
         {
             get { return IExecuteWithSignature<Java.Util.Set<Java.Lang.String>>("getProtocolCodes", "()Ljava/util/Set;"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/DefaultPlcDriverManager.html#getConnection-java.lang.String-org.apache.plc4x.java.api.authentication.PlcAuthentication-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/DefaultPlcDriverManager.html#getConnection(java.lang.String,org.apache.plc4x.java.api.authentication.PlcAuthentication)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Lang.String"/></param>
         /// <param name="arg1"><see cref="Org.Apache.Plc4x.JavaNs.Api.Authentication.PlcAuthentication"/></param>
@@ -132,7 +132,7 @@ namespace Org.Apache.Plc4x.JavaNs
             return IExecuteWithSignature<Org.Apache.Plc4x.JavaNs.Api.PlcConnection>("getConnection", "(Ljava/lang/String;Lorg/apache/plc4x/java/api/authentication/PlcAuthentication;)Lorg/apache/plc4x/java/api/PlcConnection;", arg0, arg1);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/DefaultPlcDriverManager.html#getConnection-java.lang.String-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/DefaultPlcDriverManager.html#getConnection(java.lang.String)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Lang.String"/></param>
         /// <returns><see cref="Org.Apache.Plc4x.JavaNs.Api.PlcConnection"/></returns>
@@ -142,7 +142,7 @@ namespace Org.Apache.Plc4x.JavaNs
             return IExecuteWithSignature<Org.Apache.Plc4x.JavaNs.Api.PlcConnection>("getConnection", "(Ljava/lang/String;)Lorg/apache/plc4x/java/api/PlcConnection;", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/DefaultPlcDriverManager.html#getDriver-java.lang.String-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/DefaultPlcDriverManager.html#getDriver(java.lang.String)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Lang.String"/></param>
         /// <returns><see cref="Org.Apache.Plc4x.JavaNs.Api.PlcDriver"/></returns>
@@ -152,7 +152,7 @@ namespace Org.Apache.Plc4x.JavaNs
             return IExecuteWithSignature<Org.Apache.Plc4x.JavaNs.Api.PlcDriver>("getDriver", "(Ljava/lang/String;)Lorg/apache/plc4x/java/api/PlcDriver;", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/DefaultPlcDriverManager.html#getDriverForUrl-java.lang.String-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/DefaultPlcDriverManager.html#getDriverForUrl(java.lang.String)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Lang.String"/></param>
         /// <returns><see cref="Org.Apache.Plc4x.JavaNs.Api.PlcDriver"/></returns>

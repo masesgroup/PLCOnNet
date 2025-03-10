@@ -141,7 +141,7 @@ namespace Org.Apache.Plc4x.JavaNs.Api.Listener
         }
 
         /// <summary>
-        /// Handler for <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/listener/ConnectionStateListener.html#connected--"/>
+        /// Handler for <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/listener/ConnectionStateListener.html#connected()"/>
         /// </summary>
         /// <remarks>If <see cref="OnConnected"/> has a value it takes precedence over corresponding class method</remarks>
         public global::System.Action OnConnected { get; set; } = null;
@@ -156,7 +156,7 @@ namespace Org.Apache.Plc4x.JavaNs.Api.Listener
         }
 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/listener/ConnectionStateListener.html#connected--"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/listener/ConnectionStateListener.html#connected()"/>
         /// </summary>
         public virtual void Connected()
         {
@@ -164,7 +164,7 @@ namespace Org.Apache.Plc4x.JavaNs.Api.Listener
         }
 
         /// <summary>
-        /// Handler for <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/listener/ConnectionStateListener.html#disconnected--"/>
+        /// Handler for <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/listener/ConnectionStateListener.html#disconnected()"/>
         /// </summary>
         /// <remarks>If <see cref="OnDisconnected"/> has a value it takes precedence over corresponding class method</remarks>
         public global::System.Action OnDisconnected { get; set; } = null;
@@ -179,7 +179,7 @@ namespace Org.Apache.Plc4x.JavaNs.Api.Listener
         }
 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/listener/ConnectionStateListener.html#disconnected--"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/listener/ConnectionStateListener.html#disconnected()"/>
         /// </summary>
         public virtual void Disconnected()
         {
@@ -217,14 +217,14 @@ namespace Org.Apache.Plc4x.JavaNs.Api.Listener
 
         #region Instance methods
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/listener/ConnectionStateListener.html#connected--"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/listener/ConnectionStateListener.html#connected()"/>
         /// </summary>
         public override void Connected()
         {
             IExecuteWithSignature("connected", "()V");
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/listener/ConnectionStateListener.html#disconnected--"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/listener/ConnectionStateListener.html#disconnected()"/>
         /// </summary>
         public override void Disconnected()
         {

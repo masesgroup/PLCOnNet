@@ -111,7 +111,7 @@ namespace Org.Apache.Plc4x.JavaNs.Api.Value
 
         #region Instance methods
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/value/PlcValueHandler.html#newPlcValue-java.lang.Object-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/value/PlcValueHandler.html#newPlcValue(java.lang.Object)"/>
         /// </summary>
         /// <param name="arg0"><see cref="object"/></param>
         /// <returns><see cref="Org.Apache.Plc4x.JavaNs.Api.Value.PlcValue"/></returns>
@@ -120,7 +120,7 @@ namespace Org.Apache.Plc4x.JavaNs.Api.Value
             return IExecuteWithSignature<Org.Apache.Plc4x.JavaNs.Api.Value.PlcValue>("newPlcValue", "(Ljava/lang/Object;)Lorg/apache/plc4x/java/api/value/PlcValue;", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/value/PlcValueHandler.html#newPlcValue-java.lang.Object[]-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/value/PlcValueHandler.html#newPlcValue(java.lang.Object[])"/>
         /// </summary>
         /// <param name="arg0"><see cref="object"/></param>
         /// <returns><see cref="Org.Apache.Plc4x.JavaNs.Api.Value.PlcValue"/></returns>
@@ -129,7 +129,7 @@ namespace Org.Apache.Plc4x.JavaNs.Api.Value
             return IExecuteWithSignature<Org.Apache.Plc4x.JavaNs.Api.Value.PlcValue>("newPlcValue", "([Ljava/lang/Object;)Lorg/apache/plc4x/java/api/value/PlcValue;", new object[] { arg0 });
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/value/PlcValueHandler.html#newPlcValue-org.apache.plc4x.java.api.model.PlcTag-java.lang.Object-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/value/PlcValueHandler.html#newPlcValue(org.apache.plc4x.java.api.model.PlcTag,java.lang.Object)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Plc4x.JavaNs.Api.Model.PlcTag"/></param>
         /// <param name="arg1"><see cref="object"/></param>
@@ -139,7 +139,7 @@ namespace Org.Apache.Plc4x.JavaNs.Api.Value
             return IExecuteWithSignature<Org.Apache.Plc4x.JavaNs.Api.Value.PlcValue>("newPlcValue", "(Lorg/apache/plc4x/java/api/model/PlcTag;Ljava/lang/Object;)Lorg/apache/plc4x/java/api/value/PlcValue;", arg0, arg1);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/value/PlcValueHandler.html#newPlcValue-org.apache.plc4x.java.api.model.PlcTag-java.lang.Object[]-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/value/PlcValueHandler.html#newPlcValue(org.apache.plc4x.java.api.model.PlcTag,java.lang.Object[])"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Plc4x.JavaNs.Api.Model.PlcTag"/></param>
         /// <param name="arg1"><see cref="object"/></param>

@@ -75,7 +75,7 @@ namespace Org.Apache.Plc4x.JavaNs.Opcuaserver.Configuration
     {
         #region Constructors
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4x-opcua-server/0.12.0/org/apache/plc4x/java/opcuaserver/configuration/User.html#org.apache.plc4x.java.opcuaserver.configuration.User(java.lang.String,java.lang.String,java.lang.String)"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4x-opcua-server/0.12.0/org/apache/plc4x/java/opcuaserver/configuration/User.html#%3Cinit%3E(java.lang.String,java.lang.String,java.lang.String)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Lang.String"/></param>
         /// <param name="arg1"><see cref="Java.Lang.String"/></param>
@@ -101,21 +101,21 @@ namespace Org.Apache.Plc4x.JavaNs.Opcuaserver.Configuration
 
         #region Instance methods
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4x-opcua-server/0.12.0/org/apache/plc4x/java/opcuaserver/configuration/User.html#getSecurity--"/> <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4x-opcua-server/0.12.0/org/apache/plc4x/java/opcuaserver/configuration/User.html#setSecurity-java.lang.String-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4x-opcua-server/0.12.0/org/apache/plc4x/java/opcuaserver/configuration/User.html#getSecurity()"/> <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4x-opcua-server/0.12.0/org/apache/plc4x/java/opcuaserver/configuration/User.html#setSecurity(java.lang.String)"/>
         /// </summary>
         public Java.Lang.String Security
         {
             get { return IExecuteWithSignature<Java.Lang.String>("getSecurity", "()Ljava/lang/String;"); } set { IExecuteWithSignature("setSecurity", "(Ljava/lang/String;)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4x-opcua-server/0.12.0/org/apache/plc4x/java/opcuaserver/configuration/User.html#getUsername--"/> <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4x-opcua-server/0.12.0/org/apache/plc4x/java/opcuaserver/configuration/User.html#setUsername-java.lang.String-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4x-opcua-server/0.12.0/org/apache/plc4x/java/opcuaserver/configuration/User.html#getUsername()"/> <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4x-opcua-server/0.12.0/org/apache/plc4x/java/opcuaserver/configuration/User.html#setUsername(java.lang.String)"/>
         /// </summary>
         public Java.Lang.String Username
         {
             get { return IExecuteWithSignature<Java.Lang.String>("getUsername", "()Ljava/lang/String;"); } set { IExecuteWithSignature("setUsername", "(Ljava/lang/String;)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4x-opcua-server/0.12.0/org/apache/plc4x/java/opcuaserver/configuration/User.html#checkPassword-java.lang.String-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4x-opcua-server/0.12.0/org/apache/plc4x/java/opcuaserver/configuration/User.html#checkPassword(java.lang.String)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Lang.String"/></param>
         /// <returns><see cref="bool"/></returns>
@@ -124,7 +124,7 @@ namespace Org.Apache.Plc4x.JavaNs.Opcuaserver.Configuration
             return IExecuteWithSignature<bool>("checkPassword", "(Ljava/lang/String;)Z", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4x-opcua-server/0.12.0/org/apache/plc4x/java/opcuaserver/configuration/User.html#setPassword-java.lang.String-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4x-opcua-server/0.12.0/org/apache/plc4x/java/opcuaserver/configuration/User.html#setPassword(java.lang.String)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Lang.String"/></param>
         public void SetPassword(Java.Lang.String arg0)

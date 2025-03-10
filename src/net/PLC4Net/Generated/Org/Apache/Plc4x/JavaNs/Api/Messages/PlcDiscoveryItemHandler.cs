@@ -111,7 +111,7 @@ namespace Org.Apache.Plc4x.JavaNs.Api.Messages
 
         #region Instance methods
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcDiscoveryItemHandler.html#handle-org.apache.plc4x.java.api.messages.PlcDiscoveryItem-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcDiscoveryItemHandler.html#handle(org.apache.plc4x.java.api.messages.PlcDiscoveryItem)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Plc4x.JavaNs.Api.Messages.PlcDiscoveryItem"/></param>
         public void Handle(Org.Apache.Plc4x.JavaNs.Api.Messages.PlcDiscoveryItem arg0)

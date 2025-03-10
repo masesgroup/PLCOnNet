@@ -111,35 +111,35 @@ namespace Org.Apache.Plc4x.JavaNs.Api.Metadata
 
         #region Instance methods
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/metadata/Option.html#getDefaultValue--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/metadata/Option.html#getDefaultValue()"/> 
         /// </summary>
         public Java.Util.Optional<object> DefaultValue
         {
             get { return IExecuteWithSignature<Java.Util.Optional<object>>("getDefaultValue", "()Ljava/util/Optional;"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/metadata/Option.html#getDescription--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/metadata/Option.html#getDescription()"/> 
         /// </summary>
         public Java.Lang.String Description
         {
             get { return IExecuteWithSignature<Java.Lang.String>("getDescription", "()Ljava/lang/String;"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/metadata/Option.html#getKey--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/metadata/Option.html#getKey()"/> 
         /// </summary>
         public Java.Lang.String Key
         {
             get { return IExecuteWithSignature<Java.Lang.String>("getKey", "()Ljava/lang/String;"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/metadata/Option.html#getType--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/metadata/Option.html#getType()"/> 
         /// </summary>
         public Org.Apache.Plc4x.JavaNs.Api.Types.OptionType Type
         {
             get { return IExecuteWithSignature<Org.Apache.Plc4x.JavaNs.Api.Types.OptionType>("getType", "()Lorg/apache/plc4x/java/api/types/OptionType;"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/metadata/Option.html#isRequired--"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/metadata/Option.html#isRequired()"/>
         /// </summary>
         /// <returns><see cref="bool"/></returns>
         public bool IsRequired()

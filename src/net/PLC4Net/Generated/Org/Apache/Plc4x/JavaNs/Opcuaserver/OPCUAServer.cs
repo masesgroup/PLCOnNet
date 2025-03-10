@@ -75,7 +75,7 @@ namespace Org.Apache.Plc4x.JavaNs.Opcuaserver
     {
         #region Constructors
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4x-opcua-server/0.12.0/org/apache/plc4x/java/opcuaserver/OPCUAServer.html#org.apache.plc4x.java.opcuaserver.OPCUAServer(java.lang.String[])"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4x-opcua-server/0.12.0/org/apache/plc4x/java/opcuaserver/OPCUAServer.html#%3Cinit%3E(java.lang.String[])"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Lang.String"/></param>
         /// <exception cref="Java.Lang.Exception"/>
@@ -96,7 +96,7 @@ namespace Org.Apache.Plc4x.JavaNs.Opcuaserver
 
         #region Static methods
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4x-opcua-server/0.12.0/org/apache/plc4x/java/opcuaserver/OPCUAServer.html#main-java.lang.String[]-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4x-opcua-server/0.12.0/org/apache/plc4x/java/opcuaserver/OPCUAServer.html#main(java.lang.String[])"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Lang.String"/></param>
         /// <exception cref="Java.Lang.Exception"/>

@@ -141,7 +141,7 @@ namespace Org.Apache.Plc4x.JavaNs.Api.Listener
         }
 
         /// <summary>
-        /// Handler for <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/listener/MessageExchangeListener.html#received-java.lang.Object-"/>
+        /// Handler for <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/listener/MessageExchangeListener.html#received(java.lang.Object)"/>
         /// </summary>
         /// <remarks>If <see cref="OnReceived"/> has a value it takes precedence over corresponding class method</remarks>
         public global::System.Action<object> OnReceived { get; set; } = null;
@@ -156,7 +156,7 @@ namespace Org.Apache.Plc4x.JavaNs.Api.Listener
         }
 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/listener/MessageExchangeListener.html#received-java.lang.Object-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/listener/MessageExchangeListener.html#received(java.lang.Object)"/>
         /// </summary>
         /// <param name="arg0"><see cref="object"/></param>
         public virtual void Received(object arg0)
@@ -165,7 +165,7 @@ namespace Org.Apache.Plc4x.JavaNs.Api.Listener
         }
 
         /// <summary>
-        /// Handler for <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/listener/MessageExchangeListener.html#sending-java.lang.Object-"/>
+        /// Handler for <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/listener/MessageExchangeListener.html#sending(java.lang.Object)"/>
         /// </summary>
         /// <remarks>If <see cref="OnSending"/> has a value it takes precedence over corresponding class method</remarks>
         public global::System.Action<object> OnSending { get; set; } = null;
@@ -180,7 +180,7 @@ namespace Org.Apache.Plc4x.JavaNs.Api.Listener
         }
 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/listener/MessageExchangeListener.html#sending-java.lang.Object-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/listener/MessageExchangeListener.html#sending(java.lang.Object)"/>
         /// </summary>
         /// <param name="arg0"><see cref="object"/></param>
         public virtual void Sending(object arg0)
@@ -219,7 +219,7 @@ namespace Org.Apache.Plc4x.JavaNs.Api.Listener
 
         #region Instance methods
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/listener/MessageExchangeListener.html#received-java.lang.Object-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/listener/MessageExchangeListener.html#received(java.lang.Object)"/>
         /// </summary>
         /// <param name="arg0"><see cref="object"/></param>
         public override void Received(object arg0)
@@ -227,7 +227,7 @@ namespace Org.Apache.Plc4x.JavaNs.Api.Listener
             IExecuteWithSignature("received", "(Ljava/lang/Object;)V", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/listener/MessageExchangeListener.html#sending-java.lang.Object-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/listener/MessageExchangeListener.html#sending(java.lang.Object)"/>
         /// </summary>
         /// <param name="arg0"><see cref="object"/></param>
         public override void Sending(object arg0)

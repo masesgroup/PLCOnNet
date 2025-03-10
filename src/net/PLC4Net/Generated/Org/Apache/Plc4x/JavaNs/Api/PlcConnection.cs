@@ -111,14 +111,14 @@ namespace Org.Apache.Plc4x.JavaNs.Api
 
         #region Instance methods
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/PlcConnection.html#getMetadata--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/PlcConnection.html#getMetadata()"/> 
         /// </summary>
         public Org.Apache.Plc4x.JavaNs.Api.Metadata.PlcConnectionMetadata Metadata
         {
             get { return IExecuteWithSignature<Org.Apache.Plc4x.JavaNs.Api.Metadata.PlcConnectionMetadata>("getMetadata", "()Lorg/apache/plc4x/java/api/metadata/PlcConnectionMetadata;"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/PlcConnection.html#isConnected--"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/PlcConnection.html#isConnected()"/>
         /// </summary>
         /// <returns><see cref="bool"/></returns>
         public bool IsConnected()
@@ -126,7 +126,7 @@ namespace Org.Apache.Plc4x.JavaNs.Api
             return IExecuteWithSignature<bool>("isConnected", "()Z");
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/PlcConnection.html#ping--"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/PlcConnection.html#ping()"/>
         /// </summary>
         /// <typeparam name="ReturnExtendsOrg_Apache_Plc4x_JavaNs_Api_Messages_PlcPingResponse"><see cref="Org.Apache.Plc4x.JavaNs.Api.Messages.PlcPingResponse"/></typeparam>
         /// <returns><see cref="Java.Util.Concurrent.CompletableFuture"/></returns>
@@ -135,7 +135,7 @@ namespace Org.Apache.Plc4x.JavaNs.Api
             return IExecuteWithSignature<Java.Util.Concurrent.CompletableFuture<ReturnExtendsOrg_Apache_Plc4x_JavaNs_Api_Messages_PlcPingResponse>>("ping", "()Ljava/util/concurrent/CompletableFuture;");
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/PlcConnection.html#browseRequestBuilder--"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/PlcConnection.html#browseRequestBuilder()"/>
         /// </summary>
         /// <returns><see cref="Org.Apache.Plc4x.JavaNs.Api.Messages.PlcBrowseRequest.Builder"/></returns>
         public Org.Apache.Plc4x.JavaNs.Api.Messages.PlcBrowseRequest.Builder BrowseRequestBuilder()
@@ -143,7 +143,7 @@ namespace Org.Apache.Plc4x.JavaNs.Api
             return IExecuteWithSignature<Org.Apache.Plc4x.JavaNs.Api.Messages.PlcBrowseRequest.Builder>("browseRequestBuilder", "()Lorg/apache/plc4x/java/api/messages/PlcBrowseRequest$Builder;");
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/PlcConnection.html#readRequestBuilder--"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/PlcConnection.html#readRequestBuilder()"/>
         /// </summary>
         /// <returns><see cref="Org.Apache.Plc4x.JavaNs.Api.Messages.PlcReadRequest.Builder"/></returns>
         public Org.Apache.Plc4x.JavaNs.Api.Messages.PlcReadRequest.Builder ReadRequestBuilder()
@@ -151,7 +151,7 @@ namespace Org.Apache.Plc4x.JavaNs.Api
             return IExecuteWithSignature<Org.Apache.Plc4x.JavaNs.Api.Messages.PlcReadRequest.Builder>("readRequestBuilder", "()Lorg/apache/plc4x/java/api/messages/PlcReadRequest$Builder;");
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/PlcConnection.html#subscriptionRequestBuilder--"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/PlcConnection.html#subscriptionRequestBuilder()"/>
         /// </summary>
         /// <returns><see cref="Org.Apache.Plc4x.JavaNs.Api.Messages.PlcSubscriptionRequest.Builder"/></returns>
         public Org.Apache.Plc4x.JavaNs.Api.Messages.PlcSubscriptionRequest.Builder SubscriptionRequestBuilder()
@@ -159,7 +159,7 @@ namespace Org.Apache.Plc4x.JavaNs.Api
             return IExecuteWithSignature<Org.Apache.Plc4x.JavaNs.Api.Messages.PlcSubscriptionRequest.Builder>("subscriptionRequestBuilder", "()Lorg/apache/plc4x/java/api/messages/PlcSubscriptionRequest$Builder;");
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/PlcConnection.html#unsubscriptionRequestBuilder--"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/PlcConnection.html#unsubscriptionRequestBuilder()"/>
         /// </summary>
         /// <returns><see cref="Org.Apache.Plc4x.JavaNs.Api.Messages.PlcUnsubscriptionRequest.Builder"/></returns>
         public Org.Apache.Plc4x.JavaNs.Api.Messages.PlcUnsubscriptionRequest.Builder UnsubscriptionRequestBuilder()
@@ -167,7 +167,7 @@ namespace Org.Apache.Plc4x.JavaNs.Api
             return IExecuteWithSignature<Org.Apache.Plc4x.JavaNs.Api.Messages.PlcUnsubscriptionRequest.Builder>("unsubscriptionRequestBuilder", "()Lorg/apache/plc4x/java/api/messages/PlcUnsubscriptionRequest$Builder;");
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/PlcConnection.html#writeRequestBuilder--"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/PlcConnection.html#writeRequestBuilder()"/>
         /// </summary>
         /// <returns><see cref="Org.Apache.Plc4x.JavaNs.Api.Messages.PlcWriteRequest.Builder"/></returns>
         public Org.Apache.Plc4x.JavaNs.Api.Messages.PlcWriteRequest.Builder WriteRequestBuilder()
@@ -175,7 +175,7 @@ namespace Org.Apache.Plc4x.JavaNs.Api
             return IExecuteWithSignature<Org.Apache.Plc4x.JavaNs.Api.Messages.PlcWriteRequest.Builder>("writeRequestBuilder", "()Lorg/apache/plc4x/java/api/messages/PlcWriteRequest$Builder;");
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/PlcConnection.html#close--"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/PlcConnection.html#close()"/>
         /// </summary>
         /// <exception cref="Java.Lang.Exception"/>
         public void Close()
@@ -183,7 +183,7 @@ namespace Org.Apache.Plc4x.JavaNs.Api
             IExecuteWithSignature("close", "()V");
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/PlcConnection.html#connect--"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/PlcConnection.html#connect()"/>
         /// </summary>
         /// <exception cref="Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcConnectionException"/>
         public void Connect()

@@ -75,7 +75,7 @@ namespace Org.Apache.Plc4x.JavaNs.Opcuaserver.Context
     {
         #region Constructors
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4x-opcua-server/0.12.0/org/apache/plc4x/java/opcuaserver/context/CertificateKeyPair.html#org.apache.plc4x.java.opcuaserver.context.CertificateKeyPair(java.security.KeyPair,java.security.cert.X509Certificate)"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4x-opcua-server/0.12.0/org/apache/plc4x/java/opcuaserver/context/CertificateKeyPair.html#%3Cinit%3E(java.security.KeyPair,java.security.cert.X509Certificate)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Security.KeyPair"/></param>
         /// <param name="arg1"><see cref="Java.Security.Cert.X509Certificate"/></param>
@@ -100,14 +100,14 @@ namespace Org.Apache.Plc4x.JavaNs.Opcuaserver.Context
 
         #region Instance methods
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4x-opcua-server/0.12.0/org/apache/plc4x/java/opcuaserver/context/CertificateKeyPair.html#getCertificate--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4x-opcua-server/0.12.0/org/apache/plc4x/java/opcuaserver/context/CertificateKeyPair.html#getCertificate()"/> 
         /// </summary>
         public Java.Security.Cert.X509Certificate Certificate
         {
             get { return IExecuteWithSignature<Java.Security.Cert.X509Certificate>("getCertificate", "()Ljava/security/cert/X509Certificate;"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4x-opcua-server/0.12.0/org/apache/plc4x/java/opcuaserver/context/CertificateKeyPair.html#getKeyPair--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4x-opcua-server/0.12.0/org/apache/plc4x/java/opcuaserver/context/CertificateKeyPair.html#getKeyPair()"/> 
         /// </summary>
         public Java.Security.KeyPair KeyPair
         {

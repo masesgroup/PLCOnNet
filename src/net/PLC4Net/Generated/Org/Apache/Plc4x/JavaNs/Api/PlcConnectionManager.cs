@@ -111,7 +111,7 @@ namespace Org.Apache.Plc4x.JavaNs.Api
 
         #region Instance methods
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/PlcConnectionManager.html#getConnection-java.lang.String-org.apache.plc4x.java.api.authentication.PlcAuthentication-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/PlcConnectionManager.html#getConnection(java.lang.String,org.apache.plc4x.java.api.authentication.PlcAuthentication)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Lang.String"/></param>
         /// <param name="arg1"><see cref="Org.Apache.Plc4x.JavaNs.Api.Authentication.PlcAuthentication"/></param>
@@ -122,7 +122,7 @@ namespace Org.Apache.Plc4x.JavaNs.Api
             return IExecuteWithSignature<Org.Apache.Plc4x.JavaNs.Api.PlcConnection>("getConnection", "(Ljava/lang/String;Lorg/apache/plc4x/java/api/authentication/PlcAuthentication;)Lorg/apache/plc4x/java/api/PlcConnection;", arg0, arg1);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/PlcConnectionManager.html#getConnection-java.lang.String-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/PlcConnectionManager.html#getConnection(java.lang.String)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Lang.String"/></param>
         /// <returns><see cref="Org.Apache.Plc4x.JavaNs.Api.PlcConnection"/></returns>

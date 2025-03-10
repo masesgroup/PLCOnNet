@@ -111,21 +111,21 @@ namespace Org.Apache.Plc4x.JavaNs.Api.Model
 
         #region Instance methods
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/model/PlcConsumerRegistration.html#getConsumerId--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/model/PlcConsumerRegistration.html#getConsumerId()"/> 
         /// </summary>
         public Java.Lang.Integer ConsumerId
         {
             get { return IExecuteWithSignature<Java.Lang.Integer>("getConsumerId", "()Ljava/lang/Integer;"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/model/PlcConsumerRegistration.html#getSubscriptionHandles--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/model/PlcConsumerRegistration.html#getSubscriptionHandles()"/> 
         /// </summary>
         public Java.Util.List<Org.Apache.Plc4x.JavaNs.Api.Model.PlcSubscriptionHandle> SubscriptionHandles
         {
             get { return IExecuteWithSignature<Java.Util.List<Org.Apache.Plc4x.JavaNs.Api.Model.PlcSubscriptionHandle>>("getSubscriptionHandles", "()Ljava/util/List;"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/model/PlcConsumerRegistration.html#unregister--"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/model/PlcConsumerRegistration.html#unregister()"/>
         /// </summary>
         public void Unregister()
         {

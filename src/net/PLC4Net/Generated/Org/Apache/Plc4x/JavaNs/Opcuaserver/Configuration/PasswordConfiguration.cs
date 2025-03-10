@@ -91,14 +91,14 @@ namespace Org.Apache.Plc4x.JavaNs.Opcuaserver.Configuration
 
         #region Instance methods
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4x-opcua-server/0.12.0/org/apache/plc4x/java/opcuaserver/configuration/PasswordConfiguration.html#getSecurityPassword--"/> <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4x-opcua-server/0.12.0/org/apache/plc4x/java/opcuaserver/configuration/PasswordConfiguration.html#setSecurityPassword-java.lang.String-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4x-opcua-server/0.12.0/org/apache/plc4x/java/opcuaserver/configuration/PasswordConfiguration.html#getSecurityPassword()"/> <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4x-opcua-server/0.12.0/org/apache/plc4x/java/opcuaserver/configuration/PasswordConfiguration.html#setSecurityPassword(java.lang.String)"/>
         /// </summary>
         public Java.Lang.String SecurityPassword
         {
             get { return IExecuteWithSignature<Java.Lang.String>("getSecurityPassword", "()Ljava/lang/String;"); } set { IExecuteWithSignature("setSecurityPassword", "(Ljava/lang/String;)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4x-opcua-server/0.12.0/org/apache/plc4x/java/opcuaserver/configuration/PasswordConfiguration.html#checkPassword-java.lang.String-java.lang.String-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4x-opcua-server/0.12.0/org/apache/plc4x/java/opcuaserver/configuration/PasswordConfiguration.html#checkPassword(java.lang.String,java.lang.String)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Lang.String"/></param>
         /// <param name="arg1"><see cref="Java.Lang.String"/></param>
@@ -108,7 +108,7 @@ namespace Org.Apache.Plc4x.JavaNs.Opcuaserver.Configuration
             return IExecuteWithSignature<bool>("checkPassword", "(Ljava/lang/String;Ljava/lang/String;)Z", arg0, arg1);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4x-opcua-server/0.12.0/org/apache/plc4x/java/opcuaserver/configuration/PasswordConfiguration.html#createUser-java.lang.String-java.lang.String-java.lang.String-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4x-opcua-server/0.12.0/org/apache/plc4x/java/opcuaserver/configuration/PasswordConfiguration.html#createUser(java.lang.String,java.lang.String,java.lang.String)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Lang.String"/></param>
         /// <param name="arg1"><see cref="Java.Lang.String"/></param>
@@ -119,7 +119,7 @@ namespace Org.Apache.Plc4x.JavaNs.Opcuaserver.Configuration
             IExecuteWithSignature("createUser", "(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V", arg0, arg1, arg2);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4x-opcua-server/0.12.0/org/apache/plc4x/java/opcuaserver/configuration/PasswordConfiguration.html#setPasswordConfigFile-java.nio.file.Path-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4x-opcua-server/0.12.0/org/apache/plc4x/java/opcuaserver/configuration/PasswordConfiguration.html#setPasswordConfigFile(java.nio.file.Path)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Nio.File.Path"/></param>
         public void SetPasswordConfigFile(Java.Nio.File.Path arg0)
@@ -127,7 +127,7 @@ namespace Org.Apache.Plc4x.JavaNs.Opcuaserver.Configuration
             IExecuteWithSignature("setPasswordConfigFile", "(Ljava/nio/file/Path;)V", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4x-opcua-server/0.12.0/org/apache/plc4x/java/opcuaserver/configuration/PasswordConfiguration.html#setVersion-java.lang.String-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4x-opcua-server/0.12.0/org/apache/plc4x/java/opcuaserver/configuration/PasswordConfiguration.html#setVersion(java.lang.String)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Lang.String"/></param>
         public void SetVersion(Java.Lang.String arg0)

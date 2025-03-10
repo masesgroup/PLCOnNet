@@ -111,7 +111,7 @@ namespace Org.Apache.Plc4x.JavaNs.Api.Model
 
         #region Instance methods
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/model/PlcSubscriptionHandle.html#register-java.util.function.Consumer-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/model/PlcSubscriptionHandle.html#register(java.util.function.Consumer)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Util.Function.Consumer"/></param>
         /// <returns><see cref="Org.Apache.Plc4x.JavaNs.Api.Model.PlcConsumerRegistration"/></returns>

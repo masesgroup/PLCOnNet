@@ -111,21 +111,21 @@ namespace Org.Apache.Plc4x.JavaNs.Api.Messages
 
         #region Instance methods
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcSubscriptionResponse.html#getRequest--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcSubscriptionResponse.html#getRequest()"/> 
         /// </summary>
         public Org.Apache.Plc4x.JavaNs.Api.Messages.PlcSubscriptionTagRequest Request
         {
             get { return IExecuteWithSignature<Org.Apache.Plc4x.JavaNs.Api.Messages.PlcSubscriptionTagRequest>("getRequest", "()Lorg/apache/plc4x/java/api/messages/PlcSubscriptionTagRequest;"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcSubscriptionResponse.html#getSubscriptionHandles--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcSubscriptionResponse.html#getSubscriptionHandles()"/> 
         /// </summary>
         public Java.Util.Collection<Org.Apache.Plc4x.JavaNs.Api.Model.PlcSubscriptionHandle> SubscriptionHandles
         {
             get { return IExecuteWithSignature<Java.Util.Collection<Org.Apache.Plc4x.JavaNs.Api.Model.PlcSubscriptionHandle>>("getSubscriptionHandles", "()Ljava/util/Collection;"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcSubscriptionResponse.html#getSubscriptionHandle-java.lang.String-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcSubscriptionResponse.html#getSubscriptionHandle(java.lang.String)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Lang.String"/></param>
         /// <returns><see cref="Org.Apache.Plc4x.JavaNs.Api.Model.PlcSubscriptionHandle"/></returns>
