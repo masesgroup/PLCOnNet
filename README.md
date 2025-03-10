@@ -33,18 +33,11 @@ And, still in [PLC4X protocols page](https://plc4x.apache.org/plc4x/latest/users
 This project mutuated the name of the PLC4X support for .NET and implements almost all Java classes in .NET giving to a developer the same programming experience of Java. 
 The following snippets demonstrate the comparison between the [Java code](https://plc4x.apache.org/plc4x/latest/users/getting-started/plc4j.html) and the C# counterpart offered from this project.
 
-1. Initialization
+### Initialization
 
-<table>
-<tr>
-<th>Java</th>
-<th>C#</th>
-</tr>
-<tr>
-<td>
-  
+**Try-with-resource** statement:
+
 ```java
-
 String cString = "s7://10.10.64.20";
 PlcConnection plcConnection = null;
 try (plcConnection = PlcDriverManager.getDefault()
@@ -54,12 +47,10 @@ try (plcConnection = PlcDriverManager.getDefault()
   ... do something with the connection here ...
 }
 ```
-  
-</td>
-<td>
+
+becomes a `using` clause:
 
 ```C#
-
 const string cString = "s7://10.10.64.20";
 
 using (var plcConnection = PlcDriverManager.Default
@@ -70,63 +61,33 @@ using (var plcConnection = PlcDriverManager.Default
 }
 ```
 
-</td>
-</tr>
-</table>
+### Check supported feature
 
-2. Check supported feature
+The following Java snippet:
 
-<table>
-<tr>
-<th>Java</th>
-<th>C#</th>
-</tr>
-<tr>
-<td>
-  
 ```java
-
 // Check if this connection support reading of data.
-if (!plcConnection.getMetadata()
-                  .isReadSupported()) {
-  logger.error("This connection doesn't" + 
-               " support reading.");
+if (!plcConnection.getMetadata().isReadSupported()) {
+  logger.error("This connection doesn't support reading.");
   return;
 }
-
 ```
-  
-</td>
-<td>
+
+becomes in C#:
 
 ```C#
-
-if (!plcConnection.Metadata
-                  .IsReadSupported())
+if (!plcConnection.Metadata.IsReadSupported())
 {
-    Console.WriteLine("This connection doesn't" +
-                      " support reading.");
+    Console.WriteLine("This connection doesn't support reading.");
     return;
 }
-
 ```
 
-</td>
-</tr>
-</table>
+### Prepare request
 
-3. Prepare request
+The following Java snippet:
 
-<table>
-<tr>
-<th>Java</th>
-<th>C#</th>
-</tr>
-<tr>
-<td>
-  
 ```java
-
 // Create a new read request:
 // - Give the single item requested an alias name
 PlcReadRequest.Builder builder = plcConnection.readRequestBuilder();
@@ -136,16 +97,12 @@ builder.addTagAddress("value-3", "%I0.2:BOOL");
 builder.addTagAddress("value-4", "%DB.DB1.4:INT");
 PlcReadRequest readRequest = builder.build();
 
-PlcReadResponse response = readRequest.execute()
-                                      .get(5000, TimeUnit.MILLISECONDS);
+PlcReadResponse response = readRequest.execute().get(5000, TimeUnit.MILLISECONDS);
 
 ```
-  
-</td>
-<td>
+becomes in C#:
 
 ```C#
-
 // Create a new read request:
 // - Give the single item requested an alias name
 PlcReadRequest.Builder builder = plcConnection.ReadRequestBuilder();
@@ -161,22 +118,12 @@ var response = cf.Get();
 
 ```
 
-</td>
-</tr>
-</table>
 
-4. Read information
+4. Analyze returned information
 
-<table>
-<tr>
-<th>Java</th>
-<th>C#</th>
-</tr>
-<tr>
-<td>
-  
+The following Java snippet:
+
 ```java
-
 for (String tagName : response.getTagNames()) {
     if(response.getResponseCode(tagName) == PlcResponseCode.OK) {
         int numValues = response.getNumberOfValues(tagName);
@@ -199,14 +146,10 @@ for (String tagName : response.getTagNames()) {
                      + response.getResponseCode(tagName).name());
     }
 }
-
 ```
-  
-</td>
-<td>
+becomes in C#:
 
 ```C#
-
 foreach (Java.Lang.String tagName in response.TagNames)
 {
     if (response.GetResponseCode(tagName) == PlcResponseCode.OK)
@@ -233,13 +176,7 @@ foreach (Java.Lang.String tagName in response.TagNames)
         Console.WriteLine($"Error[{tagName}]: {response.GetResponseCode(tagName).Name()}");
     }
 }
-
 ```
-
-</td>
-</tr>
-</table>
-
 
 See [PLC4Net usage](src/documentation/articles/usage.md) for other examples.
 
