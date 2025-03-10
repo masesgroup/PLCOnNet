@@ -75,7 +75,7 @@ namespace Org.Apache.Plc4x.JavaNs.Api.Authentication
     {
         #region Constructors
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/authentication/PlcUsernamePasswordAuthentication.html#org.apache.plc4x.java.api.authentication.PlcUsernamePasswordAuthentication(java.lang.String,java.lang.String)"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/authentication/PlcUsernamePasswordAuthentication.html#%3Cinit%3E(java.lang.String,java.lang.String)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Lang.String"/></param>
         /// <param name="arg1"><see cref="Java.Lang.String"/></param>
@@ -100,14 +100,14 @@ namespace Org.Apache.Plc4x.JavaNs.Api.Authentication
 
         #region Instance methods
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/authentication/PlcUsernamePasswordAuthentication.html#getPassword--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/authentication/PlcUsernamePasswordAuthentication.html#getPassword()"/> 
         /// </summary>
         public Java.Lang.String Password
         {
             get { return IExecuteWithSignature<Java.Lang.String>("getPassword", "()Ljava/lang/String;"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/authentication/PlcUsernamePasswordAuthentication.html#getUsername--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/authentication/PlcUsernamePasswordAuthentication.html#getUsername()"/> 
         /// </summary>
         public Java.Lang.String Username
         {

@@ -133,7 +133,7 @@ namespace Org.Apache.Plc4x.JavaNs.Opcuaserver.Context
 
         #region Static methods
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4x-opcua-server/0.12.0/org/apache/plc4x/java/opcuaserver/context/CertificateGenerator.html#generateCertificate--"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4x-opcua-server/0.12.0/org/apache/plc4x/java/opcuaserver/context/CertificateGenerator.html#generateCertificate()"/>
         /// </summary>
         /// <returns><see cref="Org.Apache.Plc4x.JavaNs.Opcuaserver.Context.CertificateKeyPair"/></returns>
         public static Org.Apache.Plc4x.JavaNs.Opcuaserver.Context.CertificateKeyPair GenerateCertificate()
@@ -176,7 +176,7 @@ namespace Org.Apache.Plc4x.JavaNs.Opcuaserver.Context
 
         #region Static methods
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4x-opcua-server/0.12.0/org/apache/plc4x/java/opcuaserver/context/CertificateGenerator.html#generateCertificate--"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4x-opcua-server/0.12.0/org/apache/plc4x/java/opcuaserver/context/CertificateGenerator.html#generateCertificate()"/>
         /// </summary>
         /// <returns><see cref="Org.Apache.Plc4x.JavaNs.Opcuaserver.Context.CertificateKeyPair"/></returns>
         public static Org.Apache.Plc4x.JavaNs.Opcuaserver.Context.CertificateKeyPair GenerateCertificate()

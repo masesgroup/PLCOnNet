@@ -158,7 +158,7 @@ namespace Org.Apache.Plc4x.JavaNs.Api.Messages
 
         #region Instance methods
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcReadRequest.html#execute--"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcReadRequest.html#execute()"/>
         /// </summary>
         /// <typeparam name="ReturnExtendsOrg_Apache_Plc4x_JavaNs_Api_Messages_PlcReadResponse"><see cref="Org.Apache.Plc4x.JavaNs.Api.Messages.PlcReadResponse"/></typeparam>
         /// <returns><see cref="Java.Util.Concurrent.CompletableFuture"/></returns>
@@ -191,7 +191,7 @@ namespace Org.Apache.Plc4x.JavaNs.Api.Messages
 
             #region Instance methods
             /// <summary>
-            /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcReadRequest.Builder.html#addTag-java.lang.String-org.apache.plc4x.java.api.model.PlcTag-"/>
+            /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcReadRequest.Builder.html#addTag(java.lang.String,org.apache.plc4x.java.api.model.PlcTag)"/>
             /// </summary>
             /// <param name="arg0"><see cref="Java.Lang.String"/></param>
             /// <param name="arg1"><see cref="Org.Apache.Plc4x.JavaNs.Api.Model.PlcTag"/></param>
@@ -201,7 +201,7 @@ namespace Org.Apache.Plc4x.JavaNs.Api.Messages
                 return IExecuteWithSignature<Org.Apache.Plc4x.JavaNs.Api.Messages.PlcReadRequest.Builder>("addTag", "(Ljava/lang/String;Lorg/apache/plc4x/java/api/model/PlcTag;)Lorg/apache/plc4x/java/api/messages/PlcReadRequest$Builder;", arg0, arg1);
             }
             /// <summary>
-            /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcReadRequest.Builder.html#addTagAddress-java.lang.String-java.lang.String-"/>
+            /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcReadRequest.Builder.html#addTagAddress(java.lang.String,java.lang.String)"/>
             /// </summary>
             /// <param name="arg0"><see cref="Java.Lang.String"/></param>
             /// <param name="arg1"><see cref="Java.Lang.String"/></param>
@@ -211,7 +211,7 @@ namespace Org.Apache.Plc4x.JavaNs.Api.Messages
                 return IExecuteWithSignature<Org.Apache.Plc4x.JavaNs.Api.Messages.PlcReadRequest.Builder>("addTagAddress", "(Ljava/lang/String;Ljava/lang/String;)Lorg/apache/plc4x/java/api/messages/PlcReadRequest$Builder;", arg0, arg1);
             }
             /// <summary>
-            /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcReadRequest.Builder.html#build--"/>
+            /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcReadRequest.Builder.html#build()"/>
             /// </summary>
             /// <returns><see cref="Org.Apache.Plc4x.JavaNs.Api.Messages.PlcRequest"/></returns>
             public Org.Apache.Plc4x.JavaNs.Api.Messages.PlcRequest Build()

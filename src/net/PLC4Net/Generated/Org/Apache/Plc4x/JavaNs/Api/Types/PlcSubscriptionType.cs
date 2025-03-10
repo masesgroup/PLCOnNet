@@ -105,7 +105,7 @@ namespace Org.Apache.Plc4x.JavaNs.Api.Types
 
         #region Static methods
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/types/PlcSubscriptionType.html#isDefined-short-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/types/PlcSubscriptionType.html#isDefined(short)"/>
         /// </summary>
         /// <param name="arg0"><see cref="short"/></param>
         /// <returns><see cref="Java.Lang.Boolean"/></returns>
@@ -114,7 +114,7 @@ namespace Org.Apache.Plc4x.JavaNs.Api.Types
             return SExecuteWithSignature<Java.Lang.Boolean>(LocalBridgeClazz, "isDefined", "(S)Ljava/lang/Boolean;", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/types/PlcSubscriptionType.html#enumForValue-short-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/types/PlcSubscriptionType.html#enumForValue(short)"/>
         /// </summary>
         /// <param name="arg0"><see cref="short"/></param>
         /// <returns><see cref="Org.Apache.Plc4x.JavaNs.Api.Types.PlcSubscriptionType"/></returns>
@@ -123,7 +123,7 @@ namespace Org.Apache.Plc4x.JavaNs.Api.Types
             return SExecuteWithSignature<Org.Apache.Plc4x.JavaNs.Api.Types.PlcSubscriptionType>(LocalBridgeClazz, "enumForValue", "(S)Lorg/apache/plc4x/java/api/types/PlcSubscriptionType;", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/types/PlcSubscriptionType.html#valueOf-java.lang.String-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/types/PlcSubscriptionType.html#valueOf(java.lang.String)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Lang.String"/></param>
         /// <returns><see cref="Org.Apache.Plc4x.JavaNs.Api.Types.PlcSubscriptionType"/></returns>
@@ -132,7 +132,7 @@ namespace Org.Apache.Plc4x.JavaNs.Api.Types
             return SExecuteWithSignature<Org.Apache.Plc4x.JavaNs.Api.Types.PlcSubscriptionType>(LocalBridgeClazz, "valueOf", "(Ljava/lang/String;)Lorg/apache/plc4x/java/api/types/PlcSubscriptionType;", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/types/PlcSubscriptionType.html#values--"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/types/PlcSubscriptionType.html#values()"/>
         /// </summary>
         /// <returns><see cref="Org.Apache.Plc4x.JavaNs.Api.Types.PlcSubscriptionType"/></returns>
         public static Org.Apache.Plc4x.JavaNs.Api.Types.PlcSubscriptionType[] Values()
@@ -144,7 +144,7 @@ namespace Org.Apache.Plc4x.JavaNs.Api.Types
 
         #region Instance methods
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/types/PlcSubscriptionType.html#getValue--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/types/PlcSubscriptionType.html#getValue()"/> 
         /// </summary>
         public short Value
         {

@@ -111,21 +111,21 @@ namespace Org.Apache.Plc4x.JavaNs.Api.Model
 
         #region Instance methods
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/model/PlcSubscriptionTag.html#getDuration--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/model/PlcSubscriptionTag.html#getDuration()"/> 
         /// </summary>
         public Java.Util.Optional<Java.Time.Duration> Duration
         {
             get { return IExecuteWithSignature<Java.Util.Optional<Java.Time.Duration>>("getDuration", "()Ljava/util/Optional;"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/model/PlcSubscriptionTag.html#getPlcSubscriptionType--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/model/PlcSubscriptionTag.html#getPlcSubscriptionType()"/> 
         /// </summary>
         public Org.Apache.Plc4x.JavaNs.Api.Types.PlcSubscriptionType PlcSubscriptionType
         {
             get { return IExecuteWithSignature<Org.Apache.Plc4x.JavaNs.Api.Types.PlcSubscriptionType>("getPlcSubscriptionType", "()Lorg/apache/plc4x/java/api/types/PlcSubscriptionType;"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/model/PlcSubscriptionTag.html#getTag--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/model/PlcSubscriptionTag.html#getTag()"/> 
         /// </summary>
         public Org.Apache.Plc4x.JavaNs.Api.Model.PlcTag Tag
         {

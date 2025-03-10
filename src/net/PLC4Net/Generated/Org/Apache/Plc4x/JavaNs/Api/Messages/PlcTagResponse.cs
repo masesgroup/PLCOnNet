@@ -111,21 +111,21 @@ namespace Org.Apache.Plc4x.JavaNs.Api.Messages
 
         #region Instance methods
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcTagResponse.html#getRequest--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcTagResponse.html#getRequest()"/> 
         /// </summary>
         public Org.Apache.Plc4x.JavaNs.Api.Messages.PlcRequest Request
         {
             get { return IExecuteWithSignature<Org.Apache.Plc4x.JavaNs.Api.Messages.PlcRequest>("getRequest", "()Lorg/apache/plc4x/java/api/messages/PlcRequest;"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcTagResponse.html#getTagNames--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcTagResponse.html#getTagNames()"/> 
         /// </summary>
         public Java.Util.Collection<Java.Lang.String> TagNames
         {
             get { return IExecuteWithSignature<Java.Util.Collection<Java.Lang.String>>("getTagNames", "()Ljava/util/Collection;"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcTagResponse.html#getTag-java.lang.String-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcTagResponse.html#getTag(java.lang.String)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Lang.String"/></param>
         /// <returns><see cref="Org.Apache.Plc4x.JavaNs.Api.Model.PlcTag"/></returns>
@@ -134,7 +134,7 @@ namespace Org.Apache.Plc4x.JavaNs.Api.Messages
             return IExecuteWithSignature<Org.Apache.Plc4x.JavaNs.Api.Model.PlcTag>("getTag", "(Ljava/lang/String;)Lorg/apache/plc4x/java/api/model/PlcTag;", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcTagResponse.html#getResponseCode-java.lang.String-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcTagResponse.html#getResponseCode(java.lang.String)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Lang.String"/></param>
         /// <returns><see cref="Org.Apache.Plc4x.JavaNs.Api.Types.PlcResponseCode"/></returns>

@@ -111,7 +111,7 @@ namespace Org.Apache.Plc4x.JavaNs.Api.Metadata
 
         #region Instance methods
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/metadata/PlcConnectionMetadata.html#isBrowseSupported--"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/metadata/PlcConnectionMetadata.html#isBrowseSupported()"/>
         /// </summary>
         /// <returns><see cref="bool"/></returns>
         public bool IsBrowseSupported()
@@ -119,7 +119,7 @@ namespace Org.Apache.Plc4x.JavaNs.Api.Metadata
             return IExecuteWithSignature<bool>("isBrowseSupported", "()Z");
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/metadata/PlcConnectionMetadata.html#isReadSupported--"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/metadata/PlcConnectionMetadata.html#isReadSupported()"/>
         /// </summary>
         /// <returns><see cref="bool"/></returns>
         public bool IsReadSupported()
@@ -127,7 +127,7 @@ namespace Org.Apache.Plc4x.JavaNs.Api.Metadata
             return IExecuteWithSignature<bool>("isReadSupported", "()Z");
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/metadata/PlcConnectionMetadata.html#isSubscribeSupported--"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/metadata/PlcConnectionMetadata.html#isSubscribeSupported()"/>
         /// </summary>
         /// <returns><see cref="bool"/></returns>
         public bool IsSubscribeSupported()
@@ -135,7 +135,7 @@ namespace Org.Apache.Plc4x.JavaNs.Api.Metadata
             return IExecuteWithSignature<bool>("isSubscribeSupported", "()Z");
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/metadata/PlcConnectionMetadata.html#isWriteSupported--"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/metadata/PlcConnectionMetadata.html#isWriteSupported()"/>
         /// </summary>
         /// <returns><see cref="bool"/></returns>
         public bool IsWriteSupported()

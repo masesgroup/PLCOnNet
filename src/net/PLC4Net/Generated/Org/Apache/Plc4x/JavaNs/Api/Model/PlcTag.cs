@@ -111,21 +111,21 @@ namespace Org.Apache.Plc4x.JavaNs.Api.Model
 
         #region Instance methods
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/model/PlcTag.html#getAddressString--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/model/PlcTag.html#getAddressString()"/> 
         /// </summary>
         public Java.Lang.String AddressString
         {
             get { return IExecuteWithSignature<Java.Lang.String>("getAddressString", "()Ljava/lang/String;"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/model/PlcTag.html#getArrayInfo--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/model/PlcTag.html#getArrayInfo()"/> 
         /// </summary>
         public Java.Util.List<Org.Apache.Plc4x.JavaNs.Api.Model.ArrayInfo> ArrayInfo
         {
             get { return IExecuteWithSignature<Java.Util.List<Org.Apache.Plc4x.JavaNs.Api.Model.ArrayInfo>>("getArrayInfo", "()Ljava/util/List;"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/model/PlcTag.html#getPlcValueType--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/model/PlcTag.html#getPlcValueType()"/> 
         /// </summary>
         public Org.Apache.Plc4x.JavaNs.Api.Types.PlcValueType PlcValueType
         {

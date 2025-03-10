@@ -279,7 +279,7 @@ namespace Org.Apache.Plc4x.JavaNs.Api.Types
 
         #region Static methods
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/types/PlcValueType.html#isDefined-short-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/types/PlcValueType.html#isDefined(short)"/>
         /// </summary>
         /// <param name="arg0"><see cref="short"/></param>
         /// <returns><see cref="Java.Lang.Boolean"/></returns>
@@ -288,7 +288,7 @@ namespace Org.Apache.Plc4x.JavaNs.Api.Types
             return SExecuteWithSignature<Java.Lang.Boolean>(LocalBridgeClazz, "isDefined", "(S)Ljava/lang/Boolean;", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/types/PlcValueType.html#enumForValue-short-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/types/PlcValueType.html#enumForValue(short)"/>
         /// </summary>
         /// <param name="arg0"><see cref="short"/></param>
         /// <returns><see cref="Org.Apache.Plc4x.JavaNs.Api.Types.PlcValueType"/></returns>
@@ -297,7 +297,7 @@ namespace Org.Apache.Plc4x.JavaNs.Api.Types
             return SExecuteWithSignature<Org.Apache.Plc4x.JavaNs.Api.Types.PlcValueType>(LocalBridgeClazz, "enumForValue", "(S)Lorg/apache/plc4x/java/api/types/PlcValueType;", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/types/PlcValueType.html#valueOf-java.lang.String-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/types/PlcValueType.html#valueOf(java.lang.String)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Lang.String"/></param>
         /// <returns><see cref="Org.Apache.Plc4x.JavaNs.Api.Types.PlcValueType"/></returns>
@@ -306,7 +306,7 @@ namespace Org.Apache.Plc4x.JavaNs.Api.Types
             return SExecuteWithSignature<Org.Apache.Plc4x.JavaNs.Api.Types.PlcValueType>(LocalBridgeClazz, "valueOf", "(Ljava/lang/String;)Lorg/apache/plc4x/java/api/types/PlcValueType;", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/types/PlcValueType.html#values--"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/types/PlcValueType.html#values()"/>
         /// </summary>
         /// <returns><see cref="Org.Apache.Plc4x.JavaNs.Api.Types.PlcValueType"/></returns>
         public static Org.Apache.Plc4x.JavaNs.Api.Types.PlcValueType[] Values()
@@ -318,14 +318,14 @@ namespace Org.Apache.Plc4x.JavaNs.Api.Types
 
         #region Instance methods
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/types/PlcValueType.html#getDefaultJavaType--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/types/PlcValueType.html#getDefaultJavaType()"/> 
         /// </summary>
         public Java.Lang.Class DefaultJavaType
         {
             get { return IExecuteWithSignature<Java.Lang.Class>("getDefaultJavaType", "()Ljava/lang/Class;"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/types/PlcValueType.html#getValue--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/types/PlcValueType.html#getValue()"/> 
         /// </summary>
         public short Value
         {

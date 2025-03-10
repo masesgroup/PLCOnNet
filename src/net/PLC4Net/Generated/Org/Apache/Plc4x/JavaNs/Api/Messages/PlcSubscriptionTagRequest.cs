@@ -111,35 +111,35 @@ namespace Org.Apache.Plc4x.JavaNs.Api.Messages
 
         #region Instance methods
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcSubscriptionTagRequest.html#getNumberOfTags--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcSubscriptionTagRequest.html#getNumberOfTags()"/> 
         /// </summary>
         public int NumberOfTags
         {
             get { return IExecuteWithSignature<int>("getNumberOfTags", "()I"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcSubscriptionTagRequest.html#getPreRegisteredConsumers--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcSubscriptionTagRequest.html#getPreRegisteredConsumers()"/> 
         /// </summary>
         public Java.Util.Map<Java.Lang.String, Java.Util.List<Java.Util.Function.Consumer<Org.Apache.Plc4x.JavaNs.Api.Messages.PlcSubscriptionEvent>>> PreRegisteredConsumers
         {
             get { return IExecuteWithSignature<Java.Util.Map<Java.Lang.String, Java.Util.List<Java.Util.Function.Consumer<Org.Apache.Plc4x.JavaNs.Api.Messages.PlcSubscriptionEvent>>>>("getPreRegisteredConsumers", "()Ljava/util/Map;"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcSubscriptionTagRequest.html#getTagNames--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcSubscriptionTagRequest.html#getTagNames()"/> 
         /// </summary>
         public Java.Util.LinkedHashSet<Java.Lang.String> TagNames
         {
             get { return IExecuteWithSignature<Java.Util.LinkedHashSet<Java.Lang.String>>("getTagNames", "()Ljava/util/LinkedHashSet;"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcSubscriptionTagRequest.html#getTags--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcSubscriptionTagRequest.html#getTags()"/> 
         /// </summary>
         public Java.Util.List<Org.Apache.Plc4x.JavaNs.Api.Model.PlcSubscriptionTag> Tags
         {
             get { return IExecuteWithSignature<Java.Util.List<Org.Apache.Plc4x.JavaNs.Api.Model.PlcSubscriptionTag>>("getTags", "()Ljava/util/List;"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcSubscriptionTagRequest.html#execute--"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcSubscriptionTagRequest.html#execute()"/>
         /// </summary>
         /// <typeparam name="ReturnExtendsOrg_Apache_Plc4x_JavaNs_Api_Messages_PlcSubscriptionTagResponse"><see cref="Org.Apache.Plc4x.JavaNs.Api.Messages.PlcSubscriptionTagResponse"/></typeparam>
         /// <returns><see cref="Java.Util.Concurrent.CompletableFuture"/></returns>
@@ -148,7 +148,7 @@ namespace Org.Apache.Plc4x.JavaNs.Api.Messages
             return IExecuteWithSignature<Java.Util.Concurrent.CompletableFuture<ReturnExtendsOrg_Apache_Plc4x_JavaNs_Api_Messages_PlcSubscriptionTagResponse>>("execute", "()Ljava/util/concurrent/CompletableFuture;");
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcSubscriptionTagRequest.html#getTag-java.lang.String-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcSubscriptionTagRequest.html#getTag(java.lang.String)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Lang.String"/></param>
         /// <returns><see cref="Org.Apache.Plc4x.JavaNs.Api.Model.PlcSubscriptionTag"/></returns>

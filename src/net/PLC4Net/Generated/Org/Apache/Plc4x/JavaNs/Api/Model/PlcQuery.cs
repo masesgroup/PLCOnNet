@@ -111,7 +111,7 @@ namespace Org.Apache.Plc4x.JavaNs.Api.Model
 
         #region Instance methods
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/model/PlcQuery.html#getQueryString--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/model/PlcQuery.html#getQueryString()"/> 
         /// </summary>
         public Java.Lang.String QueryString
         {

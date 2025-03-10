@@ -111,35 +111,35 @@ namespace Org.Apache.Plc4x.JavaNs.Api.Messages
 
         #region Instance methods
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcBrowseItem.html#getChildren--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcBrowseItem.html#getChildren()"/> 
         /// </summary>
         public Java.Util.Map<Java.Lang.String, Org.Apache.Plc4x.JavaNs.Api.Messages.PlcBrowseItem> Children
         {
             get { return IExecuteWithSignature<Java.Util.Map<Java.Lang.String, Org.Apache.Plc4x.JavaNs.Api.Messages.PlcBrowseItem>>("getChildren", "()Ljava/util/Map;"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcBrowseItem.html#getName--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcBrowseItem.html#getName()"/> 
         /// </summary>
         public Java.Lang.String Name
         {
             get { return IExecuteWithSignature<Java.Lang.String>("getName", "()Ljava/lang/String;"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcBrowseItem.html#getOptions--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcBrowseItem.html#getOptions()"/> 
         /// </summary>
         public Java.Util.Map<Java.Lang.String, Org.Apache.Plc4x.JavaNs.Api.Value.PlcValue> Options
         {
             get { return IExecuteWithSignature<Java.Util.Map<Java.Lang.String, Org.Apache.Plc4x.JavaNs.Api.Value.PlcValue>>("getOptions", "()Ljava/util/Map;"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcBrowseItem.html#getTag--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcBrowseItem.html#getTag()"/> 
         /// </summary>
         public Org.Apache.Plc4x.JavaNs.Api.Model.PlcTag Tag
         {
             get { return IExecuteWithSignature<Org.Apache.Plc4x.JavaNs.Api.Model.PlcTag>("getTag", "()Lorg/apache/plc4x/java/api/model/PlcTag;"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcBrowseItem.html#isReadable--"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcBrowseItem.html#isReadable()"/>
         /// </summary>
         /// <returns><see cref="bool"/></returns>
         public bool IsReadable()
@@ -147,7 +147,7 @@ namespace Org.Apache.Plc4x.JavaNs.Api.Messages
             return IExecuteWithSignature<bool>("isReadable", "()Z");
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcBrowseItem.html#isSubscribable--"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcBrowseItem.html#isSubscribable()"/>
         /// </summary>
         /// <returns><see cref="bool"/></returns>
         public bool IsSubscribable()
@@ -155,7 +155,7 @@ namespace Org.Apache.Plc4x.JavaNs.Api.Messages
             return IExecuteWithSignature<bool>("isSubscribable", "()Z");
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcBrowseItem.html#isWritable--"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcBrowseItem.html#isWritable()"/>
         /// </summary>
         /// <returns><see cref="bool"/></returns>
         public bool IsWritable()

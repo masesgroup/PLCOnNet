@@ -111,14 +111,14 @@ namespace Org.Apache.Plc4x.JavaNs.Api.Messages
 
         #region Instance methods
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcPingResponse.html#getRequest--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcPingResponse.html#getRequest()"/> 
         /// </summary>
         public Org.Apache.Plc4x.JavaNs.Api.Messages.PlcRequest Request
         {
             get { return IExecuteWithSignature<Org.Apache.Plc4x.JavaNs.Api.Messages.PlcRequest>("getRequest", "()Lorg/apache/plc4x/java/api/messages/PlcRequest;"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcPingResponse.html#getResponseCode--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcPingResponse.html#getResponseCode()"/> 
         /// </summary>
         public Org.Apache.Plc4x.JavaNs.Api.Types.PlcResponseCode ResponseCode
         {
