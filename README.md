@@ -98,7 +98,6 @@ builder.addTagAddress("value-4", "%DB.DB1.4:INT");
 PlcReadRequest readRequest = builder.build();
 
 PlcReadResponse response = readRequest.execute().get(5000, TimeUnit.MILLISECONDS);
-
 ```
 becomes in C#:
 
@@ -114,8 +113,6 @@ PlcRequest readRequest = builder.Build();
 
 var cf = readRequest.Execute<PlcReadResponse>();
 var response = cf.Get();
-
-
 ```
 
 
