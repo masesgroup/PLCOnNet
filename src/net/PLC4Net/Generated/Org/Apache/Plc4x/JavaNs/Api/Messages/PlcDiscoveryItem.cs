@@ -111,49 +111,49 @@ namespace Org.Apache.Plc4x.JavaNs.Api.Messages
 
         #region Instance methods
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcDiscoveryItem.html#getAttributes--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcDiscoveryItem.html#getAttributes()"/> 
         /// </summary>
         public Java.Util.Map<Java.Lang.String, Org.Apache.Plc4x.JavaNs.Api.Value.PlcValue> Attributes
         {
             get { return IExecuteWithSignature<Java.Util.Map<Java.Lang.String, Org.Apache.Plc4x.JavaNs.Api.Value.PlcValue>>("getAttributes", "()Ljava/util/Map;"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcDiscoveryItem.html#getConnectionUrl--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcDiscoveryItem.html#getConnectionUrl()"/> 
         /// </summary>
         public Java.Lang.String ConnectionUrl
         {
             get { return IExecuteWithSignature<Java.Lang.String>("getConnectionUrl", "()Ljava/lang/String;"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcDiscoveryItem.html#getName--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcDiscoveryItem.html#getName()"/> 
         /// </summary>
         public Java.Lang.String Name
         {
             get { return IExecuteWithSignature<Java.Lang.String>("getName", "()Ljava/lang/String;"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcDiscoveryItem.html#getOptions--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcDiscoveryItem.html#getOptions()"/> 
         /// </summary>
         public Java.Util.Map<Java.Lang.String, Java.Lang.String> Options
         {
             get { return IExecuteWithSignature<Java.Util.Map<Java.Lang.String, Java.Lang.String>>("getOptions", "()Ljava/util/Map;"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcDiscoveryItem.html#getProtocolCode--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcDiscoveryItem.html#getProtocolCode()"/> 
         /// </summary>
         public Java.Lang.String ProtocolCode
         {
             get { return IExecuteWithSignature<Java.Lang.String>("getProtocolCode", "()Ljava/lang/String;"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcDiscoveryItem.html#getTransportCode--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcDiscoveryItem.html#getTransportCode()"/> 
         /// </summary>
         public Java.Lang.String TransportCode
         {
             get { return IExecuteWithSignature<Java.Lang.String>("getTransportCode", "()Ljava/lang/String;"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcDiscoveryItem.html#getTransportUrl--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcDiscoveryItem.html#getTransportUrl()"/> 
         /// </summary>
         public Java.Lang.String TransportUrl
         {

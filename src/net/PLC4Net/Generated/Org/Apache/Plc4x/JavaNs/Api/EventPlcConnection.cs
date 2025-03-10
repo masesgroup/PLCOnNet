@@ -111,7 +111,7 @@ namespace Org.Apache.Plc4x.JavaNs.Api
 
         #region Instance methods
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/EventPlcConnection.html#addEventListener-org.apache.plc4x.java.api.listener.EventListener-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/EventPlcConnection.html#addEventListener(org.apache.plc4x.java.api.listener.EventListener)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Plc4x.JavaNs.Api.Listener.EventListener"/></param>
         public void AddEventListener(Org.Apache.Plc4x.JavaNs.Api.Listener.EventListener arg0)
@@ -119,7 +119,7 @@ namespace Org.Apache.Plc4x.JavaNs.Api
             IExecuteWithSignature("addEventListener", "(Lorg/apache/plc4x/java/api/listener/EventListener;)V", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/EventPlcConnection.html#removeEventListener-org.apache.plc4x.java.api.listener.EventListener-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/EventPlcConnection.html#removeEventListener(org.apache.plc4x.java.api.listener.EventListener)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Plc4x.JavaNs.Api.Listener.EventListener"/></param>
         public void RemoveEventListener(Org.Apache.Plc4x.JavaNs.Api.Listener.EventListener arg0)

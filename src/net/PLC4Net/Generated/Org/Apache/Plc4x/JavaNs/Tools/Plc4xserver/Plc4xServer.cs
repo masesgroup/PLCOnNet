@@ -103,7 +103,7 @@ namespace Org.Apache.Plc4x.JavaNs.Tools.Plc4xserver
 
         #region Static methods
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-plc4x-server/0.12.0/org/apache/plc4x/java/tools/plc4xserver/Plc4xServer.html#main-java.lang.String[]-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-plc4x-server/0.12.0/org/apache/plc4x/java/tools/plc4xserver/Plc4xServer.html#main(java.lang.String[])"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Lang.String"/></param>
         /// <exception cref="Java.Lang.Exception"/>
@@ -116,14 +116,14 @@ namespace Org.Apache.Plc4x.JavaNs.Tools.Plc4xserver
 
         #region Instance methods
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-plc4x-server/0.12.0/org/apache/plc4x/java/tools/plc4xserver/Plc4xServer.html#getPort--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-plc4x-server/0.12.0/org/apache/plc4x/java/tools/plc4xserver/Plc4xServer.html#getPort()"/> 
         /// </summary>
         public Java.Lang.Integer Port
         {
             get { return IExecuteWithSignature<Java.Lang.Integer>("getPort", "()Ljava/lang/Integer;"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-plc4x-server/0.12.0/org/apache/plc4x/java/tools/plc4xserver/Plc4xServer.html#start--"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-plc4x-server/0.12.0/org/apache/plc4x/java/tools/plc4xserver/Plc4xServer.html#start()"/>
         /// </summary>
         /// <returns><see cref="Java.Util.Concurrent.Future"/></returns>
         public Java.Util.Concurrent.Future<Java.Lang.Void> Start()
@@ -131,7 +131,7 @@ namespace Org.Apache.Plc4x.JavaNs.Tools.Plc4xserver
             return IExecuteWithSignature<Java.Util.Concurrent.Future<Java.Lang.Void>>("start", "()Ljava/util/concurrent/Future;");
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-plc4x-server/0.12.0/org/apache/plc4x/java/tools/plc4xserver/Plc4xServer.html#start-int-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-plc4x-server/0.12.0/org/apache/plc4x/java/tools/plc4xserver/Plc4xServer.html#start(int)"/>
         /// </summary>
         /// <param name="arg0"><see cref="int"/></param>
         /// <returns><see cref="Java.Util.Concurrent.Future"/></returns>
@@ -140,7 +140,7 @@ namespace Org.Apache.Plc4x.JavaNs.Tools.Plc4xserver
             return IExecuteWithSignature<Java.Util.Concurrent.Future<Java.Lang.Void>>("start", "(I)Ljava/util/concurrent/Future;", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-plc4x-server/0.12.0/org/apache/plc4x/java/tools/plc4xserver/Plc4xServer.html#stop--"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-plc4x-server/0.12.0/org/apache/plc4x/java/tools/plc4xserver/Plc4xServer.html#stop()"/>
         /// </summary>
         public void Stop()
         {

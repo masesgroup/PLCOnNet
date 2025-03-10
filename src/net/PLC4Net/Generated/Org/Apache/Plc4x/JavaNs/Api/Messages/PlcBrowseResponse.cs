@@ -111,21 +111,21 @@ namespace Org.Apache.Plc4x.JavaNs.Api.Messages
 
         #region Instance methods
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcBrowseResponse.html#getQueryNames--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcBrowseResponse.html#getQueryNames()"/> 
         /// </summary>
         public Java.Util.LinkedHashSet<Java.Lang.String> QueryNames
         {
             get { return IExecuteWithSignature<Java.Util.LinkedHashSet<Java.Lang.String>>("getQueryNames", "()Ljava/util/LinkedHashSet;"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcBrowseResponse.html#getRequest--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcBrowseResponse.html#getRequest()"/> 
         /// </summary>
         public Org.Apache.Plc4x.JavaNs.Api.Messages.PlcRequest Request
         {
             get { return IExecuteWithSignature<Org.Apache.Plc4x.JavaNs.Api.Messages.PlcRequest>("getRequest", "()Lorg/apache/plc4x/java/api/messages/PlcRequest;"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcBrowseResponse.html#getValues-java.lang.String-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcBrowseResponse.html#getValues(java.lang.String)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Lang.String"/></param>
         /// <returns><see cref="Java.Util.List"/></returns>
@@ -134,7 +134,7 @@ namespace Org.Apache.Plc4x.JavaNs.Api.Messages
             return IExecuteWithSignature<Java.Util.List<Org.Apache.Plc4x.JavaNs.Api.Messages.PlcBrowseItem>>("getValues", "(Ljava/lang/String;)Ljava/util/List;", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcBrowseResponse.html#getResponseCode-java.lang.String-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcBrowseResponse.html#getResponseCode(java.lang.String)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Lang.String"/></param>
         /// <returns><see cref="Org.Apache.Plc4x.JavaNs.Api.Types.PlcResponseCode"/></returns>

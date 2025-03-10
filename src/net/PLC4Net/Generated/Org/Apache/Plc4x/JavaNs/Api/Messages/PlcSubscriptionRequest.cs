@@ -158,7 +158,7 @@ namespace Org.Apache.Plc4x.JavaNs.Api.Messages
 
         #region Instance methods
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcSubscriptionRequest.html#execute--"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcSubscriptionRequest.html#execute()"/>
         /// </summary>
         /// <typeparam name="ReturnExtendsOrg_Apache_Plc4x_JavaNs_Api_Messages_PlcSubscriptionResponse"><see cref="Org.Apache.Plc4x.JavaNs.Api.Messages.PlcSubscriptionResponse"/></typeparam>
         /// <returns><see cref="Java.Util.Concurrent.CompletableFuture"/></returns>
@@ -191,7 +191,7 @@ namespace Org.Apache.Plc4x.JavaNs.Api.Messages
 
             #region Instance methods
             /// <summary>
-            /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcSubscriptionRequest.Builder.html#addChangeOfStateTag-java.lang.String-org.apache.plc4x.java.api.model.PlcTag-"/>
+            /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcSubscriptionRequest.Builder.html#addChangeOfStateTag(java.lang.String,org.apache.plc4x.java.api.model.PlcTag)"/>
             /// </summary>
             /// <param name="arg0"><see cref="Java.Lang.String"/></param>
             /// <param name="arg1"><see cref="Org.Apache.Plc4x.JavaNs.Api.Model.PlcTag"/></param>
@@ -201,7 +201,7 @@ namespace Org.Apache.Plc4x.JavaNs.Api.Messages
                 return IExecuteWithSignature<Org.Apache.Plc4x.JavaNs.Api.Messages.PlcSubscriptionRequest.Builder>("addChangeOfStateTag", "(Ljava/lang/String;Lorg/apache/plc4x/java/api/model/PlcTag;)Lorg/apache/plc4x/java/api/messages/PlcSubscriptionRequest$Builder;", arg0, arg1);
             }
             /// <summary>
-            /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcSubscriptionRequest.Builder.html#addChangeOfStateTagAddress-java.lang.String-java.lang.String-"/>
+            /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcSubscriptionRequest.Builder.html#addChangeOfStateTagAddress(java.lang.String,java.lang.String)"/>
             /// </summary>
             /// <param name="arg0"><see cref="Java.Lang.String"/></param>
             /// <param name="arg1"><see cref="Java.Lang.String"/></param>
@@ -211,7 +211,7 @@ namespace Org.Apache.Plc4x.JavaNs.Api.Messages
                 return IExecuteWithSignature<Org.Apache.Plc4x.JavaNs.Api.Messages.PlcSubscriptionRequest.Builder>("addChangeOfStateTagAddress", "(Ljava/lang/String;Ljava/lang/String;)Lorg/apache/plc4x/java/api/messages/PlcSubscriptionRequest$Builder;", arg0, arg1);
             }
             /// <summary>
-            /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcSubscriptionRequest.Builder.html#addCyclicTag-java.lang.String-org.apache.plc4x.java.api.model.PlcTag-java.time.Duration-"/>
+            /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcSubscriptionRequest.Builder.html#addCyclicTag(java.lang.String,org.apache.plc4x.java.api.model.PlcTag,java.time.Duration)"/>
             /// </summary>
             /// <param name="arg0"><see cref="Java.Lang.String"/></param>
             /// <param name="arg1"><see cref="Org.Apache.Plc4x.JavaNs.Api.Model.PlcTag"/></param>
@@ -222,7 +222,7 @@ namespace Org.Apache.Plc4x.JavaNs.Api.Messages
                 return IExecuteWithSignature<Org.Apache.Plc4x.JavaNs.Api.Messages.PlcSubscriptionRequest.Builder>("addCyclicTag", "(Ljava/lang/String;Lorg/apache/plc4x/java/api/model/PlcTag;Ljava/time/Duration;)Lorg/apache/plc4x/java/api/messages/PlcSubscriptionRequest$Builder;", arg0, arg1, arg2);
             }
             /// <summary>
-            /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcSubscriptionRequest.Builder.html#addCyclicTagAddress-java.lang.String-java.lang.String-java.time.Duration-"/>
+            /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcSubscriptionRequest.Builder.html#addCyclicTagAddress(java.lang.String,java.lang.String,java.time.Duration)"/>
             /// </summary>
             /// <param name="arg0"><see cref="Java.Lang.String"/></param>
             /// <param name="arg1"><see cref="Java.Lang.String"/></param>
@@ -233,7 +233,7 @@ namespace Org.Apache.Plc4x.JavaNs.Api.Messages
                 return IExecuteWithSignature<Org.Apache.Plc4x.JavaNs.Api.Messages.PlcSubscriptionRequest.Builder>("addCyclicTagAddress", "(Ljava/lang/String;Ljava/lang/String;Ljava/time/Duration;)Lorg/apache/plc4x/java/api/messages/PlcSubscriptionRequest$Builder;", arg0, arg1, arg2);
             }
             /// <summary>
-            /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcSubscriptionRequest.Builder.html#addEventTag-java.lang.String-org.apache.plc4x.java.api.model.PlcTag-"/>
+            /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcSubscriptionRequest.Builder.html#addEventTag(java.lang.String,org.apache.plc4x.java.api.model.PlcTag)"/>
             /// </summary>
             /// <param name="arg0"><see cref="Java.Lang.String"/></param>
             /// <param name="arg1"><see cref="Org.Apache.Plc4x.JavaNs.Api.Model.PlcTag"/></param>
@@ -243,7 +243,7 @@ namespace Org.Apache.Plc4x.JavaNs.Api.Messages
                 return IExecuteWithSignature<Org.Apache.Plc4x.JavaNs.Api.Messages.PlcSubscriptionRequest.Builder>("addEventTag", "(Ljava/lang/String;Lorg/apache/plc4x/java/api/model/PlcTag;)Lorg/apache/plc4x/java/api/messages/PlcSubscriptionRequest$Builder;", arg0, arg1);
             }
             /// <summary>
-            /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcSubscriptionRequest.Builder.html#addEventTagAddress-java.lang.String-java.lang.String-"/>
+            /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcSubscriptionRequest.Builder.html#addEventTagAddress(java.lang.String,java.lang.String)"/>
             /// </summary>
             /// <param name="arg0"><see cref="Java.Lang.String"/></param>
             /// <param name="arg1"><see cref="Java.Lang.String"/></param>
@@ -253,7 +253,7 @@ namespace Org.Apache.Plc4x.JavaNs.Api.Messages
                 return IExecuteWithSignature<Org.Apache.Plc4x.JavaNs.Api.Messages.PlcSubscriptionRequest.Builder>("addEventTagAddress", "(Ljava/lang/String;Ljava/lang/String;)Lorg/apache/plc4x/java/api/messages/PlcSubscriptionRequest$Builder;", arg0, arg1);
             }
             /// <summary>
-            /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcSubscriptionRequest.Builder.html#addPreRegisteredConsumer-java.lang.String-java.util.function.Consumer-"/>
+            /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcSubscriptionRequest.Builder.html#addPreRegisteredConsumer(java.lang.String,java.util.function.Consumer)"/>
             /// </summary>
             /// <param name="arg0"><see cref="Java.Lang.String"/></param>
             /// <param name="arg1"><see cref="Java.Util.Function.Consumer"/></param>
@@ -263,7 +263,7 @@ namespace Org.Apache.Plc4x.JavaNs.Api.Messages
                 return IExecuteWithSignature<Org.Apache.Plc4x.JavaNs.Api.Messages.PlcSubscriptionRequest.Builder>("addPreRegisteredConsumer", "(Ljava/lang/String;Ljava/util/function/Consumer;)Lorg/apache/plc4x/java/api/messages/PlcSubscriptionRequest$Builder;", arg0, arg1);
             }
             /// <summary>
-            /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcSubscriptionRequest.Builder.html#build--"/>
+            /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcSubscriptionRequest.Builder.html#build()"/>
             /// </summary>
             /// <returns><see cref="Org.Apache.Plc4x.JavaNs.Api.Messages.PlcRequest"/></returns>
             public Org.Apache.Plc4x.JavaNs.Api.Messages.PlcRequest Build()

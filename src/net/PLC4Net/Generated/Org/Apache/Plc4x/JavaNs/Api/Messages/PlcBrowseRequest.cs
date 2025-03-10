@@ -158,14 +158,14 @@ namespace Org.Apache.Plc4x.JavaNs.Api.Messages
 
         #region Instance methods
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcBrowseRequest.html#getQueryNames--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcBrowseRequest.html#getQueryNames()"/> 
         /// </summary>
         public Java.Util.LinkedHashSet<Java.Lang.String> QueryNames
         {
             get { return IExecuteWithSignature<Java.Util.LinkedHashSet<Java.Lang.String>>("getQueryNames", "()Ljava/util/LinkedHashSet;"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcBrowseRequest.html#execute--"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcBrowseRequest.html#execute()"/>
         /// </summary>
         /// <typeparam name="ReturnExtendsOrg_Apache_Plc4x_JavaNs_Api_Messages_PlcBrowseResponse"><see cref="Org.Apache.Plc4x.JavaNs.Api.Messages.PlcBrowseResponse"/></typeparam>
         /// <returns><see cref="Java.Util.Concurrent.CompletableFuture"/></returns>
@@ -174,7 +174,7 @@ namespace Org.Apache.Plc4x.JavaNs.Api.Messages
             return IExecuteWithSignature<Java.Util.Concurrent.CompletableFuture<ReturnExtendsOrg_Apache_Plc4x_JavaNs_Api_Messages_PlcBrowseResponse>>("execute", "()Ljava/util/concurrent/CompletableFuture;");
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcBrowseRequest.html#executeWithInterceptor-org.apache.plc4x.java.api.messages.PlcBrowseRequestInterceptor-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcBrowseRequest.html#executeWithInterceptor(org.apache.plc4x.java.api.messages.PlcBrowseRequestInterceptor)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Plc4x.JavaNs.Api.Messages.PlcBrowseRequestInterceptor"/></param>
         /// <typeparam name="ReturnExtendsOrg_Apache_Plc4x_JavaNs_Api_Messages_PlcBrowseResponse"><see cref="Org.Apache.Plc4x.JavaNs.Api.Messages.PlcBrowseResponse"/></typeparam>
@@ -184,7 +184,7 @@ namespace Org.Apache.Plc4x.JavaNs.Api.Messages
             return IExecuteWithSignature<Java.Util.Concurrent.CompletableFuture<ReturnExtendsOrg_Apache_Plc4x_JavaNs_Api_Messages_PlcBrowseResponse>>("executeWithInterceptor", "(Lorg/apache/plc4x/java/api/messages/PlcBrowseRequestInterceptor;)Ljava/util/concurrent/CompletableFuture;", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcBrowseRequest.html#getQuery-java.lang.String-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcBrowseRequest.html#getQuery(java.lang.String)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Lang.String"/></param>
         /// <returns><see cref="Org.Apache.Plc4x.JavaNs.Api.Model.PlcQuery"/></returns>
@@ -217,7 +217,7 @@ namespace Org.Apache.Plc4x.JavaNs.Api.Messages
 
             #region Instance methods
             /// <summary>
-            /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcBrowseRequest.Builder.html#addQuery-java.lang.String-java.lang.String-"/>
+            /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcBrowseRequest.Builder.html#addQuery(java.lang.String,java.lang.String)"/>
             /// </summary>
             /// <param name="arg0"><see cref="Java.Lang.String"/></param>
             /// <param name="arg1"><see cref="Java.Lang.String"/></param>
@@ -227,7 +227,7 @@ namespace Org.Apache.Plc4x.JavaNs.Api.Messages
                 return IExecuteWithSignature<Org.Apache.Plc4x.JavaNs.Api.Messages.PlcBrowseRequest.Builder>("addQuery", "(Ljava/lang/String;Ljava/lang/String;)Lorg/apache/plc4x/java/api/messages/PlcBrowseRequest$Builder;", arg0, arg1);
             }
             /// <summary>
-            /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcBrowseRequest.Builder.html#build--"/>
+            /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcBrowseRequest.Builder.html#build()"/>
             /// </summary>
             /// <returns><see cref="Org.Apache.Plc4x.JavaNs.Api.Messages.PlcRequest"/></returns>
             public Org.Apache.Plc4x.JavaNs.Api.Messages.PlcRequest Build()

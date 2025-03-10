@@ -111,21 +111,21 @@ namespace Org.Apache.Plc4x.JavaNs.Api.Model
 
         #region Instance methods
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/model/ArrayInfo.html#getLowerBound--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/model/ArrayInfo.html#getLowerBound()"/> 
         /// </summary>
         public int LowerBound
         {
             get { return IExecuteWithSignature<int>("getLowerBound", "()I"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/model/ArrayInfo.html#getSize--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/model/ArrayInfo.html#getSize()"/> 
         /// </summary>
         public int Size
         {
             get { return IExecuteWithSignature<int>("getSize", "()I"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/model/ArrayInfo.html#getUpperBound--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/model/ArrayInfo.html#getUpperBound()"/> 
         /// </summary>
         public int UpperBound
         {
