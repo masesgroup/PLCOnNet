@@ -45,11 +45,11 @@ The following snippets demonstrate the comparison between the [Java code](https:
   
 ```java
 
-String connectionString = "s7://10.10.64.20";
-
-try (PlcConnection plcConnection = PlcDriverManager.getDefault()
-                                                   .getConnectionManager()
-                                                   .getConnection(connectionString))
+String cString = "s7://10.10.64.20";
+PlcConnection plcConnection = null;
+try (plcConnection = PlcDriverManager.getDefault()
+                                     .getConnectionManager()
+                                     .getConnection(cString))
 {
   ... do something with the connection here ...
 }
@@ -60,11 +60,11 @@ try (PlcConnection plcConnection = PlcDriverManager.getDefault()
 
 ```C#
 
-const string connectionString = "s7://10.10.64.20";
+const string cString = "s7://10.10.64.20";
 
 using var plcConnection = PlcDriverManager.Default
                                           .ConnectionManager
-                                          .GetConnection(connectionString);
+                                          .GetConnection(cString);
 ```
 
 </td>
@@ -84,8 +84,10 @@ using var plcConnection = PlcDriverManager.Default
 ```java
 
 // Check if this connection support reading of data.
-if (!plcConnection.getMetadata().isReadSupported()) {
-  logger.error("This connection doesn't support reading.");
+if (!plcConnection.getMetadata()
+                  .isReadSupported()) {
+  logger.error("This connection doesn't" + 
+               " support reading.");
   return;
 }
 
@@ -96,9 +98,11 @@ if (!plcConnection.getMetadata().isReadSupported()) {
 
 ```C#
 
-if (!plcConnection.Metadata.IsReadSupported())
+if (!plcConnection.Metadata
+                  .IsReadSupported())
 {
-    Console.WriteLine("This connection doesn't support reading.");
+    Console.WriteLine("This connection doesn't" +
+                      " support reading.");
     return;
 }
 
