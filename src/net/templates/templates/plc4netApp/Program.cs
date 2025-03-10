@@ -15,7 +15,7 @@ namespace MASES.PLC4NetTemplate.PLC4NetApp
     {
         class MyPLC4NetCore : PLC4NetCore<MyPLC4NetCore> { }
 
-        static bool _useAsync = false;
+        private static readonly bool _useAsync = false;
         static Consumer<PlcSubscriptionEvent> _plcEvent = null;
 
         static void Main(string[] _)

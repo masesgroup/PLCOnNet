@@ -91,21 +91,21 @@ namespace Org.Apache.Plc4x.JavaNs.Opcuaserver.Configuration
 
         #region Instance methods
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4x-opcua-server/0.12.0/org/apache/plc4x/java/opcuaserver/configuration/DeviceConfiguration.html#getConnectionString--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4x-opcua-server/0.12.0/org/apache/plc4x/java/opcuaserver/configuration/DeviceConfiguration.html#getConnectionString()"/> 
         /// </summary>
         public Java.Lang.String ConnectionString
         {
             get { return IExecuteWithSignature<Java.Lang.String>("getConnectionString", "()Ljava/lang/String;"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4x-opcua-server/0.12.0/org/apache/plc4x/java/opcuaserver/configuration/DeviceConfiguration.html#getName--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4x-opcua-server/0.12.0/org/apache/plc4x/java/opcuaserver/configuration/DeviceConfiguration.html#getName()"/> 
         /// </summary>
         public Java.Lang.String Name
         {
             get { return IExecuteWithSignature<Java.Lang.String>("getName", "()Ljava/lang/String;"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4x-opcua-server/0.12.0/org/apache/plc4x/java/opcuaserver/configuration/DeviceConfiguration.html#getTags--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4x-opcua-server/0.12.0/org/apache/plc4x/java/opcuaserver/configuration/DeviceConfiguration.html#getTags()"/> 
         /// </summary>
         public Java.Util.List<Org.Apache.Plc4x.JavaNs.Opcuaserver.Configuration.Tag> Tags
         {

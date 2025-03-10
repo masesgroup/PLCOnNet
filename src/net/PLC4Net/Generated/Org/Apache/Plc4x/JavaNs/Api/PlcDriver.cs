@@ -111,28 +111,28 @@ namespace Org.Apache.Plc4x.JavaNs.Api
 
         #region Instance methods
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/PlcDriver.html#getMetadata--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/PlcDriver.html#getMetadata()"/> 
         /// </summary>
         public Org.Apache.Plc4x.JavaNs.Api.Metadata.PlcDriverMetadata Metadata
         {
             get { return IExecuteWithSignature<Org.Apache.Plc4x.JavaNs.Api.Metadata.PlcDriverMetadata>("getMetadata", "()Lorg/apache/plc4x/java/api/metadata/PlcDriverMetadata;"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/PlcDriver.html#getProtocolCode--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/PlcDriver.html#getProtocolCode()"/> 
         /// </summary>
         public Java.Lang.String ProtocolCode
         {
             get { return IExecuteWithSignature<Java.Lang.String>("getProtocolCode", "()Ljava/lang/String;"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/PlcDriver.html#getProtocolName--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/PlcDriver.html#getProtocolName()"/> 
         /// </summary>
         public Java.Lang.String ProtocolName
         {
             get { return IExecuteWithSignature<Java.Lang.String>("getProtocolName", "()Ljava/lang/String;"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/PlcDriver.html#getConnection-java.lang.String-org.apache.plc4x.java.api.authentication.PlcAuthentication-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/PlcDriver.html#getConnection(java.lang.String,org.apache.plc4x.java.api.authentication.PlcAuthentication)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Lang.String"/></param>
         /// <param name="arg1"><see cref="Org.Apache.Plc4x.JavaNs.Api.Authentication.PlcAuthentication"/></param>
@@ -143,7 +143,7 @@ namespace Org.Apache.Plc4x.JavaNs.Api
             return IExecuteWithSignature<Org.Apache.Plc4x.JavaNs.Api.PlcConnection>("getConnection", "(Ljava/lang/String;Lorg/apache/plc4x/java/api/authentication/PlcAuthentication;)Lorg/apache/plc4x/java/api/PlcConnection;", arg0, arg1);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/PlcDriver.html#getConnection-java.lang.String-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/PlcDriver.html#getConnection(java.lang.String)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Lang.String"/></param>
         /// <returns><see cref="Org.Apache.Plc4x.JavaNs.Api.PlcConnection"/></returns>
@@ -153,7 +153,7 @@ namespace Org.Apache.Plc4x.JavaNs.Api
             return IExecuteWithSignature<Org.Apache.Plc4x.JavaNs.Api.PlcConnection>("getConnection", "(Ljava/lang/String;)Lorg/apache/plc4x/java/api/PlcConnection;", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/PlcDriver.html#discoveryRequestBuilder--"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/PlcDriver.html#discoveryRequestBuilder()"/>
         /// </summary>
         /// <returns><see cref="Org.Apache.Plc4x.JavaNs.Api.Messages.PlcDiscoveryRequest.Builder"/></returns>
         public Org.Apache.Plc4x.JavaNs.Api.Messages.PlcDiscoveryRequest.Builder DiscoveryRequestBuilder()
@@ -161,7 +161,7 @@ namespace Org.Apache.Plc4x.JavaNs.Api
             return IExecuteWithSignature<Org.Apache.Plc4x.JavaNs.Api.Messages.PlcDiscoveryRequest.Builder>("discoveryRequestBuilder", "()Lorg/apache/plc4x/java/api/messages/PlcDiscoveryRequest$Builder;");
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/PlcDriver.html#prepareTag-java.lang.String-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/PlcDriver.html#prepareTag(java.lang.String)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Lang.String"/></param>
         /// <returns><see cref="Org.Apache.Plc4x.JavaNs.Api.Model.PlcTag"/></returns>

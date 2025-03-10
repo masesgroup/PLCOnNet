@@ -129,7 +129,7 @@ namespace Org.Apache.Plc4x.JavaNs.Api.Types
 
         #region Static methods
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/types/OptionType.html#valueOf-java.lang.String-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/types/OptionType.html#valueOf(java.lang.String)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Lang.String"/></param>
         /// <returns><see cref="Org.Apache.Plc4x.JavaNs.Api.Types.OptionType"/></returns>
@@ -138,7 +138,7 @@ namespace Org.Apache.Plc4x.JavaNs.Api.Types
             return SExecuteWithSignature<Org.Apache.Plc4x.JavaNs.Api.Types.OptionType>(LocalBridgeClazz, "valueOf", "(Ljava/lang/String;)Lorg/apache/plc4x/java/api/types/OptionType;", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/types/OptionType.html#values--"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/types/OptionType.html#values()"/>
         /// </summary>
         /// <returns><see cref="Org.Apache.Plc4x.JavaNs.Api.Types.OptionType"/></returns>
         public static Org.Apache.Plc4x.JavaNs.Api.Types.OptionType[] Values()

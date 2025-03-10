@@ -111,7 +111,7 @@ namespace Org.Apache.Plc4x.JavaNs.Api.Messages
 
         #region Instance methods
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcBrowseRequestInterceptor.html#intercept-org.apache.plc4x.java.api.messages.PlcBrowseItem-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcBrowseRequestInterceptor.html#intercept(org.apache.plc4x.java.api.messages.PlcBrowseItem)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Plc4x.JavaNs.Api.Messages.PlcBrowseItem"/></param>
         /// <returns><see cref="bool"/></returns>

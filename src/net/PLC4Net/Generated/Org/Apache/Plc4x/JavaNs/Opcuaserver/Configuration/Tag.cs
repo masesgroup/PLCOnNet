@@ -91,14 +91,14 @@ namespace Org.Apache.Plc4x.JavaNs.Opcuaserver.Configuration
 
         #region Instance methods
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4x-opcua-server/0.12.0/org/apache/plc4x/java/opcuaserver/configuration/Tag.html#getAddress--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4x-opcua-server/0.12.0/org/apache/plc4x/java/opcuaserver/configuration/Tag.html#getAddress()"/> 
         /// </summary>
         public Java.Lang.String Address
         {
             get { return IExecuteWithSignature<Java.Lang.String>("getAddress", "()Ljava/lang/String;"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4x-opcua-server/0.12.0/org/apache/plc4x/java/opcuaserver/configuration/Tag.html#getAlias--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4x-opcua-server/0.12.0/org/apache/plc4x/java/opcuaserver/configuration/Tag.html#getAlias()"/> 
         /// </summary>
         public Java.Lang.String Alias
         {

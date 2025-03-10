@@ -111,21 +111,21 @@ namespace Org.Apache.Plc4x.JavaNs.Api.Messages
 
         #region Instance methods
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcBrowseItemArrayInfo.html#getLowerBound--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcBrowseItemArrayInfo.html#getLowerBound()"/> 
         /// </summary>
         public long LowerBound
         {
             get { return IExecuteWithSignature<long>("getLowerBound", "()J"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcBrowseItemArrayInfo.html#getSize--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcBrowseItemArrayInfo.html#getSize()"/> 
         /// </summary>
         public long Size
         {
             get { return IExecuteWithSignature<long>("getSize", "()J"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcBrowseItemArrayInfo.html#getUpperBound--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcBrowseItemArrayInfo.html#getUpperBound()"/> 
         /// </summary>
         public long UpperBound
         {

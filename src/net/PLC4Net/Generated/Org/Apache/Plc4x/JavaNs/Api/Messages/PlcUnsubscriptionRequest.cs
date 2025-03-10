@@ -158,14 +158,14 @@ namespace Org.Apache.Plc4x.JavaNs.Api.Messages
 
         #region Instance methods
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcUnsubscriptionRequest.html#getSubscriptionHandles--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcUnsubscriptionRequest.html#getSubscriptionHandles()"/> 
         /// </summary>
         public Java.Util.List<Org.Apache.Plc4x.JavaNs.Api.Model.PlcSubscriptionHandle> SubscriptionHandles
         {
             get { return IExecuteWithSignature<Java.Util.List<Org.Apache.Plc4x.JavaNs.Api.Model.PlcSubscriptionHandle>>("getSubscriptionHandles", "()Ljava/util/List;"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcUnsubscriptionRequest.html#execute--"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcUnsubscriptionRequest.html#execute()"/>
         /// </summary>
         /// <returns><see cref="Java.Util.Concurrent.CompletableFuture"/></returns>
         public Java.Util.Concurrent.CompletableFuture<Org.Apache.Plc4x.JavaNs.Api.Messages.PlcUnsubscriptionResponse> Execute()
@@ -197,7 +197,7 @@ namespace Org.Apache.Plc4x.JavaNs.Api.Messages
 
             #region Instance methods
             /// <summary>
-            /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcUnsubscriptionRequest.Builder.html#addHandles-java.util.Collection-"/>
+            /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcUnsubscriptionRequest.Builder.html#addHandles(java.util.Collection)"/>
             /// </summary>
             /// <param name="arg0"><see cref="Java.Util.Collection"/></param>
             /// <returns><see cref="Org.Apache.Plc4x.JavaNs.Api.Messages.PlcUnsubscriptionRequest.Builder"/></returns>
@@ -206,7 +206,7 @@ namespace Org.Apache.Plc4x.JavaNs.Api.Messages
                 return IExecuteWithSignature<Org.Apache.Plc4x.JavaNs.Api.Messages.PlcUnsubscriptionRequest.Builder>("addHandles", "(Ljava/util/Collection;)Lorg/apache/plc4x/java/api/messages/PlcUnsubscriptionRequest$Builder;", arg0);
             }
             /// <summary>
-            /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcUnsubscriptionRequest.Builder.html#addHandles-org.apache.plc4x.java.api.model.PlcSubscriptionHandle-org.apache.plc4x.java.api.model.PlcSubscriptionHandle[]-"/>
+            /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcUnsubscriptionRequest.Builder.html#addHandles(org.apache.plc4x.java.api.model.PlcSubscriptionHandle,org.apache.plc4x.java.api.model.PlcSubscriptionHandle[])"/>
             /// </summary>
             /// <param name="arg0"><see cref="Org.Apache.Plc4x.JavaNs.Api.Model.PlcSubscriptionHandle"/></param>
             /// <param name="arg1"><see cref="Org.Apache.Plc4x.JavaNs.Api.Model.PlcSubscriptionHandle"/></param>
@@ -216,7 +216,7 @@ namespace Org.Apache.Plc4x.JavaNs.Api.Messages
                 if (arg1.Length == 0) return IExecuteWithSignature<Org.Apache.Plc4x.JavaNs.Api.Messages.PlcUnsubscriptionRequest.Builder>("addHandles", "(Lorg/apache/plc4x/java/api/model/PlcSubscriptionHandle;[Lorg/apache/plc4x/java/api/model/PlcSubscriptionHandle;)Lorg/apache/plc4x/java/api/messages/PlcUnsubscriptionRequest$Builder;", arg0); else return IExecuteWithSignature<Org.Apache.Plc4x.JavaNs.Api.Messages.PlcUnsubscriptionRequest.Builder>("addHandles", "(Lorg/apache/plc4x/java/api/model/PlcSubscriptionHandle;[Lorg/apache/plc4x/java/api/model/PlcSubscriptionHandle;)Lorg/apache/plc4x/java/api/messages/PlcUnsubscriptionRequest$Builder;", arg0, arg1);
             }
             /// <summary>
-            /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcUnsubscriptionRequest.Builder.html#addHandles-org.apache.plc4x.java.api.model.PlcSubscriptionHandle-"/>
+            /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcUnsubscriptionRequest.Builder.html#addHandles(org.apache.plc4x.java.api.model.PlcSubscriptionHandle)"/>
             /// </summary>
             /// <param name="arg0"><see cref="Org.Apache.Plc4x.JavaNs.Api.Model.PlcSubscriptionHandle"/></param>
             /// <returns><see cref="Org.Apache.Plc4x.JavaNs.Api.Messages.PlcUnsubscriptionRequest.Builder"/></returns>
@@ -225,7 +225,7 @@ namespace Org.Apache.Plc4x.JavaNs.Api.Messages
                 return IExecuteWithSignature<Org.Apache.Plc4x.JavaNs.Api.Messages.PlcUnsubscriptionRequest.Builder>("addHandles", "(Lorg/apache/plc4x/java/api/model/PlcSubscriptionHandle;)Lorg/apache/plc4x/java/api/messages/PlcUnsubscriptionRequest$Builder;", arg0);
             }
             /// <summary>
-            /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcUnsubscriptionRequest.Builder.html#build--"/>
+            /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcUnsubscriptionRequest.Builder.html#build()"/>
             /// </summary>
             /// <returns><see cref="Org.Apache.Plc4x.JavaNs.Api.Messages.PlcRequest"/></returns>
             public Org.Apache.Plc4x.JavaNs.Api.Messages.PlcRequest Build()

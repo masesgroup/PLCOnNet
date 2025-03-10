@@ -111,14 +111,14 @@ namespace Org.Apache.Plc4x.JavaNs.Api.Metadata
 
         #region Instance methods
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/metadata/OptionMetadata.html#getOptions--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/metadata/OptionMetadata.html#getOptions()"/> 
         /// </summary>
         public Java.Util.List<Org.Apache.Plc4x.JavaNs.Api.Metadata.Option> Options
         {
             get { return IExecuteWithSignature<Java.Util.List<Org.Apache.Plc4x.JavaNs.Api.Metadata.Option>>("getOptions", "()Ljava/util/List;"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/metadata/OptionMetadata.html#getRequiredOptions--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/metadata/OptionMetadata.html#getRequiredOptions()"/> 
         /// </summary>
         public Java.Util.List<Org.Apache.Plc4x.JavaNs.Api.Metadata.Option> RequiredOptions
         {

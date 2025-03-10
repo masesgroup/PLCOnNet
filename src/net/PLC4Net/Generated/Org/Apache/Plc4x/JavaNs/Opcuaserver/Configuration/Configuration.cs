@@ -91,42 +91,42 @@ namespace Org.Apache.Plc4x.JavaNs.Opcuaserver.Configuration
 
         #region Instance methods
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4x-opcua-server/0.12.0/org/apache/plc4x/java/opcuaserver/configuration/Configuration.html#getDevices--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4x-opcua-server/0.12.0/org/apache/plc4x/java/opcuaserver/configuration/Configuration.html#getDevices()"/> 
         /// </summary>
         public Java.Util.List<Org.Apache.Plc4x.JavaNs.Opcuaserver.Configuration.DeviceConfiguration> Devices
         {
             get { return IExecuteWithSignature<Java.Util.List<Org.Apache.Plc4x.JavaNs.Opcuaserver.Configuration.DeviceConfiguration>>("getDevices", "()Ljava/util/List;"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4x-opcua-server/0.12.0/org/apache/plc4x/java/opcuaserver/configuration/Configuration.html#getDir--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4x-opcua-server/0.12.0/org/apache/plc4x/java/opcuaserver/configuration/Configuration.html#getDir()"/> 
         /// </summary>
         public Java.Lang.String Dir
         {
             get { return IExecuteWithSignature<Java.Lang.String>("getDir", "()Ljava/lang/String;"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4x-opcua-server/0.12.0/org/apache/plc4x/java/opcuaserver/configuration/Configuration.html#getDisableInsecureEndpoint--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4x-opcua-server/0.12.0/org/apache/plc4x/java/opcuaserver/configuration/Configuration.html#getDisableInsecureEndpoint()"/> 
         /// </summary>
         public bool DisableInsecureEndpoint
         {
             get { return IExecuteWithSignature<bool>("getDisableInsecureEndpoint", "()Z"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4x-opcua-server/0.12.0/org/apache/plc4x/java/opcuaserver/configuration/Configuration.html#getName--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4x-opcua-server/0.12.0/org/apache/plc4x/java/opcuaserver/configuration/Configuration.html#getName()"/> 
         /// </summary>
         public Java.Lang.String Name
         {
             get { return IExecuteWithSignature<Java.Lang.String>("getName", "()Ljava/lang/String;"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4x-opcua-server/0.12.0/org/apache/plc4x/java/opcuaserver/configuration/Configuration.html#getTcpPort--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4x-opcua-server/0.12.0/org/apache/plc4x/java/opcuaserver/configuration/Configuration.html#getTcpPort()"/> 
         /// </summary>
         public Java.Lang.Integer TcpPort
         {
             get { return IExecuteWithSignature<Java.Lang.Integer>("getTcpPort", "()Ljava/lang/Integer;"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4x-opcua-server/0.12.0/org/apache/plc4x/java/opcuaserver/configuration/Configuration.html#setConfigFile-java.lang.String-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4x-opcua-server/0.12.0/org/apache/plc4x/java/opcuaserver/configuration/Configuration.html#setConfigFile(java.lang.String)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Lang.String"/></param>
         public void SetConfigFile(Java.Lang.String arg0)

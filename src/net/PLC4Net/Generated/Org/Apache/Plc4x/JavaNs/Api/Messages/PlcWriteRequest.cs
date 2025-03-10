@@ -158,7 +158,7 @@ namespace Org.Apache.Plc4x.JavaNs.Api.Messages
 
         #region Instance methods
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcWriteRequest.html#getNumberOfValues-java.lang.String-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcWriteRequest.html#getNumberOfValues(java.lang.String)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Lang.String"/></param>
         /// <returns><see cref="int"/></returns>
@@ -167,7 +167,7 @@ namespace Org.Apache.Plc4x.JavaNs.Api.Messages
             return IExecuteWithSignature<int>("getNumberOfValues", "(Ljava/lang/String;)I", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcWriteRequest.html#execute--"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcWriteRequest.html#execute()"/>
         /// </summary>
         /// <typeparam name="ReturnExtendsOrg_Apache_Plc4x_JavaNs_Api_Messages_PlcWriteResponse"><see cref="Org.Apache.Plc4x.JavaNs.Api.Messages.PlcWriteResponse"/></typeparam>
         /// <returns><see cref="Java.Util.Concurrent.CompletableFuture"/></returns>
@@ -176,7 +176,7 @@ namespace Org.Apache.Plc4x.JavaNs.Api.Messages
             return IExecuteWithSignature<Java.Util.Concurrent.CompletableFuture<ReturnExtendsOrg_Apache_Plc4x_JavaNs_Api_Messages_PlcWriteResponse>>("execute", "()Ljava/util/concurrent/CompletableFuture;");
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcWriteRequest.html#getPlcValue-java.lang.String-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcWriteRequest.html#getPlcValue(java.lang.String)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Lang.String"/></param>
         /// <returns><see cref="Org.Apache.Plc4x.JavaNs.Api.Value.PlcValue"/></returns>
@@ -209,7 +209,7 @@ namespace Org.Apache.Plc4x.JavaNs.Api.Messages
 
             #region Instance methods
             /// <summary>
-            /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcWriteRequest.Builder.html#addTag-java.lang.String-org.apache.plc4x.java.api.model.PlcTag-java.lang.Object[]-"/>
+            /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcWriteRequest.Builder.html#addTag(java.lang.String,org.apache.plc4x.java.api.model.PlcTag,java.lang.Object[])"/>
             /// </summary>
             /// <param name="arg0"><see cref="Java.Lang.String"/></param>
             /// <param name="arg1"><see cref="Org.Apache.Plc4x.JavaNs.Api.Model.PlcTag"/></param>
@@ -220,7 +220,7 @@ namespace Org.Apache.Plc4x.JavaNs.Api.Messages
                 if (arg2.Length == 0) return IExecuteWithSignature<Org.Apache.Plc4x.JavaNs.Api.Messages.PlcWriteRequest.Builder>("addTag", "(Ljava/lang/String;Lorg/apache/plc4x/java/api/model/PlcTag;[Ljava/lang/Object;)Lorg/apache/plc4x/java/api/messages/PlcWriteRequest$Builder;", arg0, arg1); else return IExecuteWithSignature<Org.Apache.Plc4x.JavaNs.Api.Messages.PlcWriteRequest.Builder>("addTag", "(Ljava/lang/String;Lorg/apache/plc4x/java/api/model/PlcTag;[Ljava/lang/Object;)Lorg/apache/plc4x/java/api/messages/PlcWriteRequest$Builder;", arg0, arg1, arg2);
             }
             /// <summary>
-            /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcWriteRequest.Builder.html#addTagAddress-java.lang.String-java.lang.String-java.lang.Object[]-"/>
+            /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcWriteRequest.Builder.html#addTagAddress(java.lang.String,java.lang.String,java.lang.Object[])"/>
             /// </summary>
             /// <param name="arg0"><see cref="Java.Lang.String"/></param>
             /// <param name="arg1"><see cref="Java.Lang.String"/></param>
@@ -231,7 +231,7 @@ namespace Org.Apache.Plc4x.JavaNs.Api.Messages
                 if (arg2.Length == 0) return IExecuteWithSignature<Org.Apache.Plc4x.JavaNs.Api.Messages.PlcWriteRequest.Builder>("addTagAddress", "(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)Lorg/apache/plc4x/java/api/messages/PlcWriteRequest$Builder;", arg0, arg1); else return IExecuteWithSignature<Org.Apache.Plc4x.JavaNs.Api.Messages.PlcWriteRequest.Builder>("addTagAddress", "(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)Lorg/apache/plc4x/java/api/messages/PlcWriteRequest$Builder;", arg0, arg1, arg2);
             }
             /// <summary>
-            /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcWriteRequest.Builder.html#build--"/>
+            /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcWriteRequest.Builder.html#build()"/>
             /// </summary>
             /// <returns><see cref="Org.Apache.Plc4x.JavaNs.Api.Messages.PlcRequest"/></returns>
             public Org.Apache.Plc4x.JavaNs.Api.Messages.PlcRequest Build()

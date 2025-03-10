@@ -111,21 +111,21 @@ namespace Org.Apache.Plc4x.JavaNs.Api.Messages
 
         #region Instance methods
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcReadResponse.html#getAsPlcValue--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcReadResponse.html#getAsPlcValue()"/> 
         /// </summary>
         public Org.Apache.Plc4x.JavaNs.Api.Value.PlcValue AsPlcValue
         {
             get { return IExecuteWithSignature<Org.Apache.Plc4x.JavaNs.Api.Value.PlcValue>("getAsPlcValue", "()Lorg/apache/plc4x/java/api/value/PlcValue;"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcReadResponse.html#getRequest--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcReadResponse.html#getRequest()"/> 
         /// </summary>
         public Org.Apache.Plc4x.JavaNs.Api.Messages.PlcTagRequest Request
         {
             get { return IExecuteWithSignature<Org.Apache.Plc4x.JavaNs.Api.Messages.PlcTagRequest>("getRequest", "()Lorg/apache/plc4x/java/api/messages/PlcTagRequest;"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcReadResponse.html#isValidBigDecimal-java.lang.String-int-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcReadResponse.html#isValidBigDecimal(java.lang.String,int)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Lang.String"/></param>
         /// <param name="arg1"><see cref="int"/></param>
@@ -135,7 +135,7 @@ namespace Org.Apache.Plc4x.JavaNs.Api.Messages
             return IExecuteWithSignature<bool>("isValidBigDecimal", "(Ljava/lang/String;I)Z", arg0, arg1);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcReadResponse.html#isValidBigDecimal-java.lang.String-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcReadResponse.html#isValidBigDecimal(java.lang.String)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Lang.String"/></param>
         /// <returns><see cref="bool"/></returns>
@@ -144,7 +144,7 @@ namespace Org.Apache.Plc4x.JavaNs.Api.Messages
             return IExecuteWithSignature<bool>("isValidBigDecimal", "(Ljava/lang/String;)Z", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcReadResponse.html#isValidBigInteger-java.lang.String-int-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcReadResponse.html#isValidBigInteger(java.lang.String,int)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Lang.String"/></param>
         /// <param name="arg1"><see cref="int"/></param>
@@ -154,7 +154,7 @@ namespace Org.Apache.Plc4x.JavaNs.Api.Messages
             return IExecuteWithSignature<bool>("isValidBigInteger", "(Ljava/lang/String;I)Z", arg0, arg1);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcReadResponse.html#isValidBigInteger-java.lang.String-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcReadResponse.html#isValidBigInteger(java.lang.String)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Lang.String"/></param>
         /// <returns><see cref="bool"/></returns>
@@ -163,7 +163,7 @@ namespace Org.Apache.Plc4x.JavaNs.Api.Messages
             return IExecuteWithSignature<bool>("isValidBigInteger", "(Ljava/lang/String;)Z", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcReadResponse.html#isValidBoolean-java.lang.String-int-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcReadResponse.html#isValidBoolean(java.lang.String,int)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Lang.String"/></param>
         /// <param name="arg1"><see cref="int"/></param>
@@ -173,7 +173,7 @@ namespace Org.Apache.Plc4x.JavaNs.Api.Messages
             return IExecuteWithSignature<bool>("isValidBoolean", "(Ljava/lang/String;I)Z", arg0, arg1);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcReadResponse.html#isValidBoolean-java.lang.String-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcReadResponse.html#isValidBoolean(java.lang.String)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Lang.String"/></param>
         /// <returns><see cref="bool"/></returns>
@@ -182,7 +182,7 @@ namespace Org.Apache.Plc4x.JavaNs.Api.Messages
             return IExecuteWithSignature<bool>("isValidBoolean", "(Ljava/lang/String;)Z", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcReadResponse.html#isValidByte-java.lang.String-int-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcReadResponse.html#isValidByte(java.lang.String,int)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Lang.String"/></param>
         /// <param name="arg1"><see cref="int"/></param>
@@ -192,7 +192,7 @@ namespace Org.Apache.Plc4x.JavaNs.Api.Messages
             return IExecuteWithSignature<bool>("isValidByte", "(Ljava/lang/String;I)Z", arg0, arg1);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcReadResponse.html#isValidByte-java.lang.String-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcReadResponse.html#isValidByte(java.lang.String)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Lang.String"/></param>
         /// <returns><see cref="bool"/></returns>
@@ -201,7 +201,7 @@ namespace Org.Apache.Plc4x.JavaNs.Api.Messages
             return IExecuteWithSignature<bool>("isValidByte", "(Ljava/lang/String;)Z", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcReadResponse.html#isValidDate-java.lang.String-int-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcReadResponse.html#isValidDate(java.lang.String,int)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Lang.String"/></param>
         /// <param name="arg1"><see cref="int"/></param>
@@ -211,7 +211,7 @@ namespace Org.Apache.Plc4x.JavaNs.Api.Messages
             return IExecuteWithSignature<bool>("isValidDate", "(Ljava/lang/String;I)Z", arg0, arg1);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcReadResponse.html#isValidDate-java.lang.String-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcReadResponse.html#isValidDate(java.lang.String)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Lang.String"/></param>
         /// <returns><see cref="bool"/></returns>
@@ -220,7 +220,7 @@ namespace Org.Apache.Plc4x.JavaNs.Api.Messages
             return IExecuteWithSignature<bool>("isValidDate", "(Ljava/lang/String;)Z", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcReadResponse.html#isValidDateTime-java.lang.String-int-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcReadResponse.html#isValidDateTime(java.lang.String,int)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Lang.String"/></param>
         /// <param name="arg1"><see cref="int"/></param>
@@ -230,7 +230,7 @@ namespace Org.Apache.Plc4x.JavaNs.Api.Messages
             return IExecuteWithSignature<bool>("isValidDateTime", "(Ljava/lang/String;I)Z", arg0, arg1);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcReadResponse.html#isValidDateTime-java.lang.String-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcReadResponse.html#isValidDateTime(java.lang.String)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Lang.String"/></param>
         /// <returns><see cref="bool"/></returns>
@@ -239,7 +239,7 @@ namespace Org.Apache.Plc4x.JavaNs.Api.Messages
             return IExecuteWithSignature<bool>("isValidDateTime", "(Ljava/lang/String;)Z", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcReadResponse.html#isValidDouble-java.lang.String-int-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcReadResponse.html#isValidDouble(java.lang.String,int)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Lang.String"/></param>
         /// <param name="arg1"><see cref="int"/></param>
@@ -249,7 +249,7 @@ namespace Org.Apache.Plc4x.JavaNs.Api.Messages
             return IExecuteWithSignature<bool>("isValidDouble", "(Ljava/lang/String;I)Z", arg0, arg1);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcReadResponse.html#isValidDouble-java.lang.String-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcReadResponse.html#isValidDouble(java.lang.String)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Lang.String"/></param>
         /// <returns><see cref="bool"/></returns>
@@ -258,7 +258,7 @@ namespace Org.Apache.Plc4x.JavaNs.Api.Messages
             return IExecuteWithSignature<bool>("isValidDouble", "(Ljava/lang/String;)Z", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcReadResponse.html#isValidFloat-java.lang.String-int-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcReadResponse.html#isValidFloat(java.lang.String,int)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Lang.String"/></param>
         /// <param name="arg1"><see cref="int"/></param>
@@ -268,7 +268,7 @@ namespace Org.Apache.Plc4x.JavaNs.Api.Messages
             return IExecuteWithSignature<bool>("isValidFloat", "(Ljava/lang/String;I)Z", arg0, arg1);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcReadResponse.html#isValidFloat-java.lang.String-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcReadResponse.html#isValidFloat(java.lang.String)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Lang.String"/></param>
         /// <returns><see cref="bool"/></returns>
@@ -277,7 +277,7 @@ namespace Org.Apache.Plc4x.JavaNs.Api.Messages
             return IExecuteWithSignature<bool>("isValidFloat", "(Ljava/lang/String;)Z", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcReadResponse.html#isValidInteger-java.lang.String-int-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcReadResponse.html#isValidInteger(java.lang.String,int)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Lang.String"/></param>
         /// <param name="arg1"><see cref="int"/></param>
@@ -287,7 +287,7 @@ namespace Org.Apache.Plc4x.JavaNs.Api.Messages
             return IExecuteWithSignature<bool>("isValidInteger", "(Ljava/lang/String;I)Z", arg0, arg1);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcReadResponse.html#isValidInteger-java.lang.String-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcReadResponse.html#isValidInteger(java.lang.String)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Lang.String"/></param>
         /// <returns><see cref="bool"/></returns>
@@ -296,7 +296,7 @@ namespace Org.Apache.Plc4x.JavaNs.Api.Messages
             return IExecuteWithSignature<bool>("isValidInteger", "(Ljava/lang/String;)Z", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcReadResponse.html#isValidLong-java.lang.String-int-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcReadResponse.html#isValidLong(java.lang.String,int)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Lang.String"/></param>
         /// <param name="arg1"><see cref="int"/></param>
@@ -306,7 +306,7 @@ namespace Org.Apache.Plc4x.JavaNs.Api.Messages
             return IExecuteWithSignature<bool>("isValidLong", "(Ljava/lang/String;I)Z", arg0, arg1);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcReadResponse.html#isValidLong-java.lang.String-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcReadResponse.html#isValidLong(java.lang.String)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Lang.String"/></param>
         /// <returns><see cref="bool"/></returns>
@@ -315,7 +315,7 @@ namespace Org.Apache.Plc4x.JavaNs.Api.Messages
             return IExecuteWithSignature<bool>("isValidLong", "(Ljava/lang/String;)Z", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcReadResponse.html#isValidShort-java.lang.String-int-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcReadResponse.html#isValidShort(java.lang.String,int)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Lang.String"/></param>
         /// <param name="arg1"><see cref="int"/></param>
@@ -325,7 +325,7 @@ namespace Org.Apache.Plc4x.JavaNs.Api.Messages
             return IExecuteWithSignature<bool>("isValidShort", "(Ljava/lang/String;I)Z", arg0, arg1);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcReadResponse.html#isValidShort-java.lang.String-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcReadResponse.html#isValidShort(java.lang.String)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Lang.String"/></param>
         /// <returns><see cref="bool"/></returns>
@@ -334,7 +334,7 @@ namespace Org.Apache.Plc4x.JavaNs.Api.Messages
             return IExecuteWithSignature<bool>("isValidShort", "(Ljava/lang/String;)Z", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcReadResponse.html#isValidString-java.lang.String-int-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcReadResponse.html#isValidString(java.lang.String,int)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Lang.String"/></param>
         /// <param name="arg1"><see cref="int"/></param>
@@ -344,7 +344,7 @@ namespace Org.Apache.Plc4x.JavaNs.Api.Messages
             return IExecuteWithSignature<bool>("isValidString", "(Ljava/lang/String;I)Z", arg0, arg1);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcReadResponse.html#isValidString-java.lang.String-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcReadResponse.html#isValidString(java.lang.String)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Lang.String"/></param>
         /// <returns><see cref="bool"/></returns>
@@ -353,7 +353,7 @@ namespace Org.Apache.Plc4x.JavaNs.Api.Messages
             return IExecuteWithSignature<bool>("isValidString", "(Ljava/lang/String;)Z", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcReadResponse.html#isValidTime-java.lang.String-int-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcReadResponse.html#isValidTime(java.lang.String,int)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Lang.String"/></param>
         /// <param name="arg1"><see cref="int"/></param>
@@ -363,7 +363,7 @@ namespace Org.Apache.Plc4x.JavaNs.Api.Messages
             return IExecuteWithSignature<bool>("isValidTime", "(Ljava/lang/String;I)Z", arg0, arg1);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcReadResponse.html#isValidTime-java.lang.String-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcReadResponse.html#isValidTime(java.lang.String)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Lang.String"/></param>
         /// <returns><see cref="bool"/></returns>
@@ -372,7 +372,7 @@ namespace Org.Apache.Plc4x.JavaNs.Api.Messages
             return IExecuteWithSignature<bool>("isValidTime", "(Ljava/lang/String;)Z", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcReadResponse.html#getNumberOfValues-java.lang.String-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcReadResponse.html#getNumberOfValues(java.lang.String)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Lang.String"/></param>
         /// <returns><see cref="int"/></returns>
@@ -381,7 +381,7 @@ namespace Org.Apache.Plc4x.JavaNs.Api.Messages
             return IExecuteWithSignature<int>("getNumberOfValues", "(Ljava/lang/String;)I", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcReadResponse.html#getBoolean-java.lang.String-int-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcReadResponse.html#getBoolean(java.lang.String,int)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Lang.String"/></param>
         /// <param name="arg1"><see cref="int"/></param>
@@ -391,7 +391,7 @@ namespace Org.Apache.Plc4x.JavaNs.Api.Messages
             return IExecuteWithSignature<Java.Lang.Boolean>("getBoolean", "(Ljava/lang/String;I)Ljava/lang/Boolean;", arg0, arg1);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcReadResponse.html#getBoolean-java.lang.String-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcReadResponse.html#getBoolean(java.lang.String)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Lang.String"/></param>
         /// <returns><see cref="Java.Lang.Boolean"/></returns>
@@ -400,7 +400,7 @@ namespace Org.Apache.Plc4x.JavaNs.Api.Messages
             return IExecuteWithSignature<Java.Lang.Boolean>("getBoolean", "(Ljava/lang/String;)Ljava/lang/Boolean;", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcReadResponse.html#getByte-java.lang.String-int-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcReadResponse.html#getByte(java.lang.String,int)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Lang.String"/></param>
         /// <param name="arg1"><see cref="int"/></param>
@@ -410,7 +410,7 @@ namespace Org.Apache.Plc4x.JavaNs.Api.Messages
             return IExecuteWithSignature<Java.Lang.Byte>("getByte", "(Ljava/lang/String;I)Ljava/lang/Byte;", arg0, arg1);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcReadResponse.html#getByte-java.lang.String-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcReadResponse.html#getByte(java.lang.String)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Lang.String"/></param>
         /// <returns><see cref="Java.Lang.Byte"/></returns>
@@ -419,7 +419,7 @@ namespace Org.Apache.Plc4x.JavaNs.Api.Messages
             return IExecuteWithSignature<Java.Lang.Byte>("getByte", "(Ljava/lang/String;)Ljava/lang/Byte;", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcReadResponse.html#getDouble-java.lang.String-int-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcReadResponse.html#getDouble(java.lang.String,int)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Lang.String"/></param>
         /// <param name="arg1"><see cref="int"/></param>
@@ -429,7 +429,7 @@ namespace Org.Apache.Plc4x.JavaNs.Api.Messages
             return IExecuteWithSignature<Java.Lang.Double>("getDouble", "(Ljava/lang/String;I)Ljava/lang/Double;", arg0, arg1);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcReadResponse.html#getDouble-java.lang.String-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcReadResponse.html#getDouble(java.lang.String)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Lang.String"/></param>
         /// <returns><see cref="Java.Lang.Double"/></returns>
@@ -438,7 +438,7 @@ namespace Org.Apache.Plc4x.JavaNs.Api.Messages
             return IExecuteWithSignature<Java.Lang.Double>("getDouble", "(Ljava/lang/String;)Ljava/lang/Double;", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcReadResponse.html#getFloat-java.lang.String-int-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcReadResponse.html#getFloat(java.lang.String,int)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Lang.String"/></param>
         /// <param name="arg1"><see cref="int"/></param>
@@ -448,7 +448,7 @@ namespace Org.Apache.Plc4x.JavaNs.Api.Messages
             return IExecuteWithSignature<Java.Lang.Float>("getFloat", "(Ljava/lang/String;I)Ljava/lang/Float;", arg0, arg1);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcReadResponse.html#getFloat-java.lang.String-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcReadResponse.html#getFloat(java.lang.String)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Lang.String"/></param>
         /// <returns><see cref="Java.Lang.Float"/></returns>
@@ -457,7 +457,7 @@ namespace Org.Apache.Plc4x.JavaNs.Api.Messages
             return IExecuteWithSignature<Java.Lang.Float>("getFloat", "(Ljava/lang/String;)Ljava/lang/Float;", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcReadResponse.html#getInteger-java.lang.String-int-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcReadResponse.html#getInteger(java.lang.String,int)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Lang.String"/></param>
         /// <param name="arg1"><see cref="int"/></param>
@@ -467,7 +467,7 @@ namespace Org.Apache.Plc4x.JavaNs.Api.Messages
             return IExecuteWithSignature<Java.Lang.Integer>("getInteger", "(Ljava/lang/String;I)Ljava/lang/Integer;", arg0, arg1);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcReadResponse.html#getInteger-java.lang.String-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcReadResponse.html#getInteger(java.lang.String)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Lang.String"/></param>
         /// <returns><see cref="Java.Lang.Integer"/></returns>
@@ -476,7 +476,7 @@ namespace Org.Apache.Plc4x.JavaNs.Api.Messages
             return IExecuteWithSignature<Java.Lang.Integer>("getInteger", "(Ljava/lang/String;)Ljava/lang/Integer;", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcReadResponse.html#getLong-java.lang.String-int-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcReadResponse.html#getLong(java.lang.String,int)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Lang.String"/></param>
         /// <param name="arg1"><see cref="int"/></param>
@@ -486,7 +486,7 @@ namespace Org.Apache.Plc4x.JavaNs.Api.Messages
             return IExecuteWithSignature<Java.Lang.Long>("getLong", "(Ljava/lang/String;I)Ljava/lang/Long;", arg0, arg1);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcReadResponse.html#getLong-java.lang.String-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcReadResponse.html#getLong(java.lang.String)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Lang.String"/></param>
         /// <returns><see cref="Java.Lang.Long"/></returns>
@@ -495,7 +495,7 @@ namespace Org.Apache.Plc4x.JavaNs.Api.Messages
             return IExecuteWithSignature<Java.Lang.Long>("getLong", "(Ljava/lang/String;)Ljava/lang/Long;", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcReadResponse.html#getObject-java.lang.String-int-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcReadResponse.html#getObject(java.lang.String,int)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Lang.String"/></param>
         /// <param name="arg1"><see cref="int"/></param>
@@ -505,7 +505,7 @@ namespace Org.Apache.Plc4x.JavaNs.Api.Messages
             return IExecuteWithSignature("getObject", "(Ljava/lang/String;I)Ljava/lang/Object;", arg0, arg1);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcReadResponse.html#getObject-java.lang.String-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcReadResponse.html#getObject(java.lang.String)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Lang.String"/></param>
         /// <returns><see cref="object"/></returns>
@@ -514,7 +514,7 @@ namespace Org.Apache.Plc4x.JavaNs.Api.Messages
             return IExecuteWithSignature("getObject", "(Ljava/lang/String;)Ljava/lang/Object;", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcReadResponse.html#getShort-java.lang.String-int-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcReadResponse.html#getShort(java.lang.String,int)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Lang.String"/></param>
         /// <param name="arg1"><see cref="int"/></param>
@@ -524,7 +524,7 @@ namespace Org.Apache.Plc4x.JavaNs.Api.Messages
             return IExecuteWithSignature<Java.Lang.Short>("getShort", "(Ljava/lang/String;I)Ljava/lang/Short;", arg0, arg1);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcReadResponse.html#getShort-java.lang.String-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcReadResponse.html#getShort(java.lang.String)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Lang.String"/></param>
         /// <returns><see cref="Java.Lang.Short"/></returns>
@@ -533,7 +533,7 @@ namespace Org.Apache.Plc4x.JavaNs.Api.Messages
             return IExecuteWithSignature<Java.Lang.Short>("getShort", "(Ljava/lang/String;)Ljava/lang/Short;", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcReadResponse.html#getString-java.lang.String-int-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcReadResponse.html#getString(java.lang.String,int)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Lang.String"/></param>
         /// <param name="arg1"><see cref="int"/></param>
@@ -543,7 +543,7 @@ namespace Org.Apache.Plc4x.JavaNs.Api.Messages
             return IExecuteWithSignature<Java.Lang.String>("getString", "(Ljava/lang/String;I)Ljava/lang/String;", arg0, arg1);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcReadResponse.html#getString-java.lang.String-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcReadResponse.html#getString(java.lang.String)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Lang.String"/></param>
         /// <returns><see cref="Java.Lang.String"/></returns>
@@ -552,7 +552,7 @@ namespace Org.Apache.Plc4x.JavaNs.Api.Messages
             return IExecuteWithSignature<Java.Lang.String>("getString", "(Ljava/lang/String;)Ljava/lang/String;", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcReadResponse.html#getBigDecimal-java.lang.String-int-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcReadResponse.html#getBigDecimal(java.lang.String,int)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Lang.String"/></param>
         /// <param name="arg1"><see cref="int"/></param>
@@ -562,7 +562,7 @@ namespace Org.Apache.Plc4x.JavaNs.Api.Messages
             return IExecuteWithSignature<Java.Math.BigDecimal>("getBigDecimal", "(Ljava/lang/String;I)Ljava/math/BigDecimal;", arg0, arg1);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcReadResponse.html#getBigDecimal-java.lang.String-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcReadResponse.html#getBigDecimal(java.lang.String)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Lang.String"/></param>
         /// <returns><see cref="Java.Math.BigDecimal"/></returns>
@@ -571,7 +571,7 @@ namespace Org.Apache.Plc4x.JavaNs.Api.Messages
             return IExecuteWithSignature<Java.Math.BigDecimal>("getBigDecimal", "(Ljava/lang/String;)Ljava/math/BigDecimal;", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcReadResponse.html#getBigInteger-java.lang.String-int-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcReadResponse.html#getBigInteger(java.lang.String,int)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Lang.String"/></param>
         /// <param name="arg1"><see cref="int"/></param>
@@ -581,7 +581,7 @@ namespace Org.Apache.Plc4x.JavaNs.Api.Messages
             return IExecuteWithSignature<Java.Math.BigInteger>("getBigInteger", "(Ljava/lang/String;I)Ljava/math/BigInteger;", arg0, arg1);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcReadResponse.html#getBigInteger-java.lang.String-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcReadResponse.html#getBigInteger(java.lang.String)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Lang.String"/></param>
         /// <returns><see cref="Java.Math.BigInteger"/></returns>
@@ -590,7 +590,7 @@ namespace Org.Apache.Plc4x.JavaNs.Api.Messages
             return IExecuteWithSignature<Java.Math.BigInteger>("getBigInteger", "(Ljava/lang/String;)Ljava/math/BigInteger;", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcReadResponse.html#getDate-java.lang.String-int-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcReadResponse.html#getDate(java.lang.String,int)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Lang.String"/></param>
         /// <param name="arg1"><see cref="int"/></param>
@@ -600,7 +600,7 @@ namespace Org.Apache.Plc4x.JavaNs.Api.Messages
             return IExecuteWithSignature<Java.Time.LocalDate>("getDate", "(Ljava/lang/String;I)Ljava/time/LocalDate;", arg0, arg1);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcReadResponse.html#getDate-java.lang.String-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcReadResponse.html#getDate(java.lang.String)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Lang.String"/></param>
         /// <returns><see cref="Java.Time.LocalDate"/></returns>
@@ -609,7 +609,7 @@ namespace Org.Apache.Plc4x.JavaNs.Api.Messages
             return IExecuteWithSignature<Java.Time.LocalDate>("getDate", "(Ljava/lang/String;)Ljava/time/LocalDate;", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcReadResponse.html#getDateTime-java.lang.String-int-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcReadResponse.html#getDateTime(java.lang.String,int)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Lang.String"/></param>
         /// <param name="arg1"><see cref="int"/></param>
@@ -619,7 +619,7 @@ namespace Org.Apache.Plc4x.JavaNs.Api.Messages
             return IExecuteWithSignature<Java.Time.LocalDateTime>("getDateTime", "(Ljava/lang/String;I)Ljava/time/LocalDateTime;", arg0, arg1);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcReadResponse.html#getDateTime-java.lang.String-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcReadResponse.html#getDateTime(java.lang.String)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Lang.String"/></param>
         /// <returns><see cref="Java.Time.LocalDateTime"/></returns>
@@ -628,7 +628,7 @@ namespace Org.Apache.Plc4x.JavaNs.Api.Messages
             return IExecuteWithSignature<Java.Time.LocalDateTime>("getDateTime", "(Ljava/lang/String;)Ljava/time/LocalDateTime;", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcReadResponse.html#getTime-java.lang.String-int-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcReadResponse.html#getTime(java.lang.String,int)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Lang.String"/></param>
         /// <param name="arg1"><see cref="int"/></param>
@@ -638,7 +638,7 @@ namespace Org.Apache.Plc4x.JavaNs.Api.Messages
             return IExecuteWithSignature<Java.Time.LocalTime>("getTime", "(Ljava/lang/String;I)Ljava/time/LocalTime;", arg0, arg1);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcReadResponse.html#getTime-java.lang.String-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcReadResponse.html#getTime(java.lang.String)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Lang.String"/></param>
         /// <returns><see cref="Java.Time.LocalTime"/></returns>
@@ -647,7 +647,7 @@ namespace Org.Apache.Plc4x.JavaNs.Api.Messages
             return IExecuteWithSignature<Java.Time.LocalTime>("getTime", "(Ljava/lang/String;)Ljava/time/LocalTime;", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcReadResponse.html#getAllBooleans-java.lang.String-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcReadResponse.html#getAllBooleans(java.lang.String)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Lang.String"/></param>
         /// <returns><see cref="Java.Util.Collection"/></returns>
@@ -656,7 +656,7 @@ namespace Org.Apache.Plc4x.JavaNs.Api.Messages
             return IExecuteWithSignature<Java.Util.Collection<Java.Lang.Boolean>>("getAllBooleans", "(Ljava/lang/String;)Ljava/util/Collection;", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcReadResponse.html#getAllBytes-java.lang.String-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcReadResponse.html#getAllBytes(java.lang.String)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Lang.String"/></param>
         /// <returns><see cref="Java.Util.Collection"/></returns>
@@ -665,7 +665,7 @@ namespace Org.Apache.Plc4x.JavaNs.Api.Messages
             return IExecuteWithSignature<Java.Util.Collection<Java.Lang.Byte>>("getAllBytes", "(Ljava/lang/String;)Ljava/util/Collection;", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcReadResponse.html#getAllDoubles-java.lang.String-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcReadResponse.html#getAllDoubles(java.lang.String)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Lang.String"/></param>
         /// <returns><see cref="Java.Util.Collection"/></returns>
@@ -674,7 +674,7 @@ namespace Org.Apache.Plc4x.JavaNs.Api.Messages
             return IExecuteWithSignature<Java.Util.Collection<Java.Lang.Double>>("getAllDoubles", "(Ljava/lang/String;)Ljava/util/Collection;", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcReadResponse.html#getAllFloats-java.lang.String-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcReadResponse.html#getAllFloats(java.lang.String)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Lang.String"/></param>
         /// <returns><see cref="Java.Util.Collection"/></returns>
@@ -683,7 +683,7 @@ namespace Org.Apache.Plc4x.JavaNs.Api.Messages
             return IExecuteWithSignature<Java.Util.Collection<Java.Lang.Float>>("getAllFloats", "(Ljava/lang/String;)Ljava/util/Collection;", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcReadResponse.html#getAllIntegers-java.lang.String-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcReadResponse.html#getAllIntegers(java.lang.String)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Lang.String"/></param>
         /// <returns><see cref="Java.Util.Collection"/></returns>
@@ -692,7 +692,7 @@ namespace Org.Apache.Plc4x.JavaNs.Api.Messages
             return IExecuteWithSignature<Java.Util.Collection<Java.Lang.Integer>>("getAllIntegers", "(Ljava/lang/String;)Ljava/util/Collection;", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcReadResponse.html#getAllLongs-java.lang.String-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcReadResponse.html#getAllLongs(java.lang.String)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Lang.String"/></param>
         /// <returns><see cref="Java.Util.Collection"/></returns>
@@ -701,7 +701,7 @@ namespace Org.Apache.Plc4x.JavaNs.Api.Messages
             return IExecuteWithSignature<Java.Util.Collection<Java.Lang.Long>>("getAllLongs", "(Ljava/lang/String;)Ljava/util/Collection;", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcReadResponse.html#getAllObjects-java.lang.String-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcReadResponse.html#getAllObjects(java.lang.String)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Lang.String"/></param>
         /// <returns><see cref="Java.Util.Collection"/></returns>
@@ -710,7 +710,7 @@ namespace Org.Apache.Plc4x.JavaNs.Api.Messages
             return IExecuteWithSignature<Java.Util.Collection<object>>("getAllObjects", "(Ljava/lang/String;)Ljava/util/Collection;", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcReadResponse.html#getAllShorts-java.lang.String-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcReadResponse.html#getAllShorts(java.lang.String)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Lang.String"/></param>
         /// <returns><see cref="Java.Util.Collection"/></returns>
@@ -719,7 +719,7 @@ namespace Org.Apache.Plc4x.JavaNs.Api.Messages
             return IExecuteWithSignature<Java.Util.Collection<Java.Lang.Short>>("getAllShorts", "(Ljava/lang/String;)Ljava/util/Collection;", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcReadResponse.html#getAllStrings-java.lang.String-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcReadResponse.html#getAllStrings(java.lang.String)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Lang.String"/></param>
         /// <returns><see cref="Java.Util.Collection"/></returns>
@@ -728,7 +728,7 @@ namespace Org.Apache.Plc4x.JavaNs.Api.Messages
             return IExecuteWithSignature<Java.Util.Collection<Java.Lang.String>>("getAllStrings", "(Ljava/lang/String;)Ljava/util/Collection;", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcReadResponse.html#getAllBigDecimals-java.lang.String-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcReadResponse.html#getAllBigDecimals(java.lang.String)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Lang.String"/></param>
         /// <returns><see cref="Java.Util.Collection"/></returns>
@@ -737,7 +737,7 @@ namespace Org.Apache.Plc4x.JavaNs.Api.Messages
             return IExecuteWithSignature<Java.Util.Collection<Java.Math.BigDecimal>>("getAllBigDecimals", "(Ljava/lang/String;)Ljava/util/Collection;", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcReadResponse.html#getAllBigIntegers-java.lang.String-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcReadResponse.html#getAllBigIntegers(java.lang.String)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Lang.String"/></param>
         /// <returns><see cref="Java.Util.Collection"/></returns>
@@ -746,7 +746,7 @@ namespace Org.Apache.Plc4x.JavaNs.Api.Messages
             return IExecuteWithSignature<Java.Util.Collection<Java.Math.BigInteger>>("getAllBigIntegers", "(Ljava/lang/String;)Ljava/util/Collection;", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcReadResponse.html#getAllDates-java.lang.String-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcReadResponse.html#getAllDates(java.lang.String)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Lang.String"/></param>
         /// <returns><see cref="Java.Util.Collection"/></returns>
@@ -755,7 +755,7 @@ namespace Org.Apache.Plc4x.JavaNs.Api.Messages
             return IExecuteWithSignature<Java.Util.Collection<Java.Time.LocalDate>>("getAllDates", "(Ljava/lang/String;)Ljava/util/Collection;", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcReadResponse.html#getAllDateTimes-java.lang.String-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcReadResponse.html#getAllDateTimes(java.lang.String)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Lang.String"/></param>
         /// <returns><see cref="Java.Util.Collection"/></returns>
@@ -764,7 +764,7 @@ namespace Org.Apache.Plc4x.JavaNs.Api.Messages
             return IExecuteWithSignature<Java.Util.Collection<Java.Time.LocalDateTime>>("getAllDateTimes", "(Ljava/lang/String;)Ljava/util/Collection;", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcReadResponse.html#getAllTimes-java.lang.String-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcReadResponse.html#getAllTimes(java.lang.String)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Lang.String"/></param>
         /// <returns><see cref="Java.Util.Collection"/></returns>
@@ -773,7 +773,7 @@ namespace Org.Apache.Plc4x.JavaNs.Api.Messages
             return IExecuteWithSignature<Java.Util.Collection<Java.Time.LocalTime>>("getAllTimes", "(Ljava/lang/String;)Ljava/util/Collection;", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcReadResponse.html#getPlcValue-java.lang.String-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcReadResponse.html#getPlcValue(java.lang.String)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Lang.String"/></param>
         /// <returns><see cref="Org.Apache.Plc4x.JavaNs.Api.Value.PlcValue"/></returns>
