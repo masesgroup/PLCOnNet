@@ -121,7 +121,7 @@ var response = cf.Get();
 ```
 
 
-4. Analyze returned information
+### Analyze returned information
 
 The following Java snippet:
 
