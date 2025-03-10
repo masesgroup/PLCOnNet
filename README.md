@@ -30,7 +30,7 @@ Looking for the help of experts? MASES Group can help you design, build, deploy,
 
 This project aims to create a set of libraries and tools to direct access, from .NET, all the features available in the [PLC4X](https://plc4x.apache.org) since, as stated in [PLC4X GitHub repository](https://github.com/apache/plc4x), the support for C# was abandoned.
 And, still in [PLC4X protocols page](https://plc4x.apache.org/plc4x/latest/users/protocols/index.html), the main supported languages are Java and Go.
-This project mutuated the name of the PLC4X support for .NET and implements almost all Java classes in .NET giving to a developer the same experience programming with Java. 
+This project mutuated the name of the PLC4X support for .NET and implements almost all Java classes in .NET giving to a developer the same programming experience of Java. 
 The following snippets demonstrate the comparison between the [Java code](https://plc4x.apache.org/plc4x/latest/users/getting-started/plc4j.html) and the C# counterpart offered from this project.
 
 1. Initialization
@@ -62,9 +62,12 @@ try (plcConnection = PlcDriverManager.getDefault()
 
 const string cString = "s7://10.10.64.20";
 
-using var plcConnection = PlcDriverManager.Default
-                                          .ConnectionManager
-                                          .GetConnection(cString);
+using (var plcConnection = PlcDriverManager.Default
+                                           .ConnectionManager
+                                           .GetConnection(cString))
+{
+  ... do something with the connection here ...
+}
 ```
 
 </td>

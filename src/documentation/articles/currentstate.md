@@ -8,7 +8,7 @@ _description: Describes the current development state of PLC4X suite for .NET
 This release comes with some ready made classes:
 
 * PLC4Net:
-  * Reflected almost all classes of a Temurin JDK 11 with the limits imposed from JNetReflector
+  * Reflected almost all classes of [PLC4J](https://plc4x.apache.org/plc4x/latest/users/getting-started/plc4j.html) with the limits imposed from JNetReflector
   * Manually made some classes, or extended some of reflected one, due to limitations of JNetReflector
   * If something is not available use [API extensibility](API_extensibility.md) to cover missing classes.
 * PLC4NetCLI: added REPL shell, run Main-Class and execute C# scripts
