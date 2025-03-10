@@ -47,8 +47,10 @@ The following snippets demonstrate the comparison between the [Java code](https:
 
 String connectionString = "s7://10.10.64.20";
 
-try (PlcConnection plcConnection = PlcDriverManager.getDefault().getConnectionManager().getConnection(connectionString)) {
-
+try (PlcConnection plcConnection = PlcDriverManager.getDefault()
+                                                   .getConnectionManager()
+                                                   .getConnection(connectionString))
+{
   ... do something with the connection here ...
 }
 ```
@@ -60,7 +62,9 @@ try (PlcConnection plcConnection = PlcDriverManager.getDefault().getConnectionMa
 
 const string connectionString = "s7://10.10.64.20";
 
-using var plcConnection = PlcDriverManager.Default.ConnectionManager.GetConnection(connectionString);
+using var plcConnection = PlcDriverManager.Default
+                                          .ConnectionManager
+                                          .GetConnection(connectionString);
 ```
 
 </td>
@@ -125,7 +129,8 @@ builder.addTagAddress("value-3", "%I0.2:BOOL");
 builder.addTagAddress("value-4", "%DB.DB1.4:INT");
 PlcReadRequest readRequest = builder.build();
 
-PlcReadResponse response = readRequest.execute().get(5000, TimeUnit.MILLISECONDS);
+PlcReadResponse response = readRequest.execute()
+                                      .get(5000, TimeUnit.MILLISECONDS);
 
 ```
   
@@ -170,7 +175,8 @@ for (String tagName : response.getTagNames()) {
         int numValues = response.getNumberOfValues(tagName);
         // If it's just one element, output just one single line.
         if(numValues == 1) {
-            logger.info("Value[" + tagName + "]: " + response.getObject(tagName));
+            logger.info("Value[" + tagName + "]: " 
+                        + response.getObject(tagName));
         }
         // If it's more than one element, output each in a single row.
         else {
@@ -182,7 +188,8 @@ for (String tagName : response.getTagNames()) {
     }
     // Something went wrong, to output an error message instead.
     else {
-        logger.error("Error[" + tagName + "]: " + response.getResponseCode(tagName).name());
+        logger.error("Error[" + tagName + "]: " 
+                     + response.getResponseCode(tagName).name());
     }
 }
 
