@@ -104,8 +104,126 @@
 <p>Looking for the help of experts? MASES Group can help you design, build, deploy, and manage applications based PLC.</p>
 <hr>
 <h2 id="scope-of-the-project">Scope of the project</h2>
-<p>This project aims to create a set of libraries and tools to direct access, from .NET, all the features available in the <a href="https://plc4x.apache.org">PLC4X</a>.</p>
-<p>See <a href="src/documentation/articles/usage.md">PLC4Net usage</a> for a comprehensive example.</p>
+<p>This project aims to create a set of libraries and tools to direct access, from .NET, all the features available in the <a href="https://plc4x.apache.org">PLC4X</a> since, as stated in <a href="https://github.com/apache/plc4x">PLC4X GitHub repository</a>, the support for C# was abandoned.
+And, still in <a href="https://plc4x.apache.org/plc4x/latest/users/protocols/index.html">PLC4X protocols page</a>, the main supported languages are Java and Go.
+This project mutuated the name of the PLC4X support for .NET and implements almost all Java classes in .NET giving to a developer the same programming experience of Java.
+The following snippets demonstrate the comparison between the <a href="https://plc4x.apache.org/plc4x/latest/users/getting-started/plc4j.html">Java code</a> and the C# counterpart offered from this project.</p>
+<h3 id="initialization">Initialization</h3>
+<p><strong>Try-with-resource</strong> statement:</p>
+<pre><code class="lang-java">String cString = &quot;s7://10.10.64.20&quot;;
+PlcConnection plcConnection = null;
+try (plcConnection = PlcDriverManager.getDefault()
+                                     .getConnectionManager()
+                                     .getConnection(cString))
+{
+  ... do something with the connection here ...
+}
+</code></pre>
+<p>becomes a <code>using</code> clause:</p>
+<pre><code class="lang-C#">const string cString = &quot;s7://10.10.64.20&quot;;
+
+using (var plcConnection = PlcDriverManager.Default
+                                           .ConnectionManager
+                                           .GetConnection(cString))
+{
+  ... do something with the connection here ...
+}
+</code></pre>
+<h3 id="check-supported-feature">Check supported feature</h3>
+<p>The following Java snippet:</p>
+<pre><code class="lang-java">// Check if this connection support reading of data.
+if (!plcConnection.getMetadata().isReadSupported()) {
+  logger.error(&quot;This connection doesn't support reading.&quot;);
+  return;
+}
+</code></pre>
+<p>becomes in C#:</p>
+<pre><code class="lang-C#">if (!plcConnection.Metadata.IsReadSupported())
+{
+    Console.WriteLine(&quot;This connection doesn't support reading.&quot;);
+    return;
+}
+</code></pre>
+<h3 id="prepare-request">Prepare request</h3>
+<p>The following Java snippet:</p>
+<pre><code class="lang-java">// Create a new read request:
+// - Give the single item requested an alias name
+PlcReadRequest.Builder builder = plcConnection.readRequestBuilder();
+builder.addTagAddress(&quot;value-1&quot;, &quot;%Q0.4:BOOL&quot;);
+builder.addTagAddress(&quot;value-2&quot;, &quot;%Q0:BYTE&quot;);
+builder.addTagAddress(&quot;value-3&quot;, &quot;%I0.2:BOOL&quot;);
+builder.addTagAddress(&quot;value-4&quot;, &quot;%DB.DB1.4:INT&quot;);
+PlcReadRequest readRequest = builder.build();
+
+PlcReadResponse response = readRequest.execute().get(5000, TimeUnit.MILLISECONDS);
+</code></pre>
+<p>becomes in C#:</p>
+<pre><code class="lang-C#">// Create a new read request:
+// - Give the single item requested an alias name
+PlcReadRequest.Builder builder = plcConnection.ReadRequestBuilder();
+builder.AddTagAddress(&quot;value-1&quot;, &quot;%Q0.4:BOOL&quot;);
+builder.AddTagAddress(&quot;value-2&quot;, &quot;%Q0:BYTE&quot;);
+builder.AddTagAddress(&quot;value-3&quot;, &quot;%I0.2:BOOL&quot;);
+builder.AddTagAddress(&quot;value-4&quot;, &quot;%DB.DB1.4:INT&quot;);
+PlcRequest readRequest = builder.Build();
+
+var cf = readRequest.Execute&lt;PlcReadResponse&gt;();
+var response = cf.Get();
+</code></pre>
+<h3 id="analyze-returned-information">Analyze returned information</h3>
+<p>The following Java snippet:</p>
+<pre><code class="lang-java">for (String tagName : response.getTagNames()) {
+    if(response.getResponseCode(tagName) == PlcResponseCode.OK) {
+        int numValues = response.getNumberOfValues(tagName);
+        // If it's just one element, output just one single line.
+        if(numValues == 1) {
+            logger.info(&quot;Value[&quot; + tagName + &quot;]: &quot; 
+                        + response.getObject(tagName));
+        }
+        // If it's more than one element, output each in a single row.
+        else {
+            logger.info(&quot;Value[&quot; + tagName + &quot;]:&quot;);
+            for(int i = 0; i &lt; numValues; i++) {
+                logger.info(&quot; - &quot; + response.getObject(tagName, i));
+            }
+        }
+    }
+    // Something went wrong, to output an error message instead.
+    else {
+        logger.error(&quot;Error[&quot; + tagName + &quot;]: &quot; 
+                     + response.getResponseCode(tagName).name());
+    }
+}
+</code></pre>
+<p>becomes in C#:</p>
+<pre><code class="lang-C#">foreach (Java.Lang.String tagName in response.TagNames)
+{
+    if (response.GetResponseCode(tagName) == PlcResponseCode.OK)
+    {
+        int numValues = response.GetNumberOfValues(tagName);
+        // If it's just one element, output just one single line.
+        if (numValues == 1)
+        {
+            Console.WriteLine($&quot;Value[{tagName}]: {response.GetObject(tagName)}&quot;);
+        }
+        // If it's more than one element, output each in a single row.
+        else
+        {
+            Console.WriteLine($&quot;Value[{tagName}]:&quot;);
+            for (int i = 0; i &lt; numValues; i++)
+            {
+                Console.WriteLine($&quot; - {response.GetObject(tagName, i)}&quot;);
+            }
+        }
+    }
+    // Something went wrong, to output an error message instead.
+    else
+    {
+        Console.WriteLine($&quot;Error[{tagName}]: {response.GetResponseCode(tagName).Name()}&quot;);
+    }
+}
+</code></pre>
+<p>See <a href="src/documentation/articles/usage.md">PLC4Net usage</a> for other examples.</p>
 <h3 id="community-and-contribution">Community and Contribution</h3>
 <p>Do you like the project?</p>
 <ul>
