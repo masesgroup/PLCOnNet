@@ -89,7 +89,147 @@
 
 <p>To use PLC4Net classes the developer can write code in .NET using the same classes available in the official Java packages.
 If classes or methods are not available yet it is possible to use the approach synthetized in <a href="https://jnet.masesgroup.com/articles/API_extensibility.html">What to do if an API was not yet implemented</a></p>
-<p>See <a href="https://jnet.masesgroup.com/articles/usage.html">JNet usage</a> for further information.</p>
+<p>The following code snippets and examples are mutuated from <a href="https://plc4x.apache.org/plc4x/latest/users/getting-started/plc4j.html">PLC4X official website</a></p>
+<h2 id="read-data-from-plc">Read data from PLC</h2>
+<p>The following code connects to a Siemens PLC using the <em>s7</em> protocol and requests to read some tags:</p>
+<pre><code class="lang-C#">
+const string connectionString = &quot;s7://10.10.64.20&quot;;
+
+using var plcConnection = PlcDriverManager.Default.ConnectionManager.GetConnection(connectionString);
+
+if (!plcConnection.Metadata.IsReadSupported())
+{
+    Console.WriteLine(&quot;This connection doesn't support reading.&quot;);
+    return;
+}
+// Create a new read request:
+// - Give the single item requested an alias name
+PlcReadRequest.Builder builder = plcConnection.ReadRequestBuilder();
+builder.AddTagAddress(&quot;value-1&quot;, &quot;%Q0.4:BOOL&quot;);
+builder.AddTagAddress(&quot;value-2&quot;, &quot;%Q0:BYTE&quot;);
+builder.AddTagAddress(&quot;value-3&quot;, &quot;%I0.2:BOOL&quot;);
+builder.AddTagAddress(&quot;value-4&quot;, &quot;%DB.DB1.4:INT&quot;);
+PlcRequest readRequest = builder.Build();
+
+var cf = readRequest.Execute&lt;PlcReadResponse&gt;();
+var response = cf.Get();
+
+foreach (Java.Lang.String tagName in response.TagNames)
+{
+    if (response.GetResponseCode(tagName) == PlcResponseCode.OK)
+    {
+        int numValues = response.GetNumberOfValues(tagName);
+        // If it's just one element, output just one single line.
+        if (numValues == 1)
+        {
+            Console.WriteLine($&quot;Value[{tagName}]: {response.GetObject(tagName)}&quot;);
+        }
+        // If it's more than one element, output each in a single row.
+        else
+        {
+            Console.WriteLine($&quot;Value[{tagName}]:&quot;);
+            for (int i = 0; i &lt; numValues; i++)
+            {
+                Console.WriteLine($&quot; - {response.GetObject(tagName, i)}&quot;);
+            }
+        }
+    }
+    // Something went wrong, to output an error message instead.
+    else
+    {
+        Console.WriteLine($&quot;Error[{tagName}]: {response.GetResponseCode(tagName).Name()}&quot;);
+    }
+}
+
+</code></pre>
+<h2 id="write-data-to-plc">Write data to PLC</h2>
+<p>The following code connects to a Siemens PLC using the <em>s7</em> protocol and requests to write some tags:</p>
+<pre><code class="lang-C#">
+const string connectionString = &quot;s7://10.10.64.20&quot;;
+
+using var plcConnection = PlcDriverManager.Default.ConnectionManager.GetConnection(connectionString);
+
+if (!plcConnection.Metadata.IsWriteSupported())
+{
+    Console.WriteLine(&quot;This connection doesn't support writing.&quot;);
+    return;
+}
+// Create a new write request:
+// - Give the single item requested an alias name
+// - Pass in the data you want to write (for arrays, pass in one value for every element)
+PlcWriteRequest.Builder builder = plcConnection.WriteRequestBuilder();
+builder.AddTagAddress(&quot;value-1&quot;, &quot;%Q0.4:BOOL&quot;, true);
+builder.AddTagAddress(&quot;value-2&quot;, &quot;%Q0:BYTE&quot;, (byte)0xFF);
+builder.AddTagAddress(&quot;value-4&quot;, &quot;%DB.DB1.4:INT[3]&quot;, 7, 23, 42);
+PlcRequest writeRequest = builder.Build();
+
+var cf = writeRequest.Execute&lt;PlcWriteResponse&gt;();
+var response = cf.Get();
+
+foreach (Java.Lang.String tagName in response.TagNames)
+{
+    if (response.GetResponseCode(tagName) == PlcResponseCode.OK)
+    {
+        Console.WriteLine($&quot;Value[{tagName}]: updated&quot;);
+    }
+    // Something went wrong, to output an error message instead.
+    else
+    {
+        Console.WriteLine($&quot;Error[{tagName}]: {response.GetResponseCode(tagName).Name()}&quot;);
+    }
+}
+
+</code></pre>
+<h2 id="subscribe-to-plc">Subscribe to PLC</h2>
+<p>The following code connects to a Siemens PLC using the <em>s7</em> protocol and subscribe to data change of some tags:</p>
+<pre><code class="lang-C#">
+ConcurrentDictionary&lt;int, PlcConsumerRegistration&gt; _registrationMap = new();
+Consumer&lt;PlcSubscriptionEvent&gt; _plcEvent = null;
+const string connectionString = &quot;s7://10.10.64.20&quot;;
+
+using var plcConnection = PlcDriverManager.Default.ConnectionManager.GetConnection(connectionString);
+
+if (!plcConnection.Metadata.IsSubscribeSupported())
+{
+    Console.WriteLine(&quot;This connection doesn't support subscribing.&quot;);
+    return;
+}
+// Create a new subscription request:
+// - Give the single tag requested an alias name
+PlcSubscriptionRequest.Builder builder = plcConnection.SubscriptionRequestBuilder();
+builder.AddChangeOfStateTagAddress(&quot;value-1&quot;, &quot;{some address}&quot;);
+builder.AddCyclicTagAddress(&quot;value-2&quot;, &quot;{some address}&quot;, Duration.OfMillis(1000));
+builder.AddEventTagAddress(&quot;value-3&quot;, &quot;{some alarm address}&quot;);
+PlcRequest subscriptionRequest = builder.Build();
+
+var cf = subscriptionRequest.Execute&lt;PlcSubscriptionResponse&gt;();
+var response = cf.Get();
+
+_plcEvent ??= new Consumer&lt;PlcSubscriptionEvent&gt;()
+{
+    OnAccept = (e) =&gt;
+    {
+        foreach (Java.Lang.String tagName in e.TagNames)
+        {
+            Console.WriteLine(e.GetPlcValue(tagName));
+        }
+    }
+};
+
+foreach (PlcSubscriptionHandle subscriptionHandle in response.SubscriptionHandles)
+{
+    var reg = subscriptionHandle.Register(_plcEvent);
+    _registrationMap.GetOrAdd(reg.ConsumerId, (_) =&gt; reg); 
+}
+
+// wait many events then cleanup
+
+foreach (var item in _registrationMap)
+{
+    item.Value.Unregister();
+}
+
+</code></pre>
 
 </article>
 

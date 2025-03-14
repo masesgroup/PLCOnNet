@@ -82,6 +82,76 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/MASES.PLC4NetPS.Cmdlet.GetPlcConnectionCmdletCommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MASES.PLC4NetPS.Cmdlet.GetPlcConnectionCmdletCommand.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MASES.PLC4NetPS.Cmdlet.GetPlcConnectionCmdletCommand",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MASES.PLC4NetPS.Cmdlet.GetPlcDriverCmdletCommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MASES.PLC4NetPS.Cmdlet.GetPlcDriverCmdletCommand.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MASES.PLC4NetPS.Cmdlet.GetPlcDriverCmdletCommand",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MASES.PLC4NetPS.Cmdlet.GetProtocolCodesCmdletCommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MASES.PLC4NetPS.Cmdlet.GetProtocolCodesCmdletCommand.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MASES.PLC4NetPS.Cmdlet.GetProtocolCodesCmdletCommand",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MASES.PLC4NetPS.Cmdlet.NewPlcUsernamePasswordAuthenticationCmdletCommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MASES.PLC4NetPS.Cmdlet.NewPlcUsernamePasswordAuthenticationCmdletCommand.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MASES.PLC4NetPS.Cmdlet.NewPlcUsernamePasswordAuthenticationCmdletCommand",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MASES.PLC4NetPS.Cmdlet.PLC4NetClassToRunCmdletCommandBase-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MASES.PLC4NetPS.Cmdlet.PLC4NetClassToRunCmdletCommandBase-1.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MASES.PLC4NetPS.Cmdlet.PLC4NetClassToRunCmdletCommandBase<TCmdlet>",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/MASES.PLC4NetPS.Cmdlet.PLC4NetPSCmdlet.yml",
       "output": {
         ".html": {
@@ -177,6 +247,48 @@
       "IsMRef": true,
       "Title": "MASES.PLC4NetPS.PLC4NetPSHelper<TClass>",
       "Summary": "<p sourcefile=\"api/MASES.PLC4NetPS.PLC4NetPSHelper-1.yml\" sourcestartlinenumber=\"1\">Public Helper class</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MASES.PLC4NetPS.Server.OPCUAServerCmdletCommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MASES.PLC4NetPS.Server.OPCUAServerCmdletCommand.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MASES.PLC4NetPS.Server.OPCUAServerCmdletCommand",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MASES.PLC4NetPS.Server.Plc4xServerCmdletCommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MASES.PLC4NetPS.Server.Plc4xServerCmdletCommand.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MASES.PLC4NetPS.Server.Plc4xServerCmdletCommand",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MASES.PLC4NetPS.Server.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MASES.PLC4NetPS.Server.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MASES.PLC4NetPS.Server",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -2150,6 +2262,272 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "Org.Apache.Plc4x.JavaNs.Api",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Org.Apache.Plc4x.JavaNs.DefaultPlcDriverManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Org.Apache.Plc4x.JavaNs.DefaultPlcDriverManager.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Org.Apache.Plc4x.JavaNs.DefaultPlcDriverManager",
+      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.DefaultPlcDriverManager.yml\" sourcestartlinenumber=\"1\"><a href=\"https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/DefaultPlcDriverManager.html\">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/DefaultPlcDriverManager.html</a></p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Org.Apache.Plc4x.JavaNs.Opcuaserver.Backend.Plc4xCommunication.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Org.Apache.Plc4x.JavaNs.Opcuaserver.Backend.Plc4xCommunication.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Org.Apache.Plc4x.JavaNs.Opcuaserver.Backend.Plc4xCommunication",
+      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Opcuaserver.Backend.Plc4xCommunication.yml\" sourcestartlinenumber=\"1\"><a href=\"https://www.javadoc.io/doc/org.apache.plc4x/plc4x-opcua-server/0.12.0/org/apache/plc4x/java/opcuaserver/backend/Plc4xCommunication.html\">https://www.javadoc.io/doc/org.apache.plc4x/plc4x-opcua-server/0.12.0/org/apache/plc4x/java/opcuaserver/backend/Plc4xCommunication.html</a></p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Org.Apache.Plc4x.JavaNs.Opcuaserver.Backend.Plc4xNamespace.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Org.Apache.Plc4x.JavaNs.Opcuaserver.Backend.Plc4xNamespace.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Org.Apache.Plc4x.JavaNs.Opcuaserver.Backend.Plc4xNamespace",
+      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Opcuaserver.Backend.Plc4xNamespace.yml\" sourcestartlinenumber=\"1\"><a href=\"https://www.javadoc.io/doc/org.apache.plc4x/plc4x-opcua-server/0.12.0/org/apache/plc4x/java/opcuaserver/backend/Plc4xNamespace.html\">https://www.javadoc.io/doc/org.apache.plc4x/plc4x-opcua-server/0.12.0/org/apache/plc4x/java/opcuaserver/backend/Plc4xNamespace.html</a></p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Org.Apache.Plc4x.JavaNs.Opcuaserver.Backend.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Org.Apache.Plc4x.JavaNs.Opcuaserver.Backend.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Org.Apache.Plc4x.JavaNs.Opcuaserver.Backend",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Org.Apache.Plc4x.JavaNs.Opcuaserver.Configuration.Configuration.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Org.Apache.Plc4x.JavaNs.Opcuaserver.Configuration.Configuration.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Org.Apache.Plc4x.JavaNs.Opcuaserver.Configuration.Configuration",
+      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Opcuaserver.Configuration.Configuration.yml\" sourcestartlinenumber=\"1\"><a href=\"https://www.javadoc.io/doc/org.apache.plc4x/plc4x-opcua-server/0.12.0/org/apache/plc4x/java/opcuaserver/configuration/Configuration.html\">https://www.javadoc.io/doc/org.apache.plc4x/plc4x-opcua-server/0.12.0/org/apache/plc4x/java/opcuaserver/configuration/Configuration.html</a></p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Org.Apache.Plc4x.JavaNs.Opcuaserver.Configuration.DeviceConfiguration.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Org.Apache.Plc4x.JavaNs.Opcuaserver.Configuration.DeviceConfiguration.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Org.Apache.Plc4x.JavaNs.Opcuaserver.Configuration.DeviceConfiguration",
+      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Opcuaserver.Configuration.DeviceConfiguration.yml\" sourcestartlinenumber=\"1\"><a href=\"https://www.javadoc.io/doc/org.apache.plc4x/plc4x-opcua-server/0.12.0/org/apache/plc4x/java/opcuaserver/configuration/DeviceConfiguration.html\">https://www.javadoc.io/doc/org.apache.plc4x/plc4x-opcua-server/0.12.0/org/apache/plc4x/java/opcuaserver/configuration/DeviceConfiguration.html</a></p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Org.Apache.Plc4x.JavaNs.Opcuaserver.Configuration.PasswordConfiguration.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Org.Apache.Plc4x.JavaNs.Opcuaserver.Configuration.PasswordConfiguration.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Org.Apache.Plc4x.JavaNs.Opcuaserver.Configuration.PasswordConfiguration",
+      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Opcuaserver.Configuration.PasswordConfiguration.yml\" sourcestartlinenumber=\"1\"><a href=\"https://www.javadoc.io/doc/org.apache.plc4x/plc4x-opcua-server/0.12.0/org/apache/plc4x/java/opcuaserver/configuration/PasswordConfiguration.html\">https://www.javadoc.io/doc/org.apache.plc4x/plc4x-opcua-server/0.12.0/org/apache/plc4x/java/opcuaserver/configuration/PasswordConfiguration.html</a></p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Org.Apache.Plc4x.JavaNs.Opcuaserver.Configuration.Tag.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Org.Apache.Plc4x.JavaNs.Opcuaserver.Configuration.Tag.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Org.Apache.Plc4x.JavaNs.Opcuaserver.Configuration.Tag",
+      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Opcuaserver.Configuration.Tag.yml\" sourcestartlinenumber=\"1\"><a href=\"https://www.javadoc.io/doc/org.apache.plc4x/plc4x-opcua-server/0.12.0/org/apache/plc4x/java/opcuaserver/configuration/Tag.html\">https://www.javadoc.io/doc/org.apache.plc4x/plc4x-opcua-server/0.12.0/org/apache/plc4x/java/opcuaserver/configuration/Tag.html</a></p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Org.Apache.Plc4x.JavaNs.Opcuaserver.Configuration.User.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Org.Apache.Plc4x.JavaNs.Opcuaserver.Configuration.User.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Org.Apache.Plc4x.JavaNs.Opcuaserver.Configuration.User",
+      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Opcuaserver.Configuration.User.yml\" sourcestartlinenumber=\"1\"><a href=\"https://www.javadoc.io/doc/org.apache.plc4x/plc4x-opcua-server/0.12.0/org/apache/plc4x/java/opcuaserver/configuration/User.html\">https://www.javadoc.io/doc/org.apache.plc4x/plc4x-opcua-server/0.12.0/org/apache/plc4x/java/opcuaserver/configuration/User.html</a></p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Org.Apache.Plc4x.JavaNs.Opcuaserver.Configuration.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Org.Apache.Plc4x.JavaNs.Opcuaserver.Configuration.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Org.Apache.Plc4x.JavaNs.Opcuaserver.Configuration",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Org.Apache.Plc4x.JavaNs.Opcuaserver.Context.CertificateGenerator-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Org.Apache.Plc4x.JavaNs.Opcuaserver.Context.CertificateGenerator-1.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Org.Apache.Plc4x.JavaNs.Opcuaserver.Context.CertificateGenerator<PKCS10CertificateRequest>",
+      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Opcuaserver.Context.CertificateGenerator-1.yml\" sourcestartlinenumber=\"1\"><a href=\"https://www.javadoc.io/doc/org.apache.plc4x/plc4x-opcua-server/0.12.0/org/apache/plc4x/java/opcuaserver/context/CertificateGenerator.html\">https://www.javadoc.io/doc/org.apache.plc4x/plc4x-opcua-server/0.12.0/org/apache/plc4x/java/opcuaserver/context/CertificateGenerator.html</a></p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Org.Apache.Plc4x.JavaNs.Opcuaserver.Context.CertificateGenerator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Org.Apache.Plc4x.JavaNs.Opcuaserver.Context.CertificateGenerator.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Org.Apache.Plc4x.JavaNs.Opcuaserver.Context.CertificateGenerator",
+      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Opcuaserver.Context.CertificateGenerator.yml\" sourcestartlinenumber=\"1\"><a href=\"https://www.javadoc.io/doc/org.apache.plc4x/plc4x-opcua-server/0.12.0/org/apache/plc4x/java/opcuaserver/context/CertificateGenerator.html\">https://www.javadoc.io/doc/org.apache.plc4x/plc4x-opcua-server/0.12.0/org/apache/plc4x/java/opcuaserver/context/CertificateGenerator.html</a></p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Org.Apache.Plc4x.JavaNs.Opcuaserver.Context.CertificateKeyPair.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Org.Apache.Plc4x.JavaNs.Opcuaserver.Context.CertificateKeyPair.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Org.Apache.Plc4x.JavaNs.Opcuaserver.Context.CertificateKeyPair",
+      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Opcuaserver.Context.CertificateKeyPair.yml\" sourcestartlinenumber=\"1\"><a href=\"https://www.javadoc.io/doc/org.apache.plc4x/plc4x-opcua-server/0.12.0/org/apache/plc4x/java/opcuaserver/context/CertificateKeyPair.html\">https://www.javadoc.io/doc/org.apache.plc4x/plc4x-opcua-server/0.12.0/org/apache/plc4x/java/opcuaserver/context/CertificateKeyPair.html</a></p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Org.Apache.Plc4x.JavaNs.Opcuaserver.Context.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Org.Apache.Plc4x.JavaNs.Opcuaserver.Context.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Org.Apache.Plc4x.JavaNs.Opcuaserver.Context",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Org.Apache.Plc4x.JavaNs.Opcuaserver.OPCUAServer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Org.Apache.Plc4x.JavaNs.Opcuaserver.OPCUAServer.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Org.Apache.Plc4x.JavaNs.Opcuaserver.OPCUAServer",
+      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Opcuaserver.OPCUAServer.yml\" sourcestartlinenumber=\"1\"><a href=\"https://www.javadoc.io/doc/org.apache.plc4x/plc4x-opcua-server/0.12.0/org/apache/plc4x/java/opcuaserver/OPCUAServer.html\">https://www.javadoc.io/doc/org.apache.plc4x/plc4x-opcua-server/0.12.0/org/apache/plc4x/java/opcuaserver/OPCUAServer.html</a></p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Org.Apache.Plc4x.JavaNs.Opcuaserver.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Org.Apache.Plc4x.JavaNs.Opcuaserver.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Org.Apache.Plc4x.JavaNs.Opcuaserver",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Org.Apache.Plc4x.JavaNs.Tools.Plc4xserver.Plc4xServer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Org.Apache.Plc4x.JavaNs.Tools.Plc4xserver.Plc4xServer.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Org.Apache.Plc4x.JavaNs.Tools.Plc4xserver.Plc4xServer",
+      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Tools.Plc4xserver.Plc4xServer.yml\" sourcestartlinenumber=\"1\"><a href=\"https://www.javadoc.io/doc/org.apache.plc4x/plc4j-plc4x-server/0.12.0/org/apache/plc4x/java/tools/plc4xserver/Plc4xServer.html\">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-plc4x-server/0.12.0/org/apache/plc4x/java/tools/plc4xserver/Plc4xServer.html</a></p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Org.Apache.Plc4x.JavaNs.Tools.Plc4xserver.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Org.Apache.Plc4x.JavaNs.Tools.Plc4xserver.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Org.Apache.Plc4x.JavaNs.Tools.Plc4xserver",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Org.Apache.Plc4x.JavaNs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Org.Apache.Plc4x.JavaNs.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Org.Apache.Plc4x.JavaNs",
       "Summary": null
     },
     {
