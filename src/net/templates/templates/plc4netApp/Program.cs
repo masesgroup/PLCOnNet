@@ -2,6 +2,7 @@
 using Java.Util.Concurrent;
 using Java.Util.Function;
 using MASES.PLC4Net;
+using MASES.PLC4Net.Specific;
 using Org.Apache.Plc4x.JavaNs.Api;
 using Org.Apache.Plc4x.JavaNs.Api.Messages;
 using Org.Apache.Plc4x.JavaNs.Api.Model;
@@ -35,48 +36,6 @@ namespace MASES.PLC4NetTemplate.PLC4NetApp
             }
         }
 
-        static void Completable<T>(CompletableFuture<T> cf, Action<T> process, bool isAsync = false)
-        {
-            try
-            {
-                if (isAsync)
-                {
-                    Java.Lang.Exception _exception = null;
-                    ManualResetEvent _resetEvent = new(false);
-                    try
-                    {
-                        using Java.Util.Function.BiConsumer<T, Java.Lang.Exception> responseWaiter = new()
-                        {
-                            OnAccept = (r, e) =>
-                            {
-                                _exception = e;
-                                _resetEvent.Set();
-                                if (_exception == null)
-                                {
-                                    process(r);
-                                }
-                            }
-                        };
-                        var cpStage = cf.WhenComplete(responseWaiter);
-                        _resetEvent.WaitOne();
-                        if (_exception != null) throw _exception;
-                    }
-                    finally
-                    {
-                        _resetEvent.Dispose();
-                    }
-                }
-                else
-                {
-                    var response = cf.Get();
-                    process(response);
-                }
-            }
-            catch (Java.Lang.Exception)
-            {
-            }
-        }
-
         static void ReadRequest(PlcConnection plcConnection)
         {
             if (!plcConnection.Metadata.IsReadSupported())
@@ -93,8 +52,14 @@ namespace MASES.PLC4NetTemplate.PLC4NetApp
             builder.AddTagAddress("value-4", "%DB.DB1.4:INT");
             PlcRequest readRequest = builder.Build();
 
-            var cfResponse = readRequest.Execute<PlcReadResponse>();
-            Completable(cfResponse, ProcessResponse, _useAsync);
+            if (_useAsync)
+            {
+                readRequest.RequestAsync<PlcReadResponse>(ProcessResponse).Wait();
+            }
+            else
+            {
+                readRequest.Request<PlcReadResponse>(ProcessResponse);   
+            }
         }
 
         static void WriteRequest(PlcConnection plcConnection)
@@ -113,8 +78,14 @@ namespace MASES.PLC4NetTemplate.PLC4NetApp
             builder.AddTagAddress("value-4", "%DB.DB1.4:INT[3]", 7, 23, 42);
             PlcRequest writeRequest = builder.Build();
 
-            var cfResponse = writeRequest.Execute<PlcWriteResponse>();
-            Completable(cfResponse, ProcessResponse, _useAsync);
+            if (_useAsync)
+            {
+                writeRequest.RequestAsync<PlcWriteResponse>(ProcessResponse).Wait();
+            }
+            else
+            {
+                writeRequest.Request<PlcWriteResponse>(ProcessResponse);
+            }
         }
 
         static void SubscriptionRequest(PlcConnection plcConnection)
@@ -132,8 +103,14 @@ namespace MASES.PLC4NetTemplate.PLC4NetApp
             builder.AddEventTagAddress("value-3", "{some alarm address}");
             PlcRequest subscriptionRequest = builder.Build();
 
-            var cfResponse = subscriptionRequest.Execute<PlcSubscriptionResponse>();
-            Completable(cfResponse, ProcessResponse, _useAsync);
+            if (_useAsync)
+            {
+                subscriptionRequest.RequestAsync<PlcSubscriptionResponse>(ProcessResponse).Wait();
+            }
+            else
+            {
+                subscriptionRequest.Request<PlcSubscriptionResponse>(ProcessResponse);
+            }
         }
 
         static void ProcessResponse(PlcReadResponse response)
