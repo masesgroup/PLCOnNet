@@ -341,6 +341,82 @@ references:
   fullName.vb: MASES.PLC4Net.PLC4NetCore(Of T)._classToRun
   nameWithType: PLC4NetCore<T>._classToRun
   nameWithType.vb: PLC4NetCore(Of T)._classToRun
+- uid: MASES.PLC4Net.Specific
+  name: MASES.PLC4Net.Specific
+  href: api/MASES.PLC4Net.Specific.html
+  commentId: N:MASES.PLC4Net.Specific
+  fullName: MASES.PLC4Net.Specific
+  nameWithType: MASES.PLC4Net.Specific
+- uid: MASES.PLC4Net.Specific.PLC4NetExtensions
+  name: PLC4NetExtensions
+  href: api/MASES.PLC4Net.Specific.PLC4NetExtensions.html
+  commentId: T:MASES.PLC4Net.Specific.PLC4NetExtensions
+  fullName: MASES.PLC4Net.Specific.PLC4NetExtensions
+  nameWithType: PLC4NetExtensions
+- uid: MASES.PLC4Net.Specific.PLC4NetExtensions.Complete*
+  name: Complete
+  href: api/MASES.PLC4Net.Specific.PLC4NetExtensions.html#MASES_PLC4Net_Specific_PLC4NetExtensions_Complete_
+  commentId: Overload:MASES.PLC4Net.Specific.PLC4NetExtensions.Complete
+  isSpec: "True"
+  fullName: MASES.PLC4Net.Specific.PLC4NetExtensions.Complete
+  nameWithType: PLC4NetExtensions.Complete
+- uid: MASES.PLC4Net.Specific.PLC4NetExtensions.CompleteAsync*
+  name: CompleteAsync
+  href: api/MASES.PLC4Net.Specific.PLC4NetExtensions.html#MASES_PLC4Net_Specific_PLC4NetExtensions_CompleteAsync_
+  commentId: Overload:MASES.PLC4Net.Specific.PLC4NetExtensions.CompleteAsync
+  isSpec: "True"
+  fullName: MASES.PLC4Net.Specific.PLC4NetExtensions.CompleteAsync
+  nameWithType: PLC4NetExtensions.CompleteAsync
+- uid: MASES.PLC4Net.Specific.PLC4NetExtensions.CompleteAsync``1(Java.Util.Concurrent.CompletableFuture{``0},System.Action{``0},System.Threading.CancellationToken)
+  name: CompleteAsync<T>(CompletableFuture<T>, Action<T>, CancellationToken)
+  href: api/MASES.PLC4Net.Specific.PLC4NetExtensions.html#MASES_PLC4Net_Specific_PLC4NetExtensions_CompleteAsync__1_Java_Util_Concurrent_CompletableFuture___0__System_Action___0__System_Threading_CancellationToken_
+  commentId: M:MASES.PLC4Net.Specific.PLC4NetExtensions.CompleteAsync``1(Java.Util.Concurrent.CompletableFuture{``0},System.Action{``0},System.Threading.CancellationToken)
+  name.vb: CompleteAsync(Of T)(CompletableFuture(Of T), Action(Of T), CancellationToken)
+  fullName: MASES.PLC4Net.Specific.PLC4NetExtensions.CompleteAsync<T>(Java.Util.Concurrent.CompletableFuture<T>, System.Action<T>, System.Threading.CancellationToken)
+  fullName.vb: MASES.PLC4Net.Specific.PLC4NetExtensions.CompleteAsync(Of T)(Java.Util.Concurrent.CompletableFuture(Of T), System.Action(Of T), System.Threading.CancellationToken)
+  nameWithType: PLC4NetExtensions.CompleteAsync<T>(CompletableFuture<T>, Action<T>, CancellationToken)
+  nameWithType.vb: PLC4NetExtensions.CompleteAsync(Of T)(CompletableFuture(Of T), Action(Of T), CancellationToken)
+- uid: MASES.PLC4Net.Specific.PLC4NetExtensions.Complete``1(Java.Util.Concurrent.CompletableFuture{``0},System.Action{``0})
+  name: Complete<T>(CompletableFuture<T>, Action<T>)
+  href: api/MASES.PLC4Net.Specific.PLC4NetExtensions.html#MASES_PLC4Net_Specific_PLC4NetExtensions_Complete__1_Java_Util_Concurrent_CompletableFuture___0__System_Action___0__
+  commentId: M:MASES.PLC4Net.Specific.PLC4NetExtensions.Complete``1(Java.Util.Concurrent.CompletableFuture{``0},System.Action{``0})
+  name.vb: Complete(Of T)(CompletableFuture(Of T), Action(Of T))
+  fullName: MASES.PLC4Net.Specific.PLC4NetExtensions.Complete<T>(Java.Util.Concurrent.CompletableFuture<T>, System.Action<T>)
+  fullName.vb: MASES.PLC4Net.Specific.PLC4NetExtensions.Complete(Of T)(Java.Util.Concurrent.CompletableFuture(Of T), System.Action(Of T))
+  nameWithType: PLC4NetExtensions.Complete<T>(CompletableFuture<T>, Action<T>)
+  nameWithType.vb: PLC4NetExtensions.Complete(Of T)(CompletableFuture(Of T), Action(Of T))
+- uid: MASES.PLC4Net.Specific.PLC4NetExtensions.Request*
+  name: Request
+  href: api/MASES.PLC4Net.Specific.PLC4NetExtensions.html#MASES_PLC4Net_Specific_PLC4NetExtensions_Request_
+  commentId: Overload:MASES.PLC4Net.Specific.PLC4NetExtensions.Request
+  isSpec: "True"
+  fullName: MASES.PLC4Net.Specific.PLC4NetExtensions.Request
+  nameWithType: PLC4NetExtensions.Request
+- uid: MASES.PLC4Net.Specific.PLC4NetExtensions.RequestAsync*
+  name: RequestAsync
+  href: api/MASES.PLC4Net.Specific.PLC4NetExtensions.html#MASES_PLC4Net_Specific_PLC4NetExtensions_RequestAsync_
+  commentId: Overload:MASES.PLC4Net.Specific.PLC4NetExtensions.RequestAsync
+  isSpec: "True"
+  fullName: MASES.PLC4Net.Specific.PLC4NetExtensions.RequestAsync
+  nameWithType: PLC4NetExtensions.RequestAsync
+- uid: MASES.PLC4Net.Specific.PLC4NetExtensions.RequestAsync``1(Org.Apache.Plc4x.JavaNs.Api.Messages.PlcRequest,System.Action{``0},System.Threading.CancellationToken)
+  name: RequestAsync<T>(PlcRequest, Action<T>, CancellationToken)
+  href: api/MASES.PLC4Net.Specific.PLC4NetExtensions.html#MASES_PLC4Net_Specific_PLC4NetExtensions_RequestAsync__1_Org_Apache_Plc4x_JavaNs_Api_Messages_PlcRequest_System_Action___0__System_Threading_CancellationToken_
+  commentId: M:MASES.PLC4Net.Specific.PLC4NetExtensions.RequestAsync``1(Org.Apache.Plc4x.JavaNs.Api.Messages.PlcRequest,System.Action{``0},System.Threading.CancellationToken)
+  name.vb: RequestAsync(Of T)(PlcRequest, Action(Of T), CancellationToken)
+  fullName: MASES.PLC4Net.Specific.PLC4NetExtensions.RequestAsync<T>(Org.Apache.Plc4x.JavaNs.Api.Messages.PlcRequest, System.Action<T>, System.Threading.CancellationToken)
+  fullName.vb: MASES.PLC4Net.Specific.PLC4NetExtensions.RequestAsync(Of T)(Org.Apache.Plc4x.JavaNs.Api.Messages.PlcRequest, System.Action(Of T), System.Threading.CancellationToken)
+  nameWithType: PLC4NetExtensions.RequestAsync<T>(PlcRequest, Action<T>, CancellationToken)
+  nameWithType.vb: PLC4NetExtensions.RequestAsync(Of T)(PlcRequest, Action(Of T), CancellationToken)
+- uid: MASES.PLC4Net.Specific.PLC4NetExtensions.Request``1(Org.Apache.Plc4x.JavaNs.Api.Messages.PlcRequest,System.Action{``0})
+  name: Request<T>(PlcRequest, Action<T>)
+  href: api/MASES.PLC4Net.Specific.PLC4NetExtensions.html#MASES_PLC4Net_Specific_PLC4NetExtensions_Request__1_Org_Apache_Plc4x_JavaNs_Api_Messages_PlcRequest_System_Action___0__
+  commentId: M:MASES.PLC4Net.Specific.PLC4NetExtensions.Request``1(Org.Apache.Plc4x.JavaNs.Api.Messages.PlcRequest,System.Action{``0})
+  name.vb: Request(Of T)(PlcRequest, Action(Of T))
+  fullName: MASES.PLC4Net.Specific.PLC4NetExtensions.Request<T>(Org.Apache.Plc4x.JavaNs.Api.Messages.PlcRequest, System.Action<T>)
+  fullName.vb: MASES.PLC4Net.Specific.PLC4NetExtensions.Request(Of T)(Org.Apache.Plc4x.JavaNs.Api.Messages.PlcRequest, System.Action(Of T))
+  nameWithType: PLC4NetExtensions.Request<T>(PlcRequest, Action<T>)
+  nameWithType.vb: PLC4NetExtensions.Request(Of T)(PlcRequest, Action(Of T))
 - uid: MASES.PLC4NetCLI
   name: MASES.PLC4NetCLI
   href: api/MASES.PLC4NetCLI.html

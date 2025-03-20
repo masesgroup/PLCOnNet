@@ -40,6 +40,34 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/MASES.PLC4Net.Specific.PLC4NetExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MASES.PLC4Net.Specific.PLC4NetExtensions.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MASES.PLC4Net.Specific.PLC4NetExtensions",
+      "Summary": "<p sourcefile=\"api/MASES.PLC4Net.Specific.PLC4NetExtensions.yml\" sourcestartlinenumber=\"1\">Extensions associated with <xref href=\"Java.Util.Concurrent.CompletableFuture%601\" data-throw-if-not-resolved=\"false\"></xref></p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MASES.PLC4Net.Specific.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MASES.PLC4Net.Specific.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MASES.PLC4Net.Specific",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/MASES.PLC4Net.yml",
       "output": {
         ".html": {
