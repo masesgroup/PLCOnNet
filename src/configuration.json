@@ -7,9 +7,9 @@
   "DisableInterfaceMethodGeneration": true,
   "CreateInterfaceInheritance": true,
   "JarList": [
-    "plc4j-api-0.12.0.jar",
-    "plc4j-plc4x-server-0.12.0.jar",
-    "plc4x-opcua-server-0.12.0.jar"
+    "plc4j-api-0.13.0-SNAPSHOT.jar",
+    "plc4j-plc4x-server-0.13.0-SNAPSHOT.jar",
+    "plc4x-opcua-server-0.13.0-SNAPSHOT.jar"
   ],
   "OriginJavadocJARVersionAndUrls": [
     {
