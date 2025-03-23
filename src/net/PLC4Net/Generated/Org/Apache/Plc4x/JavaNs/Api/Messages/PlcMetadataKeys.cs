@@ -25,23 +25,23 @@ using MASES.JCOBridge.C2JBridge;
 
 namespace Org.Apache.Plc4x.JavaNs.Api.Messages
 {
-    #region PlcPingRequest declaration
+    #region PlcMetadataKeys declaration
     /// <summary>
-    /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcPingRequest.html"/>
+    /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcMetadataKeys.html"/>
     /// </summary>
-    public partial class PlcPingRequest : Org.Apache.Plc4x.JavaNs.Api.Messages.PlcRequest
+    public partial class PlcMetadataKeys : MASES.JCOBridge.C2JBridge.JVMBridgeBase<PlcMetadataKeys>
     {
-        const string _bridgeClassName = "org.apache.plc4x.java.api.messages.PlcPingRequest";
+        const string _bridgeClassName = "org.apache.plc4x.java.api.messages.PlcMetadataKeys";
         /// <summary>
         /// Default constructor: even if the corresponding Java class does not have one, it is mandatory for JCOBridge
         /// </summary>
-        [global::System.Obsolete("PlcPingRequest class represents, in .NET, an instance of a JVM interface or abstract class. This public initializer is needed for JCOBridge internal use, other uses can produce unidentible behaviors.")]
-        public PlcPingRequest() { }
+        [global::System.Obsolete("PlcMetadataKeys class represents, in .NET, an instance of a JVM interface or abstract class. This public initializer is needed for JCOBridge internal use, other uses can produce unidentible behaviors.")]
+        public PlcMetadataKeys() { }
         /// <summary>
         /// Generic constructor: it is useful for JCOBridge when there is a derived class which needs to pass arguments to the highest JVMBridgeBase class
         /// </summary>
-        [global::System.Obsolete("PlcPingRequest class represents, in .NET, an instance of a JVM interface or abstract class. This public initializer is needed for JCOBridge internal use, other uses can produce unidentible behaviors.")]
-        public PlcPingRequest(params object[] args) : base(args) { }
+        [global::System.Obsolete("PlcMetadataKeys class represents, in .NET, an instance of a JVM interface or abstract class. This public initializer is needed for JCOBridge internal use, other uses can produce unidentible behaviors.")]
+        public PlcMetadataKeys(params object[] args) : base(args) { }
 
         private static readonly MASES.JCOBridge.C2JBridge.JVMInterop.IJavaType _LocalBridgeClazz = JVMBridgeBase.ClazzOf(_bridgeClassName);
         private static MASES.JCOBridge.C2JBridge.JVMInterop.IJavaType LocalBridgeClazz => _LocalBridgeClazz ?? throw new global::System.InvalidOperationException($"Class {_bridgeClassName} was not found.");
@@ -72,11 +72,11 @@ namespace Org.Apache.Plc4x.JavaNs.Api.Messages
     }
     #endregion
 
-    #region IPlcPingRequest
+    #region IPlcMetadataKeys
     /// <summary>
     /// .NET interface for TO BE DEFINED FROM USER
     /// </summary>
-    public partial interface IPlcPingRequest : Org.Apache.Plc4x.JavaNs.Api.Messages.IPlcRequest
+    public partial interface IPlcMetadataKeys
     {
         #region Instance methods
 
@@ -90,8 +90,8 @@ namespace Org.Apache.Plc4x.JavaNs.Api.Messages
     }
     #endregion
 
-    #region PlcPingRequest implementation
-    public partial class PlcPingRequest : Org.Apache.Plc4x.JavaNs.Api.Messages.IPlcPingRequest
+    #region PlcMetadataKeys implementation
+    public partial class PlcMetadataKeys : Org.Apache.Plc4x.JavaNs.Api.Messages.IPlcMetadataKeys
     {
         #region Constructors
 
@@ -102,6 +102,24 @@ namespace Org.Apache.Plc4x.JavaNs.Api.Messages
         #endregion
 
         #region Fields
+        /// <summary>
+        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcMetadataKeys.html#RECEIVE_TIMESTAMP"/>
+        /// </summary>
+        public static Org.Apache.Plc4x.JavaNs.Api.Metadata.Metadata.Key RECEIVE_TIMESTAMP { get { if (!_RECEIVE_TIMESTAMPReady) { _RECEIVE_TIMESTAMPContent = SGetField<Org.Apache.Plc4x.JavaNs.Api.Metadata.Metadata.Key>(LocalBridgeClazz, "RECEIVE_TIMESTAMP"); _RECEIVE_TIMESTAMPReady = true; } return _RECEIVE_TIMESTAMPContent; } }
+        private static Org.Apache.Plc4x.JavaNs.Api.Metadata.Metadata.Key _RECEIVE_TIMESTAMPContent = default;
+        private static bool _RECEIVE_TIMESTAMPReady = false; // this is used because in case of generics 
+        /// <summary>
+        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcMetadataKeys.html#TIMESTAMP"/>
+        /// </summary>
+        public static Org.Apache.Plc4x.JavaNs.Api.Metadata.Metadata.Key TIMESTAMP { get { if (!_TIMESTAMPReady) { _TIMESTAMPContent = SGetField<Org.Apache.Plc4x.JavaNs.Api.Metadata.Metadata.Key>(LocalBridgeClazz, "TIMESTAMP"); _TIMESTAMPReady = true; } return _TIMESTAMPContent; } }
+        private static Org.Apache.Plc4x.JavaNs.Api.Metadata.Metadata.Key _TIMESTAMPContent = default;
+        private static bool _TIMESTAMPReady = false; // this is used because in case of generics 
+        /// <summary>
+        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcMetadataKeys.html#TIMESTAMP_SOURCE"/>
+        /// </summary>
+        public static Org.Apache.Plc4x.JavaNs.Api.Metadata.Metadata.Key TIMESTAMP_SOURCE { get { if (!_TIMESTAMP_SOURCEReady) { _TIMESTAMP_SOURCEContent = SGetField<Org.Apache.Plc4x.JavaNs.Api.Metadata.Metadata.Key>(LocalBridgeClazz, "TIMESTAMP_SOURCE"); _TIMESTAMP_SOURCEReady = true; } return _TIMESTAMP_SOURCEContent; } }
+        private static Org.Apache.Plc4x.JavaNs.Api.Metadata.Metadata.Key _TIMESTAMP_SOURCEContent = default;
+        private static bool _TIMESTAMP_SOURCEReady = false; // this is used because in case of generics 
 
         #endregion
 
@@ -110,15 +128,6 @@ namespace Org.Apache.Plc4x.JavaNs.Api.Messages
         #endregion
 
         #region Instance methods
-        /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcPingRequest.html#execute()"/>
-        /// </summary>
-        /// <typeparam name="ReturnExtendsOrg_Apache_Plc4x_JavaNs_Api_Messages_PlcPingResponse"><see cref="Org.Apache.Plc4x.JavaNs.Api.Messages.PlcPingResponse"/></typeparam>
-        /// <returns><see cref="Java.Util.Concurrent.CompletableFuture"/></returns>
-        public Java.Util.Concurrent.CompletableFuture<ReturnExtendsOrg_Apache_Plc4x_JavaNs_Api_Messages_PlcPingResponse> Execute<ReturnExtendsOrg_Apache_Plc4x_JavaNs_Api_Messages_PlcPingResponse>() where ReturnExtendsOrg_Apache_Plc4x_JavaNs_Api_Messages_PlcPingResponse : Org.Apache.Plc4x.JavaNs.Api.Messages.PlcPingResponse
-        {
-            return IExecuteWithSignature<Java.Util.Concurrent.CompletableFuture<ReturnExtendsOrg_Apache_Plc4x_JavaNs_Api_Messages_PlcPingResponse>>("execute", "()Ljava/util/concurrent/CompletableFuture;");
-        }
 
         #endregion
 
