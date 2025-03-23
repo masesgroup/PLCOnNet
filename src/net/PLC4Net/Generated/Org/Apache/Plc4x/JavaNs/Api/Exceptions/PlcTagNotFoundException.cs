@@ -25,13 +25,13 @@ using MASES.JCOBridge.C2JBridge;
 
 namespace Org.Apache.Plc4x.JavaNs.Api.Exceptions
 {
-    #region PlcProtocolTimeoutException declaration
+    #region PlcTagNotFoundException declaration
     /// <summary>
-    /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/exceptions/PlcProtocolTimeoutException.html"/>
+    /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/exceptions/PlcTagNotFoundException.html"/>
     /// </summary>
-    public partial class PlcProtocolTimeoutException : Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcProtocolException
+    public partial class PlcTagNotFoundException : Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcRuntimeException
     {
-        const string _bridgeClassName = "org.apache.plc4x.java.api.exceptions.PlcProtocolTimeoutException";
+        const string _bridgeClassName = "org.apache.plc4x.java.api.exceptions.PlcTagNotFoundException";
         /// <summary>
         /// <see href="https://www.jcobridge.com/api-clr/html/P_MASES_JCOBridge_C2JBridge_JVMBridgeException_BridgeClassName.htm"/>
         /// </summary>
@@ -42,8 +42,8 @@ namespace Org.Apache.Plc4x.JavaNs.Api.Exceptions
     }
     #endregion
 
-    #region PlcProtocolTimeoutException implementation
-    public partial class PlcProtocolTimeoutException
+    #region PlcTagNotFoundException implementation
+    public partial class PlcTagNotFoundException
     {
         #region Constructors
 
