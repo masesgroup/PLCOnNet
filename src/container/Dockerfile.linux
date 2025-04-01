@@ -4,11 +4,11 @@ WORKDIR /app
 
 # Copy everything
 COPY ./src/net ./
-ENV PLC4NET_DOCKER_BUILD_ACTIONS=true
+ENV PLCONNET_DOCKER_BUILD_ACTIONS=true
 # Restore as distinct layers
-RUN dotnet restore PLC4NetDocker.sln -a $TARGETARCH
+RUN dotnet restore PLCOnNetDocker.sln -a $TARGETARCH
 # Build and publish a release
-RUN dotnet publish ./PLC4NetCLI/PLC4NetCLI.csproj --framework net8.0 -c Release -o out -a $TARGETARCH
+RUN dotnet publish ./PLCOnNetCLI/PLCOnNetCLI.csproj --framework net8.0 -c Release -o out -a $TARGETARCH
 
 # Build runtime image
 FROM mcr.microsoft.com/dotnet/runtime:8.0-noble
@@ -17,10 +17,10 @@ ARG TARGETARCH
 LABEL org.opencontainers.image.authors='https://github.com/masesgroup', \
       org.opencontainers.image.url='https://plc4net.masesgroup.com' \
       org.opencontainers.image.documentation='https://plc4net.masesgroup.com' \
-      org.opencontainers.image.source='https://github.com/masesgroup/PLC4Net' \
+      org.opencontainers.image.source='https://github.com/masesgroup/PLCOnNet' \
       org.opencontainers.image.vendor='MASES Group' \
       org.opencontainers.image.licenses='Apache-2.0' \
-      org.opencontainers.image.description="PLC4Net - PLC4X suite for .NET"
+      org.opencontainers.image.description="PLCOnNet - .NET suite for PLC4X"
 
 # Add JRE
 RUN apt-get update && apt-get install -y --no-install-recommends openjdk-17-jre-headless && rm -rf /var/lib/apt/lists/*
@@ -33,4 +33,4 @@ ENV JCOBRIDGE_LicensePath=
 
 WORKDIR /app
 COPY --from=build-env /app/out .
-ENTRYPOINT ["dotnet", "MASES.PLC4NetCLI.dll"]
+ENTRYPOINT ["dotnet", "MASES.PLCOnNetCLI.dll"]
