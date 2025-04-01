@@ -16,17 +16,17 @@
 *  Refer to LICENSE for more information.
 */
 
-using MASES.PLC4NetTest.Common;
+using MASES.PLCOnNetTest.Common;
 using Org.Apache.Plc4x.JavaNs.Api;
 using System;
 
-namespace MASES.PLC4NetTest
+namespace MASES.PLCOnNetTest
 {
     class Program
     {
         static void Main(string[] args)
         {
-            System.Console.WriteLine("Starting PLC4NetTest");
+            System.Console.WriteLine("Starting PLCOnNetTest");
 
             Initialize();
 
@@ -39,12 +39,12 @@ namespace MASES.PLC4NetTest
         {
             try
             {
-                PLC4NetTestCore.ApplicationHeapSize = "4G";
-                PLC4NetTestCore.ApplicationInitialHeapSize = "1G";
-                PLC4NetTestCore.CreateGlobalInstance();
-                var appArgs = PLC4NetTestCore.FilteredArgs;
+                PLCOnNetTestCore.ApplicationHeapSize = "4G";
+                PLCOnNetTestCore.ApplicationInitialHeapSize = "1G";
+                PLCOnNetTestCore.CreateGlobalInstance();
+                var appArgs = PLCOnNetTestCore.FilteredArgs;
 
-                Console.WriteLine($"Initialized PLC4NetTestCore, remaining arguments are {string.Join(" ", appArgs)}");
+                Console.WriteLine($"Initialized PLCOnNetTestCore, remaining arguments are {string.Join(" ", appArgs)}");
             }
             catch (Java.Lang.Exception ex)
             {

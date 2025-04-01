@@ -28,7 +28,7 @@ using System.IO;
 using Microsoft.CodeAnalysis.CSharp.Scripting;
 using Microsoft.CodeAnalysis.Scripting;
 
-namespace MASES.PLC4NetCLI
+namespace MASES.PLCOnNetCLI
 {
     class Program
     {
@@ -38,13 +38,13 @@ namespace MASES.PLC4NetCLI
         {
             try
             {
-                PLC4NetCLICore.CreateGlobalInstance();
+                PLCOnNetCLICore.CreateGlobalInstance();
 
-                if (PLC4NetCLICore.MainClassToRun != null)
+                if (PLCOnNetCLICore.MainClassToRun != null)
                 {
                     try
                     {
-                        PLC4NetCLICore.Launch(PLC4NetCLICore.MainClassToRun, PLC4NetCLICore.FilteredArgs);
+                        PLCOnNetCLICore.Launch(PLCOnNetCLICore.MainClassToRun, PLCOnNetCLICore.FilteredArgs);
                     }
                     catch (TargetInvocationException tie)
                     {
@@ -55,12 +55,12 @@ namespace MASES.PLC4NetCLI
                         throw je.Convert();
                     }
                 }
-                else if (PLC4NetCLICore.Interactive)
+                else if (PLCOnNetCLICore.Interactive)
                 {
                     ShowLogo("Interactive shell");
 
                     ScriptOptions options = ScriptOptions.Default.WithReferences(typeof(JNetCoreBase<>).Assembly)
-                                                                 .WithImports(PLC4NetCLICore.NamespaceList);
+                                                                 .WithImports(PLCOnNetCLICore.NamespaceList);
                     ScriptState<object> state = null;
                     while (true)
                     {
@@ -100,16 +100,16 @@ namespace MASES.PLC4NetCLI
                         }
                     }
                 }
-                else if (!string.IsNullOrEmpty(PLC4NetCLICore.Script))
+                else if (!string.IsNullOrEmpty(PLCOnNetCLICore.Script))
                 {
                     ShowLogo("Script mode");
 
-                    if (!File.Exists(PLC4NetCLICore.Script)) throw new FileNotFoundException("A valid file must be provided", PLC4NetCLICore.Script);
+                    if (!File.Exists(PLCOnNetCLICore.Script)) throw new FileNotFoundException("A valid file must be provided", PLCOnNetCLICore.Script);
 
-                    var scriptCode = File.ReadAllText(PLC4NetCLICore.Script);
+                    var scriptCode = File.ReadAllText(PLCOnNetCLICore.Script);
 
-                    ScriptOptions options = ScriptOptions.Default.WithReferences(typeof(JNetCoreBase<>).Assembly, typeof(PLC4NetCLICore<>).Assembly)
-                                                                 .WithImports(PLC4NetCLICore.NamespaceList);
+                    ScriptOptions options = ScriptOptions.Default.WithReferences(typeof(JNetCoreBase<>).Assembly, typeof(PLCOnNetCLICore<>).Assembly)
+                                                                 .WithImports(PLCOnNetCLICore.NamespaceList);
 
                     var script = CSharpScript.Create(scriptCode, options);
                     var result = await script.RunAsync();
@@ -158,9 +158,9 @@ namespace MASES.PLC4NetCLI
 
         static void ShowLogo(string logoTrailer)
         {
-            if (!PLC4NetCLICore.NoLogo)
+            if (!PLCOnNetCLICore.NoLogo)
             {
-                Console.WriteLine($"PLC4NetCLI - CLI interface for PLC4Net - Version {_assembly.GetName().Version} - {logoTrailer}");
+                Console.WriteLine($"PLCOnNetCLI - CLI interface for PLCOnNet - Version {_assembly.GetName().Version} - {logoTrailer}");
             }
         }
 
@@ -170,7 +170,7 @@ namespace MASES.PLC4NetCLI
             {
                 Console.WriteLine("Error: {0}", errorString);
             }
-            IDictionary<string, Type> implementedClasses = PLC4NetCLICore.GetMainClasses(typeof(PLC4NetCLICore<>).Assembly);
+            IDictionary<string, Type> implementedClasses = PLCOnNetCLICore.GetMainClasses(typeof(PLCOnNetCLICore<>).Assembly);
             StringBuilder avTypes = new();
             foreach (var item in implementedClasses.Keys)
             {

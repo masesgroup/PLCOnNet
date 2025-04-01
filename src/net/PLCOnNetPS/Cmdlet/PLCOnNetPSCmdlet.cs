@@ -18,9 +18,9 @@
 
 using MASES.JNetPSCore.Cmdlet;
 
-namespace MASES.PLC4NetPS.Cmdlet
+namespace MASES.PLCOnNetPS.Cmdlet
 {
-    public abstract class PLC4NetPSCmdlet : JNetPSCmdlet<PLC4NetPSCore>
+    public abstract class PLCOnNetPSCmdlet : JNetPSCmdlet<PLCOnNetPSCore>
     {
     }
 }

@@ -1,11 +1,11 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 	<Import Project="..\Common\Common.props" />
 	<PropertyGroup>
-		<AssemblyName>PLC4NetTest</AssemblyName>
+		<AssemblyName>PLCOnNetTest</AssemblyName>
 		<OutputType>Exe</OutputType>
-		<RootNamespace>MASES.PLC4NetTest</RootNamespace>
-		<Title>PLC4NetTest - a test tool for PLC4Net</Title>
-		<Description>PLC4NetTest - a test tool for PLC4Net</Description>
+		<RootNamespace>MASES.PLCOnNetTest</RootNamespace>
+		<Title>PLCOnNetTest - a test tool for PLCOnNet</Title>
+		<Description>PLCOnNetTest - a test tool for PLCOnNet</Description>
 	</PropertyGroup>
 	<ItemGroup>
 		<Compile Include="..\Common\Initializer.cs" Link="Initializer.cs" />

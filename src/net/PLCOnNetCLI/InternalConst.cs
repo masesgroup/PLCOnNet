@@ -16,7 +16,7 @@
 *  Refer to LICENSE for more information.
 */
 
-namespace MASES.PLC4NetCLI
+namespace MASES.PLCOnNetCLI
 {
     class InternalConst
     {

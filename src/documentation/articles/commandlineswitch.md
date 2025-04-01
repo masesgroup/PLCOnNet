@@ -1,11 +1,11 @@
 ---
-title: Command-line switch of PLC4X suite for .NET
-_description: Describes the command-line switch of PLC4X suite for .NET
+title: Command-line switch of .NET suite for PLC4X
+_description: Describes the command-line switch of .NET suite for PLC4X
 ---
 
-# PLC4Net: Command line switches available
+# PLCOnNet: Command line switches available
 
-_plc4net_ accepts the following command-line switches:
+_plconnet_ accepts the following command-line switches:
 
 * **LogClassPath**: put in command line the switch to output all Jars found
 
@@ -16,10 +16,10 @@ Plus it accepts from:
 ## JVM identification
 
 One of the most important command-line switch is **JVMPath** and it is available in [JCOBridge switches](https://www.jcobridge.com/net-examples/command-line-options/): it can be used to set-up the location of the JVM library if JCOBridge is not able to identify a suitable JRE installation.
-If a developer is using PLC4Net within its own product it is possible to override the **JVMPath** property with a snippet like the following one:
+If a developer is using PLCOnNet within its own product it is possible to override the **JVMPath** property with a snippet like the following one:
 
 ```c#
-    class MyPLC4NetCore : PLC4NetCore
+    class MyPLCOnNetCore : PLCOnNetCore
     {
         public override string JVMPath
         {

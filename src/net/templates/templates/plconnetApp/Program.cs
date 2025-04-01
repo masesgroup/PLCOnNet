@@ -1,8 +1,8 @@
 ﻿using Java.Time;
 using Java.Util.Concurrent;
 using Java.Util.Function;
-using MASES.PLC4Net;
-using MASES.PLC4Net.Specific;
+using MASES.PLCOnNet;
+using MASES.PLCOnNet.Specific;
 using Org.Apache.Plc4x.JavaNs.Api;
 using Org.Apache.Plc4x.JavaNs.Api.Messages;
 using Org.Apache.Plc4x.JavaNs.Api.Model;
@@ -10,19 +10,19 @@ using Org.Apache.Plc4x.JavaNs.Api.Types;
 using System;
 using System.Threading;
 
-namespace MASES.PLC4NetTemplate.PLC4NetApp
+namespace MASES.PLCOnNetTemplate.PLCOnNetApp
 {
     class Program
     {
-        class MyPLC4NetCore : PLC4NetCore<MyPLC4NetCore> { }
+        class MyPLCOnNetCore : PLCOnNetCore<MyPLCOnNetCore> { }
 
         private static readonly bool _useAsync = false;
         static Consumer<PlcSubscriptionEvent> _plcEvent = null;
 
         static void Main(string[] _)
         {
-            MyPLC4NetCore.CreateGlobalInstance(); // this call prepares the environment: it is mandatory to initialize the JVM
-            var appArgs = MyPLC4NetCore.FilteredArgs; // contains the remaining arguments: the PLC4Net, JNet and JCOBridge arguments are discarded
+            MyPLCOnNetCore.CreateGlobalInstance(); // this call prepares the environment: it is mandatory to initialize the JVM
+            var appArgs = MyPLCOnNetCore.FilteredArgs; // contains the remaining arguments: the PLCOnNet, JNet and JCOBridge arguments are discarded
             if (appArgs.Length != 0)
             {
                 // copied from https://plc4x.apache.org/plc4x/latest/users/getting-started/plc4j.html

@@ -1,16 +1,16 @@
 <Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
 	<ItemGroup>
-		<plc4net_jars Include="$(MSBuildThisFileDirectory)\jars\*.*" />
-		<plc4net_config Include="$(MSBuildThisFileDirectory)\config\*.*" />
+		<plconnet_jars Include="$(MSBuildThisFileDirectory)\jars\*.*" />
+		<plconnet_config Include="$(MSBuildThisFileDirectory)\config\*.*" />
 	</ItemGroup>
 
 	<Target Name="PLC4Net_CopyFilesNative" BeforeTargets="Build">
-		<Copy SourceFiles="@(plc4net_jars)" DestinationFolder="$(TargetDir)\jars" />
-		<Copy SourceFiles="@(plc4net_config)" DestinationFolder="$(TargetDir)\config" />
+		<Copy SourceFiles="@(plconnet_jars)" DestinationFolder="$(TargetDir)\jars" />
+		<Copy SourceFiles="@(plconnet_config)" DestinationFolder="$(TargetDir)\config" />
 	</Target>
 
 	<Target Name="PLC4Net_CopyFilesNativePublish" BeforeTargets="Publish">
-		<Copy SourceFiles="@(plc4net_jars)" DestinationFolder="$(PublishDir)\jars" />
-		<Copy SourceFiles="@(plc4net_config)" DestinationFolder="$(PublishDir)\config" />
+		<Copy SourceFiles="@(plconnet_jars)" DestinationFolder="$(PublishDir)\jars" />
+		<Copy SourceFiles="@(plconnet_config)" DestinationFolder="$(PublishDir)\config" />
 	</Target>
 </Project>

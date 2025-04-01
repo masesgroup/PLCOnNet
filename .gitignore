@@ -24,7 +24,7 @@ launchSettings.json
 /**/packages/
 /**/bin/
 /**/binCLI/
-/**/MASES.PLC4NetPS/
+/**/MASES.PLCOnNetPS/
 /**/binPSCore/
 /**/binReflector/
 /**/obj/

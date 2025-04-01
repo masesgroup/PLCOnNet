@@ -17,14 +17,14 @@
 */
 
 using MASES.JNetPSCore.Cmdlet;
-using MASES.PLC4NetPS.Cmdlet;
+using MASES.PLCOnNetPS.Cmdlet;
 using System.Management.Automation;
 
-namespace MASES.PLC4NetPS.Server
+namespace MASES.PLCOnNetPS.Server
 {
     [Cmdlet(VerbsLifecycle.Start, "OPCUAServer")]
     [JNetPSExternalize]
-    public class OPCUAServerCmdletCommand : PLC4NetClassToRunCmdletCommandBase<OPCUAServerCmdletCommand> 
+    public class OPCUAServerCmdletCommand : PLCOnNetClassToRunCmdletCommandBase<OPCUAServerCmdletCommand> 
     {
     }
 }

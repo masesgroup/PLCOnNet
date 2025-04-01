@@ -21,11 +21,11 @@ using Org.Apache.Plc4x.JavaNs.Api.Authentication;
 using System;
 using System.Management.Automation;
 
-namespace MASES.PLC4NetPS.Cmdlet
+namespace MASES.PLCOnNetPS.Cmdlet
 {
     [Cmdlet(VerbsCommon.New, "PlcUsernamePasswordAuthentication")]
     [OutputType(typeof(PlcUsernamePasswordAuthentication))]
-    public class NewPlcUsernamePasswordAuthenticationCmdletCommand : PLC4NetPSCmdlet
+    public class NewPlcUsernamePasswordAuthenticationCmdletCommand : PLCOnNetPSCmdlet
     {
         [Parameter(
             Mandatory = true,

@@ -25,11 +25,11 @@ using System;
 using System.Collections.Generic;
 using System.Management.Automation;
 
-namespace MASES.PLC4NetPS.Cmdlet
+namespace MASES.PLCOnNetPS.Cmdlet
 {
     [Cmdlet(VerbsCommon.Get, "PlcDriver")]
     [OutputType(typeof(PlcDriver))]
-    public class GetPlcDriverCmdletCommand : PLC4NetPSCmdlet
+    public class GetPlcDriverCmdletCommand : PLCOnNetPSCmdlet
     {
         [Parameter(
             Mandatory = true,

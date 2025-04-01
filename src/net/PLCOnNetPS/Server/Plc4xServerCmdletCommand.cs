@@ -17,14 +17,14 @@
 */
 
 using MASES.JNetPSCore.Cmdlet;
-using MASES.PLC4NetPS.Cmdlet;
+using MASES.PLCOnNetPS.Cmdlet;
 using System.Management.Automation;
 
-namespace MASES.PLC4NetPS.Server
+namespace MASES.PLCOnNetPS.Server
 {
     [Cmdlet(VerbsLifecycle.Start, "Plc4xServer")]
     [JNetPSExternalize]
-    public class Plc4xServerCmdletCommand : PLC4NetClassToRunCmdletCommandBase<Plc4xServerCmdletCommand> 
+    public class Plc4xServerCmdletCommand : PLCOnNetClassToRunCmdletCommandBase<Plc4xServerCmdletCommand> 
     {
     }
 }

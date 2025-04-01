@@ -24,14 +24,14 @@ using MASES.JNet;
 using MASES.JCOBridge.C2JBridge;
 using System.Linq;
 
-namespace MASES.PLC4Net
+namespace MASES.PLCOnNet
 {
     /// <summary>
-    /// Public entry point of <see cref="PLC4NetCore{T}"/>
+    /// Public entry point of <see cref="PLCOnNetCore{T}"/>
     /// </summary>
-    /// <typeparam name="T">A class which inherits from <see cref="PLC4NetCore{T}"/></typeparam>
-    public class PLC4NetCore<T> : JNetCore<T>
-        where T : PLC4NetCore<T>
+    /// <typeparam name="T">A class which inherits from <see cref="PLCOnNetCore{T}"/></typeparam>
+    public class PLCOnNetCore<T> : JNetCore<T>
+        where T : PLCOnNetCore<T>
     {
         /// <inheritdoc cref="JNetCoreBase{T}.CommandLineArguments"/>
         public override IEnumerable<IArgumentMetadata> CommandLineArguments
@@ -75,9 +75,9 @@ namespace MASES.PLC4Net
         /// <summary>
         /// Public initializer
         /// </summary>
-        public PLC4NetCore()
+        public PLCOnNetCore()
         {
-            JCOBridge.C2JBridge.JCOBridge.RegisterExceptions(typeof(PLC4NetCore<>).Assembly);
+            JCOBridge.C2JBridge.JCOBridge.RegisterExceptions(typeof(PLCOnNetCore<>).Assembly);
         }
 
         /// <inheritdoc cref="JNetCoreBase{T}.ProcessCommandLine" />
@@ -112,7 +112,7 @@ namespace MASES.PLC4Net
             if (string.IsNullOrWhiteSpace(className)) return;
             var invariantLowClassName = className.ToLowerInvariant();
             Type type = null;
-            foreach (var item in typeof(PLC4NetCore<>).Assembly.ExportedTypes)
+            foreach (var item in typeof(PLCOnNetCore<>).Assembly.ExportedTypes)
             {
                 if (item.Name.ToLowerInvariant() == invariantLowClassName
                     || item.FullName.ToLowerInvariant() == invariantLowClassName)
@@ -168,7 +168,7 @@ namespace MASES.PLC4Net
         /// <summary>
         /// The log4j configuration
         /// </summary>
-        public virtual string CommonLoggingOpts { get { return string.Format("file:{0}", Path.Combine(Const.DefaultRootPath, "config", "plc4net-log4j.properties")); } }
+        public virtual string CommonLoggingOpts { get { return string.Format("file:{0}", Path.Combine(Const.DefaultRootPath, "config", "plconnet-log4j.properties")); } }
 
         /// <inheritdoc cref="JNetCore{T}.PerformanceOptions"/>
         protected override IList<string> PerformanceOptions
@@ -198,7 +198,7 @@ namespace MASES.PLC4Net
                 IDictionary<string, string> options = new Dictionary<string, string>(base.Options)
                 {
                     { "log4j.configuration", string.IsNullOrEmpty(CommonLoggingPath) ? CommonLoggingOpts : $"file:{CommonLoggingPath}"},
-                    { "plc4net.logs.dir", LogDir},
+                    { "plconnet.logs.dir", LogDir},
                     { "java.awt.headless", "true" },
                 };
 
@@ -212,23 +212,23 @@ namespace MASES.PLC4Net
             get
             {
                 var lst = new List<string>(base.PathToParse);
-                var assembly = typeof(PLC4NetCore<>).Assembly;
+                var assembly = typeof(PLCOnNetCore<>).Assembly;
                 var version = assembly.GetName().Version.ToString();
                 // 1. check first full version
-                var plc4netFile = System.IO.Path.Combine(System.IO.Path.GetDirectoryName(assembly.Location), JARsSubFolder, $"plc4net-{version}.jar");
-                if (!System.IO.File.Exists(plc4netFile) && version.EndsWith(".0"))
+                var plconnetFile = System.IO.Path.Combine(System.IO.Path.GetDirectoryName(assembly.Location), JARsSubFolder, $"plconnet-{version}.jar");
+                if (!System.IO.File.Exists(plconnetFile) && version.EndsWith(".0"))
                 {
                     // 2. if not exist remove last part of version
                     version = version.Substring(0, version.LastIndexOf(".0"));
-                    plc4netFile = System.IO.Path.Combine(System.IO.Path.GetDirectoryName(assembly.Location), JARsSubFolder, $"plc4net-{version}.jar");
+                    plconnetFile = System.IO.Path.Combine(System.IO.Path.GetDirectoryName(assembly.Location), JARsSubFolder, $"plconnet-{version}.jar");
                 }
-                // 3. check if plc4net jar exist...
-                if (!System.IO.File.Exists(plc4netFile))
+                // 3. check if plconnet jar exist...
+                if (!System.IO.File.Exists(plconnetFile))
                 {
-                    throw new System.IO.FileNotFoundException("Unable to identify PLC4Net Jar location", plc4netFile);
+                    throw new System.IO.FileNotFoundException("Unable to identify PLCOnNet Jar location", plconnetFile);
                 }
                 // 4. add plc4net jar at this version first...
-                lst.Add(plc4netFile);
+                lst.Add(plconnetFile);
                 // 5. ...then add everything else
                 lst.Add(Path.Combine(Const.DefaultJarsPath, "*.jar"));
                 return lst;

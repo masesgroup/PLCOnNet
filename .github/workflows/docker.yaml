@@ -11,7 +11,7 @@ on:
   workflow_dispatch:
 
 jobs:
-  build_container_plc4net:
+  build_container_plconnet:
     runs-on: ubuntu-latest
     permissions:
       id-token: write
@@ -33,7 +33,7 @@ jobs:
             9.x
 
       - name: Pre compile
-        run: dotnet build --no-incremental --configuration Release /p:Platform="Any CPU" /p:NoWarn="0108%3B1030%3B0618" src/net/PLC4Net/PLC4Net.csproj
+        run: dotnet build --no-incremental --configuration Release /p:Platform="Any CPU" /p:NoWarn="0108%3B1030%3B0618" src/net/PLCOnNet/PLCOnNet.csproj
         env:
           GITHUB_SIMPLIFIED_GENERATION: true
           
@@ -50,7 +50,7 @@ jobs:
           gpg-passphrase: MAVEN_GPG_PASSPHRASE # env variable for GPG private key passphrase
 
       - name: Create Jars
-        run: mvn --file ./src/jvm/plc4net/pom.xml --no-transfer-progress package
+        run: mvn --file ./src/jvm/plconnet/pom.xml --no-transfer-progress package
         env:
           MAVEN_USERNAME: ${{ secrets.MAVEN_USERNAME }}
           MAVEN_CENTRAL_TOKEN: ${{ secrets.MAVEN_CENTRAL_TOKEN }}
@@ -80,7 +80,7 @@ jobs:
         uses: docker/metadata-action@v5
         with:
           images: |
-            ghcr.io/${{ github.repository_owner }}/plc4net
+            ghcr.io/${{ github.repository_owner }}/plconnet
 
       - name: Build and push
         id: push
@@ -99,7 +99,7 @@ jobs:
       #  uses: actions/attest-build-provenance@v2
       #  id: attest1
       #  with:
-      #    subject-name: index.docker.io/masesgroup/plc4net
+      #    subject-name: index.docker.io/masesgroup/plconnet
       #    subject-digest: ${{ steps.push.outputs.digest }}
       #    push-to-registry: true
 
@@ -107,6 +107,6 @@ jobs:
         uses: actions/attest-build-provenance@v2
         id: attest2
         with:
-          subject-name: ghcr.io/${{ github.repository_owner }}/plc4net
+          subject-name: ghcr.io/${{ github.repository_owner }}/plconnet
           subject-digest: ${{ steps.push.outputs.digest }}
           push-to-registry: true

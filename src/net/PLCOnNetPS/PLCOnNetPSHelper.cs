@@ -17,19 +17,19 @@
 */
 
 using MASES.JNetPSCore;
-using MASES.PLC4Net;
+using MASES.PLCOnNet;
 
-namespace MASES.PLC4NetPS
+namespace MASES.PLCOnNetPS
 {
     /// <summary>
     /// Public Helper class
     /// </summary>
-    public static class PLC4NetPSHelper<TClass> where TClass : PLC4NetCore<TClass>
+    public static class PLCOnNetPSHelper<TClass> where TClass : PLCOnNetCore<TClass>
     {
-        public static void SetClassToRun(string classToRun) { JNetPSHelper<TClass>.Set(typeof(PLC4NetCore<>), nameof(PLC4NetPSCore.ApplicationClassToRun), classToRun); }
+        public static void SetClassToRun(string classToRun) { JNetPSHelper<TClass>.Set(typeof(PLCOnNetCore<>), nameof(PLCOnNetPSCore.ApplicationClassToRun), classToRun); }
 
-        public static void SetCommonLoggingPath(string commonLoggingath) { JNetPSHelper<TClass>.Set(typeof(PLC4NetCore<>), nameof(PLC4NetPSCore.ApplicationCommonLoggingPath), commonLoggingath); }
+        public static void SetCommonLoggingPath(string commonLoggingath) { JNetPSHelper<TClass>.Set(typeof(PLCOnNetCore<>), nameof(PLCOnNetPSCore.ApplicationCommonLoggingPath), commonLoggingath); }
 
-        public static void SetLogPath(string logPath) { JNetPSHelper<TClass>.Set(typeof(PLC4NetCore<>), nameof(PLC4NetPSCore.ApplicationLogPath), logPath); }
+        public static void SetLogPath(string logPath) { JNetPSHelper<TClass>.Set(typeof(PLCOnNetCore<>), nameof(PLCOnNetPSCore.ApplicationLogPath), logPath); }
     }
 }

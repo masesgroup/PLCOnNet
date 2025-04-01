@@ -24,11 +24,11 @@ using System;
 using System.Collections.Generic;
 using System.Management.Automation;
 
-namespace MASES.PLC4NetPS.Cmdlet
+namespace MASES.PLCOnNetPS.Cmdlet
 {
     [Cmdlet(VerbsCommon.Get, "ProtocolCodes")]
     [OutputType(typeof(string[]))]
-    public class GetProtocolCodesCmdletCommand : PLC4NetPSCmdlet
+    public class GetProtocolCodesCmdletCommand : PLCOnNetPSCmdlet
     {
         // This method gets called once for each cmdlet in the pipeline when the pipeline starts executing
         protected override void BeginProcessing()

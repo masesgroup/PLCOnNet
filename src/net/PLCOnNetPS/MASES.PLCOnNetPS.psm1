@@ -1,5 +1,5 @@
 #
-# Script module for module 'MASES.PLC4NetPS'
+# Script module for module 'MASES.PLCOnNetPS'
 #
 Set-StrictMode -Version Latest
 
@@ -11,11 +11,11 @@ $PSModuleRoot = $PSModule.ModuleBase
 $binaryModuleRoot = $PSModuleRoot
 
 if (($PSVersionTable.Keys -contains "PSEdition") -and ($PSVersionTable.PSEdition -ne 'Desktop')) {
-   $binaryModuleFileName = 'MASES.PLC4NetPSCore.psd1'
+   $binaryModuleFileName = 'MASES.PLCOnNetPSCore.psd1'
    $binaryModuleRoot = Join-Path -Path $PSModuleRoot -ChildPath 'net8.0'
 }
 else {
-   $binaryModuleFileName = 'MASES.PLC4NetPSFramework.psd1'
+   $binaryModuleFileName = 'MASES.PLCOnNetPSFramework.psd1'
    $binaryModuleRoot = Join-Path -Path $PSModuleRoot -ChildPath 'net462'
 }
 

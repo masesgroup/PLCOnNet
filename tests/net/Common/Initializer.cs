@@ -16,12 +16,12 @@
 *  Refer to LICENSE for more information.
 */
 
-using MASES.PLC4Net;
+using MASES.PLCOnNet;
 using System.Collections.Generic;
 
-namespace MASES.PLC4NetTest.Common
+namespace MASES.PLCOnNetTest.Common
 {
-    class PLC4NetTestCore : PLC4NetCore<PLC4NetTestCore>
+    class PLCOnNetTestCore : PLCOnNetCore<PLCOnNetTestCore>
     {
 #if DEBUG
         public override bool EnableDebug => true;
@@ -31,7 +31,7 @@ namespace MASES.PLC4NetTest.Common
             get
             {
                 var lst = base.PathToParse;
-                var assembly = typeof(PLC4NetTestCore).Assembly;
+                var assembly = typeof(PLCOnNetTestCore).Assembly;
                 var path = System.IO.Path.Combine(System.IO.Path.GetDirectoryName(assembly.Location), JARsSubFolder, $"plc4net-test-1.0.0.0.jar");
                 if (!System.IO.File.Exists(path)) throw new System.IO.FileNotFoundException("JAR file for test not available, run Maven first", path);
                 lst.Add(path);

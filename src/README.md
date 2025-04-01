@@ -18,9 +18,9 @@ The configuration is:
 
 ```json
 {
-  "RelativeDestinationCSharpClassPath": "net\\PLC4Net\\Generated",
-  "RelativeDestinationJavaListenerPath": "jvm\\plc4net\\src\\main\\java",
-  "JavaListenerBasePackage": "org.mases.plc4net.generated",
+  "RelativeDestinationCSharpClassPath": "net\\PLCOnNet\\Generated",
+  "RelativeDestinationJavaListenerPath": "jvm\\plconnet\\src\\main\\java",
+  "JavaListenerBasePackage": "org.mases.plconnet.generated",
   "PreferMethodWithSignature": true,
   "OnlyPropertiesForGetterSetter": true,
   "DisableInterfaceMethodGeneration": true,
@@ -32,15 +32,15 @@ The configuration is:
   ],
   "OriginJavadocJARVersionAndUrls": [
     {
-      "Version": 8,
+      "Version": 11,
       "Url": "https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/"
     },
     {
-      "Version": 8,
+      "Version": 11,
       "Url": "https://www.javadoc.io/doc/org.apache.plc4x/plc4j-plc4x-server/0.12.0/"
     },
     {
-      "Version": 8,
+      "Version": 11,
       "Url": "https://www.javadoc.io/doc/org.apache.plc4x/plc4x-opcua-server/0.12.0/"
     }
   ],

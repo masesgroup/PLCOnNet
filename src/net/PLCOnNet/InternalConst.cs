@@ -19,7 +19,7 @@
 using System;
 using System.IO;
 
-namespace MASES.PLC4Net
+namespace MASES.PLCOnNet
 {
     class CLIParam
     {
@@ -53,7 +53,7 @@ namespace MASES.PLC4Net
         /// <summary>
         /// Default log4j configuration file, i.e. considering a relative location to <see cref="DefaultConfigurationPath"/>
         /// </summary>
-        public static readonly string DefaultCommonLoggingConfigurationPath = Path.Combine(DefaultConfigurationPath, "plc4net-log4j.properties");
+        public static readonly string DefaultCommonLoggingConfigurationPath = Path.Combine(DefaultConfigurationPath, "plconnet-log4j.properties");
         /// <summary>
         /// Default log path, i.e. consider installation within bin folder
         /// </summary>

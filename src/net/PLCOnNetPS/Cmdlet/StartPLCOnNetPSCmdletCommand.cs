@@ -18,10 +18,10 @@
 
 using System.Management.Automation;
 
-namespace MASES.PLC4NetPS.Cmdlet
+namespace MASES.PLCOnNetPS.Cmdlet
 {
-    [Cmdlet(VerbsLifecycle.Start, "PLC4NetPS")]
-    public class StartPLC4NetPSCmdletCommand : StartPLC4NetPSCmdletCommandBase<StartPLC4NetPSCmdletCommand>
+    [Cmdlet(VerbsLifecycle.Start, "PLCOnNetPS")]
+    public class StartPLCOnNetPSCmdletCommand : StartPLCOnNetPSCmdletCommandBase<StartPLCOnNetPSCmdletCommand>
     {
     }
 }

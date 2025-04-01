@@ -22,9 +22,9 @@ using System;
 using System.Management.Automation;
 using System.Reflection;
 
-namespace MASES.PLC4NetPS.Cmdlet
+namespace MASES.PLCOnNetPS.Cmdlet
 {
-    public class PLC4XClassToRunCmdletCommandBase<TCmdlet> : StartPLC4NetPSCmdletCommandBase<TCmdlet>
+    public class PLC4XClassToRunCmdletCommandBase<TCmdlet> : StartPLCOnNetPSCmdletCommandBase<TCmdlet>
         where TCmdlet : PLC4XClassToRunCmdletCommandBase<TCmdlet>
     {
         [Parameter(
@@ -37,7 +37,7 @@ namespace MASES.PLC4NetPS.Cmdlet
         {
             base.OnBeforeCreateGlobalInstance();
             var nounName = JNetPSHelper.NounName<TCmdlet>();
-            PLC4NetPSHelper<PLC4NetPSCore>.SetClassToRun(nounName);
+            PLCOnNetPSHelper<PLCOnNetPSCore>.SetClassToRun(nounName);
         }
 
         protected override void OnAfterCreateGlobalInstance()
@@ -50,7 +50,7 @@ namespace MASES.PLC4NetPS.Cmdlet
 
             try
             {
-                JNetPSHelper<PLC4NetPSCore>.Launch(PLC4NetPSCore.MainClassToRun, arguments);
+                JNetPSHelper<PLCOnNetPSCore>.Launch(PLCOnNetPSCore.MainClassToRun, arguments);
             }
             catch (TargetInvocationException tie)
             {

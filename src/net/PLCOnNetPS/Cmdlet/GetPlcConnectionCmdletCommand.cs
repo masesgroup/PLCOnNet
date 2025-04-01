@@ -25,11 +25,11 @@ using System;
 using System.Collections.Generic;
 using System.Management.Automation;
 
-namespace MASES.PLC4NetPS.Cmdlet
+namespace MASES.PLCOnNetPS.Cmdlet
 {
     [Cmdlet(VerbsCommon.Get, "PlcConnection")]
     [OutputType(typeof(PlcConnection))]
-    public class GetPlcConnectionCmdletCommand : PLC4NetPSCmdlet
+    public class GetPlcConnectionCmdletCommand : PLCOnNetPSCmdlet
     {
         [Parameter(
             Mandatory = true,

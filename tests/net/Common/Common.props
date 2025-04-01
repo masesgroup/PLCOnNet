@@ -2,15 +2,15 @@
 	<Import Project="..\..\..\src\net\Common\Common.props" />
 	<PropertyGroup>
 		<GeneratePackageOnBuild>false</GeneratePackageOnBuild>
-		<AssemblyOriginatorKeyFile>..\..\..\src\net\Common\PLC4Net.snk</AssemblyOriginatorKeyFile>
+		<AssemblyOriginatorKeyFile>..\..\..\src\net\Common\PLCOnNet.snk</AssemblyOriginatorKeyFile>
 		<OutputPath>..\..\..\bin\</OutputPath>
 	</PropertyGroup>
 	<ItemGroup>
 		<None Include="..\..\..\LICENSE" Pack="true" PackagePath="" />
 		<None Include="..\..\..\src\net\Common\JCOB128x128.png" Pack="true" PackagePath="" />
-		<None Include="..\..\..\src\net\Common\PLC4Net.snk" Link="PLC4Net.snk" />
+		<None Include="..\..\..\src\net\Common\PLCOnNet.snk" Link="PLCOnNet.snk" />
 	</ItemGroup>
 	<ItemGroup>
-		<ProjectReference Include="..\..\..\src\net\PLC4Net\PLC4Net.csproj" />
+		<ProjectReference Include="..\..\..\src\net\PLCOnNet\PLCOnNet.csproj" />
 	</ItemGroup>
 </Project>

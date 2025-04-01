@@ -1,11 +1,11 @@
 ---
 title: Usage PLC4X suite for .NET
-_description: Describes how to use PLC4Net, set-up environment, identify the JVM and write good code
+_description: Describes how to use PLCOnNet, set-up environment, identify the JVM and write good code
 ---
 
-# PLC4Net usage
+# PLCOnNet usage
 
-To use PLC4Net classes the developer can write code in .NET using the same classes available in the official Java packages.
+To use PLCOnNet classes the developer can write code in .NET using the same classes available in the official Java packages.
 If classes or methods are not available yet it is possible to use the approach synthetized in [What to do if an API was not yet implemented](https://jnet.masesgroup.com/articles/API_extensibility.html)
 
 The following code snippets and examples are mutuated from [PLC4X official website](https://plc4x.apache.org/plc4x/latest/users/getting-started/plc4j.html)

@@ -18,18 +18,18 @@
 
 using MASES.CLIParser;
 using MASES.JNet;
-using MASES.PLC4Net;
+using MASES.PLCOnNet;
 using System;
 using System.Collections.Generic;
 using System.IO;
 
-namespace MASES.PLC4NetCLI
+namespace MASES.PLCOnNetCLI
 {
     /// <summary>
-    /// Overridable implementation of <see cref="PLC4NetCore{T}"/>
+    /// Overridable implementation of <see cref="PLCOnNetCore{T}"/>
     /// </summary>
-    public class PLC4NetCLICore<T> : PLC4NetCore<T>
-        where T : PLC4NetCLICore<T>
+    public class PLCOnNetCLICore<T> : PLCOnNetCore<T>
+        where T : PLCOnNetCLICore<T>
     {
         class CLIParam
         {
@@ -63,7 +63,7 @@ namespace MASES.PLC4NetCLI
         /// <summary>
         /// Public ctor
         /// </summary>
-        public PLC4NetCLICore()
+        public PLCOnNetCLICore()
         {
             foreach (var item in ImportList)
             {
@@ -111,7 +111,7 @@ namespace MASES.PLC4NetCLI
                         Name = CLIParam.NamespaceList[0],
                         ShortName = CLIParam.NamespaceList[1],
                         Type = ArgumentType.Double,
-                        Help = "A CSV list of namespace to be used for interactive shell, JNet/PLC4Net namespaces are added automatically",
+                        Help = "A CSV list of namespace to be used for interactive shell, JNet/PLCOnNet namespaces are added automatically",
                     },
                     new ArgumentMetadata<string>()
                     {
@@ -165,7 +165,7 @@ namespace MASES.PLC4NetCLI
                     if (!namespaceList.Contains(item.Namespace)) namespaceList.Add(item.Namespace);
                 }
             }
-            var plc4netAssembly = typeof(PLC4NetCore<>).Assembly;
+            var plc4netAssembly = typeof(PLCOnNetCore<>).Assembly;
             foreach (var item in plc4netAssembly.GetExportedTypes())
             {
                 if (item.IsPublic)
@@ -225,9 +225,9 @@ namespace MASES.PLC4NetCLI
     }
 
     /// <summary>
-    /// Directly usable implementation of <see cref="PLC4NetCLICore{T}"/>
+    /// Directly usable implementation of <see cref="PLCOnNetCLICore{T}"/>
     /// </summary>
-    internal class PLC4NetCLICore : PLC4NetCLICore<PLC4NetCLICore>
+    internal class PLCOnNetCLICore : PLCOnNetCLICore<PLCOnNetCLICore>
     {
     }
 }

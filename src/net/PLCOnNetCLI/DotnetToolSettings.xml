@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <DotNetCliTool Version="1">
 	<Commands>
-		<Command Name="plc4net" EntryPoint="MASES.PLC4NetCLI.dll" Runner="dotnet" />
+		<Command Name="plconnet" EntryPoint="MASES.PLCOnNetCLI.dll" Runner="dotnet" />
 	</Commands>
 </DotNetCliTool>

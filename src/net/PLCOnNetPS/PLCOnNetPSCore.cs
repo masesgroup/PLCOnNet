@@ -16,15 +16,15 @@
 *  Refer to LICENSE for more information.
 */
 
-using MASES.PLC4NetCLI;
+using MASES.PLCOnNetCLI;
 using System;
 
-namespace MASES.PLC4NetPS
+namespace MASES.PLCOnNetPS
 {
     /// <summary>
-    /// Concrete implementation of <see cref="PLC4NetCore{T}"/>
+    /// Concrete implementation of <see cref="PLCOnNetCore{T}"/>
     /// </summary>
-    public class PLC4NetPSCore : PLC4NetCLICore<PLC4NetPSCore>
+    public class PLCOnNetPSCore : PLCOnNetCLICore<PLCOnNetPSCore>
     {
 #if NET6_0_OR_GREATER
         public static void Main(string[] args) { } // used in conjunction with project of executable type to produce artifacts with all needed assemblies

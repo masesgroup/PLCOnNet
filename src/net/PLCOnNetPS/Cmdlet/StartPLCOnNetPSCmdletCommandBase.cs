@@ -17,22 +17,22 @@
 */
 
 using MASES.JNetPSCore.Cmdlet;
-using MASES.PLC4Net;
+using MASES.PLCOnNet;
 using System.Management.Automation;
 
-namespace MASES.PLC4NetPS.Cmdlet
+namespace MASES.PLCOnNetPS.Cmdlet
 {
-    public class StartPLC4NetPSCmdletCommandBase<TCmdlet> : StartJNetPSCmdletCommandBase<TCmdlet, PLC4NetPSCore>
-        where TCmdlet : StartPLC4NetPSCmdletCommandBase<TCmdlet>
+    public class StartPLCOnNetPSCmdletCommandBase<TCmdlet> : StartJNetPSCmdletCommandBase<TCmdlet, PLCOnNetPSCore>
+        where TCmdlet : StartPLCOnNetPSCmdletCommandBase<TCmdlet>
     {
-        /// <inheritdoc cref="PLC4NetCore{T}.ApplicationCommonLoggingPath" />
+        /// <inheritdoc cref="PLCOnNetCore{T}.ApplicationCommonLoggingPath" />
         [Parameter(
             ValueFromPipeline = true,
             ValueFromPipelineByPropertyName = true,
             HelpMessage = "The file containing the configuration of log4j.")]
         public string CommonLoggingPath { get; set; }
 
-        /// <inheritdoc cref="PLC4NetCore{T}.ApplicationLogPath" />
+        /// <inheritdoc cref="PLCOnNetCore{T}.ApplicationLogPath" />
         [Parameter(
             ValueFromPipeline = true,
             ValueFromPipelineByPropertyName = true,
@@ -41,8 +41,8 @@ namespace MASES.PLC4NetPS.Cmdlet
 
         protected override void OnBeforeCreateGlobalInstance()
         {
-            PLC4NetPSHelper<PLC4NetPSCore>.SetCommonLoggingPath(CommonLoggingPath);
-            PLC4NetPSHelper<PLC4NetPSCore>.SetLogPath(LogPath);
+            PLCOnNetPSHelper<PLCOnNetPSCore>.SetCommonLoggingPath(CommonLoggingPath);
+            PLCOnNetPSHelper<PLCOnNetPSCore>.SetLogPath(LogPath);
         }
     }
 }
