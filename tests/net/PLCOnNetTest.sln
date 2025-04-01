@@ -9,11 +9,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Templates", "Templates", "{
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{360FAD84-7744-4B18-8624-1B5AE07534F6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PLC4Net", "..\..\src\net\PLC4Net\PLC4Net.csproj", "{695196D9-A4D2-43E0-C42A-3D51DA5CE05F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PLCOnNet", "..\..\src\net\PLCOnNet\PLCOnNet.csproj", "{695196D9-A4D2-43E0-C42A-3D51DA5CE05F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "plc4netApp", "..\..\src\net\templates\templates\plc4netApp\plc4netApp.csproj", "{FC987F94-039A-DBFB-11D3-CCD200189ADF}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PLCOnNetApp", "..\..\src\net\templates\templates\PLCOnNetApp\PLCOnNetApp.csproj", "{FC987F94-039A-DBFB-11D3-CCD200189ADF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PLC4NetTest", "PLC4NetTest\PLC4NetTest.csproj", "{FD297F24-D999-DE51-ADED-7226E65B5E9D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PLCOnNetTest", "PLCOnNetTest\PLCOnNetTest.csproj", "{FD297F24-D999-DE51-ADED-7226E65B5E9D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

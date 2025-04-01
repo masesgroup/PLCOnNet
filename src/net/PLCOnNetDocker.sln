@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.3.32825.248
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PLC4Net", "PLC4Net\PLC4Net.csproj", "{69A3E2C8-CB04-A9F0-07A8-6891C049CBA6}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PLCOnNet", "PLCOnNet\PLCOnNet.csproj", "{69A3E2C8-CB04-A9F0-07A8-6891C049CBA6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PLC4NetCLI", "PLC4NetCLI\PLC4NetCLI.csproj", "{89C9104D-E3BA-5370-9A1C-B5B348B030E5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PLCOnNetCLI", "PLCOnNetCLI\PLCOnNetCLI.csproj", "{89C9104D-E3BA-5370-9A1C-B5B348B030E5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
