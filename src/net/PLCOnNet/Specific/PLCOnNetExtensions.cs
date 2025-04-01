@@ -25,12 +25,12 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace MASES.PLC4Net.Specific
+namespace MASES.PLCOnNet.Specific
 {
     /// <summary>
     /// Extensions associated with <see cref="CompletableFuture{T}"/>
     /// </summary>
-    public static class PLC4NetExtensions
+    public static class PLCOnNetExtensions
     {
         /// <summary>
         /// Execute the <paramref name="process"/> on completion of <paramref name="cf"/> using the <see cref="CancellationToken"/> passed from <paramref name="token"/>
