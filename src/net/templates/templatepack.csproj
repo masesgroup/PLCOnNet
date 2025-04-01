@@ -2,13 +2,13 @@
   <Import Project="..\Common\Common.props" />
   <PropertyGroup>
     <PackageType>Template</PackageType>
-    <PackageId>MASES.PLC4Net.Templates</PackageId>
-    <Title>PLC4Net Templates - Templates to use the PLC4Net (PLC4X suite for .NET)</Title>
-    <Summary>Ready made templates to create applications based on PLC4Net (PLC4X suite for .NET)</Summary>
-    <Description>Ready made templates to create applications based on PLC4Net (PLC4X suite for .NET). The templates are ready made starting points, all information and APIs are available in the official website https://masesgroup.github.io/PLC4Net</Description>
+    <PackageId>MASES.PLCOnNet.Templates</PackageId>
+    <Title>PLCOnNet Templates - Templates to use the PLCOnNet (.NET suite for PLC4X)</Title>
+    <Summary>Ready made templates to create applications based on PLCOnNet (.NET suite for PLC4X)</Summary>
+    <Description>Ready made templates to create applications based on PLCOnNet (.NET suite for PLC4X). The templates are ready made starting points, all information and APIs are available in the official website https://masesgroup.github.io/PLCOnNet</Description>
     <OutputPath>..\..\..\bin\</OutputPath>
-    <PackageTags>template plc4net dotnet plc plc4x clr dotnetcore netcore dotnet8 net8 java bridge</PackageTags>
-    <Product>PLC4Net Templates</Product>
+    <PackageTags>template plconnet dotnet plc plc4x clr dotnetcore netcore dotnet8 net8 java bridge</PackageTags>
+    <Product>PLCOnNet Templates</Product>
 	<IncludeSymbols>false</IncludeSymbols>
 	<IncludeBuildOutput>false</IncludeBuildOutput>
 	<IncludeContentInPack>true</IncludeContentInPack>
