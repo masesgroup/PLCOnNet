@@ -1,5 +1,5 @@
 ---
-title: .NET suite for 
+title: .NET suite for PLC4X
 _description: Main page of .NET suite for PLC4X
 ---
 
