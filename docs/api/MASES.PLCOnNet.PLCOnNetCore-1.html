@@ -2,11 +2,11 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-      <title>Class PLC4NetCLICore&lt;T&gt; | MASES Group - PLC4Net </title>
+      <title>Class PLCOnNetCore&lt;T&gt; | MASES Group - PLCOnNet </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Class PLC4NetCLICore&lt;T&gt; | MASES Group - PLC4Net ">
-      <meta name="description" content="This is a descriptive page of PLC4Net, the PLC4X suite for .NET">
-      <meta name="description" content="Overridable implementation of">
+      <meta name="title" content="Class PLCOnNetCore&lt;T&gt; | MASES Group - PLCOnNet ">
+      <meta name="description" content="This is a descriptive page of PLCOnNet, the .NET suite for PLC4X">
+      <meta name="description" content="Public entry point of">
       <link rel="icon" href="../images/favicon.ico">
       <link rel="stylesheet" href="../public/docfx.min.css">
       <link rel="stylesheet" href="../public/main.css">
@@ -16,7 +16,7 @@
       <meta name="docfx:rel" content="../">
       
       
-      <meta name="docfx:docurl" content="https://github.com/masesgroup/PLC4Net/new/master/apiSpec/new?filename=MASES_PLC4NetCLI_PLC4NetCLICore_1.md&amp;value=---%0Auid%3A%20MASES.PLC4NetCLI.PLC4NetCLICore%601%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="docfx:docurl" content="https://github.com/masesgroup/PLCOnNet/new/master/apiSpec/new?filename=MASES_PLCOnNet_PLCOnNetCore_1.md&amp;value=---%0Auid%3A%20MASES.PLCOnNet.PLCOnNetCore%601%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
       <meta name="loc:inThisArticle" content="In this article">
       <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
       <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
@@ -84,25 +84,25 @@
           <nav id="breadcrumb"></nav>
         </div>
 
-        <article data-uid="MASES.PLC4NetCLI.PLC4NetCLICore`1">
+        <article data-uid="MASES.PLCOnNet.PLCOnNetCore`1">
 
 
 
-  <h1 id="MASES_PLC4NetCLI_PLC4NetCLICore_1" data-uid="MASES.PLC4NetCLI.PLC4NetCLICore`1" class="text-break">
-Class PLC4NetCLICore&lt;T&gt;  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/PLC4Net/blob/master/src/net/PLC4NetCLI/PLC4NetCLICore.cs/#L31"><i class="bi bi-code-slash"></i></a>
+  <h1 id="MASES_PLCOnNet_PLCOnNetCore_1" data-uid="MASES.PLCOnNet.PLCOnNetCore`1" class="text-break">
+Class PLCOnNetCore&lt;T&gt;  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/PLCOnNet/blob/master/src/net/PLCOnNet/PLCOnNetCore.cs/#L33"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
-    <dl><dt>Namespace</dt><dd><a class="xref" href="MASES.html">MASES</a>.<a class="xref" href="MASES.PLC4NetCLI.html">PLC4NetCLI</a></dd></dl>
-  <dl><dt>Assembly</dt><dd>MASES.PLC4NetCLI.dll</dd></dl>
+    <dl><dt>Namespace</dt><dd><a class="xref" href="MASES.html">MASES</a>.<a class="xref" href="MASES.PLCOnNet.html">PLCOnNet</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>MASES.PLCOnNet.dll</dd></dl>
   </div>
 
-  <div class="markdown summary"><p>Overridable implementation of <a class="xref" href="MASES.PLC4Net.PLC4NetCore-1.html">PLC4NetCore&lt;T&gt;</a></p>
+  <div class="markdown summary"><p>Public entry point of <a class="xref" href="MASES.PLCOnNet.PLCOnNetCore-1.html">PLCOnNetCore&lt;T&gt;</a></p>
 </div>
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class PLC4NetCLICore&lt;T&gt; : PLC4NetCore&lt;T&gt;, IJVMWrapperManagement, IJVMBridgeCore where T : PLC4NetCLICore&lt;T&gt;</code></pre>
+    <pre><code class="lang-csharp hljs">public class PLCOnNetCore&lt;T&gt; : JNetCore&lt;T&gt;, IJVMWrapperManagement, IJVMBridgeCore where T : PLCOnNetCore&lt;T&gt;</code></pre>
   </div>
 
 
@@ -110,7 +110,8 @@ Class PLC4NetCLICore&lt;T&gt;  <a class="header-action link-secondary" title="Vi
   <h4 class="section">Type Parameters</h4>
   <dl class="parameters">
     <dt><code>T</code></dt>
-    <dd></dd>
+    <dd><p>A class which inherits from <a class="xref" href="MASES.PLCOnNet.PLCOnNetCore-1.html">PLCOnNetCore&lt;T&gt;</a></p>
+</dd>
   </dl>
 
   <dl class="typelist inheritance">
@@ -121,8 +122,7 @@ Class PLC4NetCLICore&lt;T&gt;  <a class="header-action link-secondary" title="Vi
       <div><span class="xref">SetupJVMWrapper</span>&lt;T&gt;</div>
       <div><a class="xref" href="https://jnet.masesgroup.com/api/MASES.JNet.JNetCoreBase-1.html">JNetCoreBase</a>&lt;T&gt;</div>
       <div><a class="xref" href="https://jnet.masesgroup.com/api/MASES.JNet.JNetCore-1.html">JNetCore</a>&lt;T&gt;</div>
-      <div><a class="xref" href="MASES.PLC4Net.PLC4NetCore-1.html">PLC4NetCore</a>&lt;T&gt;</div>
-      <div><span class="xref">PLC4NetCLICore&lt;T&gt;</span></div>
+      <div><span class="xref">PLCOnNetCore&lt;T&gt;</span></div>
     </dd>
   </dl>
 
@@ -137,52 +137,13 @@ Class PLC4NetCLICore&lt;T&gt;  <a class="header-action link-secondary" title="Vi
   <dl class="typelist derived">
     <dt>Derived</dt>
     <dd>
-      <div><a class="xref" href="MASES.PLC4NetPS.PLC4NetPSCore.html">PLC4NetPSCore</a></div>
+      <div><a class="xref" href="MASES.PLCOnNetCLI.PLCOnNetCLICore-1.html">PLCOnNetCLICore&lt;T&gt;</a></div>
     </dd>
   </dl>
 
   <dl class="typelist inheritedMembers">
     <dt>Inherited Members</dt>
     <dd>
-    <div>
-      <a class="xref" href="MASES.PLC4Net.PLC4NetCore-1.html#MASES_PLC4Net_PLC4NetCore_1_DefaultCommonLoggingConfiguration">PLC4NetCore&lt;T&gt;.DefaultCommonLoggingConfiguration()</a>
-    </div>
-    <div>
-      <a class="xref" href="MASES.PLC4Net.PLC4NetCore-1.html#MASES_PLC4Net_PLC4NetCore_1_PrepareMainClassToRun_System_String_">PLC4NetCore&lt;T&gt;.PrepareMainClassToRun(string)</a>
-    </div>
-    <div>
-      <a class="xref" href="MASES.PLC4Net.PLC4NetCore-1.html#MASES_PLC4Net_PLC4NetCore_1_MainClassToRun">PLC4NetCore&lt;T&gt;.MainClassToRun</a>
-    </div>
-    <div>
-      <a class="xref" href="MASES.PLC4Net.PLC4NetCore-1.html#MASES_PLC4Net_PLC4NetCore_1_ApplicationClassToRun">PLC4NetCore&lt;T&gt;.ApplicationClassToRun</a>
-    </div>
-    <div>
-      <a class="xref" href="MASES.PLC4Net.PLC4NetCore-1.html#MASES_PLC4Net_PLC4NetCore_1_ApplicationCommonLoggingPath">PLC4NetCore&lt;T&gt;.ApplicationCommonLoggingPath</a>
-    </div>
-    <div>
-      <a class="xref" href="MASES.PLC4Net.PLC4NetCore-1.html#MASES_PLC4Net_PLC4NetCore_1_ApplicationLogPath">PLC4NetCore&lt;T&gt;.ApplicationLogPath</a>
-    </div>
-    <div>
-      <a class="xref" href="MASES.PLC4Net.PLC4NetCore-1.html#MASES_PLC4Net_PLC4NetCore_1__classToRun">PLC4NetCore&lt;T&gt;._classToRun</a>
-    </div>
-    <div>
-      <a class="xref" href="MASES.PLC4Net.PLC4NetCore-1.html#MASES_PLC4Net_PLC4NetCore_1_ClassToRun">PLC4NetCore&lt;T&gt;.ClassToRun</a>
-    </div>
-    <div>
-      <a class="xref" href="MASES.PLC4Net.PLC4NetCore-1.html#MASES_PLC4Net_PLC4NetCore_1_CommonLoggingPath">PLC4NetCore&lt;T&gt;.CommonLoggingPath</a>
-    </div>
-    <div>
-      <a class="xref" href="MASES.PLC4Net.PLC4NetCore-1.html#MASES_PLC4Net_PLC4NetCore_1_LogDir">PLC4NetCore&lt;T&gt;.LogDir</a>
-    </div>
-    <div>
-      <a class="xref" href="MASES.PLC4Net.PLC4NetCore-1.html#MASES_PLC4Net_PLC4NetCore_1_CommonLoggingOpts">PLC4NetCore&lt;T&gt;.CommonLoggingOpts</a>
-    </div>
-    <div>
-      <a class="xref" href="MASES.PLC4Net.PLC4NetCore-1.html#MASES_PLC4Net_PLC4NetCore_1_PerformanceOptions">PLC4NetCore&lt;T&gt;.PerformanceOptions</a>
-    </div>
-    <div>
-      <a class="xref" href="MASES.PLC4Net.PLC4NetCore-1.html#MASES_PLC4Net_PLC4NetCore_1_Options">PLC4NetCore&lt;T&gt;.Options</a>
-    </div>
     <div>
       <a class="xref" href="https://jnet.masesgroup.com/api/MASES.JNet.JNetCoreBase-1.html#MASES_JNet_JNetCoreBase_1_JARsSubFolder">JNetCoreBase&lt;T&gt;.JARsSubFolder</a>
     </div>
@@ -455,19 +416,19 @@ Class PLC4NetCLICore&lt;T&gt;  <a class="header-action link-secondary" title="Vi
 </h2>
 
 
-  <a id="MASES_PLC4NetCLI_PLC4NetCLICore_1__ctor_" data-uid="MASES.PLC4NetCLI.PLC4NetCLICore`1.#ctor*"></a>
+  <a id="MASES_PLCOnNet_PLCOnNetCore_1__ctor_" data-uid="MASES.PLCOnNet.PLCOnNetCore`1.#ctor*"></a>
 
-  <h3 id="MASES_PLC4NetCLI_PLC4NetCLICore_1__ctor" data-uid="MASES.PLC4NetCLI.PLC4NetCLICore`1.#ctor">
-  PLC4NetCLICore()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/PLC4Net/blob/master/src/net/PLC4NetCLI/PLC4NetCLICore.cs/#L66"><i class="bi bi-code-slash"></i></a>
+  <h3 id="MASES_PLCOnNet_PLCOnNetCore_1__ctor" data-uid="MASES.PLCOnNet.PLCOnNetCore`1.#ctor">
+  PLCOnNetCore()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/PLCOnNet/blob/master/src/net/PLCOnNet/PLCOnNetCore.cs/#L78"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Public ctor</p>
+  <div class="markdown level1 summary"><p>Public initializer</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public PLC4NetCLICore()</code></pre>
+    <pre><code class="lang-csharp hljs">public PLCOnNetCore()</code></pre>
   </div>
 
 
@@ -482,15 +443,178 @@ Class PLC4NetCLICore&lt;T&gt;  <a class="header-action link-secondary" title="Vi
 
 
 
+  <h2 class="section" id="fields">Fields
+</h2>
+
+
+
+  <h3 id="MASES_PLCOnNet_PLCOnNetCore_1__classToRun" data-uid="MASES.PLCOnNet.PLCOnNetCore`1._classToRun">
+  _classToRun
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/PLCOnNet/blob/master/src/net/PLCOnNet/PLCOnNetCore.cs/#L150"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>value can be overridden in subclasses</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected string _classToRun</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
   <h2 class="section" id="properties">Properties
 </h2>
 
 
-  <a id="MASES_PLC4NetCLI_PLC4NetCLICore_1_CommandLineArguments_" data-uid="MASES.PLC4NetCLI.PLC4NetCLICore`1.CommandLineArguments*"></a>
+  <a id="MASES_PLCOnNet_PLCOnNetCore_1_ApplicationClassToRun_" data-uid="MASES.PLCOnNet.PLCOnNetCore`1.ApplicationClassToRun*"></a>
 
-  <h3 id="MASES_PLC4NetCLI_PLC4NetCLICore_1_CommandLineArguments" data-uid="MASES.PLC4NetCLI.PLC4NetCLICore`1.CommandLineArguments">
+  <h3 id="MASES_PLCOnNet_PLCOnNetCore_1_ApplicationClassToRun" data-uid="MASES.PLCOnNet.PLCOnNetCore`1.ApplicationClassToRun">
+  ApplicationClassToRun
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/PLCOnNet/blob/master/src/net/PLCOnNet/PLCOnNetCore.cs/#L135"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Sets the global value of class to run</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string ApplicationClassToRun { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="MASES_PLCOnNet_PLCOnNetCore_1_ApplicationCommonLoggingPath_" data-uid="MASES.PLCOnNet.PLCOnNetCore`1.ApplicationCommonLoggingPath*"></a>
+
+  <h3 id="MASES_PLCOnNet_PLCOnNetCore_1_ApplicationCommonLoggingPath" data-uid="MASES.PLCOnNet.PLCOnNetCore`1.ApplicationCommonLoggingPath">
+  ApplicationCommonLoggingPath
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/PLCOnNet/blob/master/src/net/PLCOnNet/PLCOnNetCore.cs/#L140"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Sets the global value of log4j path</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string ApplicationCommonLoggingPath { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="MASES_PLCOnNet_PLCOnNetCore_1_ApplicationLogPath_" data-uid="MASES.PLCOnNet.PLCOnNetCore`1.ApplicationLogPath*"></a>
+
+  <h3 id="MASES_PLCOnNet_PLCOnNetCore_1_ApplicationLogPath" data-uid="MASES.PLCOnNet.PLCOnNetCore`1.ApplicationLogPath">
+  ApplicationLogPath
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/PLCOnNet/blob/master/src/net/PLCOnNet/PLCOnNetCore.cs/#L145"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Sets the global value of log path</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string ApplicationLogPath { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="MASES_PLCOnNet_PLCOnNetCore_1_ClassToRun_" data-uid="MASES.PLCOnNet.PLCOnNetCore`1.ClassToRun*"></a>
+
+  <h3 id="MASES_PLCOnNet_PLCOnNetCore_1_ClassToRun" data-uid="MASES.PLCOnNet.PLCOnNetCore`1.ClassToRun">
+  ClassToRun
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/PLCOnNet/blob/master/src/net/PLCOnNet/PLCOnNetCore.cs/#L154"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>The class to run in CLI version</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual string ClassToRun { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="MASES_PLCOnNet_PLCOnNetCore_1_CommandLineArguments_" data-uid="MASES.PLCOnNet.PLCOnNetCore`1.CommandLineArguments*"></a>
+
+  <h3 id="MASES_PLCOnNet_PLCOnNetCore_1_CommandLineArguments" data-uid="MASES.PLCOnNet.PLCOnNetCore`1.CommandLineArguments">
   CommandLineArguments
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/PLC4Net/blob/master/src/net/PLC4NetCLI/PLC4NetCLICore.cs/#L74"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/PLCOnNet/blob/master/src/net/PLCOnNet/PLCOnNetCore.cs/#L37"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable&lt;T&gt;</a> for command line</p>
@@ -518,18 +642,19 @@ Class PLC4NetCLICore&lt;T&gt;  <a class="header-action link-secondary" title="Vi
 
 
 
-  <a id="MASES_PLC4NetCLI_PLC4NetCLICore_1_ImportList_" data-uid="MASES.PLC4NetCLI.PLC4NetCLICore`1.ImportList*"></a>
+  <a id="MASES_PLCOnNet_PLCOnNetCore_1_CommonLoggingOpts_" data-uid="MASES.PLCOnNet.PLCOnNetCore`1.CommonLoggingOpts*"></a>
 
-  <h3 id="MASES_PLC4NetCLI_PLC4NetCLICore_1_ImportList" data-uid="MASES.PLC4NetCLI.PLC4NetCLICore`1.ImportList">
-  ImportList
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/PLC4Net/blob/master/src/net/PLC4NetCLI/PLC4NetCLICore.cs/#L61"><i class="bi bi-code-slash"></i></a>
+  <h3 id="MASES_PLCOnNet_PLCOnNetCore_1_CommonLoggingOpts" data-uid="MASES.PLCOnNet.PLCOnNetCore`1.CommonLoggingOpts">
+  CommonLoggingOpts
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/PLCOnNet/blob/master/src/net/PLCOnNet/PLCOnNetCore.cs/#L171"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>The log4j configuration</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static IEnumerable&lt;string&gt; ImportList { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public virtual string CommonLoggingOpts { get; }</code></pre>
   </div>
 
 
@@ -538,7 +663,7 @@ Class PLC4NetCLICore&lt;T&gt;  <a class="header-action link-secondary" title="Vi
 
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>&gt;</dt>
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
     <dd></dd>
   </dl>
 
@@ -549,18 +674,19 @@ Class PLC4NetCLICore&lt;T&gt;  <a class="header-action link-secondary" title="Vi
 
 
 
-  <a id="MASES_PLC4NetCLI_PLC4NetCLICore_1_Interactive_" data-uid="MASES.PLC4NetCLI.PLC4NetCLICore`1.Interactive*"></a>
+  <a id="MASES_PLCOnNet_PLCOnNetCore_1_CommonLoggingPath_" data-uid="MASES.PLCOnNet.PLCOnNetCore`1.CommonLoggingPath*"></a>
 
-  <h3 id="MASES_PLC4NetCLI_PLC4NetCLICore_1_Interactive" data-uid="MASES.PLC4NetCLI.PLC4NetCLICore`1.Interactive">
-  Interactive
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/PLC4Net/blob/master/src/net/PLC4NetCLI/PLC4NetCLICore.cs/#L46"><i class="bi bi-code-slash"></i></a>
+  <h3 id="MASES_PLCOnNet_PLCOnNetCore_1_CommonLoggingPath" data-uid="MASES.PLCOnNet.PLCOnNetCore`1.CommonLoggingPath">
+  CommonLoggingPath
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/PLCOnNet/blob/master/src/net/PLCOnNet/PLCOnNetCore.cs/#L160"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>The log4j folder</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static bool Interactive { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public virtual string CommonLoggingPath { get; }</code></pre>
   </div>
 
 
@@ -569,7 +695,7 @@ Class PLC4NetCLICore&lt;T&gt;  <a class="header-action link-secondary" title="Vi
 
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
     <dd></dd>
   </dl>
 
@@ -580,18 +706,19 @@ Class PLC4NetCLICore&lt;T&gt;  <a class="header-action link-secondary" title="Vi
 
 
 
-  <a id="MASES_PLC4NetCLI_PLC4NetCLICore_1_JarList_" data-uid="MASES.PLC4NetCLI.PLC4NetCLICore`1.JarList*"></a>
+  <a id="MASES_PLCOnNet_PLCOnNetCore_1_LogDir_" data-uid="MASES.PLCOnNet.PLCOnNetCore`1.LogDir*"></a>
 
-  <h3 id="MASES_PLC4NetCLI_PLC4NetCLICore_1_JarList" data-uid="MASES.PLC4NetCLI.PLC4NetCLICore`1.JarList">
-  JarList
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/PLC4Net/blob/master/src/net/PLC4NetCLI/PLC4NetCLICore.cs/#L55"><i class="bi bi-code-slash"></i></a>
+  <h3 id="MASES_PLCOnNet_PLCOnNetCore_1_LogDir" data-uid="MASES.PLCOnNet.PLCOnNetCore`1.LogDir">
+  LogDir
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/PLCOnNet/blob/master/src/net/PLCOnNet/PLCOnNetCore.cs/#L166"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>The log folder</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static IEnumerable&lt;string&gt; JarList { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public virtual string LogDir { get; }</code></pre>
   </div>
 
 
@@ -600,7 +727,7 @@ Class PLC4NetCLICore&lt;T&gt;  <a class="header-action link-secondary" title="Vi
 
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>&gt;</dt>
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
     <dd></dd>
   </dl>
 
@@ -611,18 +738,19 @@ Class PLC4NetCLICore&lt;T&gt;  <a class="header-action link-secondary" title="Vi
 
 
 
-  <a id="MASES_PLC4NetCLI_PLC4NetCLICore_1_NamespaceList_" data-uid="MASES.PLC4NetCLI.PLC4NetCLICore`1.NamespaceList*"></a>
+  <a id="MASES_PLCOnNet_PLCOnNetCore_1_MainClassToRun_" data-uid="MASES.PLCOnNet.PLCOnNetCore`1.MainClassToRun*"></a>
 
-  <h3 id="MASES_PLC4NetCLI_PLC4NetCLICore_1_NamespaceList" data-uid="MASES.PLC4NetCLI.PLC4NetCLICore`1.NamespaceList">
-  NamespaceList
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/PLC4Net/blob/master/src/net/PLC4NetCLI/PLC4NetCLICore.cs/#L58"><i class="bi bi-code-slash"></i></a>
+  <h3 id="MASES_PLCOnNet_PLCOnNetCore_1_MainClassToRun" data-uid="MASES.PLCOnNet.PLCOnNetCore`1.MainClassToRun">
+  MainClassToRun
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/PLCOnNet/blob/master/src/net/PLCOnNet/PLCOnNetCore.cs/#L130"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Sets the <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">Type</a> to be invoked at startup</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static IEnumerable&lt;string&gt; NamespaceList { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public static Type MainClassToRun { get; protected set; }</code></pre>
   </div>
 
 
@@ -631,7 +759,7 @@ Class PLC4NetCLICore&lt;T&gt;  <a class="header-action link-secondary" title="Vi
 
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>&gt;</dt>
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">Type</a></dt>
     <dd></dd>
   </dl>
 
@@ -642,18 +770,19 @@ Class PLC4NetCLICore&lt;T&gt;  <a class="header-action link-secondary" title="Vi
 
 
 
-  <a id="MASES_PLC4NetCLI_PLC4NetCLICore_1_NoLogo_" data-uid="MASES.PLC4NetCLI.PLC4NetCLICore`1.NoLogo*"></a>
+  <a id="MASES_PLCOnNet_PLCOnNetCore_1_Options_" data-uid="MASES.PLCOnNet.PLCOnNetCore`1.Options*"></a>
 
-  <h3 id="MASES_PLC4NetCLI_PLC4NetCLICore_1_NoLogo" data-uid="MASES.PLC4NetCLI.PLC4NetCLICore`1.NoLogo">
-  NoLogo
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/PLC4Net/blob/master/src/net/PLC4NetCLI/PLC4NetCLICore.cs/#L49"><i class="bi bi-code-slash"></i></a>
+  <h3 id="MASES_PLCOnNet_PLCOnNetCore_1_Options" data-uid="MASES.PLCOnNet.PLCOnNetCore`1.Options">
+  Options
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/PLCOnNet/blob/master/src/net/PLCOnNet/PLCOnNetCore.cs/#L192"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Adds options to the JVM</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static bool NoLogo { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">protected override IDictionary&lt;string, string&gt; Options { get; }</code></pre>
   </div>
 
 
@@ -662,7 +791,7 @@ Class PLC4NetCLICore&lt;T&gt;  <a class="header-action link-secondary" title="Vi
 
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.idictionary-2">IDictionary</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>&gt;</dt>
     <dd></dd>
   </dl>
 
@@ -673,11 +802,11 @@ Class PLC4NetCLICore&lt;T&gt;  <a class="header-action link-secondary" title="Vi
 
 
 
-  <a id="MASES_PLC4NetCLI_PLC4NetCLICore_1_PathToParse_" data-uid="MASES.PLC4NetCLI.PLC4NetCLICore`1.PathToParse*"></a>
+  <a id="MASES_PLCOnNet_PLCOnNetCore_1_PathToParse_" data-uid="MASES.PLCOnNet.PLCOnNetCore`1.PathToParse*"></a>
 
-  <h3 id="MASES_PLC4NetCLI_PLC4NetCLICore_1_PathToParse" data-uid="MASES.PLC4NetCLI.PLC4NetCLICore`1.PathToParse">
+  <h3 id="MASES_PLCOnNet_PLCOnNetCore_1_PathToParse" data-uid="MASES.PLCOnNet.PLCOnNetCore`1.PathToParse">
   PathToParse
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/PLC4Net/blob/master/src/net/PLC4NetCLI/PLC4NetCLICore.cs/#L213"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/PLCOnNet/blob/master/src/net/PLCOnNet/PLCOnNetCore.cs/#L210"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>A list of paths to be used in initialization of JVM ClassPath</p>
@@ -705,18 +834,19 @@ Class PLC4NetCLICore&lt;T&gt;  <a class="header-action link-secondary" title="Vi
 
 
 
-  <a id="MASES_PLC4NetCLI_PLC4NetCLICore_1_Script_" data-uid="MASES.PLC4NetCLI.PLC4NetCLICore`1.Script*"></a>
+  <a id="MASES_PLCOnNet_PLCOnNetCore_1_PerformanceOptions_" data-uid="MASES.PLCOnNet.PLCOnNetCore`1.PerformanceOptions*"></a>
 
-  <h3 id="MASES_PLC4NetCLI_PLC4NetCLICore_1_Script" data-uid="MASES.PLC4NetCLI.PLC4NetCLICore`1.Script">
-  Script
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/PLC4Net/blob/master/src/net/PLC4NetCLI/PLC4NetCLICore.cs/#L52"><i class="bi bi-code-slash"></i></a>
+  <h3 id="MASES_PLCOnNet_PLCOnNetCore_1_PerformanceOptions" data-uid="MASES.PLCOnNet.PLCOnNetCore`1.PerformanceOptions">
+  PerformanceOptions
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/PLCOnNet/blob/master/src/net/PLCOnNet/PLCOnNetCore.cs/#L174"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Default performance options used in initialization</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static string Script { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">protected override IList&lt;string&gt; PerformanceOptions { get; }</code></pre>
   </div>
 
 
@@ -725,7 +855,7 @@ Class PLC4NetCLICore&lt;T&gt;  <a class="header-action link-secondary" title="Vi
 
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1">IList</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>&gt;</dt>
     <dd></dd>
   </dl>
 
@@ -740,11 +870,86 @@ Class PLC4NetCLICore&lt;T&gt;  <a class="header-action link-secondary" title="Vi
 </h2>
 
 
-  <a id="MASES_PLC4NetCLI_PLC4NetCLICore_1_ProcessCommandLine_" data-uid="MASES.PLC4NetCLI.PLC4NetCLICore`1.ProcessCommandLine*"></a>
+  <a id="MASES_PLCOnNet_PLCOnNetCore_1_DefaultCommonLoggingConfiguration_" data-uid="MASES.PLCOnNet.PLCOnNetCore`1.DefaultCommonLoggingConfiguration*"></a>
 
-  <h3 id="MASES_PLC4NetCLI_PLC4NetCLICore_1_ProcessCommandLine" data-uid="MASES.PLC4NetCLI.PLC4NetCLICore`1.ProcessCommandLine">
+  <h3 id="MASES_PLCOnNet_PLCOnNetCore_1_DefaultCommonLoggingConfiguration" data-uid="MASES.PLCOnNet.PLCOnNetCore`1.DefaultCommonLoggingConfiguration">
+  DefaultCommonLoggingConfiguration()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/PLCOnNet/blob/master/src/net/PLCOnNet/PLCOnNetCore.cs/#L70"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Returns the default configuration file to use when initializing command line defaults</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual string DefaultCommonLoggingConfiguration()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The configuration file to use for logging</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+  <h4 class="section" id="MASES_PLCOnNet_PLCOnNetCore_1_DefaultCommonLoggingConfiguration_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>Overrides in derived classes to give another default file</p>
+</div>
+
+
+
+
+  <a id="MASES_PLCOnNet_PLCOnNetCore_1_PrepareMainClassToRun_" data-uid="MASES.PLCOnNet.PLCOnNetCore`1.PrepareMainClassToRun*"></a>
+
+  <h3 id="MASES_PLCOnNet_PLCOnNetCore_1_PrepareMainClassToRun_System_String_" data-uid="MASES.PLCOnNet.PLCOnNetCore`1.PrepareMainClassToRun(System.String)">
+  PrepareMainClassToRun(string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/PLCOnNet/blob/master/src/net/PLCOnNet/PLCOnNetCore.cs/#L110"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Prepare <a class="xref" href="MASES.PLCOnNet.PLCOnNetCore-1.html#MASES_PLCOnNet_PLCOnNetCore_1_MainClassToRun">MainClassToRun</a> property</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual void PrepareMainClassToRun(string className)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>className</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The class to search</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+  <h4 class="section">Exceptions</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.argumentexception">ArgumentException</a></dt>
+    <dd><p>If <code class="paramref">className</code> does not have a corresponding implemented <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">Type</a></p>
+</dd>
+  </dl>
+
+
+
+  <a id="MASES_PLCOnNet_PLCOnNetCore_1_ProcessCommandLine_" data-uid="MASES.PLCOnNet.PLCOnNetCore`1.ProcessCommandLine*"></a>
+
+  <h3 id="MASES_PLCOnNet_PLCOnNetCore_1_ProcessCommandLine" data-uid="MASES.PLCOnNet.PLCOnNetCore`1.ProcessCommandLine">
   ProcessCommandLine()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/PLC4Net/blob/master/src/net/PLC4NetCLI/PLC4NetCLICore.cs/#L128"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/PLCOnNet/blob/master/src/net/PLCOnNet/PLCOnNetCore.cs/#L84"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.jcobridge.com/api-clr/html/M_MASES_JCOBridge_C2JBridge_SetupJVMWrapper_ProcessCommandLine.htm">https://www.jcobridge.com/api-clr/html/M_MASES_JCOBridge_C2JBridge_SetupJVMWrapper_ProcessCommandLine.htm</a></p>
@@ -776,7 +981,7 @@ Class PLC4NetCLICore&lt;T&gt;  <a class="header-action link-secondary" title="Vi
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/masesgroup/PLC4Net/blob/master/src/net/PLC4NetCLI/PLC4NetCLICore.cs/#L31" class="edit-link">Edit this page</a>
+          <a href="https://github.com/masesgroup/PLCOnNet/blob/master/src/net/PLCOnNet/PLCOnNetCore.cs/#L33" class="edit-link">Edit this page</a>
         </div>
 
 

@@ -1,1144 +1,1144 @@
 ### YamlMime:XRefMap
 sorted: true
 references:
-- uid: MASES.PLC4Net
-  name: MASES.PLC4Net
-  href: api/MASES.PLC4Net.html
-  commentId: N:MASES.PLC4Net
-  fullName: MASES.PLC4Net
-  nameWithType: MASES.PLC4Net
-- uid: MASES.PLC4Net.Const
+- uid: MASES.PLCOnNet
+  name: MASES.PLCOnNet
+  href: api/MASES.PLCOnNet.html
+  commentId: N:MASES.PLCOnNet
+  fullName: MASES.PLCOnNet
+  nameWithType: MASES.PLCOnNet
+- uid: MASES.PLCOnNet.Const
   name: Const
-  href: api/MASES.PLC4Net.Const.html
-  commentId: T:MASES.PLC4Net.Const
-  fullName: MASES.PLC4Net.Const
+  href: api/MASES.PLCOnNet.Const.html
+  commentId: T:MASES.PLCOnNet.Const
+  fullName: MASES.PLCOnNet.Const
   nameWithType: Const
-- uid: MASES.PLC4Net.Const.AssemblyLocation
+- uid: MASES.PLCOnNet.Const.AssemblyLocation
   name: AssemblyLocation
-  href: api/MASES.PLC4Net.Const.html#MASES_PLC4Net_Const_AssemblyLocation
-  commentId: F:MASES.PLC4Net.Const.AssemblyLocation
-  fullName: MASES.PLC4Net.Const.AssemblyLocation
+  href: api/MASES.PLCOnNet.Const.html#MASES_PLCOnNet_Const_AssemblyLocation
+  commentId: F:MASES.PLCOnNet.Const.AssemblyLocation
+  fullName: MASES.PLCOnNet.Const.AssemblyLocation
   nameWithType: Const.AssemblyLocation
-- uid: MASES.PLC4Net.Const.DefaultCommonLoggingConfigurationPath
+- uid: MASES.PLCOnNet.Const.DefaultCommonLoggingConfigurationPath
   name: DefaultCommonLoggingConfigurationPath
-  href: api/MASES.PLC4Net.Const.html#MASES_PLC4Net_Const_DefaultCommonLoggingConfigurationPath
-  commentId: F:MASES.PLC4Net.Const.DefaultCommonLoggingConfigurationPath
-  fullName: MASES.PLC4Net.Const.DefaultCommonLoggingConfigurationPath
+  href: api/MASES.PLCOnNet.Const.html#MASES_PLCOnNet_Const_DefaultCommonLoggingConfigurationPath
+  commentId: F:MASES.PLCOnNet.Const.DefaultCommonLoggingConfigurationPath
+  fullName: MASES.PLCOnNet.Const.DefaultCommonLoggingConfigurationPath
   nameWithType: Const.DefaultCommonLoggingConfigurationPath
-- uid: MASES.PLC4Net.Const.DefaultConfigurationPath
+- uid: MASES.PLCOnNet.Const.DefaultConfigurationPath
   name: DefaultConfigurationPath
-  href: api/MASES.PLC4Net.Const.html#MASES_PLC4Net_Const_DefaultConfigurationPath
-  commentId: F:MASES.PLC4Net.Const.DefaultConfigurationPath
-  fullName: MASES.PLC4Net.Const.DefaultConfigurationPath
+  href: api/MASES.PLCOnNet.Const.html#MASES_PLCOnNet_Const_DefaultConfigurationPath
+  commentId: F:MASES.PLCOnNet.Const.DefaultConfigurationPath
+  fullName: MASES.PLCOnNet.Const.DefaultConfigurationPath
   nameWithType: Const.DefaultConfigurationPath
-- uid: MASES.PLC4Net.Const.DefaultJarsPath
+- uid: MASES.PLCOnNet.Const.DefaultJarsPath
   name: DefaultJarsPath
-  href: api/MASES.PLC4Net.Const.html#MASES_PLC4Net_Const_DefaultJarsPath
-  commentId: F:MASES.PLC4Net.Const.DefaultJarsPath
-  fullName: MASES.PLC4Net.Const.DefaultJarsPath
+  href: api/MASES.PLCOnNet.Const.html#MASES_PLCOnNet_Const_DefaultJarsPath
+  commentId: F:MASES.PLCOnNet.Const.DefaultJarsPath
+  fullName: MASES.PLCOnNet.Const.DefaultJarsPath
   nameWithType: Const.DefaultJarsPath
-- uid: MASES.PLC4Net.Const.DefaultLogPath
+- uid: MASES.PLCOnNet.Const.DefaultLogPath
   name: DefaultLogPath
-  href: api/MASES.PLC4Net.Const.html#MASES_PLC4Net_Const_DefaultLogPath
-  commentId: F:MASES.PLC4Net.Const.DefaultLogPath
-  fullName: MASES.PLC4Net.Const.DefaultLogPath
+  href: api/MASES.PLCOnNet.Const.html#MASES_PLCOnNet_Const_DefaultLogPath
+  commentId: F:MASES.PLCOnNet.Const.DefaultLogPath
+  fullName: MASES.PLCOnNet.Const.DefaultLogPath
   nameWithType: Const.DefaultLogPath
-- uid: MASES.PLC4Net.Const.DefaultRootPath
+- uid: MASES.PLCOnNet.Const.DefaultRootPath
   name: DefaultRootPath
-  href: api/MASES.PLC4Net.Const.html#MASES_PLC4Net_Const_DefaultRootPath
-  commentId: F:MASES.PLC4Net.Const.DefaultRootPath
-  fullName: MASES.PLC4Net.Const.DefaultRootPath
+  href: api/MASES.PLCOnNet.Const.html#MASES_PLCOnNet_Const_DefaultRootPath
+  commentId: F:MASES.PLCOnNet.Const.DefaultRootPath
+  fullName: MASES.PLCOnNet.Const.DefaultRootPath
   nameWithType: Const.DefaultRootPath
-- uid: MASES.PLC4Net.PLC4NetCore`1
-  name: PLC4NetCore<T>
-  href: api/MASES.PLC4Net.PLC4NetCore-1.html
-  commentId: T:MASES.PLC4Net.PLC4NetCore`1
-  name.vb: PLC4NetCore(Of T)
-  fullName: MASES.PLC4Net.PLC4NetCore<T>
-  fullName.vb: MASES.PLC4Net.PLC4NetCore(Of T)
-  nameWithType: PLC4NetCore<T>
-  nameWithType.vb: PLC4NetCore(Of T)
-- uid: MASES.PLC4Net.PLC4NetCore`1.#ctor
-  name: PLC4NetCore()
-  href: api/MASES.PLC4Net.PLC4NetCore-1.html#MASES_PLC4Net_PLC4NetCore_1__ctor
-  commentId: M:MASES.PLC4Net.PLC4NetCore`1.#ctor
+- uid: MASES.PLCOnNet.PLCOnNetCore`1
+  name: PLCOnNetCore<T>
+  href: api/MASES.PLCOnNet.PLCOnNetCore-1.html
+  commentId: T:MASES.PLCOnNet.PLCOnNetCore`1
+  name.vb: PLCOnNetCore(Of T)
+  fullName: MASES.PLCOnNet.PLCOnNetCore<T>
+  fullName.vb: MASES.PLCOnNet.PLCOnNetCore(Of T)
+  nameWithType: PLCOnNetCore<T>
+  nameWithType.vb: PLCOnNetCore(Of T)
+- uid: MASES.PLCOnNet.PLCOnNetCore`1.#ctor
+  name: PLCOnNetCore()
+  href: api/MASES.PLCOnNet.PLCOnNetCore-1.html#MASES_PLCOnNet_PLCOnNetCore_1__ctor
+  commentId: M:MASES.PLCOnNet.PLCOnNetCore`1.#ctor
   name.vb: New()
-  fullName: MASES.PLC4Net.PLC4NetCore<T>.PLC4NetCore()
-  fullName.vb: MASES.PLC4Net.PLC4NetCore(Of T).New()
-  nameWithType: PLC4NetCore<T>.PLC4NetCore()
-  nameWithType.vb: PLC4NetCore(Of T).New()
-- uid: MASES.PLC4Net.PLC4NetCore`1.#ctor*
-  name: PLC4NetCore
-  href: api/MASES.PLC4Net.PLC4NetCore-1.html#MASES_PLC4Net_PLC4NetCore_1__ctor_
-  commentId: Overload:MASES.PLC4Net.PLC4NetCore`1.#ctor
+  fullName: MASES.PLCOnNet.PLCOnNetCore<T>.PLCOnNetCore()
+  fullName.vb: MASES.PLCOnNet.PLCOnNetCore(Of T).New()
+  nameWithType: PLCOnNetCore<T>.PLCOnNetCore()
+  nameWithType.vb: PLCOnNetCore(Of T).New()
+- uid: MASES.PLCOnNet.PLCOnNetCore`1.#ctor*
+  name: PLCOnNetCore
+  href: api/MASES.PLCOnNet.PLCOnNetCore-1.html#MASES_PLCOnNet_PLCOnNetCore_1__ctor_
+  commentId: Overload:MASES.PLCOnNet.PLCOnNetCore`1.#ctor
   isSpec: "True"
   name.vb: New
-  fullName: MASES.PLC4Net.PLC4NetCore<T>.PLC4NetCore
-  fullName.vb: MASES.PLC4Net.PLC4NetCore(Of T).New
-  nameWithType: PLC4NetCore<T>.PLC4NetCore
-  nameWithType.vb: PLC4NetCore(Of T).New
-- uid: MASES.PLC4Net.PLC4NetCore`1.ApplicationClassToRun
+  fullName: MASES.PLCOnNet.PLCOnNetCore<T>.PLCOnNetCore
+  fullName.vb: MASES.PLCOnNet.PLCOnNetCore(Of T).New
+  nameWithType: PLCOnNetCore<T>.PLCOnNetCore
+  nameWithType.vb: PLCOnNetCore(Of T).New
+- uid: MASES.PLCOnNet.PLCOnNetCore`1.ApplicationClassToRun
   name: ApplicationClassToRun
-  href: api/MASES.PLC4Net.PLC4NetCore-1.html#MASES_PLC4Net_PLC4NetCore_1_ApplicationClassToRun
-  commentId: P:MASES.PLC4Net.PLC4NetCore`1.ApplicationClassToRun
-  fullName: MASES.PLC4Net.PLC4NetCore<T>.ApplicationClassToRun
-  fullName.vb: MASES.PLC4Net.PLC4NetCore(Of T).ApplicationClassToRun
-  nameWithType: PLC4NetCore<T>.ApplicationClassToRun
-  nameWithType.vb: PLC4NetCore(Of T).ApplicationClassToRun
-- uid: MASES.PLC4Net.PLC4NetCore`1.ApplicationClassToRun*
+  href: api/MASES.PLCOnNet.PLCOnNetCore-1.html#MASES_PLCOnNet_PLCOnNetCore_1_ApplicationClassToRun
+  commentId: P:MASES.PLCOnNet.PLCOnNetCore`1.ApplicationClassToRun
+  fullName: MASES.PLCOnNet.PLCOnNetCore<T>.ApplicationClassToRun
+  fullName.vb: MASES.PLCOnNet.PLCOnNetCore(Of T).ApplicationClassToRun
+  nameWithType: PLCOnNetCore<T>.ApplicationClassToRun
+  nameWithType.vb: PLCOnNetCore(Of T).ApplicationClassToRun
+- uid: MASES.PLCOnNet.PLCOnNetCore`1.ApplicationClassToRun*
   name: ApplicationClassToRun
-  href: api/MASES.PLC4Net.PLC4NetCore-1.html#MASES_PLC4Net_PLC4NetCore_1_ApplicationClassToRun_
-  commentId: Overload:MASES.PLC4Net.PLC4NetCore`1.ApplicationClassToRun
+  href: api/MASES.PLCOnNet.PLCOnNetCore-1.html#MASES_PLCOnNet_PLCOnNetCore_1_ApplicationClassToRun_
+  commentId: Overload:MASES.PLCOnNet.PLCOnNetCore`1.ApplicationClassToRun
   isSpec: "True"
-  fullName: MASES.PLC4Net.PLC4NetCore<T>.ApplicationClassToRun
-  fullName.vb: MASES.PLC4Net.PLC4NetCore(Of T).ApplicationClassToRun
-  nameWithType: PLC4NetCore<T>.ApplicationClassToRun
-  nameWithType.vb: PLC4NetCore(Of T).ApplicationClassToRun
-- uid: MASES.PLC4Net.PLC4NetCore`1.ApplicationCommonLoggingPath
+  fullName: MASES.PLCOnNet.PLCOnNetCore<T>.ApplicationClassToRun
+  fullName.vb: MASES.PLCOnNet.PLCOnNetCore(Of T).ApplicationClassToRun
+  nameWithType: PLCOnNetCore<T>.ApplicationClassToRun
+  nameWithType.vb: PLCOnNetCore(Of T).ApplicationClassToRun
+- uid: MASES.PLCOnNet.PLCOnNetCore`1.ApplicationCommonLoggingPath
   name: ApplicationCommonLoggingPath
-  href: api/MASES.PLC4Net.PLC4NetCore-1.html#MASES_PLC4Net_PLC4NetCore_1_ApplicationCommonLoggingPath
-  commentId: P:MASES.PLC4Net.PLC4NetCore`1.ApplicationCommonLoggingPath
-  fullName: MASES.PLC4Net.PLC4NetCore<T>.ApplicationCommonLoggingPath
-  fullName.vb: MASES.PLC4Net.PLC4NetCore(Of T).ApplicationCommonLoggingPath
-  nameWithType: PLC4NetCore<T>.ApplicationCommonLoggingPath
-  nameWithType.vb: PLC4NetCore(Of T).ApplicationCommonLoggingPath
-- uid: MASES.PLC4Net.PLC4NetCore`1.ApplicationCommonLoggingPath*
+  href: api/MASES.PLCOnNet.PLCOnNetCore-1.html#MASES_PLCOnNet_PLCOnNetCore_1_ApplicationCommonLoggingPath
+  commentId: P:MASES.PLCOnNet.PLCOnNetCore`1.ApplicationCommonLoggingPath
+  fullName: MASES.PLCOnNet.PLCOnNetCore<T>.ApplicationCommonLoggingPath
+  fullName.vb: MASES.PLCOnNet.PLCOnNetCore(Of T).ApplicationCommonLoggingPath
+  nameWithType: PLCOnNetCore<T>.ApplicationCommonLoggingPath
+  nameWithType.vb: PLCOnNetCore(Of T).ApplicationCommonLoggingPath
+- uid: MASES.PLCOnNet.PLCOnNetCore`1.ApplicationCommonLoggingPath*
   name: ApplicationCommonLoggingPath
-  href: api/MASES.PLC4Net.PLC4NetCore-1.html#MASES_PLC4Net_PLC4NetCore_1_ApplicationCommonLoggingPath_
-  commentId: Overload:MASES.PLC4Net.PLC4NetCore`1.ApplicationCommonLoggingPath
+  href: api/MASES.PLCOnNet.PLCOnNetCore-1.html#MASES_PLCOnNet_PLCOnNetCore_1_ApplicationCommonLoggingPath_
+  commentId: Overload:MASES.PLCOnNet.PLCOnNetCore`1.ApplicationCommonLoggingPath
   isSpec: "True"
-  fullName: MASES.PLC4Net.PLC4NetCore<T>.ApplicationCommonLoggingPath
-  fullName.vb: MASES.PLC4Net.PLC4NetCore(Of T).ApplicationCommonLoggingPath
-  nameWithType: PLC4NetCore<T>.ApplicationCommonLoggingPath
-  nameWithType.vb: PLC4NetCore(Of T).ApplicationCommonLoggingPath
-- uid: MASES.PLC4Net.PLC4NetCore`1.ApplicationLogPath
+  fullName: MASES.PLCOnNet.PLCOnNetCore<T>.ApplicationCommonLoggingPath
+  fullName.vb: MASES.PLCOnNet.PLCOnNetCore(Of T).ApplicationCommonLoggingPath
+  nameWithType: PLCOnNetCore<T>.ApplicationCommonLoggingPath
+  nameWithType.vb: PLCOnNetCore(Of T).ApplicationCommonLoggingPath
+- uid: MASES.PLCOnNet.PLCOnNetCore`1.ApplicationLogPath
   name: ApplicationLogPath
-  href: api/MASES.PLC4Net.PLC4NetCore-1.html#MASES_PLC4Net_PLC4NetCore_1_ApplicationLogPath
-  commentId: P:MASES.PLC4Net.PLC4NetCore`1.ApplicationLogPath
-  fullName: MASES.PLC4Net.PLC4NetCore<T>.ApplicationLogPath
-  fullName.vb: MASES.PLC4Net.PLC4NetCore(Of T).ApplicationLogPath
-  nameWithType: PLC4NetCore<T>.ApplicationLogPath
-  nameWithType.vb: PLC4NetCore(Of T).ApplicationLogPath
-- uid: MASES.PLC4Net.PLC4NetCore`1.ApplicationLogPath*
+  href: api/MASES.PLCOnNet.PLCOnNetCore-1.html#MASES_PLCOnNet_PLCOnNetCore_1_ApplicationLogPath
+  commentId: P:MASES.PLCOnNet.PLCOnNetCore`1.ApplicationLogPath
+  fullName: MASES.PLCOnNet.PLCOnNetCore<T>.ApplicationLogPath
+  fullName.vb: MASES.PLCOnNet.PLCOnNetCore(Of T).ApplicationLogPath
+  nameWithType: PLCOnNetCore<T>.ApplicationLogPath
+  nameWithType.vb: PLCOnNetCore(Of T).ApplicationLogPath
+- uid: MASES.PLCOnNet.PLCOnNetCore`1.ApplicationLogPath*
   name: ApplicationLogPath
-  href: api/MASES.PLC4Net.PLC4NetCore-1.html#MASES_PLC4Net_PLC4NetCore_1_ApplicationLogPath_
-  commentId: Overload:MASES.PLC4Net.PLC4NetCore`1.ApplicationLogPath
+  href: api/MASES.PLCOnNet.PLCOnNetCore-1.html#MASES_PLCOnNet_PLCOnNetCore_1_ApplicationLogPath_
+  commentId: Overload:MASES.PLCOnNet.PLCOnNetCore`1.ApplicationLogPath
   isSpec: "True"
-  fullName: MASES.PLC4Net.PLC4NetCore<T>.ApplicationLogPath
-  fullName.vb: MASES.PLC4Net.PLC4NetCore(Of T).ApplicationLogPath
-  nameWithType: PLC4NetCore<T>.ApplicationLogPath
-  nameWithType.vb: PLC4NetCore(Of T).ApplicationLogPath
-- uid: MASES.PLC4Net.PLC4NetCore`1.ClassToRun
+  fullName: MASES.PLCOnNet.PLCOnNetCore<T>.ApplicationLogPath
+  fullName.vb: MASES.PLCOnNet.PLCOnNetCore(Of T).ApplicationLogPath
+  nameWithType: PLCOnNetCore<T>.ApplicationLogPath
+  nameWithType.vb: PLCOnNetCore(Of T).ApplicationLogPath
+- uid: MASES.PLCOnNet.PLCOnNetCore`1.ClassToRun
   name: ClassToRun
-  href: api/MASES.PLC4Net.PLC4NetCore-1.html#MASES_PLC4Net_PLC4NetCore_1_ClassToRun
-  commentId: P:MASES.PLC4Net.PLC4NetCore`1.ClassToRun
-  fullName: MASES.PLC4Net.PLC4NetCore<T>.ClassToRun
-  fullName.vb: MASES.PLC4Net.PLC4NetCore(Of T).ClassToRun
-  nameWithType: PLC4NetCore<T>.ClassToRun
-  nameWithType.vb: PLC4NetCore(Of T).ClassToRun
-- uid: MASES.PLC4Net.PLC4NetCore`1.ClassToRun*
+  href: api/MASES.PLCOnNet.PLCOnNetCore-1.html#MASES_PLCOnNet_PLCOnNetCore_1_ClassToRun
+  commentId: P:MASES.PLCOnNet.PLCOnNetCore`1.ClassToRun
+  fullName: MASES.PLCOnNet.PLCOnNetCore<T>.ClassToRun
+  fullName.vb: MASES.PLCOnNet.PLCOnNetCore(Of T).ClassToRun
+  nameWithType: PLCOnNetCore<T>.ClassToRun
+  nameWithType.vb: PLCOnNetCore(Of T).ClassToRun
+- uid: MASES.PLCOnNet.PLCOnNetCore`1.ClassToRun*
   name: ClassToRun
-  href: api/MASES.PLC4Net.PLC4NetCore-1.html#MASES_PLC4Net_PLC4NetCore_1_ClassToRun_
-  commentId: Overload:MASES.PLC4Net.PLC4NetCore`1.ClassToRun
+  href: api/MASES.PLCOnNet.PLCOnNetCore-1.html#MASES_PLCOnNet_PLCOnNetCore_1_ClassToRun_
+  commentId: Overload:MASES.PLCOnNet.PLCOnNetCore`1.ClassToRun
   isSpec: "True"
-  fullName: MASES.PLC4Net.PLC4NetCore<T>.ClassToRun
-  fullName.vb: MASES.PLC4Net.PLC4NetCore(Of T).ClassToRun
-  nameWithType: PLC4NetCore<T>.ClassToRun
-  nameWithType.vb: PLC4NetCore(Of T).ClassToRun
-- uid: MASES.PLC4Net.PLC4NetCore`1.CommandLineArguments
+  fullName: MASES.PLCOnNet.PLCOnNetCore<T>.ClassToRun
+  fullName.vb: MASES.PLCOnNet.PLCOnNetCore(Of T).ClassToRun
+  nameWithType: PLCOnNetCore<T>.ClassToRun
+  nameWithType.vb: PLCOnNetCore(Of T).ClassToRun
+- uid: MASES.PLCOnNet.PLCOnNetCore`1.CommandLineArguments
   name: CommandLineArguments
-  href: api/MASES.PLC4Net.PLC4NetCore-1.html#MASES_PLC4Net_PLC4NetCore_1_CommandLineArguments
-  commentId: P:MASES.PLC4Net.PLC4NetCore`1.CommandLineArguments
-  fullName: MASES.PLC4Net.PLC4NetCore<T>.CommandLineArguments
-  fullName.vb: MASES.PLC4Net.PLC4NetCore(Of T).CommandLineArguments
-  nameWithType: PLC4NetCore<T>.CommandLineArguments
-  nameWithType.vb: PLC4NetCore(Of T).CommandLineArguments
-- uid: MASES.PLC4Net.PLC4NetCore`1.CommandLineArguments*
+  href: api/MASES.PLCOnNet.PLCOnNetCore-1.html#MASES_PLCOnNet_PLCOnNetCore_1_CommandLineArguments
+  commentId: P:MASES.PLCOnNet.PLCOnNetCore`1.CommandLineArguments
+  fullName: MASES.PLCOnNet.PLCOnNetCore<T>.CommandLineArguments
+  fullName.vb: MASES.PLCOnNet.PLCOnNetCore(Of T).CommandLineArguments
+  nameWithType: PLCOnNetCore<T>.CommandLineArguments
+  nameWithType.vb: PLCOnNetCore(Of T).CommandLineArguments
+- uid: MASES.PLCOnNet.PLCOnNetCore`1.CommandLineArguments*
   name: CommandLineArguments
-  href: api/MASES.PLC4Net.PLC4NetCore-1.html#MASES_PLC4Net_PLC4NetCore_1_CommandLineArguments_
-  commentId: Overload:MASES.PLC4Net.PLC4NetCore`1.CommandLineArguments
+  href: api/MASES.PLCOnNet.PLCOnNetCore-1.html#MASES_PLCOnNet_PLCOnNetCore_1_CommandLineArguments_
+  commentId: Overload:MASES.PLCOnNet.PLCOnNetCore`1.CommandLineArguments
   isSpec: "True"
-  fullName: MASES.PLC4Net.PLC4NetCore<T>.CommandLineArguments
-  fullName.vb: MASES.PLC4Net.PLC4NetCore(Of T).CommandLineArguments
-  nameWithType: PLC4NetCore<T>.CommandLineArguments
-  nameWithType.vb: PLC4NetCore(Of T).CommandLineArguments
-- uid: MASES.PLC4Net.PLC4NetCore`1.CommonLoggingOpts
+  fullName: MASES.PLCOnNet.PLCOnNetCore<T>.CommandLineArguments
+  fullName.vb: MASES.PLCOnNet.PLCOnNetCore(Of T).CommandLineArguments
+  nameWithType: PLCOnNetCore<T>.CommandLineArguments
+  nameWithType.vb: PLCOnNetCore(Of T).CommandLineArguments
+- uid: MASES.PLCOnNet.PLCOnNetCore`1.CommonLoggingOpts
   name: CommonLoggingOpts
-  href: api/MASES.PLC4Net.PLC4NetCore-1.html#MASES_PLC4Net_PLC4NetCore_1_CommonLoggingOpts
-  commentId: P:MASES.PLC4Net.PLC4NetCore`1.CommonLoggingOpts
-  fullName: MASES.PLC4Net.PLC4NetCore<T>.CommonLoggingOpts
-  fullName.vb: MASES.PLC4Net.PLC4NetCore(Of T).CommonLoggingOpts
-  nameWithType: PLC4NetCore<T>.CommonLoggingOpts
-  nameWithType.vb: PLC4NetCore(Of T).CommonLoggingOpts
-- uid: MASES.PLC4Net.PLC4NetCore`1.CommonLoggingOpts*
+  href: api/MASES.PLCOnNet.PLCOnNetCore-1.html#MASES_PLCOnNet_PLCOnNetCore_1_CommonLoggingOpts
+  commentId: P:MASES.PLCOnNet.PLCOnNetCore`1.CommonLoggingOpts
+  fullName: MASES.PLCOnNet.PLCOnNetCore<T>.CommonLoggingOpts
+  fullName.vb: MASES.PLCOnNet.PLCOnNetCore(Of T).CommonLoggingOpts
+  nameWithType: PLCOnNetCore<T>.CommonLoggingOpts
+  nameWithType.vb: PLCOnNetCore(Of T).CommonLoggingOpts
+- uid: MASES.PLCOnNet.PLCOnNetCore`1.CommonLoggingOpts*
   name: CommonLoggingOpts
-  href: api/MASES.PLC4Net.PLC4NetCore-1.html#MASES_PLC4Net_PLC4NetCore_1_CommonLoggingOpts_
-  commentId: Overload:MASES.PLC4Net.PLC4NetCore`1.CommonLoggingOpts
+  href: api/MASES.PLCOnNet.PLCOnNetCore-1.html#MASES_PLCOnNet_PLCOnNetCore_1_CommonLoggingOpts_
+  commentId: Overload:MASES.PLCOnNet.PLCOnNetCore`1.CommonLoggingOpts
   isSpec: "True"
-  fullName: MASES.PLC4Net.PLC4NetCore<T>.CommonLoggingOpts
-  fullName.vb: MASES.PLC4Net.PLC4NetCore(Of T).CommonLoggingOpts
-  nameWithType: PLC4NetCore<T>.CommonLoggingOpts
-  nameWithType.vb: PLC4NetCore(Of T).CommonLoggingOpts
-- uid: MASES.PLC4Net.PLC4NetCore`1.CommonLoggingPath
+  fullName: MASES.PLCOnNet.PLCOnNetCore<T>.CommonLoggingOpts
+  fullName.vb: MASES.PLCOnNet.PLCOnNetCore(Of T).CommonLoggingOpts
+  nameWithType: PLCOnNetCore<T>.CommonLoggingOpts
+  nameWithType.vb: PLCOnNetCore(Of T).CommonLoggingOpts
+- uid: MASES.PLCOnNet.PLCOnNetCore`1.CommonLoggingPath
   name: CommonLoggingPath
-  href: api/MASES.PLC4Net.PLC4NetCore-1.html#MASES_PLC4Net_PLC4NetCore_1_CommonLoggingPath
-  commentId: P:MASES.PLC4Net.PLC4NetCore`1.CommonLoggingPath
-  fullName: MASES.PLC4Net.PLC4NetCore<T>.CommonLoggingPath
-  fullName.vb: MASES.PLC4Net.PLC4NetCore(Of T).CommonLoggingPath
-  nameWithType: PLC4NetCore<T>.CommonLoggingPath
-  nameWithType.vb: PLC4NetCore(Of T).CommonLoggingPath
-- uid: MASES.PLC4Net.PLC4NetCore`1.CommonLoggingPath*
+  href: api/MASES.PLCOnNet.PLCOnNetCore-1.html#MASES_PLCOnNet_PLCOnNetCore_1_CommonLoggingPath
+  commentId: P:MASES.PLCOnNet.PLCOnNetCore`1.CommonLoggingPath
+  fullName: MASES.PLCOnNet.PLCOnNetCore<T>.CommonLoggingPath
+  fullName.vb: MASES.PLCOnNet.PLCOnNetCore(Of T).CommonLoggingPath
+  nameWithType: PLCOnNetCore<T>.CommonLoggingPath
+  nameWithType.vb: PLCOnNetCore(Of T).CommonLoggingPath
+- uid: MASES.PLCOnNet.PLCOnNetCore`1.CommonLoggingPath*
   name: CommonLoggingPath
-  href: api/MASES.PLC4Net.PLC4NetCore-1.html#MASES_PLC4Net_PLC4NetCore_1_CommonLoggingPath_
-  commentId: Overload:MASES.PLC4Net.PLC4NetCore`1.CommonLoggingPath
+  href: api/MASES.PLCOnNet.PLCOnNetCore-1.html#MASES_PLCOnNet_PLCOnNetCore_1_CommonLoggingPath_
+  commentId: Overload:MASES.PLCOnNet.PLCOnNetCore`1.CommonLoggingPath
   isSpec: "True"
-  fullName: MASES.PLC4Net.PLC4NetCore<T>.CommonLoggingPath
-  fullName.vb: MASES.PLC4Net.PLC4NetCore(Of T).CommonLoggingPath
-  nameWithType: PLC4NetCore<T>.CommonLoggingPath
-  nameWithType.vb: PLC4NetCore(Of T).CommonLoggingPath
-- uid: MASES.PLC4Net.PLC4NetCore`1.DefaultCommonLoggingConfiguration
+  fullName: MASES.PLCOnNet.PLCOnNetCore<T>.CommonLoggingPath
+  fullName.vb: MASES.PLCOnNet.PLCOnNetCore(Of T).CommonLoggingPath
+  nameWithType: PLCOnNetCore<T>.CommonLoggingPath
+  nameWithType.vb: PLCOnNetCore(Of T).CommonLoggingPath
+- uid: MASES.PLCOnNet.PLCOnNetCore`1.DefaultCommonLoggingConfiguration
   name: DefaultCommonLoggingConfiguration()
-  href: api/MASES.PLC4Net.PLC4NetCore-1.html#MASES_PLC4Net_PLC4NetCore_1_DefaultCommonLoggingConfiguration
-  commentId: M:MASES.PLC4Net.PLC4NetCore`1.DefaultCommonLoggingConfiguration
-  fullName: MASES.PLC4Net.PLC4NetCore<T>.DefaultCommonLoggingConfiguration()
-  fullName.vb: MASES.PLC4Net.PLC4NetCore(Of T).DefaultCommonLoggingConfiguration()
-  nameWithType: PLC4NetCore<T>.DefaultCommonLoggingConfiguration()
-  nameWithType.vb: PLC4NetCore(Of T).DefaultCommonLoggingConfiguration()
-- uid: MASES.PLC4Net.PLC4NetCore`1.DefaultCommonLoggingConfiguration*
+  href: api/MASES.PLCOnNet.PLCOnNetCore-1.html#MASES_PLCOnNet_PLCOnNetCore_1_DefaultCommonLoggingConfiguration
+  commentId: M:MASES.PLCOnNet.PLCOnNetCore`1.DefaultCommonLoggingConfiguration
+  fullName: MASES.PLCOnNet.PLCOnNetCore<T>.DefaultCommonLoggingConfiguration()
+  fullName.vb: MASES.PLCOnNet.PLCOnNetCore(Of T).DefaultCommonLoggingConfiguration()
+  nameWithType: PLCOnNetCore<T>.DefaultCommonLoggingConfiguration()
+  nameWithType.vb: PLCOnNetCore(Of T).DefaultCommonLoggingConfiguration()
+- uid: MASES.PLCOnNet.PLCOnNetCore`1.DefaultCommonLoggingConfiguration*
   name: DefaultCommonLoggingConfiguration
-  href: api/MASES.PLC4Net.PLC4NetCore-1.html#MASES_PLC4Net_PLC4NetCore_1_DefaultCommonLoggingConfiguration_
-  commentId: Overload:MASES.PLC4Net.PLC4NetCore`1.DefaultCommonLoggingConfiguration
+  href: api/MASES.PLCOnNet.PLCOnNetCore-1.html#MASES_PLCOnNet_PLCOnNetCore_1_DefaultCommonLoggingConfiguration_
+  commentId: Overload:MASES.PLCOnNet.PLCOnNetCore`1.DefaultCommonLoggingConfiguration
   isSpec: "True"
-  fullName: MASES.PLC4Net.PLC4NetCore<T>.DefaultCommonLoggingConfiguration
-  fullName.vb: MASES.PLC4Net.PLC4NetCore(Of T).DefaultCommonLoggingConfiguration
-  nameWithType: PLC4NetCore<T>.DefaultCommonLoggingConfiguration
-  nameWithType.vb: PLC4NetCore(Of T).DefaultCommonLoggingConfiguration
-- uid: MASES.PLC4Net.PLC4NetCore`1.LogDir
+  fullName: MASES.PLCOnNet.PLCOnNetCore<T>.DefaultCommonLoggingConfiguration
+  fullName.vb: MASES.PLCOnNet.PLCOnNetCore(Of T).DefaultCommonLoggingConfiguration
+  nameWithType: PLCOnNetCore<T>.DefaultCommonLoggingConfiguration
+  nameWithType.vb: PLCOnNetCore(Of T).DefaultCommonLoggingConfiguration
+- uid: MASES.PLCOnNet.PLCOnNetCore`1.LogDir
   name: LogDir
-  href: api/MASES.PLC4Net.PLC4NetCore-1.html#MASES_PLC4Net_PLC4NetCore_1_LogDir
-  commentId: P:MASES.PLC4Net.PLC4NetCore`1.LogDir
-  fullName: MASES.PLC4Net.PLC4NetCore<T>.LogDir
-  fullName.vb: MASES.PLC4Net.PLC4NetCore(Of T).LogDir
-  nameWithType: PLC4NetCore<T>.LogDir
-  nameWithType.vb: PLC4NetCore(Of T).LogDir
-- uid: MASES.PLC4Net.PLC4NetCore`1.LogDir*
+  href: api/MASES.PLCOnNet.PLCOnNetCore-1.html#MASES_PLCOnNet_PLCOnNetCore_1_LogDir
+  commentId: P:MASES.PLCOnNet.PLCOnNetCore`1.LogDir
+  fullName: MASES.PLCOnNet.PLCOnNetCore<T>.LogDir
+  fullName.vb: MASES.PLCOnNet.PLCOnNetCore(Of T).LogDir
+  nameWithType: PLCOnNetCore<T>.LogDir
+  nameWithType.vb: PLCOnNetCore(Of T).LogDir
+- uid: MASES.PLCOnNet.PLCOnNetCore`1.LogDir*
   name: LogDir
-  href: api/MASES.PLC4Net.PLC4NetCore-1.html#MASES_PLC4Net_PLC4NetCore_1_LogDir_
-  commentId: Overload:MASES.PLC4Net.PLC4NetCore`1.LogDir
+  href: api/MASES.PLCOnNet.PLCOnNetCore-1.html#MASES_PLCOnNet_PLCOnNetCore_1_LogDir_
+  commentId: Overload:MASES.PLCOnNet.PLCOnNetCore`1.LogDir
   isSpec: "True"
-  fullName: MASES.PLC4Net.PLC4NetCore<T>.LogDir
-  fullName.vb: MASES.PLC4Net.PLC4NetCore(Of T).LogDir
-  nameWithType: PLC4NetCore<T>.LogDir
-  nameWithType.vb: PLC4NetCore(Of T).LogDir
-- uid: MASES.PLC4Net.PLC4NetCore`1.MainClassToRun
+  fullName: MASES.PLCOnNet.PLCOnNetCore<T>.LogDir
+  fullName.vb: MASES.PLCOnNet.PLCOnNetCore(Of T).LogDir
+  nameWithType: PLCOnNetCore<T>.LogDir
+  nameWithType.vb: PLCOnNetCore(Of T).LogDir
+- uid: MASES.PLCOnNet.PLCOnNetCore`1.MainClassToRun
   name: MainClassToRun
-  href: api/MASES.PLC4Net.PLC4NetCore-1.html#MASES_PLC4Net_PLC4NetCore_1_MainClassToRun
-  commentId: P:MASES.PLC4Net.PLC4NetCore`1.MainClassToRun
-  fullName: MASES.PLC4Net.PLC4NetCore<T>.MainClassToRun
-  fullName.vb: MASES.PLC4Net.PLC4NetCore(Of T).MainClassToRun
-  nameWithType: PLC4NetCore<T>.MainClassToRun
-  nameWithType.vb: PLC4NetCore(Of T).MainClassToRun
-- uid: MASES.PLC4Net.PLC4NetCore`1.MainClassToRun*
+  href: api/MASES.PLCOnNet.PLCOnNetCore-1.html#MASES_PLCOnNet_PLCOnNetCore_1_MainClassToRun
+  commentId: P:MASES.PLCOnNet.PLCOnNetCore`1.MainClassToRun
+  fullName: MASES.PLCOnNet.PLCOnNetCore<T>.MainClassToRun
+  fullName.vb: MASES.PLCOnNet.PLCOnNetCore(Of T).MainClassToRun
+  nameWithType: PLCOnNetCore<T>.MainClassToRun
+  nameWithType.vb: PLCOnNetCore(Of T).MainClassToRun
+- uid: MASES.PLCOnNet.PLCOnNetCore`1.MainClassToRun*
   name: MainClassToRun
-  href: api/MASES.PLC4Net.PLC4NetCore-1.html#MASES_PLC4Net_PLC4NetCore_1_MainClassToRun_
-  commentId: Overload:MASES.PLC4Net.PLC4NetCore`1.MainClassToRun
+  href: api/MASES.PLCOnNet.PLCOnNetCore-1.html#MASES_PLCOnNet_PLCOnNetCore_1_MainClassToRun_
+  commentId: Overload:MASES.PLCOnNet.PLCOnNetCore`1.MainClassToRun
   isSpec: "True"
-  fullName: MASES.PLC4Net.PLC4NetCore<T>.MainClassToRun
-  fullName.vb: MASES.PLC4Net.PLC4NetCore(Of T).MainClassToRun
-  nameWithType: PLC4NetCore<T>.MainClassToRun
-  nameWithType.vb: PLC4NetCore(Of T).MainClassToRun
-- uid: MASES.PLC4Net.PLC4NetCore`1.Options
+  fullName: MASES.PLCOnNet.PLCOnNetCore<T>.MainClassToRun
+  fullName.vb: MASES.PLCOnNet.PLCOnNetCore(Of T).MainClassToRun
+  nameWithType: PLCOnNetCore<T>.MainClassToRun
+  nameWithType.vb: PLCOnNetCore(Of T).MainClassToRun
+- uid: MASES.PLCOnNet.PLCOnNetCore`1.Options
   name: Options
-  href: api/MASES.PLC4Net.PLC4NetCore-1.html#MASES_PLC4Net_PLC4NetCore_1_Options
-  commentId: P:MASES.PLC4Net.PLC4NetCore`1.Options
-  fullName: MASES.PLC4Net.PLC4NetCore<T>.Options
-  fullName.vb: MASES.PLC4Net.PLC4NetCore(Of T).Options
-  nameWithType: PLC4NetCore<T>.Options
-  nameWithType.vb: PLC4NetCore(Of T).Options
-- uid: MASES.PLC4Net.PLC4NetCore`1.Options*
+  href: api/MASES.PLCOnNet.PLCOnNetCore-1.html#MASES_PLCOnNet_PLCOnNetCore_1_Options
+  commentId: P:MASES.PLCOnNet.PLCOnNetCore`1.Options
+  fullName: MASES.PLCOnNet.PLCOnNetCore<T>.Options
+  fullName.vb: MASES.PLCOnNet.PLCOnNetCore(Of T).Options
+  nameWithType: PLCOnNetCore<T>.Options
+  nameWithType.vb: PLCOnNetCore(Of T).Options
+- uid: MASES.PLCOnNet.PLCOnNetCore`1.Options*
   name: Options
-  href: api/MASES.PLC4Net.PLC4NetCore-1.html#MASES_PLC4Net_PLC4NetCore_1_Options_
-  commentId: Overload:MASES.PLC4Net.PLC4NetCore`1.Options
+  href: api/MASES.PLCOnNet.PLCOnNetCore-1.html#MASES_PLCOnNet_PLCOnNetCore_1_Options_
+  commentId: Overload:MASES.PLCOnNet.PLCOnNetCore`1.Options
   isSpec: "True"
-  fullName: MASES.PLC4Net.PLC4NetCore<T>.Options
-  fullName.vb: MASES.PLC4Net.PLC4NetCore(Of T).Options
-  nameWithType: PLC4NetCore<T>.Options
-  nameWithType.vb: PLC4NetCore(Of T).Options
-- uid: MASES.PLC4Net.PLC4NetCore`1.PathToParse
+  fullName: MASES.PLCOnNet.PLCOnNetCore<T>.Options
+  fullName.vb: MASES.PLCOnNet.PLCOnNetCore(Of T).Options
+  nameWithType: PLCOnNetCore<T>.Options
+  nameWithType.vb: PLCOnNetCore(Of T).Options
+- uid: MASES.PLCOnNet.PLCOnNetCore`1.PathToParse
   name: PathToParse
-  href: api/MASES.PLC4Net.PLC4NetCore-1.html#MASES_PLC4Net_PLC4NetCore_1_PathToParse
-  commentId: P:MASES.PLC4Net.PLC4NetCore`1.PathToParse
-  fullName: MASES.PLC4Net.PLC4NetCore<T>.PathToParse
-  fullName.vb: MASES.PLC4Net.PLC4NetCore(Of T).PathToParse
-  nameWithType: PLC4NetCore<T>.PathToParse
-  nameWithType.vb: PLC4NetCore(Of T).PathToParse
-- uid: MASES.PLC4Net.PLC4NetCore`1.PathToParse*
+  href: api/MASES.PLCOnNet.PLCOnNetCore-1.html#MASES_PLCOnNet_PLCOnNetCore_1_PathToParse
+  commentId: P:MASES.PLCOnNet.PLCOnNetCore`1.PathToParse
+  fullName: MASES.PLCOnNet.PLCOnNetCore<T>.PathToParse
+  fullName.vb: MASES.PLCOnNet.PLCOnNetCore(Of T).PathToParse
+  nameWithType: PLCOnNetCore<T>.PathToParse
+  nameWithType.vb: PLCOnNetCore(Of T).PathToParse
+- uid: MASES.PLCOnNet.PLCOnNetCore`1.PathToParse*
   name: PathToParse
-  href: api/MASES.PLC4Net.PLC4NetCore-1.html#MASES_PLC4Net_PLC4NetCore_1_PathToParse_
-  commentId: Overload:MASES.PLC4Net.PLC4NetCore`1.PathToParse
+  href: api/MASES.PLCOnNet.PLCOnNetCore-1.html#MASES_PLCOnNet_PLCOnNetCore_1_PathToParse_
+  commentId: Overload:MASES.PLCOnNet.PLCOnNetCore`1.PathToParse
   isSpec: "True"
-  fullName: MASES.PLC4Net.PLC4NetCore<T>.PathToParse
-  fullName.vb: MASES.PLC4Net.PLC4NetCore(Of T).PathToParse
-  nameWithType: PLC4NetCore<T>.PathToParse
-  nameWithType.vb: PLC4NetCore(Of T).PathToParse
-- uid: MASES.PLC4Net.PLC4NetCore`1.PerformanceOptions
+  fullName: MASES.PLCOnNet.PLCOnNetCore<T>.PathToParse
+  fullName.vb: MASES.PLCOnNet.PLCOnNetCore(Of T).PathToParse
+  nameWithType: PLCOnNetCore<T>.PathToParse
+  nameWithType.vb: PLCOnNetCore(Of T).PathToParse
+- uid: MASES.PLCOnNet.PLCOnNetCore`1.PerformanceOptions
   name: PerformanceOptions
-  href: api/MASES.PLC4Net.PLC4NetCore-1.html#MASES_PLC4Net_PLC4NetCore_1_PerformanceOptions
-  commentId: P:MASES.PLC4Net.PLC4NetCore`1.PerformanceOptions
-  fullName: MASES.PLC4Net.PLC4NetCore<T>.PerformanceOptions
-  fullName.vb: MASES.PLC4Net.PLC4NetCore(Of T).PerformanceOptions
-  nameWithType: PLC4NetCore<T>.PerformanceOptions
-  nameWithType.vb: PLC4NetCore(Of T).PerformanceOptions
-- uid: MASES.PLC4Net.PLC4NetCore`1.PerformanceOptions*
+  href: api/MASES.PLCOnNet.PLCOnNetCore-1.html#MASES_PLCOnNet_PLCOnNetCore_1_PerformanceOptions
+  commentId: P:MASES.PLCOnNet.PLCOnNetCore`1.PerformanceOptions
+  fullName: MASES.PLCOnNet.PLCOnNetCore<T>.PerformanceOptions
+  fullName.vb: MASES.PLCOnNet.PLCOnNetCore(Of T).PerformanceOptions
+  nameWithType: PLCOnNetCore<T>.PerformanceOptions
+  nameWithType.vb: PLCOnNetCore(Of T).PerformanceOptions
+- uid: MASES.PLCOnNet.PLCOnNetCore`1.PerformanceOptions*
   name: PerformanceOptions
-  href: api/MASES.PLC4Net.PLC4NetCore-1.html#MASES_PLC4Net_PLC4NetCore_1_PerformanceOptions_
-  commentId: Overload:MASES.PLC4Net.PLC4NetCore`1.PerformanceOptions
+  href: api/MASES.PLCOnNet.PLCOnNetCore-1.html#MASES_PLCOnNet_PLCOnNetCore_1_PerformanceOptions_
+  commentId: Overload:MASES.PLCOnNet.PLCOnNetCore`1.PerformanceOptions
   isSpec: "True"
-  fullName: MASES.PLC4Net.PLC4NetCore<T>.PerformanceOptions
-  fullName.vb: MASES.PLC4Net.PLC4NetCore(Of T).PerformanceOptions
-  nameWithType: PLC4NetCore<T>.PerformanceOptions
-  nameWithType.vb: PLC4NetCore(Of T).PerformanceOptions
-- uid: MASES.PLC4Net.PLC4NetCore`1.PrepareMainClassToRun(System.String)
+  fullName: MASES.PLCOnNet.PLCOnNetCore<T>.PerformanceOptions
+  fullName.vb: MASES.PLCOnNet.PLCOnNetCore(Of T).PerformanceOptions
+  nameWithType: PLCOnNetCore<T>.PerformanceOptions
+  nameWithType.vb: PLCOnNetCore(Of T).PerformanceOptions
+- uid: MASES.PLCOnNet.PLCOnNetCore`1.PrepareMainClassToRun(System.String)
   name: PrepareMainClassToRun(string)
-  href: api/MASES.PLC4Net.PLC4NetCore-1.html#MASES_PLC4Net_PLC4NetCore_1_PrepareMainClassToRun_System_String_
-  commentId: M:MASES.PLC4Net.PLC4NetCore`1.PrepareMainClassToRun(System.String)
+  href: api/MASES.PLCOnNet.PLCOnNetCore-1.html#MASES_PLCOnNet_PLCOnNetCore_1_PrepareMainClassToRun_System_String_
+  commentId: M:MASES.PLCOnNet.PLCOnNetCore`1.PrepareMainClassToRun(System.String)
   name.vb: PrepareMainClassToRun(String)
-  fullName: MASES.PLC4Net.PLC4NetCore<T>.PrepareMainClassToRun(string)
-  fullName.vb: MASES.PLC4Net.PLC4NetCore(Of T).PrepareMainClassToRun(String)
-  nameWithType: PLC4NetCore<T>.PrepareMainClassToRun(string)
-  nameWithType.vb: PLC4NetCore(Of T).PrepareMainClassToRun(String)
-- uid: MASES.PLC4Net.PLC4NetCore`1.PrepareMainClassToRun*
+  fullName: MASES.PLCOnNet.PLCOnNetCore<T>.PrepareMainClassToRun(string)
+  fullName.vb: MASES.PLCOnNet.PLCOnNetCore(Of T).PrepareMainClassToRun(String)
+  nameWithType: PLCOnNetCore<T>.PrepareMainClassToRun(string)
+  nameWithType.vb: PLCOnNetCore(Of T).PrepareMainClassToRun(String)
+- uid: MASES.PLCOnNet.PLCOnNetCore`1.PrepareMainClassToRun*
   name: PrepareMainClassToRun
-  href: api/MASES.PLC4Net.PLC4NetCore-1.html#MASES_PLC4Net_PLC4NetCore_1_PrepareMainClassToRun_
-  commentId: Overload:MASES.PLC4Net.PLC4NetCore`1.PrepareMainClassToRun
+  href: api/MASES.PLCOnNet.PLCOnNetCore-1.html#MASES_PLCOnNet_PLCOnNetCore_1_PrepareMainClassToRun_
+  commentId: Overload:MASES.PLCOnNet.PLCOnNetCore`1.PrepareMainClassToRun
   isSpec: "True"
-  fullName: MASES.PLC4Net.PLC4NetCore<T>.PrepareMainClassToRun
-  fullName.vb: MASES.PLC4Net.PLC4NetCore(Of T).PrepareMainClassToRun
-  nameWithType: PLC4NetCore<T>.PrepareMainClassToRun
-  nameWithType.vb: PLC4NetCore(Of T).PrepareMainClassToRun
-- uid: MASES.PLC4Net.PLC4NetCore`1.ProcessCommandLine
+  fullName: MASES.PLCOnNet.PLCOnNetCore<T>.PrepareMainClassToRun
+  fullName.vb: MASES.PLCOnNet.PLCOnNetCore(Of T).PrepareMainClassToRun
+  nameWithType: PLCOnNetCore<T>.PrepareMainClassToRun
+  nameWithType.vb: PLCOnNetCore(Of T).PrepareMainClassToRun
+- uid: MASES.PLCOnNet.PLCOnNetCore`1.ProcessCommandLine
   name: ProcessCommandLine()
-  href: api/MASES.PLC4Net.PLC4NetCore-1.html#MASES_PLC4Net_PLC4NetCore_1_ProcessCommandLine
-  commentId: M:MASES.PLC4Net.PLC4NetCore`1.ProcessCommandLine
-  fullName: MASES.PLC4Net.PLC4NetCore<T>.ProcessCommandLine()
-  fullName.vb: MASES.PLC4Net.PLC4NetCore(Of T).ProcessCommandLine()
-  nameWithType: PLC4NetCore<T>.ProcessCommandLine()
-  nameWithType.vb: PLC4NetCore(Of T).ProcessCommandLine()
-- uid: MASES.PLC4Net.PLC4NetCore`1.ProcessCommandLine*
+  href: api/MASES.PLCOnNet.PLCOnNetCore-1.html#MASES_PLCOnNet_PLCOnNetCore_1_ProcessCommandLine
+  commentId: M:MASES.PLCOnNet.PLCOnNetCore`1.ProcessCommandLine
+  fullName: MASES.PLCOnNet.PLCOnNetCore<T>.ProcessCommandLine()
+  fullName.vb: MASES.PLCOnNet.PLCOnNetCore(Of T).ProcessCommandLine()
+  nameWithType: PLCOnNetCore<T>.ProcessCommandLine()
+  nameWithType.vb: PLCOnNetCore(Of T).ProcessCommandLine()
+- uid: MASES.PLCOnNet.PLCOnNetCore`1.ProcessCommandLine*
   name: ProcessCommandLine
-  href: api/MASES.PLC4Net.PLC4NetCore-1.html#MASES_PLC4Net_PLC4NetCore_1_ProcessCommandLine_
-  commentId: Overload:MASES.PLC4Net.PLC4NetCore`1.ProcessCommandLine
+  href: api/MASES.PLCOnNet.PLCOnNetCore-1.html#MASES_PLCOnNet_PLCOnNetCore_1_ProcessCommandLine_
+  commentId: Overload:MASES.PLCOnNet.PLCOnNetCore`1.ProcessCommandLine
   isSpec: "True"
-  fullName: MASES.PLC4Net.PLC4NetCore<T>.ProcessCommandLine
-  fullName.vb: MASES.PLC4Net.PLC4NetCore(Of T).ProcessCommandLine
-  nameWithType: PLC4NetCore<T>.ProcessCommandLine
-  nameWithType.vb: PLC4NetCore(Of T).ProcessCommandLine
-- uid: MASES.PLC4Net.PLC4NetCore`1._classToRun
+  fullName: MASES.PLCOnNet.PLCOnNetCore<T>.ProcessCommandLine
+  fullName.vb: MASES.PLCOnNet.PLCOnNetCore(Of T).ProcessCommandLine
+  nameWithType: PLCOnNetCore<T>.ProcessCommandLine
+  nameWithType.vb: PLCOnNetCore(Of T).ProcessCommandLine
+- uid: MASES.PLCOnNet.PLCOnNetCore`1._classToRun
   name: _classToRun
-  href: api/MASES.PLC4Net.PLC4NetCore-1.html#MASES_PLC4Net_PLC4NetCore_1__classToRun
-  commentId: F:MASES.PLC4Net.PLC4NetCore`1._classToRun
-  fullName: MASES.PLC4Net.PLC4NetCore<T>._classToRun
-  fullName.vb: MASES.PLC4Net.PLC4NetCore(Of T)._classToRun
-  nameWithType: PLC4NetCore<T>._classToRun
-  nameWithType.vb: PLC4NetCore(Of T)._classToRun
-- uid: MASES.PLC4Net.Specific
-  name: MASES.PLC4Net.Specific
-  href: api/MASES.PLC4Net.Specific.html
-  commentId: N:MASES.PLC4Net.Specific
-  fullName: MASES.PLC4Net.Specific
-  nameWithType: MASES.PLC4Net.Specific
-- uid: MASES.PLC4Net.Specific.PLC4NetExtensions
-  name: PLC4NetExtensions
-  href: api/MASES.PLC4Net.Specific.PLC4NetExtensions.html
-  commentId: T:MASES.PLC4Net.Specific.PLC4NetExtensions
-  fullName: MASES.PLC4Net.Specific.PLC4NetExtensions
-  nameWithType: PLC4NetExtensions
-- uid: MASES.PLC4Net.Specific.PLC4NetExtensions.Complete*
+  href: api/MASES.PLCOnNet.PLCOnNetCore-1.html#MASES_PLCOnNet_PLCOnNetCore_1__classToRun
+  commentId: F:MASES.PLCOnNet.PLCOnNetCore`1._classToRun
+  fullName: MASES.PLCOnNet.PLCOnNetCore<T>._classToRun
+  fullName.vb: MASES.PLCOnNet.PLCOnNetCore(Of T)._classToRun
+  nameWithType: PLCOnNetCore<T>._classToRun
+  nameWithType.vb: PLCOnNetCore(Of T)._classToRun
+- uid: MASES.PLCOnNet.Specific
+  name: MASES.PLCOnNet.Specific
+  href: api/MASES.PLCOnNet.Specific.html
+  commentId: N:MASES.PLCOnNet.Specific
+  fullName: MASES.PLCOnNet.Specific
+  nameWithType: MASES.PLCOnNet.Specific
+- uid: MASES.PLCOnNet.Specific.PLCOnNetExtensions
+  name: PLCOnNetExtensions
+  href: api/MASES.PLCOnNet.Specific.PLCOnNetExtensions.html
+  commentId: T:MASES.PLCOnNet.Specific.PLCOnNetExtensions
+  fullName: MASES.PLCOnNet.Specific.PLCOnNetExtensions
+  nameWithType: PLCOnNetExtensions
+- uid: MASES.PLCOnNet.Specific.PLCOnNetExtensions.Complete*
   name: Complete
-  href: api/MASES.PLC4Net.Specific.PLC4NetExtensions.html#MASES_PLC4Net_Specific_PLC4NetExtensions_Complete_
-  commentId: Overload:MASES.PLC4Net.Specific.PLC4NetExtensions.Complete
+  href: api/MASES.PLCOnNet.Specific.PLCOnNetExtensions.html#MASES_PLCOnNet_Specific_PLCOnNetExtensions_Complete_
+  commentId: Overload:MASES.PLCOnNet.Specific.PLCOnNetExtensions.Complete
   isSpec: "True"
-  fullName: MASES.PLC4Net.Specific.PLC4NetExtensions.Complete
-  nameWithType: PLC4NetExtensions.Complete
-- uid: MASES.PLC4Net.Specific.PLC4NetExtensions.CompleteAsync*
+  fullName: MASES.PLCOnNet.Specific.PLCOnNetExtensions.Complete
+  nameWithType: PLCOnNetExtensions.Complete
+- uid: MASES.PLCOnNet.Specific.PLCOnNetExtensions.CompleteAsync*
   name: CompleteAsync
-  href: api/MASES.PLC4Net.Specific.PLC4NetExtensions.html#MASES_PLC4Net_Specific_PLC4NetExtensions_CompleteAsync_
-  commentId: Overload:MASES.PLC4Net.Specific.PLC4NetExtensions.CompleteAsync
+  href: api/MASES.PLCOnNet.Specific.PLCOnNetExtensions.html#MASES_PLCOnNet_Specific_PLCOnNetExtensions_CompleteAsync_
+  commentId: Overload:MASES.PLCOnNet.Specific.PLCOnNetExtensions.CompleteAsync
   isSpec: "True"
-  fullName: MASES.PLC4Net.Specific.PLC4NetExtensions.CompleteAsync
-  nameWithType: PLC4NetExtensions.CompleteAsync
-- uid: MASES.PLC4Net.Specific.PLC4NetExtensions.CompleteAsync``1(Java.Util.Concurrent.CompletableFuture{``0},System.Action{``0},System.Threading.CancellationToken)
+  fullName: MASES.PLCOnNet.Specific.PLCOnNetExtensions.CompleteAsync
+  nameWithType: PLCOnNetExtensions.CompleteAsync
+- uid: MASES.PLCOnNet.Specific.PLCOnNetExtensions.CompleteAsync``1(Java.Util.Concurrent.CompletableFuture{``0},System.Action{``0},System.Threading.CancellationToken)
   name: CompleteAsync<T>(CompletableFuture<T>, Action<T>, CancellationToken)
-  href: api/MASES.PLC4Net.Specific.PLC4NetExtensions.html#MASES_PLC4Net_Specific_PLC4NetExtensions_CompleteAsync__1_Java_Util_Concurrent_CompletableFuture___0__System_Action___0__System_Threading_CancellationToken_
-  commentId: M:MASES.PLC4Net.Specific.PLC4NetExtensions.CompleteAsync``1(Java.Util.Concurrent.CompletableFuture{``0},System.Action{``0},System.Threading.CancellationToken)
+  href: api/MASES.PLCOnNet.Specific.PLCOnNetExtensions.html#MASES_PLCOnNet_Specific_PLCOnNetExtensions_CompleteAsync__1_Java_Util_Concurrent_CompletableFuture___0__System_Action___0__System_Threading_CancellationToken_
+  commentId: M:MASES.PLCOnNet.Specific.PLCOnNetExtensions.CompleteAsync``1(Java.Util.Concurrent.CompletableFuture{``0},System.Action{``0},System.Threading.CancellationToken)
   name.vb: CompleteAsync(Of T)(CompletableFuture(Of T), Action(Of T), CancellationToken)
-  fullName: MASES.PLC4Net.Specific.PLC4NetExtensions.CompleteAsync<T>(Java.Util.Concurrent.CompletableFuture<T>, System.Action<T>, System.Threading.CancellationToken)
-  fullName.vb: MASES.PLC4Net.Specific.PLC4NetExtensions.CompleteAsync(Of T)(Java.Util.Concurrent.CompletableFuture(Of T), System.Action(Of T), System.Threading.CancellationToken)
-  nameWithType: PLC4NetExtensions.CompleteAsync<T>(CompletableFuture<T>, Action<T>, CancellationToken)
-  nameWithType.vb: PLC4NetExtensions.CompleteAsync(Of T)(CompletableFuture(Of T), Action(Of T), CancellationToken)
-- uid: MASES.PLC4Net.Specific.PLC4NetExtensions.Complete``1(Java.Util.Concurrent.CompletableFuture{``0},System.Action{``0})
+  fullName: MASES.PLCOnNet.Specific.PLCOnNetExtensions.CompleteAsync<T>(Java.Util.Concurrent.CompletableFuture<T>, System.Action<T>, System.Threading.CancellationToken)
+  fullName.vb: MASES.PLCOnNet.Specific.PLCOnNetExtensions.CompleteAsync(Of T)(Java.Util.Concurrent.CompletableFuture(Of T), System.Action(Of T), System.Threading.CancellationToken)
+  nameWithType: PLCOnNetExtensions.CompleteAsync<T>(CompletableFuture<T>, Action<T>, CancellationToken)
+  nameWithType.vb: PLCOnNetExtensions.CompleteAsync(Of T)(CompletableFuture(Of T), Action(Of T), CancellationToken)
+- uid: MASES.PLCOnNet.Specific.PLCOnNetExtensions.Complete``1(Java.Util.Concurrent.CompletableFuture{``0},System.Action{``0})
   name: Complete<T>(CompletableFuture<T>, Action<T>)
-  href: api/MASES.PLC4Net.Specific.PLC4NetExtensions.html#MASES_PLC4Net_Specific_PLC4NetExtensions_Complete__1_Java_Util_Concurrent_CompletableFuture___0__System_Action___0__
-  commentId: M:MASES.PLC4Net.Specific.PLC4NetExtensions.Complete``1(Java.Util.Concurrent.CompletableFuture{``0},System.Action{``0})
+  href: api/MASES.PLCOnNet.Specific.PLCOnNetExtensions.html#MASES_PLCOnNet_Specific_PLCOnNetExtensions_Complete__1_Java_Util_Concurrent_CompletableFuture___0__System_Action___0__
+  commentId: M:MASES.PLCOnNet.Specific.PLCOnNetExtensions.Complete``1(Java.Util.Concurrent.CompletableFuture{``0},System.Action{``0})
   name.vb: Complete(Of T)(CompletableFuture(Of T), Action(Of T))
-  fullName: MASES.PLC4Net.Specific.PLC4NetExtensions.Complete<T>(Java.Util.Concurrent.CompletableFuture<T>, System.Action<T>)
-  fullName.vb: MASES.PLC4Net.Specific.PLC4NetExtensions.Complete(Of T)(Java.Util.Concurrent.CompletableFuture(Of T), System.Action(Of T))
-  nameWithType: PLC4NetExtensions.Complete<T>(CompletableFuture<T>, Action<T>)
-  nameWithType.vb: PLC4NetExtensions.Complete(Of T)(CompletableFuture(Of T), Action(Of T))
-- uid: MASES.PLC4Net.Specific.PLC4NetExtensions.Request*
+  fullName: MASES.PLCOnNet.Specific.PLCOnNetExtensions.Complete<T>(Java.Util.Concurrent.CompletableFuture<T>, System.Action<T>)
+  fullName.vb: MASES.PLCOnNet.Specific.PLCOnNetExtensions.Complete(Of T)(Java.Util.Concurrent.CompletableFuture(Of T), System.Action(Of T))
+  nameWithType: PLCOnNetExtensions.Complete<T>(CompletableFuture<T>, Action<T>)
+  nameWithType.vb: PLCOnNetExtensions.Complete(Of T)(CompletableFuture(Of T), Action(Of T))
+- uid: MASES.PLCOnNet.Specific.PLCOnNetExtensions.Request*
   name: Request
-  href: api/MASES.PLC4Net.Specific.PLC4NetExtensions.html#MASES_PLC4Net_Specific_PLC4NetExtensions_Request_
-  commentId: Overload:MASES.PLC4Net.Specific.PLC4NetExtensions.Request
+  href: api/MASES.PLCOnNet.Specific.PLCOnNetExtensions.html#MASES_PLCOnNet_Specific_PLCOnNetExtensions_Request_
+  commentId: Overload:MASES.PLCOnNet.Specific.PLCOnNetExtensions.Request
   isSpec: "True"
-  fullName: MASES.PLC4Net.Specific.PLC4NetExtensions.Request
-  nameWithType: PLC4NetExtensions.Request
-- uid: MASES.PLC4Net.Specific.PLC4NetExtensions.RequestAsync*
+  fullName: MASES.PLCOnNet.Specific.PLCOnNetExtensions.Request
+  nameWithType: PLCOnNetExtensions.Request
+- uid: MASES.PLCOnNet.Specific.PLCOnNetExtensions.RequestAsync*
   name: RequestAsync
-  href: api/MASES.PLC4Net.Specific.PLC4NetExtensions.html#MASES_PLC4Net_Specific_PLC4NetExtensions_RequestAsync_
-  commentId: Overload:MASES.PLC4Net.Specific.PLC4NetExtensions.RequestAsync
+  href: api/MASES.PLCOnNet.Specific.PLCOnNetExtensions.html#MASES_PLCOnNet_Specific_PLCOnNetExtensions_RequestAsync_
+  commentId: Overload:MASES.PLCOnNet.Specific.PLCOnNetExtensions.RequestAsync
   isSpec: "True"
-  fullName: MASES.PLC4Net.Specific.PLC4NetExtensions.RequestAsync
-  nameWithType: PLC4NetExtensions.RequestAsync
-- uid: MASES.PLC4Net.Specific.PLC4NetExtensions.RequestAsync``1(Org.Apache.Plc4x.JavaNs.Api.Messages.PlcRequest,System.Action{``0},System.Threading.CancellationToken)
+  fullName: MASES.PLCOnNet.Specific.PLCOnNetExtensions.RequestAsync
+  nameWithType: PLCOnNetExtensions.RequestAsync
+- uid: MASES.PLCOnNet.Specific.PLCOnNetExtensions.RequestAsync``1(Org.Apache.Plc4x.JavaNs.Api.Messages.PlcRequest,System.Action{``0},System.Threading.CancellationToken)
   name: RequestAsync<T>(PlcRequest, Action<T>, CancellationToken)
-  href: api/MASES.PLC4Net.Specific.PLC4NetExtensions.html#MASES_PLC4Net_Specific_PLC4NetExtensions_RequestAsync__1_Org_Apache_Plc4x_JavaNs_Api_Messages_PlcRequest_System_Action___0__System_Threading_CancellationToken_
-  commentId: M:MASES.PLC4Net.Specific.PLC4NetExtensions.RequestAsync``1(Org.Apache.Plc4x.JavaNs.Api.Messages.PlcRequest,System.Action{``0},System.Threading.CancellationToken)
+  href: api/MASES.PLCOnNet.Specific.PLCOnNetExtensions.html#MASES_PLCOnNet_Specific_PLCOnNetExtensions_RequestAsync__1_Org_Apache_Plc4x_JavaNs_Api_Messages_PlcRequest_System_Action___0__System_Threading_CancellationToken_
+  commentId: M:MASES.PLCOnNet.Specific.PLCOnNetExtensions.RequestAsync``1(Org.Apache.Plc4x.JavaNs.Api.Messages.PlcRequest,System.Action{``0},System.Threading.CancellationToken)
   name.vb: RequestAsync(Of T)(PlcRequest, Action(Of T), CancellationToken)
-  fullName: MASES.PLC4Net.Specific.PLC4NetExtensions.RequestAsync<T>(Org.Apache.Plc4x.JavaNs.Api.Messages.PlcRequest, System.Action<T>, System.Threading.CancellationToken)
-  fullName.vb: MASES.PLC4Net.Specific.PLC4NetExtensions.RequestAsync(Of T)(Org.Apache.Plc4x.JavaNs.Api.Messages.PlcRequest, System.Action(Of T), System.Threading.CancellationToken)
-  nameWithType: PLC4NetExtensions.RequestAsync<T>(PlcRequest, Action<T>, CancellationToken)
-  nameWithType.vb: PLC4NetExtensions.RequestAsync(Of T)(PlcRequest, Action(Of T), CancellationToken)
-- uid: MASES.PLC4Net.Specific.PLC4NetExtensions.Request``1(Org.Apache.Plc4x.JavaNs.Api.Messages.PlcRequest,System.Action{``0})
+  fullName: MASES.PLCOnNet.Specific.PLCOnNetExtensions.RequestAsync<T>(Org.Apache.Plc4x.JavaNs.Api.Messages.PlcRequest, System.Action<T>, System.Threading.CancellationToken)
+  fullName.vb: MASES.PLCOnNet.Specific.PLCOnNetExtensions.RequestAsync(Of T)(Org.Apache.Plc4x.JavaNs.Api.Messages.PlcRequest, System.Action(Of T), System.Threading.CancellationToken)
+  nameWithType: PLCOnNetExtensions.RequestAsync<T>(PlcRequest, Action<T>, CancellationToken)
+  nameWithType.vb: PLCOnNetExtensions.RequestAsync(Of T)(PlcRequest, Action(Of T), CancellationToken)
+- uid: MASES.PLCOnNet.Specific.PLCOnNetExtensions.Request``1(Org.Apache.Plc4x.JavaNs.Api.Messages.PlcRequest,System.Action{``0})
   name: Request<T>(PlcRequest, Action<T>)
-  href: api/MASES.PLC4Net.Specific.PLC4NetExtensions.html#MASES_PLC4Net_Specific_PLC4NetExtensions_Request__1_Org_Apache_Plc4x_JavaNs_Api_Messages_PlcRequest_System_Action___0__
-  commentId: M:MASES.PLC4Net.Specific.PLC4NetExtensions.Request``1(Org.Apache.Plc4x.JavaNs.Api.Messages.PlcRequest,System.Action{``0})
+  href: api/MASES.PLCOnNet.Specific.PLCOnNetExtensions.html#MASES_PLCOnNet_Specific_PLCOnNetExtensions_Request__1_Org_Apache_Plc4x_JavaNs_Api_Messages_PlcRequest_System_Action___0__
+  commentId: M:MASES.PLCOnNet.Specific.PLCOnNetExtensions.Request``1(Org.Apache.Plc4x.JavaNs.Api.Messages.PlcRequest,System.Action{``0})
   name.vb: Request(Of T)(PlcRequest, Action(Of T))
-  fullName: MASES.PLC4Net.Specific.PLC4NetExtensions.Request<T>(Org.Apache.Plc4x.JavaNs.Api.Messages.PlcRequest, System.Action<T>)
-  fullName.vb: MASES.PLC4Net.Specific.PLC4NetExtensions.Request(Of T)(Org.Apache.Plc4x.JavaNs.Api.Messages.PlcRequest, System.Action(Of T))
-  nameWithType: PLC4NetExtensions.Request<T>(PlcRequest, Action<T>)
-  nameWithType.vb: PLC4NetExtensions.Request(Of T)(PlcRequest, Action(Of T))
-- uid: MASES.PLC4NetCLI
-  name: MASES.PLC4NetCLI
-  href: api/MASES.PLC4NetCLI.html
-  commentId: N:MASES.PLC4NetCLI
-  fullName: MASES.PLC4NetCLI
-  nameWithType: MASES.PLC4NetCLI
-- uid: MASES.PLC4NetCLI.PLC4NetCLICore`1
-  name: PLC4NetCLICore<T>
-  href: api/MASES.PLC4NetCLI.PLC4NetCLICore-1.html
-  commentId: T:MASES.PLC4NetCLI.PLC4NetCLICore`1
-  name.vb: PLC4NetCLICore(Of T)
-  fullName: MASES.PLC4NetCLI.PLC4NetCLICore<T>
-  fullName.vb: MASES.PLC4NetCLI.PLC4NetCLICore(Of T)
-  nameWithType: PLC4NetCLICore<T>
-  nameWithType.vb: PLC4NetCLICore(Of T)
-- uid: MASES.PLC4NetCLI.PLC4NetCLICore`1.#ctor
-  name: PLC4NetCLICore()
-  href: api/MASES.PLC4NetCLI.PLC4NetCLICore-1.html#MASES_PLC4NetCLI_PLC4NetCLICore_1__ctor
-  commentId: M:MASES.PLC4NetCLI.PLC4NetCLICore`1.#ctor
+  fullName: MASES.PLCOnNet.Specific.PLCOnNetExtensions.Request<T>(Org.Apache.Plc4x.JavaNs.Api.Messages.PlcRequest, System.Action<T>)
+  fullName.vb: MASES.PLCOnNet.Specific.PLCOnNetExtensions.Request(Of T)(Org.Apache.Plc4x.JavaNs.Api.Messages.PlcRequest, System.Action(Of T))
+  nameWithType: PLCOnNetExtensions.Request<T>(PlcRequest, Action<T>)
+  nameWithType.vb: PLCOnNetExtensions.Request(Of T)(PlcRequest, Action(Of T))
+- uid: MASES.PLCOnNetCLI
+  name: MASES.PLCOnNetCLI
+  href: api/MASES.PLCOnNetCLI.html
+  commentId: N:MASES.PLCOnNetCLI
+  fullName: MASES.PLCOnNetCLI
+  nameWithType: MASES.PLCOnNetCLI
+- uid: MASES.PLCOnNetCLI.PLCOnNetCLICore`1
+  name: PLCOnNetCLICore<T>
+  href: api/MASES.PLCOnNetCLI.PLCOnNetCLICore-1.html
+  commentId: T:MASES.PLCOnNetCLI.PLCOnNetCLICore`1
+  name.vb: PLCOnNetCLICore(Of T)
+  fullName: MASES.PLCOnNetCLI.PLCOnNetCLICore<T>
+  fullName.vb: MASES.PLCOnNetCLI.PLCOnNetCLICore(Of T)
+  nameWithType: PLCOnNetCLICore<T>
+  nameWithType.vb: PLCOnNetCLICore(Of T)
+- uid: MASES.PLCOnNetCLI.PLCOnNetCLICore`1.#ctor
+  name: PLCOnNetCLICore()
+  href: api/MASES.PLCOnNetCLI.PLCOnNetCLICore-1.html#MASES_PLCOnNetCLI_PLCOnNetCLICore_1__ctor
+  commentId: M:MASES.PLCOnNetCLI.PLCOnNetCLICore`1.#ctor
   name.vb: New()
-  fullName: MASES.PLC4NetCLI.PLC4NetCLICore<T>.PLC4NetCLICore()
-  fullName.vb: MASES.PLC4NetCLI.PLC4NetCLICore(Of T).New()
-  nameWithType: PLC4NetCLICore<T>.PLC4NetCLICore()
-  nameWithType.vb: PLC4NetCLICore(Of T).New()
-- uid: MASES.PLC4NetCLI.PLC4NetCLICore`1.#ctor*
-  name: PLC4NetCLICore
-  href: api/MASES.PLC4NetCLI.PLC4NetCLICore-1.html#MASES_PLC4NetCLI_PLC4NetCLICore_1__ctor_
-  commentId: Overload:MASES.PLC4NetCLI.PLC4NetCLICore`1.#ctor
+  fullName: MASES.PLCOnNetCLI.PLCOnNetCLICore<T>.PLCOnNetCLICore()
+  fullName.vb: MASES.PLCOnNetCLI.PLCOnNetCLICore(Of T).New()
+  nameWithType: PLCOnNetCLICore<T>.PLCOnNetCLICore()
+  nameWithType.vb: PLCOnNetCLICore(Of T).New()
+- uid: MASES.PLCOnNetCLI.PLCOnNetCLICore`1.#ctor*
+  name: PLCOnNetCLICore
+  href: api/MASES.PLCOnNetCLI.PLCOnNetCLICore-1.html#MASES_PLCOnNetCLI_PLCOnNetCLICore_1__ctor_
+  commentId: Overload:MASES.PLCOnNetCLI.PLCOnNetCLICore`1.#ctor
   isSpec: "True"
   name.vb: New
-  fullName: MASES.PLC4NetCLI.PLC4NetCLICore<T>.PLC4NetCLICore
-  fullName.vb: MASES.PLC4NetCLI.PLC4NetCLICore(Of T).New
-  nameWithType: PLC4NetCLICore<T>.PLC4NetCLICore
-  nameWithType.vb: PLC4NetCLICore(Of T).New
-- uid: MASES.PLC4NetCLI.PLC4NetCLICore`1.CommandLineArguments
+  fullName: MASES.PLCOnNetCLI.PLCOnNetCLICore<T>.PLCOnNetCLICore
+  fullName.vb: MASES.PLCOnNetCLI.PLCOnNetCLICore(Of T).New
+  nameWithType: PLCOnNetCLICore<T>.PLCOnNetCLICore
+  nameWithType.vb: PLCOnNetCLICore(Of T).New
+- uid: MASES.PLCOnNetCLI.PLCOnNetCLICore`1.CommandLineArguments
   name: CommandLineArguments
-  href: api/MASES.PLC4NetCLI.PLC4NetCLICore-1.html#MASES_PLC4NetCLI_PLC4NetCLICore_1_CommandLineArguments
-  commentId: P:MASES.PLC4NetCLI.PLC4NetCLICore`1.CommandLineArguments
-  fullName: MASES.PLC4NetCLI.PLC4NetCLICore<T>.CommandLineArguments
-  fullName.vb: MASES.PLC4NetCLI.PLC4NetCLICore(Of T).CommandLineArguments
-  nameWithType: PLC4NetCLICore<T>.CommandLineArguments
-  nameWithType.vb: PLC4NetCLICore(Of T).CommandLineArguments
-- uid: MASES.PLC4NetCLI.PLC4NetCLICore`1.CommandLineArguments*
+  href: api/MASES.PLCOnNetCLI.PLCOnNetCLICore-1.html#MASES_PLCOnNetCLI_PLCOnNetCLICore_1_CommandLineArguments
+  commentId: P:MASES.PLCOnNetCLI.PLCOnNetCLICore`1.CommandLineArguments
+  fullName: MASES.PLCOnNetCLI.PLCOnNetCLICore<T>.CommandLineArguments
+  fullName.vb: MASES.PLCOnNetCLI.PLCOnNetCLICore(Of T).CommandLineArguments
+  nameWithType: PLCOnNetCLICore<T>.CommandLineArguments
+  nameWithType.vb: PLCOnNetCLICore(Of T).CommandLineArguments
+- uid: MASES.PLCOnNetCLI.PLCOnNetCLICore`1.CommandLineArguments*
   name: CommandLineArguments
-  href: api/MASES.PLC4NetCLI.PLC4NetCLICore-1.html#MASES_PLC4NetCLI_PLC4NetCLICore_1_CommandLineArguments_
-  commentId: Overload:MASES.PLC4NetCLI.PLC4NetCLICore`1.CommandLineArguments
+  href: api/MASES.PLCOnNetCLI.PLCOnNetCLICore-1.html#MASES_PLCOnNetCLI_PLCOnNetCLICore_1_CommandLineArguments_
+  commentId: Overload:MASES.PLCOnNetCLI.PLCOnNetCLICore`1.CommandLineArguments
   isSpec: "True"
-  fullName: MASES.PLC4NetCLI.PLC4NetCLICore<T>.CommandLineArguments
-  fullName.vb: MASES.PLC4NetCLI.PLC4NetCLICore(Of T).CommandLineArguments
-  nameWithType: PLC4NetCLICore<T>.CommandLineArguments
-  nameWithType.vb: PLC4NetCLICore(Of T).CommandLineArguments
-- uid: MASES.PLC4NetCLI.PLC4NetCLICore`1.ImportList
+  fullName: MASES.PLCOnNetCLI.PLCOnNetCLICore<T>.CommandLineArguments
+  fullName.vb: MASES.PLCOnNetCLI.PLCOnNetCLICore(Of T).CommandLineArguments
+  nameWithType: PLCOnNetCLICore<T>.CommandLineArguments
+  nameWithType.vb: PLCOnNetCLICore(Of T).CommandLineArguments
+- uid: MASES.PLCOnNetCLI.PLCOnNetCLICore`1.ImportList
   name: ImportList
-  href: api/MASES.PLC4NetCLI.PLC4NetCLICore-1.html#MASES_PLC4NetCLI_PLC4NetCLICore_1_ImportList
-  commentId: P:MASES.PLC4NetCLI.PLC4NetCLICore`1.ImportList
-  fullName: MASES.PLC4NetCLI.PLC4NetCLICore<T>.ImportList
-  fullName.vb: MASES.PLC4NetCLI.PLC4NetCLICore(Of T).ImportList
-  nameWithType: PLC4NetCLICore<T>.ImportList
-  nameWithType.vb: PLC4NetCLICore(Of T).ImportList
-- uid: MASES.PLC4NetCLI.PLC4NetCLICore`1.ImportList*
+  href: api/MASES.PLCOnNetCLI.PLCOnNetCLICore-1.html#MASES_PLCOnNetCLI_PLCOnNetCLICore_1_ImportList
+  commentId: P:MASES.PLCOnNetCLI.PLCOnNetCLICore`1.ImportList
+  fullName: MASES.PLCOnNetCLI.PLCOnNetCLICore<T>.ImportList
+  fullName.vb: MASES.PLCOnNetCLI.PLCOnNetCLICore(Of T).ImportList
+  nameWithType: PLCOnNetCLICore<T>.ImportList
+  nameWithType.vb: PLCOnNetCLICore(Of T).ImportList
+- uid: MASES.PLCOnNetCLI.PLCOnNetCLICore`1.ImportList*
   name: ImportList
-  href: api/MASES.PLC4NetCLI.PLC4NetCLICore-1.html#MASES_PLC4NetCLI_PLC4NetCLICore_1_ImportList_
-  commentId: Overload:MASES.PLC4NetCLI.PLC4NetCLICore`1.ImportList
+  href: api/MASES.PLCOnNetCLI.PLCOnNetCLICore-1.html#MASES_PLCOnNetCLI_PLCOnNetCLICore_1_ImportList_
+  commentId: Overload:MASES.PLCOnNetCLI.PLCOnNetCLICore`1.ImportList
   isSpec: "True"
-  fullName: MASES.PLC4NetCLI.PLC4NetCLICore<T>.ImportList
-  fullName.vb: MASES.PLC4NetCLI.PLC4NetCLICore(Of T).ImportList
-  nameWithType: PLC4NetCLICore<T>.ImportList
-  nameWithType.vb: PLC4NetCLICore(Of T).ImportList
-- uid: MASES.PLC4NetCLI.PLC4NetCLICore`1.Interactive
+  fullName: MASES.PLCOnNetCLI.PLCOnNetCLICore<T>.ImportList
+  fullName.vb: MASES.PLCOnNetCLI.PLCOnNetCLICore(Of T).ImportList
+  nameWithType: PLCOnNetCLICore<T>.ImportList
+  nameWithType.vb: PLCOnNetCLICore(Of T).ImportList
+- uid: MASES.PLCOnNetCLI.PLCOnNetCLICore`1.Interactive
   name: Interactive
-  href: api/MASES.PLC4NetCLI.PLC4NetCLICore-1.html#MASES_PLC4NetCLI_PLC4NetCLICore_1_Interactive
-  commentId: P:MASES.PLC4NetCLI.PLC4NetCLICore`1.Interactive
-  fullName: MASES.PLC4NetCLI.PLC4NetCLICore<T>.Interactive
-  fullName.vb: MASES.PLC4NetCLI.PLC4NetCLICore(Of T).Interactive
-  nameWithType: PLC4NetCLICore<T>.Interactive
-  nameWithType.vb: PLC4NetCLICore(Of T).Interactive
-- uid: MASES.PLC4NetCLI.PLC4NetCLICore`1.Interactive*
+  href: api/MASES.PLCOnNetCLI.PLCOnNetCLICore-1.html#MASES_PLCOnNetCLI_PLCOnNetCLICore_1_Interactive
+  commentId: P:MASES.PLCOnNetCLI.PLCOnNetCLICore`1.Interactive
+  fullName: MASES.PLCOnNetCLI.PLCOnNetCLICore<T>.Interactive
+  fullName.vb: MASES.PLCOnNetCLI.PLCOnNetCLICore(Of T).Interactive
+  nameWithType: PLCOnNetCLICore<T>.Interactive
+  nameWithType.vb: PLCOnNetCLICore(Of T).Interactive
+- uid: MASES.PLCOnNetCLI.PLCOnNetCLICore`1.Interactive*
   name: Interactive
-  href: api/MASES.PLC4NetCLI.PLC4NetCLICore-1.html#MASES_PLC4NetCLI_PLC4NetCLICore_1_Interactive_
-  commentId: Overload:MASES.PLC4NetCLI.PLC4NetCLICore`1.Interactive
+  href: api/MASES.PLCOnNetCLI.PLCOnNetCLICore-1.html#MASES_PLCOnNetCLI_PLCOnNetCLICore_1_Interactive_
+  commentId: Overload:MASES.PLCOnNetCLI.PLCOnNetCLICore`1.Interactive
   isSpec: "True"
-  fullName: MASES.PLC4NetCLI.PLC4NetCLICore<T>.Interactive
-  fullName.vb: MASES.PLC4NetCLI.PLC4NetCLICore(Of T).Interactive
-  nameWithType: PLC4NetCLICore<T>.Interactive
-  nameWithType.vb: PLC4NetCLICore(Of T).Interactive
-- uid: MASES.PLC4NetCLI.PLC4NetCLICore`1.JarList
+  fullName: MASES.PLCOnNetCLI.PLCOnNetCLICore<T>.Interactive
+  fullName.vb: MASES.PLCOnNetCLI.PLCOnNetCLICore(Of T).Interactive
+  nameWithType: PLCOnNetCLICore<T>.Interactive
+  nameWithType.vb: PLCOnNetCLICore(Of T).Interactive
+- uid: MASES.PLCOnNetCLI.PLCOnNetCLICore`1.JarList
   name: JarList
-  href: api/MASES.PLC4NetCLI.PLC4NetCLICore-1.html#MASES_PLC4NetCLI_PLC4NetCLICore_1_JarList
-  commentId: P:MASES.PLC4NetCLI.PLC4NetCLICore`1.JarList
-  fullName: MASES.PLC4NetCLI.PLC4NetCLICore<T>.JarList
-  fullName.vb: MASES.PLC4NetCLI.PLC4NetCLICore(Of T).JarList
-  nameWithType: PLC4NetCLICore<T>.JarList
-  nameWithType.vb: PLC4NetCLICore(Of T).JarList
-- uid: MASES.PLC4NetCLI.PLC4NetCLICore`1.JarList*
+  href: api/MASES.PLCOnNetCLI.PLCOnNetCLICore-1.html#MASES_PLCOnNetCLI_PLCOnNetCLICore_1_JarList
+  commentId: P:MASES.PLCOnNetCLI.PLCOnNetCLICore`1.JarList
+  fullName: MASES.PLCOnNetCLI.PLCOnNetCLICore<T>.JarList
+  fullName.vb: MASES.PLCOnNetCLI.PLCOnNetCLICore(Of T).JarList
+  nameWithType: PLCOnNetCLICore<T>.JarList
+  nameWithType.vb: PLCOnNetCLICore(Of T).JarList
+- uid: MASES.PLCOnNetCLI.PLCOnNetCLICore`1.JarList*
   name: JarList
-  href: api/MASES.PLC4NetCLI.PLC4NetCLICore-1.html#MASES_PLC4NetCLI_PLC4NetCLICore_1_JarList_
-  commentId: Overload:MASES.PLC4NetCLI.PLC4NetCLICore`1.JarList
+  href: api/MASES.PLCOnNetCLI.PLCOnNetCLICore-1.html#MASES_PLCOnNetCLI_PLCOnNetCLICore_1_JarList_
+  commentId: Overload:MASES.PLCOnNetCLI.PLCOnNetCLICore`1.JarList
   isSpec: "True"
-  fullName: MASES.PLC4NetCLI.PLC4NetCLICore<T>.JarList
-  fullName.vb: MASES.PLC4NetCLI.PLC4NetCLICore(Of T).JarList
-  nameWithType: PLC4NetCLICore<T>.JarList
-  nameWithType.vb: PLC4NetCLICore(Of T).JarList
-- uid: MASES.PLC4NetCLI.PLC4NetCLICore`1.NamespaceList
+  fullName: MASES.PLCOnNetCLI.PLCOnNetCLICore<T>.JarList
+  fullName.vb: MASES.PLCOnNetCLI.PLCOnNetCLICore(Of T).JarList
+  nameWithType: PLCOnNetCLICore<T>.JarList
+  nameWithType.vb: PLCOnNetCLICore(Of T).JarList
+- uid: MASES.PLCOnNetCLI.PLCOnNetCLICore`1.NamespaceList
   name: NamespaceList
-  href: api/MASES.PLC4NetCLI.PLC4NetCLICore-1.html#MASES_PLC4NetCLI_PLC4NetCLICore_1_NamespaceList
-  commentId: P:MASES.PLC4NetCLI.PLC4NetCLICore`1.NamespaceList
-  fullName: MASES.PLC4NetCLI.PLC4NetCLICore<T>.NamespaceList
-  fullName.vb: MASES.PLC4NetCLI.PLC4NetCLICore(Of T).NamespaceList
-  nameWithType: PLC4NetCLICore<T>.NamespaceList
-  nameWithType.vb: PLC4NetCLICore(Of T).NamespaceList
-- uid: MASES.PLC4NetCLI.PLC4NetCLICore`1.NamespaceList*
+  href: api/MASES.PLCOnNetCLI.PLCOnNetCLICore-1.html#MASES_PLCOnNetCLI_PLCOnNetCLICore_1_NamespaceList
+  commentId: P:MASES.PLCOnNetCLI.PLCOnNetCLICore`1.NamespaceList
+  fullName: MASES.PLCOnNetCLI.PLCOnNetCLICore<T>.NamespaceList
+  fullName.vb: MASES.PLCOnNetCLI.PLCOnNetCLICore(Of T).NamespaceList
+  nameWithType: PLCOnNetCLICore<T>.NamespaceList
+  nameWithType.vb: PLCOnNetCLICore(Of T).NamespaceList
+- uid: MASES.PLCOnNetCLI.PLCOnNetCLICore`1.NamespaceList*
   name: NamespaceList
-  href: api/MASES.PLC4NetCLI.PLC4NetCLICore-1.html#MASES_PLC4NetCLI_PLC4NetCLICore_1_NamespaceList_
-  commentId: Overload:MASES.PLC4NetCLI.PLC4NetCLICore`1.NamespaceList
+  href: api/MASES.PLCOnNetCLI.PLCOnNetCLICore-1.html#MASES_PLCOnNetCLI_PLCOnNetCLICore_1_NamespaceList_
+  commentId: Overload:MASES.PLCOnNetCLI.PLCOnNetCLICore`1.NamespaceList
   isSpec: "True"
-  fullName: MASES.PLC4NetCLI.PLC4NetCLICore<T>.NamespaceList
-  fullName.vb: MASES.PLC4NetCLI.PLC4NetCLICore(Of T).NamespaceList
-  nameWithType: PLC4NetCLICore<T>.NamespaceList
-  nameWithType.vb: PLC4NetCLICore(Of T).NamespaceList
-- uid: MASES.PLC4NetCLI.PLC4NetCLICore`1.NoLogo
+  fullName: MASES.PLCOnNetCLI.PLCOnNetCLICore<T>.NamespaceList
+  fullName.vb: MASES.PLCOnNetCLI.PLCOnNetCLICore(Of T).NamespaceList
+  nameWithType: PLCOnNetCLICore<T>.NamespaceList
+  nameWithType.vb: PLCOnNetCLICore(Of T).NamespaceList
+- uid: MASES.PLCOnNetCLI.PLCOnNetCLICore`1.NoLogo
   name: NoLogo
-  href: api/MASES.PLC4NetCLI.PLC4NetCLICore-1.html#MASES_PLC4NetCLI_PLC4NetCLICore_1_NoLogo
-  commentId: P:MASES.PLC4NetCLI.PLC4NetCLICore`1.NoLogo
-  fullName: MASES.PLC4NetCLI.PLC4NetCLICore<T>.NoLogo
-  fullName.vb: MASES.PLC4NetCLI.PLC4NetCLICore(Of T).NoLogo
-  nameWithType: PLC4NetCLICore<T>.NoLogo
-  nameWithType.vb: PLC4NetCLICore(Of T).NoLogo
-- uid: MASES.PLC4NetCLI.PLC4NetCLICore`1.NoLogo*
+  href: api/MASES.PLCOnNetCLI.PLCOnNetCLICore-1.html#MASES_PLCOnNetCLI_PLCOnNetCLICore_1_NoLogo
+  commentId: P:MASES.PLCOnNetCLI.PLCOnNetCLICore`1.NoLogo
+  fullName: MASES.PLCOnNetCLI.PLCOnNetCLICore<T>.NoLogo
+  fullName.vb: MASES.PLCOnNetCLI.PLCOnNetCLICore(Of T).NoLogo
+  nameWithType: PLCOnNetCLICore<T>.NoLogo
+  nameWithType.vb: PLCOnNetCLICore(Of T).NoLogo
+- uid: MASES.PLCOnNetCLI.PLCOnNetCLICore`1.NoLogo*
   name: NoLogo
-  href: api/MASES.PLC4NetCLI.PLC4NetCLICore-1.html#MASES_PLC4NetCLI_PLC4NetCLICore_1_NoLogo_
-  commentId: Overload:MASES.PLC4NetCLI.PLC4NetCLICore`1.NoLogo
+  href: api/MASES.PLCOnNetCLI.PLCOnNetCLICore-1.html#MASES_PLCOnNetCLI_PLCOnNetCLICore_1_NoLogo_
+  commentId: Overload:MASES.PLCOnNetCLI.PLCOnNetCLICore`1.NoLogo
   isSpec: "True"
-  fullName: MASES.PLC4NetCLI.PLC4NetCLICore<T>.NoLogo
-  fullName.vb: MASES.PLC4NetCLI.PLC4NetCLICore(Of T).NoLogo
-  nameWithType: PLC4NetCLICore<T>.NoLogo
-  nameWithType.vb: PLC4NetCLICore(Of T).NoLogo
-- uid: MASES.PLC4NetCLI.PLC4NetCLICore`1.PathToParse
+  fullName: MASES.PLCOnNetCLI.PLCOnNetCLICore<T>.NoLogo
+  fullName.vb: MASES.PLCOnNetCLI.PLCOnNetCLICore(Of T).NoLogo
+  nameWithType: PLCOnNetCLICore<T>.NoLogo
+  nameWithType.vb: PLCOnNetCLICore(Of T).NoLogo
+- uid: MASES.PLCOnNetCLI.PLCOnNetCLICore`1.PathToParse
   name: PathToParse
-  href: api/MASES.PLC4NetCLI.PLC4NetCLICore-1.html#MASES_PLC4NetCLI_PLC4NetCLICore_1_PathToParse
-  commentId: P:MASES.PLC4NetCLI.PLC4NetCLICore`1.PathToParse
-  fullName: MASES.PLC4NetCLI.PLC4NetCLICore<T>.PathToParse
-  fullName.vb: MASES.PLC4NetCLI.PLC4NetCLICore(Of T).PathToParse
-  nameWithType: PLC4NetCLICore<T>.PathToParse
-  nameWithType.vb: PLC4NetCLICore(Of T).PathToParse
-- uid: MASES.PLC4NetCLI.PLC4NetCLICore`1.PathToParse*
+  href: api/MASES.PLCOnNetCLI.PLCOnNetCLICore-1.html#MASES_PLCOnNetCLI_PLCOnNetCLICore_1_PathToParse
+  commentId: P:MASES.PLCOnNetCLI.PLCOnNetCLICore`1.PathToParse
+  fullName: MASES.PLCOnNetCLI.PLCOnNetCLICore<T>.PathToParse
+  fullName.vb: MASES.PLCOnNetCLI.PLCOnNetCLICore(Of T).PathToParse
+  nameWithType: PLCOnNetCLICore<T>.PathToParse
+  nameWithType.vb: PLCOnNetCLICore(Of T).PathToParse
+- uid: MASES.PLCOnNetCLI.PLCOnNetCLICore`1.PathToParse*
   name: PathToParse
-  href: api/MASES.PLC4NetCLI.PLC4NetCLICore-1.html#MASES_PLC4NetCLI_PLC4NetCLICore_1_PathToParse_
-  commentId: Overload:MASES.PLC4NetCLI.PLC4NetCLICore`1.PathToParse
+  href: api/MASES.PLCOnNetCLI.PLCOnNetCLICore-1.html#MASES_PLCOnNetCLI_PLCOnNetCLICore_1_PathToParse_
+  commentId: Overload:MASES.PLCOnNetCLI.PLCOnNetCLICore`1.PathToParse
   isSpec: "True"
-  fullName: MASES.PLC4NetCLI.PLC4NetCLICore<T>.PathToParse
-  fullName.vb: MASES.PLC4NetCLI.PLC4NetCLICore(Of T).PathToParse
-  nameWithType: PLC4NetCLICore<T>.PathToParse
-  nameWithType.vb: PLC4NetCLICore(Of T).PathToParse
-- uid: MASES.PLC4NetCLI.PLC4NetCLICore`1.ProcessCommandLine
+  fullName: MASES.PLCOnNetCLI.PLCOnNetCLICore<T>.PathToParse
+  fullName.vb: MASES.PLCOnNetCLI.PLCOnNetCLICore(Of T).PathToParse
+  nameWithType: PLCOnNetCLICore<T>.PathToParse
+  nameWithType.vb: PLCOnNetCLICore(Of T).PathToParse
+- uid: MASES.PLCOnNetCLI.PLCOnNetCLICore`1.ProcessCommandLine
   name: ProcessCommandLine()
-  href: api/MASES.PLC4NetCLI.PLC4NetCLICore-1.html#MASES_PLC4NetCLI_PLC4NetCLICore_1_ProcessCommandLine
-  commentId: M:MASES.PLC4NetCLI.PLC4NetCLICore`1.ProcessCommandLine
-  fullName: MASES.PLC4NetCLI.PLC4NetCLICore<T>.ProcessCommandLine()
-  fullName.vb: MASES.PLC4NetCLI.PLC4NetCLICore(Of T).ProcessCommandLine()
-  nameWithType: PLC4NetCLICore<T>.ProcessCommandLine()
-  nameWithType.vb: PLC4NetCLICore(Of T).ProcessCommandLine()
-- uid: MASES.PLC4NetCLI.PLC4NetCLICore`1.ProcessCommandLine*
+  href: api/MASES.PLCOnNetCLI.PLCOnNetCLICore-1.html#MASES_PLCOnNetCLI_PLCOnNetCLICore_1_ProcessCommandLine
+  commentId: M:MASES.PLCOnNetCLI.PLCOnNetCLICore`1.ProcessCommandLine
+  fullName: MASES.PLCOnNetCLI.PLCOnNetCLICore<T>.ProcessCommandLine()
+  fullName.vb: MASES.PLCOnNetCLI.PLCOnNetCLICore(Of T).ProcessCommandLine()
+  nameWithType: PLCOnNetCLICore<T>.ProcessCommandLine()
+  nameWithType.vb: PLCOnNetCLICore(Of T).ProcessCommandLine()
+- uid: MASES.PLCOnNetCLI.PLCOnNetCLICore`1.ProcessCommandLine*
   name: ProcessCommandLine
-  href: api/MASES.PLC4NetCLI.PLC4NetCLICore-1.html#MASES_PLC4NetCLI_PLC4NetCLICore_1_ProcessCommandLine_
-  commentId: Overload:MASES.PLC4NetCLI.PLC4NetCLICore`1.ProcessCommandLine
+  href: api/MASES.PLCOnNetCLI.PLCOnNetCLICore-1.html#MASES_PLCOnNetCLI_PLCOnNetCLICore_1_ProcessCommandLine_
+  commentId: Overload:MASES.PLCOnNetCLI.PLCOnNetCLICore`1.ProcessCommandLine
   isSpec: "True"
-  fullName: MASES.PLC4NetCLI.PLC4NetCLICore<T>.ProcessCommandLine
-  fullName.vb: MASES.PLC4NetCLI.PLC4NetCLICore(Of T).ProcessCommandLine
-  nameWithType: PLC4NetCLICore<T>.ProcessCommandLine
-  nameWithType.vb: PLC4NetCLICore(Of T).ProcessCommandLine
-- uid: MASES.PLC4NetCLI.PLC4NetCLICore`1.Script
+  fullName: MASES.PLCOnNetCLI.PLCOnNetCLICore<T>.ProcessCommandLine
+  fullName.vb: MASES.PLCOnNetCLI.PLCOnNetCLICore(Of T).ProcessCommandLine
+  nameWithType: PLCOnNetCLICore<T>.ProcessCommandLine
+  nameWithType.vb: PLCOnNetCLICore(Of T).ProcessCommandLine
+- uid: MASES.PLCOnNetCLI.PLCOnNetCLICore`1.Script
   name: Script
-  href: api/MASES.PLC4NetCLI.PLC4NetCLICore-1.html#MASES_PLC4NetCLI_PLC4NetCLICore_1_Script
-  commentId: P:MASES.PLC4NetCLI.PLC4NetCLICore`1.Script
-  fullName: MASES.PLC4NetCLI.PLC4NetCLICore<T>.Script
-  fullName.vb: MASES.PLC4NetCLI.PLC4NetCLICore(Of T).Script
-  nameWithType: PLC4NetCLICore<T>.Script
-  nameWithType.vb: PLC4NetCLICore(Of T).Script
-- uid: MASES.PLC4NetCLI.PLC4NetCLICore`1.Script*
+  href: api/MASES.PLCOnNetCLI.PLCOnNetCLICore-1.html#MASES_PLCOnNetCLI_PLCOnNetCLICore_1_Script
+  commentId: P:MASES.PLCOnNetCLI.PLCOnNetCLICore`1.Script
+  fullName: MASES.PLCOnNetCLI.PLCOnNetCLICore<T>.Script
+  fullName.vb: MASES.PLCOnNetCLI.PLCOnNetCLICore(Of T).Script
+  nameWithType: PLCOnNetCLICore<T>.Script
+  nameWithType.vb: PLCOnNetCLICore(Of T).Script
+- uid: MASES.PLCOnNetCLI.PLCOnNetCLICore`1.Script*
   name: Script
-  href: api/MASES.PLC4NetCLI.PLC4NetCLICore-1.html#MASES_PLC4NetCLI_PLC4NetCLICore_1_Script_
-  commentId: Overload:MASES.PLC4NetCLI.PLC4NetCLICore`1.Script
+  href: api/MASES.PLCOnNetCLI.PLCOnNetCLICore-1.html#MASES_PLCOnNetCLI_PLCOnNetCLICore_1_Script_
+  commentId: Overload:MASES.PLCOnNetCLI.PLCOnNetCLICore`1.Script
   isSpec: "True"
-  fullName: MASES.PLC4NetCLI.PLC4NetCLICore<T>.Script
-  fullName.vb: MASES.PLC4NetCLI.PLC4NetCLICore(Of T).Script
-  nameWithType: PLC4NetCLICore<T>.Script
-  nameWithType.vb: PLC4NetCLICore(Of T).Script
-- uid: MASES.PLC4NetPS
-  name: MASES.PLC4NetPS
-  href: api/MASES.PLC4NetPS.html
-  commentId: N:MASES.PLC4NetPS
-  fullName: MASES.PLC4NetPS
-  nameWithType: MASES.PLC4NetPS
-- uid: MASES.PLC4NetPS.Cmdlet
-  name: MASES.PLC4NetPS.Cmdlet
-  href: api/MASES.PLC4NetPS.Cmdlet.html
-  commentId: N:MASES.PLC4NetPS.Cmdlet
-  fullName: MASES.PLC4NetPS.Cmdlet
-  nameWithType: MASES.PLC4NetPS.Cmdlet
-- uid: MASES.PLC4NetPS.Cmdlet.GetPlcConnectionCmdletCommand
+  fullName: MASES.PLCOnNetCLI.PLCOnNetCLICore<T>.Script
+  fullName.vb: MASES.PLCOnNetCLI.PLCOnNetCLICore(Of T).Script
+  nameWithType: PLCOnNetCLICore<T>.Script
+  nameWithType.vb: PLCOnNetCLICore(Of T).Script
+- uid: MASES.PLCOnNetPS
+  name: MASES.PLCOnNetPS
+  href: api/MASES.PLCOnNetPS.html
+  commentId: N:MASES.PLCOnNetPS
+  fullName: MASES.PLCOnNetPS
+  nameWithType: MASES.PLCOnNetPS
+- uid: MASES.PLCOnNetPS.Cmdlet
+  name: MASES.PLCOnNetPS.Cmdlet
+  href: api/MASES.PLCOnNetPS.Cmdlet.html
+  commentId: N:MASES.PLCOnNetPS.Cmdlet
+  fullName: MASES.PLCOnNetPS.Cmdlet
+  nameWithType: MASES.PLCOnNetPS.Cmdlet
+- uid: MASES.PLCOnNetPS.Cmdlet.GetPlcConnectionCmdletCommand
   name: GetPlcConnectionCmdletCommand
-  href: api/MASES.PLC4NetPS.Cmdlet.GetPlcConnectionCmdletCommand.html
-  commentId: T:MASES.PLC4NetPS.Cmdlet.GetPlcConnectionCmdletCommand
-  fullName: MASES.PLC4NetPS.Cmdlet.GetPlcConnectionCmdletCommand
+  href: api/MASES.PLCOnNetPS.Cmdlet.GetPlcConnectionCmdletCommand.html
+  commentId: T:MASES.PLCOnNetPS.Cmdlet.GetPlcConnectionCmdletCommand
+  fullName: MASES.PLCOnNetPS.Cmdlet.GetPlcConnectionCmdletCommand
   nameWithType: GetPlcConnectionCmdletCommand
-- uid: MASES.PLC4NetPS.Cmdlet.GetPlcConnectionCmdletCommand.Authentication
+- uid: MASES.PLCOnNetPS.Cmdlet.GetPlcConnectionCmdletCommand.Authentication
   name: Authentication
-  href: api/MASES.PLC4NetPS.Cmdlet.GetPlcConnectionCmdletCommand.html#MASES_PLC4NetPS_Cmdlet_GetPlcConnectionCmdletCommand_Authentication
-  commentId: P:MASES.PLC4NetPS.Cmdlet.GetPlcConnectionCmdletCommand.Authentication
-  fullName: MASES.PLC4NetPS.Cmdlet.GetPlcConnectionCmdletCommand.Authentication
+  href: api/MASES.PLCOnNetPS.Cmdlet.GetPlcConnectionCmdletCommand.html#MASES_PLCOnNetPS_Cmdlet_GetPlcConnectionCmdletCommand_Authentication
+  commentId: P:MASES.PLCOnNetPS.Cmdlet.GetPlcConnectionCmdletCommand.Authentication
+  fullName: MASES.PLCOnNetPS.Cmdlet.GetPlcConnectionCmdletCommand.Authentication
   nameWithType: GetPlcConnectionCmdletCommand.Authentication
-- uid: MASES.PLC4NetPS.Cmdlet.GetPlcConnectionCmdletCommand.Authentication*
+- uid: MASES.PLCOnNetPS.Cmdlet.GetPlcConnectionCmdletCommand.Authentication*
   name: Authentication
-  href: api/MASES.PLC4NetPS.Cmdlet.GetPlcConnectionCmdletCommand.html#MASES_PLC4NetPS_Cmdlet_GetPlcConnectionCmdletCommand_Authentication_
-  commentId: Overload:MASES.PLC4NetPS.Cmdlet.GetPlcConnectionCmdletCommand.Authentication
+  href: api/MASES.PLCOnNetPS.Cmdlet.GetPlcConnectionCmdletCommand.html#MASES_PLCOnNetPS_Cmdlet_GetPlcConnectionCmdletCommand_Authentication_
+  commentId: Overload:MASES.PLCOnNetPS.Cmdlet.GetPlcConnectionCmdletCommand.Authentication
   isSpec: "True"
-  fullName: MASES.PLC4NetPS.Cmdlet.GetPlcConnectionCmdletCommand.Authentication
+  fullName: MASES.PLCOnNetPS.Cmdlet.GetPlcConnectionCmdletCommand.Authentication
   nameWithType: GetPlcConnectionCmdletCommand.Authentication
-- uid: MASES.PLC4NetPS.Cmdlet.GetPlcConnectionCmdletCommand.BeginProcessing
+- uid: MASES.PLCOnNetPS.Cmdlet.GetPlcConnectionCmdletCommand.BeginProcessing
   name: BeginProcessing()
-  href: api/MASES.PLC4NetPS.Cmdlet.GetPlcConnectionCmdletCommand.html#MASES_PLC4NetPS_Cmdlet_GetPlcConnectionCmdletCommand_BeginProcessing
-  commentId: M:MASES.PLC4NetPS.Cmdlet.GetPlcConnectionCmdletCommand.BeginProcessing
-  fullName: MASES.PLC4NetPS.Cmdlet.GetPlcConnectionCmdletCommand.BeginProcessing()
+  href: api/MASES.PLCOnNetPS.Cmdlet.GetPlcConnectionCmdletCommand.html#MASES_PLCOnNetPS_Cmdlet_GetPlcConnectionCmdletCommand_BeginProcessing
+  commentId: M:MASES.PLCOnNetPS.Cmdlet.GetPlcConnectionCmdletCommand.BeginProcessing
+  fullName: MASES.PLCOnNetPS.Cmdlet.GetPlcConnectionCmdletCommand.BeginProcessing()
   nameWithType: GetPlcConnectionCmdletCommand.BeginProcessing()
-- uid: MASES.PLC4NetPS.Cmdlet.GetPlcConnectionCmdletCommand.BeginProcessing*
+- uid: MASES.PLCOnNetPS.Cmdlet.GetPlcConnectionCmdletCommand.BeginProcessing*
   name: BeginProcessing
-  href: api/MASES.PLC4NetPS.Cmdlet.GetPlcConnectionCmdletCommand.html#MASES_PLC4NetPS_Cmdlet_GetPlcConnectionCmdletCommand_BeginProcessing_
-  commentId: Overload:MASES.PLC4NetPS.Cmdlet.GetPlcConnectionCmdletCommand.BeginProcessing
+  href: api/MASES.PLCOnNetPS.Cmdlet.GetPlcConnectionCmdletCommand.html#MASES_PLCOnNetPS_Cmdlet_GetPlcConnectionCmdletCommand_BeginProcessing_
+  commentId: Overload:MASES.PLCOnNetPS.Cmdlet.GetPlcConnectionCmdletCommand.BeginProcessing
   isSpec: "True"
-  fullName: MASES.PLC4NetPS.Cmdlet.GetPlcConnectionCmdletCommand.BeginProcessing
+  fullName: MASES.PLCOnNetPS.Cmdlet.GetPlcConnectionCmdletCommand.BeginProcessing
   nameWithType: GetPlcConnectionCmdletCommand.BeginProcessing
-- uid: MASES.PLC4NetPS.Cmdlet.GetPlcConnectionCmdletCommand.EndProcessing
+- uid: MASES.PLCOnNetPS.Cmdlet.GetPlcConnectionCmdletCommand.EndProcessing
   name: EndProcessing()
-  href: api/MASES.PLC4NetPS.Cmdlet.GetPlcConnectionCmdletCommand.html#MASES_PLC4NetPS_Cmdlet_GetPlcConnectionCmdletCommand_EndProcessing
-  commentId: M:MASES.PLC4NetPS.Cmdlet.GetPlcConnectionCmdletCommand.EndProcessing
-  fullName: MASES.PLC4NetPS.Cmdlet.GetPlcConnectionCmdletCommand.EndProcessing()
+  href: api/MASES.PLCOnNetPS.Cmdlet.GetPlcConnectionCmdletCommand.html#MASES_PLCOnNetPS_Cmdlet_GetPlcConnectionCmdletCommand_EndProcessing
+  commentId: M:MASES.PLCOnNetPS.Cmdlet.GetPlcConnectionCmdletCommand.EndProcessing
+  fullName: MASES.PLCOnNetPS.Cmdlet.GetPlcConnectionCmdletCommand.EndProcessing()
   nameWithType: GetPlcConnectionCmdletCommand.EndProcessing()
-- uid: MASES.PLC4NetPS.Cmdlet.GetPlcConnectionCmdletCommand.EndProcessing*
+- uid: MASES.PLCOnNetPS.Cmdlet.GetPlcConnectionCmdletCommand.EndProcessing*
   name: EndProcessing
-  href: api/MASES.PLC4NetPS.Cmdlet.GetPlcConnectionCmdletCommand.html#MASES_PLC4NetPS_Cmdlet_GetPlcConnectionCmdletCommand_EndProcessing_
-  commentId: Overload:MASES.PLC4NetPS.Cmdlet.GetPlcConnectionCmdletCommand.EndProcessing
+  href: api/MASES.PLCOnNetPS.Cmdlet.GetPlcConnectionCmdletCommand.html#MASES_PLCOnNetPS_Cmdlet_GetPlcConnectionCmdletCommand_EndProcessing_
+  commentId: Overload:MASES.PLCOnNetPS.Cmdlet.GetPlcConnectionCmdletCommand.EndProcessing
   isSpec: "True"
-  fullName: MASES.PLC4NetPS.Cmdlet.GetPlcConnectionCmdletCommand.EndProcessing
+  fullName: MASES.PLCOnNetPS.Cmdlet.GetPlcConnectionCmdletCommand.EndProcessing
   nameWithType: GetPlcConnectionCmdletCommand.EndProcessing
-- uid: MASES.PLC4NetPS.Cmdlet.GetPlcConnectionCmdletCommand.ProcessCommand
+- uid: MASES.PLCOnNetPS.Cmdlet.GetPlcConnectionCmdletCommand.ProcessCommand
   name: ProcessCommand()
-  href: api/MASES.PLC4NetPS.Cmdlet.GetPlcConnectionCmdletCommand.html#MASES_PLC4NetPS_Cmdlet_GetPlcConnectionCmdletCommand_ProcessCommand
-  commentId: M:MASES.PLC4NetPS.Cmdlet.GetPlcConnectionCmdletCommand.ProcessCommand
-  fullName: MASES.PLC4NetPS.Cmdlet.GetPlcConnectionCmdletCommand.ProcessCommand()
+  href: api/MASES.PLCOnNetPS.Cmdlet.GetPlcConnectionCmdletCommand.html#MASES_PLCOnNetPS_Cmdlet_GetPlcConnectionCmdletCommand_ProcessCommand
+  commentId: M:MASES.PLCOnNetPS.Cmdlet.GetPlcConnectionCmdletCommand.ProcessCommand
+  fullName: MASES.PLCOnNetPS.Cmdlet.GetPlcConnectionCmdletCommand.ProcessCommand()
   nameWithType: GetPlcConnectionCmdletCommand.ProcessCommand()
-- uid: MASES.PLC4NetPS.Cmdlet.GetPlcConnectionCmdletCommand.ProcessCommand*
+- uid: MASES.PLCOnNetPS.Cmdlet.GetPlcConnectionCmdletCommand.ProcessCommand*
   name: ProcessCommand
-  href: api/MASES.PLC4NetPS.Cmdlet.GetPlcConnectionCmdletCommand.html#MASES_PLC4NetPS_Cmdlet_GetPlcConnectionCmdletCommand_ProcessCommand_
-  commentId: Overload:MASES.PLC4NetPS.Cmdlet.GetPlcConnectionCmdletCommand.ProcessCommand
+  href: api/MASES.PLCOnNetPS.Cmdlet.GetPlcConnectionCmdletCommand.html#MASES_PLCOnNetPS_Cmdlet_GetPlcConnectionCmdletCommand_ProcessCommand_
+  commentId: Overload:MASES.PLCOnNetPS.Cmdlet.GetPlcConnectionCmdletCommand.ProcessCommand
   isSpec: "True"
-  fullName: MASES.PLC4NetPS.Cmdlet.GetPlcConnectionCmdletCommand.ProcessCommand
+  fullName: MASES.PLCOnNetPS.Cmdlet.GetPlcConnectionCmdletCommand.ProcessCommand
   nameWithType: GetPlcConnectionCmdletCommand.ProcessCommand
-- uid: MASES.PLC4NetPS.Cmdlet.GetPlcConnectionCmdletCommand.Url
+- uid: MASES.PLCOnNetPS.Cmdlet.GetPlcConnectionCmdletCommand.Url
   name: Url
-  href: api/MASES.PLC4NetPS.Cmdlet.GetPlcConnectionCmdletCommand.html#MASES_PLC4NetPS_Cmdlet_GetPlcConnectionCmdletCommand_Url
-  commentId: P:MASES.PLC4NetPS.Cmdlet.GetPlcConnectionCmdletCommand.Url
-  fullName: MASES.PLC4NetPS.Cmdlet.GetPlcConnectionCmdletCommand.Url
+  href: api/MASES.PLCOnNetPS.Cmdlet.GetPlcConnectionCmdletCommand.html#MASES_PLCOnNetPS_Cmdlet_GetPlcConnectionCmdletCommand_Url
+  commentId: P:MASES.PLCOnNetPS.Cmdlet.GetPlcConnectionCmdletCommand.Url
+  fullName: MASES.PLCOnNetPS.Cmdlet.GetPlcConnectionCmdletCommand.Url
   nameWithType: GetPlcConnectionCmdletCommand.Url
-- uid: MASES.PLC4NetPS.Cmdlet.GetPlcConnectionCmdletCommand.Url*
+- uid: MASES.PLCOnNetPS.Cmdlet.GetPlcConnectionCmdletCommand.Url*
   name: Url
-  href: api/MASES.PLC4NetPS.Cmdlet.GetPlcConnectionCmdletCommand.html#MASES_PLC4NetPS_Cmdlet_GetPlcConnectionCmdletCommand_Url_
-  commentId: Overload:MASES.PLC4NetPS.Cmdlet.GetPlcConnectionCmdletCommand.Url
+  href: api/MASES.PLCOnNetPS.Cmdlet.GetPlcConnectionCmdletCommand.html#MASES_PLCOnNetPS_Cmdlet_GetPlcConnectionCmdletCommand_Url_
+  commentId: Overload:MASES.PLCOnNetPS.Cmdlet.GetPlcConnectionCmdletCommand.Url
   isSpec: "True"
-  fullName: MASES.PLC4NetPS.Cmdlet.GetPlcConnectionCmdletCommand.Url
+  fullName: MASES.PLCOnNetPS.Cmdlet.GetPlcConnectionCmdletCommand.Url
   nameWithType: GetPlcConnectionCmdletCommand.Url
-- uid: MASES.PLC4NetPS.Cmdlet.GetPlcDriverCmdletCommand
+- uid: MASES.PLCOnNetPS.Cmdlet.GetPlcDriverCmdletCommand
   name: GetPlcDriverCmdletCommand
-  href: api/MASES.PLC4NetPS.Cmdlet.GetPlcDriverCmdletCommand.html
-  commentId: T:MASES.PLC4NetPS.Cmdlet.GetPlcDriverCmdletCommand
-  fullName: MASES.PLC4NetPS.Cmdlet.GetPlcDriverCmdletCommand
+  href: api/MASES.PLCOnNetPS.Cmdlet.GetPlcDriverCmdletCommand.html
+  commentId: T:MASES.PLCOnNetPS.Cmdlet.GetPlcDriverCmdletCommand
+  fullName: MASES.PLCOnNetPS.Cmdlet.GetPlcDriverCmdletCommand
   nameWithType: GetPlcDriverCmdletCommand
-- uid: MASES.PLC4NetPS.Cmdlet.GetPlcDriverCmdletCommand.BeginProcessing
+- uid: MASES.PLCOnNetPS.Cmdlet.GetPlcDriverCmdletCommand.BeginProcessing
   name: BeginProcessing()
-  href: api/MASES.PLC4NetPS.Cmdlet.GetPlcDriverCmdletCommand.html#MASES_PLC4NetPS_Cmdlet_GetPlcDriverCmdletCommand_BeginProcessing
-  commentId: M:MASES.PLC4NetPS.Cmdlet.GetPlcDriverCmdletCommand.BeginProcessing
-  fullName: MASES.PLC4NetPS.Cmdlet.GetPlcDriverCmdletCommand.BeginProcessing()
+  href: api/MASES.PLCOnNetPS.Cmdlet.GetPlcDriverCmdletCommand.html#MASES_PLCOnNetPS_Cmdlet_GetPlcDriverCmdletCommand_BeginProcessing
+  commentId: M:MASES.PLCOnNetPS.Cmdlet.GetPlcDriverCmdletCommand.BeginProcessing
+  fullName: MASES.PLCOnNetPS.Cmdlet.GetPlcDriverCmdletCommand.BeginProcessing()
   nameWithType: GetPlcDriverCmdletCommand.BeginProcessing()
-- uid: MASES.PLC4NetPS.Cmdlet.GetPlcDriverCmdletCommand.BeginProcessing*
+- uid: MASES.PLCOnNetPS.Cmdlet.GetPlcDriverCmdletCommand.BeginProcessing*
   name: BeginProcessing
-  href: api/MASES.PLC4NetPS.Cmdlet.GetPlcDriverCmdletCommand.html#MASES_PLC4NetPS_Cmdlet_GetPlcDriverCmdletCommand_BeginProcessing_
-  commentId: Overload:MASES.PLC4NetPS.Cmdlet.GetPlcDriverCmdletCommand.BeginProcessing
+  href: api/MASES.PLCOnNetPS.Cmdlet.GetPlcDriverCmdletCommand.html#MASES_PLCOnNetPS_Cmdlet_GetPlcDriverCmdletCommand_BeginProcessing_
+  commentId: Overload:MASES.PLCOnNetPS.Cmdlet.GetPlcDriverCmdletCommand.BeginProcessing
   isSpec: "True"
-  fullName: MASES.PLC4NetPS.Cmdlet.GetPlcDriverCmdletCommand.BeginProcessing
+  fullName: MASES.PLCOnNetPS.Cmdlet.GetPlcDriverCmdletCommand.BeginProcessing
   nameWithType: GetPlcDriverCmdletCommand.BeginProcessing
-- uid: MASES.PLC4NetPS.Cmdlet.GetPlcDriverCmdletCommand.EndProcessing
+- uid: MASES.PLCOnNetPS.Cmdlet.GetPlcDriverCmdletCommand.EndProcessing
   name: EndProcessing()
-  href: api/MASES.PLC4NetPS.Cmdlet.GetPlcDriverCmdletCommand.html#MASES_PLC4NetPS_Cmdlet_GetPlcDriverCmdletCommand_EndProcessing
-  commentId: M:MASES.PLC4NetPS.Cmdlet.GetPlcDriverCmdletCommand.EndProcessing
-  fullName: MASES.PLC4NetPS.Cmdlet.GetPlcDriverCmdletCommand.EndProcessing()
+  href: api/MASES.PLCOnNetPS.Cmdlet.GetPlcDriverCmdletCommand.html#MASES_PLCOnNetPS_Cmdlet_GetPlcDriverCmdletCommand_EndProcessing
+  commentId: M:MASES.PLCOnNetPS.Cmdlet.GetPlcDriverCmdletCommand.EndProcessing
+  fullName: MASES.PLCOnNetPS.Cmdlet.GetPlcDriverCmdletCommand.EndProcessing()
   nameWithType: GetPlcDriverCmdletCommand.EndProcessing()
-- uid: MASES.PLC4NetPS.Cmdlet.GetPlcDriverCmdletCommand.EndProcessing*
+- uid: MASES.PLCOnNetPS.Cmdlet.GetPlcDriverCmdletCommand.EndProcessing*
   name: EndProcessing
-  href: api/MASES.PLC4NetPS.Cmdlet.GetPlcDriverCmdletCommand.html#MASES_PLC4NetPS_Cmdlet_GetPlcDriverCmdletCommand_EndProcessing_
-  commentId: Overload:MASES.PLC4NetPS.Cmdlet.GetPlcDriverCmdletCommand.EndProcessing
+  href: api/MASES.PLCOnNetPS.Cmdlet.GetPlcDriverCmdletCommand.html#MASES_PLCOnNetPS_Cmdlet_GetPlcDriverCmdletCommand_EndProcessing_
+  commentId: Overload:MASES.PLCOnNetPS.Cmdlet.GetPlcDriverCmdletCommand.EndProcessing
   isSpec: "True"
-  fullName: MASES.PLC4NetPS.Cmdlet.GetPlcDriverCmdletCommand.EndProcessing
+  fullName: MASES.PLCOnNetPS.Cmdlet.GetPlcDriverCmdletCommand.EndProcessing
   nameWithType: GetPlcDriverCmdletCommand.EndProcessing
-- uid: MASES.PLC4NetPS.Cmdlet.GetPlcDriverCmdletCommand.ProcessCommand
+- uid: MASES.PLCOnNetPS.Cmdlet.GetPlcDriverCmdletCommand.ProcessCommand
   name: ProcessCommand()
-  href: api/MASES.PLC4NetPS.Cmdlet.GetPlcDriverCmdletCommand.html#MASES_PLC4NetPS_Cmdlet_GetPlcDriverCmdletCommand_ProcessCommand
-  commentId: M:MASES.PLC4NetPS.Cmdlet.GetPlcDriverCmdletCommand.ProcessCommand
-  fullName: MASES.PLC4NetPS.Cmdlet.GetPlcDriverCmdletCommand.ProcessCommand()
+  href: api/MASES.PLCOnNetPS.Cmdlet.GetPlcDriverCmdletCommand.html#MASES_PLCOnNetPS_Cmdlet_GetPlcDriverCmdletCommand_ProcessCommand
+  commentId: M:MASES.PLCOnNetPS.Cmdlet.GetPlcDriverCmdletCommand.ProcessCommand
+  fullName: MASES.PLCOnNetPS.Cmdlet.GetPlcDriverCmdletCommand.ProcessCommand()
   nameWithType: GetPlcDriverCmdletCommand.ProcessCommand()
-- uid: MASES.PLC4NetPS.Cmdlet.GetPlcDriverCmdletCommand.ProcessCommand*
+- uid: MASES.PLCOnNetPS.Cmdlet.GetPlcDriverCmdletCommand.ProcessCommand*
   name: ProcessCommand
-  href: api/MASES.PLC4NetPS.Cmdlet.GetPlcDriverCmdletCommand.html#MASES_PLC4NetPS_Cmdlet_GetPlcDriverCmdletCommand_ProcessCommand_
-  commentId: Overload:MASES.PLC4NetPS.Cmdlet.GetPlcDriverCmdletCommand.ProcessCommand
+  href: api/MASES.PLCOnNetPS.Cmdlet.GetPlcDriverCmdletCommand.html#MASES_PLCOnNetPS_Cmdlet_GetPlcDriverCmdletCommand_ProcessCommand_
+  commentId: Overload:MASES.PLCOnNetPS.Cmdlet.GetPlcDriverCmdletCommand.ProcessCommand
   isSpec: "True"
-  fullName: MASES.PLC4NetPS.Cmdlet.GetPlcDriverCmdletCommand.ProcessCommand
+  fullName: MASES.PLCOnNetPS.Cmdlet.GetPlcDriverCmdletCommand.ProcessCommand
   nameWithType: GetPlcDriverCmdletCommand.ProcessCommand
-- uid: MASES.PLC4NetPS.Cmdlet.GetPlcDriverCmdletCommand.ProtocolCode
+- uid: MASES.PLCOnNetPS.Cmdlet.GetPlcDriverCmdletCommand.ProtocolCode
   name: ProtocolCode
-  href: api/MASES.PLC4NetPS.Cmdlet.GetPlcDriverCmdletCommand.html#MASES_PLC4NetPS_Cmdlet_GetPlcDriverCmdletCommand_ProtocolCode
-  commentId: P:MASES.PLC4NetPS.Cmdlet.GetPlcDriverCmdletCommand.ProtocolCode
-  fullName: MASES.PLC4NetPS.Cmdlet.GetPlcDriverCmdletCommand.ProtocolCode
+  href: api/MASES.PLCOnNetPS.Cmdlet.GetPlcDriverCmdletCommand.html#MASES_PLCOnNetPS_Cmdlet_GetPlcDriverCmdletCommand_ProtocolCode
+  commentId: P:MASES.PLCOnNetPS.Cmdlet.GetPlcDriverCmdletCommand.ProtocolCode
+  fullName: MASES.PLCOnNetPS.Cmdlet.GetPlcDriverCmdletCommand.ProtocolCode
   nameWithType: GetPlcDriverCmdletCommand.ProtocolCode
-- uid: MASES.PLC4NetPS.Cmdlet.GetPlcDriverCmdletCommand.ProtocolCode*
+- uid: MASES.PLCOnNetPS.Cmdlet.GetPlcDriverCmdletCommand.ProtocolCode*
   name: ProtocolCode
-  href: api/MASES.PLC4NetPS.Cmdlet.GetPlcDriverCmdletCommand.html#MASES_PLC4NetPS_Cmdlet_GetPlcDriverCmdletCommand_ProtocolCode_
-  commentId: Overload:MASES.PLC4NetPS.Cmdlet.GetPlcDriverCmdletCommand.ProtocolCode
+  href: api/MASES.PLCOnNetPS.Cmdlet.GetPlcDriverCmdletCommand.html#MASES_PLCOnNetPS_Cmdlet_GetPlcDriverCmdletCommand_ProtocolCode_
+  commentId: Overload:MASES.PLCOnNetPS.Cmdlet.GetPlcDriverCmdletCommand.ProtocolCode
   isSpec: "True"
-  fullName: MASES.PLC4NetPS.Cmdlet.GetPlcDriverCmdletCommand.ProtocolCode
+  fullName: MASES.PLCOnNetPS.Cmdlet.GetPlcDriverCmdletCommand.ProtocolCode
   nameWithType: GetPlcDriverCmdletCommand.ProtocolCode
-- uid: MASES.PLC4NetPS.Cmdlet.GetProtocolCodesCmdletCommand
+- uid: MASES.PLCOnNetPS.Cmdlet.GetProtocolCodesCmdletCommand
   name: GetProtocolCodesCmdletCommand
-  href: api/MASES.PLC4NetPS.Cmdlet.GetProtocolCodesCmdletCommand.html
-  commentId: T:MASES.PLC4NetPS.Cmdlet.GetProtocolCodesCmdletCommand
-  fullName: MASES.PLC4NetPS.Cmdlet.GetProtocolCodesCmdletCommand
+  href: api/MASES.PLCOnNetPS.Cmdlet.GetProtocolCodesCmdletCommand.html
+  commentId: T:MASES.PLCOnNetPS.Cmdlet.GetProtocolCodesCmdletCommand
+  fullName: MASES.PLCOnNetPS.Cmdlet.GetProtocolCodesCmdletCommand
   nameWithType: GetProtocolCodesCmdletCommand
-- uid: MASES.PLC4NetPS.Cmdlet.GetProtocolCodesCmdletCommand.BeginProcessing
+- uid: MASES.PLCOnNetPS.Cmdlet.GetProtocolCodesCmdletCommand.BeginProcessing
   name: BeginProcessing()
-  href: api/MASES.PLC4NetPS.Cmdlet.GetProtocolCodesCmdletCommand.html#MASES_PLC4NetPS_Cmdlet_GetProtocolCodesCmdletCommand_BeginProcessing
-  commentId: M:MASES.PLC4NetPS.Cmdlet.GetProtocolCodesCmdletCommand.BeginProcessing
-  fullName: MASES.PLC4NetPS.Cmdlet.GetProtocolCodesCmdletCommand.BeginProcessing()
+  href: api/MASES.PLCOnNetPS.Cmdlet.GetProtocolCodesCmdletCommand.html#MASES_PLCOnNetPS_Cmdlet_GetProtocolCodesCmdletCommand_BeginProcessing
+  commentId: M:MASES.PLCOnNetPS.Cmdlet.GetProtocolCodesCmdletCommand.BeginProcessing
+  fullName: MASES.PLCOnNetPS.Cmdlet.GetProtocolCodesCmdletCommand.BeginProcessing()
   nameWithType: GetProtocolCodesCmdletCommand.BeginProcessing()
-- uid: MASES.PLC4NetPS.Cmdlet.GetProtocolCodesCmdletCommand.BeginProcessing*
+- uid: MASES.PLCOnNetPS.Cmdlet.GetProtocolCodesCmdletCommand.BeginProcessing*
   name: BeginProcessing
-  href: api/MASES.PLC4NetPS.Cmdlet.GetProtocolCodesCmdletCommand.html#MASES_PLC4NetPS_Cmdlet_GetProtocolCodesCmdletCommand_BeginProcessing_
-  commentId: Overload:MASES.PLC4NetPS.Cmdlet.GetProtocolCodesCmdletCommand.BeginProcessing
+  href: api/MASES.PLCOnNetPS.Cmdlet.GetProtocolCodesCmdletCommand.html#MASES_PLCOnNetPS_Cmdlet_GetProtocolCodesCmdletCommand_BeginProcessing_
+  commentId: Overload:MASES.PLCOnNetPS.Cmdlet.GetProtocolCodesCmdletCommand.BeginProcessing
   isSpec: "True"
-  fullName: MASES.PLC4NetPS.Cmdlet.GetProtocolCodesCmdletCommand.BeginProcessing
+  fullName: MASES.PLCOnNetPS.Cmdlet.GetProtocolCodesCmdletCommand.BeginProcessing
   nameWithType: GetProtocolCodesCmdletCommand.BeginProcessing
-- uid: MASES.PLC4NetPS.Cmdlet.GetProtocolCodesCmdletCommand.EndProcessing
+- uid: MASES.PLCOnNetPS.Cmdlet.GetProtocolCodesCmdletCommand.EndProcessing
   name: EndProcessing()
-  href: api/MASES.PLC4NetPS.Cmdlet.GetProtocolCodesCmdletCommand.html#MASES_PLC4NetPS_Cmdlet_GetProtocolCodesCmdletCommand_EndProcessing
-  commentId: M:MASES.PLC4NetPS.Cmdlet.GetProtocolCodesCmdletCommand.EndProcessing
-  fullName: MASES.PLC4NetPS.Cmdlet.GetProtocolCodesCmdletCommand.EndProcessing()
+  href: api/MASES.PLCOnNetPS.Cmdlet.GetProtocolCodesCmdletCommand.html#MASES_PLCOnNetPS_Cmdlet_GetProtocolCodesCmdletCommand_EndProcessing
+  commentId: M:MASES.PLCOnNetPS.Cmdlet.GetProtocolCodesCmdletCommand.EndProcessing
+  fullName: MASES.PLCOnNetPS.Cmdlet.GetProtocolCodesCmdletCommand.EndProcessing()
   nameWithType: GetProtocolCodesCmdletCommand.EndProcessing()
-- uid: MASES.PLC4NetPS.Cmdlet.GetProtocolCodesCmdletCommand.EndProcessing*
+- uid: MASES.PLCOnNetPS.Cmdlet.GetProtocolCodesCmdletCommand.EndProcessing*
   name: EndProcessing
-  href: api/MASES.PLC4NetPS.Cmdlet.GetProtocolCodesCmdletCommand.html#MASES_PLC4NetPS_Cmdlet_GetProtocolCodesCmdletCommand_EndProcessing_
-  commentId: Overload:MASES.PLC4NetPS.Cmdlet.GetProtocolCodesCmdletCommand.EndProcessing
+  href: api/MASES.PLCOnNetPS.Cmdlet.GetProtocolCodesCmdletCommand.html#MASES_PLCOnNetPS_Cmdlet_GetProtocolCodesCmdletCommand_EndProcessing_
+  commentId: Overload:MASES.PLCOnNetPS.Cmdlet.GetProtocolCodesCmdletCommand.EndProcessing
   isSpec: "True"
-  fullName: MASES.PLC4NetPS.Cmdlet.GetProtocolCodesCmdletCommand.EndProcessing
+  fullName: MASES.PLCOnNetPS.Cmdlet.GetProtocolCodesCmdletCommand.EndProcessing
   nameWithType: GetProtocolCodesCmdletCommand.EndProcessing
-- uid: MASES.PLC4NetPS.Cmdlet.GetProtocolCodesCmdletCommand.ProcessCommand
+- uid: MASES.PLCOnNetPS.Cmdlet.GetProtocolCodesCmdletCommand.ProcessCommand
   name: ProcessCommand()
-  href: api/MASES.PLC4NetPS.Cmdlet.GetProtocolCodesCmdletCommand.html#MASES_PLC4NetPS_Cmdlet_GetProtocolCodesCmdletCommand_ProcessCommand
-  commentId: M:MASES.PLC4NetPS.Cmdlet.GetProtocolCodesCmdletCommand.ProcessCommand
-  fullName: MASES.PLC4NetPS.Cmdlet.GetProtocolCodesCmdletCommand.ProcessCommand()
+  href: api/MASES.PLCOnNetPS.Cmdlet.GetProtocolCodesCmdletCommand.html#MASES_PLCOnNetPS_Cmdlet_GetProtocolCodesCmdletCommand_ProcessCommand
+  commentId: M:MASES.PLCOnNetPS.Cmdlet.GetProtocolCodesCmdletCommand.ProcessCommand
+  fullName: MASES.PLCOnNetPS.Cmdlet.GetProtocolCodesCmdletCommand.ProcessCommand()
   nameWithType: GetProtocolCodesCmdletCommand.ProcessCommand()
-- uid: MASES.PLC4NetPS.Cmdlet.GetProtocolCodesCmdletCommand.ProcessCommand*
+- uid: MASES.PLCOnNetPS.Cmdlet.GetProtocolCodesCmdletCommand.ProcessCommand*
   name: ProcessCommand
-  href: api/MASES.PLC4NetPS.Cmdlet.GetProtocolCodesCmdletCommand.html#MASES_PLC4NetPS_Cmdlet_GetProtocolCodesCmdletCommand_ProcessCommand_
-  commentId: Overload:MASES.PLC4NetPS.Cmdlet.GetProtocolCodesCmdletCommand.ProcessCommand
+  href: api/MASES.PLCOnNetPS.Cmdlet.GetProtocolCodesCmdletCommand.html#MASES_PLCOnNetPS_Cmdlet_GetProtocolCodesCmdletCommand_ProcessCommand_
+  commentId: Overload:MASES.PLCOnNetPS.Cmdlet.GetProtocolCodesCmdletCommand.ProcessCommand
   isSpec: "True"
-  fullName: MASES.PLC4NetPS.Cmdlet.GetProtocolCodesCmdletCommand.ProcessCommand
+  fullName: MASES.PLCOnNetPS.Cmdlet.GetProtocolCodesCmdletCommand.ProcessCommand
   nameWithType: GetProtocolCodesCmdletCommand.ProcessCommand
-- uid: MASES.PLC4NetPS.Cmdlet.NewPlcUsernamePasswordAuthenticationCmdletCommand
+- uid: MASES.PLCOnNetPS.Cmdlet.NewPlcUsernamePasswordAuthenticationCmdletCommand
   name: NewPlcUsernamePasswordAuthenticationCmdletCommand
-  href: api/MASES.PLC4NetPS.Cmdlet.NewPlcUsernamePasswordAuthenticationCmdletCommand.html
-  commentId: T:MASES.PLC4NetPS.Cmdlet.NewPlcUsernamePasswordAuthenticationCmdletCommand
-  fullName: MASES.PLC4NetPS.Cmdlet.NewPlcUsernamePasswordAuthenticationCmdletCommand
+  href: api/MASES.PLCOnNetPS.Cmdlet.NewPlcUsernamePasswordAuthenticationCmdletCommand.html
+  commentId: T:MASES.PLCOnNetPS.Cmdlet.NewPlcUsernamePasswordAuthenticationCmdletCommand
+  fullName: MASES.PLCOnNetPS.Cmdlet.NewPlcUsernamePasswordAuthenticationCmdletCommand
   nameWithType: NewPlcUsernamePasswordAuthenticationCmdletCommand
-- uid: MASES.PLC4NetPS.Cmdlet.NewPlcUsernamePasswordAuthenticationCmdletCommand.BeginProcessing
+- uid: MASES.PLCOnNetPS.Cmdlet.NewPlcUsernamePasswordAuthenticationCmdletCommand.BeginProcessing
   name: BeginProcessing()
-  href: api/MASES.PLC4NetPS.Cmdlet.NewPlcUsernamePasswordAuthenticationCmdletCommand.html#MASES_PLC4NetPS_Cmdlet_NewPlcUsernamePasswordAuthenticationCmdletCommand_BeginProcessing
-  commentId: M:MASES.PLC4NetPS.Cmdlet.NewPlcUsernamePasswordAuthenticationCmdletCommand.BeginProcessing
-  fullName: MASES.PLC4NetPS.Cmdlet.NewPlcUsernamePasswordAuthenticationCmdletCommand.BeginProcessing()
+  href: api/MASES.PLCOnNetPS.Cmdlet.NewPlcUsernamePasswordAuthenticationCmdletCommand.html#MASES_PLCOnNetPS_Cmdlet_NewPlcUsernamePasswordAuthenticationCmdletCommand_BeginProcessing
+  commentId: M:MASES.PLCOnNetPS.Cmdlet.NewPlcUsernamePasswordAuthenticationCmdletCommand.BeginProcessing
+  fullName: MASES.PLCOnNetPS.Cmdlet.NewPlcUsernamePasswordAuthenticationCmdletCommand.BeginProcessing()
   nameWithType: NewPlcUsernamePasswordAuthenticationCmdletCommand.BeginProcessing()
-- uid: MASES.PLC4NetPS.Cmdlet.NewPlcUsernamePasswordAuthenticationCmdletCommand.BeginProcessing*
+- uid: MASES.PLCOnNetPS.Cmdlet.NewPlcUsernamePasswordAuthenticationCmdletCommand.BeginProcessing*
   name: BeginProcessing
-  href: api/MASES.PLC4NetPS.Cmdlet.NewPlcUsernamePasswordAuthenticationCmdletCommand.html#MASES_PLC4NetPS_Cmdlet_NewPlcUsernamePasswordAuthenticationCmdletCommand_BeginProcessing_
-  commentId: Overload:MASES.PLC4NetPS.Cmdlet.NewPlcUsernamePasswordAuthenticationCmdletCommand.BeginProcessing
+  href: api/MASES.PLCOnNetPS.Cmdlet.NewPlcUsernamePasswordAuthenticationCmdletCommand.html#MASES_PLCOnNetPS_Cmdlet_NewPlcUsernamePasswordAuthenticationCmdletCommand_BeginProcessing_
+  commentId: Overload:MASES.PLCOnNetPS.Cmdlet.NewPlcUsernamePasswordAuthenticationCmdletCommand.BeginProcessing
   isSpec: "True"
-  fullName: MASES.PLC4NetPS.Cmdlet.NewPlcUsernamePasswordAuthenticationCmdletCommand.BeginProcessing
+  fullName: MASES.PLCOnNetPS.Cmdlet.NewPlcUsernamePasswordAuthenticationCmdletCommand.BeginProcessing
   nameWithType: NewPlcUsernamePasswordAuthenticationCmdletCommand.BeginProcessing
-- uid: MASES.PLC4NetPS.Cmdlet.NewPlcUsernamePasswordAuthenticationCmdletCommand.EndProcessing
+- uid: MASES.PLCOnNetPS.Cmdlet.NewPlcUsernamePasswordAuthenticationCmdletCommand.EndProcessing
   name: EndProcessing()
-  href: api/MASES.PLC4NetPS.Cmdlet.NewPlcUsernamePasswordAuthenticationCmdletCommand.html#MASES_PLC4NetPS_Cmdlet_NewPlcUsernamePasswordAuthenticationCmdletCommand_EndProcessing
-  commentId: M:MASES.PLC4NetPS.Cmdlet.NewPlcUsernamePasswordAuthenticationCmdletCommand.EndProcessing
-  fullName: MASES.PLC4NetPS.Cmdlet.NewPlcUsernamePasswordAuthenticationCmdletCommand.EndProcessing()
+  href: api/MASES.PLCOnNetPS.Cmdlet.NewPlcUsernamePasswordAuthenticationCmdletCommand.html#MASES_PLCOnNetPS_Cmdlet_NewPlcUsernamePasswordAuthenticationCmdletCommand_EndProcessing
+  commentId: M:MASES.PLCOnNetPS.Cmdlet.NewPlcUsernamePasswordAuthenticationCmdletCommand.EndProcessing
+  fullName: MASES.PLCOnNetPS.Cmdlet.NewPlcUsernamePasswordAuthenticationCmdletCommand.EndProcessing()
   nameWithType: NewPlcUsernamePasswordAuthenticationCmdletCommand.EndProcessing()
-- uid: MASES.PLC4NetPS.Cmdlet.NewPlcUsernamePasswordAuthenticationCmdletCommand.EndProcessing*
+- uid: MASES.PLCOnNetPS.Cmdlet.NewPlcUsernamePasswordAuthenticationCmdletCommand.EndProcessing*
   name: EndProcessing
-  href: api/MASES.PLC4NetPS.Cmdlet.NewPlcUsernamePasswordAuthenticationCmdletCommand.html#MASES_PLC4NetPS_Cmdlet_NewPlcUsernamePasswordAuthenticationCmdletCommand_EndProcessing_
-  commentId: Overload:MASES.PLC4NetPS.Cmdlet.NewPlcUsernamePasswordAuthenticationCmdletCommand.EndProcessing
+  href: api/MASES.PLCOnNetPS.Cmdlet.NewPlcUsernamePasswordAuthenticationCmdletCommand.html#MASES_PLCOnNetPS_Cmdlet_NewPlcUsernamePasswordAuthenticationCmdletCommand_EndProcessing_
+  commentId: Overload:MASES.PLCOnNetPS.Cmdlet.NewPlcUsernamePasswordAuthenticationCmdletCommand.EndProcessing
   isSpec: "True"
-  fullName: MASES.PLC4NetPS.Cmdlet.NewPlcUsernamePasswordAuthenticationCmdletCommand.EndProcessing
+  fullName: MASES.PLCOnNetPS.Cmdlet.NewPlcUsernamePasswordAuthenticationCmdletCommand.EndProcessing
   nameWithType: NewPlcUsernamePasswordAuthenticationCmdletCommand.EndProcessing
-- uid: MASES.PLC4NetPS.Cmdlet.NewPlcUsernamePasswordAuthenticationCmdletCommand.Password
+- uid: MASES.PLCOnNetPS.Cmdlet.NewPlcUsernamePasswordAuthenticationCmdletCommand.Password
   name: Password
-  href: api/MASES.PLC4NetPS.Cmdlet.NewPlcUsernamePasswordAuthenticationCmdletCommand.html#MASES_PLC4NetPS_Cmdlet_NewPlcUsernamePasswordAuthenticationCmdletCommand_Password
-  commentId: P:MASES.PLC4NetPS.Cmdlet.NewPlcUsernamePasswordAuthenticationCmdletCommand.Password
-  fullName: MASES.PLC4NetPS.Cmdlet.NewPlcUsernamePasswordAuthenticationCmdletCommand.Password
+  href: api/MASES.PLCOnNetPS.Cmdlet.NewPlcUsernamePasswordAuthenticationCmdletCommand.html#MASES_PLCOnNetPS_Cmdlet_NewPlcUsernamePasswordAuthenticationCmdletCommand_Password
+  commentId: P:MASES.PLCOnNetPS.Cmdlet.NewPlcUsernamePasswordAuthenticationCmdletCommand.Password
+  fullName: MASES.PLCOnNetPS.Cmdlet.NewPlcUsernamePasswordAuthenticationCmdletCommand.Password
   nameWithType: NewPlcUsernamePasswordAuthenticationCmdletCommand.Password
-- uid: MASES.PLC4NetPS.Cmdlet.NewPlcUsernamePasswordAuthenticationCmdletCommand.Password*
+- uid: MASES.PLCOnNetPS.Cmdlet.NewPlcUsernamePasswordAuthenticationCmdletCommand.Password*
   name: Password
-  href: api/MASES.PLC4NetPS.Cmdlet.NewPlcUsernamePasswordAuthenticationCmdletCommand.html#MASES_PLC4NetPS_Cmdlet_NewPlcUsernamePasswordAuthenticationCmdletCommand_Password_
-  commentId: Overload:MASES.PLC4NetPS.Cmdlet.NewPlcUsernamePasswordAuthenticationCmdletCommand.Password
+  href: api/MASES.PLCOnNetPS.Cmdlet.NewPlcUsernamePasswordAuthenticationCmdletCommand.html#MASES_PLCOnNetPS_Cmdlet_NewPlcUsernamePasswordAuthenticationCmdletCommand_Password_
+  commentId: Overload:MASES.PLCOnNetPS.Cmdlet.NewPlcUsernamePasswordAuthenticationCmdletCommand.Password
   isSpec: "True"
-  fullName: MASES.PLC4NetPS.Cmdlet.NewPlcUsernamePasswordAuthenticationCmdletCommand.Password
+  fullName: MASES.PLCOnNetPS.Cmdlet.NewPlcUsernamePasswordAuthenticationCmdletCommand.Password
   nameWithType: NewPlcUsernamePasswordAuthenticationCmdletCommand.Password
-- uid: MASES.PLC4NetPS.Cmdlet.NewPlcUsernamePasswordAuthenticationCmdletCommand.ProcessCommand
+- uid: MASES.PLCOnNetPS.Cmdlet.NewPlcUsernamePasswordAuthenticationCmdletCommand.ProcessCommand
   name: ProcessCommand()
-  href: api/MASES.PLC4NetPS.Cmdlet.NewPlcUsernamePasswordAuthenticationCmdletCommand.html#MASES_PLC4NetPS_Cmdlet_NewPlcUsernamePasswordAuthenticationCmdletCommand_ProcessCommand
-  commentId: M:MASES.PLC4NetPS.Cmdlet.NewPlcUsernamePasswordAuthenticationCmdletCommand.ProcessCommand
-  fullName: MASES.PLC4NetPS.Cmdlet.NewPlcUsernamePasswordAuthenticationCmdletCommand.ProcessCommand()
+  href: api/MASES.PLCOnNetPS.Cmdlet.NewPlcUsernamePasswordAuthenticationCmdletCommand.html#MASES_PLCOnNetPS_Cmdlet_NewPlcUsernamePasswordAuthenticationCmdletCommand_ProcessCommand
+  commentId: M:MASES.PLCOnNetPS.Cmdlet.NewPlcUsernamePasswordAuthenticationCmdletCommand.ProcessCommand
+  fullName: MASES.PLCOnNetPS.Cmdlet.NewPlcUsernamePasswordAuthenticationCmdletCommand.ProcessCommand()
   nameWithType: NewPlcUsernamePasswordAuthenticationCmdletCommand.ProcessCommand()
-- uid: MASES.PLC4NetPS.Cmdlet.NewPlcUsernamePasswordAuthenticationCmdletCommand.ProcessCommand*
+- uid: MASES.PLCOnNetPS.Cmdlet.NewPlcUsernamePasswordAuthenticationCmdletCommand.ProcessCommand*
   name: ProcessCommand
-  href: api/MASES.PLC4NetPS.Cmdlet.NewPlcUsernamePasswordAuthenticationCmdletCommand.html#MASES_PLC4NetPS_Cmdlet_NewPlcUsernamePasswordAuthenticationCmdletCommand_ProcessCommand_
-  commentId: Overload:MASES.PLC4NetPS.Cmdlet.NewPlcUsernamePasswordAuthenticationCmdletCommand.ProcessCommand
+  href: api/MASES.PLCOnNetPS.Cmdlet.NewPlcUsernamePasswordAuthenticationCmdletCommand.html#MASES_PLCOnNetPS_Cmdlet_NewPlcUsernamePasswordAuthenticationCmdletCommand_ProcessCommand_
+  commentId: Overload:MASES.PLCOnNetPS.Cmdlet.NewPlcUsernamePasswordAuthenticationCmdletCommand.ProcessCommand
   isSpec: "True"
-  fullName: MASES.PLC4NetPS.Cmdlet.NewPlcUsernamePasswordAuthenticationCmdletCommand.ProcessCommand
+  fullName: MASES.PLCOnNetPS.Cmdlet.NewPlcUsernamePasswordAuthenticationCmdletCommand.ProcessCommand
   nameWithType: NewPlcUsernamePasswordAuthenticationCmdletCommand.ProcessCommand
-- uid: MASES.PLC4NetPS.Cmdlet.NewPlcUsernamePasswordAuthenticationCmdletCommand.Username
+- uid: MASES.PLCOnNetPS.Cmdlet.NewPlcUsernamePasswordAuthenticationCmdletCommand.Username
   name: Username
-  href: api/MASES.PLC4NetPS.Cmdlet.NewPlcUsernamePasswordAuthenticationCmdletCommand.html#MASES_PLC4NetPS_Cmdlet_NewPlcUsernamePasswordAuthenticationCmdletCommand_Username
-  commentId: P:MASES.PLC4NetPS.Cmdlet.NewPlcUsernamePasswordAuthenticationCmdletCommand.Username
-  fullName: MASES.PLC4NetPS.Cmdlet.NewPlcUsernamePasswordAuthenticationCmdletCommand.Username
+  href: api/MASES.PLCOnNetPS.Cmdlet.NewPlcUsernamePasswordAuthenticationCmdletCommand.html#MASES_PLCOnNetPS_Cmdlet_NewPlcUsernamePasswordAuthenticationCmdletCommand_Username
+  commentId: P:MASES.PLCOnNetPS.Cmdlet.NewPlcUsernamePasswordAuthenticationCmdletCommand.Username
+  fullName: MASES.PLCOnNetPS.Cmdlet.NewPlcUsernamePasswordAuthenticationCmdletCommand.Username
   nameWithType: NewPlcUsernamePasswordAuthenticationCmdletCommand.Username
-- uid: MASES.PLC4NetPS.Cmdlet.NewPlcUsernamePasswordAuthenticationCmdletCommand.Username*
+- uid: MASES.PLCOnNetPS.Cmdlet.NewPlcUsernamePasswordAuthenticationCmdletCommand.Username*
   name: Username
-  href: api/MASES.PLC4NetPS.Cmdlet.NewPlcUsernamePasswordAuthenticationCmdletCommand.html#MASES_PLC4NetPS_Cmdlet_NewPlcUsernamePasswordAuthenticationCmdletCommand_Username_
-  commentId: Overload:MASES.PLC4NetPS.Cmdlet.NewPlcUsernamePasswordAuthenticationCmdletCommand.Username
+  href: api/MASES.PLCOnNetPS.Cmdlet.NewPlcUsernamePasswordAuthenticationCmdletCommand.html#MASES_PLCOnNetPS_Cmdlet_NewPlcUsernamePasswordAuthenticationCmdletCommand_Username_
+  commentId: Overload:MASES.PLCOnNetPS.Cmdlet.NewPlcUsernamePasswordAuthenticationCmdletCommand.Username
   isSpec: "True"
-  fullName: MASES.PLC4NetPS.Cmdlet.NewPlcUsernamePasswordAuthenticationCmdletCommand.Username
+  fullName: MASES.PLCOnNetPS.Cmdlet.NewPlcUsernamePasswordAuthenticationCmdletCommand.Username
   nameWithType: NewPlcUsernamePasswordAuthenticationCmdletCommand.Username
-- uid: MASES.PLC4NetPS.Cmdlet.PLC4NetClassToRunCmdletCommandBase`1
-  name: PLC4NetClassToRunCmdletCommandBase<TCmdlet>
-  href: api/MASES.PLC4NetPS.Cmdlet.PLC4NetClassToRunCmdletCommandBase-1.html
-  commentId: T:MASES.PLC4NetPS.Cmdlet.PLC4NetClassToRunCmdletCommandBase`1
-  name.vb: PLC4NetClassToRunCmdletCommandBase(Of TCmdlet)
-  fullName: MASES.PLC4NetPS.Cmdlet.PLC4NetClassToRunCmdletCommandBase<TCmdlet>
-  fullName.vb: MASES.PLC4NetPS.Cmdlet.PLC4NetClassToRunCmdletCommandBase(Of TCmdlet)
-  nameWithType: PLC4NetClassToRunCmdletCommandBase<TCmdlet>
-  nameWithType.vb: PLC4NetClassToRunCmdletCommandBase(Of TCmdlet)
-- uid: MASES.PLC4NetPS.Cmdlet.PLC4NetClassToRunCmdletCommandBase`1.Arguments
-  name: Arguments
-  href: api/MASES.PLC4NetPS.Cmdlet.PLC4NetClassToRunCmdletCommandBase-1.html#MASES_PLC4NetPS_Cmdlet_PLC4NetClassToRunCmdletCommandBase_1_Arguments
-  commentId: P:MASES.PLC4NetPS.Cmdlet.PLC4NetClassToRunCmdletCommandBase`1.Arguments
-  fullName: MASES.PLC4NetPS.Cmdlet.PLC4NetClassToRunCmdletCommandBase<TCmdlet>.Arguments
-  fullName.vb: MASES.PLC4NetPS.Cmdlet.PLC4NetClassToRunCmdletCommandBase(Of TCmdlet).Arguments
-  nameWithType: PLC4NetClassToRunCmdletCommandBase<TCmdlet>.Arguments
-  nameWithType.vb: PLC4NetClassToRunCmdletCommandBase(Of TCmdlet).Arguments
-- uid: MASES.PLC4NetPS.Cmdlet.PLC4NetClassToRunCmdletCommandBase`1.Arguments*
-  name: Arguments
-  href: api/MASES.PLC4NetPS.Cmdlet.PLC4NetClassToRunCmdletCommandBase-1.html#MASES_PLC4NetPS_Cmdlet_PLC4NetClassToRunCmdletCommandBase_1_Arguments_
-  commentId: Overload:MASES.PLC4NetPS.Cmdlet.PLC4NetClassToRunCmdletCommandBase`1.Arguments
-  isSpec: "True"
-  fullName: MASES.PLC4NetPS.Cmdlet.PLC4NetClassToRunCmdletCommandBase<TCmdlet>.Arguments
-  fullName.vb: MASES.PLC4NetPS.Cmdlet.PLC4NetClassToRunCmdletCommandBase(Of TCmdlet).Arguments
-  nameWithType: PLC4NetClassToRunCmdletCommandBase<TCmdlet>.Arguments
-  nameWithType.vb: PLC4NetClassToRunCmdletCommandBase(Of TCmdlet).Arguments
-- uid: MASES.PLC4NetPS.Cmdlet.PLC4NetClassToRunCmdletCommandBase`1.OnAfterCreateGlobalInstance
-  name: OnAfterCreateGlobalInstance()
-  href: api/MASES.PLC4NetPS.Cmdlet.PLC4NetClassToRunCmdletCommandBase-1.html#MASES_PLC4NetPS_Cmdlet_PLC4NetClassToRunCmdletCommandBase_1_OnAfterCreateGlobalInstance
-  commentId: M:MASES.PLC4NetPS.Cmdlet.PLC4NetClassToRunCmdletCommandBase`1.OnAfterCreateGlobalInstance
-  fullName: MASES.PLC4NetPS.Cmdlet.PLC4NetClassToRunCmdletCommandBase<TCmdlet>.OnAfterCreateGlobalInstance()
-  fullName.vb: MASES.PLC4NetPS.Cmdlet.PLC4NetClassToRunCmdletCommandBase(Of TCmdlet).OnAfterCreateGlobalInstance()
-  nameWithType: PLC4NetClassToRunCmdletCommandBase<TCmdlet>.OnAfterCreateGlobalInstance()
-  nameWithType.vb: PLC4NetClassToRunCmdletCommandBase(Of TCmdlet).OnAfterCreateGlobalInstance()
-- uid: MASES.PLC4NetPS.Cmdlet.PLC4NetClassToRunCmdletCommandBase`1.OnAfterCreateGlobalInstance*
-  name: OnAfterCreateGlobalInstance
-  href: api/MASES.PLC4NetPS.Cmdlet.PLC4NetClassToRunCmdletCommandBase-1.html#MASES_PLC4NetPS_Cmdlet_PLC4NetClassToRunCmdletCommandBase_1_OnAfterCreateGlobalInstance_
-  commentId: Overload:MASES.PLC4NetPS.Cmdlet.PLC4NetClassToRunCmdletCommandBase`1.OnAfterCreateGlobalInstance
-  isSpec: "True"
-  fullName: MASES.PLC4NetPS.Cmdlet.PLC4NetClassToRunCmdletCommandBase<TCmdlet>.OnAfterCreateGlobalInstance
-  fullName.vb: MASES.PLC4NetPS.Cmdlet.PLC4NetClassToRunCmdletCommandBase(Of TCmdlet).OnAfterCreateGlobalInstance
-  nameWithType: PLC4NetClassToRunCmdletCommandBase<TCmdlet>.OnAfterCreateGlobalInstance
-  nameWithType.vb: PLC4NetClassToRunCmdletCommandBase(Of TCmdlet).OnAfterCreateGlobalInstance
-- uid: MASES.PLC4NetPS.Cmdlet.PLC4NetClassToRunCmdletCommandBase`1.OnBeforeCreateGlobalInstance
-  name: OnBeforeCreateGlobalInstance()
-  href: api/MASES.PLC4NetPS.Cmdlet.PLC4NetClassToRunCmdletCommandBase-1.html#MASES_PLC4NetPS_Cmdlet_PLC4NetClassToRunCmdletCommandBase_1_OnBeforeCreateGlobalInstance
-  commentId: M:MASES.PLC4NetPS.Cmdlet.PLC4NetClassToRunCmdletCommandBase`1.OnBeforeCreateGlobalInstance
-  fullName: MASES.PLC4NetPS.Cmdlet.PLC4NetClassToRunCmdletCommandBase<TCmdlet>.OnBeforeCreateGlobalInstance()
-  fullName.vb: MASES.PLC4NetPS.Cmdlet.PLC4NetClassToRunCmdletCommandBase(Of TCmdlet).OnBeforeCreateGlobalInstance()
-  nameWithType: PLC4NetClassToRunCmdletCommandBase<TCmdlet>.OnBeforeCreateGlobalInstance()
-  nameWithType.vb: PLC4NetClassToRunCmdletCommandBase(Of TCmdlet).OnBeforeCreateGlobalInstance()
-- uid: MASES.PLC4NetPS.Cmdlet.PLC4NetClassToRunCmdletCommandBase`1.OnBeforeCreateGlobalInstance*
-  name: OnBeforeCreateGlobalInstance
-  href: api/MASES.PLC4NetPS.Cmdlet.PLC4NetClassToRunCmdletCommandBase-1.html#MASES_PLC4NetPS_Cmdlet_PLC4NetClassToRunCmdletCommandBase_1_OnBeforeCreateGlobalInstance_
-  commentId: Overload:MASES.PLC4NetPS.Cmdlet.PLC4NetClassToRunCmdletCommandBase`1.OnBeforeCreateGlobalInstance
-  isSpec: "True"
-  fullName: MASES.PLC4NetPS.Cmdlet.PLC4NetClassToRunCmdletCommandBase<TCmdlet>.OnBeforeCreateGlobalInstance
-  fullName.vb: MASES.PLC4NetPS.Cmdlet.PLC4NetClassToRunCmdletCommandBase(Of TCmdlet).OnBeforeCreateGlobalInstance
-  nameWithType: PLC4NetClassToRunCmdletCommandBase<TCmdlet>.OnBeforeCreateGlobalInstance
-  nameWithType.vb: PLC4NetClassToRunCmdletCommandBase(Of TCmdlet).OnBeforeCreateGlobalInstance
-- uid: MASES.PLC4NetPS.Cmdlet.PLC4NetPSCmdlet
-  name: PLC4NetPSCmdlet
-  href: api/MASES.PLC4NetPS.Cmdlet.PLC4NetPSCmdlet.html
-  commentId: T:MASES.PLC4NetPS.Cmdlet.PLC4NetPSCmdlet
-  fullName: MASES.PLC4NetPS.Cmdlet.PLC4NetPSCmdlet
-  nameWithType: PLC4NetPSCmdlet
-- uid: MASES.PLC4NetPS.Cmdlet.PLC4XClassToRunCmdletCommandBase`1
+- uid: MASES.PLCOnNetPS.Cmdlet.PLC4XClassToRunCmdletCommandBase`1
   name: PLC4XClassToRunCmdletCommandBase<TCmdlet>
-  href: api/MASES.PLC4NetPS.Cmdlet.PLC4XClassToRunCmdletCommandBase-1.html
-  commentId: T:MASES.PLC4NetPS.Cmdlet.PLC4XClassToRunCmdletCommandBase`1
+  href: api/MASES.PLCOnNetPS.Cmdlet.PLC4XClassToRunCmdletCommandBase-1.html
+  commentId: T:MASES.PLCOnNetPS.Cmdlet.PLC4XClassToRunCmdletCommandBase`1
   name.vb: PLC4XClassToRunCmdletCommandBase(Of TCmdlet)
-  fullName: MASES.PLC4NetPS.Cmdlet.PLC4XClassToRunCmdletCommandBase<TCmdlet>
-  fullName.vb: MASES.PLC4NetPS.Cmdlet.PLC4XClassToRunCmdletCommandBase(Of TCmdlet)
+  fullName: MASES.PLCOnNetPS.Cmdlet.PLC4XClassToRunCmdletCommandBase<TCmdlet>
+  fullName.vb: MASES.PLCOnNetPS.Cmdlet.PLC4XClassToRunCmdletCommandBase(Of TCmdlet)
   nameWithType: PLC4XClassToRunCmdletCommandBase<TCmdlet>
   nameWithType.vb: PLC4XClassToRunCmdletCommandBase(Of TCmdlet)
-- uid: MASES.PLC4NetPS.Cmdlet.PLC4XClassToRunCmdletCommandBase`1.Arguments
+- uid: MASES.PLCOnNetPS.Cmdlet.PLC4XClassToRunCmdletCommandBase`1.Arguments
   name: Arguments
-  href: api/MASES.PLC4NetPS.Cmdlet.PLC4XClassToRunCmdletCommandBase-1.html#MASES_PLC4NetPS_Cmdlet_PLC4XClassToRunCmdletCommandBase_1_Arguments
-  commentId: P:MASES.PLC4NetPS.Cmdlet.PLC4XClassToRunCmdletCommandBase`1.Arguments
-  fullName: MASES.PLC4NetPS.Cmdlet.PLC4XClassToRunCmdletCommandBase<TCmdlet>.Arguments
-  fullName.vb: MASES.PLC4NetPS.Cmdlet.PLC4XClassToRunCmdletCommandBase(Of TCmdlet).Arguments
+  href: api/MASES.PLCOnNetPS.Cmdlet.PLC4XClassToRunCmdletCommandBase-1.html#MASES_PLCOnNetPS_Cmdlet_PLC4XClassToRunCmdletCommandBase_1_Arguments
+  commentId: P:MASES.PLCOnNetPS.Cmdlet.PLC4XClassToRunCmdletCommandBase`1.Arguments
+  fullName: MASES.PLCOnNetPS.Cmdlet.PLC4XClassToRunCmdletCommandBase<TCmdlet>.Arguments
+  fullName.vb: MASES.PLCOnNetPS.Cmdlet.PLC4XClassToRunCmdletCommandBase(Of TCmdlet).Arguments
   nameWithType: PLC4XClassToRunCmdletCommandBase<TCmdlet>.Arguments
   nameWithType.vb: PLC4XClassToRunCmdletCommandBase(Of TCmdlet).Arguments
-- uid: MASES.PLC4NetPS.Cmdlet.PLC4XClassToRunCmdletCommandBase`1.Arguments*
+- uid: MASES.PLCOnNetPS.Cmdlet.PLC4XClassToRunCmdletCommandBase`1.Arguments*
   name: Arguments
-  href: api/MASES.PLC4NetPS.Cmdlet.PLC4XClassToRunCmdletCommandBase-1.html#MASES_PLC4NetPS_Cmdlet_PLC4XClassToRunCmdletCommandBase_1_Arguments_
-  commentId: Overload:MASES.PLC4NetPS.Cmdlet.PLC4XClassToRunCmdletCommandBase`1.Arguments
+  href: api/MASES.PLCOnNetPS.Cmdlet.PLC4XClassToRunCmdletCommandBase-1.html#MASES_PLCOnNetPS_Cmdlet_PLC4XClassToRunCmdletCommandBase_1_Arguments_
+  commentId: Overload:MASES.PLCOnNetPS.Cmdlet.PLC4XClassToRunCmdletCommandBase`1.Arguments
   isSpec: "True"
-  fullName: MASES.PLC4NetPS.Cmdlet.PLC4XClassToRunCmdletCommandBase<TCmdlet>.Arguments
-  fullName.vb: MASES.PLC4NetPS.Cmdlet.PLC4XClassToRunCmdletCommandBase(Of TCmdlet).Arguments
+  fullName: MASES.PLCOnNetPS.Cmdlet.PLC4XClassToRunCmdletCommandBase<TCmdlet>.Arguments
+  fullName.vb: MASES.PLCOnNetPS.Cmdlet.PLC4XClassToRunCmdletCommandBase(Of TCmdlet).Arguments
   nameWithType: PLC4XClassToRunCmdletCommandBase<TCmdlet>.Arguments
   nameWithType.vb: PLC4XClassToRunCmdletCommandBase(Of TCmdlet).Arguments
-- uid: MASES.PLC4NetPS.Cmdlet.PLC4XClassToRunCmdletCommandBase`1.OnAfterCreateGlobalInstance
+- uid: MASES.PLCOnNetPS.Cmdlet.PLC4XClassToRunCmdletCommandBase`1.OnAfterCreateGlobalInstance
   name: OnAfterCreateGlobalInstance()
-  href: api/MASES.PLC4NetPS.Cmdlet.PLC4XClassToRunCmdletCommandBase-1.html#MASES_PLC4NetPS_Cmdlet_PLC4XClassToRunCmdletCommandBase_1_OnAfterCreateGlobalInstance
-  commentId: M:MASES.PLC4NetPS.Cmdlet.PLC4XClassToRunCmdletCommandBase`1.OnAfterCreateGlobalInstance
-  fullName: MASES.PLC4NetPS.Cmdlet.PLC4XClassToRunCmdletCommandBase<TCmdlet>.OnAfterCreateGlobalInstance()
-  fullName.vb: MASES.PLC4NetPS.Cmdlet.PLC4XClassToRunCmdletCommandBase(Of TCmdlet).OnAfterCreateGlobalInstance()
+  href: api/MASES.PLCOnNetPS.Cmdlet.PLC4XClassToRunCmdletCommandBase-1.html#MASES_PLCOnNetPS_Cmdlet_PLC4XClassToRunCmdletCommandBase_1_OnAfterCreateGlobalInstance
+  commentId: M:MASES.PLCOnNetPS.Cmdlet.PLC4XClassToRunCmdletCommandBase`1.OnAfterCreateGlobalInstance
+  fullName: MASES.PLCOnNetPS.Cmdlet.PLC4XClassToRunCmdletCommandBase<TCmdlet>.OnAfterCreateGlobalInstance()
+  fullName.vb: MASES.PLCOnNetPS.Cmdlet.PLC4XClassToRunCmdletCommandBase(Of TCmdlet).OnAfterCreateGlobalInstance()
   nameWithType: PLC4XClassToRunCmdletCommandBase<TCmdlet>.OnAfterCreateGlobalInstance()
   nameWithType.vb: PLC4XClassToRunCmdletCommandBase(Of TCmdlet).OnAfterCreateGlobalInstance()
-- uid: MASES.PLC4NetPS.Cmdlet.PLC4XClassToRunCmdletCommandBase`1.OnAfterCreateGlobalInstance*
+- uid: MASES.PLCOnNetPS.Cmdlet.PLC4XClassToRunCmdletCommandBase`1.OnAfterCreateGlobalInstance*
   name: OnAfterCreateGlobalInstance
-  href: api/MASES.PLC4NetPS.Cmdlet.PLC4XClassToRunCmdletCommandBase-1.html#MASES_PLC4NetPS_Cmdlet_PLC4XClassToRunCmdletCommandBase_1_OnAfterCreateGlobalInstance_
-  commentId: Overload:MASES.PLC4NetPS.Cmdlet.PLC4XClassToRunCmdletCommandBase`1.OnAfterCreateGlobalInstance
+  href: api/MASES.PLCOnNetPS.Cmdlet.PLC4XClassToRunCmdletCommandBase-1.html#MASES_PLCOnNetPS_Cmdlet_PLC4XClassToRunCmdletCommandBase_1_OnAfterCreateGlobalInstance_
+  commentId: Overload:MASES.PLCOnNetPS.Cmdlet.PLC4XClassToRunCmdletCommandBase`1.OnAfterCreateGlobalInstance
   isSpec: "True"
-  fullName: MASES.PLC4NetPS.Cmdlet.PLC4XClassToRunCmdletCommandBase<TCmdlet>.OnAfterCreateGlobalInstance
-  fullName.vb: MASES.PLC4NetPS.Cmdlet.PLC4XClassToRunCmdletCommandBase(Of TCmdlet).OnAfterCreateGlobalInstance
+  fullName: MASES.PLCOnNetPS.Cmdlet.PLC4XClassToRunCmdletCommandBase<TCmdlet>.OnAfterCreateGlobalInstance
+  fullName.vb: MASES.PLCOnNetPS.Cmdlet.PLC4XClassToRunCmdletCommandBase(Of TCmdlet).OnAfterCreateGlobalInstance
   nameWithType: PLC4XClassToRunCmdletCommandBase<TCmdlet>.OnAfterCreateGlobalInstance
   nameWithType.vb: PLC4XClassToRunCmdletCommandBase(Of TCmdlet).OnAfterCreateGlobalInstance
-- uid: MASES.PLC4NetPS.Cmdlet.PLC4XClassToRunCmdletCommandBase`1.OnBeforeCreateGlobalInstance
+- uid: MASES.PLCOnNetPS.Cmdlet.PLC4XClassToRunCmdletCommandBase`1.OnBeforeCreateGlobalInstance
   name: OnBeforeCreateGlobalInstance()
-  href: api/MASES.PLC4NetPS.Cmdlet.PLC4XClassToRunCmdletCommandBase-1.html#MASES_PLC4NetPS_Cmdlet_PLC4XClassToRunCmdletCommandBase_1_OnBeforeCreateGlobalInstance
-  commentId: M:MASES.PLC4NetPS.Cmdlet.PLC4XClassToRunCmdletCommandBase`1.OnBeforeCreateGlobalInstance
-  fullName: MASES.PLC4NetPS.Cmdlet.PLC4XClassToRunCmdletCommandBase<TCmdlet>.OnBeforeCreateGlobalInstance()
-  fullName.vb: MASES.PLC4NetPS.Cmdlet.PLC4XClassToRunCmdletCommandBase(Of TCmdlet).OnBeforeCreateGlobalInstance()
+  href: api/MASES.PLCOnNetPS.Cmdlet.PLC4XClassToRunCmdletCommandBase-1.html#MASES_PLCOnNetPS_Cmdlet_PLC4XClassToRunCmdletCommandBase_1_OnBeforeCreateGlobalInstance
+  commentId: M:MASES.PLCOnNetPS.Cmdlet.PLC4XClassToRunCmdletCommandBase`1.OnBeforeCreateGlobalInstance
+  fullName: MASES.PLCOnNetPS.Cmdlet.PLC4XClassToRunCmdletCommandBase<TCmdlet>.OnBeforeCreateGlobalInstance()
+  fullName.vb: MASES.PLCOnNetPS.Cmdlet.PLC4XClassToRunCmdletCommandBase(Of TCmdlet).OnBeforeCreateGlobalInstance()
   nameWithType: PLC4XClassToRunCmdletCommandBase<TCmdlet>.OnBeforeCreateGlobalInstance()
   nameWithType.vb: PLC4XClassToRunCmdletCommandBase(Of TCmdlet).OnBeforeCreateGlobalInstance()
-- uid: MASES.PLC4NetPS.Cmdlet.PLC4XClassToRunCmdletCommandBase`1.OnBeforeCreateGlobalInstance*
+- uid: MASES.PLCOnNetPS.Cmdlet.PLC4XClassToRunCmdletCommandBase`1.OnBeforeCreateGlobalInstance*
   name: OnBeforeCreateGlobalInstance
-  href: api/MASES.PLC4NetPS.Cmdlet.PLC4XClassToRunCmdletCommandBase-1.html#MASES_PLC4NetPS_Cmdlet_PLC4XClassToRunCmdletCommandBase_1_OnBeforeCreateGlobalInstance_
-  commentId: Overload:MASES.PLC4NetPS.Cmdlet.PLC4XClassToRunCmdletCommandBase`1.OnBeforeCreateGlobalInstance
+  href: api/MASES.PLCOnNetPS.Cmdlet.PLC4XClassToRunCmdletCommandBase-1.html#MASES_PLCOnNetPS_Cmdlet_PLC4XClassToRunCmdletCommandBase_1_OnBeforeCreateGlobalInstance_
+  commentId: Overload:MASES.PLCOnNetPS.Cmdlet.PLC4XClassToRunCmdletCommandBase`1.OnBeforeCreateGlobalInstance
   isSpec: "True"
-  fullName: MASES.PLC4NetPS.Cmdlet.PLC4XClassToRunCmdletCommandBase<TCmdlet>.OnBeforeCreateGlobalInstance
-  fullName.vb: MASES.PLC4NetPS.Cmdlet.PLC4XClassToRunCmdletCommandBase(Of TCmdlet).OnBeforeCreateGlobalInstance
+  fullName: MASES.PLCOnNetPS.Cmdlet.PLC4XClassToRunCmdletCommandBase<TCmdlet>.OnBeforeCreateGlobalInstance
+  fullName.vb: MASES.PLCOnNetPS.Cmdlet.PLC4XClassToRunCmdletCommandBase(Of TCmdlet).OnBeforeCreateGlobalInstance
   nameWithType: PLC4XClassToRunCmdletCommandBase<TCmdlet>.OnBeforeCreateGlobalInstance
   nameWithType.vb: PLC4XClassToRunCmdletCommandBase(Of TCmdlet).OnBeforeCreateGlobalInstance
-- uid: MASES.PLC4NetPS.Cmdlet.StartPLC4NetPSCmdletCommand
-  name: StartPLC4NetPSCmdletCommand
-  href: api/MASES.PLC4NetPS.Cmdlet.StartPLC4NetPSCmdletCommand.html
-  commentId: T:MASES.PLC4NetPS.Cmdlet.StartPLC4NetPSCmdletCommand
-  fullName: MASES.PLC4NetPS.Cmdlet.StartPLC4NetPSCmdletCommand
-  nameWithType: StartPLC4NetPSCmdletCommand
-- uid: MASES.PLC4NetPS.Cmdlet.StartPLC4NetPSCmdletCommandBase`1
-  name: StartPLC4NetPSCmdletCommandBase<TCmdlet>
-  href: api/MASES.PLC4NetPS.Cmdlet.StartPLC4NetPSCmdletCommandBase-1.html
-  commentId: T:MASES.PLC4NetPS.Cmdlet.StartPLC4NetPSCmdletCommandBase`1
-  name.vb: StartPLC4NetPSCmdletCommandBase(Of TCmdlet)
-  fullName: MASES.PLC4NetPS.Cmdlet.StartPLC4NetPSCmdletCommandBase<TCmdlet>
-  fullName.vb: MASES.PLC4NetPS.Cmdlet.StartPLC4NetPSCmdletCommandBase(Of TCmdlet)
-  nameWithType: StartPLC4NetPSCmdletCommandBase<TCmdlet>
-  nameWithType.vb: StartPLC4NetPSCmdletCommandBase(Of TCmdlet)
-- uid: MASES.PLC4NetPS.Cmdlet.StartPLC4NetPSCmdletCommandBase`1.CommonLoggingPath
-  name: CommonLoggingPath
-  href: api/MASES.PLC4NetPS.Cmdlet.StartPLC4NetPSCmdletCommandBase-1.html#MASES_PLC4NetPS_Cmdlet_StartPLC4NetPSCmdletCommandBase_1_CommonLoggingPath
-  commentId: P:MASES.PLC4NetPS.Cmdlet.StartPLC4NetPSCmdletCommandBase`1.CommonLoggingPath
-  fullName: MASES.PLC4NetPS.Cmdlet.StartPLC4NetPSCmdletCommandBase<TCmdlet>.CommonLoggingPath
-  fullName.vb: MASES.PLC4NetPS.Cmdlet.StartPLC4NetPSCmdletCommandBase(Of TCmdlet).CommonLoggingPath
-  nameWithType: StartPLC4NetPSCmdletCommandBase<TCmdlet>.CommonLoggingPath
-  nameWithType.vb: StartPLC4NetPSCmdletCommandBase(Of TCmdlet).CommonLoggingPath
-- uid: MASES.PLC4NetPS.Cmdlet.StartPLC4NetPSCmdletCommandBase`1.CommonLoggingPath*
-  name: CommonLoggingPath
-  href: api/MASES.PLC4NetPS.Cmdlet.StartPLC4NetPSCmdletCommandBase-1.html#MASES_PLC4NetPS_Cmdlet_StartPLC4NetPSCmdletCommandBase_1_CommonLoggingPath_
-  commentId: Overload:MASES.PLC4NetPS.Cmdlet.StartPLC4NetPSCmdletCommandBase`1.CommonLoggingPath
+- uid: MASES.PLCOnNetPS.Cmdlet.PLCOnNetClassToRunCmdletCommandBase`1
+  name: PLCOnNetClassToRunCmdletCommandBase<TCmdlet>
+  href: api/MASES.PLCOnNetPS.Cmdlet.PLCOnNetClassToRunCmdletCommandBase-1.html
+  commentId: T:MASES.PLCOnNetPS.Cmdlet.PLCOnNetClassToRunCmdletCommandBase`1
+  name.vb: PLCOnNetClassToRunCmdletCommandBase(Of TCmdlet)
+  fullName: MASES.PLCOnNetPS.Cmdlet.PLCOnNetClassToRunCmdletCommandBase<TCmdlet>
+  fullName.vb: MASES.PLCOnNetPS.Cmdlet.PLCOnNetClassToRunCmdletCommandBase(Of TCmdlet)
+  nameWithType: PLCOnNetClassToRunCmdletCommandBase<TCmdlet>
+  nameWithType.vb: PLCOnNetClassToRunCmdletCommandBase(Of TCmdlet)
+- uid: MASES.PLCOnNetPS.Cmdlet.PLCOnNetClassToRunCmdletCommandBase`1.Arguments
+  name: Arguments
+  href: api/MASES.PLCOnNetPS.Cmdlet.PLCOnNetClassToRunCmdletCommandBase-1.html#MASES_PLCOnNetPS_Cmdlet_PLCOnNetClassToRunCmdletCommandBase_1_Arguments
+  commentId: P:MASES.PLCOnNetPS.Cmdlet.PLCOnNetClassToRunCmdletCommandBase`1.Arguments
+  fullName: MASES.PLCOnNetPS.Cmdlet.PLCOnNetClassToRunCmdletCommandBase<TCmdlet>.Arguments
+  fullName.vb: MASES.PLCOnNetPS.Cmdlet.PLCOnNetClassToRunCmdletCommandBase(Of TCmdlet).Arguments
+  nameWithType: PLCOnNetClassToRunCmdletCommandBase<TCmdlet>.Arguments
+  nameWithType.vb: PLCOnNetClassToRunCmdletCommandBase(Of TCmdlet).Arguments
+- uid: MASES.PLCOnNetPS.Cmdlet.PLCOnNetClassToRunCmdletCommandBase`1.Arguments*
+  name: Arguments
+  href: api/MASES.PLCOnNetPS.Cmdlet.PLCOnNetClassToRunCmdletCommandBase-1.html#MASES_PLCOnNetPS_Cmdlet_PLCOnNetClassToRunCmdletCommandBase_1_Arguments_
+  commentId: Overload:MASES.PLCOnNetPS.Cmdlet.PLCOnNetClassToRunCmdletCommandBase`1.Arguments
   isSpec: "True"
-  fullName: MASES.PLC4NetPS.Cmdlet.StartPLC4NetPSCmdletCommandBase<TCmdlet>.CommonLoggingPath
-  fullName.vb: MASES.PLC4NetPS.Cmdlet.StartPLC4NetPSCmdletCommandBase(Of TCmdlet).CommonLoggingPath
-  nameWithType: StartPLC4NetPSCmdletCommandBase<TCmdlet>.CommonLoggingPath
-  nameWithType.vb: StartPLC4NetPSCmdletCommandBase(Of TCmdlet).CommonLoggingPath
-- uid: MASES.PLC4NetPS.Cmdlet.StartPLC4NetPSCmdletCommandBase`1.LogPath
-  name: LogPath
-  href: api/MASES.PLC4NetPS.Cmdlet.StartPLC4NetPSCmdletCommandBase-1.html#MASES_PLC4NetPS_Cmdlet_StartPLC4NetPSCmdletCommandBase_1_LogPath
-  commentId: P:MASES.PLC4NetPS.Cmdlet.StartPLC4NetPSCmdletCommandBase`1.LogPath
-  fullName: MASES.PLC4NetPS.Cmdlet.StartPLC4NetPSCmdletCommandBase<TCmdlet>.LogPath
-  fullName.vb: MASES.PLC4NetPS.Cmdlet.StartPLC4NetPSCmdletCommandBase(Of TCmdlet).LogPath
-  nameWithType: StartPLC4NetPSCmdletCommandBase<TCmdlet>.LogPath
-  nameWithType.vb: StartPLC4NetPSCmdletCommandBase(Of TCmdlet).LogPath
-- uid: MASES.PLC4NetPS.Cmdlet.StartPLC4NetPSCmdletCommandBase`1.LogPath*
-  name: LogPath
-  href: api/MASES.PLC4NetPS.Cmdlet.StartPLC4NetPSCmdletCommandBase-1.html#MASES_PLC4NetPS_Cmdlet_StartPLC4NetPSCmdletCommandBase_1_LogPath_
-  commentId: Overload:MASES.PLC4NetPS.Cmdlet.StartPLC4NetPSCmdletCommandBase`1.LogPath
+  fullName: MASES.PLCOnNetPS.Cmdlet.PLCOnNetClassToRunCmdletCommandBase<TCmdlet>.Arguments
+  fullName.vb: MASES.PLCOnNetPS.Cmdlet.PLCOnNetClassToRunCmdletCommandBase(Of TCmdlet).Arguments
+  nameWithType: PLCOnNetClassToRunCmdletCommandBase<TCmdlet>.Arguments
+  nameWithType.vb: PLCOnNetClassToRunCmdletCommandBase(Of TCmdlet).Arguments
+- uid: MASES.PLCOnNetPS.Cmdlet.PLCOnNetClassToRunCmdletCommandBase`1.OnAfterCreateGlobalInstance
+  name: OnAfterCreateGlobalInstance()
+  href: api/MASES.PLCOnNetPS.Cmdlet.PLCOnNetClassToRunCmdletCommandBase-1.html#MASES_PLCOnNetPS_Cmdlet_PLCOnNetClassToRunCmdletCommandBase_1_OnAfterCreateGlobalInstance
+  commentId: M:MASES.PLCOnNetPS.Cmdlet.PLCOnNetClassToRunCmdletCommandBase`1.OnAfterCreateGlobalInstance
+  fullName: MASES.PLCOnNetPS.Cmdlet.PLCOnNetClassToRunCmdletCommandBase<TCmdlet>.OnAfterCreateGlobalInstance()
+  fullName.vb: MASES.PLCOnNetPS.Cmdlet.PLCOnNetClassToRunCmdletCommandBase(Of TCmdlet).OnAfterCreateGlobalInstance()
+  nameWithType: PLCOnNetClassToRunCmdletCommandBase<TCmdlet>.OnAfterCreateGlobalInstance()
+  nameWithType.vb: PLCOnNetClassToRunCmdletCommandBase(Of TCmdlet).OnAfterCreateGlobalInstance()
+- uid: MASES.PLCOnNetPS.Cmdlet.PLCOnNetClassToRunCmdletCommandBase`1.OnAfterCreateGlobalInstance*
+  name: OnAfterCreateGlobalInstance
+  href: api/MASES.PLCOnNetPS.Cmdlet.PLCOnNetClassToRunCmdletCommandBase-1.html#MASES_PLCOnNetPS_Cmdlet_PLCOnNetClassToRunCmdletCommandBase_1_OnAfterCreateGlobalInstance_
+  commentId: Overload:MASES.PLCOnNetPS.Cmdlet.PLCOnNetClassToRunCmdletCommandBase`1.OnAfterCreateGlobalInstance
   isSpec: "True"
-  fullName: MASES.PLC4NetPS.Cmdlet.StartPLC4NetPSCmdletCommandBase<TCmdlet>.LogPath
-  fullName.vb: MASES.PLC4NetPS.Cmdlet.StartPLC4NetPSCmdletCommandBase(Of TCmdlet).LogPath
-  nameWithType: StartPLC4NetPSCmdletCommandBase<TCmdlet>.LogPath
-  nameWithType.vb: StartPLC4NetPSCmdletCommandBase(Of TCmdlet).LogPath
-- uid: MASES.PLC4NetPS.Cmdlet.StartPLC4NetPSCmdletCommandBase`1.OnBeforeCreateGlobalInstance
+  fullName: MASES.PLCOnNetPS.Cmdlet.PLCOnNetClassToRunCmdletCommandBase<TCmdlet>.OnAfterCreateGlobalInstance
+  fullName.vb: MASES.PLCOnNetPS.Cmdlet.PLCOnNetClassToRunCmdletCommandBase(Of TCmdlet).OnAfterCreateGlobalInstance
+  nameWithType: PLCOnNetClassToRunCmdletCommandBase<TCmdlet>.OnAfterCreateGlobalInstance
+  nameWithType.vb: PLCOnNetClassToRunCmdletCommandBase(Of TCmdlet).OnAfterCreateGlobalInstance
+- uid: MASES.PLCOnNetPS.Cmdlet.PLCOnNetClassToRunCmdletCommandBase`1.OnBeforeCreateGlobalInstance
   name: OnBeforeCreateGlobalInstance()
-  href: api/MASES.PLC4NetPS.Cmdlet.StartPLC4NetPSCmdletCommandBase-1.html#MASES_PLC4NetPS_Cmdlet_StartPLC4NetPSCmdletCommandBase_1_OnBeforeCreateGlobalInstance
-  commentId: M:MASES.PLC4NetPS.Cmdlet.StartPLC4NetPSCmdletCommandBase`1.OnBeforeCreateGlobalInstance
-  fullName: MASES.PLC4NetPS.Cmdlet.StartPLC4NetPSCmdletCommandBase<TCmdlet>.OnBeforeCreateGlobalInstance()
-  fullName.vb: MASES.PLC4NetPS.Cmdlet.StartPLC4NetPSCmdletCommandBase(Of TCmdlet).OnBeforeCreateGlobalInstance()
-  nameWithType: StartPLC4NetPSCmdletCommandBase<TCmdlet>.OnBeforeCreateGlobalInstance()
-  nameWithType.vb: StartPLC4NetPSCmdletCommandBase(Of TCmdlet).OnBeforeCreateGlobalInstance()
-- uid: MASES.PLC4NetPS.Cmdlet.StartPLC4NetPSCmdletCommandBase`1.OnBeforeCreateGlobalInstance*
+  href: api/MASES.PLCOnNetPS.Cmdlet.PLCOnNetClassToRunCmdletCommandBase-1.html#MASES_PLCOnNetPS_Cmdlet_PLCOnNetClassToRunCmdletCommandBase_1_OnBeforeCreateGlobalInstance
+  commentId: M:MASES.PLCOnNetPS.Cmdlet.PLCOnNetClassToRunCmdletCommandBase`1.OnBeforeCreateGlobalInstance
+  fullName: MASES.PLCOnNetPS.Cmdlet.PLCOnNetClassToRunCmdletCommandBase<TCmdlet>.OnBeforeCreateGlobalInstance()
+  fullName.vb: MASES.PLCOnNetPS.Cmdlet.PLCOnNetClassToRunCmdletCommandBase(Of TCmdlet).OnBeforeCreateGlobalInstance()
+  nameWithType: PLCOnNetClassToRunCmdletCommandBase<TCmdlet>.OnBeforeCreateGlobalInstance()
+  nameWithType.vb: PLCOnNetClassToRunCmdletCommandBase(Of TCmdlet).OnBeforeCreateGlobalInstance()
+- uid: MASES.PLCOnNetPS.Cmdlet.PLCOnNetClassToRunCmdletCommandBase`1.OnBeforeCreateGlobalInstance*
   name: OnBeforeCreateGlobalInstance
-  href: api/MASES.PLC4NetPS.Cmdlet.StartPLC4NetPSCmdletCommandBase-1.html#MASES_PLC4NetPS_Cmdlet_StartPLC4NetPSCmdletCommandBase_1_OnBeforeCreateGlobalInstance_
-  commentId: Overload:MASES.PLC4NetPS.Cmdlet.StartPLC4NetPSCmdletCommandBase`1.OnBeforeCreateGlobalInstance
+  href: api/MASES.PLCOnNetPS.Cmdlet.PLCOnNetClassToRunCmdletCommandBase-1.html#MASES_PLCOnNetPS_Cmdlet_PLCOnNetClassToRunCmdletCommandBase_1_OnBeforeCreateGlobalInstance_
+  commentId: Overload:MASES.PLCOnNetPS.Cmdlet.PLCOnNetClassToRunCmdletCommandBase`1.OnBeforeCreateGlobalInstance
   isSpec: "True"
-  fullName: MASES.PLC4NetPS.Cmdlet.StartPLC4NetPSCmdletCommandBase<TCmdlet>.OnBeforeCreateGlobalInstance
-  fullName.vb: MASES.PLC4NetPS.Cmdlet.StartPLC4NetPSCmdletCommandBase(Of TCmdlet).OnBeforeCreateGlobalInstance
-  nameWithType: StartPLC4NetPSCmdletCommandBase<TCmdlet>.OnBeforeCreateGlobalInstance
-  nameWithType.vb: StartPLC4NetPSCmdletCommandBase(Of TCmdlet).OnBeforeCreateGlobalInstance
-- uid: MASES.PLC4NetPS.PLC4NetPSCore
-  name: PLC4NetPSCore
-  href: api/MASES.PLC4NetPS.PLC4NetPSCore.html
-  commentId: T:MASES.PLC4NetPS.PLC4NetPSCore
-  fullName: MASES.PLC4NetPS.PLC4NetPSCore
-  nameWithType: PLC4NetPSCore
-- uid: MASES.PLC4NetPS.PLC4NetPSHelper`1
-  name: PLC4NetPSHelper<TClass>
-  href: api/MASES.PLC4NetPS.PLC4NetPSHelper-1.html
-  commentId: T:MASES.PLC4NetPS.PLC4NetPSHelper`1
-  name.vb: PLC4NetPSHelper(Of TClass)
-  fullName: MASES.PLC4NetPS.PLC4NetPSHelper<TClass>
-  fullName.vb: MASES.PLC4NetPS.PLC4NetPSHelper(Of TClass)
-  nameWithType: PLC4NetPSHelper<TClass>
-  nameWithType.vb: PLC4NetPSHelper(Of TClass)
-- uid: MASES.PLC4NetPS.PLC4NetPSHelper`1.SetClassToRun(System.String)
+  fullName: MASES.PLCOnNetPS.Cmdlet.PLCOnNetClassToRunCmdletCommandBase<TCmdlet>.OnBeforeCreateGlobalInstance
+  fullName.vb: MASES.PLCOnNetPS.Cmdlet.PLCOnNetClassToRunCmdletCommandBase(Of TCmdlet).OnBeforeCreateGlobalInstance
+  nameWithType: PLCOnNetClassToRunCmdletCommandBase<TCmdlet>.OnBeforeCreateGlobalInstance
+  nameWithType.vb: PLCOnNetClassToRunCmdletCommandBase(Of TCmdlet).OnBeforeCreateGlobalInstance
+- uid: MASES.PLCOnNetPS.Cmdlet.PLCOnNetPSCmdlet
+  name: PLCOnNetPSCmdlet
+  href: api/MASES.PLCOnNetPS.Cmdlet.PLCOnNetPSCmdlet.html
+  commentId: T:MASES.PLCOnNetPS.Cmdlet.PLCOnNetPSCmdlet
+  fullName: MASES.PLCOnNetPS.Cmdlet.PLCOnNetPSCmdlet
+  nameWithType: PLCOnNetPSCmdlet
+- uid: MASES.PLCOnNetPS.Cmdlet.StartPLCOnNetPSCmdletCommand
+  name: StartPLCOnNetPSCmdletCommand
+  href: api/MASES.PLCOnNetPS.Cmdlet.StartPLCOnNetPSCmdletCommand.html
+  commentId: T:MASES.PLCOnNetPS.Cmdlet.StartPLCOnNetPSCmdletCommand
+  fullName: MASES.PLCOnNetPS.Cmdlet.StartPLCOnNetPSCmdletCommand
+  nameWithType: StartPLCOnNetPSCmdletCommand
+- uid: MASES.PLCOnNetPS.Cmdlet.StartPLCOnNetPSCmdletCommandBase`1
+  name: StartPLCOnNetPSCmdletCommandBase<TCmdlet>
+  href: api/MASES.PLCOnNetPS.Cmdlet.StartPLCOnNetPSCmdletCommandBase-1.html
+  commentId: T:MASES.PLCOnNetPS.Cmdlet.StartPLCOnNetPSCmdletCommandBase`1
+  name.vb: StartPLCOnNetPSCmdletCommandBase(Of TCmdlet)
+  fullName: MASES.PLCOnNetPS.Cmdlet.StartPLCOnNetPSCmdletCommandBase<TCmdlet>
+  fullName.vb: MASES.PLCOnNetPS.Cmdlet.StartPLCOnNetPSCmdletCommandBase(Of TCmdlet)
+  nameWithType: StartPLCOnNetPSCmdletCommandBase<TCmdlet>
+  nameWithType.vb: StartPLCOnNetPSCmdletCommandBase(Of TCmdlet)
+- uid: MASES.PLCOnNetPS.Cmdlet.StartPLCOnNetPSCmdletCommandBase`1.CommonLoggingPath
+  name: CommonLoggingPath
+  href: api/MASES.PLCOnNetPS.Cmdlet.StartPLCOnNetPSCmdletCommandBase-1.html#MASES_PLCOnNetPS_Cmdlet_StartPLCOnNetPSCmdletCommandBase_1_CommonLoggingPath
+  commentId: P:MASES.PLCOnNetPS.Cmdlet.StartPLCOnNetPSCmdletCommandBase`1.CommonLoggingPath
+  fullName: MASES.PLCOnNetPS.Cmdlet.StartPLCOnNetPSCmdletCommandBase<TCmdlet>.CommonLoggingPath
+  fullName.vb: MASES.PLCOnNetPS.Cmdlet.StartPLCOnNetPSCmdletCommandBase(Of TCmdlet).CommonLoggingPath
+  nameWithType: StartPLCOnNetPSCmdletCommandBase<TCmdlet>.CommonLoggingPath
+  nameWithType.vb: StartPLCOnNetPSCmdletCommandBase(Of TCmdlet).CommonLoggingPath
+- uid: MASES.PLCOnNetPS.Cmdlet.StartPLCOnNetPSCmdletCommandBase`1.CommonLoggingPath*
+  name: CommonLoggingPath
+  href: api/MASES.PLCOnNetPS.Cmdlet.StartPLCOnNetPSCmdletCommandBase-1.html#MASES_PLCOnNetPS_Cmdlet_StartPLCOnNetPSCmdletCommandBase_1_CommonLoggingPath_
+  commentId: Overload:MASES.PLCOnNetPS.Cmdlet.StartPLCOnNetPSCmdletCommandBase`1.CommonLoggingPath
+  isSpec: "True"
+  fullName: MASES.PLCOnNetPS.Cmdlet.StartPLCOnNetPSCmdletCommandBase<TCmdlet>.CommonLoggingPath
+  fullName.vb: MASES.PLCOnNetPS.Cmdlet.StartPLCOnNetPSCmdletCommandBase(Of TCmdlet).CommonLoggingPath
+  nameWithType: StartPLCOnNetPSCmdletCommandBase<TCmdlet>.CommonLoggingPath
+  nameWithType.vb: StartPLCOnNetPSCmdletCommandBase(Of TCmdlet).CommonLoggingPath
+- uid: MASES.PLCOnNetPS.Cmdlet.StartPLCOnNetPSCmdletCommandBase`1.LogPath
+  name: LogPath
+  href: api/MASES.PLCOnNetPS.Cmdlet.StartPLCOnNetPSCmdletCommandBase-1.html#MASES_PLCOnNetPS_Cmdlet_StartPLCOnNetPSCmdletCommandBase_1_LogPath
+  commentId: P:MASES.PLCOnNetPS.Cmdlet.StartPLCOnNetPSCmdletCommandBase`1.LogPath
+  fullName: MASES.PLCOnNetPS.Cmdlet.StartPLCOnNetPSCmdletCommandBase<TCmdlet>.LogPath
+  fullName.vb: MASES.PLCOnNetPS.Cmdlet.StartPLCOnNetPSCmdletCommandBase(Of TCmdlet).LogPath
+  nameWithType: StartPLCOnNetPSCmdletCommandBase<TCmdlet>.LogPath
+  nameWithType.vb: StartPLCOnNetPSCmdletCommandBase(Of TCmdlet).LogPath
+- uid: MASES.PLCOnNetPS.Cmdlet.StartPLCOnNetPSCmdletCommandBase`1.LogPath*
+  name: LogPath
+  href: api/MASES.PLCOnNetPS.Cmdlet.StartPLCOnNetPSCmdletCommandBase-1.html#MASES_PLCOnNetPS_Cmdlet_StartPLCOnNetPSCmdletCommandBase_1_LogPath_
+  commentId: Overload:MASES.PLCOnNetPS.Cmdlet.StartPLCOnNetPSCmdletCommandBase`1.LogPath
+  isSpec: "True"
+  fullName: MASES.PLCOnNetPS.Cmdlet.StartPLCOnNetPSCmdletCommandBase<TCmdlet>.LogPath
+  fullName.vb: MASES.PLCOnNetPS.Cmdlet.StartPLCOnNetPSCmdletCommandBase(Of TCmdlet).LogPath
+  nameWithType: StartPLCOnNetPSCmdletCommandBase<TCmdlet>.LogPath
+  nameWithType.vb: StartPLCOnNetPSCmdletCommandBase(Of TCmdlet).LogPath
+- uid: MASES.PLCOnNetPS.Cmdlet.StartPLCOnNetPSCmdletCommandBase`1.OnBeforeCreateGlobalInstance
+  name: OnBeforeCreateGlobalInstance()
+  href: api/MASES.PLCOnNetPS.Cmdlet.StartPLCOnNetPSCmdletCommandBase-1.html#MASES_PLCOnNetPS_Cmdlet_StartPLCOnNetPSCmdletCommandBase_1_OnBeforeCreateGlobalInstance
+  commentId: M:MASES.PLCOnNetPS.Cmdlet.StartPLCOnNetPSCmdletCommandBase`1.OnBeforeCreateGlobalInstance
+  fullName: MASES.PLCOnNetPS.Cmdlet.StartPLCOnNetPSCmdletCommandBase<TCmdlet>.OnBeforeCreateGlobalInstance()
+  fullName.vb: MASES.PLCOnNetPS.Cmdlet.StartPLCOnNetPSCmdletCommandBase(Of TCmdlet).OnBeforeCreateGlobalInstance()
+  nameWithType: StartPLCOnNetPSCmdletCommandBase<TCmdlet>.OnBeforeCreateGlobalInstance()
+  nameWithType.vb: StartPLCOnNetPSCmdletCommandBase(Of TCmdlet).OnBeforeCreateGlobalInstance()
+- uid: MASES.PLCOnNetPS.Cmdlet.StartPLCOnNetPSCmdletCommandBase`1.OnBeforeCreateGlobalInstance*
+  name: OnBeforeCreateGlobalInstance
+  href: api/MASES.PLCOnNetPS.Cmdlet.StartPLCOnNetPSCmdletCommandBase-1.html#MASES_PLCOnNetPS_Cmdlet_StartPLCOnNetPSCmdletCommandBase_1_OnBeforeCreateGlobalInstance_
+  commentId: Overload:MASES.PLCOnNetPS.Cmdlet.StartPLCOnNetPSCmdletCommandBase`1.OnBeforeCreateGlobalInstance
+  isSpec: "True"
+  fullName: MASES.PLCOnNetPS.Cmdlet.StartPLCOnNetPSCmdletCommandBase<TCmdlet>.OnBeforeCreateGlobalInstance
+  fullName.vb: MASES.PLCOnNetPS.Cmdlet.StartPLCOnNetPSCmdletCommandBase(Of TCmdlet).OnBeforeCreateGlobalInstance
+  nameWithType: StartPLCOnNetPSCmdletCommandBase<TCmdlet>.OnBeforeCreateGlobalInstance
+  nameWithType.vb: StartPLCOnNetPSCmdletCommandBase(Of TCmdlet).OnBeforeCreateGlobalInstance
+- uid: MASES.PLCOnNetPS.PLCOnNetPSCore
+  name: PLCOnNetPSCore
+  href: api/MASES.PLCOnNetPS.PLCOnNetPSCore.html
+  commentId: T:MASES.PLCOnNetPS.PLCOnNetPSCore
+  fullName: MASES.PLCOnNetPS.PLCOnNetPSCore
+  nameWithType: PLCOnNetPSCore
+- uid: MASES.PLCOnNetPS.PLCOnNetPSHelper`1
+  name: PLCOnNetPSHelper<TClass>
+  href: api/MASES.PLCOnNetPS.PLCOnNetPSHelper-1.html
+  commentId: T:MASES.PLCOnNetPS.PLCOnNetPSHelper`1
+  name.vb: PLCOnNetPSHelper(Of TClass)
+  fullName: MASES.PLCOnNetPS.PLCOnNetPSHelper<TClass>
+  fullName.vb: MASES.PLCOnNetPS.PLCOnNetPSHelper(Of TClass)
+  nameWithType: PLCOnNetPSHelper<TClass>
+  nameWithType.vb: PLCOnNetPSHelper(Of TClass)
+- uid: MASES.PLCOnNetPS.PLCOnNetPSHelper`1.SetClassToRun(System.String)
   name: SetClassToRun(string)
-  href: api/MASES.PLC4NetPS.PLC4NetPSHelper-1.html#MASES_PLC4NetPS_PLC4NetPSHelper_1_SetClassToRun_System_String_
-  commentId: M:MASES.PLC4NetPS.PLC4NetPSHelper`1.SetClassToRun(System.String)
+  href: api/MASES.PLCOnNetPS.PLCOnNetPSHelper-1.html#MASES_PLCOnNetPS_PLCOnNetPSHelper_1_SetClassToRun_System_String_
+  commentId: M:MASES.PLCOnNetPS.PLCOnNetPSHelper`1.SetClassToRun(System.String)
   name.vb: SetClassToRun(String)
-  fullName: MASES.PLC4NetPS.PLC4NetPSHelper<TClass>.SetClassToRun(string)
-  fullName.vb: MASES.PLC4NetPS.PLC4NetPSHelper(Of TClass).SetClassToRun(String)
-  nameWithType: PLC4NetPSHelper<TClass>.SetClassToRun(string)
-  nameWithType.vb: PLC4NetPSHelper(Of TClass).SetClassToRun(String)
-- uid: MASES.PLC4NetPS.PLC4NetPSHelper`1.SetClassToRun*
+  fullName: MASES.PLCOnNetPS.PLCOnNetPSHelper<TClass>.SetClassToRun(string)
+  fullName.vb: MASES.PLCOnNetPS.PLCOnNetPSHelper(Of TClass).SetClassToRun(String)
+  nameWithType: PLCOnNetPSHelper<TClass>.SetClassToRun(string)
+  nameWithType.vb: PLCOnNetPSHelper(Of TClass).SetClassToRun(String)
+- uid: MASES.PLCOnNetPS.PLCOnNetPSHelper`1.SetClassToRun*
   name: SetClassToRun
-  href: api/MASES.PLC4NetPS.PLC4NetPSHelper-1.html#MASES_PLC4NetPS_PLC4NetPSHelper_1_SetClassToRun_
-  commentId: Overload:MASES.PLC4NetPS.PLC4NetPSHelper`1.SetClassToRun
+  href: api/MASES.PLCOnNetPS.PLCOnNetPSHelper-1.html#MASES_PLCOnNetPS_PLCOnNetPSHelper_1_SetClassToRun_
+  commentId: Overload:MASES.PLCOnNetPS.PLCOnNetPSHelper`1.SetClassToRun
   isSpec: "True"
-  fullName: MASES.PLC4NetPS.PLC4NetPSHelper<TClass>.SetClassToRun
-  fullName.vb: MASES.PLC4NetPS.PLC4NetPSHelper(Of TClass).SetClassToRun
-  nameWithType: PLC4NetPSHelper<TClass>.SetClassToRun
-  nameWithType.vb: PLC4NetPSHelper(Of TClass).SetClassToRun
-- uid: MASES.PLC4NetPS.PLC4NetPSHelper`1.SetCommonLoggingPath(System.String)
+  fullName: MASES.PLCOnNetPS.PLCOnNetPSHelper<TClass>.SetClassToRun
+  fullName.vb: MASES.PLCOnNetPS.PLCOnNetPSHelper(Of TClass).SetClassToRun
+  nameWithType: PLCOnNetPSHelper<TClass>.SetClassToRun
+  nameWithType.vb: PLCOnNetPSHelper(Of TClass).SetClassToRun
+- uid: MASES.PLCOnNetPS.PLCOnNetPSHelper`1.SetCommonLoggingPath(System.String)
   name: SetCommonLoggingPath(string)
-  href: api/MASES.PLC4NetPS.PLC4NetPSHelper-1.html#MASES_PLC4NetPS_PLC4NetPSHelper_1_SetCommonLoggingPath_System_String_
-  commentId: M:MASES.PLC4NetPS.PLC4NetPSHelper`1.SetCommonLoggingPath(System.String)
+  href: api/MASES.PLCOnNetPS.PLCOnNetPSHelper-1.html#MASES_PLCOnNetPS_PLCOnNetPSHelper_1_SetCommonLoggingPath_System_String_
+  commentId: M:MASES.PLCOnNetPS.PLCOnNetPSHelper`1.SetCommonLoggingPath(System.String)
   name.vb: SetCommonLoggingPath(String)
-  fullName: MASES.PLC4NetPS.PLC4NetPSHelper<TClass>.SetCommonLoggingPath(string)
-  fullName.vb: MASES.PLC4NetPS.PLC4NetPSHelper(Of TClass).SetCommonLoggingPath(String)
-  nameWithType: PLC4NetPSHelper<TClass>.SetCommonLoggingPath(string)
-  nameWithType.vb: PLC4NetPSHelper(Of TClass).SetCommonLoggingPath(String)
-- uid: MASES.PLC4NetPS.PLC4NetPSHelper`1.SetCommonLoggingPath*
+  fullName: MASES.PLCOnNetPS.PLCOnNetPSHelper<TClass>.SetCommonLoggingPath(string)
+  fullName.vb: MASES.PLCOnNetPS.PLCOnNetPSHelper(Of TClass).SetCommonLoggingPath(String)
+  nameWithType: PLCOnNetPSHelper<TClass>.SetCommonLoggingPath(string)
+  nameWithType.vb: PLCOnNetPSHelper(Of TClass).SetCommonLoggingPath(String)
+- uid: MASES.PLCOnNetPS.PLCOnNetPSHelper`1.SetCommonLoggingPath*
   name: SetCommonLoggingPath
-  href: api/MASES.PLC4NetPS.PLC4NetPSHelper-1.html#MASES_PLC4NetPS_PLC4NetPSHelper_1_SetCommonLoggingPath_
-  commentId: Overload:MASES.PLC4NetPS.PLC4NetPSHelper`1.SetCommonLoggingPath
+  href: api/MASES.PLCOnNetPS.PLCOnNetPSHelper-1.html#MASES_PLCOnNetPS_PLCOnNetPSHelper_1_SetCommonLoggingPath_
+  commentId: Overload:MASES.PLCOnNetPS.PLCOnNetPSHelper`1.SetCommonLoggingPath
   isSpec: "True"
-  fullName: MASES.PLC4NetPS.PLC4NetPSHelper<TClass>.SetCommonLoggingPath
-  fullName.vb: MASES.PLC4NetPS.PLC4NetPSHelper(Of TClass).SetCommonLoggingPath
-  nameWithType: PLC4NetPSHelper<TClass>.SetCommonLoggingPath
-  nameWithType.vb: PLC4NetPSHelper(Of TClass).SetCommonLoggingPath
-- uid: MASES.PLC4NetPS.PLC4NetPSHelper`1.SetLogPath(System.String)
+  fullName: MASES.PLCOnNetPS.PLCOnNetPSHelper<TClass>.SetCommonLoggingPath
+  fullName.vb: MASES.PLCOnNetPS.PLCOnNetPSHelper(Of TClass).SetCommonLoggingPath
+  nameWithType: PLCOnNetPSHelper<TClass>.SetCommonLoggingPath
+  nameWithType.vb: PLCOnNetPSHelper(Of TClass).SetCommonLoggingPath
+- uid: MASES.PLCOnNetPS.PLCOnNetPSHelper`1.SetLogPath(System.String)
   name: SetLogPath(string)
-  href: api/MASES.PLC4NetPS.PLC4NetPSHelper-1.html#MASES_PLC4NetPS_PLC4NetPSHelper_1_SetLogPath_System_String_
-  commentId: M:MASES.PLC4NetPS.PLC4NetPSHelper`1.SetLogPath(System.String)
+  href: api/MASES.PLCOnNetPS.PLCOnNetPSHelper-1.html#MASES_PLCOnNetPS_PLCOnNetPSHelper_1_SetLogPath_System_String_
+  commentId: M:MASES.PLCOnNetPS.PLCOnNetPSHelper`1.SetLogPath(System.String)
   name.vb: SetLogPath(String)
-  fullName: MASES.PLC4NetPS.PLC4NetPSHelper<TClass>.SetLogPath(string)
-  fullName.vb: MASES.PLC4NetPS.PLC4NetPSHelper(Of TClass).SetLogPath(String)
-  nameWithType: PLC4NetPSHelper<TClass>.SetLogPath(string)
-  nameWithType.vb: PLC4NetPSHelper(Of TClass).SetLogPath(String)
-- uid: MASES.PLC4NetPS.PLC4NetPSHelper`1.SetLogPath*
+  fullName: MASES.PLCOnNetPS.PLCOnNetPSHelper<TClass>.SetLogPath(string)
+  fullName.vb: MASES.PLCOnNetPS.PLCOnNetPSHelper(Of TClass).SetLogPath(String)
+  nameWithType: PLCOnNetPSHelper<TClass>.SetLogPath(string)
+  nameWithType.vb: PLCOnNetPSHelper(Of TClass).SetLogPath(String)
+- uid: MASES.PLCOnNetPS.PLCOnNetPSHelper`1.SetLogPath*
   name: SetLogPath
-  href: api/MASES.PLC4NetPS.PLC4NetPSHelper-1.html#MASES_PLC4NetPS_PLC4NetPSHelper_1_SetLogPath_
-  commentId: Overload:MASES.PLC4NetPS.PLC4NetPSHelper`1.SetLogPath
+  href: api/MASES.PLCOnNetPS.PLCOnNetPSHelper-1.html#MASES_PLCOnNetPS_PLCOnNetPSHelper_1_SetLogPath_
+  commentId: Overload:MASES.PLCOnNetPS.PLCOnNetPSHelper`1.SetLogPath
   isSpec: "True"
-  fullName: MASES.PLC4NetPS.PLC4NetPSHelper<TClass>.SetLogPath
-  fullName.vb: MASES.PLC4NetPS.PLC4NetPSHelper(Of TClass).SetLogPath
-  nameWithType: PLC4NetPSHelper<TClass>.SetLogPath
-  nameWithType.vb: PLC4NetPSHelper(Of TClass).SetLogPath
-- uid: MASES.PLC4NetPS.Server
-  name: MASES.PLC4NetPS.Server
-  href: api/MASES.PLC4NetPS.Server.html
-  commentId: N:MASES.PLC4NetPS.Server
-  fullName: MASES.PLC4NetPS.Server
-  nameWithType: MASES.PLC4NetPS.Server
-- uid: MASES.PLC4NetPS.Server.OPCUAServerCmdletCommand
+  fullName: MASES.PLCOnNetPS.PLCOnNetPSHelper<TClass>.SetLogPath
+  fullName.vb: MASES.PLCOnNetPS.PLCOnNetPSHelper(Of TClass).SetLogPath
+  nameWithType: PLCOnNetPSHelper<TClass>.SetLogPath
+  nameWithType.vb: PLCOnNetPSHelper(Of TClass).SetLogPath
+- uid: MASES.PLCOnNetPS.Server
+  name: MASES.PLCOnNetPS.Server
+  href: api/MASES.PLCOnNetPS.Server.html
+  commentId: N:MASES.PLCOnNetPS.Server
+  fullName: MASES.PLCOnNetPS.Server
+  nameWithType: MASES.PLCOnNetPS.Server
+- uid: MASES.PLCOnNetPS.Server.OPCUAServerCmdletCommand
   name: OPCUAServerCmdletCommand
-  href: api/MASES.PLC4NetPS.Server.OPCUAServerCmdletCommand.html
-  commentId: T:MASES.PLC4NetPS.Server.OPCUAServerCmdletCommand
-  fullName: MASES.PLC4NetPS.Server.OPCUAServerCmdletCommand
+  href: api/MASES.PLCOnNetPS.Server.OPCUAServerCmdletCommand.html
+  commentId: T:MASES.PLCOnNetPS.Server.OPCUAServerCmdletCommand
+  fullName: MASES.PLCOnNetPS.Server.OPCUAServerCmdletCommand
   nameWithType: OPCUAServerCmdletCommand
-- uid: MASES.PLC4NetPS.Server.Plc4xServerCmdletCommand
+- uid: MASES.PLCOnNetPS.Server.Plc4xServerCmdletCommand
   name: Plc4xServerCmdletCommand
-  href: api/MASES.PLC4NetPS.Server.Plc4xServerCmdletCommand.html
-  commentId: T:MASES.PLC4NetPS.Server.Plc4xServerCmdletCommand
-  fullName: MASES.PLC4NetPS.Server.Plc4xServerCmdletCommand
+  href: api/MASES.PLCOnNetPS.Server.Plc4xServerCmdletCommand.html
+  commentId: T:MASES.PLCOnNetPS.Server.Plc4xServerCmdletCommand
+  fullName: MASES.PLCOnNetPS.Server.Plc4xServerCmdletCommand
   nameWithType: Plc4xServerCmdletCommand
 - uid: Org.Apache.Plc4x.JavaNs
   name: Org.Apache.Plc4x.JavaNs
