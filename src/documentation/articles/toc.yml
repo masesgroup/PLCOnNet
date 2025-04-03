@@ -4,13 +4,13 @@
   href: roadmap.md
 - name: Current state
   href: currentstate.md
-- name: PLC4Net usage
+- name: PLCOnNet usage
   href: usage.md
-- name: PLC4Net CLI usage
+- name: PLCOnNet CLI usage
   href: usageCLI.md
-- name: PLC4Net Docker images
+- name: PLCOnNet Docker images
   href: docker.md
-- name: PLC4Net PowerShell usage
+- name: PLCOnNet PowerShell usage
   href: usagePS.md
 - name: Command-line switches
   href: commandlineswitch.md

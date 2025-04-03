@@ -1,20 +1,20 @@
 ---
-title: Roadmap of PLC4X suite for .NET
-_description: Describes the current roadmap of PLC4X suite for .NET
+title: Roadmap of .NET suite for PLC4X™
+_description: Describes the current roadmap of .NET suite for PLC4X™
 ---
 
-# PLC4Net roadmap
+# PLCOnNet roadmap
 
 The roadmap can be synthetized in the following points:
 
-* PLC4Net:
-  - [x] Add more classes in PLC4Net to simplify management from .NET
+* PLCOnNet:
+  - [x] Add more classes in PLCOnNet to simplify management from .NET
   - [x] Cover missing Listener
-* PLC4NetCLI:
+* PLCOnNetCLI:
   - [x] REPL shell
   - [x] run Main-Class
   - [x] execute C# scripts
-* PLC4NetPS:
+* PLCOnNetPS:
   - [x] Add more cmdlets 
   - [ ] Scripts
 	

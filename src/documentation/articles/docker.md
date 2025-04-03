@@ -1,12 +1,12 @@
 ---
-title: Docker images of PLC4X suite for .NET
-_description: Describes the Docker images of PLC4X suite for .NET
+title: Docker images of .NET suite for PLC4X™
+_description: Describes the Docker images of .NET suite for PLC4X™
 ---
 
-# PLC4Net: Docker images
+# PLCOnNet: Docker images
 
-[PLC4X](https://plc4x.apache.org) suite for .NET comes with a ready made Docker image:
-- PLC4Net CLI: see [PLC4Net CLI usage](usageCLI.md)
+.NET suite for [PLC4X™](https://plc4x.apache.org) comes with a ready made Docker image:
+- PLCOnNet CLI: see [PLCOnNet CLI usage](usageCLI.md)
 
 > [!IMPORTANT]
 > The Docker images produced from this repository uses, as base image, the one available at mcr.microsoft.com/dotnet/runtime:6.0 (latest is mcr.microsoft.com/dotnet/runtime:6.0-jammy). Within [GitHub Container Registry](https://github.com/microsoft/containerregistry) you can find many legal information, specifically read carefully the following before use the image:

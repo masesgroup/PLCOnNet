@@ -1,34 +1,34 @@
 ---
-title: PLC4Net PowerShell module of PLC4X suite for .NET
-_description: Describes the PowerShell module to use PLC4X classes from any PowerShell shell
+title: PLCOnNet PowerShell module of .NET suite for PLC4X™
+_description: Describes the PowerShell module to use PLC4X™ classes from any PowerShell shell
 ---
 
-# PLC4Net: PowerShell Module
+# PLCOnNet: PowerShell Module
 
 ## Installation
 
 To install the tool executes the following command within a PowerShell shell:
 
 ```powershell
-Install-Module -Name MASES.PLC4NetPS
+Install-Module -Name MASES.PLCOnNetPS
 ```
 
 If the above command fails, reporting errors related to _authenticode_, use the following command:
 
 ```powershell
-Install-Module -Name MASES.PLC4NetPS -SkipPublisherCheck
+Install-Module -Name MASES.PLCOnNetPS -SkipPublisherCheck
 ```
 
 ## Usage
 
-To use the PowerShell interface (PLC4NetPS) runs the following commands within a **PowerShell** shell:
+To use the PowerShell interface (PLCOnNetPS) runs the following commands within a **PowerShell** shell:
 
 ### Initialization
 
 * The following cmdlet initialize the environment:
 
 ```powershell
-Start-PLC4NetPS [arguments]
+Start-PLCOnNetPS [arguments]
 ```
 
 ### Execution
@@ -51,9 +51,9 @@ Get-PlcDriver -ProtocolCode "s7"
 
 ## Cmdlet available
 
-_plc4netps_ accepts the following cmdlets:
+_plconnetps_ accepts the following cmdlets:
 
-* **Start-PLC4NetPS**: Initialize the engine and shall be the first command to be invoked. The arguments are:
+* **Start-PLCOnNetPS**: Initialize the engine and shall be the first command to be invoked. The arguments are:
   * LicensePath
   * JDKHome
   * JVMPath
@@ -77,7 +77,7 @@ _plc4netps_ accepts the following cmdlets:
   * Url
   * Authentication (optional)
 * **Start-OPCUAServer**: starts an OPCUA server instance. The arguments are the same expected from CLI
-* **Start-Plc4xServer**: starts an PLC4X server instance. The arguments are the same expected from CLI
+* **Start-Plc4xServer**: starts an PLC4X™ server instance. The arguments are the same expected from CLI
 * 
 ### JVM identification
 

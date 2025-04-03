@@ -16,7 +16,7 @@ jobs:
       - name: IndexNow Action
         uses: bojieyang/indexnow-action@v2
         with:
-          sitemap-location: 'https://plc4net.masesgroup.com/sitemap.xml'
+          sitemap-location: 'https://plconnet.masesgroup.com/sitemap.xml'
           key: ${{ secrets.INDEXNOW_KEY }}
           since-unit: week
           limit: 10000

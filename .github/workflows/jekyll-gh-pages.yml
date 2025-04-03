@@ -47,7 +47,7 @@ jobs:
           destination: ./_site
       - name: Sitemap lastmod replacer
         shell: pwsh
-        run: ./CommonTools/scripts/SitemapLastmodReplacer.ps1 -baseUrl https://plc4net.masesgroup.com -baseFolder ${{ github.workspace }}/docs/ -inSitemapFile ${{ github.workspace }}/_site/sitemap.xml -outSitemapFile ${{ github.workspace }}/sitemap.xml
+        run: ./CommonTools/scripts/SitemapLastmodReplacer.ps1 -baseUrl https://plconnet.masesgroup.com -baseFolder ${{ github.workspace }}/docs/ -inSitemapFile ${{ github.workspace }}/_site/sitemap.xml -outSitemapFile ${{ github.workspace }}/sitemap.xml
       - run: sudo cp ${{ github.workspace }}/sitemap.xml ${{ github.workspace }}/_site/sitemap.xml
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3

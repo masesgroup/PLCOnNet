@@ -126,12 +126,12 @@ jobs:
 
     - name: Maven preparation (step 1)
       if: matrix.language == 'java' 
-      run: dotnet build --no-incremental --configuration Release --framework net8.0 /p:Platform="Any CPU" /p:NoWarn="0108%3B1030%3B0618" ./src/net/PLC4Net/PLC4Net.csproj
+      run: dotnet build --no-incremental --configuration Release --framework net8.0 /p:Platform="Any CPU" /p:NoWarn="0108%3B1030%3B0618" ./src/net/PLCOnNet/PLCOnNet.csproj
       env:
         GITHUB_SIMPLIFIED_GENERATION: true
           
     - if: matrix.language == 'java' 
-      run: mvn --file ./src/jvm/plc4net/pom.xml --no-transfer-progress package
+      run: mvn --file ./src/jvm/plconnet/pom.xml --no-transfer-progress package
 
     - name: Perform CodeQL Analysis
       uses: github/codeql-action/analyze@v3

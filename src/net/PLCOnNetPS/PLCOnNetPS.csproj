@@ -1,0 +1,57 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+	<Import Project="..\Common\Common.props" />
+	<PropertyGroup>
+		<GeneratePackageOnBuild>false</GeneratePackageOnBuild>
+		<AssemblyName>MASES.PLCOnNetPS</AssemblyName>
+		<RootNamespace>MASES.PLCOnNetPS</RootNamespace>
+		<Title>PLCOnNetPS - PLCOnNet (.NET suite for PLC4X) PowerShell command line interface</Title>
+		<Description>PLCOnNetPS - PLCOnNet (.NET suite for PLC4X) PowerShell command line interface</Description>
+		<Product>PLCOnNetPS</Product>
+		<OutputPath>..\..\..\MASES.PLCOnNetPS\</OutputPath>
+		<TargetFrameworks>net462;net8.0</TargetFrameworks>
+		<RunAnalyzersDuringLiveAnalysis>False</RunAnalyzersDuringLiveAnalysis>
+		<RunAnalyzersDuringBuild>False</RunAnalyzersDuringBuild>
+	</PropertyGroup>
+
+	<PropertyGroup Condition="'$(TargetFramework)' == 'net8.0'">
+		<OutputType>Exe</OutputType>
+	</PropertyGroup>
+
+	<ItemGroup Condition="True">
+		<plconnetps_jars Include="$(ProjectDir)\..\..\..\jars\*.*" />
+		<plconnetps_config Include="$(ProjectDir)\..\..\config\*.*" />
+	</ItemGroup>
+
+	<Target Name="CopyCustomContent" AfterTargets="AfterBuild">
+		<Copy SourceFiles="@(plconnetps_jars)" DestinationFolder="$(OutDir)\jars" />
+		<Copy SourceFiles="@(plconnetps_config)" DestinationFolder="$(OutDir)\config" />
+	</Target>
+	<Target Name="CopyCustomContentOnPublish" AfterTargets="Publish">
+		<Copy SourceFiles="@(plconnetps_jars)" DestinationFolder="$(OutDir)\jars" />
+		<Copy SourceFiles="@(plconnetps_config)" DestinationFolder="$(OutDir)\config" />
+	</Target>
+	<ItemGroup>
+		<Compile Include="..\PLCOnNetCLI\PLCOnNetCLICore.cs" Link="PLCOnNetCLICore.cs" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\PLCOnNet\PLCOnNet.csproj" />
+		<PackageReference Include="MASES.JNetPSCore" Version="2.5.12" />
+		<PackageReference Include="Microsoft.SourceLink.GitHub" Version="8.0.0">
+			<PrivateAssets>all</PrivateAssets>
+			<IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+		</PackageReference>
+		<PackageReference Include="PowerShellStandard.Library" Version="5.1.1">
+			<PrivateAssets>All</PrivateAssets>
+		</PackageReference>
+	</ItemGroup>
+
+	<ItemGroup>
+		<None Update="MASES.PLCOnNetPSFramework.psd1" Condition="'$(TargetFramework)' == 'net462'">
+			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</None>
+		<None Update="MASES.PLCOnNetPSCore.psd1" Condition="'$(TargetFramework)' == 'net8.0'">
+			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</None>
+	</ItemGroup>
+</Project>

@@ -1,7 +1,7 @@
 {
-  "RelativeDestinationCSharpClassPath": "net\\PLC4Net\\Generated",
-  "RelativeDestinationJavaListenerPath": "jvm\\plc4net\\src\\main\\java",
-  "JavaListenerBasePackage": "org.mases.plc4net.generated",
+  "RelativeDestinationCSharpClassPath": "net\\PLCOnNet\\Generated",
+  "RelativeDestinationJavaListenerPath": "jvm\\plconnet\\src\\main\\java",
+  "JavaListenerBasePackage": "org.mases.plconnet.generated",
   "PreferMethodWithSignature": true,
   "OnlyPropertiesForGetterSetter": true,
   "DisableInterfaceMethodGeneration": true,

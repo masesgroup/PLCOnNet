@@ -8,35 +8,35 @@
 		<LangVersion>latest</LangVersion>
 		<GenerateAssemblyInfo>true</GenerateAssemblyInfo>
 		<PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
-		<PackageProjectUrl>https://github.com/masesgroup/PLC4Net/</PackageProjectUrl>
-		<RepositoryUrl>https://github.com/masesgroup/PLC4Net</RepositoryUrl>
-		<PackageReleaseNotes>https://github.com/masesgroup/PLC4Net/releases</PackageReleaseNotes>
+		<PackageProjectUrl>https://github.com/masesgroup/PLCOnNet/</PackageProjectUrl>
+		<RepositoryUrl>https://github.com/masesgroup/PLCOnNet</RepositoryUrl>
+		<PackageReleaseNotes>https://github.com/masesgroup/PLCOnNet/releases</PackageReleaseNotes>
 		<PackageLicenseFile>LICENSE</PackageLicenseFile>
 		<PackageIcon>JCOB128x128.png</PackageIcon>
 		<IncludeSymbols>true</IncludeSymbols>
 		<SymbolPackageFormat>snupkg</SymbolPackageFormat>
 		<EmbedUntrackedSources>true</EmbedUntrackedSources>
 		<SignAssembly>true</SignAssembly>
-		<AssemblyOriginatorKeyFile>..\Common\PLC4Net.snk</AssemblyOriginatorKeyFile>
+		<AssemblyOriginatorKeyFile>..\Common\PLCOnNet.snk</AssemblyOriginatorKeyFile>
 		<NoWarn>$(NoWarn);0618</NoWarn>
 		<!--see https://learn.microsoft.com/en-us/dotnet/core/compatibility/interop/9.0/cet-support-->
 		<CETCompat>false</CETCompat>
 	</PropertyGroup>
-	<PropertyGroup Condition="'$(PLC4NET_DOCKER_BUILD_ACTIONS)' != 'true'">
+	<PropertyGroup Condition="'$(PLCONNET_DOCKER_BUILD_ACTIONS)' != 'true'">
 		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
 		<TargetFrameworks>net462;net8.0;net9.0</TargetFrameworks>
 	</PropertyGroup>
-	<PropertyGroup Condition="'$(PLC4NET_DOCKER_BUILD_ACTIONS)' == 'true'">
-		<DefineConstants>$(DefineConstants);PLC4NET_DOCKER_BUILD_ACTIONS</DefineConstants>
+	<PropertyGroup Condition="'$(PLCONNET_DOCKER_BUILD_ACTIONS)' == 'true'">
+		<DefineConstants>$(DefineConstants);PLCONNET_DOCKER_BUILD_ACTIONS</DefineConstants>
 		<GeneratePackageOnBuild>false</GeneratePackageOnBuild>
 		<TargetFramework>net8.0</TargetFramework>
 	</PropertyGroup>
-	<ItemGroup Condition="'$(PLC4NET_DOCKER_BUILD_ACTIONS)' != 'true'">
+	<ItemGroup Condition="'$(PLCONNET_DOCKER_BUILD_ACTIONS)' != 'true'">
 		<None Include="..\..\..\LICENSE" Pack="true" PackagePath="" />
 	</ItemGroup>
 	<ItemGroup>
 		<None Include="..\Common\JCOB128x128.png" Pack="true" PackagePath="" />
-		<None Include="..\Common\PLC4Net.snk" Link="PLC4Net.snk" />
+		<None Include="..\Common\PLCOnNet.snk" Link="PLCOnNet.snk" />
 	</ItemGroup>
 	<ItemGroup Condition="'$(TargetFramework)' == 'net462'">
 		<Reference Include="Microsoft.CSharp" />

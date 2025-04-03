@@ -1,0 +1,13 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+	<Import Project="..\Common\Common.props" />
+	<PropertyGroup>
+		<AssemblyName>PLCOnNetTest</AssemblyName>
+		<OutputType>Exe</OutputType>
+		<RootNamespace>MASES.PLCOnNetTest</RootNamespace>
+		<Title>PLCOnNetTest - a test tool for PLCOnNet</Title>
+		<Description>PLCOnNetTest - a test tool for PLCOnNet</Description>
+	</PropertyGroup>
+	<ItemGroup>
+		<Compile Include="..\Common\Initializer.cs" Link="Initializer.cs" />
+	</ItemGroup>
+</Project>
