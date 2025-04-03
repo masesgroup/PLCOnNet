@@ -2,10 +2,10 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-      <title>Class StartPLC4NetPSCmdletCommandBase&lt;TCmdlet&gt; | MASES Group - PLC4Net </title>
+      <title>Class GetPlcDriverCmdletCommand | MASES Group - PLCOnNet </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Class StartPLC4NetPSCmdletCommandBase&lt;TCmdlet&gt; | MASES Group - PLC4Net ">
-      <meta name="description" content="This is a descriptive page of PLC4Net, the PLC4X suite for .NET">
+      <meta name="title" content="Class GetPlcDriverCmdletCommand | MASES Group - PLCOnNet ">
+      <meta name="description" content="This is a descriptive page of PLCOnNet, the .NET suite for PLC4X">
       
       <link rel="icon" href="../images/favicon.ico">
       <link rel="stylesheet" href="../public/docfx.min.css">
@@ -16,7 +16,7 @@
       <meta name="docfx:rel" content="../">
       
       
-      <meta name="docfx:docurl" content="https://github.com/masesgroup/PLC4Net/new/master/apiSpec/new?filename=MASES_PLC4NetPS_Cmdlet_StartPLC4NetPSCmdletCommandBase_1.md&amp;value=---%0Auid%3A%20MASES.PLC4NetPS.Cmdlet.StartPLC4NetPSCmdletCommandBase%601%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="docfx:docurl" content="https://github.com/masesgroup/PLCOnNet/new/master/apiSpec/new?filename=MASES_PLCOnNetPS_Cmdlet_GetPlcDriverCmdletCommand.md&amp;value=---%0Auid%3A%20MASES.PLCOnNetPS.Cmdlet.GetPlcDriverCmdletCommand%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
       <meta name="loc:inThisArticle" content="In this article">
       <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
       <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
@@ -84,33 +84,30 @@
           <nav id="breadcrumb"></nav>
         </div>
 
-        <article data-uid="MASES.PLC4NetPS.Cmdlet.StartPLC4NetPSCmdletCommandBase`1">
+        <article data-uid="MASES.PLCOnNetPS.Cmdlet.GetPlcDriverCmdletCommand">
 
 
 
-  <h1 id="MASES_PLC4NetPS_Cmdlet_StartPLC4NetPSCmdletCommandBase_1" data-uid="MASES.PLC4NetPS.Cmdlet.StartPLC4NetPSCmdletCommandBase`1" class="text-break">
-Class StartPLC4NetPSCmdletCommandBase&lt;TCmdlet&gt;  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/PLC4Net/blob/master/src/net/PLC4NetPS/Cmdlet/StartPLC4NetPSCmdletCommandBase.cs/#L25"><i class="bi bi-code-slash"></i></a>
+  <h1 id="MASES_PLCOnNetPS_Cmdlet_GetPlcDriverCmdletCommand" data-uid="MASES.PLCOnNetPS.Cmdlet.GetPlcDriverCmdletCommand" class="text-break">
+Class GetPlcDriverCmdletCommand  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/PLCOnNet/blob/master/src/net/PLCOnNetPS/Cmdlet/GetPlcDriverCmdletCommand.cs/#L30"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
-    <dl><dt>Namespace</dt><dd><a class="xref" href="MASES.html">MASES</a>.<a class="xref" href="MASES.PLC4NetPS.html">PLC4NetPS</a>.<a class="xref" href="MASES.PLC4NetPS.Cmdlet.html">Cmdlet</a></dd></dl>
-  <dl><dt>Assembly</dt><dd>MASES.PLC4NetPS.dll</dd></dl>
+    <dl><dt>Namespace</dt><dd><a class="xref" href="MASES.html">MASES</a>.<a class="xref" href="MASES.PLCOnNetPS.html">PLCOnNetPS</a>.<a class="xref" href="MASES.PLCOnNetPS.Cmdlet.html">Cmdlet</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>MASES.PLCOnNetPS.dll</dd></dl>
   </div>
 
   <div class="markdown summary"></div>
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class StartPLC4NetPSCmdletCommandBase&lt;TCmdlet&gt; : StartJNetPSCmdletCommandBase&lt;TCmdlet, PLC4NetPSCore&gt; where TCmdlet : StartPLC4NetPSCmdletCommandBase&lt;TCmdlet&gt;</code></pre>
+    <pre><code class="lang-csharp hljs">[Cmdlet(&quot;Get&quot;, &quot;PlcDriver&quot;)]
+[OutputType(new Type[] { typeof(PlcDriver) })]
+public class GetPlcDriverCmdletCommand : PLCOnNetPSCmdlet</code></pre>
   </div>
 
 
 
-  <h4 class="section">Type Parameters</h4>
-  <dl class="parameters">
-    <dt><code>TCmdlet</code></dt>
-    <dd></dd>
-  </dl>
 
   <dl class="typelist inheritance">
     <dt>Inheritance</dt>
@@ -119,96 +116,19 @@ Class StartPLC4NetPSCmdletCommandBase&lt;TCmdlet&gt;  <a class="header-action li
       <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.management.automation.internal.internalcommand">InternalCommand</a></div>
       <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.management.automation.cmdlet">Cmdlet</a></div>
       <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.management.automation.pscmdlet">PSCmdlet</a></div>
-      <div><a class="xref" href="https://jnet.masesgroup.com/api/MASES.JNetPSCore.Cmdlet.JNetPSExternalizableCmdlet-1.html">JNetPSExternalizableCmdlet</a>&lt;TCmdlet&gt;</div>
-      <div><a class="xref" href="https://jnet.masesgroup.com/api/MASES.JNetPSCore.Cmdlet.StartJNetPSCmdletCommandBase-2.html">StartJNetPSCmdletCommandBase</a>&lt;TCmdlet, <a class="xref" href="MASES.PLC4NetPS.PLC4NetPSCore.html">PLC4NetPSCore</a>&gt;</div>
-      <div><span class="xref">StartPLC4NetPSCmdletCommandBase&lt;TCmdlet&gt;</span></div>
+      <div><a class="xref" href="https://jnet.masesgroup.com/api/MASES.JNetPSCore.Cmdlet.JNetPSCmdlet-1.html">JNetPSCmdlet</a>&lt;<a class="xref" href="MASES.PLCOnNetPS.PLCOnNetPSCore.html">PLCOnNetPSCore</a>&gt;</div>
+      <div><a class="xref" href="MASES.PLCOnNetPS.Cmdlet.PLCOnNetPSCmdlet.html">PLCOnNetPSCmdlet</a></div>
+      <div><span class="xref">GetPlcDriverCmdletCommand</span></div>
     </dd>
   </dl>
 
 
-  <dl class="typelist derived">
-    <dt>Derived</dt>
-    <dd>
-      <div><a class="xref" href="MASES.PLC4NetPS.Cmdlet.PLC4NetClassToRunCmdletCommandBase-1.html">PLC4NetClassToRunCmdletCommandBase&lt;TCmdlet&gt;</a></div>
-      <div><a class="xref" href="MASES.PLC4NetPS.Cmdlet.PLC4XClassToRunCmdletCommandBase-1.html">PLC4XClassToRunCmdletCommandBase&lt;TCmdlet&gt;</a></div>
-      <div><a class="xref" href="MASES.PLC4NetPS.Cmdlet.StartPLC4NetPSCmdletCommand.html">StartPLC4NetPSCmdletCommand</a></div>
-    </dd>
-  </dl>
 
   <dl class="typelist inheritedMembers">
     <dt>Inherited Members</dt>
     <dd>
     <div>
-      <a class="xref" href="https://jnet.masesgroup.com/api/MASES.JNetPSCore.Cmdlet.StartJNetPSCmdletCommandBase-2.html#MASES_JNetPSCore_Cmdlet_StartJNetPSCmdletCommandBase_2_ProcessCommand">StartJNetPSCmdletCommandBase&lt;TCmdlet, PLC4NetPSCore&gt;.ProcessCommand()</a>
-    </div>
-    <div>
-      <a class="xref" href="https://jnet.masesgroup.com/api/MASES.JNetPSCore.Cmdlet.StartJNetPSCmdletCommandBase-2.html#MASES_JNetPSCore_Cmdlet_StartJNetPSCmdletCommandBase_2_OnBeforeCreateGlobalInstance">StartJNetPSCmdletCommandBase&lt;TCmdlet, PLC4NetPSCore&gt;.OnBeforeCreateGlobalInstance()</a>
-    </div>
-    <div>
-      <a class="xref" href="https://jnet.masesgroup.com/api/MASES.JNetPSCore.Cmdlet.StartJNetPSCmdletCommandBase-2.html#MASES_JNetPSCore_Cmdlet_StartJNetPSCmdletCommandBase_2_CreateGlobalInstance">StartJNetPSCmdletCommandBase&lt;TCmdlet, PLC4NetPSCore&gt;.CreateGlobalInstance()</a>
-    </div>
-    <div>
-      <a class="xref" href="https://jnet.masesgroup.com/api/MASES.JNetPSCore.Cmdlet.StartJNetPSCmdletCommandBase-2.html#MASES_JNetPSCore_Cmdlet_StartJNetPSCmdletCommandBase_2_OnAfterCreateGlobalInstance">StartJNetPSCmdletCommandBase&lt;TCmdlet, PLC4NetPSCore&gt;.OnAfterCreateGlobalInstance()</a>
-    </div>
-    <div>
-      <a class="xref" href="https://jnet.masesgroup.com/api/MASES.JNetPSCore.Cmdlet.StartJNetPSCmdletCommandBase-2.html#MASES_JNetPSCore_Cmdlet_StartJNetPSCmdletCommandBase_2_LicensePath">StartJNetPSCmdletCommandBase&lt;TCmdlet, PLC4NetPSCore&gt;.LicensePath</a>
-    </div>
-    <div>
-      <a class="xref" href="https://jnet.masesgroup.com/api/MASES.JNetPSCore.Cmdlet.StartJNetPSCmdletCommandBase-2.html#MASES_JNetPSCore_Cmdlet_StartJNetPSCmdletCommandBase_2_JDKHome">StartJNetPSCmdletCommandBase&lt;TCmdlet, PLC4NetPSCore&gt;.JDKHome</a>
-    </div>
-    <div>
-      <a class="xref" href="https://jnet.masesgroup.com/api/MASES.JNetPSCore.Cmdlet.StartJNetPSCmdletCommandBase-2.html#MASES_JNetPSCore_Cmdlet_StartJNetPSCmdletCommandBase_2_JVMPath">StartJNetPSCmdletCommandBase&lt;TCmdlet, PLC4NetPSCore&gt;.JVMPath</a>
-    </div>
-    <div>
-      <a class="xref" href="https://jnet.masesgroup.com/api/MASES.JNetPSCore.Cmdlet.StartJNetPSCmdletCommandBase-2.html#MASES_JNetPSCore_Cmdlet_StartJNetPSCmdletCommandBase_2_JNIVerbosity">StartJNetPSCmdletCommandBase&lt;TCmdlet, PLC4NetPSCore&gt;.JNIVerbosity</a>
-    </div>
-    <div>
-      <a class="xref" href="https://jnet.masesgroup.com/api/MASES.JNetPSCore.Cmdlet.StartJNetPSCmdletCommandBase-2.html#MASES_JNetPSCore_Cmdlet_StartJNetPSCmdletCommandBase_2_JNIOutputFile">StartJNetPSCmdletCommandBase&lt;TCmdlet, PLC4NetPSCore&gt;.JNIOutputFile</a>
-    </div>
-    <div>
-      <a class="xref" href="https://jnet.masesgroup.com/api/MASES.JNetPSCore.Cmdlet.StartJNetPSCmdletCommandBase-2.html#MASES_JNetPSCore_Cmdlet_StartJNetPSCmdletCommandBase_2_JmxPort">StartJNetPSCmdletCommandBase&lt;TCmdlet, PLC4NetPSCore&gt;.JmxPort</a>
-    </div>
-    <div>
-      <a class="xref" href="https://jnet.masesgroup.com/api/MASES.JNetPSCore.Cmdlet.StartJNetPSCmdletCommandBase-2.html#MASES_JNetPSCore_Cmdlet_StartJNetPSCmdletCommandBase_2_EnableDebug">StartJNetPSCmdletCommandBase&lt;TCmdlet, PLC4NetPSCore&gt;.EnableDebug</a>
-    </div>
-    <div>
-      <a class="xref" href="https://jnet.masesgroup.com/api/MASES.JNetPSCore.Cmdlet.StartJNetPSCmdletCommandBase-2.html#MASES_JNetPSCore_Cmdlet_StartJNetPSCmdletCommandBase_2_JavaDebugPort">StartJNetPSCmdletCommandBase&lt;TCmdlet, PLC4NetPSCore&gt;.JavaDebugPort</a>
-    </div>
-    <div>
-      <a class="xref" href="https://jnet.masesgroup.com/api/MASES.JNetPSCore.Cmdlet.StartJNetPSCmdletCommandBase-2.html#MASES_JNetPSCore_Cmdlet_StartJNetPSCmdletCommandBase_2_DebugSuspendFlag">StartJNetPSCmdletCommandBase&lt;TCmdlet, PLC4NetPSCore&gt;.DebugSuspendFlag</a>
-    </div>
-    <div>
-      <a class="xref" href="https://jnet.masesgroup.com/api/MASES.JNetPSCore.Cmdlet.StartJNetPSCmdletCommandBase-2.html#MASES_JNetPSCore_Cmdlet_StartJNetPSCmdletCommandBase_2_JavaDebugOpts">StartJNetPSCmdletCommandBase&lt;TCmdlet, PLC4NetPSCore&gt;.JavaDebugOpts</a>
-    </div>
-    <div>
-      <a class="xref" href="https://jnet.masesgroup.com/api/MASES.JNetPSCore.Cmdlet.StartJNetPSCmdletCommandBase-2.html#MASES_JNetPSCore_Cmdlet_StartJNetPSCmdletCommandBase_2_HeapSize">StartJNetPSCmdletCommandBase&lt;TCmdlet, PLC4NetPSCore&gt;.HeapSize</a>
-    </div>
-    <div>
-      <a class="xref" href="https://jnet.masesgroup.com/api/MASES.JNetPSCore.Cmdlet.StartJNetPSCmdletCommandBase-2.html#MASES_JNetPSCore_Cmdlet_StartJNetPSCmdletCommandBase_2_InitialHeapSize">StartJNetPSCmdletCommandBase&lt;TCmdlet, PLC4NetPSCore&gt;.InitialHeapSize</a>
-    </div>
-    <div>
-      <a class="xref" href="https://jnet.masesgroup.com/api/MASES.JNetPSCore.Cmdlet.StartJNetPSCmdletCommandBase-2.html#MASES_JNetPSCore_Cmdlet_StartJNetPSCmdletCommandBase_2_LogClassPath">StartJNetPSCmdletCommandBase&lt;TCmdlet, PLC4NetPSCore&gt;.LogClassPath</a>
-    </div>
-    <div>
-      <a class="xref" href="https://jnet.masesgroup.com/api/MASES.JNetPSCore.Cmdlet.JNetPSExternalizableCmdlet-1.html#MASES_JNetPSCore_Cmdlet_JNetPSExternalizableCmdlet_1_BeginProcessing">JNetPSExternalizableCmdlet&lt;TCmdlet&gt;.BeginProcessing()</a>
-    </div>
-    <div>
-      <a class="xref" href="https://jnet.masesgroup.com/api/MASES.JNetPSCore.Cmdlet.JNetPSExternalizableCmdlet-1.html#MASES_JNetPSCore_Cmdlet_JNetPSExternalizableCmdlet_1_ProcessRecord">JNetPSExternalizableCmdlet&lt;TCmdlet&gt;.ProcessRecord()</a>
-    </div>
-    <div>
-      <a class="xref" href="https://jnet.masesgroup.com/api/MASES.JNetPSCore.Cmdlet.JNetPSExternalizableCmdlet-1.html#MASES_JNetPSCore_Cmdlet_JNetPSExternalizableCmdlet_1_ProcessCommand">JNetPSExternalizableCmdlet&lt;TCmdlet&gt;.ProcessCommand()</a>
-    </div>
-    <div>
-      <a class="xref" href="https://jnet.masesgroup.com/api/MASES.JNetPSCore.Cmdlet.JNetPSExternalizableCmdlet-1.html#MASES_JNetPSCore_Cmdlet_JNetPSExternalizableCmdlet_1_EndProcessing">JNetPSExternalizableCmdlet&lt;TCmdlet&gt;.EndProcessing()</a>
-    </div>
-    <div>
-      <a class="xref" href="https://jnet.masesgroup.com/api/MASES.JNetPSCore.Cmdlet.JNetPSExternalizableCmdlet-1.html#MASES_JNetPSCore_Cmdlet_JNetPSExternalizableCmdlet_1_JNetPSCmdletDetached">JNetPSExternalizableCmdlet&lt;TCmdlet&gt;.JNetPSCmdletDetached</a>
-    </div>
-    <div>
-      <a class="xref" href="https://jnet.masesgroup.com/api/MASES.JNetPSCore.Cmdlet.JNetPSExternalizableCmdlet-1.html#MASES_JNetPSCore_Cmdlet_JNetPSExternalizableCmdlet_1_BypassJNetPSExternalize">JNetPSExternalizableCmdlet&lt;TCmdlet&gt;.BypassJNetPSExternalize</a>
-    </div>
-    <div>
-      <a class="xref" href="https://jnet.masesgroup.com/api/MASES.JNetPSCore.Cmdlet.JNetPSExternalizableCmdlet-1.html#MASES_JNetPSCore_Cmdlet_JNetPSExternalizableCmdlet_1_ForceJNetPSExternalize">JNetPSExternalizableCmdlet&lt;TCmdlet&gt;.ForceJNetPSExternalize</a>
+      <a class="xref" href="https://jnet.masesgroup.com/api/MASES.JNetPSCore.Cmdlet.JNetPSCmdlet-1.html#MASES_JNetPSCore_Cmdlet_JNetPSCmdlet_1_ProcessRecord">JNetPSCmdlet&lt;PLCOnNetPSCore&gt;.ProcessRecord()</a>
     </div>
     <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.management.automation.pscmdlet.currentproviderlocation">PSCmdlet.CurrentProviderLocation(string)</a>
@@ -371,53 +291,19 @@ Class StartPLC4NetPSCmdletCommandBase&lt;TCmdlet&gt;  <a class="header-action li
 </h2>
 
 
-  <a id="MASES_PLC4NetPS_Cmdlet_StartPLC4NetPSCmdletCommandBase_1_CommonLoggingPath_" data-uid="MASES.PLC4NetPS.Cmdlet.StartPLC4NetPSCmdletCommandBase`1.CommonLoggingPath*"></a>
+  <a id="MASES_PLCOnNetPS_Cmdlet_GetPlcDriverCmdletCommand_ProtocolCode_" data-uid="MASES.PLCOnNetPS.Cmdlet.GetPlcDriverCmdletCommand.ProtocolCode*"></a>
 
-  <h3 id="MASES_PLC4NetPS_Cmdlet_StartPLC4NetPSCmdletCommandBase_1_CommonLoggingPath" data-uid="MASES.PLC4NetPS.Cmdlet.StartPLC4NetPSCmdletCommandBase`1.CommonLoggingPath">
-  CommonLoggingPath
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/PLC4Net/blob/master/src/net/PLC4NetPS/Cmdlet/StartPLC4NetPSCmdletCommandBase.cs/#L29"><i class="bi bi-code-slash"></i></a>
+  <h3 id="MASES_PLCOnNetPS_Cmdlet_GetPlcDriverCmdletCommand_ProtocolCode" data-uid="MASES.PLCOnNetPS.Cmdlet.GetPlcDriverCmdletCommand.ProtocolCode">
+  ProtocolCode
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/PLCOnNet/blob/master/src/net/PLCOnNetPS/Cmdlet/GetPlcDriverCmdletCommand.cs/#L34"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Sets the global value of log4j path</p>
-</div>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Parameter(ValueFromPipeline = true, ValueFromPipelineByPropertyName = true, HelpMessage = &quot;The file containing the configuration of log4j.&quot;)]
-public string CommonLoggingPath { get; set; }</code></pre>
-  </div>
-
-
-
-
-
-  <h4 class="section">Property Value</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd></dd>
-  </dl>
-
-
-
-
-
-
-
-
-  <a id="MASES_PLC4NetPS_Cmdlet_StartPLC4NetPSCmdletCommandBase_1_LogPath_" data-uid="MASES.PLC4NetPS.Cmdlet.StartPLC4NetPSCmdletCommandBase`1.LogPath*"></a>
-
-  <h3 id="MASES_PLC4NetPS_Cmdlet_StartPLC4NetPSCmdletCommandBase_1_LogPath" data-uid="MASES.PLC4NetPS.Cmdlet.StartPLC4NetPSCmdletCommandBase`1.LogPath">
-  LogPath
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/PLC4Net/blob/master/src/net/PLC4NetPS/Cmdlet/StartPLC4NetPSCmdletCommandBase.cs/#L36"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
-  <div class="markdown level1 summary"><p>Sets the global value of log path</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Parameter(ValueFromPipeline = true, ValueFromPipelineByPropertyName = true, HelpMessage = &quot;The path where log will be stored.&quot;)]
-public string LogPath { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[Parameter(Mandatory = true, Position = 0, ValueFromPipeline = true, ValueFromPipelineByPropertyName = true, HelpMessage = &quot;The protocol code&quot;)]
+public string ProtocolCode { get; set; }</code></pre>
   </div>
 
 
@@ -441,18 +327,70 @@ public string LogPath { get; set; }</code></pre>
 </h2>
 
 
-  <a id="MASES_PLC4NetPS_Cmdlet_StartPLC4NetPSCmdletCommandBase_1_OnBeforeCreateGlobalInstance_" data-uid="MASES.PLC4NetPS.Cmdlet.StartPLC4NetPSCmdletCommandBase`1.OnBeforeCreateGlobalInstance*"></a>
+  <a id="MASES_PLCOnNetPS_Cmdlet_GetPlcDriverCmdletCommand_BeginProcessing_" data-uid="MASES.PLCOnNetPS.Cmdlet.GetPlcDriverCmdletCommand.BeginProcessing*"></a>
 
-  <h3 id="MASES_PLC4NetPS_Cmdlet_StartPLC4NetPSCmdletCommandBase_1_OnBeforeCreateGlobalInstance" data-uid="MASES.PLC4NetPS.Cmdlet.StartPLC4NetPSCmdletCommandBase`1.OnBeforeCreateGlobalInstance">
-  OnBeforeCreateGlobalInstance()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/PLC4Net/blob/master/src/net/PLC4NetPS/Cmdlet/StartPLC4NetPSCmdletCommandBase.cs/#L42"><i class="bi bi-code-slash"></i></a>
+  <h3 id="MASES_PLCOnNetPS_Cmdlet_GetPlcDriverCmdletCommand_BeginProcessing" data-uid="MASES.PLCOnNetPS.Cmdlet.GetPlcDriverCmdletCommand.BeginProcessing">
+  BeginProcessing()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/PLCOnNet/blob/master/src/net/PLCOnNetPS/Cmdlet/GetPlcDriverCmdletCommand.cs/#L43"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected override void OnBeforeCreateGlobalInstance()</code></pre>
+    <pre><code class="lang-csharp hljs">protected override void BeginProcessing()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="MASES_PLCOnNetPS_Cmdlet_GetPlcDriverCmdletCommand_EndProcessing_" data-uid="MASES.PLCOnNetPS.Cmdlet.GetPlcDriverCmdletCommand.EndProcessing*"></a>
+
+  <h3 id="MASES_PLCOnNetPS_Cmdlet_GetPlcDriverCmdletCommand_EndProcessing" data-uid="MASES.PLCOnNetPS.Cmdlet.GetPlcDriverCmdletCommand.EndProcessing">
+  EndProcessing()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/PLCOnNet/blob/master/src/net/PLCOnNetPS/Cmdlet/GetPlcDriverCmdletCommand.cs/#L58"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override void EndProcessing()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="MASES_PLCOnNetPS_Cmdlet_GetPlcDriverCmdletCommand_ProcessCommand_" data-uid="MASES.PLCOnNetPS.Cmdlet.GetPlcDriverCmdletCommand.ProcessCommand*"></a>
+
+  <h3 id="MASES_PLCOnNetPS_Cmdlet_GetPlcDriverCmdletCommand_ProcessCommand" data-uid="MASES.PLCOnNetPS.Cmdlet.GetPlcDriverCmdletCommand.ProcessCommand">
+  ProcessCommand()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/PLCOnNet/blob/master/src/net/PLCOnNetPS/Cmdlet/GetPlcDriverCmdletCommand.cs/#L49"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override void ProcessCommand()</code></pre>
   </div>
 
 
@@ -471,7 +409,7 @@ public string LogPath { get; set; }</code></pre>
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/masesgroup/PLC4Net/blob/master/src/net/PLC4NetPS/Cmdlet/StartPLC4NetPSCmdletCommandBase.cs/#L25" class="edit-link">Edit this page</a>
+          <a href="https://github.com/masesgroup/PLCOnNet/blob/master/src/net/PLCOnNetPS/Cmdlet/GetPlcDriverCmdletCommand.cs/#L30" class="edit-link">Edit this page</a>
         </div>
 
 
