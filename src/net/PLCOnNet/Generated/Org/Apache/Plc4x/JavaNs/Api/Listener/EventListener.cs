@@ -36,7 +36,7 @@ namespace Org.Apache.Plc4x.JavaNs.Api.Listener
         /// </summary>
         public EventListener() { InitializeHandlers(); }
 
-        const string _bridgeClassName = "org.mases.plc4net.generated.org.apache.plc4x.java.api.listener.EventListener";
+        const string _bridgeClassName = "org.mases.plconnet.generated.org.apache.plc4x.java.api.listener.EventListener";
         private static readonly MASES.JCOBridge.C2JBridge.JVMInterop.IJavaType _LocalBridgeClazz = ClazzOf(_bridgeClassName);
         private static MASES.JCOBridge.C2JBridge.JVMInterop.IJavaType LocalBridgeClazz => _LocalBridgeClazz ?? throw new global::System.InvalidOperationException($"Class {_bridgeClassName} was not found.");
         
@@ -94,7 +94,7 @@ namespace Org.Apache.Plc4x.JavaNs.Api.Listener
 
     #region IEventListener
     /// <summary>
-    /// .NET interface for org.mases.plc4net.generated.org.apache.plc4x.java.api.listener.EventListener implementing <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/listener/EventListener.html"/>
+    /// .NET interface for org.mases.plconnet.generated.org.apache.plc4x.java.api.listener.EventListener implementing <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/listener/EventListener.html"/>
     /// </summary>
     public partial interface IEventListener
     {
