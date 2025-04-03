@@ -63,7 +63,7 @@ jobs:
           path: JNet
 
       - name: Pre compile
-        run: dotnet build --no-incremental --configuration Release /p:Platform="Any CPU" /p:NoWarn="0108%3B1030%3B0618" src\net\PLC4Net\PLC4Net.csproj
+        run: dotnet build --no-incremental --configuration Release /p:Platform="Any CPU" /p:NoWarn="0108%3B1030%3B0618" src\net\PLCOnNet\PLCOnNet.csproj
         env:
           GITHUB_SIMPLIFIED_GENERATION: true
           
@@ -80,17 +80,17 @@ jobs:
           gpg-passphrase: MAVEN_GPG_PASSPHRASE # env variable for GPG private key passphrase
 
       - name: Create Jars
-        run: mvn "-DmavenSkipMain=true" --file ./src/jvm/plc4net/pom.xml --no-transfer-progress package
+        run: mvn "-DmavenSkipMain=true" --file ./src/jvm/plconnet/pom.xml --no-transfer-progress package
         env:
           MAVEN_USERNAME: ${{ secrets.MAVEN_USERNAME }}
           MAVEN_CENTRAL_TOKEN: ${{ secrets.MAVEN_CENTRAL_TOKEN }}
           MAVEN_GPG_PASSPHRASE: ${{ secrets.MAVEN_GPG_PASSPHRASE }}
 
       - name: Clear C# generated files
-        run: Remove-Item .\src\net\PLC4Net\Generated\* -Recurse -Force -Exclude README.md
+        run: Remove-Item .\src\net\PLCOnNet\Generated\* -Recurse -Force -Exclude README.md
 
       - name: Clear Java generated files
-        run: Remove-Item .\src\jvm\plc4net\src\main\java\org\mases\plc4net\generated\* -Recurse -Force -Exclude README.md
+        run: Remove-Item .\src\jvm\plconnet\src\main\java\org\mases\plconnet\generated\* -Recurse -Force -Exclude README.md
 
       - name: Get last workflow run of JNet
         if: ${{ inputs.UseLastRepositoryBuild == true }}
@@ -164,11 +164,11 @@ jobs:
 
       - name: Try compilation of Jars
         continue-on-error: ${{ inputs.ContinueOnLatestJNetReflectorError == true }}
-        run: mvn --file ./src/jvm/plc4net/pom.xml --no-transfer-progress package
+        run: mvn --file ./src/jvm/plconnet/pom.xml --no-transfer-progress package
 
       - name: Try compilation of C#
         continue-on-error: ${{ inputs.ContinueOnLatestJNetReflectorError == true }}
-        run: dotnet build --no-incremental --configuration Release /p:Platform="Any CPU" /p:NoWarn="0108%3B1030%3B0618" src\net\PLC4Net\PLC4Net.csproj
+        run: dotnet build --no-incremental --configuration Release /p:Platform="Any CPU" /p:NoWarn="0108%3B1030%3B0618" src\net\PLCOnNet\PLCOnNet.csproj
 
       - name: Extract commit SHA
         if: ${{ inputs.GeneratePR == true }}

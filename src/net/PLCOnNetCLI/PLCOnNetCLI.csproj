@@ -1,0 +1,52 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+	<Import Project="..\Common\Common.props" />
+	<PropertyGroup>
+		<OutputPath>..\..\..\binCLI\</OutputPath>
+		<PackageType>DotnetTool</PackageType>
+		<OutputType>Exe</OutputType>
+		<AssemblyName>MASES.PLCOnNetCLI</AssemblyName>
+		<RootNamespace>MASES.PLCOnNetCLI</RootNamespace>
+		<Title>PLCOnNet command line interface - .NET suite for PLC4X</Title>
+		<Description>Command line interface of .NET suite for PLC4X. PLCOnNet is a comprehensive suite of libraries and tools to use PLC4X and .NET side-by-side.</Description>
+		<Product>PLCOnNetCLI</Product>
+		<GeneratePackageOnBuild>false</GeneratePackageOnBuild>
+		<PackageTags>plconnet cli pdf plc4x dotnet clr netcore net8 gateway</PackageTags>
+		<PackageId>MASES.PLCOnNetCLI</PackageId>
+		<PackageReadmeFile>usageCLI.md</PackageReadmeFile>
+		<RunAnalyzersDuringLiveAnalysis>False</RunAnalyzersDuringLiveAnalysis>
+		<RunAnalyzersDuringBuild>False</RunAnalyzersDuringBuild>
+	</PropertyGroup>
+
+	<ItemGroup Condition="True">
+		<plconnetcli_jars Include="$(ProjectDir)\..\..\..\jars\*.*" />
+		<plconnetcli_config Include="$(ProjectDir)\..\..\config\*.*" />
+	</ItemGroup>
+
+	<Target Name="CopyCustomContent" AfterTargets="AfterBuild">
+		<Copy SourceFiles="@(plconnetcli_jars)" DestinationFolder="$(OutDir)\jars" />
+		<Copy SourceFiles="@(plconnetcli_config)" DestinationFolder="$(OutDir)\config" />
+	</Target>
+	<Target Name="CopyCustomContentOnPublish" AfterTargets="Publish">
+		<Copy SourceFiles="@(plconnetcli_jars)" DestinationFolder="$(OutDir)\jars" />
+		<Copy SourceFiles="@(plconnetcli_config)" DestinationFolder="$(OutDir)\config" />
+	</Target>
+	
+	<ItemGroup>
+		<None Include="..\..\documentation\articles\usageCLI.md" Pack="true" PackagePath="\" />
+	</ItemGroup>
+	<ItemGroup>
+		<PackageReference Include="Microsoft.CodeAnalysis.CSharp.Scripting" Version="4.13.0" />
+		<PackageReference Include="Microsoft.SourceLink.GitHub" Version="8.0.0" PrivateAssets="All" />
+	</ItemGroup>
+	<ItemGroup>
+		<ProjectReference Include="..\PLCOnNet\PLCOnNet.csproj">
+			<IncludeAssets>All</IncludeAssets>
+			<PrivateAssets>None</PrivateAssets>
+		</ProjectReference>
+	</ItemGroup>
+	<ItemGroup>
+		<None Update="DotnetToolSettings.xml">
+			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</None>
+	</ItemGroup>
+</Project>

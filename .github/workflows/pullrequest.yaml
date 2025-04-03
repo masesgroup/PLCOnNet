@@ -79,7 +79,7 @@ jobs:
             9.x
 
       - name: Pre compile
-        run: dotnet build --no-incremental --configuration Release /p:Platform="Any CPU" /p:NoWarn="0108%3B1030%3B0618" src/net/PLC4Net/PLC4Net.csproj
+        run: dotnet build --no-incremental --configuration Release /p:Platform="Any CPU" /p:NoWarn="0108%3B1030%3B0618" src/net/PLCOnNet/PLCOnNet.csproj
         env:
           GITHUB_SIMPLIFIED_GENERATION: true
           
@@ -96,14 +96,14 @@ jobs:
           gpg-passphrase: MAVEN_GPG_PASSPHRASE # env variable for GPG private key passphrase
 
       - name: Create Jars
-        run: mvn  "-DmavenSkipMain=true" --file ./src/jvm/plc4net/pom.xml --no-transfer-progress package
+        run: mvn  "-DmavenSkipMain=true" --file ./src/jvm/plconnet/pom.xml --no-transfer-progress package
         env:
           MAVEN_USERNAME: ${{ secrets.MAVEN_USERNAME }}
           MAVEN_CENTRAL_TOKEN: ${{ secrets.MAVEN_CENTRAL_TOKEN }}
           MAVEN_GPG_PASSPHRASE: ${{ secrets.MAVEN_GPG_PASSPHRASE }}
         
       - name: Build Docker Image
-        run: docker build -t plc4net -f ./src/container/Dockerfile.linux .
+        run: docker build -t plconnet -f ./src/container/Dockerfile.linux .
 
   # This workflow contains a single job called "build_release"
   build_pullrequest:
@@ -125,10 +125,10 @@ jobs:
           submodules: 'true'
 
     #  - name: Pre compile tests
-    #    run: dotnet build --no-incremental --configuration Release /p:Platform="Any CPU" /p:NoWarn="0108%3B1030%3B0618" tests\net\PLC4NetTest.sln
+    #    run: dotnet build --no-incremental --configuration Release /p:Platform="Any CPU" /p:NoWarn="0108%3B1030%3B0618" tests\net\PLCOnNetTest.sln
 
       - name: Pre compile
-        run: dotnet build --no-incremental --configuration Release /p:Platform="Any CPU" /p:NoWarn="0108%3B1030%3B0618" src\net\PLC4Net\PLC4Net.csproj
+        run: dotnet build --no-incremental --configuration Release /p:Platform="Any CPU" /p:NoWarn="0108%3B1030%3B0618" src\net\PLCOnNet\PLCOnNet.csproj
         env:
           GITHUB_SIMPLIFIED_GENERATION: true
           
@@ -145,36 +145,36 @@ jobs:
           gpg-passphrase: MAVEN_GPG_PASSPHRASE # env variable for GPG private key passphrase
 
       - name: Create Jars
-        run: mvn  "-DmavenSkipMain=true" --file ./src/jvm/plc4net/pom.xml --no-transfer-progress package
+        run: mvn  "-DmavenSkipMain=true" --file ./src/jvm/plconnet/pom.xml --no-transfer-progress package
         env:
           MAVEN_USERNAME: ${{ secrets.MAVEN_USERNAME }}
           MAVEN_CENTRAL_TOKEN: ${{ secrets.MAVEN_CENTRAL_TOKEN }}
           MAVEN_GPG_PASSPHRASE: ${{ secrets.MAVEN_GPG_PASSPHRASE }}
 
       - name: Compile command line
-        run: dotnet build --no-incremental --configuration Release /p:Platform="Any CPU" /p:NoWarn="0108%3B1030%3B0618" src\net\PLC4NetCLI\PLC4NetCLI.csproj
+        run: dotnet build --no-incremental --configuration Release /p:Platform="Any CPU" /p:NoWarn="0108%3B1030%3B0618" src\net\PLCOnNetCLI\PLCOnNetCLI.csproj
 
-      - name: Compile PLC4NetPS
-        run: dotnet build --no-incremental --configuration Release /p:Platform="Any CPU" /p:NoWarn="0108%3B1030%3B0618" src\net\PLC4NetPS\PLC4NetPS.csproj
+      - name: Compile PLCOnNetPS
+        run: dotnet build --no-incremental --configuration Release /p:Platform="Any CPU" /p:NoWarn="0108%3B1030%3B0618" src\net\PLCOnNetPS\PLCOnNetPS.csproj
 
       - uses: nuget/setup-nuget@v2.0.1
         with:
           nuget-version: '5.x'
           
-      - run: nuget pack src\net\PLC4NetCLI\PLC4NetCLI.nuspec -OutputDirectory .\bin
+      - run: nuget pack src\net\PLCOnNetCLI\PLCOnNetCLI.nuspec -OutputDirectory .\bin
 
       - name: Prepare PowerShell package
         run: |
-          Copy-Item .\src\net\PLC4NetPS\MASES.PLC4NetPS.psd1 -Destination .\MASES.PLC4NetPS\MASES.PLC4NetPS.psd1 -Force
-          Copy-Item .\src\net\PLC4NetPS\MASES.PLC4NetPS.psm1 -Destination .\MASES.PLC4NetPS\MASES.PLC4NetPS.psm1 -Force
+          Copy-Item .\src\net\PLCOnNetPS\MASES.PLCOnNetPS.psd1 -Destination .\MASES.PLCOnNetPS\MASES.PLCOnNetPS.psd1 -Force
+          Copy-Item .\src\net\PLCOnNetPS\MASES.PLCOnNetPS.psm1 -Destination .\MASES.PLCOnNetPS\MASES.PLCOnNetPS.psm1 -Force
         shell: pwsh
      
       - name: Create PowerShell package
         run: |
           $env:DOTNET_CLI_UI_LANGUAGE="en_US"
           Register-PSRepository -Name Local_Nuget_Feed -SourceLocation $env:GITHUB_WORKSPACE\bin -PublishLocation $env:GITHUB_WORKSPACE\bin -InstallationPolicy Trusted
-          Publish-Module -Path .\MASES.PLC4NetPS -Repository Local_Nuget_Feed -NuGetApiKey 'ABC123'
+          Publish-Module -Path .\MASES.PLCOnNetPS -Repository Local_Nuget_Feed -NuGetApiKey 'ABC123'
         shell: pwsh
 
       - name: Recompile to create nuget packages
-        run: dotnet build --no-incremental --configuration Release /p:Platform="Any CPU" /p:NoWarn="0108%3B1030%3B0618" src\net\PLC4Net.sln
+        run: dotnet build --no-incremental --configuration Release /p:Platform="Any CPU" /p:NoWarn="0108%3B1030%3B0618" src\net\PLCOnNet.sln

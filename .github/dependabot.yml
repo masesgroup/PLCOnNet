@@ -13,7 +13,7 @@ updates:
       - "masesdevelopers"
 
   - package-ecosystem: maven
-    directory: "/src/jvm/plc4net"
+    directory: "/src/jvm/plconnet"
     schedule:
       interval: "weekly"
     reviewers:

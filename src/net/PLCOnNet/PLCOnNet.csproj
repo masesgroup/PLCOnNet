@@ -1,0 +1,58 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+	<Import Project="..\Common\Common.props" />
+	<PropertyGroup>
+		<AssemblyName>MASES.PLCOnNet</AssemblyName>
+		<RootNamespace>MASES.PLCOnNet</RootNamespace>
+		<Title>.NET suite for PLC4X - a comprehensive suite of libraries and tools to use PLC4X and .NET side-by-side</Title>
+		<Description>.NET suite for PLC4X - a comprehensive suite of libraries and tools to use PLC4X and .NET side-by-side</Description>
+		<Product>PLCOnNet</Product>
+		<OutputPath>..\..\..\bin\</OutputPath>
+		<PackageTags>plconnet plc plc4x dotnet clr jvm dotnetcore netcore dotnet8 net8 java bridge gateway</PackageTags>
+		<PackageId>MASES.PLCOnNet</PackageId>
+		<PackageReadmeFile>usage.md</PackageReadmeFile>
+		<GenerateDocumentationFile>true</GenerateDocumentationFile>
+		<RunAnalyzersDuringLiveAnalysis>False</RunAnalyzersDuringLiveAnalysis>
+		<RunAnalyzersDuringBuild>False</RunAnalyzersDuringBuild>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(GITHUB_SIMPLIFIED_GENERATION)' == 'true'">
+		<DefineConstants>$(DefineConstants);PLCONNET_SIMPLIFIED_GENERATION</DefineConstants>
+	</PropertyGroup>
+	<ItemGroup Condition="True">
+		<plconnet_jars Include="$(ProjectDir)\..\..\..\jars\*.*">
+			<InProject>false</InProject>
+		</plconnet_jars>
+		<plconnet_config Include="$(ProjectDir)\..\..\config\*.*" />
+	</ItemGroup>
+	<Target Name="CopyCustomContent" AfterTargets="AfterBuild" Condition="'$(GITHUB_ACTIONS)' != 'true' Or '$(GITHUB_TEST_PREPARATION)' == 'true'">
+		<Copy SourceFiles="@(plconnet_jars)" DestinationFolder="$(OutDir)\jars" />
+		<Copy SourceFiles="@(plconnet_config)" DestinationFolder="$(OutDir)\config" />
+	</Target>
+	<Target Name="CopyCustomContentOnPublish" AfterTargets="Publish" Condition="'$(GITHUB_ACTIONS)' != 'true' Or '$(GITHUB_TEST_PREPARATION)' == 'true'">
+		<Copy SourceFiles="@(plconnet_jars)" DestinationFolder="$(OutDir)\jars" />
+		<Copy SourceFiles="@(plconnet_config)" DestinationFolder="$(OutDir)\config" />
+	</Target>
+	<ItemGroup>
+		<None Include="mases.plconnet.targets" Pack="true" PackagePath="build" />
+		<None Include="..\..\..\jars\*.jar" Pack="true" PackagePath="build\jars" />
+		<None Include="..\..\config\**\*" Pack="true" PackagePath="build\config" />
+		<None Include="..\..\documentation\articles\usage.md" Pack="true" PackagePath="\" />
+	</ItemGroup>
+	<ItemGroup Condition="'$(GITHUB_SIMPLIFIED_GENERATION)' == 'true'">
+		<Compile Remove="Developed\**" />
+		<Compile Remove="Generated\**" />
+		<Compile Remove="Specific\**" />
+		<EmbeddedResource Remove="Developed\**" />
+		<EmbeddedResource Remove="Generated\**" />
+		<EmbeddedResource Remove="Specific\**" />
+		<None Remove="Developed\**" />
+		<None Remove="Generated\**" />
+		<None Remove="Specific\**" />
+	</ItemGroup>
+	<ItemGroup>
+		<PackageReference Include="MASES.JNet" Version="2.5.12">
+			<IncludeAssets>All</IncludeAssets>
+			<PrivateAssets>None</PrivateAssets>
+		</PackageReference>
+		<PackageReference Include="Microsoft.SourceLink.GitHub" Version="8.0.0" PrivateAssets="All" />
+	</ItemGroup>
+</Project>

@@ -1,27 +1,27 @@
 ---
-title: Introduction to PLC4X suite for .NET
-_description: Introduction to PLC4X suite for .NET
+title: Introduction to .NET suite for PLC4X™
+_description: Introduction to .NET suite for PLC4X™
 ---
 
-# PLC4Net: [PLC4X](https://plc4x.apache.org) suite for .NET
+# PLCOnNet: .NET suite for [PLC4X™](https://plc4x.apache.org)
 
-PLC4Net is a comprehensive suite of libraries and tools to use [PLC4X](https://plc4x.apache.org) and .NET side-by-side.
+PLCOnNet is a comprehensive suite of libraries and tools to use [PLC4X™](https://plc4x.apache.org) and .NET side-by-side.
 
 ### Libraries and Tools
 
-|PLC4Net | PLC4Net.Templates | PLC4NetCLI | PLC4NetPS |
+|PLCOnNet | PLCOnNet.Templates | PLCOnNetCLI | PLCOnNetPS |
 |:---:	|:---:	|:---:	|:---:	|
-|[![PLC4Net nuget](https://img.shields.io/nuget/v/MASES.PLC4Net)](https://www.nuget.org/packages/MASES.PLC4Net)<br/>[![downloads](https://img.shields.io/nuget/dt/MASES.PLC4Net)](https://www.nuget.org/packages/MASES.PLC4Net) | [![PLC4Net.Templates nuget](https://img.shields.io/nuget/v/MASES.PLC4Net.Templates)](https://www.nuget.org/packages/MASES.PLC4Net.Templates)<br/>[![downloads](https://img.shields.io/nuget/dt/MASES.PLC4Net.Templates)](https://www.nuget.org/packages/MASES.PLC4Net.Templates)| [![PLC4NetCLI nuget](https://img.shields.io/nuget/v/MASES.PLC4NetCLI)](https://www.nuget.org/packages/MASES.PLC4NetCLI)<br/>[![downloads](https://img.shields.io/nuget/dt/MASES.PLC4NetCLI)](https://www.nuget.org/packages/MASES.PLC4NetCLI)|[![PLC4NetPS](https://img.shields.io/powershellgallery/v/MASES.PLC4NetPS.svg?style=flat-square&label=MASES.PLC4NetPS)](https://www.powershellgallery.com/packages/MASES.PLC4NetPS/)|
+|[![PLCOnNet nuget](https://img.shields.io/nuget/v/MASES.PLCOnNet)](https://www.nuget.org/packages/MASES.PLCOnNet)<br/>[![downloads](https://img.shields.io/nuget/dt/MASES.PLCOnNet)](https://www.nuget.org/packages/MASES.PLCOnNet) | [![PLCOnNet.Templates nuget](https://img.shields.io/nuget/v/MASES.PLCOnNet.Templates)](https://www.nuget.org/packages/MASES.PLCOnNet.Templates)<br/>[![downloads](https://img.shields.io/nuget/dt/MASES.PLCOnNet.Templates)](https://www.nuget.org/packages/MASES.PLCOnNet.Templates)| [![PLCOnNetCLI nuget](https://img.shields.io/nuget/v/MASES.PLCOnNetCLI)](https://www.nuget.org/packages/MASES.PLCOnNetCLI)<br/>[![downloads](https://img.shields.io/nuget/dt/MASES.PLCOnNetCLI)](https://www.nuget.org/packages/MASES.PLCOnNetCLI)|[![PLCOnNetPS](https://img.shields.io/powershellgallery/v/MASES.PLCOnNetPS.svg?style=flat-square&label=MASES.PLCOnNetPS)](https://www.powershellgallery.com/packages/MASES.PLCOnNetPS/)|
 
 ### Pipelines
 
-[![CI_BUILD](https://github.com/masesgroup/PLC4Net/actions/workflows/build.yaml/badge.svg)](https://github.com/masesgroup/PLC4Net/actions/workflows/build.yaml) 
-[![CodeQL](https://github.com/masesgroup/PLC4Net/actions/workflows/codeql-analysis.yml/badge.svg)](https://github.com/masesgroup/PLC4Net/actions/workflows/codeql-analysis.yml)
-[![CI_RELEASE](https://github.com/masesgroup/PLC4Net/actions/workflows/release.yaml/badge.svg)](https://github.com/masesgroup/PLC4Net/actions/workflows/release.yaml) 
+[![CI_BUILD](https://github.com/masesgroup/PLCOnNet/actions/workflows/build.yaml/badge.svg)](https://github.com/masesgroup/PLCOnNet/actions/workflows/build.yaml) 
+[![CodeQL](https://github.com/masesgroup/PLCOnNet/actions/workflows/codeql-analysis.yml/badge.svg)](https://github.com/masesgroup/PLCOnNet/actions/workflows/codeql-analysis.yml)
+[![CI_RELEASE](https://github.com/masesgroup/PLCOnNet/actions/workflows/release.yaml/badge.svg)](https://github.com/masesgroup/PLCOnNet/actions/workflows/release.yaml) 
 
 ### Project disclaimer
 
-PLC4Net is a suite, curated by MASES Group, can be supported by the open-source community.
+PLCOnNet is a suite, curated by MASES Group, can be supported by the open-source community.
 
 Its primary scope is to support other, public or internal, MASES Group projects: open-source community and commercial entities can use it for their needs and support this project, moreover there are dedicated community and commercial subscription plans.
 
@@ -33,9 +33,9 @@ Looking for the help of experts? MASES Group can help you design, build, deploy,
 
 ## Scope of the project
 
-This project aims to create a set of libraries and tools to direct access, from .NET, all the features available in the [PLC4X](https://plc4x.apache.org) since, as stated in [PLC4X GitHub repository](https://github.com/apache/plc4x), the support for C# was abandoned.
-And, still in [PLC4X protocols page](https://plc4x.apache.org/plc4x/latest/users/protocols/index.html), the main supported languages are Java and Go.
-This project mutuated the name of the PLC4X support for .NET and implements almost all Java classes in .NET giving to a developer the same programming experience of Java. 
+This project aims to create a set of libraries and tools to direct access, from .NET, all the features available in the [PLC4X™](https://plc4x.apache.org) since, as stated in [PLC4X™ GitHub repository](https://github.com/apache/plc4x), the support for C# was abandoned.
+And, still in [PLC4X™ protocols page](https://plc4x.apache.org/plc4x/latest/users/protocols/index.html), the main supported languages are Java and Go.
+This project mutuated the name of the PLC4X™ support for .NET and implements almost all Java classes in .NET giving to a developer the same programming experience of Java. 
 The following snippets demonstrate the comparison between the [Java code](https://plc4x.apache.org/plc4x/latest/users/getting-started/plc4j.html) and the C# counterpart offered from this project.
 
 ### Initialization
@@ -179,7 +179,7 @@ foreach (Java.Lang.String tagName in response.TagNames)
 }
 ```
 
-See [PLC4Net usage](src/documentation/articles/usage.md) for other examples.
+See [PLCOnNet usage](src/documentation/articles/usage.md) for other examples.
 
 ### Community and Contribution
 
@@ -188,7 +188,7 @@ Do you like the project?
 
 Do you want to help us?
 - put a :star: on this project
-- open [issues](https://github.com/masesgroup/PLC4Net/issues) to request features or report bugs :bug:
+- open [issues](https://github.com/masesgroup/PLCOnNet/issues) to request features or report bugs :bug:
 - improves the project with Pull Requests
 
 This project adheres to the Contributor [Covenant code of conduct](CODE_OF_CONDUCT.md). By participating, you are expected to uphold this code. Please report unacceptable behavior to coc_reporting@masesgroup.com.
