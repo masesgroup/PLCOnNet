@@ -1,11 +1,11 @@
 ---
-title: Docker images of .NET suite for PLC4X™
-_description: Describes the Docker images of .NET suite for PLC4X™
+title: Docker images of .NET suite for PLC4Xâ„¢
+_description: Describes the Docker images of .NET suite for PLC4Xâ„¢
 ---
 
 # PLCOnNet: Docker images
 
-.NET suite for [PLC4X™](https://plc4x.apache.org) comes with a ready made Docker image:
+.NET suite for [PLC4Xâ„¢](https://plc4x.apache.org) comes with a ready made Docker image:
 - PLCOnNet CLI: see [PLCOnNet CLI usage](usageCLI.md)
 
 > [!IMPORTANT]

@@ -1,6 +1,6 @@
-# PLCOnNet: .NET suite for [PLC4X™](https://plc4x.apache.org)
+# PLCOnNet: .NET suite for [PLC4Xâ„¢](https://plc4x.apache.org)
 
-PLCOnNet is a comprehensive suite of libraries and tools to use [PLC4X™](https://plc4x.apache.org) and .NET side-by-side.
+PLCOnNet is a comprehensive suite of libraries and tools to use [PLC4Xâ„¢](https://plc4x.apache.org) and .NET side-by-side.
 
 ### Libraries and Tools
 
@@ -16,7 +16,7 @@ PLCOnNet is a comprehensive suite of libraries and tools to use [PLC4X™](https:/
 
 ### Project disclaimer
 
-PLCOnNet is a suite for PLC4X™, curated by MASES Group, can be supported by the open-source community.
+PLCOnNet is a suite for PLC4Xâ„¢, curated by MASES Group, can be supported by the open-source community.
 
 Its primary scope is to support other, public or internal, MASES Group projects: open-source community and commercial entities can use it for their needs and support this project, moreover there are dedicated community and commercial subscription plans.
 
@@ -28,9 +28,9 @@ Looking for the help of experts? MASES Group can help you design, build, deploy,
 
 ## Scope of the project
 
-This project aims to create a set of libraries and tools to direct access, from .NET, all the features available in the [PLC4X™](https://plc4x.apache.org) since, as stated in [PLC4X™ GitHub repository](https://github.com/apache/plc4x), the support for C# was abandoned.
-And, still in [PLC4X™ protocols page](https://plc4x.apache.org/plc4x/latest/users/protocols/index.html), the main supported languages are Java and Go.
-This project mutuated the name of the PLC4X™ support for .NET and implements almost all Java classes in .NET giving to a developer the same programming experience of Java. 
+This project aims to create a set of libraries and tools to direct access, from .NET, all the features available in the [PLC4Xâ„¢](https://plc4x.apache.org) since, as stated in [PLC4Xâ„¢ GitHub repository](https://github.com/apache/plc4x), the support for C# was abandoned.
+And, still in [PLC4Xâ„¢ protocols page](https://plc4x.apache.org/plc4x/latest/users/protocols/index.html), the main supported languages are Java and Go.
+This project mutuated the name of the PLC4Xâ„¢ support for .NET and implements almost all Java classes in .NET giving to a developer the same programming experience of Java. 
 The following snippets demonstrate the comparison between the [Java code](https://plc4x.apache.org/plc4x/latest/users/getting-started/plc4j.html) and the C# counterpart offered from this project.
 
 ### Initialization
@@ -204,7 +204,7 @@ This project adheres to the Contributor [Covenant code of conduct](CODE_OF_CONDU
 
 ### News
 
-* V0.12.0+: First version based on [PLC4X™](https://plc4x.apache.org) 0.12.0
+* V0.12.0+: First version based on [PLC4Xâ„¢](https://plc4x.apache.org) 0.12.0
 
 ---
 
