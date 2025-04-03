@@ -1,6 +1,6 @@
 ---
-title: Current state of .NET suite for PLC4X™
-_description: Describes the current development state of .NET suite for PLC4X™
+title: Current state of .NET suite for PLC4Xâ„¢
+_description: Describes the current development state of .NET suite for PLC4Xâ„¢
 ---
 
 # PLCOnNet development state
