@@ -2,10 +2,10 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-      <title>PLC4Net PowerShell module of PLC4X suite for .NET | MASES Group - PLC4Net </title>
+      <title>PLCOnNet PowerShell module of .NET suite for PLC4X� | MASES Group - PLCOnNet </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="PLC4Net PowerShell module of PLC4X suite for .NET | MASES Group - PLC4Net ">
-      <meta name="description" content="Describes the PowerShell module to use PLC4X classes from any PowerShell shell">
+      <meta name="title" content="PLCOnNet PowerShell module of .NET suite for PLC4X� | MASES Group - PLCOnNet ">
+      <meta name="description" content="Describes the PowerShell module to use PLC4X� classes from any PowerShell shell">
       
       <link rel="icon" href="../images/favicon.ico">
       <link rel="stylesheet" href="../public/docfx.min.css">
@@ -16,7 +16,7 @@
       <meta name="docfx:rel" content="../">
       
       
-      <meta name="docfx:docurl" content="https://github.com/masesgroup/PLC4Net/blob/master/src/documentation/articles/usagePS.md/#L1">
+      <meta name="docfx:docurl" content="https://github.com/masesgroup/PLCOnNet/blob/master/src/documentation/articles/usagePS.md/#L1">
       <meta name="loc:inThisArticle" content="In this article">
       <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
       <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
@@ -85,22 +85,22 @@
         </div>
 
         <article data-uid="">
-<h1 id="plc4net-powershell-module">PLC4Net: PowerShell Module</h1>
+<h1 id="plconnet-powershell-module">PLCOnNet: PowerShell Module</h1>
 
 <h2 id="installation">Installation</h2>
 <p>To install the tool executes the following command within a PowerShell shell:</p>
-<pre><code class="lang-powershell">Install-Module -Name MASES.PLC4NetPS
+<pre><code class="lang-powershell">Install-Module -Name MASES.PLCOnNetPS
 </code></pre>
 <p>If the above command fails, reporting errors related to <em>authenticode</em>, use the following command:</p>
-<pre><code class="lang-powershell">Install-Module -Name MASES.PLC4NetPS -SkipPublisherCheck
+<pre><code class="lang-powershell">Install-Module -Name MASES.PLCOnNetPS -SkipPublisherCheck
 </code></pre>
 <h2 id="usage">Usage</h2>
-<p>To use the PowerShell interface (PLC4NetPS) runs the following commands within a <strong>PowerShell</strong> shell:</p>
+<p>To use the PowerShell interface (PLCOnNetPS) runs the following commands within a <strong>PowerShell</strong> shell:</p>
 <h3 id="initialization">Initialization</h3>
 <ul>
 <li>The following cmdlet initialize the environment:</li>
 </ul>
-<pre><code class="lang-powershell">Start-PLC4NetPS [arguments]
+<pre><code class="lang-powershell">Start-PLCOnNetPS [arguments]
 </code></pre>
 <h3 id="execution">Execution</h3>
 <p>Now everything is ready and you can create objects like in the following snippet:</p>
@@ -114,9 +114,9 @@ $connection.IsConnected()
 Get-PlcDriver -ProtocolCode &quot;s7&quot;
 </code></pre>
 <h2 id="cmdlet-available">Cmdlet available</h2>
-<p><em>plc4netps</em> accepts the following cmdlets:</p>
+<p><em>plconnetps</em> accepts the following cmdlets:</p>
 <ul>
-<li><strong>Start-PLC4NetPS</strong>: Initialize the engine and shall be the first command to be invoked. The arguments are:
+<li><strong>Start-PLCOnNetPS</strong>: Initialize the engine and shall be the first command to be invoked. The arguments are:
 <ul>
 <li>LicensePath</li>
 <li>JDKHome</li>
@@ -152,7 +152,7 @@ Get-PlcDriver -ProtocolCode &quot;s7&quot;
 </ul>
 </li>
 <li><strong>Start-OPCUAServer</strong>: starts an OPCUA server instance. The arguments are the same expected from CLI</li>
-<li><strong>Start-Plc4xServer</strong>: starts an PLC4X server instance. The arguments are the same expected from CLI</li>
+<li><strong>Start-Plc4xServer</strong>: starts an PLC4X� server instance. The arguments are the same expected from CLI</li>
 <li></li>
 </ul>
 <h3 id="jvm-identification">JVM identification</h3>
@@ -161,7 +161,7 @@ Get-PlcDriver -ProtocolCode &quot;s7&quot;
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/masesgroup/PLC4Net/blob/master/src/documentation/articles/usagePS.md/#L1" class="edit-link">Edit this page</a>
+          <a href="https://github.com/masesgroup/PLCOnNet/blob/master/src/documentation/articles/usagePS.md/#L1" class="edit-link">Edit this page</a>
         </div>
 
         <div class="next-article d-print-none border-top" id="nextArticle"></div>

@@ -2,10 +2,10 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-      <title>PLC4Net CLI tool of PLC4X suite for .NET | MASES Group - PLC4Net </title>
+      <title>PLCOnNet CLI tool of .NET suite for PLC4X™ | MASES Group - PLCOnNet </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="PLC4Net CLI tool of PLC4X suite for .NET | MASES Group - PLC4Net ">
-      <meta name="description" content="Describes the CLI tool to use PLC4X classes from any command-line shell">
+      <meta name="title" content="PLCOnNet CLI tool of .NET suite for PLC4X™ | MASES Group - PLCOnNet ">
+      <meta name="description" content="Describes the CLI tool to use PLC4X™ classes from any command-line shell">
       
       <link rel="icon" href="../images/favicon.ico">
       <link rel="stylesheet" href="../public/docfx.min.css">
@@ -16,7 +16,7 @@
       <meta name="docfx:rel" content="../">
       
       
-      <meta name="docfx:docurl" content="https://github.com/masesgroup/PLC4Net/blob/master/src/documentation/articles/usageCLI.md/#L1">
+      <meta name="docfx:docurl" content="https://github.com/masesgroup/PLCOnNet/blob/master/src/documentation/articles/usageCLI.md/#L1">
       <meta name="loc:inThisArticle" content="In this article">
       <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
       <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
@@ -85,12 +85,12 @@
         </div>
 
         <article data-uid="">
-<h1 id="plc4net-cli">PLC4Net: CLI</h1>
+<h1 id="plconnet-cli">PLCOnNet: CLI</h1>
 
 <h2 id="installation">Installation</h2>
 <ul>
-<li><strong>dotnet tool</strong> hosted on <a href="https://www.nuget.org/packages/MASES.PLC4NetCLI">NuGet</a>: check <a href="https://www.nuget.org/packages/MASES.PLC4NetCLI/">https://www.nuget.org/packages/MASES.PLC4NetCLI/</a> and <a href="https://docs.microsoft.com/en-us/dotnet/core/tools/global-tools">https://docs.microsoft.com/en-us/dotnet/core/tools/global-tools</a> for deep installation instructions.</li>
-<li><strong>Docker image</strong> hosted on <a href="https://github.com/masesgroup/PLC4Net/pkgs/container/plc4net">GitHub</a> and <a href="https://hub.docker.com/repository/docker/masesgroup/plc4net/general">Docker Hub</a>: follow instruction within the page and general instruction on <a href="https://docs.docker.com">https://docs.docker.com</a>
+<li><strong>dotnet tool</strong> hosted on <a href="https://www.nuget.org/packages/MASES.PLCOnNetCLI">NuGet</a>: check <a href="https://www.nuget.org/packages/MASES.PLCOnNetCLI/">https://www.nuget.org/packages/MASES.PLCOnNetCLI/</a> and <a href="https://docs.microsoft.com/en-us/dotnet/core/tools/global-tools">https://docs.microsoft.com/en-us/dotnet/core/tools/global-tools</a> for deep installation instructions.</li>
+<li><strong>Docker image</strong> hosted on <a href="https://github.com/masesgroup/PLCOnNet/pkgs/container/plconnet">GitHub</a> and <a href="https://hub.docker.com/repository/docker/masesgroup/plconnet/general">Docker Hub</a>: follow instruction within the page and general instruction on <a href="https://docs.docker.com">https://docs.docker.com</a>
 <ul>
 <li>The image hosts both .NET 8 and JRE 11 runtimes</li>
 </ul>
@@ -101,33 +101,33 @@
 <p>The <strong>dotnet tool</strong> needs a JRE/JDK installed within the system (see <a href="#jvm-identification">JVM identification</a>)</p>
 </div>
 <h2 id="usage">Usage</h2>
-<p>To use the CLI interface (PLC4NetCLI) runs a command like the following:</p>
+<p>To use the CLI interface (PLCOnNetCLI) runs a command like the following:</p>
 <ul>
 <li><strong>dotnet tool</strong></li>
 </ul>
-<pre><code class="lang-sh">plc4net -i
+<pre><code class="lang-sh">plconnet -i
 </code></pre>
 <div class="IMPORTANT">
 <h5>Important</h5>
-<p>If the previous command raises the error described in <a href="usage.html#intel-cet-and-plc4net">Intel CET and PLC4Net</a>, the only solution is to apply the following workaround (within an <strong>elevated shell</strong>) and disable CET:</p>
-<pre><code class="lang-sh">  reg add &quot;HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\plc4net.exe&quot; /v MitigationOptions /t REG_BINARY /d &quot;0000000000000000000000000000002000&quot; /f
+<p>If the previous command raises the error described in <a href="usage.html#intel-cet-and-plconnet">Intel CET and PLCOnNet</a>, the only solution is to apply the following workaround (within an <strong>elevated shell</strong>) and disable CET:</p>
+<pre><code class="lang-sh">  reg add &quot;HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\plconnet.exe&quot; /v MitigationOptions /t REG_BINARY /d &quot;0000000000000000000000000000002000&quot; /f
 </code></pre>
 </div>
 <ul>
 <li><strong>Docker image</strong></li>
 </ul>
-<pre><code class="lang-sh">docker run ghcr.io/masesgroup/plc4net -i
+<pre><code class="lang-sh">docker run ghcr.io/masesgroup/plconnet -i
 </code></pre>
-<pre><code class="lang-sh">docker run masesgroup/plc4net -i
+<pre><code class="lang-sh">docker run masesgroup/plconnet -i
 </code></pre>
 <h2 id="command-switch-available">Command switch available</h2>
-<p><em>plc4net</em> accepts the following command-line switch:</p>
+<p><em>plconnet</em> accepts the following command-line switch:</p>
 <ul>
 <li><strong>ClassToRun</strong>: has precedence to all others and needs a second parameter which identify the command class to be executed</li>
 <li><strong>Interactive</strong> (<strong>i</strong>): Activates an interactive shell</li>
 <li><strong>Script</strong> (<strong>s</strong>): Executes the c# script in the file arument</li>
 <li><strong>JarList</strong> (<strong>jl</strong>): A CSV list of JAR to be used or folders containing the JARs</li>
-<li><strong>NamespaceList</strong> (<strong>nl</strong>): A CSV list of namespace to be used for interactive shell, PLC4Net namespace are added automatically</li>
+<li><strong>NamespaceList</strong> (<strong>nl</strong>): A CSV list of namespace to be used for interactive shell, PLCOnNet namespace are added automatically</li>
 <li><strong>ImportList</strong> (<strong>il</strong>): A CSV list of import to be used</li>
 </ul>
 <p>Plus other switches available at <a href="commandlineswitch.html">Command line switch</a> page.</p>
@@ -137,7 +137,7 @@
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/masesgroup/PLC4Net/blob/master/src/documentation/articles/usageCLI.md/#L1" class="edit-link">Edit this page</a>
+          <a href="https://github.com/masesgroup/PLCOnNet/blob/master/src/documentation/articles/usageCLI.md/#L1" class="edit-link">Edit this page</a>
         </div>
 
         <div class="next-article d-print-none border-top" id="nextArticle"></div>

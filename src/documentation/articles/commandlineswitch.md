@@ -1,6 +1,6 @@
 ---
-title: Command-line switch of .NET suite for PLC4X™
-_description: Describes the command-line switch of .NET suite for PLC4X™
+title: Command-line switch of .NET suite for PLC4Xâ„¢
+_description: Describes the command-line switch of .NET suite for PLC4Xâ„¢
 ---
 
 # PLCOnNet: Command line switches available
