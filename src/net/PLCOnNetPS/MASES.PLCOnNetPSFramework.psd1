@@ -25,7 +25,7 @@ CompanyName = 'MASES s.r.l.'
 Copyright = 'Copyright ©  MASES s.r.l. 2025'
 
 # Description of the functionality provided by this module
-Description = 'PowerShell Module to use PLC4X and PowerShell side-by-side. With PLCOnNetPS it is possible to use PLC4X objects within PowerShell. See https://github.com/masesgroup/PLCOnNet for further information.'
+Description = 'PowerShell Module to use PLC4X™ and PowerShell side-by-side. With PLCOnNetPS it is possible to use PLC4X™ objects within PowerShell. See https://github.com/masesgroup/PLCOnNet for further information.'
 
 # Minimum version of the Windows PowerShell engine required by this module
 PowerShellVersion = '5.1'
@@ -97,7 +97,7 @@ PrivateData = @{
 
     PSData = @{
 
-        Tags = @('PLCOnNetPS', 'PLCOnNet', 'PSEdition_Core', 'PSEdition_Desktop', 'Windows', 'Linux', 'JVM', 'Java', 'PLC4X', 'PLC', 'IOT', 'bridge', 'gateway')
+        Tags = @('PLCOnNetPS', 'PLCOnNet', 'PSEdition_Core', 'PSEdition_Desktop', 'Windows', 'Linux', 'JVM', 'Java', 'PLC4X™', 'PLC', 'IOT', 'bridge', 'gateway')
 
         LicenseUri = 'https://github.com/masesgroup/PLCOnNet/blob/master/LICENSE'
 

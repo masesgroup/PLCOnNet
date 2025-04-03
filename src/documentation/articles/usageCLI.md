@@ -1,6 +1,6 @@
 ---
-title: PLCOnNet CLI tool of .NET suite for PLC4X
-_description: Describes the CLI tool to use PLC4X classes from any command-line shell
+title: PLCOnNet CLI tool of .NET suite for PLC4X™
+_description: Describes the CLI tool to use PLC4X™ classes from any command-line shell
 ---
 
 # PLCOnNet: CLI

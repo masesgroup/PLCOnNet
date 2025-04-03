@@ -20,8 +20,8 @@ CompanyName = 'MASES s.r.l.'
 
 Copyright = 'Copyright ©  MASES s.r.l. 2025'
 
-Description = 'PLCOnNet (.NET suite for PLC4X) PowerShell (aka PLCOnNetPS) is a PowerShell Module to use PLC4X and PowerShell side-by-side. With PLCOnNetPS it is possible to:
-- create and use PLC4X objects from PowerShell: initialize PLC4X object (Java, Scala, Kotlin, ...), execute methods on the object, read data from the object to be used for further PowerShell code 
+Description = 'PLCOnNet (.NET suite for PLC4X™) PowerShell (aka PLCOnNetPS) is a PowerShell Module to use PLC4X™ and PowerShell side-by-side. With PLCOnNetPS it is possible to:
+- create and use PLC4X™ objects from PowerShell: initialize PLC4X™ object (Java, Scala, Kotlin, ...), execute methods on the object, read data from the object to be used for further PowerShell code 
 - send to JVM objects data managed from PowerShell: e.g. data of PowerShell, like an input from command-line or a variable, can be used as an argument for the initialization or execution of a method of a JVM object
 
 More information within the project hosted on GitHub at https://github.com/masesgroup/PLCOnNet for further information.'
@@ -76,7 +76,7 @@ PrivateData = @{
 
     PSData = @{
 
-        Tags = @('PLCOnNetPS', 'PLCOnNet', 'PSEdition_Core', 'PSEdition_Desktop', 'Windows', 'Linux', 'JVM', 'Java', 'PLC4X', 'PLC', 'IOT', 'bridge', 'gateway')
+        Tags = @('PLCOnNetPS', 'PLCOnNet', 'PSEdition_Core', 'PSEdition_Desktop', 'Windows', 'Linux', 'JVM', 'Java', 'PLC4X™', 'PLC', 'IOT', 'bridge', 'gateway')
 
         LicenseUri = 'https://github.com/masesgroup/PLCOnNet/blob/master/LICENSE'
 

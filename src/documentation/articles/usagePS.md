@@ -1,6 +1,6 @@
 ---
-title: PLCOnNet PowerShell module of .NET suite for PLC4X
-_description: Describes the PowerShell module to use PLC4X classes from any PowerShell shell
+title: PLCOnNet PowerShell module of .NET suite for PLC4X™
+_description: Describes the PowerShell module to use PLC4X™ classes from any PowerShell shell
 ---
 
 # PLCOnNet: PowerShell Module
@@ -77,7 +77,7 @@ _plconnetps_ accepts the following cmdlets:
   * Url
   * Authentication (optional)
 * **Start-OPCUAServer**: starts an OPCUA server instance. The arguments are the same expected from CLI
-* **Start-Plc4xServer**: starts an PLC4X server instance. The arguments are the same expected from CLI
+* **Start-Plc4xServer**: starts an PLC4X™ server instance. The arguments are the same expected from CLI
 * 
 ### JVM identification
 

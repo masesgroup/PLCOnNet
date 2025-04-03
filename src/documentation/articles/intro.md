@@ -1,11 +1,11 @@
 ---
-title: Introduction to .NET suite for PLC4X
-_description: Introduction to .NET suite for PLC4X
+title: Introduction to .NET suite for PLC4X™
+_description: Introduction to .NET suite for PLC4X™
 ---
 
-# PLCOnNet: .NET suite for [PLC4X](https://plc4x.apache.org)
+# PLCOnNet: .NET suite for [PLC4X™](https://plc4x.apache.org)
 
-PLCOnNet is a comprehensive suite of libraries and tools to use [PLC4X](https://plc4x.apache.org) and .NET side-by-side.
+PLCOnNet is a comprehensive suite of libraries and tools to use [PLC4X™](https://plc4x.apache.org) and .NET side-by-side.
 
 ### Libraries and Tools
 
@@ -33,9 +33,9 @@ Looking for the help of experts? MASES Group can help you design, build, deploy,
 
 ## Scope of the project
 
-This project aims to create a set of libraries and tools to direct access, from .NET, all the features available in the [PLC4X](https://plc4x.apache.org) since, as stated in [PLC4X GitHub repository](https://github.com/apache/plc4x), the support for C# was abandoned.
-And, still in [PLC4X protocols page](https://plc4x.apache.org/plc4x/latest/users/protocols/index.html), the main supported languages are Java and Go.
-This project mutuated the name of the PLC4X support for .NET and implements almost all Java classes in .NET giving to a developer the same programming experience of Java. 
+This project aims to create a set of libraries and tools to direct access, from .NET, all the features available in the [PLC4X™](https://plc4x.apache.org) since, as stated in [PLC4X™ GitHub repository](https://github.com/apache/plc4x), the support for C# was abandoned.
+And, still in [PLC4X™ protocols page](https://plc4x.apache.org/plc4x/latest/users/protocols/index.html), the main supported languages are Java and Go.
+This project mutuated the name of the PLC4X™ support for .NET and implements almost all Java classes in .NET giving to a developer the same programming experience of Java. 
 The following snippets demonstrate the comparison between the [Java code](https://plc4x.apache.org/plc4x/latest/users/getting-started/plc4j.html) and the C# counterpart offered from this project.
 
 ### Initialization
