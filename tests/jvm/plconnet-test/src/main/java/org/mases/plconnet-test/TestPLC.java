@@ -1,4 +1,4 @@
-package org.mases.plc4net;
+package org.mases.plconnet;
 
 public class TestPLC {
 

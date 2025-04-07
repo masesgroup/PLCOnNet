@@ -32,7 +32,7 @@ namespace MASES.PLCOnNetTest.Common
             {
                 var lst = base.PathToParse;
                 var assembly = typeof(PLCOnNetTestCore).Assembly;
-                var path = System.IO.Path.Combine(System.IO.Path.GetDirectoryName(assembly.Location), JARsSubFolder, $"plc4net-test-1.0.0.0.jar");
+                var path = System.IO.Path.Combine(System.IO.Path.GetDirectoryName(assembly.Location), JARsSubFolder, $"plconnet-test-1.0.0.0.jar");
                 if (!System.IO.File.Exists(path)) throw new System.IO.FileNotFoundException("JAR file for test not available, run Maven first", path);
                 lst.Add(path);
                 return lst;

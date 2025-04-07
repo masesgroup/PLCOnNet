@@ -4,7 +4,7 @@
   "classifications": [ "Common", "Console" ],
   "identity": "MASES.PLCOnNetTemplate.PLCOnNetApp",
   "name": "Console templates: PLCOnNet project",
-  "shortName": "plc4netApp",
+  "shortName": "plconnetApp",
   "tags": {
     "language": "C#",
     "type": "project"

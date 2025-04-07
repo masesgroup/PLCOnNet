@@ -5,11 +5,11 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.masesgroup</groupId>
-	<artifactId>plc4net</artifactId>
-	<name>mases.plc4net</name>
-	<description>PLC4Net-Java interface bridging implementation</description>
-	<url>https://github.com/masesgroup/PLC4Net</url>
-	<version>${plc4netversion}</version>
+	<artifactId>plconnet</artifactId>
+	<name>mases.plconnet</name>
+	<description>PLCOnNet-Java interface bridging implementation</description>
+	<url>https://github.com/masesgroup/PLCOnNet</url>
+	<version>${plconnetversion}</version>
 
 	<licenses>
 		<license>
@@ -20,13 +20,13 @@
 		</license>
 	</licenses>
 	<issueManagement>
-		<url>https://github.com/masesgroup/PLC4Net/issues</url>
+		<url>https://github.com/masesgroup/PLCOnNet/issues</url>
 		<system>GitHub Issues</system>
 	</issueManagement>
 	<scm>
-		<url>https://github.com/masesgroup/PLC4Net</url>
-		<connection>scm:git:git://github.com/masesgroup/PLC4Net.git</connection>
-		<developerConnection>scm:git:git@github.com:masesgroup/PLC4Net.git</developerConnection>
+		<url>https://github.com/masesgroup/PLCOnNet</url>
+		<connection>scm:git:git://github.com/masesgroup/PLCOnNet.git</connection>
+		<developerConnection>scm:git:git@github.com:masesgroup/PLCOnNet.git</developerConnection>
 	</scm>
 	<developers>
 		<developer>
@@ -44,7 +44,7 @@
 		<!-- set mavenSkipMain to true to avoid source compilation: use directive in command-line -->
 		<jnetVersion>2.5.12.0</jnetVersion>
 		<plc4xVersion>0.13.0-SNAPSHOT</plc4xVersion>
-		<plc4netversion>0.12.0.0</plc4netversion>
+		<plconnetversion>0.12.1.0</plconnetversion>
 		<jcobridgepath>../../../bin/net8.0/JCOBridge.jar</jcobridgepath>
 		<jnetpath>../../../bin/net8.0/jars/jnet-${jnetVersion}.jar</jnetpath>
 	</properties>
