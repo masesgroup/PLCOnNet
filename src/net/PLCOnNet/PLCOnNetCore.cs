@@ -227,7 +227,7 @@ namespace MASES.PLCOnNet
                 {
                     throw new System.IO.FileNotFoundException("Unable to identify PLCOnNet Jar location", plconnetFile);
                 }
-                // 4. add plc4net jar at this version first...
+                // 4. add plconnet jar at this version first...
                 lst.Add(plconnetFile);
                 // 5. ...then add everything else
                 lst.Add(Path.Combine(Const.DefaultJarsPath, "*.jar"));

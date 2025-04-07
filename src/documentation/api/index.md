@@ -1,8 +1,8 @@
 ---
-title: APIs of PLC4X suite for .NET
-_description: Describes the current available APIs of PLC4X suite for .NET
+title: APIs of .NET suite for PLC4X™
+_description: Describes the current available APIs of .NET suite for PLC4X™
 ---
 
-# PLC4Net: [PLC4X](https://plc4x.apache.org) suite for .NET
+# PLCOnNet: .NET suite for [PLC4X™](https://plc4x.apache.org)
 
 Open left menu to browse API

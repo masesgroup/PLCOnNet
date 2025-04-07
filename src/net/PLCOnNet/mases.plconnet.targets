@@ -4,12 +4,12 @@
 		<plconnet_config Include="$(MSBuildThisFileDirectory)\config\*.*" />
 	</ItemGroup>
 
-	<Target Name="PLC4Net_CopyFilesNative" BeforeTargets="Build">
+	<Target Name="PLCOnNet_CopyFilesNative" BeforeTargets="Build">
 		<Copy SourceFiles="@(plconnet_jars)" DestinationFolder="$(TargetDir)\jars" />
 		<Copy SourceFiles="@(plconnet_config)" DestinationFolder="$(TargetDir)\config" />
 	</Target>
 
-	<Target Name="PLC4Net_CopyFilesNativePublish" BeforeTargets="Publish">
+	<Target Name="PLCOnNet_CopyFilesNativePublish" BeforeTargets="Publish">
 		<Copy SourceFiles="@(plconnet_jars)" DestinationFolder="$(PublishDir)\jars" />
 		<Copy SourceFiles="@(plconnet_config)" DestinationFolder="$(PublishDir)\config" />
 	</Target>

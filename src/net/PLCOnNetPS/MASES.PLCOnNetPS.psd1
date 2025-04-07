@@ -89,7 +89,7 @@ PrivateData = @{
     }
 } 
 
-HelpInfoURI = 'https://plc4net.masesgroup.com/articles/usagePS.html'
+HelpInfoURI = 'https://plconnet.masesgroup.com/articles/usagePS.html'
 
 # DefaultCommandPrefix = ''
 }
