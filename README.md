@@ -16,7 +16,7 @@ PLCOnNet is a comprehensive suite of libraries and tools to use [PLC4X™](https
 
 ### Project disclaimer
 
-PLCOnNet is a suite for PLC4X™, curated by MASES Group, can be supported by the open-source community.
+PLCOnNet is a suite for [PLC4X™](https://plc4x.apache.org), curated by MASES Group, can be supported by the open-source community.
 
 Its primary scope is to support other, public or internal, MASES Group projects: open-source community and commercial entities can use it for their needs and support this project, moreover there are dedicated community and commercial subscription plans.
 
