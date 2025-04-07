@@ -15,8 +15,8 @@ FROM mcr.microsoft.com/dotnet/runtime:8.0-noble
 ARG TARGETARCH
 
 LABEL org.opencontainers.image.authors='https://github.com/masesgroup', \
-      org.opencontainers.image.url='https://plc4net.masesgroup.com' \
-      org.opencontainers.image.documentation='https://plc4net.masesgroup.com' \
+      org.opencontainers.image.url='https://plconnet.masesgroup.com' \
+      org.opencontainers.image.documentation='https://plconnet.masesgroup.com' \
       org.opencontainers.image.source='https://github.com/masesgroup/PLCOnNet' \
       org.opencontainers.image.vendor='MASES Group' \
       org.opencontainers.image.licenses='Apache-2.0' \

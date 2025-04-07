@@ -4,11 +4,11 @@
   href: api/
   homepage: api/index.md
 - name: Browse repository
-  href: https://github.com/masesgroup/PLC4Net
+  href: https://github.com/masesgroup/PLCOnNet
 - name: Releases
-  href: https://github.com/masesgroup/PLC4Net/releases/
+  href: https://github.com/masesgroup/PLCOnNet/releases/
 - name: Issues
-  href: https://github.com/masesgroup/PLC4Net/issues/
+  href: https://github.com/masesgroup/PLCOnNet/issues/
 - name: Open source projects
   dropdown: true
   items:

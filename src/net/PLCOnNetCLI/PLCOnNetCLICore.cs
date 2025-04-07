@@ -165,8 +165,8 @@ namespace MASES.PLCOnNetCLI
                     if (!namespaceList.Contains(item.Namespace)) namespaceList.Add(item.Namespace);
                 }
             }
-            var plc4netAssembly = typeof(PLCOnNetCore<>).Assembly;
-            foreach (var item in plc4netAssembly.GetExportedTypes())
+            var plconnetAssembly = typeof(PLCOnNetCore<>).Assembly;
+            foreach (var item in plconnetAssembly.GetExportedTypes())
             {
                 if (item.IsPublic)
                 {
