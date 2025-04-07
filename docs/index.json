@@ -911,8 +911,8 @@
   },
   "api/index.html": {
     "href": "api/index.html",
-    "title": "APIs of PLC4X suite for .NET | MASES Group - PLCOnNet",
-    "summary": "PLC4Net: PLC4X suite for .NET Open left menu to browse API"
+    "title": "APIs of .NET suite for PLC4X� | MASES Group - PLCOnNet",
+    "summary": "PLCOnNet: .NET suite for PLC4X� Open left menu to browse API"
   },
   "articles/commandlineswitch.html": {
     "href": "articles/commandlineswitch.html",
