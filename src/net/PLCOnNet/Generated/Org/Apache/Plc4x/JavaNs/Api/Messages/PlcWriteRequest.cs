@@ -121,7 +121,7 @@ namespace Org.Apache.Plc4x.JavaNs.Api.Messages
 
     #region IPlcWriteRequest
     /// <summary>
-    /// .NET interface for TO BE DEFINED FROM USER
+    /// .NET interface skeleton to be manually developed following <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcWriteRequest.html"/>
     /// </summary>
     public partial interface IPlcWriteRequest : Org.Apache.Plc4x.JavaNs.Api.Messages.IPlcTagRequest
     {
@@ -209,7 +209,7 @@ namespace Org.Apache.Plc4x.JavaNs.Api.Messages
 
             #region Instance methods
             /// <summary>
-            /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcWriteRequest.Builder.html#addTag(java.lang.String,org.apache.plc4x.java.api.model.PlcTag,java.lang.Object[])"/>
+            /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcWriteRequest.Builder.html#addTag(java.lang.String,org.apache.plc4x.java.api.model.PlcTag,java.lang.Object...)"/>
             /// </summary>
             /// <param name="arg0"><see cref="Java.Lang.String"/></param>
             /// <param name="arg1"><see cref="Org.Apache.Plc4x.JavaNs.Api.Model.PlcTag"/></param>
@@ -220,7 +220,7 @@ namespace Org.Apache.Plc4x.JavaNs.Api.Messages
                 if (arg2.Length == 0) return IExecuteWithSignature<Org.Apache.Plc4x.JavaNs.Api.Messages.PlcWriteRequest.Builder>("addTag", "(Ljava/lang/String;Lorg/apache/plc4x/java/api/model/PlcTag;[Ljava/lang/Object;)Lorg/apache/plc4x/java/api/messages/PlcWriteRequest$Builder;", arg0, arg1); else return IExecuteWithSignature<Org.Apache.Plc4x.JavaNs.Api.Messages.PlcWriteRequest.Builder>("addTag", "(Ljava/lang/String;Lorg/apache/plc4x/java/api/model/PlcTag;[Ljava/lang/Object;)Lorg/apache/plc4x/java/api/messages/PlcWriteRequest$Builder;", arg0, arg1, arg2);
             }
             /// <summary>
-            /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcWriteRequest.Builder.html#addTagAddress(java.lang.String,java.lang.String,java.lang.Object[])"/>
+            /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcWriteRequest.Builder.html#addTagAddress(java.lang.String,java.lang.String,java.lang.Object...)"/>
             /// </summary>
             /// <param name="arg0"><see cref="Java.Lang.String"/></param>
             /// <param name="arg1"><see cref="Java.Lang.String"/></param>
