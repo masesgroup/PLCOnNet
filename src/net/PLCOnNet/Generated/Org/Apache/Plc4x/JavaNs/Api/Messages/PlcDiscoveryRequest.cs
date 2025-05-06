@@ -121,7 +121,7 @@ namespace Org.Apache.Plc4x.JavaNs.Api.Messages
 
     #region IPlcDiscoveryRequest
     /// <summary>
-    /// .NET interface for TO BE DEFINED FROM USER
+    /// .NET interface skeleton to be manually developed following <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcDiscoveryRequest.html"/>
     /// </summary>
     public partial interface IPlcDiscoveryRequest : Org.Apache.Plc4x.JavaNs.Api.Messages.IPlcRequest
     {

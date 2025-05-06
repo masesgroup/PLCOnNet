@@ -74,7 +74,7 @@ namespace Org.Apache.Plc4x.JavaNs.Api
 
     #region IPlcConnection
     /// <summary>
-    /// .NET interface for TO BE DEFINED FROM USER
+    /// .NET interface skeleton to be manually developed following <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/PlcConnection.html"/>
     /// </summary>
     public partial interface IPlcConnection : Java.Lang.IAutoCloseable
     {
@@ -144,7 +144,7 @@ namespace Org.Apache.Plc4x.JavaNs.Api
             return IExecuteWithSignature<Java.Util.Optional<Org.Apache.Plc4x.JavaNs.Api.Model.PlcTag>>("parseTagAddress", "(Ljava/lang/String;)Ljava/util/Optional;", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/PlcConnection.html#parseTagValue(org.apache.plc4x.java.api.model.PlcTag,java.lang.Object[])"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/PlcConnection.html#parseTagValue(org.apache.plc4x.java.api.model.PlcTag,java.lang.Object...)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Plc4x.JavaNs.Api.Model.PlcTag"/></param>
         /// <param name="arg1"><see cref="object"/></param>

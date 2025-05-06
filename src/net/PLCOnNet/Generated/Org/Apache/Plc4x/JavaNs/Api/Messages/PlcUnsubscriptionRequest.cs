@@ -121,7 +121,7 @@ namespace Org.Apache.Plc4x.JavaNs.Api.Messages
 
     #region IPlcUnsubscriptionRequest
     /// <summary>
-    /// .NET interface for TO BE DEFINED FROM USER
+    /// .NET interface skeleton to be manually developed following <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcUnsubscriptionRequest.html"/>
     /// </summary>
     public partial interface IPlcUnsubscriptionRequest : Org.Apache.Plc4x.JavaNs.Api.Messages.IPlcRequest
     {
@@ -206,7 +206,7 @@ namespace Org.Apache.Plc4x.JavaNs.Api.Messages
                 return IExecuteWithSignature<Org.Apache.Plc4x.JavaNs.Api.Messages.PlcUnsubscriptionRequest.Builder>("addHandles", "(Ljava/util/Collection;)Lorg/apache/plc4x/java/api/messages/PlcUnsubscriptionRequest$Builder;", arg0);
             }
             /// <summary>
-            /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcUnsubscriptionRequest.Builder.html#addHandles(org.apache.plc4x.java.api.model.PlcSubscriptionHandle,org.apache.plc4x.java.api.model.PlcSubscriptionHandle[])"/>
+            /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcUnsubscriptionRequest.Builder.html#addHandles(org.apache.plc4x.java.api.model.PlcSubscriptionHandle,org.apache.plc4x.java.api.model.PlcSubscriptionHandle...)"/>
             /// </summary>
             /// <param name="arg0"><see cref="Org.Apache.Plc4x.JavaNs.Api.Model.PlcSubscriptionHandle"/></param>
             /// <param name="arg1"><see cref="Org.Apache.Plc4x.JavaNs.Api.Model.PlcSubscriptionHandle"/></param>

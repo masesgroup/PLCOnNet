@@ -74,7 +74,7 @@ namespace Org.Apache.Plc4x.JavaNs.Api
 
     #region IEventPlcConnection
     /// <summary>
-    /// .NET interface for TO BE DEFINED FROM USER
+    /// .NET interface skeleton to be manually developed following <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/EventPlcConnection.html"/>
     /// </summary>
     public partial interface IEventPlcConnection : Org.Apache.Plc4x.JavaNs.Api.IPlcConnection
     {
