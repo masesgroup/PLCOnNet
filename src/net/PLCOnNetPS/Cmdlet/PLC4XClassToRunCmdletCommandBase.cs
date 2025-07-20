@@ -17,12 +17,12 @@
 */
 
 using MASES.JCOBridge.C2JBridge;
-using MASES.JNetPSCore;
+using MASES.JNet.PowerShell;
 using System;
 using System.Management.Automation;
 using System.Reflection;
 
-namespace MASES.PLCOnNetPS.Cmdlet
+namespace MASES.PLCOnNet.PowerShell.Cmdlet
 {
     public class PLC4XClassToRunCmdletCommandBase<TCmdlet> : StartPLCOnNetPSCmdletCommandBase<TCmdlet>
         where TCmdlet : PLC4XClassToRunCmdletCommandBase<TCmdlet>
@@ -37,7 +37,7 @@ namespace MASES.PLCOnNetPS.Cmdlet
         {
             base.OnBeforeCreateGlobalInstance();
             var nounName = JNetPSHelper.NounName<TCmdlet>();
-            PLCOnNetPSHelper<PLCOnNetPSCore>.SetClassToRun(nounName);
+            JNetPSHelper<PLCOnNetPSCore>.SetClassToRun(nounName);
         }
 
         protected override void OnAfterCreateGlobalInstance()

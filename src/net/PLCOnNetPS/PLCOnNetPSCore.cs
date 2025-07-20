@@ -16,10 +16,10 @@
 *  Refer to LICENSE for more information.
 */
 
-using MASES.PLCOnNetCLI;
+using MASES.PLCOnNet.CLI;
 using System;
 
-namespace MASES.PLCOnNetPS
+namespace MASES.PLCOnNet.PowerShell
 {
     /// <summary>
     /// Concrete implementation of <see cref="PLCOnNetCore{T}"/>
