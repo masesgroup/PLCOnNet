@@ -2,9 +2,9 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-      <title>Class GetPlcConnectionCmdletCommand | MASES Group - PLCOnNet </title>
+      <title>Class StartPLCOnNetPSCmdletCommandBase&lt;TCmdlet&gt; | MASES Group - PLCOnNet </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Class GetPlcConnectionCmdletCommand | MASES Group - PLCOnNet ">
+      <meta name="title" content="Class StartPLCOnNetPSCmdletCommandBase&lt;TCmdlet&gt; | MASES Group - PLCOnNet ">
       <meta name="description" content="This is a descriptive page of PLCOnNet, the .NET suite for PLC4X">
       
       <link rel="icon" href="../images/favicon.ico">
@@ -16,7 +16,7 @@
       <meta name="docfx:rel" content="../">
       
       
-      <meta name="docfx:docurl" content="https://github.com/masesgroup/PLCOnNet/new/master/apiSpec/new?filename=MASES_PLCOnNetPS_Cmdlet_GetPlcConnectionCmdletCommand.md&amp;value=---%0Auid%3A%20MASES.PLCOnNetPS.Cmdlet.GetPlcConnectionCmdletCommand%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="docfx:docurl" content="https://github.com/masesgroup/PLCOnNet/new/master/apiSpec/new?filename=MASES_PLCOnNet_PowerShell_Cmdlet_StartPLCOnNetPSCmdletCommandBase_1.md&amp;value=---%0Auid%3A%20MASES.PLCOnNet.PowerShell.Cmdlet.StartPLCOnNetPSCmdletCommandBase%601%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
       <meta name="loc:inThisArticle" content="In this article">
       <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
       <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
@@ -84,16 +84,16 @@
           <nav id="breadcrumb"></nav>
         </div>
 
-        <article data-uid="MASES.PLCOnNetPS.Cmdlet.GetPlcConnectionCmdletCommand">
+        <article data-uid="MASES.PLCOnNet.PowerShell.Cmdlet.StartPLCOnNetPSCmdletCommandBase`1">
 
 
 
-  <h1 id="MASES_PLCOnNetPS_Cmdlet_GetPlcConnectionCmdletCommand" data-uid="MASES.PLCOnNetPS.Cmdlet.GetPlcConnectionCmdletCommand" class="text-break">
-Class GetPlcConnectionCmdletCommand  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/PLCOnNet/blob/master/src/net/PLCOnNetPS/Cmdlet/GetPlcConnectionCmdletCommand.cs/#L30"><i class="bi bi-code-slash"></i></a>
+  <h1 id="MASES_PLCOnNet_PowerShell_Cmdlet_StartPLCOnNetPSCmdletCommandBase_1" data-uid="MASES.PLCOnNet.PowerShell.Cmdlet.StartPLCOnNetPSCmdletCommandBase`1" class="text-break">
+Class StartPLCOnNetPSCmdletCommandBase&lt;TCmdlet&gt;  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/PLCOnNet/blob/master/src/net/PLCOnNetPS/Cmdlet/StartPLCOnNetPSCmdletCommandBase.cs/#L25"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
-    <dl><dt>Namespace</dt><dd><a class="xref" href="MASES.html">MASES</a>.<a class="xref" href="MASES.PLCOnNetPS.html">PLCOnNetPS</a>.<a class="xref" href="MASES.PLCOnNetPS.Cmdlet.html">Cmdlet</a></dd></dl>
+    <dl><dt>Namespace</dt><dd><a class="xref" href="MASES.html">MASES</a>.<a class="xref" href="MASES.PLCOnNet.html">PLCOnNet</a>.<a class="xref" href="MASES.PLCOnNet.PowerShell.html">PowerShell</a>.<a class="xref" href="MASES.PLCOnNet.PowerShell.Cmdlet.html">Cmdlet</a></dd></dl>
   <dl><dt>Assembly</dt><dd>MASES.PLCOnNetPS.dll</dd></dl>
   </div>
 
@@ -101,13 +101,16 @@ Class GetPlcConnectionCmdletCommand  <a class="header-action link-secondary" tit
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Cmdlet(&quot;Get&quot;, &quot;PlcConnection&quot;)]
-[OutputType(new Type[] { typeof(PlcConnection) })]
-public class GetPlcConnectionCmdletCommand : PLCOnNetPSCmdlet</code></pre>
+    <pre><code class="lang-csharp hljs">public class StartPLCOnNetPSCmdletCommandBase&lt;TCmdlet&gt; : StartJNetPSCmdletCommandBase&lt;TCmdlet, PLCOnNetPSCore&gt; where TCmdlet : StartPLCOnNetPSCmdletCommandBase&lt;TCmdlet&gt;</code></pre>
   </div>
 
 
 
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>TCmdlet</code></dt>
+    <dd></dd>
+  </dl>
 
   <dl class="typelist inheritance">
     <dt>Inheritance</dt>
@@ -116,19 +119,105 @@ public class GetPlcConnectionCmdletCommand : PLCOnNetPSCmdlet</code></pre>
       <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.management.automation.internal.internalcommand">InternalCommand</a></div>
       <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.management.automation.cmdlet">Cmdlet</a></div>
       <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.management.automation.pscmdlet">PSCmdlet</a></div>
-      <div><a class="xref" href="https://jnet.masesgroup.com/api/MASES.JNetPSCore.Cmdlet.JNetPSCmdlet-1.html">JNetPSCmdlet</a>&lt;<a class="xref" href="MASES.PLCOnNetPS.PLCOnNetPSCore.html">PLCOnNetPSCore</a>&gt;</div>
-      <div><a class="xref" href="MASES.PLCOnNetPS.Cmdlet.PLCOnNetPSCmdlet.html">PLCOnNetPSCmdlet</a></div>
-      <div><span class="xref">GetPlcConnectionCmdletCommand</span></div>
+      <div><a class="xref" href="https://jnet.masesgroup.com/api/MASES.JNet.PowerShell.Cmdlet.JNetPSExternalizableCmdlet-1.html">JNetPSExternalizableCmdlet</a>&lt;TCmdlet&gt;</div>
+      <div><a class="xref" href="https://jnet.masesgroup.com/api/MASES.JNet.PowerShell.Cmdlet.StartJNetPSCmdletCommandBase-2.html">StartJNetPSCmdletCommandBase</a>&lt;TCmdlet, <a class="xref" href="MASES.PLCOnNet.PowerShell.PLCOnNetPSCore.html">PLCOnNetPSCore</a>&gt;</div>
+      <div><span class="xref">StartPLCOnNetPSCmdletCommandBase&lt;TCmdlet&gt;</span></div>
     </dd>
   </dl>
 
 
+  <dl class="typelist derived">
+    <dt>Derived</dt>
+    <dd>
+      <div><a class="xref" href="MASES.PLCOnNet.PowerShell.Cmdlet.PLC4XClassToRunCmdletCommandBase-1.html">PLC4XClassToRunCmdletCommandBase&lt;TCmdlet&gt;</a></div>
+      <div><a class="xref" href="MASES.PLCOnNet.PowerShell.Cmdlet.PLCOnNetClassToRunCmdletCommandBase-1.html">PLCOnNetClassToRunCmdletCommandBase&lt;TCmdlet&gt;</a></div>
+      <div><a class="xref" href="MASES.PLCOnNet.PowerShell.Cmdlet.StartPLCOnNetPSCmdletCommand.html">StartPLCOnNetPSCmdletCommand</a></div>
+    </dd>
+  </dl>
 
   <dl class="typelist inheritedMembers">
     <dt>Inherited Members</dt>
     <dd>
     <div>
-      <a class="xref" href="https://jnet.masesgroup.com/api/MASES.JNetPSCore.Cmdlet.JNetPSCmdlet-1.html#MASES_JNetPSCore_Cmdlet_JNetPSCmdlet_1_ProcessRecord">JNetPSCmdlet&lt;PLCOnNetPSCore&gt;.ProcessRecord()</a>
+      <a class="xref" href="https://jnet.masesgroup.com/api/MASES.JNet.PowerShell.Cmdlet.StartJNetPSCmdletCommandBase-2.html#MASES_JNet_PowerShell_Cmdlet_StartJNetPSCmdletCommandBase_2_ProcessCommand">StartJNetPSCmdletCommandBase&lt;TCmdlet, PLCOnNetPSCore&gt;.ProcessCommand()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">StartJNetPSCmdletCommandBase&lt;TCmdlet, PLCOnNetPSCore&gt;.AddJVMOption(string, string)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://jnet.masesgroup.com/api/MASES.JNet.PowerShell.Cmdlet.StartJNetPSCmdletCommandBase-2.html#MASES_JNet_PowerShell_Cmdlet_StartJNetPSCmdletCommandBase_2_OnBeforeCreateGlobalInstance">StartJNetPSCmdletCommandBase&lt;TCmdlet, PLCOnNetPSCore&gt;.OnBeforeCreateGlobalInstance()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://jnet.masesgroup.com/api/MASES.JNet.PowerShell.Cmdlet.StartJNetPSCmdletCommandBase-2.html#MASES_JNet_PowerShell_Cmdlet_StartJNetPSCmdletCommandBase_2_CreateGlobalInstance">StartJNetPSCmdletCommandBase&lt;TCmdlet, PLCOnNetPSCore&gt;.CreateGlobalInstance()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://jnet.masesgroup.com/api/MASES.JNet.PowerShell.Cmdlet.StartJNetPSCmdletCommandBase-2.html#MASES_JNet_PowerShell_Cmdlet_StartJNetPSCmdletCommandBase_2_OnAfterCreateGlobalInstance">StartJNetPSCmdletCommandBase&lt;TCmdlet, PLCOnNetPSCore&gt;.OnAfterCreateGlobalInstance()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://jnet.masesgroup.com/api/MASES.JNet.PowerShell.Cmdlet.StartJNetPSCmdletCommandBase-2.html#MASES_JNet_PowerShell_Cmdlet_StartJNetPSCmdletCommandBase_2_LicensePath">StartJNetPSCmdletCommandBase&lt;TCmdlet, PLCOnNetPSCore&gt;.LicensePath</a>
+    </div>
+    <div>
+      <a class="xref" href="https://jnet.masesgroup.com/api/MASES.JNet.PowerShell.Cmdlet.StartJNetPSCmdletCommandBase-2.html#MASES_JNet_PowerShell_Cmdlet_StartJNetPSCmdletCommandBase_2_JDKHome">StartJNetPSCmdletCommandBase&lt;TCmdlet, PLCOnNetPSCore&gt;.JDKHome</a>
+    </div>
+    <div>
+      <a class="xref" href="https://jnet.masesgroup.com/api/MASES.JNet.PowerShell.Cmdlet.StartJNetPSCmdletCommandBase-2.html#MASES_JNet_PowerShell_Cmdlet_StartJNetPSCmdletCommandBase_2_JVMPath">StartJNetPSCmdletCommandBase&lt;TCmdlet, PLCOnNetPSCore&gt;.JVMPath</a>
+    </div>
+    <div>
+      <a class="xref" href="https://jnet.masesgroup.com/api/MASES.JNet.PowerShell.Cmdlet.StartJNetPSCmdletCommandBase-2.html#MASES_JNet_PowerShell_Cmdlet_StartJNetPSCmdletCommandBase_2_JNIVerbosity">StartJNetPSCmdletCommandBase&lt;TCmdlet, PLCOnNetPSCore&gt;.JNIVerbosity</a>
+    </div>
+    <div>
+      <a class="xref" href="https://jnet.masesgroup.com/api/MASES.JNet.PowerShell.Cmdlet.StartJNetPSCmdletCommandBase-2.html#MASES_JNet_PowerShell_Cmdlet_StartJNetPSCmdletCommandBase_2_JNIOutputFile">StartJNetPSCmdletCommandBase&lt;TCmdlet, PLCOnNetPSCore&gt;.JNIOutputFile</a>
+    </div>
+    <div>
+      <a class="xref" href="https://jnet.masesgroup.com/api/MASES.JNet.PowerShell.Cmdlet.StartJNetPSCmdletCommandBase-2.html#MASES_JNet_PowerShell_Cmdlet_StartJNetPSCmdletCommandBase_2_JmxPort">StartJNetPSCmdletCommandBase&lt;TCmdlet, PLCOnNetPSCore&gt;.JmxPort</a>
+    </div>
+    <div>
+      <a class="xref" href="https://jnet.masesgroup.com/api/MASES.JNet.PowerShell.Cmdlet.StartJNetPSCmdletCommandBase-2.html#MASES_JNet_PowerShell_Cmdlet_StartJNetPSCmdletCommandBase_2_EnableDebug">StartJNetPSCmdletCommandBase&lt;TCmdlet, PLCOnNetPSCore&gt;.EnableDebug</a>
+    </div>
+    <div>
+      <a class="xref" href="https://jnet.masesgroup.com/api/MASES.JNet.PowerShell.Cmdlet.StartJNetPSCmdletCommandBase-2.html#MASES_JNet_PowerShell_Cmdlet_StartJNetPSCmdletCommandBase_2_JavaDebugPort">StartJNetPSCmdletCommandBase&lt;TCmdlet, PLCOnNetPSCore&gt;.JavaDebugPort</a>
+    </div>
+    <div>
+      <a class="xref" href="https://jnet.masesgroup.com/api/MASES.JNet.PowerShell.Cmdlet.StartJNetPSCmdletCommandBase-2.html#MASES_JNet_PowerShell_Cmdlet_StartJNetPSCmdletCommandBase_2_DebugSuspendFlag">StartJNetPSCmdletCommandBase&lt;TCmdlet, PLCOnNetPSCore&gt;.DebugSuspendFlag</a>
+    </div>
+    <div>
+      <a class="xref" href="https://jnet.masesgroup.com/api/MASES.JNet.PowerShell.Cmdlet.StartJNetPSCmdletCommandBase-2.html#MASES_JNet_PowerShell_Cmdlet_StartJNetPSCmdletCommandBase_2_JavaDebugOpts">StartJNetPSCmdletCommandBase&lt;TCmdlet, PLCOnNetPSCore&gt;.JavaDebugOpts</a>
+    </div>
+    <div>
+      <a class="xref" href="https://jnet.masesgroup.com/api/MASES.JNet.PowerShell.Cmdlet.StartJNetPSCmdletCommandBase-2.html#MASES_JNet_PowerShell_Cmdlet_StartJNetPSCmdletCommandBase_2_HeapSize">StartJNetPSCmdletCommandBase&lt;TCmdlet, PLCOnNetPSCore&gt;.HeapSize</a>
+    </div>
+    <div>
+      <a class="xref" href="https://jnet.masesgroup.com/api/MASES.JNet.PowerShell.Cmdlet.StartJNetPSCmdletCommandBase-2.html#MASES_JNet_PowerShell_Cmdlet_StartJNetPSCmdletCommandBase_2_InitialHeapSize">StartJNetPSCmdletCommandBase&lt;TCmdlet, PLCOnNetPSCore&gt;.InitialHeapSize</a>
+    </div>
+    <div>
+      <a class="xref" href="https://jnet.masesgroup.com/api/MASES.JNet.PowerShell.Cmdlet.StartJNetPSCmdletCommandBase-2.html#MASES_JNet_PowerShell_Cmdlet_StartJNetPSCmdletCommandBase_2_LogClassPath">StartJNetPSCmdletCommandBase&lt;TCmdlet, PLCOnNetPSCore&gt;.LogClassPath</a>
+    </div>
+    <div>
+      <a class="xref" href="https://jnet.masesgroup.com/api/MASES.JNet.PowerShell.Cmdlet.StartJNetPSCmdletCommandBase-2.html#MASES_JNet_PowerShell_Cmdlet_StartJNetPSCmdletCommandBase_2_ExtraJVMOptions">StartJNetPSCmdletCommandBase&lt;TCmdlet, PLCOnNetPSCore&gt;.ExtraJVMOptions</a>
+    </div>
+    <div>
+      <a class="xref" href="https://jnet.masesgroup.com/api/MASES.JNet.PowerShell.Cmdlet.StartJNetPSCmdletCommandBase-2.html#MASES_JNet_PowerShell_Cmdlet_StartJNetPSCmdletCommandBase_2_ExtraJVMKVOptions">StartJNetPSCmdletCommandBase&lt;TCmdlet, PLCOnNetPSCore&gt;.ExtraJVMKVOptions</a>
+    </div>
+    <div>
+      <a class="xref" href="https://jnet.masesgroup.com/api/MASES.JNet.PowerShell.Cmdlet.JNetPSExternalizableCmdlet-1.html#MASES_JNet_PowerShell_Cmdlet_JNetPSExternalizableCmdlet_1_BeginProcessing">JNetPSExternalizableCmdlet&lt;TCmdlet&gt;.BeginProcessing()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://jnet.masesgroup.com/api/MASES.JNet.PowerShell.Cmdlet.JNetPSExternalizableCmdlet-1.html#MASES_JNet_PowerShell_Cmdlet_JNetPSExternalizableCmdlet_1_ProcessRecord">JNetPSExternalizableCmdlet&lt;TCmdlet&gt;.ProcessRecord()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://jnet.masesgroup.com/api/MASES.JNet.PowerShell.Cmdlet.JNetPSExternalizableCmdlet-1.html#MASES_JNet_PowerShell_Cmdlet_JNetPSExternalizableCmdlet_1_ProcessCommand">JNetPSExternalizableCmdlet&lt;TCmdlet&gt;.ProcessCommand()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://jnet.masesgroup.com/api/MASES.JNet.PowerShell.Cmdlet.JNetPSExternalizableCmdlet-1.html#MASES_JNet_PowerShell_Cmdlet_JNetPSExternalizableCmdlet_1_EndProcessing">JNetPSExternalizableCmdlet&lt;TCmdlet&gt;.EndProcessing()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://jnet.masesgroup.com/api/MASES.JNet.PowerShell.Cmdlet.JNetPSExternalizableCmdlet-1.html#MASES_JNet_PowerShell_Cmdlet_JNetPSExternalizableCmdlet_1_JNetPSCmdletDetached">JNetPSExternalizableCmdlet&lt;TCmdlet&gt;.JNetPSCmdletDetached</a>
+    </div>
+    <div>
+      <a class="xref" href="https://jnet.masesgroup.com/api/MASES.JNet.PowerShell.Cmdlet.JNetPSExternalizableCmdlet-1.html#MASES_JNet_PowerShell_Cmdlet_JNetPSExternalizableCmdlet_1_BypassJNetPSExternalize">JNetPSExternalizableCmdlet&lt;TCmdlet&gt;.BypassJNetPSExternalize</a>
+    </div>
+    <div>
+      <a class="xref" href="https://jnet.masesgroup.com/api/MASES.JNet.PowerShell.Cmdlet.JNetPSExternalizableCmdlet-1.html#MASES_JNet_PowerShell_Cmdlet_JNetPSExternalizableCmdlet_1_ForceJNetPSExternalize">JNetPSExternalizableCmdlet&lt;TCmdlet&gt;.ForceJNetPSExternalize</a>
     </div>
     <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.management.automation.pscmdlet.currentproviderlocation">PSCmdlet.CurrentProviderLocation(string)</a>
@@ -291,19 +380,20 @@ public class GetPlcConnectionCmdletCommand : PLCOnNetPSCmdlet</code></pre>
 </h2>
 
 
-  <a id="MASES_PLCOnNetPS_Cmdlet_GetPlcConnectionCmdletCommand_Authentication_" data-uid="MASES.PLCOnNetPS.Cmdlet.GetPlcConnectionCmdletCommand.Authentication*"></a>
+  <a id="MASES_PLCOnNet_PowerShell_Cmdlet_StartPLCOnNetPSCmdletCommandBase_1_CommonLoggingPath_" data-uid="MASES.PLCOnNet.PowerShell.Cmdlet.StartPLCOnNetPSCmdletCommandBase`1.CommonLoggingPath*"></a>
 
-  <h3 id="MASES_PLCOnNetPS_Cmdlet_GetPlcConnectionCmdletCommand_Authentication" data-uid="MASES.PLCOnNetPS.Cmdlet.GetPlcConnectionCmdletCommand.Authentication">
-  Authentication
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/PLCOnNet/blob/master/src/net/PLCOnNetPS/Cmdlet/GetPlcConnectionCmdletCommand.cs/#L42"><i class="bi bi-code-slash"></i></a>
+  <h3 id="MASES_PLCOnNet_PowerShell_Cmdlet_StartPLCOnNetPSCmdletCommandBase_1_CommonLoggingPath" data-uid="MASES.PLCOnNet.PowerShell.Cmdlet.StartPLCOnNetPSCmdletCommandBase`1.CommonLoggingPath">
+  CommonLoggingPath
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/PLCOnNet/blob/master/src/net/PLCOnNetPS/Cmdlet/StartPLCOnNetPSCmdletCommandBase.cs/#L29"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Sets the global value of log4j path</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Parameter(Mandatory = false, Position = 0, ValueFromPipeline = true, ValueFromPipelineByPropertyName = true, HelpMessage = &quot;The authentication credentials to connect to PLC&quot;)]
-public PlcUsernamePasswordAuthentication Authentication { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[Parameter(ValueFromPipeline = true, ValueFromPipelineByPropertyName = true, HelpMessage = &quot;The file containing the configuration of log4j.&quot;)]
+public string CommonLoggingPath { get; set; }</code></pre>
   </div>
 
 
@@ -312,7 +402,7 @@ public PlcUsernamePasswordAuthentication Authentication { get; set; }</code></pr
 
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="Org.Apache.Plc4x.JavaNs.Api.Authentication.PlcUsernamePasswordAuthentication.html">PlcUsernamePasswordAuthentication</a></dt>
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
     <dd></dd>
   </dl>
 
@@ -323,19 +413,20 @@ public PlcUsernamePasswordAuthentication Authentication { get; set; }</code></pr
 
 
 
-  <a id="MASES_PLCOnNetPS_Cmdlet_GetPlcConnectionCmdletCommand_Url_" data-uid="MASES.PLCOnNetPS.Cmdlet.GetPlcConnectionCmdletCommand.Url*"></a>
+  <a id="MASES_PLCOnNet_PowerShell_Cmdlet_StartPLCOnNetPSCmdletCommandBase_1_LogPath_" data-uid="MASES.PLCOnNet.PowerShell.Cmdlet.StartPLCOnNetPSCmdletCommandBase`1.LogPath*"></a>
 
-  <h3 id="MASES_PLCOnNetPS_Cmdlet_GetPlcConnectionCmdletCommand_Url" data-uid="MASES.PLCOnNetPS.Cmdlet.GetPlcConnectionCmdletCommand.Url">
-  Url
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/PLCOnNet/blob/master/src/net/PLCOnNetPS/Cmdlet/GetPlcConnectionCmdletCommand.cs/#L34"><i class="bi bi-code-slash"></i></a>
+  <h3 id="MASES_PLCOnNet_PowerShell_Cmdlet_StartPLCOnNetPSCmdletCommandBase_1_LogPath" data-uid="MASES.PLCOnNet.PowerShell.Cmdlet.StartPLCOnNetPSCmdletCommandBase`1.LogPath">
+  LogPath
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/PLCOnNet/blob/master/src/net/PLCOnNetPS/Cmdlet/StartPLCOnNetPSCmdletCommandBase.cs/#L36"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Sets the global value of log path</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Parameter(Mandatory = true, Position = 0, ValueFromPipeline = true, ValueFromPipelineByPropertyName = true, HelpMessage = &quot;The PLC connection string&quot;)]
-public string Url { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[Parameter(ValueFromPipeline = true, ValueFromPipelineByPropertyName = true, HelpMessage = &quot;The path where log will be stored.&quot;)]
+public string LogPath { get; set; }</code></pre>
   </div>
 
 
@@ -359,70 +450,18 @@ public string Url { get; set; }</code></pre>
 </h2>
 
 
-  <a id="MASES_PLCOnNetPS_Cmdlet_GetPlcConnectionCmdletCommand_BeginProcessing_" data-uid="MASES.PLCOnNetPS.Cmdlet.GetPlcConnectionCmdletCommand.BeginProcessing*"></a>
+  <a id="MASES_PLCOnNet_PowerShell_Cmdlet_StartPLCOnNetPSCmdletCommandBase_1_OnBeforeCreateGlobalInstance_" data-uid="MASES.PLCOnNet.PowerShell.Cmdlet.StartPLCOnNetPSCmdletCommandBase`1.OnBeforeCreateGlobalInstance*"></a>
 
-  <h3 id="MASES_PLCOnNetPS_Cmdlet_GetPlcConnectionCmdletCommand_BeginProcessing" data-uid="MASES.PLCOnNetPS.Cmdlet.GetPlcConnectionCmdletCommand.BeginProcessing">
-  BeginProcessing()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/PLCOnNet/blob/master/src/net/PLCOnNetPS/Cmdlet/GetPlcConnectionCmdletCommand.cs/#L51"><i class="bi bi-code-slash"></i></a>
+  <h3 id="MASES_PLCOnNet_PowerShell_Cmdlet_StartPLCOnNetPSCmdletCommandBase_1_OnBeforeCreateGlobalInstance" data-uid="MASES.PLCOnNet.PowerShell.Cmdlet.StartPLCOnNetPSCmdletCommandBase`1.OnBeforeCreateGlobalInstance">
+  OnBeforeCreateGlobalInstance()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/PLCOnNet/blob/master/src/net/PLCOnNetPS/Cmdlet/StartPLCOnNetPSCmdletCommandBase.cs/#L42"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected override void BeginProcessing()</code></pre>
-  </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-  <a id="MASES_PLCOnNetPS_Cmdlet_GetPlcConnectionCmdletCommand_EndProcessing_" data-uid="MASES.PLCOnNetPS.Cmdlet.GetPlcConnectionCmdletCommand.EndProcessing*"></a>
-
-  <h3 id="MASES_PLCOnNetPS_Cmdlet_GetPlcConnectionCmdletCommand_EndProcessing" data-uid="MASES.PLCOnNetPS.Cmdlet.GetPlcConnectionCmdletCommand.EndProcessing">
-  EndProcessing()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/PLCOnNet/blob/master/src/net/PLCOnNetPS/Cmdlet/GetPlcConnectionCmdletCommand.cs/#L67"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected override void EndProcessing()</code></pre>
-  </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-  <a id="MASES_PLCOnNetPS_Cmdlet_GetPlcConnectionCmdletCommand_ProcessCommand_" data-uid="MASES.PLCOnNetPS.Cmdlet.GetPlcConnectionCmdletCommand.ProcessCommand*"></a>
-
-  <h3 id="MASES_PLCOnNetPS_Cmdlet_GetPlcConnectionCmdletCommand_ProcessCommand" data-uid="MASES.PLCOnNetPS.Cmdlet.GetPlcConnectionCmdletCommand.ProcessCommand">
-  ProcessCommand()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/PLCOnNet/blob/master/src/net/PLCOnNetPS/Cmdlet/GetPlcConnectionCmdletCommand.cs/#L57"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected override void ProcessCommand()</code></pre>
+    <pre><code class="lang-csharp hljs">protected override void OnBeforeCreateGlobalInstance()</code></pre>
   </div>
 
 
@@ -441,7 +480,7 @@ public string Url { get; set; }</code></pre>
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/masesgroup/PLCOnNet/blob/master/src/net/PLCOnNetPS/Cmdlet/GetPlcConnectionCmdletCommand.cs/#L30" class="edit-link">Edit this page</a>
+          <a href="https://github.com/masesgroup/PLCOnNet/blob/master/src/net/PLCOnNetPS/Cmdlet/StartPLCOnNetPSCmdletCommandBase.cs/#L25" class="edit-link">Edit this page</a>
         </div>
 
 
