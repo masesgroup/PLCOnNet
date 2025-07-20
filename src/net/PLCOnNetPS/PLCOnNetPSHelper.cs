@@ -16,18 +16,16 @@
 *  Refer to LICENSE for more information.
 */
 
-using MASES.JNetPSCore;
+using MASES.JNet.PowerShell;
 using MASES.PLCOnNet;
 
-namespace MASES.PLCOnNetPS
+namespace MASES.PLCOnNet.PowerShell
 {
     /// <summary>
     /// Public Helper class
     /// </summary>
     public static class PLCOnNetPSHelper<TClass> where TClass : PLCOnNetCore<TClass>
     {
-        public static void SetClassToRun(string classToRun) { JNetPSHelper<TClass>.Set(typeof(PLCOnNetCore<>), nameof(PLCOnNetPSCore.ApplicationClassToRun), classToRun); }
-
         public static void SetCommonLoggingPath(string commonLoggingath) { JNetPSHelper<TClass>.Set(typeof(PLCOnNetCore<>), nameof(PLCOnNetPSCore.ApplicationCommonLoggingPath), commonLoggingath); }
 
         public static void SetLogPath(string logPath) { JNetPSHelper<TClass>.Set(typeof(PLCOnNetCore<>), nameof(PLCOnNetPSCore.ApplicationLogPath), logPath); }

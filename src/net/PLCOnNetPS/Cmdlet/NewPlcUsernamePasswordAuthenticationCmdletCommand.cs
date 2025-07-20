@@ -21,7 +21,7 @@ using Org.Apache.Plc4x.JavaNs.Api.Authentication;
 using System;
 using System.Management.Automation;
 
-namespace MASES.PLCOnNetPS.Cmdlet
+namespace MASES.PLCOnNet.PowerShell.Cmdlet
 {
     [Cmdlet(VerbsCommon.New, "PlcUsernamePasswordAuthentication")]
     [OutputType(typeof(PlcUsernamePasswordAuthentication))]

@@ -3,7 +3,7 @@
 	<PropertyGroup>
 		<GeneratePackageOnBuild>false</GeneratePackageOnBuild>
 		<AssemblyName>MASES.PLCOnNetPS</AssemblyName>
-		<RootNamespace>MASES.PLCOnNetPS</RootNamespace>
+		<RootNamespace>MASES.PLCOnNet.PowerShell</RootNamespace>
 		<Title>PLCOnNetPS - PLCOnNet (.NET suite for PLC4X) PowerShell command line interface</Title>
 		<Description>PLCOnNetPS - PLCOnNet (.NET suite for PLC4X) PowerShell command line interface</Description>
 		<Product>PLCOnNetPS</Product>
@@ -17,18 +17,13 @@
 		<OutputType>Exe</OutputType>
 	</PropertyGroup>
 
-	<ItemGroup Condition="True">
-		<plconnetps_jars Include="$(ProjectDir)\..\..\..\jars\*.*" />
-		<plconnetps_config Include="$(ProjectDir)\..\..\config\*.*" />
-	</ItemGroup>
-
 	<Target Name="CopyCustomContent" AfterTargets="AfterBuild">
-		<Copy SourceFiles="@(plconnetps_jars)" DestinationFolder="$(OutDir)\jars" />
-		<Copy SourceFiles="@(plconnetps_config)" DestinationFolder="$(OutDir)\config" />
+		<Copy SourceFiles="@(plconnet_jars)" DestinationFolder="$(OutDir)\jars\%(RecursiveDir)" />
+		<Copy SourceFiles="@(plconnet_config)" DestinationFolder="$(OutDir)\config\%(RecursiveDir)" />
 	</Target>
 	<Target Name="CopyCustomContentOnPublish" AfterTargets="Publish">
-		<Copy SourceFiles="@(plconnetps_jars)" DestinationFolder="$(OutDir)\jars" />
-		<Copy SourceFiles="@(plconnetps_config)" DestinationFolder="$(OutDir)\config" />
+		<Copy SourceFiles="@(plconnet_jars)" DestinationFolder="$(OutDir)\jars\%(RecursiveDir)" />
+		<Copy SourceFiles="@(plconnet_config)" DestinationFolder="$(OutDir)\config\%(RecursiveDir)" />
 	</Target>
 	<ItemGroup>
 		<Compile Include="..\PLCOnNetCLI\PLCOnNetCLICore.cs" Link="PLCOnNetCLICore.cs" />
