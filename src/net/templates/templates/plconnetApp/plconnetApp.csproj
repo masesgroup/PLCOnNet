@@ -15,6 +15,6 @@
 	</ItemGroup>
 	<ItemGroup Condition="!Exists('..\..\..\PLCOnNet\PLCOnNet.csproj')">
 		<!--Outside GitHub repo-->
-		<PackageReference Include="MASES.PLCOnNet" Version="0.12.1" IncludeAssets="All" PrivateAssets="None" />
+		<PackageReference Include="MASES.PLCOnNet" Version="0.12.2" IncludeAssets="All" PrivateAssets="None" />
 	</ItemGroup>
 </Project>
