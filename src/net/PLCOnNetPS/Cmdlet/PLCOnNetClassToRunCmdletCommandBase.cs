@@ -18,6 +18,7 @@
 
 using MASES.JCOBridge.C2JBridge;
 using MASES.JNet.PowerShell;
+using MASES.JNet.Specific.CLI;
 using System;
 using System.Management.Automation;
 using System.Reflection;
@@ -37,7 +38,7 @@ namespace MASES.PLCOnNet.PowerShell.Cmdlet
         {
             base.OnBeforeCreateGlobalInstance();
             var nounName = JNetPSHelper.NounName<TCmdlet>();
-            JNetPSHelper<PLCOnNetPSCore>.SetClassToRun(nounName);
+            JNetCLICoreHelper.ApplicationClassToRun = nounName;
         }
 
         protected override void OnAfterCreateGlobalInstance()
