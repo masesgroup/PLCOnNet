@@ -17,18 +17,13 @@
 		<OutputType>Exe</OutputType>
 	</PropertyGroup>
 
-	<ItemGroup Condition="True">
-		<plconnetps_jars Include="$(ProjectDir)\..\..\..\jars\*.*" />
-		<plconnetps_config Include="$(ProjectDir)\..\..\config\*.*" />
-	</ItemGroup>
-
 	<Target Name="CopyCustomContent" AfterTargets="AfterBuild">
-		<Copy SourceFiles="@(plconnetps_jars)" DestinationFolder="$(OutDir)\jars" />
-		<Copy SourceFiles="@(plconnetps_config)" DestinationFolder="$(OutDir)\config" />
+		<Copy SourceFiles="@(plconnet_jars)" DestinationFolder="$(OutDir)\..\jars\%(RecursiveDir)" />
+		<Copy SourceFiles="@(plconnet_config)" DestinationFolder="$(OutDir)\config\%(RecursiveDir)" />
 	</Target>
 	<Target Name="CopyCustomContentOnPublish" AfterTargets="Publish">
-		<Copy SourceFiles="@(plconnetps_jars)" DestinationFolder="$(OutDir)\jars" />
-		<Copy SourceFiles="@(plconnetps_config)" DestinationFolder="$(OutDir)\config" />
+		<Copy SourceFiles="@(plconnet_jars)" DestinationFolder="$(OutDir)\..\jars\%(RecursiveDir)" />
+		<Copy SourceFiles="@(plconnet_config)" DestinationFolder="$(OutDir)\config\%(RecursiveDir)" />
 	</Target>
 	<ItemGroup>
 		<Compile Include="..\PLCOnNetCLI\PLCOnNetCLICore.cs" Link="PLCOnNetCLICore.cs" />

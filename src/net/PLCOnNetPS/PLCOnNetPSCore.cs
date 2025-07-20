@@ -18,6 +18,9 @@
 
 using MASES.PLCOnNetCLI;
 using System;
+using System.Collections.Generic;
+using System.IO;
+using System.Reflection;
 
 namespace MASES.PLCOnNetPS
 {
@@ -26,8 +29,18 @@ namespace MASES.PLCOnNetPS
     /// </summary>
     public class PLCOnNetPSCore : PLCOnNetCLICore<PLCOnNetPSCore>
     {
+        static Assembly assembly = typeof(PLCOnNetPSCore).Assembly;
 #if NET6_0_OR_GREATER
         public static void Main(string[] args) { } // used in conjunction with project of executable type to produce artifacts with all needed assemblies
 #endif
+        protected override IList<string> PathToParse
+        {
+            get
+            {
+                var lst = base.PathToParse;
+                lst.Add(Path.Combine(assembly.Location, "..", JARsSubFolder, "*.jar"));
+                return lst;
+            }
+        }
     }
 }
