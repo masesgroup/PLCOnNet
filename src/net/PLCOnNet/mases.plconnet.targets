@@ -1,16 +1,16 @@
 <Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
 	<ItemGroup>
-		<plconnet_jars Include="$(MSBuildThisFileDirectory)\jars\*.*" />
-		<plconnet_config Include="$(MSBuildThisFileDirectory)\config\*.*" />
+		<plconnet_jars Include="$(MSBuildThisFileDirectory)\jars\**\*.*" />
+		<plconnet_config Include="$(MSBuildThisFileDirectory)\config\**\*.*" />
 	</ItemGroup>
 
 	<Target Name="PLCOnNet_CopyFilesNative" BeforeTargets="Build">
-		<Copy SourceFiles="@(plconnet_jars)" DestinationFolder="$(TargetDir)\jars" />
-		<Copy SourceFiles="@(plconnet_config)" DestinationFolder="$(TargetDir)\config" />
+		<Copy SourceFiles="@(plconnet_jars)" DestinationFolder="$(TargetDir)\jars\%(RecursiveDir)" />
+		<Copy SourceFiles="@(plconnet_config)" DestinationFolder="$(TargetDir)\config\%(RecursiveDir)" />
 	</Target>
 
 	<Target Name="PLCOnNet_CopyFilesNativePublish" BeforeTargets="Publish">
-		<Copy SourceFiles="@(plconnet_jars)" DestinationFolder="$(PublishDir)\jars" />
-		<Copy SourceFiles="@(plconnet_config)" DestinationFolder="$(PublishDir)\config" />
+		<Copy SourceFiles="@(plconnet_jars)" DestinationFolder="$(PublishDir)\jars\%(RecursiveDir)" />
+		<Copy SourceFiles="@(plconnet_config)" DestinationFolder="$(PublishDir)\config\%(RecursiveDir)" />
 	</Target>
 </Project>

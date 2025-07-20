@@ -16,11 +16,11 @@
 *  Refer to LICENSE for more information.
 */
 
-using MASES.JNetPSCore.Cmdlet;
+using MASES.JNet.PowerShell.Cmdlet;
 using MASES.PLCOnNet;
 using System.Management.Automation;
 
-namespace MASES.PLCOnNetPS.Cmdlet
+namespace MASES.PLCOnNet.PowerShell.Cmdlet
 {
     public class StartPLCOnNetPSCmdletCommandBase<TCmdlet> : StartJNetPSCmdletCommandBase<TCmdlet, PLCOnNetPSCore>
         where TCmdlet : StartPLCOnNetPSCmdletCommandBase<TCmdlet>

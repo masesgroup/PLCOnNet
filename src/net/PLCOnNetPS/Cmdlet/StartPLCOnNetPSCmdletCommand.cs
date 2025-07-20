@@ -18,7 +18,7 @@
 
 using System.Management.Automation;
 
-namespace MASES.PLCOnNetPS.Cmdlet
+namespace MASES.PLCOnNet.PowerShell.Cmdlet
 {
     [Cmdlet(VerbsLifecycle.Start, "PLCOnNetPS")]
     public class StartPLCOnNetPSCmdletCommand : StartPLCOnNetPSCmdletCommandBase<StartPLCOnNetPSCmdletCommand>

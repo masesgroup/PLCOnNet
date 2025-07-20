@@ -3,7 +3,7 @@
 	<PropertyGroup>
 		<GeneratePackageOnBuild>false</GeneratePackageOnBuild>
 		<AssemblyName>MASES.PLCOnNetPS</AssemblyName>
-		<RootNamespace>MASES.PLCOnNetPS</RootNamespace>
+		<RootNamespace>MASES.PLCOnNet.PowerShell</RootNamespace>
 		<Title>PLCOnNetPS - PLCOnNet (.NET suite for PLC4X) PowerShell command line interface</Title>
 		<Description>PLCOnNetPS - PLCOnNet (.NET suite for PLC4X) PowerShell command line interface</Description>
 		<Product>PLCOnNetPS</Product>
@@ -31,7 +31,7 @@
 
 	<ItemGroup>
 		<ProjectReference Include="..\PLCOnNet\PLCOnNet.csproj" />
-		<PackageReference Include="MASES.JNetPSCore" Version="2.5.12" />
+		<PackageReference Include="MASES.JNetPSCore" Version="2.5.13" />
 		<PackageReference Include="Microsoft.SourceLink.GitHub" Version="8.0.0">
 			<PrivateAssets>all</PrivateAssets>
 			<IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>

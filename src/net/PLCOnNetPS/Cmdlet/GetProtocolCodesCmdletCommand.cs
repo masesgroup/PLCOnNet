@@ -24,7 +24,7 @@ using System;
 using System.Collections.Generic;
 using System.Management.Automation;
 
-namespace MASES.PLCOnNetPS.Cmdlet
+namespace MASES.PLCOnNet.PowerShell.Cmdlet
 {
     [Cmdlet(VerbsCommon.Get, "ProtocolCodes")]
     [OutputType(typeof(string[]))]

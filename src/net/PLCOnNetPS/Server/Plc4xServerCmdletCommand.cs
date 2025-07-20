@@ -16,11 +16,11 @@
 *  Refer to LICENSE for more information.
 */
 
-using MASES.JNetPSCore.Cmdlet;
-using MASES.PLCOnNetPS.Cmdlet;
+using MASES.JNet.PowerShell.Cmdlet;
+using MASES.PLCOnNet.PowerShell.Cmdlet;
 using System.Management.Automation;
 
-namespace MASES.PLCOnNetPS.Server
+namespace MASES.PLCOnNet.PowerShell.Server
 {
     [Cmdlet(VerbsLifecycle.Start, "Plc4xServer")]
     [JNetPSExternalize]
