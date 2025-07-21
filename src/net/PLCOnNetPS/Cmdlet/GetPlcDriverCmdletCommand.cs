@@ -16,13 +16,7 @@
 *  Refer to LICENSE for more information.
 */
 
-using Java.Io;
-using Java.Net;
-using Org.Apache.Plc4x.JavaNs;
 using Org.Apache.Plc4x.JavaNs.Api;
-using Org.Apache.Plc4x.JavaNs.Api.Authentication;
-using System;
-using System.Collections.Generic;
 using System.Management.Automation;
 
 namespace MASES.PLCOnNet.PowerShell.Cmdlet
