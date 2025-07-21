@@ -17,7 +17,6 @@
 */
 
 using MASES.JNet.PowerShell.Cmdlet;
-using MASES.PLCOnNet;
 using System.Management.Automation;
 
 namespace MASES.PLCOnNet.PowerShell.Cmdlet
