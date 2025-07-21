@@ -12,6 +12,34 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/MASES.PLCOnNet.CLI.PLCOnNetCLICore-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MASES.PLCOnNet.CLI.PLCOnNetCLICore-1.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MASES.PLCOnNet.CLI.PLCOnNetCLICore<T>",
+      "Summary": "<p sourcefile=\"api/MASES.PLCOnNet.CLI.PLCOnNetCLICore-1.yml\" sourcestartlinenumber=\"1\">Overridable implementation of <xref href=\"MASES.PLCOnNet.PLCOnNetCore%601\" data-throw-if-not-resolved=\"false\"></xref></p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MASES.PLCOnNet.CLI.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MASES.PLCOnNet.CLI.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MASES.PLCOnNet.CLI",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/MASES.PLCOnNet.Const.yml",
       "output": {
         ".html": {
@@ -37,6 +65,230 @@
       "IsMRef": true,
       "Title": "MASES.PLCOnNet.PLCOnNetCore<T>",
       "Summary": "<p sourcefile=\"api/MASES.PLCOnNet.PLCOnNetCore-1.yml\" sourcestartlinenumber=\"1\">Public entry point of <xref href=\"MASES.PLCOnNet.PLCOnNetCore%601\" data-throw-if-not-resolved=\"false\"></xref></p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MASES.PLCOnNet.PowerShell.Cmdlet.GetPlcConnectionCmdletCommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MASES.PLCOnNet.PowerShell.Cmdlet.GetPlcConnectionCmdletCommand.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MASES.PLCOnNet.PowerShell.Cmdlet.GetPlcConnectionCmdletCommand",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MASES.PLCOnNet.PowerShell.Cmdlet.GetPlcDriverCmdletCommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MASES.PLCOnNet.PowerShell.Cmdlet.GetPlcDriverCmdletCommand.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MASES.PLCOnNet.PowerShell.Cmdlet.GetPlcDriverCmdletCommand",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MASES.PLCOnNet.PowerShell.Cmdlet.GetProtocolCodesCmdletCommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MASES.PLCOnNet.PowerShell.Cmdlet.GetProtocolCodesCmdletCommand.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MASES.PLCOnNet.PowerShell.Cmdlet.GetProtocolCodesCmdletCommand",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MASES.PLCOnNet.PowerShell.Cmdlet.NewPlcUsernamePasswordAuthenticationCmdletCommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MASES.PLCOnNet.PowerShell.Cmdlet.NewPlcUsernamePasswordAuthenticationCmdletCommand.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MASES.PLCOnNet.PowerShell.Cmdlet.NewPlcUsernamePasswordAuthenticationCmdletCommand",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MASES.PLCOnNet.PowerShell.Cmdlet.PLC4XClassToRunCmdletCommandBase-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MASES.PLCOnNet.PowerShell.Cmdlet.PLC4XClassToRunCmdletCommandBase-1.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MASES.PLCOnNet.PowerShell.Cmdlet.PLC4XClassToRunCmdletCommandBase<TCmdlet>",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MASES.PLCOnNet.PowerShell.Cmdlet.PLCOnNetClassToRunCmdletCommandBase-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MASES.PLCOnNet.PowerShell.Cmdlet.PLCOnNetClassToRunCmdletCommandBase-1.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MASES.PLCOnNet.PowerShell.Cmdlet.PLCOnNetClassToRunCmdletCommandBase<TCmdlet>",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MASES.PLCOnNet.PowerShell.Cmdlet.PLCOnNetPSCmdlet.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MASES.PLCOnNet.PowerShell.Cmdlet.PLCOnNetPSCmdlet.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MASES.PLCOnNet.PowerShell.Cmdlet.PLCOnNetPSCmdlet",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MASES.PLCOnNet.PowerShell.Cmdlet.StartPLCOnNetPSCmdletCommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MASES.PLCOnNet.PowerShell.Cmdlet.StartPLCOnNetPSCmdletCommand.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MASES.PLCOnNet.PowerShell.Cmdlet.StartPLCOnNetPSCmdletCommand",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MASES.PLCOnNet.PowerShell.Cmdlet.StartPLCOnNetPSCmdletCommandBase-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MASES.PLCOnNet.PowerShell.Cmdlet.StartPLCOnNetPSCmdletCommandBase-1.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MASES.PLCOnNet.PowerShell.Cmdlet.StartPLCOnNetPSCmdletCommandBase<TCmdlet>",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MASES.PLCOnNet.PowerShell.Cmdlet.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MASES.PLCOnNet.PowerShell.Cmdlet.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MASES.PLCOnNet.PowerShell.Cmdlet",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MASES.PLCOnNet.PowerShell.PLCOnNetPSCore.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MASES.PLCOnNet.PowerShell.PLCOnNetPSCore.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MASES.PLCOnNet.PowerShell.PLCOnNetPSCore",
+      "Summary": "<p sourcefile=\"api/MASES.PLCOnNet.PowerShell.PLCOnNetPSCore.yml\" sourcestartlinenumber=\"1\">Concrete implementation of <xref href=\"MASES.PLCOnNet.PLCOnNetCore%601\" data-throw-if-not-resolved=\"false\"></xref></p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MASES.PLCOnNet.PowerShell.PLCOnNetPSHelper-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MASES.PLCOnNet.PowerShell.PLCOnNetPSHelper-1.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MASES.PLCOnNet.PowerShell.PLCOnNetPSHelper<TClass>",
+      "Summary": "<p sourcefile=\"api/MASES.PLCOnNet.PowerShell.PLCOnNetPSHelper-1.yml\" sourcestartlinenumber=\"1\">Public Helper class</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MASES.PLCOnNet.PowerShell.Server.OPCUAServerCmdletCommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MASES.PLCOnNet.PowerShell.Server.OPCUAServerCmdletCommand.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MASES.PLCOnNet.PowerShell.Server.OPCUAServerCmdletCommand",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MASES.PLCOnNet.PowerShell.Server.Plc4xServerCmdletCommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MASES.PLCOnNet.PowerShell.Server.Plc4xServerCmdletCommand.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MASES.PLCOnNet.PowerShell.Server.Plc4xServerCmdletCommand",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MASES.PLCOnNet.PowerShell.Server.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MASES.PLCOnNet.PowerShell.Server.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MASES.PLCOnNet.PowerShell.Server",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MASES.PLCOnNet.PowerShell.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MASES.PLCOnNet.PowerShell.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MASES.PLCOnNet.PowerShell",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -82,258 +334,6 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/MASES.PLCOnNetCLI.PLCOnNetCLICore-1.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/MASES.PLCOnNetCLI.PLCOnNetCLICore-1.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "MASES.PLCOnNetCLI.PLCOnNetCLICore<T>",
-      "Summary": "<p sourcefile=\"api/MASES.PLCOnNetCLI.PLCOnNetCLICore-1.yml\" sourcestartlinenumber=\"1\">Overridable implementation of <xref href=\"MASES.PLCOnNet.PLCOnNetCore%601\" data-throw-if-not-resolved=\"false\"></xref></p>\n"
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/MASES.PLCOnNetCLI.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/MASES.PLCOnNetCLI.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "MASES.PLCOnNetCLI",
-      "Summary": null
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/MASES.PLCOnNetPS.Cmdlet.GetPlcConnectionCmdletCommand.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/MASES.PLCOnNetPS.Cmdlet.GetPlcConnectionCmdletCommand.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "MASES.PLCOnNetPS.Cmdlet.GetPlcConnectionCmdletCommand",
-      "Summary": null
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/MASES.PLCOnNetPS.Cmdlet.GetPlcDriverCmdletCommand.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/MASES.PLCOnNetPS.Cmdlet.GetPlcDriverCmdletCommand.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "MASES.PLCOnNetPS.Cmdlet.GetPlcDriverCmdletCommand",
-      "Summary": null
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/MASES.PLCOnNetPS.Cmdlet.GetProtocolCodesCmdletCommand.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/MASES.PLCOnNetPS.Cmdlet.GetProtocolCodesCmdletCommand.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "MASES.PLCOnNetPS.Cmdlet.GetProtocolCodesCmdletCommand",
-      "Summary": null
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/MASES.PLCOnNetPS.Cmdlet.NewPlcUsernamePasswordAuthenticationCmdletCommand.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/MASES.PLCOnNetPS.Cmdlet.NewPlcUsernamePasswordAuthenticationCmdletCommand.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "MASES.PLCOnNetPS.Cmdlet.NewPlcUsernamePasswordAuthenticationCmdletCommand",
-      "Summary": null
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/MASES.PLCOnNetPS.Cmdlet.PLC4XClassToRunCmdletCommandBase-1.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/MASES.PLCOnNetPS.Cmdlet.PLC4XClassToRunCmdletCommandBase-1.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "MASES.PLCOnNetPS.Cmdlet.PLC4XClassToRunCmdletCommandBase<TCmdlet>",
-      "Summary": null
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/MASES.PLCOnNetPS.Cmdlet.PLCOnNetClassToRunCmdletCommandBase-1.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/MASES.PLCOnNetPS.Cmdlet.PLCOnNetClassToRunCmdletCommandBase-1.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "MASES.PLCOnNetPS.Cmdlet.PLCOnNetClassToRunCmdletCommandBase<TCmdlet>",
-      "Summary": null
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/MASES.PLCOnNetPS.Cmdlet.PLCOnNetPSCmdlet.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/MASES.PLCOnNetPS.Cmdlet.PLCOnNetPSCmdlet.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "MASES.PLCOnNetPS.Cmdlet.PLCOnNetPSCmdlet",
-      "Summary": null
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/MASES.PLCOnNetPS.Cmdlet.StartPLCOnNetPSCmdletCommand.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/MASES.PLCOnNetPS.Cmdlet.StartPLCOnNetPSCmdletCommand.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "MASES.PLCOnNetPS.Cmdlet.StartPLCOnNetPSCmdletCommand",
-      "Summary": null
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/MASES.PLCOnNetPS.Cmdlet.StartPLCOnNetPSCmdletCommandBase-1.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/MASES.PLCOnNetPS.Cmdlet.StartPLCOnNetPSCmdletCommandBase-1.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "MASES.PLCOnNetPS.Cmdlet.StartPLCOnNetPSCmdletCommandBase<TCmdlet>",
-      "Summary": null
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/MASES.PLCOnNetPS.Cmdlet.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/MASES.PLCOnNetPS.Cmdlet.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "MASES.PLCOnNetPS.Cmdlet",
-      "Summary": null
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/MASES.PLCOnNetPS.PLCOnNetPSCore.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/MASES.PLCOnNetPS.PLCOnNetPSCore.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "MASES.PLCOnNetPS.PLCOnNetPSCore",
-      "Summary": "<p sourcefile=\"api/MASES.PLCOnNetPS.PLCOnNetPSCore.yml\" sourcestartlinenumber=\"1\">Concrete implementation of PLCOnNetCore&lt;T&gt;</p>\n"
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/MASES.PLCOnNetPS.PLCOnNetPSHelper-1.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/MASES.PLCOnNetPS.PLCOnNetPSHelper-1.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "MASES.PLCOnNetPS.PLCOnNetPSHelper<TClass>",
-      "Summary": "<p sourcefile=\"api/MASES.PLCOnNetPS.PLCOnNetPSHelper-1.yml\" sourcestartlinenumber=\"1\">Public Helper class</p>\n"
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/MASES.PLCOnNetPS.Server.OPCUAServerCmdletCommand.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/MASES.PLCOnNetPS.Server.OPCUAServerCmdletCommand.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "MASES.PLCOnNetPS.Server.OPCUAServerCmdletCommand",
-      "Summary": null
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/MASES.PLCOnNetPS.Server.Plc4xServerCmdletCommand.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/MASES.PLCOnNetPS.Server.Plc4xServerCmdletCommand.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "MASES.PLCOnNetPS.Server.Plc4xServerCmdletCommand",
-      "Summary": null
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/MASES.PLCOnNetPS.Server.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/MASES.PLCOnNetPS.Server.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "MASES.PLCOnNetPS.Server",
-      "Summary": null
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/MASES.PLCOnNetPS.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/MASES.PLCOnNetPS.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "MASES.PLCOnNetPS",
-      "Summary": null
-    },
-    {
-      "type": "ManagedReference",
       "source_relative_path": "api/Org.Apache.Plc4x.JavaNs.Api.Authentication.IPlcAuthentication.yml",
       "output": {
         ".html": {
@@ -344,7 +344,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "Org.Apache.Plc4x.JavaNs.Api.Authentication.IPlcAuthentication",
-      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.Authentication.IPlcAuthentication.yml\" sourcestartlinenumber=\"1\">.NET interface for TO BE DEFINED FROM USER</p>\n"
+      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.Authentication.IPlcAuthentication.yml\" sourcestartlinenumber=\"1\">.NET interface skeleton to be manually developed following <a href=\"https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/authentication/PlcAuthentication.html\">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/authentication/PlcAuthentication.html</a></p>\n"
     },
     {
       "type": "ManagedReference",
@@ -652,7 +652,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "Org.Apache.Plc4x.JavaNs.Api.IEventPlcConnection",
-      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.IEventPlcConnection.yml\" sourcestartlinenumber=\"1\">.NET interface for TO BE DEFINED FROM USER</p>\n"
+      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.IEventPlcConnection.yml\" sourcestartlinenumber=\"1\">.NET interface skeleton to be manually developed following <a href=\"https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/EventPlcConnection.html\">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/EventPlcConnection.html</a></p>\n"
     },
     {
       "type": "ManagedReference",
@@ -666,7 +666,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "Org.Apache.Plc4x.JavaNs.Api.IExperimental",
-      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.IExperimental.yml\" sourcestartlinenumber=\"1\">.NET interface for TO BE DEFINED FROM USER</p>\n"
+      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.IExperimental.yml\" sourcestartlinenumber=\"1\">.NET interface skeleton to be manually developed following <a href=\"https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/Experimental.html\">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/Experimental.html</a></p>\n"
     },
     {
       "type": "ManagedReference",
@@ -680,7 +680,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "Org.Apache.Plc4x.JavaNs.Api.IPlcConnection",
-      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.IPlcConnection.yml\" sourcestartlinenumber=\"1\">.NET interface for TO BE DEFINED FROM USER</p>\n"
+      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.IPlcConnection.yml\" sourcestartlinenumber=\"1\">.NET interface skeleton to be manually developed following <a href=\"https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/PlcConnection.html\">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/PlcConnection.html</a></p>\n"
     },
     {
       "type": "ManagedReference",
@@ -694,7 +694,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "Org.Apache.Plc4x.JavaNs.Api.IPlcConnectionManager",
-      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.IPlcConnectionManager.yml\" sourcestartlinenumber=\"1\">.NET interface for TO BE DEFINED FROM USER</p>\n"
+      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.IPlcConnectionManager.yml\" sourcestartlinenumber=\"1\">.NET interface skeleton to be manually developed following <a href=\"https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/PlcConnectionManager.html\">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/PlcConnectionManager.html</a></p>\n"
     },
     {
       "type": "ManagedReference",
@@ -708,7 +708,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "Org.Apache.Plc4x.JavaNs.Api.IPlcDriver",
-      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.IPlcDriver.yml\" sourcestartlinenumber=\"1\">.NET interface for TO BE DEFINED FROM USER</p>\n"
+      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.IPlcDriver.yml\" sourcestartlinenumber=\"1\">.NET interface skeleton to be manually developed following <a href=\"https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/PlcDriver.html\">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/PlcDriver.html</a></p>\n"
     },
     {
       "type": "ManagedReference",
@@ -722,7 +722,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "Org.Apache.Plc4x.JavaNs.Api.IPlcDriverManager",
-      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.IPlcDriverManager.yml\" sourcestartlinenumber=\"1\">.NET interface for TO BE DEFINED FROM USER</p>\n"
+      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.IPlcDriverManager.yml\" sourcestartlinenumber=\"1\">.NET interface skeleton to be manually developed following <a href=\"https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/PlcDriverManager.html\">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/PlcDriverManager.html</a></p>\n"
     },
     {
       "type": "ManagedReference",
@@ -876,7 +876,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "Org.Apache.Plc4x.JavaNs.Api.Messages.IPlcBrowseItem",
-      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.Messages.IPlcBrowseItem.yml\" sourcestartlinenumber=\"1\">.NET interface for TO BE DEFINED FROM USER</p>\n"
+      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.Messages.IPlcBrowseItem.yml\" sourcestartlinenumber=\"1\">.NET interface skeleton to be manually developed following <a href=\"https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcBrowseItem.html\">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcBrowseItem.html</a></p>\n"
     },
     {
       "type": "ManagedReference",
@@ -890,7 +890,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "Org.Apache.Plc4x.JavaNs.Api.Messages.IPlcBrowseItemArrayInfo",
-      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.Messages.IPlcBrowseItemArrayInfo.yml\" sourcestartlinenumber=\"1\">.NET interface for TO BE DEFINED FROM USER</p>\n"
+      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.Messages.IPlcBrowseItemArrayInfo.yml\" sourcestartlinenumber=\"1\">.NET interface skeleton to be manually developed following <a href=\"https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcBrowseItemArrayInfo.html\">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcBrowseItemArrayInfo.html</a></p>\n"
     },
     {
       "type": "ManagedReference",
@@ -904,7 +904,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "Org.Apache.Plc4x.JavaNs.Api.Messages.IPlcBrowseRequest",
-      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.Messages.IPlcBrowseRequest.yml\" sourcestartlinenumber=\"1\">.NET interface for TO BE DEFINED FROM USER</p>\n"
+      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.Messages.IPlcBrowseRequest.yml\" sourcestartlinenumber=\"1\">.NET interface skeleton to be manually developed following <a href=\"https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcBrowseRequest.html\">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcBrowseRequest.html</a></p>\n"
     },
     {
       "type": "ManagedReference",
@@ -918,7 +918,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "Org.Apache.Plc4x.JavaNs.Api.Messages.IPlcBrowseRequestInterceptor",
-      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.Messages.IPlcBrowseRequestInterceptor.yml\" sourcestartlinenumber=\"1\">.NET interface for TO BE DEFINED FROM USER</p>\n"
+      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.Messages.IPlcBrowseRequestInterceptor.yml\" sourcestartlinenumber=\"1\">.NET interface skeleton to be manually developed following <a href=\"https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcBrowseRequestInterceptor.html\">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcBrowseRequestInterceptor.html</a></p>\n"
     },
     {
       "type": "ManagedReference",
@@ -932,7 +932,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "Org.Apache.Plc4x.JavaNs.Api.Messages.IPlcBrowseResponse",
-      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.Messages.IPlcBrowseResponse.yml\" sourcestartlinenumber=\"1\">.NET interface for TO BE DEFINED FROM USER</p>\n"
+      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.Messages.IPlcBrowseResponse.yml\" sourcestartlinenumber=\"1\">.NET interface skeleton to be manually developed following <a href=\"https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcBrowseResponse.html\">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcBrowseResponse.html</a></p>\n"
     },
     {
       "type": "ManagedReference",
@@ -946,7 +946,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "Org.Apache.Plc4x.JavaNs.Api.Messages.IPlcDiscoveryItem",
-      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.Messages.IPlcDiscoveryItem.yml\" sourcestartlinenumber=\"1\">.NET interface for TO BE DEFINED FROM USER</p>\n"
+      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.Messages.IPlcDiscoveryItem.yml\" sourcestartlinenumber=\"1\">.NET interface skeleton to be manually developed following <a href=\"https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcDiscoveryItem.html\">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcDiscoveryItem.html</a></p>\n"
     },
     {
       "type": "ManagedReference",
@@ -960,7 +960,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "Org.Apache.Plc4x.JavaNs.Api.Messages.IPlcDiscoveryItemHandler",
-      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.Messages.IPlcDiscoveryItemHandler.yml\" sourcestartlinenumber=\"1\">.NET interface for TO BE DEFINED FROM USER</p>\n"
+      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.Messages.IPlcDiscoveryItemHandler.yml\" sourcestartlinenumber=\"1\">.NET interface skeleton to be manually developed following <a href=\"https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcDiscoveryItemHandler.html\">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcDiscoveryItemHandler.html</a></p>\n"
     },
     {
       "type": "ManagedReference",
@@ -974,7 +974,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "Org.Apache.Plc4x.JavaNs.Api.Messages.IPlcDiscoveryRequest",
-      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.Messages.IPlcDiscoveryRequest.yml\" sourcestartlinenumber=\"1\">.NET interface for TO BE DEFINED FROM USER</p>\n"
+      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.Messages.IPlcDiscoveryRequest.yml\" sourcestartlinenumber=\"1\">.NET interface skeleton to be manually developed following <a href=\"https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcDiscoveryRequest.html\">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcDiscoveryRequest.html</a></p>\n"
     },
     {
       "type": "ManagedReference",
@@ -988,7 +988,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "Org.Apache.Plc4x.JavaNs.Api.Messages.IPlcDiscoveryResponse",
-      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.Messages.IPlcDiscoveryResponse.yml\" sourcestartlinenumber=\"1\">.NET interface for TO BE DEFINED FROM USER</p>\n"
+      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.Messages.IPlcDiscoveryResponse.yml\" sourcestartlinenumber=\"1\">.NET interface skeleton to be manually developed following <a href=\"https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcDiscoveryResponse.html\">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcDiscoveryResponse.html</a></p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1002,7 +1002,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "Org.Apache.Plc4x.JavaNs.Api.Messages.IPlcMessage",
-      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.Messages.IPlcMessage.yml\" sourcestartlinenumber=\"1\">.NET interface for TO BE DEFINED FROM USER</p>\n"
+      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.Messages.IPlcMessage.yml\" sourcestartlinenumber=\"1\">.NET interface skeleton to be manually developed following <a href=\"https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcMessage.html\">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcMessage.html</a></p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1016,7 +1016,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "Org.Apache.Plc4x.JavaNs.Api.Messages.IPlcPingRequest",
-      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.Messages.IPlcPingRequest.yml\" sourcestartlinenumber=\"1\">.NET interface for TO BE DEFINED FROM USER</p>\n"
+      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.Messages.IPlcPingRequest.yml\" sourcestartlinenumber=\"1\">.NET interface skeleton to be manually developed following <a href=\"https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcPingRequest.html\">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcPingRequest.html</a></p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1030,7 +1030,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "Org.Apache.Plc4x.JavaNs.Api.Messages.IPlcPingResponse",
-      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.Messages.IPlcPingResponse.yml\" sourcestartlinenumber=\"1\">.NET interface for TO BE DEFINED FROM USER</p>\n"
+      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.Messages.IPlcPingResponse.yml\" sourcestartlinenumber=\"1\">.NET interface skeleton to be manually developed following <a href=\"https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcPingResponse.html\">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcPingResponse.html</a></p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1044,7 +1044,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "Org.Apache.Plc4x.JavaNs.Api.Messages.IPlcReadRequest",
-      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.Messages.IPlcReadRequest.yml\" sourcestartlinenumber=\"1\">.NET interface for TO BE DEFINED FROM USER</p>\n"
+      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.Messages.IPlcReadRequest.yml\" sourcestartlinenumber=\"1\">.NET interface skeleton to be manually developed following <a href=\"https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcReadRequest.html\">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcReadRequest.html</a></p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1058,7 +1058,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "Org.Apache.Plc4x.JavaNs.Api.Messages.IPlcReadResponse",
-      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.Messages.IPlcReadResponse.yml\" sourcestartlinenumber=\"1\">.NET interface for TO BE DEFINED FROM USER</p>\n"
+      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.Messages.IPlcReadResponse.yml\" sourcestartlinenumber=\"1\">.NET interface skeleton to be manually developed following <a href=\"https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcReadResponse.html\">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcReadResponse.html</a></p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1072,7 +1072,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "Org.Apache.Plc4x.JavaNs.Api.Messages.IPlcRequest",
-      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.Messages.IPlcRequest.yml\" sourcestartlinenumber=\"1\">.NET interface for TO BE DEFINED FROM USER</p>\n"
+      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.Messages.IPlcRequest.yml\" sourcestartlinenumber=\"1\">.NET interface skeleton to be manually developed following <a href=\"https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcRequest.html\">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcRequest.html</a></p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1086,7 +1086,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "Org.Apache.Plc4x.JavaNs.Api.Messages.IPlcRequestBuilder",
-      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.Messages.IPlcRequestBuilder.yml\" sourcestartlinenumber=\"1\">.NET interface for TO BE DEFINED FROM USER</p>\n"
+      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.Messages.IPlcRequestBuilder.yml\" sourcestartlinenumber=\"1\">.NET interface skeleton to be manually developed following <a href=\"https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcRequestBuilder.html\">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcRequestBuilder.html</a></p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1100,7 +1100,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "Org.Apache.Plc4x.JavaNs.Api.Messages.IPlcResponse",
-      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.Messages.IPlcResponse.yml\" sourcestartlinenumber=\"1\">.NET interface for TO BE DEFINED FROM USER</p>\n"
+      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.Messages.IPlcResponse.yml\" sourcestartlinenumber=\"1\">.NET interface skeleton to be manually developed following <a href=\"https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcResponse.html\">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcResponse.html</a></p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1114,7 +1114,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "Org.Apache.Plc4x.JavaNs.Api.Messages.IPlcSubscriptionEvent",
-      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.Messages.IPlcSubscriptionEvent.yml\" sourcestartlinenumber=\"1\">.NET interface for TO BE DEFINED FROM USER</p>\n"
+      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.Messages.IPlcSubscriptionEvent.yml\" sourcestartlinenumber=\"1\">.NET interface skeleton to be manually developed following <a href=\"https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcSubscriptionEvent.html\">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcSubscriptionEvent.html</a></p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1128,7 +1128,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "Org.Apache.Plc4x.JavaNs.Api.Messages.IPlcSubscriptionRequest",
-      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.Messages.IPlcSubscriptionRequest.yml\" sourcestartlinenumber=\"1\">.NET interface for TO BE DEFINED FROM USER</p>\n"
+      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.Messages.IPlcSubscriptionRequest.yml\" sourcestartlinenumber=\"1\">.NET interface skeleton to be manually developed following <a href=\"https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcSubscriptionRequest.html\">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcSubscriptionRequest.html</a></p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1142,7 +1142,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "Org.Apache.Plc4x.JavaNs.Api.Messages.IPlcSubscriptionResponse",
-      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.Messages.IPlcSubscriptionResponse.yml\" sourcestartlinenumber=\"1\">.NET interface for TO BE DEFINED FROM USER</p>\n"
+      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.Messages.IPlcSubscriptionResponse.yml\" sourcestartlinenumber=\"1\">.NET interface skeleton to be manually developed following <a href=\"https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcSubscriptionResponse.html\">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcSubscriptionResponse.html</a></p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1156,7 +1156,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "Org.Apache.Plc4x.JavaNs.Api.Messages.IPlcSubscriptionTagRequest",
-      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.Messages.IPlcSubscriptionTagRequest.yml\" sourcestartlinenumber=\"1\">.NET interface for TO BE DEFINED FROM USER</p>\n"
+      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.Messages.IPlcSubscriptionTagRequest.yml\" sourcestartlinenumber=\"1\">.NET interface skeleton to be manually developed following <a href=\"https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcSubscriptionTagRequest.html\">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcSubscriptionTagRequest.html</a></p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1170,7 +1170,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "Org.Apache.Plc4x.JavaNs.Api.Messages.IPlcSubscriptionTagResponse",
-      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.Messages.IPlcSubscriptionTagResponse.yml\" sourcestartlinenumber=\"1\">.NET interface for TO BE DEFINED FROM USER</p>\n"
+      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.Messages.IPlcSubscriptionTagResponse.yml\" sourcestartlinenumber=\"1\">.NET interface skeleton to be manually developed following <a href=\"https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcSubscriptionTagResponse.html\">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcSubscriptionTagResponse.html</a></p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1184,7 +1184,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "Org.Apache.Plc4x.JavaNs.Api.Messages.IPlcTagRequest",
-      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.Messages.IPlcTagRequest.yml\" sourcestartlinenumber=\"1\">.NET interface for TO BE DEFINED FROM USER</p>\n"
+      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.Messages.IPlcTagRequest.yml\" sourcestartlinenumber=\"1\">.NET interface skeleton to be manually developed following <a href=\"https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcTagRequest.html\">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcTagRequest.html</a></p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1198,7 +1198,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "Org.Apache.Plc4x.JavaNs.Api.Messages.IPlcTagResponse",
-      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.Messages.IPlcTagResponse.yml\" sourcestartlinenumber=\"1\">.NET interface for TO BE DEFINED FROM USER</p>\n"
+      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.Messages.IPlcTagResponse.yml\" sourcestartlinenumber=\"1\">.NET interface skeleton to be manually developed following <a href=\"https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcTagResponse.html\">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcTagResponse.html</a></p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1212,7 +1212,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "Org.Apache.Plc4x.JavaNs.Api.Messages.IPlcUnsubscriptionRequest",
-      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.Messages.IPlcUnsubscriptionRequest.yml\" sourcestartlinenumber=\"1\">.NET interface for TO BE DEFINED FROM USER</p>\n"
+      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.Messages.IPlcUnsubscriptionRequest.yml\" sourcestartlinenumber=\"1\">.NET interface skeleton to be manually developed following <a href=\"https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcUnsubscriptionRequest.html\">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcUnsubscriptionRequest.html</a></p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1226,7 +1226,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "Org.Apache.Plc4x.JavaNs.Api.Messages.IPlcUnsubscriptionResponse",
-      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.Messages.IPlcUnsubscriptionResponse.yml\" sourcestartlinenumber=\"1\">.NET interface for TO BE DEFINED FROM USER</p>\n"
+      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.Messages.IPlcUnsubscriptionResponse.yml\" sourcestartlinenumber=\"1\">.NET interface skeleton to be manually developed following <a href=\"https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcUnsubscriptionResponse.html\">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcUnsubscriptionResponse.html</a></p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1240,7 +1240,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "Org.Apache.Plc4x.JavaNs.Api.Messages.IPlcWriteRequest",
-      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.Messages.IPlcWriteRequest.yml\" sourcestartlinenumber=\"1\">.NET interface for TO BE DEFINED FROM USER</p>\n"
+      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.Messages.IPlcWriteRequest.yml\" sourcestartlinenumber=\"1\">.NET interface skeleton to be manually developed following <a href=\"https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcWriteRequest.html\">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcWriteRequest.html</a></p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1254,7 +1254,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "Org.Apache.Plc4x.JavaNs.Api.Messages.IPlcWriteResponse",
-      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.Messages.IPlcWriteResponse.yml\" sourcestartlinenumber=\"1\">.NET interface for TO BE DEFINED FROM USER</p>\n"
+      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.Messages.IPlcWriteResponse.yml\" sourcestartlinenumber=\"1\">.NET interface skeleton to be manually developed following <a href=\"https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcWriteResponse.html\">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/messages/PlcWriteResponse.html</a></p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1758,7 +1758,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "Org.Apache.Plc4x.JavaNs.Api.Metadata.IOption",
-      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.Metadata.IOption.yml\" sourcestartlinenumber=\"1\">.NET interface for TO BE DEFINED FROM USER</p>\n"
+      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.Metadata.IOption.yml\" sourcestartlinenumber=\"1\">.NET interface skeleton to be manually developed following <a href=\"https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/metadata/Option.html\">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/metadata/Option.html</a></p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1772,7 +1772,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "Org.Apache.Plc4x.JavaNs.Api.Metadata.IOptionMetadata",
-      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.Metadata.IOptionMetadata.yml\" sourcestartlinenumber=\"1\">.NET interface for TO BE DEFINED FROM USER</p>\n"
+      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.Metadata.IOptionMetadata.yml\" sourcestartlinenumber=\"1\">.NET interface skeleton to be manually developed following <a href=\"https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/metadata/OptionMetadata.html\">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/metadata/OptionMetadata.html</a></p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1786,7 +1786,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "Org.Apache.Plc4x.JavaNs.Api.Metadata.IPlcConnectionMetadata",
-      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.Metadata.IPlcConnectionMetadata.yml\" sourcestartlinenumber=\"1\">.NET interface for TO BE DEFINED FROM USER</p>\n"
+      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.Metadata.IPlcConnectionMetadata.yml\" sourcestartlinenumber=\"1\">.NET interface skeleton to be manually developed following <a href=\"https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/metadata/PlcConnectionMetadata.html\">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/metadata/PlcConnectionMetadata.html</a></p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1800,7 +1800,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "Org.Apache.Plc4x.JavaNs.Api.Metadata.IPlcDriverMetadata",
-      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.Metadata.IPlcDriverMetadata.yml\" sourcestartlinenumber=\"1\">.NET interface for TO BE DEFINED FROM USER</p>\n"
+      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.Metadata.IPlcDriverMetadata.yml\" sourcestartlinenumber=\"1\">.NET interface skeleton to be manually developed following <a href=\"https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/metadata/PlcDriverMetadata.html\">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/metadata/PlcDriverMetadata.html</a></p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1898,7 +1898,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "Org.Apache.Plc4x.JavaNs.Api.Model.IArrayInfo",
-      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.Model.IArrayInfo.yml\" sourcestartlinenumber=\"1\">.NET interface for TO BE DEFINED FROM USER</p>\n"
+      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.Model.IArrayInfo.yml\" sourcestartlinenumber=\"1\">.NET interface skeleton to be manually developed following <a href=\"https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/model/ArrayInfo.html\">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/model/ArrayInfo.html</a></p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1912,7 +1912,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "Org.Apache.Plc4x.JavaNs.Api.Model.IPlcConsumerRegistration",
-      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.Model.IPlcConsumerRegistration.yml\" sourcestartlinenumber=\"1\">.NET interface for TO BE DEFINED FROM USER</p>\n"
+      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.Model.IPlcConsumerRegistration.yml\" sourcestartlinenumber=\"1\">.NET interface skeleton to be manually developed following <a href=\"https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/model/PlcConsumerRegistration.html\">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/model/PlcConsumerRegistration.html</a></p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1926,7 +1926,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "Org.Apache.Plc4x.JavaNs.Api.Model.IPlcDiscoveryHandler",
-      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.Model.IPlcDiscoveryHandler.yml\" sourcestartlinenumber=\"1\">.NET interface for TO BE DEFINED FROM USER</p>\n"
+      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.Model.IPlcDiscoveryHandler.yml\" sourcestartlinenumber=\"1\">.NET interface skeleton to be manually developed following <a href=\"https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/model/PlcDiscoveryHandler.html\">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/model/PlcDiscoveryHandler.html</a></p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1940,7 +1940,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "Org.Apache.Plc4x.JavaNs.Api.Model.IPlcQuery",
-      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.Model.IPlcQuery.yml\" sourcestartlinenumber=\"1\">.NET interface for TO BE DEFINED FROM USER</p>\n"
+      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.Model.IPlcQuery.yml\" sourcestartlinenumber=\"1\">.NET interface skeleton to be manually developed following <a href=\"https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/model/PlcQuery.html\">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/model/PlcQuery.html</a></p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1954,7 +1954,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "Org.Apache.Plc4x.JavaNs.Api.Model.IPlcSubscriptionHandle",
-      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.Model.IPlcSubscriptionHandle.yml\" sourcestartlinenumber=\"1\">.NET interface for TO BE DEFINED FROM USER</p>\n"
+      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.Model.IPlcSubscriptionHandle.yml\" sourcestartlinenumber=\"1\">.NET interface skeleton to be manually developed following <a href=\"https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/model/PlcSubscriptionHandle.html\">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/model/PlcSubscriptionHandle.html</a></p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1968,7 +1968,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "Org.Apache.Plc4x.JavaNs.Api.Model.IPlcSubscriptionTag",
-      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.Model.IPlcSubscriptionTag.yml\" sourcestartlinenumber=\"1\">.NET interface for TO BE DEFINED FROM USER</p>\n"
+      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.Model.IPlcSubscriptionTag.yml\" sourcestartlinenumber=\"1\">.NET interface skeleton to be manually developed following <a href=\"https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/model/PlcSubscriptionTag.html\">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/model/PlcSubscriptionTag.html</a></p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1982,7 +1982,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "Org.Apache.Plc4x.JavaNs.Api.Model.IPlcTag",
-      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.Model.IPlcTag.yml\" sourcestartlinenumber=\"1\">.NET interface for TO BE DEFINED FROM USER</p>\n"
+      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.Model.IPlcTag.yml\" sourcestartlinenumber=\"1\">.NET interface skeleton to be manually developed following <a href=\"https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/model/PlcTag.html\">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/model/PlcTag.html</a></p>\n"
     },
     {
       "type": "ManagedReference",
@@ -2220,7 +2220,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "Org.Apache.Plc4x.JavaNs.Api.Value.IPlcValue",
-      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.Value.IPlcValue.yml\" sourcestartlinenumber=\"1\">.NET interface for TO BE DEFINED FROM USER</p>\n"
+      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.Value.IPlcValue.yml\" sourcestartlinenumber=\"1\">.NET interface skeleton to be manually developed following <a href=\"https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/value/PlcValue.html\">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/value/PlcValue.html</a></p>\n"
     },
     {
       "type": "ManagedReference",
@@ -2234,7 +2234,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "Org.Apache.Plc4x.JavaNs.Api.Value.IPlcValueHandler",
-      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.Value.IPlcValueHandler.yml\" sourcestartlinenumber=\"1\">.NET interface for TO BE DEFINED FROM USER</p>\n"
+      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.Value.IPlcValueHandler.yml\" sourcestartlinenumber=\"1\">.NET interface skeleton to be manually developed following <a href=\"https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/value/PlcValueHandler.html\">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/org/apache/plc4x/java/api/value/PlcValueHandler.html</a></p>\n"
     },
     {
       "type": "ManagedReference",

@@ -18,11 +18,11 @@
 	</PropertyGroup>
 
 	<Target Name="CopyCustomContent" AfterTargets="AfterBuild">
-		<Copy SourceFiles="@(plconnet_jars)" DestinationFolder="$(OutDir)\..\jars\%(RecursiveDir)" />
+		<Copy SourceFiles="@(plconnet_jars)" DestinationFolder="$(OutDir)\jars\%(RecursiveDir)" />
 		<Copy SourceFiles="@(plconnet_config)" DestinationFolder="$(OutDir)\config\%(RecursiveDir)" />
 	</Target>
 	<Target Name="CopyCustomContentOnPublish" AfterTargets="Publish">
-		<Copy SourceFiles="@(plconnet_jars)" DestinationFolder="$(OutDir)\..\jars\%(RecursiveDir)" />
+		<Copy SourceFiles="@(plconnet_jars)" DestinationFolder="$(OutDir)\jars\%(RecursiveDir)" />
 		<Copy SourceFiles="@(plconnet_config)" DestinationFolder="$(OutDir)\config\%(RecursiveDir)" />
 	</Target>
 	<ItemGroup>
