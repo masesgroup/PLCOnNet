@@ -1,6 +1,6 @@
 ---
 title: Usage of .NET suite for PLC4X™
-_description: Describes how to use PLCOnNet, set-up environment, identify the JVM and write good code
+_description: Describes how to use PLCOnNet, set-up environment, identify the JVM™ and write good code
 ---
 
 # PLCOnNet usage

@@ -79,6 +79,6 @@ _plconnetps_ accepts the following cmdlets:
 * **Start-OPCUAServer**: starts an OPCUA server instance. The arguments are the same expected from CLI
 * **Start-Plc4xServer**: starts an PLC4X™ server instance. The arguments are the same expected from CLI
 * 
-### JVM identification
+### JVM™ identification
 
-One of the most important command-line switch is **JVMPath**: it can be used to set-up the location of the JVM library (jvm.dll/libjvm.so) if JCOBridge is not able to identify a suitable JRE installation.
+One of the most important command-line switch is **JVMPath**: it can be used to set-up the location of the JVM™ library (jvm.dll/libjvm.so) if JCOBridge is not able to identify a suitable JRE installation.
