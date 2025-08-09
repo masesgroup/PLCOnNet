@@ -37,8 +37,7 @@ namespace MASES.PLCOnNet.PowerShell.Cmdlet
         protected override void OnBeforeCreateGlobalInstance()
         {
             base.OnBeforeCreateGlobalInstance();
-            var nounName = JNetPSHelper.NounName<TCmdlet>();
-            JNetCLICoreHelper.ApplicationClassToRun = nounName;
+            JNetPSHelper.SetClassToRunByNounName<TCmdlet>();
         }
 
         protected override void OnAfterCreateGlobalInstance()
@@ -47,7 +46,7 @@ namespace MASES.PLCOnNet.PowerShell.Cmdlet
 
             try
             {
-                JNetPSHelper<PLCOnNetPSCore>.Launch(PLCOnNetPSCore.MainClassToRun, arguments);
+                JNetPSHelper<PLCOnNetPSCore>.Launch(JNetCLICoreHelper.MainClassToRun, arguments);
             }
             catch (TargetInvocationException tie)
             {

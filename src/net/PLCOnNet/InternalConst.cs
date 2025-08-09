@@ -24,7 +24,6 @@ namespace MASES.PLCOnNet
     class CLIParam
     {
         // CommonArgs
-        public const string ClassToRun = "ClassToRun";
         public const string CommonLoggingConfiguration = "CommonLoggingConfiguration";
         public const string LogPath = "LogPath";
     }
