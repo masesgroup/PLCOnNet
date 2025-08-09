@@ -881,19 +881,6 @@ references:
   commentId: T:MASES.PLCOnNet.PowerShell.PLCOnNetPSCore
   fullName: MASES.PLCOnNet.PowerShell.PLCOnNetPSCore
   nameWithType: PLCOnNetPSCore
-- uid: MASES.PLCOnNet.PowerShell.PLCOnNetPSCore.PathToParse
-  name: PathToParse
-  href: api/MASES.PLCOnNet.PowerShell.PLCOnNetPSCore.html#MASES_PLCOnNet_PowerShell_PLCOnNetPSCore_PathToParse
-  commentId: P:MASES.PLCOnNet.PowerShell.PLCOnNetPSCore.PathToParse
-  fullName: MASES.PLCOnNet.PowerShell.PLCOnNetPSCore.PathToParse
-  nameWithType: PLCOnNetPSCore.PathToParse
-- uid: MASES.PLCOnNet.PowerShell.PLCOnNetPSCore.PathToParse*
-  name: PathToParse
-  href: api/MASES.PLCOnNet.PowerShell.PLCOnNetPSCore.html#MASES_PLCOnNet_PowerShell_PLCOnNetPSCore_PathToParse_
-  commentId: Overload:MASES.PLCOnNet.PowerShell.PLCOnNetPSCore.PathToParse
-  isSpec: "True"
-  fullName: MASES.PLCOnNet.PowerShell.PLCOnNetPSCore.PathToParse
-  nameWithType: PLCOnNetPSCore.PathToParse
 - uid: MASES.PLCOnNet.PowerShell.PLCOnNetPSHelper`1
   name: PLCOnNetPSHelper<TClass>
   href: api/MASES.PLCOnNet.PowerShell.PLCOnNetPSHelper-1.html
