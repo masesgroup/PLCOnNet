@@ -162,23 +162,6 @@ references:
   fullName.vb: MASES.PLCOnNet.PLCOnNetCore(Of T).New
   nameWithType: PLCOnNetCore<T>.PLCOnNetCore
   nameWithType.vb: PLCOnNetCore(Of T).New
-- uid: MASES.PLCOnNet.PLCOnNetCore`1.ApplicationClassToRun
-  name: ApplicationClassToRun
-  href: api/MASES.PLCOnNet.PLCOnNetCore-1.html#MASES_PLCOnNet_PLCOnNetCore_1_ApplicationClassToRun
-  commentId: P:MASES.PLCOnNet.PLCOnNetCore`1.ApplicationClassToRun
-  fullName: MASES.PLCOnNet.PLCOnNetCore<T>.ApplicationClassToRun
-  fullName.vb: MASES.PLCOnNet.PLCOnNetCore(Of T).ApplicationClassToRun
-  nameWithType: PLCOnNetCore<T>.ApplicationClassToRun
-  nameWithType.vb: PLCOnNetCore(Of T).ApplicationClassToRun
-- uid: MASES.PLCOnNet.PLCOnNetCore`1.ApplicationClassToRun*
-  name: ApplicationClassToRun
-  href: api/MASES.PLCOnNet.PLCOnNetCore-1.html#MASES_PLCOnNet_PLCOnNetCore_1_ApplicationClassToRun_
-  commentId: Overload:MASES.PLCOnNet.PLCOnNetCore`1.ApplicationClassToRun
-  isSpec: "True"
-  fullName: MASES.PLCOnNet.PLCOnNetCore<T>.ApplicationClassToRun
-  fullName.vb: MASES.PLCOnNet.PLCOnNetCore(Of T).ApplicationClassToRun
-  nameWithType: PLCOnNetCore<T>.ApplicationClassToRun
-  nameWithType.vb: PLCOnNetCore(Of T).ApplicationClassToRun
 - uid: MASES.PLCOnNet.PLCOnNetCore`1.ApplicationCommonLoggingPath
   name: ApplicationCommonLoggingPath
   href: api/MASES.PLCOnNet.PLCOnNetCore-1.html#MASES_PLCOnNet_PLCOnNetCore_1_ApplicationCommonLoggingPath
@@ -213,23 +196,6 @@ references:
   fullName.vb: MASES.PLCOnNet.PLCOnNetCore(Of T).ApplicationLogPath
   nameWithType: PLCOnNetCore<T>.ApplicationLogPath
   nameWithType.vb: PLCOnNetCore(Of T).ApplicationLogPath
-- uid: MASES.PLCOnNet.PLCOnNetCore`1.ClassToRun
-  name: ClassToRun
-  href: api/MASES.PLCOnNet.PLCOnNetCore-1.html#MASES_PLCOnNet_PLCOnNetCore_1_ClassToRun
-  commentId: P:MASES.PLCOnNet.PLCOnNetCore`1.ClassToRun
-  fullName: MASES.PLCOnNet.PLCOnNetCore<T>.ClassToRun
-  fullName.vb: MASES.PLCOnNet.PLCOnNetCore(Of T).ClassToRun
-  nameWithType: PLCOnNetCore<T>.ClassToRun
-  nameWithType.vb: PLCOnNetCore(Of T).ClassToRun
-- uid: MASES.PLCOnNet.PLCOnNetCore`1.ClassToRun*
-  name: ClassToRun
-  href: api/MASES.PLCOnNet.PLCOnNetCore-1.html#MASES_PLCOnNet_PLCOnNetCore_1_ClassToRun_
-  commentId: Overload:MASES.PLCOnNet.PLCOnNetCore`1.ClassToRun
-  isSpec: "True"
-  fullName: MASES.PLCOnNet.PLCOnNetCore<T>.ClassToRun
-  fullName.vb: MASES.PLCOnNet.PLCOnNetCore(Of T).ClassToRun
-  nameWithType: PLCOnNetCore<T>.ClassToRun
-  nameWithType.vb: PLCOnNetCore(Of T).ClassToRun
 - uid: MASES.PLCOnNet.PLCOnNetCore`1.CommandLineArguments
   name: CommandLineArguments
   href: api/MASES.PLCOnNet.PLCOnNetCore-1.html#MASES_PLCOnNet_PLCOnNetCore_1_CommandLineArguments
@@ -315,23 +281,6 @@ references:
   fullName.vb: MASES.PLCOnNet.PLCOnNetCore(Of T).LogDir
   nameWithType: PLCOnNetCore<T>.LogDir
   nameWithType.vb: PLCOnNetCore(Of T).LogDir
-- uid: MASES.PLCOnNet.PLCOnNetCore`1.MainClassToRun
-  name: MainClassToRun
-  href: api/MASES.PLCOnNet.PLCOnNetCore-1.html#MASES_PLCOnNet_PLCOnNetCore_1_MainClassToRun
-  commentId: P:MASES.PLCOnNet.PLCOnNetCore`1.MainClassToRun
-  fullName: MASES.PLCOnNet.PLCOnNetCore<T>.MainClassToRun
-  fullName.vb: MASES.PLCOnNet.PLCOnNetCore(Of T).MainClassToRun
-  nameWithType: PLCOnNetCore<T>.MainClassToRun
-  nameWithType.vb: PLCOnNetCore(Of T).MainClassToRun
-- uid: MASES.PLCOnNet.PLCOnNetCore`1.MainClassToRun*
-  name: MainClassToRun
-  href: api/MASES.PLCOnNet.PLCOnNetCore-1.html#MASES_PLCOnNet_PLCOnNetCore_1_MainClassToRun_
-  commentId: Overload:MASES.PLCOnNet.PLCOnNetCore`1.MainClassToRun
-  isSpec: "True"
-  fullName: MASES.PLCOnNet.PLCOnNetCore<T>.MainClassToRun
-  fullName.vb: MASES.PLCOnNet.PLCOnNetCore(Of T).MainClassToRun
-  nameWithType: PLCOnNetCore<T>.MainClassToRun
-  nameWithType.vb: PLCOnNetCore(Of T).MainClassToRun
 - uid: MASES.PLCOnNet.PLCOnNetCore`1.Options
   name: Options
   href: api/MASES.PLCOnNet.PLCOnNetCore-1.html#MASES_PLCOnNet_PLCOnNetCore_1_Options
@@ -383,24 +332,6 @@ references:
   fullName.vb: MASES.PLCOnNet.PLCOnNetCore(Of T).PerformanceOptions
   nameWithType: PLCOnNetCore<T>.PerformanceOptions
   nameWithType.vb: PLCOnNetCore(Of T).PerformanceOptions
-- uid: MASES.PLCOnNet.PLCOnNetCore`1.PrepareMainClassToRun(System.String)
-  name: PrepareMainClassToRun(string)
-  href: api/MASES.PLCOnNet.PLCOnNetCore-1.html#MASES_PLCOnNet_PLCOnNetCore_1_PrepareMainClassToRun_System_String_
-  commentId: M:MASES.PLCOnNet.PLCOnNetCore`1.PrepareMainClassToRun(System.String)
-  name.vb: PrepareMainClassToRun(String)
-  fullName: MASES.PLCOnNet.PLCOnNetCore<T>.PrepareMainClassToRun(string)
-  fullName.vb: MASES.PLCOnNet.PLCOnNetCore(Of T).PrepareMainClassToRun(String)
-  nameWithType: PLCOnNetCore<T>.PrepareMainClassToRun(string)
-  nameWithType.vb: PLCOnNetCore(Of T).PrepareMainClassToRun(String)
-- uid: MASES.PLCOnNet.PLCOnNetCore`1.PrepareMainClassToRun*
-  name: PrepareMainClassToRun
-  href: api/MASES.PLCOnNet.PLCOnNetCore-1.html#MASES_PLCOnNet_PLCOnNetCore_1_PrepareMainClassToRun_
-  commentId: Overload:MASES.PLCOnNet.PLCOnNetCore`1.PrepareMainClassToRun
-  isSpec: "True"
-  fullName: MASES.PLCOnNet.PLCOnNetCore<T>.PrepareMainClassToRun
-  fullName.vb: MASES.PLCOnNet.PLCOnNetCore(Of T).PrepareMainClassToRun
-  nameWithType: PLCOnNetCore<T>.PrepareMainClassToRun
-  nameWithType.vb: PLCOnNetCore(Of T).PrepareMainClassToRun
 - uid: MASES.PLCOnNet.PLCOnNetCore`1.ProcessCommandLine
   name: ProcessCommandLine()
   href: api/MASES.PLCOnNet.PLCOnNetCore-1.html#MASES_PLCOnNet_PLCOnNetCore_1_ProcessCommandLine
@@ -418,14 +349,6 @@ references:
   fullName.vb: MASES.PLCOnNet.PLCOnNetCore(Of T).ProcessCommandLine
   nameWithType: PLCOnNetCore<T>.ProcessCommandLine
   nameWithType.vb: PLCOnNetCore(Of T).ProcessCommandLine
-- uid: MASES.PLCOnNet.PLCOnNetCore`1._classToRun
-  name: _classToRun
-  href: api/MASES.PLCOnNet.PLCOnNetCore-1.html#MASES_PLCOnNet_PLCOnNetCore_1__classToRun
-  commentId: F:MASES.PLCOnNet.PLCOnNetCore`1._classToRun
-  fullName: MASES.PLCOnNet.PLCOnNetCore<T>._classToRun
-  fullName.vb: MASES.PLCOnNet.PLCOnNetCore(Of T)._classToRun
-  nameWithType: PLCOnNetCore<T>._classToRun
-  nameWithType.vb: PLCOnNetCore(Of T)._classToRun
 - uid: MASES.PLCOnNet.PowerShell
   name: MASES.PLCOnNet.PowerShell
   href: api/MASES.PLCOnNet.PowerShell.html
