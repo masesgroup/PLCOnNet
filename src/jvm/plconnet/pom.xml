@@ -207,11 +207,6 @@
 			<version>${plc4xVersion}</version>
 			<type>pom</type>
 		</dependency>
-		<dependency>
-			<groupId>org.apache.plc4x</groupId>
-			<artifactId>plc4x-opcua-server</artifactId>
-			<version>${plc4xVersion}</version>
-		</dependency>
 	</dependencies>
 	<repositories>
 		<repository>
