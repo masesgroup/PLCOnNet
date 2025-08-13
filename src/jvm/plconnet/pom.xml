@@ -43,7 +43,7 @@
 		<mavenSkipMain>false</mavenSkipMain>
 		<!-- set mavenSkipMain to true to avoid source compilation: use directive in command-line -->
 		<jnetVersion>2.6.1.0</jnetVersion>
-		<plc4xVersion>0.13.0-SNAPSHOT</plc4xVersion>
+		<plc4xVersion>0.13.0</plc4xVersion>
 		<plconnetversion>0.12.3.0</plconnetversion>
 		<rootDir>${basedir}/../../../</rootDir>
 		<jcobridgepath>${rootDir}/bin/net8.0/JCOBridge.jar</jcobridgepath>
