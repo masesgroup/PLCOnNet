@@ -209,11 +209,6 @@
 		</dependency>
 		<dependency>
 			<groupId>org.apache.plc4x</groupId>
-			<artifactId>plc4j-plc4x-server</artifactId>
-			<version>${plc4xVersion}</version>
-		</dependency>
-		<dependency>
-			<groupId>org.apache.plc4x</groupId>
 			<artifactId>plc4x-opcua-server</artifactId>
 			<version>${plc4xVersion}</version>
 		</dependency>
