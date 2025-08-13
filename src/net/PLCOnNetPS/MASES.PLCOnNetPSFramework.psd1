@@ -10,7 +10,7 @@
 ModuleToProcess = 'MASES.PLCOnNetPS.dll'
 
 # Version number of this module.
-ModuleVersion = '0.12.2'
+ModuleVersion = '0.12.3'
 
 # ID used to uniquely identify this module
 GUID = '4FA5544A-69EA-4D3D-971B-42BC862AFBD4'
@@ -22,7 +22,7 @@ Author = 'MASES s.r.l.'
 CompanyName = 'MASES s.r.l.'
 
 # Copyright statement for this module
-Copyright = 'Copyright ©  MASES s.r.l. 2025'
+Copyright = 'Copyright (c) 2025 MASES s.r.l.'
 
 # Description of the functionality provided by this module
 Description = 'PowerShell Module to use PLC4X™ and PowerShell side-by-side. With PLCOnNetPS it is possible to use PLC4X™ objects within PowerShell. See https://github.com/masesgroup/PLCOnNet for further information.'
