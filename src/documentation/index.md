@@ -210,6 +210,7 @@ This project adheres to the Contributor [Covenant code of conduct](CODE_OF_CONDU
 ### News
 
 * V0.12.0+: First version based on [PLC4X™](https://plc4x.apache.org) 0.12.0
+* V0.13.0+: Version based on [PLC4X™](https://plc4x.apache.org) 0.13.0
 
 ---
 
@@ -236,7 +237,7 @@ Have a look at the following JCOBridge resources:
 
 |JCOBridge | 2.5.* series | 2.6.* series |
 |:---:	|:---:	|:---:	|
-|PLCOnNet | > 0.12.* series | > 0.12.3 series |
+|PLCOnNet | > 0.12.* series | 0.12.3 and > 0.13.* series |
 |Release notes|[Link](https://www.jcobridge.com/release-notes/)| [Link](https://www.jcobridge.com/release-notes/)|
 |Community Edition|[Conditions](https://www.jcobridge.com/pricing-25/)|[Conditions](https://www.jcobridge.com/pricing-25/)|
 |Commercial Edition|[Information](https://www.jcobridge.com/pricing-26/)|[Information](https://www.jcobridge.com/pricing-26/)|
