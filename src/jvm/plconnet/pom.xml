@@ -43,7 +43,7 @@
 		<mavenSkipMain>false</mavenSkipMain>
 		<!-- set mavenSkipMain to true to avoid source compilation: use directive in command-line -->
 		<jnetVersion>2.6.1.0</jnetVersion>
-		<plc4xVersion>0.12.0</plc4xVersion>
+		<plc4xVersion>0.13.0</plc4xVersion>
 		<plconnetversion>0.12.3.0</plconnetversion>
 		<rootDir>${basedir}/../../../</rootDir>
 		<jcobridgepath>${rootDir}/bin/net8.0/JCOBridge.jar</jcobridgepath>
@@ -207,21 +207,18 @@
 			<version>${plc4xVersion}</version>
 			<type>pom</type>
 		</dependency>
-		<dependency>
-			<groupId>org.apache.plc4x</groupId>
-			<artifactId>plc4j-plc4x-server</artifactId>
-			<version>${plc4xVersion}</version>
-		</dependency>
-		<dependency>
-			<groupId>org.apache.plc4x</groupId>
-			<artifactId>plc4x-opcua-server</artifactId>
-			<version>${plc4xVersion}</version>
-		</dependency>
 	</dependencies>
 	<repositories>
 		<repository>
 			<id>Central</id>
 			<url>https://repo1.maven.org/maven2/</url>
+		</repository>
+		<repository>
+			<id>Snapshot</id>
+			<url>https://repository.apache.org/content/repositories/snapshots</url>
+			<snapshots>
+				<enabled>true</enabled>
+			</snapshots>
 		</repository>
 	</repositories>
 </project>

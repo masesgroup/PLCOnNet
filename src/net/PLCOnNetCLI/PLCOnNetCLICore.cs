@@ -47,9 +47,6 @@ namespace MASES.PLCOnNet.CLI
             {
                 switch (className)
                 {
-                    case "opcuaserver":
-                    case "plc4xserver":
-
                     default:
                         ApplicationHeapSize ??= "256M";
                         break;

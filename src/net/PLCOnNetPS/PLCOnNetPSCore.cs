@@ -17,7 +17,6 @@
 */
 
 using MASES.PLCOnNet.CLI;
-using System;
 
 namespace MASES.PLCOnNet.PowerShell
 {

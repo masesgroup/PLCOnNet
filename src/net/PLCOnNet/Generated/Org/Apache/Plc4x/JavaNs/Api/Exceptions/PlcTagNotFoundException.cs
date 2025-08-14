@@ -25,13 +25,13 @@ using MASES.JCOBridge.C2JBridge;
 
 namespace Org.Apache.Plc4x.JavaNs.Api.Exceptions
 {
-    #region PlcException declaration
+    #region PlcTagNotFoundException declaration
     /// <summary>
-    /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.13.0/org/apache/plc4x/java/api/exceptions/PlcException.html"/>
+    /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.13.0/org/apache/plc4x/java/api/exceptions/PlcTagNotFoundException.html"/>
     /// </summary>
-    public partial class PlcException : Java.Lang.Exception
+    public partial class PlcTagNotFoundException : Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcRuntimeException
     {
-        const string _bridgeClassName = "org.apache.plc4x.java.api.exceptions.PlcException";
+        const string _bridgeClassName = "org.apache.plc4x.java.api.exceptions.PlcTagNotFoundException";
         /// <inheritdoc/>
         public override string BridgeClassName => _bridgeClassName;
 
@@ -40,8 +40,8 @@ namespace Org.Apache.Plc4x.JavaNs.Api.Exceptions
     }
     #endregion
 
-    #region PlcException implementation
-    public partial class PlcException
+    #region PlcTagNotFoundException implementation
+    public partial class PlcTagNotFoundException
     {
         #region Constructors
 
