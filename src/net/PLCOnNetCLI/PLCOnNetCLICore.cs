@@ -19,8 +19,6 @@
 using MASES.CLIParser;
 using MASES.JNet;
 using MASES.JNet.Specific.CLI;
-using Org.Apache.Plc4x.JavaNs.Opcuaserver;
-using Org.Apache.Plc4x.JavaNs.Tools.Plc4xserver;
 using System.Collections.Generic;
 
 namespace MASES.PLCOnNet.CLI
