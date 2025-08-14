@@ -10,7 +10,7 @@
 ModuleToProcess = 'MASES.PLCOnNetPS.dll'
 
 # Version number of this module.
-ModuleVersion = '0.12.3'
+ModuleVersion = '0.13.0'
 
 # ID used to uniquely identify this module
 GUID = '4FA5544A-69EA-4D3D-971B-42BC862AFBD4'
@@ -75,9 +75,7 @@ CmdletsToExport = @(
     'New-PlcUsernamePasswordAuthentication',
     'Get-ProtocolCodes',
     'Get-PlcDriver',
-    'Get-PlcConnection',
-    'Start-OPCUAServer',
-    'Start-Plc4xServer'
+    'Get-PlcConnection'
 )
 
 # Variables to export from this module

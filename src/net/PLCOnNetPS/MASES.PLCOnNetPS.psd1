@@ -8,7 +8,7 @@
 
 RootModule = 'MASES.PLCOnNetPS.psm1'
 
-ModuleVersion = '0.12.3'
+ModuleVersion = '0.13.0'
 
 CompatiblePSEditions = 'Desktop', 'Core'
 
@@ -57,9 +57,7 @@ CmdletsToExport = @(
     'New-PlcUsernamePasswordAuthentication',
     'Get-ProtocolCodes',
     'Get-PlcDriver',
-    'Get-PlcConnection',
-    'Start-OPCUAServer',
-    'Start-Plc4xServer'
+    'Get-PlcConnection'
 )
 
 VariablesToExport = '*'
