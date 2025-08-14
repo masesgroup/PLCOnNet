@@ -75,9 +75,7 @@ CmdletsToExport = @(
     'New-PlcUsernamePasswordAuthentication',
     'Get-ProtocolCodes',
     'Get-PlcDriver',
-    'Get-PlcConnection',
-    'Start-OPCUAServer',
-    'Start-Plc4xServer'
+    'Get-PlcConnection'
 )
 
 # Variables to export from this module
