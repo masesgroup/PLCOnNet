@@ -26,22 +26,12 @@ The configuration is:
   "DisableInterfaceMethodGeneration": true,
   "CreateInterfaceInheritance": true,
   "JarList": [
-    "plc4j-api-0.12.0.jar",
-    "plc4j-plc4x-server-0.12.0.jar",
-    "plc4x-opcua-server-0.12.0.jar"
+    "plc4j-api-0.13.1.jar"
   ],
   "OriginJavadocJARVersionAndUrls": [
     {
       "Version": 11,
-      "Url": "https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.12.0/"
-    },
-    {
-      "Version": 11,
-      "Url": "https://www.javadoc.io/doc/org.apache.plc4x/plc4j-plc4x-server/0.12.0/"
-    },
-    {
-      "Version": 11,
-      "Url": "https://www.javadoc.io/doc/org.apache.plc4x/plc4x-opcua-server/0.12.0/"
+      "Url": "https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.13.1/"
     }
   ],
   "NamespacesToAvoid": [

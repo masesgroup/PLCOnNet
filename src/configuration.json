@@ -7,12 +7,12 @@
   "DisableInterfaceMethodGeneration": true,
   "CreateInterfaceInheritance": true,
   "JarList": [
-    "plc4j-api-0.13.0.jar"
+    "plc4j-api-0.13.1.jar"
   ],
   "OriginJavadocJARVersionAndUrls": [
     {
       "Version": 11,
-      "Url": "https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.13.0/"
+      "Url": "https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.13.1/"
     }
   ],
   "NamespacesToAvoid": [
