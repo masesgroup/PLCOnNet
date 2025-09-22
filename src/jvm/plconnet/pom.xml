@@ -45,7 +45,7 @@
 		<!-- set mavenSkipMain to true to avoid source compilation: use directive in command-line -->
 		<jnetVersion>2.6.4.0</jnetVersion>
 		<plc4xVersion>0.13.1</plc4xVersion>
-		<plconnetversion>0.13.0.0</plconnetversion>
+		<plconnetversion>0.13.1.0</plconnetversion>
 		<rootDir>${basedir}/../../../</rootDir>
 		<jcobridgepath>${rootDir}/bin/net8.0/JCOBridge.jar</jcobridgepath>
 		<jnetpath>${rootDir}/bin/net8.0/jars/jnet-${jnetVersion}.jar</jnetpath>
