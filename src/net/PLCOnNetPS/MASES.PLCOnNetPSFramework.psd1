@@ -10,7 +10,7 @@
 ModuleToProcess = 'MASES.PLCOnNetPS.dll'
 
 # Version number of this module.
-ModuleVersion = '0.13.0'
+ModuleVersion = '0.13.1'
 
 # ID used to uniquely identify this module
 GUID = '4FA5544A-69EA-4D3D-971B-42BC862AFBD4'
