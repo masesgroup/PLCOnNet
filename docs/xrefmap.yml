@@ -932,6 +932,15 @@ references:
   fullName.vb: Org.Apache.Plc4x.JavaNs.Api.Authentication.PlcAuthentication.New()
   nameWithType: PlcAuthentication.PlcAuthentication()
   nameWithType.vb: PlcAuthentication.New()
+- uid: Org.Apache.Plc4x.JavaNs.Api.Authentication.PlcAuthentication.#ctor(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  name: PlcAuthentication(IJVMBridgeBaseInitializer)
+  href: api/Org.Apache.Plc4x.JavaNs.Api.Authentication.PlcAuthentication.html#Org_Apache_Plc4x_JavaNs_Api_Authentication_PlcAuthentication__ctor_MASES_JCOBridge_C2JBridge_IJVMBridgeBaseInitializer_
+  commentId: M:Org.Apache.Plc4x.JavaNs.Api.Authentication.PlcAuthentication.#ctor(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  name.vb: New(IJVMBridgeBaseInitializer)
+  fullName: Org.Apache.Plc4x.JavaNs.Api.Authentication.PlcAuthentication.PlcAuthentication(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  fullName.vb: Org.Apache.Plc4x.JavaNs.Api.Authentication.PlcAuthentication.New(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  nameWithType: PlcAuthentication.PlcAuthentication(IJVMBridgeBaseInitializer)
+  nameWithType.vb: PlcAuthentication.New(IJVMBridgeBaseInitializer)
 - uid: Org.Apache.Plc4x.JavaNs.Api.Authentication.PlcAuthentication.#ctor(System.Object[])
   name: PlcAuthentication(params object[])
   href: api/Org.Apache.Plc4x.JavaNs.Api.Authentication.PlcAuthentication.html#Org_Apache_Plc4x_JavaNs_Api_Authentication_PlcAuthentication__ctor_System_Object___
@@ -1040,6 +1049,15 @@ references:
   fullName.vb: Org.Apache.Plc4x.JavaNs.Api.Authentication.PlcUsernamePasswordAuthentication.New(Java.Lang.String, Java.Lang.String)
   nameWithType: PlcUsernamePasswordAuthentication.PlcUsernamePasswordAuthentication(String, String)
   nameWithType.vb: PlcUsernamePasswordAuthentication.New(String, String)
+- uid: Org.Apache.Plc4x.JavaNs.Api.Authentication.PlcUsernamePasswordAuthentication.#ctor(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  name: PlcUsernamePasswordAuthentication(IJVMBridgeBaseInitializer)
+  href: api/Org.Apache.Plc4x.JavaNs.Api.Authentication.PlcUsernamePasswordAuthentication.html#Org_Apache_Plc4x_JavaNs_Api_Authentication_PlcUsernamePasswordAuthentication__ctor_MASES_JCOBridge_C2JBridge_IJVMBridgeBaseInitializer_
+  commentId: M:Org.Apache.Plc4x.JavaNs.Api.Authentication.PlcUsernamePasswordAuthentication.#ctor(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  name.vb: New(IJVMBridgeBaseInitializer)
+  fullName: Org.Apache.Plc4x.JavaNs.Api.Authentication.PlcUsernamePasswordAuthentication.PlcUsernamePasswordAuthentication(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  fullName.vb: Org.Apache.Plc4x.JavaNs.Api.Authentication.PlcUsernamePasswordAuthentication.New(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  nameWithType: PlcUsernamePasswordAuthentication.PlcUsernamePasswordAuthentication(IJVMBridgeBaseInitializer)
+  nameWithType.vb: PlcUsernamePasswordAuthentication.New(IJVMBridgeBaseInitializer)
 - uid: Org.Apache.Plc4x.JavaNs.Api.Authentication.PlcUsernamePasswordAuthentication.#ctor(System.Object[])
   name: PlcUsernamePasswordAuthentication(params object[])
   href: api/Org.Apache.Plc4x.JavaNs.Api.Authentication.PlcUsernamePasswordAuthentication.html#Org_Apache_Plc4x_JavaNs_Api_Authentication_PlcUsernamePasswordAuthentication__ctor_System_Object___
@@ -1165,6 +1183,15 @@ references:
   fullName.vb: Org.Apache.Plc4x.JavaNs.Api.EventPlcConnection.New()
   nameWithType: EventPlcConnection.EventPlcConnection()
   nameWithType.vb: EventPlcConnection.New()
+- uid: Org.Apache.Plc4x.JavaNs.Api.EventPlcConnection.#ctor(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  name: EventPlcConnection(IJVMBridgeBaseInitializer)
+  href: api/Org.Apache.Plc4x.JavaNs.Api.EventPlcConnection.html#Org_Apache_Plc4x_JavaNs_Api_EventPlcConnection__ctor_MASES_JCOBridge_C2JBridge_IJVMBridgeBaseInitializer_
+  commentId: M:Org.Apache.Plc4x.JavaNs.Api.EventPlcConnection.#ctor(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  name.vb: New(IJVMBridgeBaseInitializer)
+  fullName: Org.Apache.Plc4x.JavaNs.Api.EventPlcConnection.EventPlcConnection(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  fullName.vb: Org.Apache.Plc4x.JavaNs.Api.EventPlcConnection.New(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  nameWithType: EventPlcConnection.EventPlcConnection(IJVMBridgeBaseInitializer)
+  nameWithType.vb: EventPlcConnection.New(IJVMBridgeBaseInitializer)
 - uid: Org.Apache.Plc4x.JavaNs.Api.EventPlcConnection.#ctor(System.Object[])
   name: EventPlcConnection(params object[])
   href: api/Org.Apache.Plc4x.JavaNs.Api.EventPlcConnection.html#Org_Apache_Plc4x_JavaNs_Api_EventPlcConnection__ctor_System_Object___
@@ -1287,6 +1314,43 @@ references:
   commentId: T:Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcConnectionException
   fullName: Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcConnectionException
   nameWithType: PlcConnectionException
+- uid: Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcConnectionException.#ctor
+  name: PlcConnectionException()
+  href: api/Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcConnectionException.html#Org_Apache_Plc4x_JavaNs_Api_Exceptions_PlcConnectionException__ctor
+  commentId: M:Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcConnectionException.#ctor
+  name.vb: New()
+  fullName: Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcConnectionException.PlcConnectionException()
+  fullName.vb: Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcConnectionException.New()
+  nameWithType: PlcConnectionException.PlcConnectionException()
+  nameWithType.vb: PlcConnectionException.New()
+- uid: Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcConnectionException.#ctor(System.String)
+  name: PlcConnectionException(string)
+  href: api/Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcConnectionException.html#Org_Apache_Plc4x_JavaNs_Api_Exceptions_PlcConnectionException__ctor_System_String_
+  commentId: M:Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcConnectionException.#ctor(System.String)
+  name.vb: New(String)
+  fullName: Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcConnectionException.PlcConnectionException(string)
+  fullName.vb: Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcConnectionException.New(String)
+  nameWithType: PlcConnectionException.PlcConnectionException(string)
+  nameWithType.vb: PlcConnectionException.New(String)
+- uid: Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcConnectionException.#ctor(System.String,System.Exception)
+  name: PlcConnectionException(string, Exception)
+  href: api/Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcConnectionException.html#Org_Apache_Plc4x_JavaNs_Api_Exceptions_PlcConnectionException__ctor_System_String_System_Exception_
+  commentId: M:Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcConnectionException.#ctor(System.String,System.Exception)
+  name.vb: New(String, Exception)
+  fullName: Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcConnectionException.PlcConnectionException(string, System.Exception)
+  fullName.vb: Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcConnectionException.New(String, System.Exception)
+  nameWithType: PlcConnectionException.PlcConnectionException(string, Exception)
+  nameWithType.vb: PlcConnectionException.New(String, Exception)
+- uid: Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcConnectionException.#ctor*
+  name: PlcConnectionException
+  href: api/Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcConnectionException.html#Org_Apache_Plc4x_JavaNs_Api_Exceptions_PlcConnectionException__ctor_
+  commentId: Overload:Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcConnectionException.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcConnectionException.PlcConnectionException
+  fullName.vb: Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcConnectionException.New
+  nameWithType: PlcConnectionException.PlcConnectionException
+  nameWithType.vb: PlcConnectionException.New
 - uid: Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcConnectionException.BridgeClassName
   name: BridgeClassName
   href: api/Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcConnectionException.html#Org_Apache_Plc4x_JavaNs_Api_Exceptions_PlcConnectionException_BridgeClassName
@@ -1306,6 +1370,43 @@ references:
   commentId: T:Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcException
   fullName: Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcException
   nameWithType: PlcException
+- uid: Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcException.#ctor
+  name: PlcException()
+  href: api/Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcException.html#Org_Apache_Plc4x_JavaNs_Api_Exceptions_PlcException__ctor
+  commentId: M:Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcException.#ctor
+  name.vb: New()
+  fullName: Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcException.PlcException()
+  fullName.vb: Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcException.New()
+  nameWithType: PlcException.PlcException()
+  nameWithType.vb: PlcException.New()
+- uid: Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcException.#ctor(System.String)
+  name: PlcException(string)
+  href: api/Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcException.html#Org_Apache_Plc4x_JavaNs_Api_Exceptions_PlcException__ctor_System_String_
+  commentId: M:Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcException.#ctor(System.String)
+  name.vb: New(String)
+  fullName: Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcException.PlcException(string)
+  fullName.vb: Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcException.New(String)
+  nameWithType: PlcException.PlcException(string)
+  nameWithType.vb: PlcException.New(String)
+- uid: Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcException.#ctor(System.String,System.Exception)
+  name: PlcException(string, Exception)
+  href: api/Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcException.html#Org_Apache_Plc4x_JavaNs_Api_Exceptions_PlcException__ctor_System_String_System_Exception_
+  commentId: M:Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcException.#ctor(System.String,System.Exception)
+  name.vb: New(String, Exception)
+  fullName: Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcException.PlcException(string, System.Exception)
+  fullName.vb: Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcException.New(String, System.Exception)
+  nameWithType: PlcException.PlcException(string, Exception)
+  nameWithType.vb: PlcException.New(String, Exception)
+- uid: Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcException.#ctor*
+  name: PlcException
+  href: api/Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcException.html#Org_Apache_Plc4x_JavaNs_Api_Exceptions_PlcException__ctor_
+  commentId: Overload:Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcException.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcException.PlcException
+  fullName.vb: Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcException.New
+  nameWithType: PlcException.PlcException
+  nameWithType.vb: PlcException.New
 - uid: Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcException.BridgeClassName
   name: BridgeClassName
   href: api/Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcException.html#Org_Apache_Plc4x_JavaNs_Api_Exceptions_PlcException_BridgeClassName
@@ -1325,6 +1426,43 @@ references:
   commentId: T:Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcIncompatibleDatatypeException
   fullName: Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcIncompatibleDatatypeException
   nameWithType: PlcIncompatibleDatatypeException
+- uid: Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcIncompatibleDatatypeException.#ctor
+  name: PlcIncompatibleDatatypeException()
+  href: api/Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcIncompatibleDatatypeException.html#Org_Apache_Plc4x_JavaNs_Api_Exceptions_PlcIncompatibleDatatypeException__ctor
+  commentId: M:Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcIncompatibleDatatypeException.#ctor
+  name.vb: New()
+  fullName: Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcIncompatibleDatatypeException.PlcIncompatibleDatatypeException()
+  fullName.vb: Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcIncompatibleDatatypeException.New()
+  nameWithType: PlcIncompatibleDatatypeException.PlcIncompatibleDatatypeException()
+  nameWithType.vb: PlcIncompatibleDatatypeException.New()
+- uid: Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcIncompatibleDatatypeException.#ctor(System.String)
+  name: PlcIncompatibleDatatypeException(string)
+  href: api/Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcIncompatibleDatatypeException.html#Org_Apache_Plc4x_JavaNs_Api_Exceptions_PlcIncompatibleDatatypeException__ctor_System_String_
+  commentId: M:Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcIncompatibleDatatypeException.#ctor(System.String)
+  name.vb: New(String)
+  fullName: Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcIncompatibleDatatypeException.PlcIncompatibleDatatypeException(string)
+  fullName.vb: Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcIncompatibleDatatypeException.New(String)
+  nameWithType: PlcIncompatibleDatatypeException.PlcIncompatibleDatatypeException(string)
+  nameWithType.vb: PlcIncompatibleDatatypeException.New(String)
+- uid: Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcIncompatibleDatatypeException.#ctor(System.String,System.Exception)
+  name: PlcIncompatibleDatatypeException(string, Exception)
+  href: api/Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcIncompatibleDatatypeException.html#Org_Apache_Plc4x_JavaNs_Api_Exceptions_PlcIncompatibleDatatypeException__ctor_System_String_System_Exception_
+  commentId: M:Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcIncompatibleDatatypeException.#ctor(System.String,System.Exception)
+  name.vb: New(String, Exception)
+  fullName: Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcIncompatibleDatatypeException.PlcIncompatibleDatatypeException(string, System.Exception)
+  fullName.vb: Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcIncompatibleDatatypeException.New(String, System.Exception)
+  nameWithType: PlcIncompatibleDatatypeException.PlcIncompatibleDatatypeException(string, Exception)
+  nameWithType.vb: PlcIncompatibleDatatypeException.New(String, Exception)
+- uid: Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcIncompatibleDatatypeException.#ctor*
+  name: PlcIncompatibleDatatypeException
+  href: api/Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcIncompatibleDatatypeException.html#Org_Apache_Plc4x_JavaNs_Api_Exceptions_PlcIncompatibleDatatypeException__ctor_
+  commentId: Overload:Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcIncompatibleDatatypeException.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcIncompatibleDatatypeException.PlcIncompatibleDatatypeException
+  fullName.vb: Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcIncompatibleDatatypeException.New
+  nameWithType: PlcIncompatibleDatatypeException.PlcIncompatibleDatatypeException
+  nameWithType.vb: PlcIncompatibleDatatypeException.New
 - uid: Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcIncompatibleDatatypeException.BridgeClassName
   name: BridgeClassName
   href: api/Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcIncompatibleDatatypeException.html#Org_Apache_Plc4x_JavaNs_Api_Exceptions_PlcIncompatibleDatatypeException_BridgeClassName
@@ -1344,6 +1482,43 @@ references:
   commentId: T:Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcInvalidTagException
   fullName: Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcInvalidTagException
   nameWithType: PlcInvalidTagException
+- uid: Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcInvalidTagException.#ctor
+  name: PlcInvalidTagException()
+  href: api/Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcInvalidTagException.html#Org_Apache_Plc4x_JavaNs_Api_Exceptions_PlcInvalidTagException__ctor
+  commentId: M:Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcInvalidTagException.#ctor
+  name.vb: New()
+  fullName: Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcInvalidTagException.PlcInvalidTagException()
+  fullName.vb: Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcInvalidTagException.New()
+  nameWithType: PlcInvalidTagException.PlcInvalidTagException()
+  nameWithType.vb: PlcInvalidTagException.New()
+- uid: Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcInvalidTagException.#ctor(System.String)
+  name: PlcInvalidTagException(string)
+  href: api/Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcInvalidTagException.html#Org_Apache_Plc4x_JavaNs_Api_Exceptions_PlcInvalidTagException__ctor_System_String_
+  commentId: M:Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcInvalidTagException.#ctor(System.String)
+  name.vb: New(String)
+  fullName: Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcInvalidTagException.PlcInvalidTagException(string)
+  fullName.vb: Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcInvalidTagException.New(String)
+  nameWithType: PlcInvalidTagException.PlcInvalidTagException(string)
+  nameWithType.vb: PlcInvalidTagException.New(String)
+- uid: Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcInvalidTagException.#ctor(System.String,System.Exception)
+  name: PlcInvalidTagException(string, Exception)
+  href: api/Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcInvalidTagException.html#Org_Apache_Plc4x_JavaNs_Api_Exceptions_PlcInvalidTagException__ctor_System_String_System_Exception_
+  commentId: M:Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcInvalidTagException.#ctor(System.String,System.Exception)
+  name.vb: New(String, Exception)
+  fullName: Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcInvalidTagException.PlcInvalidTagException(string, System.Exception)
+  fullName.vb: Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcInvalidTagException.New(String, System.Exception)
+  nameWithType: PlcInvalidTagException.PlcInvalidTagException(string, Exception)
+  nameWithType.vb: PlcInvalidTagException.New(String, Exception)
+- uid: Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcInvalidTagException.#ctor*
+  name: PlcInvalidTagException
+  href: api/Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcInvalidTagException.html#Org_Apache_Plc4x_JavaNs_Api_Exceptions_PlcInvalidTagException__ctor_
+  commentId: Overload:Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcInvalidTagException.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcInvalidTagException.PlcInvalidTagException
+  fullName.vb: Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcInvalidTagException.New
+  nameWithType: PlcInvalidTagException.PlcInvalidTagException
+  nameWithType.vb: PlcInvalidTagException.New
 - uid: Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcInvalidTagException.BridgeClassName
   name: BridgeClassName
   href: api/Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcInvalidTagException.html#Org_Apache_Plc4x_JavaNs_Api_Exceptions_PlcInvalidTagException_BridgeClassName
@@ -1363,6 +1538,43 @@ references:
   commentId: T:Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcIoException
   fullName: Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcIoException
   nameWithType: PlcIoException
+- uid: Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcIoException.#ctor
+  name: PlcIoException()
+  href: api/Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcIoException.html#Org_Apache_Plc4x_JavaNs_Api_Exceptions_PlcIoException__ctor
+  commentId: M:Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcIoException.#ctor
+  name.vb: New()
+  fullName: Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcIoException.PlcIoException()
+  fullName.vb: Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcIoException.New()
+  nameWithType: PlcIoException.PlcIoException()
+  nameWithType.vb: PlcIoException.New()
+- uid: Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcIoException.#ctor(System.String)
+  name: PlcIoException(string)
+  href: api/Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcIoException.html#Org_Apache_Plc4x_JavaNs_Api_Exceptions_PlcIoException__ctor_System_String_
+  commentId: M:Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcIoException.#ctor(System.String)
+  name.vb: New(String)
+  fullName: Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcIoException.PlcIoException(string)
+  fullName.vb: Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcIoException.New(String)
+  nameWithType: PlcIoException.PlcIoException(string)
+  nameWithType.vb: PlcIoException.New(String)
+- uid: Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcIoException.#ctor(System.String,System.Exception)
+  name: PlcIoException(string, Exception)
+  href: api/Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcIoException.html#Org_Apache_Plc4x_JavaNs_Api_Exceptions_PlcIoException__ctor_System_String_System_Exception_
+  commentId: M:Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcIoException.#ctor(System.String,System.Exception)
+  name.vb: New(String, Exception)
+  fullName: Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcIoException.PlcIoException(string, System.Exception)
+  fullName.vb: Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcIoException.New(String, System.Exception)
+  nameWithType: PlcIoException.PlcIoException(string, Exception)
+  nameWithType.vb: PlcIoException.New(String, Exception)
+- uid: Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcIoException.#ctor*
+  name: PlcIoException
+  href: api/Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcIoException.html#Org_Apache_Plc4x_JavaNs_Api_Exceptions_PlcIoException__ctor_
+  commentId: Overload:Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcIoException.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcIoException.PlcIoException
+  fullName.vb: Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcIoException.New
+  nameWithType: PlcIoException.PlcIoException
+  nameWithType.vb: PlcIoException.New
 - uid: Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcIoException.BridgeClassName
   name: BridgeClassName
   href: api/Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcIoException.html#Org_Apache_Plc4x_JavaNs_Api_Exceptions_PlcIoException_BridgeClassName
@@ -1382,6 +1594,43 @@ references:
   commentId: T:Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcNotImplementedException
   fullName: Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcNotImplementedException
   nameWithType: PlcNotImplementedException
+- uid: Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcNotImplementedException.#ctor
+  name: PlcNotImplementedException()
+  href: api/Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcNotImplementedException.html#Org_Apache_Plc4x_JavaNs_Api_Exceptions_PlcNotImplementedException__ctor
+  commentId: M:Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcNotImplementedException.#ctor
+  name.vb: New()
+  fullName: Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcNotImplementedException.PlcNotImplementedException()
+  fullName.vb: Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcNotImplementedException.New()
+  nameWithType: PlcNotImplementedException.PlcNotImplementedException()
+  nameWithType.vb: PlcNotImplementedException.New()
+- uid: Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcNotImplementedException.#ctor(System.String)
+  name: PlcNotImplementedException(string)
+  href: api/Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcNotImplementedException.html#Org_Apache_Plc4x_JavaNs_Api_Exceptions_PlcNotImplementedException__ctor_System_String_
+  commentId: M:Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcNotImplementedException.#ctor(System.String)
+  name.vb: New(String)
+  fullName: Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcNotImplementedException.PlcNotImplementedException(string)
+  fullName.vb: Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcNotImplementedException.New(String)
+  nameWithType: PlcNotImplementedException.PlcNotImplementedException(string)
+  nameWithType.vb: PlcNotImplementedException.New(String)
+- uid: Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcNotImplementedException.#ctor(System.String,System.Exception)
+  name: PlcNotImplementedException(string, Exception)
+  href: api/Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcNotImplementedException.html#Org_Apache_Plc4x_JavaNs_Api_Exceptions_PlcNotImplementedException__ctor_System_String_System_Exception_
+  commentId: M:Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcNotImplementedException.#ctor(System.String,System.Exception)
+  name.vb: New(String, Exception)
+  fullName: Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcNotImplementedException.PlcNotImplementedException(string, System.Exception)
+  fullName.vb: Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcNotImplementedException.New(String, System.Exception)
+  nameWithType: PlcNotImplementedException.PlcNotImplementedException(string, Exception)
+  nameWithType.vb: PlcNotImplementedException.New(String, Exception)
+- uid: Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcNotImplementedException.#ctor*
+  name: PlcNotImplementedException
+  href: api/Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcNotImplementedException.html#Org_Apache_Plc4x_JavaNs_Api_Exceptions_PlcNotImplementedException__ctor_
+  commentId: Overload:Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcNotImplementedException.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcNotImplementedException.PlcNotImplementedException
+  fullName.vb: Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcNotImplementedException.New
+  nameWithType: PlcNotImplementedException.PlcNotImplementedException
+  nameWithType.vb: PlcNotImplementedException.New
 - uid: Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcNotImplementedException.BridgeClassName
   name: BridgeClassName
   href: api/Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcNotImplementedException.html#Org_Apache_Plc4x_JavaNs_Api_Exceptions_PlcNotImplementedException_BridgeClassName
@@ -1401,6 +1650,43 @@ references:
   commentId: T:Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcProtocolException
   fullName: Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcProtocolException
   nameWithType: PlcProtocolException
+- uid: Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcProtocolException.#ctor
+  name: PlcProtocolException()
+  href: api/Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcProtocolException.html#Org_Apache_Plc4x_JavaNs_Api_Exceptions_PlcProtocolException__ctor
+  commentId: M:Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcProtocolException.#ctor
+  name.vb: New()
+  fullName: Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcProtocolException.PlcProtocolException()
+  fullName.vb: Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcProtocolException.New()
+  nameWithType: PlcProtocolException.PlcProtocolException()
+  nameWithType.vb: PlcProtocolException.New()
+- uid: Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcProtocolException.#ctor(System.String)
+  name: PlcProtocolException(string)
+  href: api/Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcProtocolException.html#Org_Apache_Plc4x_JavaNs_Api_Exceptions_PlcProtocolException__ctor_System_String_
+  commentId: M:Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcProtocolException.#ctor(System.String)
+  name.vb: New(String)
+  fullName: Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcProtocolException.PlcProtocolException(string)
+  fullName.vb: Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcProtocolException.New(String)
+  nameWithType: PlcProtocolException.PlcProtocolException(string)
+  nameWithType.vb: PlcProtocolException.New(String)
+- uid: Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcProtocolException.#ctor(System.String,System.Exception)
+  name: PlcProtocolException(string, Exception)
+  href: api/Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcProtocolException.html#Org_Apache_Plc4x_JavaNs_Api_Exceptions_PlcProtocolException__ctor_System_String_System_Exception_
+  commentId: M:Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcProtocolException.#ctor(System.String,System.Exception)
+  name.vb: New(String, Exception)
+  fullName: Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcProtocolException.PlcProtocolException(string, System.Exception)
+  fullName.vb: Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcProtocolException.New(String, System.Exception)
+  nameWithType: PlcProtocolException.PlcProtocolException(string, Exception)
+  nameWithType.vb: PlcProtocolException.New(String, Exception)
+- uid: Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcProtocolException.#ctor*
+  name: PlcProtocolException
+  href: api/Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcProtocolException.html#Org_Apache_Plc4x_JavaNs_Api_Exceptions_PlcProtocolException__ctor_
+  commentId: Overload:Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcProtocolException.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcProtocolException.PlcProtocolException
+  fullName.vb: Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcProtocolException.New
+  nameWithType: PlcProtocolException.PlcProtocolException
+  nameWithType.vb: PlcProtocolException.New
 - uid: Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcProtocolException.BridgeClassName
   name: BridgeClassName
   href: api/Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcProtocolException.html#Org_Apache_Plc4x_JavaNs_Api_Exceptions_PlcProtocolException_BridgeClassName
@@ -1420,6 +1706,43 @@ references:
   commentId: T:Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcProtocolPayloadTooBigException
   fullName: Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcProtocolPayloadTooBigException
   nameWithType: PlcProtocolPayloadTooBigException
+- uid: Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcProtocolPayloadTooBigException.#ctor
+  name: PlcProtocolPayloadTooBigException()
+  href: api/Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcProtocolPayloadTooBigException.html#Org_Apache_Plc4x_JavaNs_Api_Exceptions_PlcProtocolPayloadTooBigException__ctor
+  commentId: M:Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcProtocolPayloadTooBigException.#ctor
+  name.vb: New()
+  fullName: Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcProtocolPayloadTooBigException.PlcProtocolPayloadTooBigException()
+  fullName.vb: Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcProtocolPayloadTooBigException.New()
+  nameWithType: PlcProtocolPayloadTooBigException.PlcProtocolPayloadTooBigException()
+  nameWithType.vb: PlcProtocolPayloadTooBigException.New()
+- uid: Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcProtocolPayloadTooBigException.#ctor(System.String)
+  name: PlcProtocolPayloadTooBigException(string)
+  href: api/Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcProtocolPayloadTooBigException.html#Org_Apache_Plc4x_JavaNs_Api_Exceptions_PlcProtocolPayloadTooBigException__ctor_System_String_
+  commentId: M:Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcProtocolPayloadTooBigException.#ctor(System.String)
+  name.vb: New(String)
+  fullName: Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcProtocolPayloadTooBigException.PlcProtocolPayloadTooBigException(string)
+  fullName.vb: Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcProtocolPayloadTooBigException.New(String)
+  nameWithType: PlcProtocolPayloadTooBigException.PlcProtocolPayloadTooBigException(string)
+  nameWithType.vb: PlcProtocolPayloadTooBigException.New(String)
+- uid: Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcProtocolPayloadTooBigException.#ctor(System.String,System.Exception)
+  name: PlcProtocolPayloadTooBigException(string, Exception)
+  href: api/Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcProtocolPayloadTooBigException.html#Org_Apache_Plc4x_JavaNs_Api_Exceptions_PlcProtocolPayloadTooBigException__ctor_System_String_System_Exception_
+  commentId: M:Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcProtocolPayloadTooBigException.#ctor(System.String,System.Exception)
+  name.vb: New(String, Exception)
+  fullName: Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcProtocolPayloadTooBigException.PlcProtocolPayloadTooBigException(string, System.Exception)
+  fullName.vb: Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcProtocolPayloadTooBigException.New(String, System.Exception)
+  nameWithType: PlcProtocolPayloadTooBigException.PlcProtocolPayloadTooBigException(string, Exception)
+  nameWithType.vb: PlcProtocolPayloadTooBigException.New(String, Exception)
+- uid: Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcProtocolPayloadTooBigException.#ctor*
+  name: PlcProtocolPayloadTooBigException
+  href: api/Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcProtocolPayloadTooBigException.html#Org_Apache_Plc4x_JavaNs_Api_Exceptions_PlcProtocolPayloadTooBigException__ctor_
+  commentId: Overload:Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcProtocolPayloadTooBigException.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcProtocolPayloadTooBigException.PlcProtocolPayloadTooBigException
+  fullName.vb: Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcProtocolPayloadTooBigException.New
+  nameWithType: PlcProtocolPayloadTooBigException.PlcProtocolPayloadTooBigException
+  nameWithType.vb: PlcProtocolPayloadTooBigException.New
 - uid: Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcProtocolPayloadTooBigException.BridgeClassName
   name: BridgeClassName
   href: api/Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcProtocolPayloadTooBigException.html#Org_Apache_Plc4x_JavaNs_Api_Exceptions_PlcProtocolPayloadTooBigException_BridgeClassName
@@ -1439,6 +1762,43 @@ references:
   commentId: T:Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcProtocolTimeoutException
   fullName: Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcProtocolTimeoutException
   nameWithType: PlcProtocolTimeoutException
+- uid: Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcProtocolTimeoutException.#ctor
+  name: PlcProtocolTimeoutException()
+  href: api/Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcProtocolTimeoutException.html#Org_Apache_Plc4x_JavaNs_Api_Exceptions_PlcProtocolTimeoutException__ctor
+  commentId: M:Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcProtocolTimeoutException.#ctor
+  name.vb: New()
+  fullName: Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcProtocolTimeoutException.PlcProtocolTimeoutException()
+  fullName.vb: Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcProtocolTimeoutException.New()
+  nameWithType: PlcProtocolTimeoutException.PlcProtocolTimeoutException()
+  nameWithType.vb: PlcProtocolTimeoutException.New()
+- uid: Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcProtocolTimeoutException.#ctor(System.String)
+  name: PlcProtocolTimeoutException(string)
+  href: api/Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcProtocolTimeoutException.html#Org_Apache_Plc4x_JavaNs_Api_Exceptions_PlcProtocolTimeoutException__ctor_System_String_
+  commentId: M:Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcProtocolTimeoutException.#ctor(System.String)
+  name.vb: New(String)
+  fullName: Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcProtocolTimeoutException.PlcProtocolTimeoutException(string)
+  fullName.vb: Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcProtocolTimeoutException.New(String)
+  nameWithType: PlcProtocolTimeoutException.PlcProtocolTimeoutException(string)
+  nameWithType.vb: PlcProtocolTimeoutException.New(String)
+- uid: Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcProtocolTimeoutException.#ctor(System.String,System.Exception)
+  name: PlcProtocolTimeoutException(string, Exception)
+  href: api/Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcProtocolTimeoutException.html#Org_Apache_Plc4x_JavaNs_Api_Exceptions_PlcProtocolTimeoutException__ctor_System_String_System_Exception_
+  commentId: M:Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcProtocolTimeoutException.#ctor(System.String,System.Exception)
+  name.vb: New(String, Exception)
+  fullName: Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcProtocolTimeoutException.PlcProtocolTimeoutException(string, System.Exception)
+  fullName.vb: Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcProtocolTimeoutException.New(String, System.Exception)
+  nameWithType: PlcProtocolTimeoutException.PlcProtocolTimeoutException(string, Exception)
+  nameWithType.vb: PlcProtocolTimeoutException.New(String, Exception)
+- uid: Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcProtocolTimeoutException.#ctor*
+  name: PlcProtocolTimeoutException
+  href: api/Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcProtocolTimeoutException.html#Org_Apache_Plc4x_JavaNs_Api_Exceptions_PlcProtocolTimeoutException__ctor_
+  commentId: Overload:Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcProtocolTimeoutException.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcProtocolTimeoutException.PlcProtocolTimeoutException
+  fullName.vb: Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcProtocolTimeoutException.New
+  nameWithType: PlcProtocolTimeoutException.PlcProtocolTimeoutException
+  nameWithType.vb: PlcProtocolTimeoutException.New
 - uid: Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcProtocolTimeoutException.BridgeClassName
   name: BridgeClassName
   href: api/Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcProtocolTimeoutException.html#Org_Apache_Plc4x_JavaNs_Api_Exceptions_PlcProtocolTimeoutException_BridgeClassName
@@ -1458,6 +1818,43 @@ references:
   commentId: T:Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcRuntimeException
   fullName: Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcRuntimeException
   nameWithType: PlcRuntimeException
+- uid: Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcRuntimeException.#ctor
+  name: PlcRuntimeException()
+  href: api/Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcRuntimeException.html#Org_Apache_Plc4x_JavaNs_Api_Exceptions_PlcRuntimeException__ctor
+  commentId: M:Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcRuntimeException.#ctor
+  name.vb: New()
+  fullName: Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcRuntimeException.PlcRuntimeException()
+  fullName.vb: Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcRuntimeException.New()
+  nameWithType: PlcRuntimeException.PlcRuntimeException()
+  nameWithType.vb: PlcRuntimeException.New()
+- uid: Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcRuntimeException.#ctor(System.String)
+  name: PlcRuntimeException(string)
+  href: api/Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcRuntimeException.html#Org_Apache_Plc4x_JavaNs_Api_Exceptions_PlcRuntimeException__ctor_System_String_
+  commentId: M:Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcRuntimeException.#ctor(System.String)
+  name.vb: New(String)
+  fullName: Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcRuntimeException.PlcRuntimeException(string)
+  fullName.vb: Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcRuntimeException.New(String)
+  nameWithType: PlcRuntimeException.PlcRuntimeException(string)
+  nameWithType.vb: PlcRuntimeException.New(String)
+- uid: Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcRuntimeException.#ctor(System.String,System.Exception)
+  name: PlcRuntimeException(string, Exception)
+  href: api/Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcRuntimeException.html#Org_Apache_Plc4x_JavaNs_Api_Exceptions_PlcRuntimeException__ctor_System_String_System_Exception_
+  commentId: M:Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcRuntimeException.#ctor(System.String,System.Exception)
+  name.vb: New(String, Exception)
+  fullName: Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcRuntimeException.PlcRuntimeException(string, System.Exception)
+  fullName.vb: Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcRuntimeException.New(String, System.Exception)
+  nameWithType: PlcRuntimeException.PlcRuntimeException(string, Exception)
+  nameWithType.vb: PlcRuntimeException.New(String, Exception)
+- uid: Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcRuntimeException.#ctor*
+  name: PlcRuntimeException
+  href: api/Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcRuntimeException.html#Org_Apache_Plc4x_JavaNs_Api_Exceptions_PlcRuntimeException__ctor_
+  commentId: Overload:Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcRuntimeException.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcRuntimeException.PlcRuntimeException
+  fullName.vb: Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcRuntimeException.New
+  nameWithType: PlcRuntimeException.PlcRuntimeException
+  nameWithType.vb: PlcRuntimeException.New
 - uid: Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcRuntimeException.BridgeClassName
   name: BridgeClassName
   href: api/Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcRuntimeException.html#Org_Apache_Plc4x_JavaNs_Api_Exceptions_PlcRuntimeException_BridgeClassName
@@ -1477,6 +1874,43 @@ references:
   commentId: T:Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcTagNotFoundException
   fullName: Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcTagNotFoundException
   nameWithType: PlcTagNotFoundException
+- uid: Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcTagNotFoundException.#ctor
+  name: PlcTagNotFoundException()
+  href: api/Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcTagNotFoundException.html#Org_Apache_Plc4x_JavaNs_Api_Exceptions_PlcTagNotFoundException__ctor
+  commentId: M:Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcTagNotFoundException.#ctor
+  name.vb: New()
+  fullName: Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcTagNotFoundException.PlcTagNotFoundException()
+  fullName.vb: Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcTagNotFoundException.New()
+  nameWithType: PlcTagNotFoundException.PlcTagNotFoundException()
+  nameWithType.vb: PlcTagNotFoundException.New()
+- uid: Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcTagNotFoundException.#ctor(System.String)
+  name: PlcTagNotFoundException(string)
+  href: api/Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcTagNotFoundException.html#Org_Apache_Plc4x_JavaNs_Api_Exceptions_PlcTagNotFoundException__ctor_System_String_
+  commentId: M:Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcTagNotFoundException.#ctor(System.String)
+  name.vb: New(String)
+  fullName: Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcTagNotFoundException.PlcTagNotFoundException(string)
+  fullName.vb: Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcTagNotFoundException.New(String)
+  nameWithType: PlcTagNotFoundException.PlcTagNotFoundException(string)
+  nameWithType.vb: PlcTagNotFoundException.New(String)
+- uid: Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcTagNotFoundException.#ctor(System.String,System.Exception)
+  name: PlcTagNotFoundException(string, Exception)
+  href: api/Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcTagNotFoundException.html#Org_Apache_Plc4x_JavaNs_Api_Exceptions_PlcTagNotFoundException__ctor_System_String_System_Exception_
+  commentId: M:Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcTagNotFoundException.#ctor(System.String,System.Exception)
+  name.vb: New(String, Exception)
+  fullName: Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcTagNotFoundException.PlcTagNotFoundException(string, System.Exception)
+  fullName.vb: Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcTagNotFoundException.New(String, System.Exception)
+  nameWithType: PlcTagNotFoundException.PlcTagNotFoundException(string, Exception)
+  nameWithType.vb: PlcTagNotFoundException.New(String, Exception)
+- uid: Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcTagNotFoundException.#ctor*
+  name: PlcTagNotFoundException
+  href: api/Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcTagNotFoundException.html#Org_Apache_Plc4x_JavaNs_Api_Exceptions_PlcTagNotFoundException__ctor_
+  commentId: Overload:Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcTagNotFoundException.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcTagNotFoundException.PlcTagNotFoundException
+  fullName.vb: Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcTagNotFoundException.New
+  nameWithType: PlcTagNotFoundException.PlcTagNotFoundException
+  nameWithType.vb: PlcTagNotFoundException.New
 - uid: Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcTagNotFoundException.BridgeClassName
   name: BridgeClassName
   href: api/Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcTagNotFoundException.html#Org_Apache_Plc4x_JavaNs_Api_Exceptions_PlcTagNotFoundException_BridgeClassName
@@ -1496,6 +1930,43 @@ references:
   commentId: T:Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcTagRangeException
   fullName: Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcTagRangeException
   nameWithType: PlcTagRangeException
+- uid: Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcTagRangeException.#ctor
+  name: PlcTagRangeException()
+  href: api/Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcTagRangeException.html#Org_Apache_Plc4x_JavaNs_Api_Exceptions_PlcTagRangeException__ctor
+  commentId: M:Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcTagRangeException.#ctor
+  name.vb: New()
+  fullName: Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcTagRangeException.PlcTagRangeException()
+  fullName.vb: Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcTagRangeException.New()
+  nameWithType: PlcTagRangeException.PlcTagRangeException()
+  nameWithType.vb: PlcTagRangeException.New()
+- uid: Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcTagRangeException.#ctor(System.String)
+  name: PlcTagRangeException(string)
+  href: api/Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcTagRangeException.html#Org_Apache_Plc4x_JavaNs_Api_Exceptions_PlcTagRangeException__ctor_System_String_
+  commentId: M:Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcTagRangeException.#ctor(System.String)
+  name.vb: New(String)
+  fullName: Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcTagRangeException.PlcTagRangeException(string)
+  fullName.vb: Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcTagRangeException.New(String)
+  nameWithType: PlcTagRangeException.PlcTagRangeException(string)
+  nameWithType.vb: PlcTagRangeException.New(String)
+- uid: Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcTagRangeException.#ctor(System.String,System.Exception)
+  name: PlcTagRangeException(string, Exception)
+  href: api/Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcTagRangeException.html#Org_Apache_Plc4x_JavaNs_Api_Exceptions_PlcTagRangeException__ctor_System_String_System_Exception_
+  commentId: M:Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcTagRangeException.#ctor(System.String,System.Exception)
+  name.vb: New(String, Exception)
+  fullName: Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcTagRangeException.PlcTagRangeException(string, System.Exception)
+  fullName.vb: Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcTagRangeException.New(String, System.Exception)
+  nameWithType: PlcTagRangeException.PlcTagRangeException(string, Exception)
+  nameWithType.vb: PlcTagRangeException.New(String, Exception)
+- uid: Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcTagRangeException.#ctor*
+  name: PlcTagRangeException
+  href: api/Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcTagRangeException.html#Org_Apache_Plc4x_JavaNs_Api_Exceptions_PlcTagRangeException__ctor_
+  commentId: Overload:Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcTagRangeException.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcTagRangeException.PlcTagRangeException
+  fullName.vb: Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcTagRangeException.New
+  nameWithType: PlcTagRangeException.PlcTagRangeException
+  nameWithType.vb: PlcTagRangeException.New
 - uid: Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcTagRangeException.BridgeClassName
   name: BridgeClassName
   href: api/Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcTagRangeException.html#Org_Apache_Plc4x_JavaNs_Api_Exceptions_PlcTagRangeException_BridgeClassName
@@ -1515,6 +1986,43 @@ references:
   commentId: T:Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcTimeoutException
   fullName: Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcTimeoutException
   nameWithType: PlcTimeoutException
+- uid: Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcTimeoutException.#ctor
+  name: PlcTimeoutException()
+  href: api/Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcTimeoutException.html#Org_Apache_Plc4x_JavaNs_Api_Exceptions_PlcTimeoutException__ctor
+  commentId: M:Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcTimeoutException.#ctor
+  name.vb: New()
+  fullName: Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcTimeoutException.PlcTimeoutException()
+  fullName.vb: Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcTimeoutException.New()
+  nameWithType: PlcTimeoutException.PlcTimeoutException()
+  nameWithType.vb: PlcTimeoutException.New()
+- uid: Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcTimeoutException.#ctor(System.String)
+  name: PlcTimeoutException(string)
+  href: api/Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcTimeoutException.html#Org_Apache_Plc4x_JavaNs_Api_Exceptions_PlcTimeoutException__ctor_System_String_
+  commentId: M:Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcTimeoutException.#ctor(System.String)
+  name.vb: New(String)
+  fullName: Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcTimeoutException.PlcTimeoutException(string)
+  fullName.vb: Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcTimeoutException.New(String)
+  nameWithType: PlcTimeoutException.PlcTimeoutException(string)
+  nameWithType.vb: PlcTimeoutException.New(String)
+- uid: Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcTimeoutException.#ctor(System.String,System.Exception)
+  name: PlcTimeoutException(string, Exception)
+  href: api/Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcTimeoutException.html#Org_Apache_Plc4x_JavaNs_Api_Exceptions_PlcTimeoutException__ctor_System_String_System_Exception_
+  commentId: M:Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcTimeoutException.#ctor(System.String,System.Exception)
+  name.vb: New(String, Exception)
+  fullName: Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcTimeoutException.PlcTimeoutException(string, System.Exception)
+  fullName.vb: Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcTimeoutException.New(String, System.Exception)
+  nameWithType: PlcTimeoutException.PlcTimeoutException(string, Exception)
+  nameWithType.vb: PlcTimeoutException.New(String, Exception)
+- uid: Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcTimeoutException.#ctor*
+  name: PlcTimeoutException
+  href: api/Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcTimeoutException.html#Org_Apache_Plc4x_JavaNs_Api_Exceptions_PlcTimeoutException__ctor_
+  commentId: Overload:Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcTimeoutException.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcTimeoutException.PlcTimeoutException
+  fullName.vb: Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcTimeoutException.New
+  nameWithType: PlcTimeoutException.PlcTimeoutException
+  nameWithType.vb: PlcTimeoutException.New
 - uid: Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcTimeoutException.BridgeClassName
   name: BridgeClassName
   href: api/Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcTimeoutException.html#Org_Apache_Plc4x_JavaNs_Api_Exceptions_PlcTimeoutException_BridgeClassName
@@ -1534,6 +2042,43 @@ references:
   commentId: T:Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcUnsupportedDataTypeException
   fullName: Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcUnsupportedDataTypeException
   nameWithType: PlcUnsupportedDataTypeException
+- uid: Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcUnsupportedDataTypeException.#ctor
+  name: PlcUnsupportedDataTypeException()
+  href: api/Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcUnsupportedDataTypeException.html#Org_Apache_Plc4x_JavaNs_Api_Exceptions_PlcUnsupportedDataTypeException__ctor
+  commentId: M:Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcUnsupportedDataTypeException.#ctor
+  name.vb: New()
+  fullName: Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcUnsupportedDataTypeException.PlcUnsupportedDataTypeException()
+  fullName.vb: Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcUnsupportedDataTypeException.New()
+  nameWithType: PlcUnsupportedDataTypeException.PlcUnsupportedDataTypeException()
+  nameWithType.vb: PlcUnsupportedDataTypeException.New()
+- uid: Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcUnsupportedDataTypeException.#ctor(System.String)
+  name: PlcUnsupportedDataTypeException(string)
+  href: api/Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcUnsupportedDataTypeException.html#Org_Apache_Plc4x_JavaNs_Api_Exceptions_PlcUnsupportedDataTypeException__ctor_System_String_
+  commentId: M:Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcUnsupportedDataTypeException.#ctor(System.String)
+  name.vb: New(String)
+  fullName: Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcUnsupportedDataTypeException.PlcUnsupportedDataTypeException(string)
+  fullName.vb: Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcUnsupportedDataTypeException.New(String)
+  nameWithType: PlcUnsupportedDataTypeException.PlcUnsupportedDataTypeException(string)
+  nameWithType.vb: PlcUnsupportedDataTypeException.New(String)
+- uid: Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcUnsupportedDataTypeException.#ctor(System.String,System.Exception)
+  name: PlcUnsupportedDataTypeException(string, Exception)
+  href: api/Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcUnsupportedDataTypeException.html#Org_Apache_Plc4x_JavaNs_Api_Exceptions_PlcUnsupportedDataTypeException__ctor_System_String_System_Exception_
+  commentId: M:Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcUnsupportedDataTypeException.#ctor(System.String,System.Exception)
+  name.vb: New(String, Exception)
+  fullName: Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcUnsupportedDataTypeException.PlcUnsupportedDataTypeException(string, System.Exception)
+  fullName.vb: Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcUnsupportedDataTypeException.New(String, System.Exception)
+  nameWithType: PlcUnsupportedDataTypeException.PlcUnsupportedDataTypeException(string, Exception)
+  nameWithType.vb: PlcUnsupportedDataTypeException.New(String, Exception)
+- uid: Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcUnsupportedDataTypeException.#ctor*
+  name: PlcUnsupportedDataTypeException
+  href: api/Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcUnsupportedDataTypeException.html#Org_Apache_Plc4x_JavaNs_Api_Exceptions_PlcUnsupportedDataTypeException__ctor_
+  commentId: Overload:Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcUnsupportedDataTypeException.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcUnsupportedDataTypeException.PlcUnsupportedDataTypeException
+  fullName.vb: Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcUnsupportedDataTypeException.New
+  nameWithType: PlcUnsupportedDataTypeException.PlcUnsupportedDataTypeException
+  nameWithType.vb: PlcUnsupportedDataTypeException.New
 - uid: Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcUnsupportedDataTypeException.BridgeClassName
   name: BridgeClassName
   href: api/Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcUnsupportedDataTypeException.html#Org_Apache_Plc4x_JavaNs_Api_Exceptions_PlcUnsupportedDataTypeException_BridgeClassName
@@ -1553,6 +2098,43 @@ references:
   commentId: T:Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcUnsupportedOperationException
   fullName: Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcUnsupportedOperationException
   nameWithType: PlcUnsupportedOperationException
+- uid: Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcUnsupportedOperationException.#ctor
+  name: PlcUnsupportedOperationException()
+  href: api/Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcUnsupportedOperationException.html#Org_Apache_Plc4x_JavaNs_Api_Exceptions_PlcUnsupportedOperationException__ctor
+  commentId: M:Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcUnsupportedOperationException.#ctor
+  name.vb: New()
+  fullName: Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcUnsupportedOperationException.PlcUnsupportedOperationException()
+  fullName.vb: Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcUnsupportedOperationException.New()
+  nameWithType: PlcUnsupportedOperationException.PlcUnsupportedOperationException()
+  nameWithType.vb: PlcUnsupportedOperationException.New()
+- uid: Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcUnsupportedOperationException.#ctor(System.String)
+  name: PlcUnsupportedOperationException(string)
+  href: api/Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcUnsupportedOperationException.html#Org_Apache_Plc4x_JavaNs_Api_Exceptions_PlcUnsupportedOperationException__ctor_System_String_
+  commentId: M:Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcUnsupportedOperationException.#ctor(System.String)
+  name.vb: New(String)
+  fullName: Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcUnsupportedOperationException.PlcUnsupportedOperationException(string)
+  fullName.vb: Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcUnsupportedOperationException.New(String)
+  nameWithType: PlcUnsupportedOperationException.PlcUnsupportedOperationException(string)
+  nameWithType.vb: PlcUnsupportedOperationException.New(String)
+- uid: Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcUnsupportedOperationException.#ctor(System.String,System.Exception)
+  name: PlcUnsupportedOperationException(string, Exception)
+  href: api/Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcUnsupportedOperationException.html#Org_Apache_Plc4x_JavaNs_Api_Exceptions_PlcUnsupportedOperationException__ctor_System_String_System_Exception_
+  commentId: M:Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcUnsupportedOperationException.#ctor(System.String,System.Exception)
+  name.vb: New(String, Exception)
+  fullName: Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcUnsupportedOperationException.PlcUnsupportedOperationException(string, System.Exception)
+  fullName.vb: Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcUnsupportedOperationException.New(String, System.Exception)
+  nameWithType: PlcUnsupportedOperationException.PlcUnsupportedOperationException(string, Exception)
+  nameWithType.vb: PlcUnsupportedOperationException.New(String, Exception)
+- uid: Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcUnsupportedOperationException.#ctor*
+  name: PlcUnsupportedOperationException
+  href: api/Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcUnsupportedOperationException.html#Org_Apache_Plc4x_JavaNs_Api_Exceptions_PlcUnsupportedOperationException__ctor_
+  commentId: Overload:Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcUnsupportedOperationException.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcUnsupportedOperationException.PlcUnsupportedOperationException
+  fullName.vb: Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcUnsupportedOperationException.New
+  nameWithType: PlcUnsupportedOperationException.PlcUnsupportedOperationException
+  nameWithType.vb: PlcUnsupportedOperationException.New
 - uid: Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcUnsupportedOperationException.BridgeClassName
   name: BridgeClassName
   href: api/Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcUnsupportedOperationException.html#Org_Apache_Plc4x_JavaNs_Api_Exceptions_PlcUnsupportedOperationException_BridgeClassName
@@ -1572,6 +2154,43 @@ references:
   commentId: T:Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcUnsupportedProtocolException
   fullName: Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcUnsupportedProtocolException
   nameWithType: PlcUnsupportedProtocolException
+- uid: Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcUnsupportedProtocolException.#ctor
+  name: PlcUnsupportedProtocolException()
+  href: api/Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcUnsupportedProtocolException.html#Org_Apache_Plc4x_JavaNs_Api_Exceptions_PlcUnsupportedProtocolException__ctor
+  commentId: M:Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcUnsupportedProtocolException.#ctor
+  name.vb: New()
+  fullName: Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcUnsupportedProtocolException.PlcUnsupportedProtocolException()
+  fullName.vb: Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcUnsupportedProtocolException.New()
+  nameWithType: PlcUnsupportedProtocolException.PlcUnsupportedProtocolException()
+  nameWithType.vb: PlcUnsupportedProtocolException.New()
+- uid: Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcUnsupportedProtocolException.#ctor(System.String)
+  name: PlcUnsupportedProtocolException(string)
+  href: api/Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcUnsupportedProtocolException.html#Org_Apache_Plc4x_JavaNs_Api_Exceptions_PlcUnsupportedProtocolException__ctor_System_String_
+  commentId: M:Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcUnsupportedProtocolException.#ctor(System.String)
+  name.vb: New(String)
+  fullName: Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcUnsupportedProtocolException.PlcUnsupportedProtocolException(string)
+  fullName.vb: Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcUnsupportedProtocolException.New(String)
+  nameWithType: PlcUnsupportedProtocolException.PlcUnsupportedProtocolException(string)
+  nameWithType.vb: PlcUnsupportedProtocolException.New(String)
+- uid: Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcUnsupportedProtocolException.#ctor(System.String,System.Exception)
+  name: PlcUnsupportedProtocolException(string, Exception)
+  href: api/Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcUnsupportedProtocolException.html#Org_Apache_Plc4x_JavaNs_Api_Exceptions_PlcUnsupportedProtocolException__ctor_System_String_System_Exception_
+  commentId: M:Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcUnsupportedProtocolException.#ctor(System.String,System.Exception)
+  name.vb: New(String, Exception)
+  fullName: Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcUnsupportedProtocolException.PlcUnsupportedProtocolException(string, System.Exception)
+  fullName.vb: Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcUnsupportedProtocolException.New(String, System.Exception)
+  nameWithType: PlcUnsupportedProtocolException.PlcUnsupportedProtocolException(string, Exception)
+  nameWithType.vb: PlcUnsupportedProtocolException.New(String, Exception)
+- uid: Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcUnsupportedProtocolException.#ctor*
+  name: PlcUnsupportedProtocolException
+  href: api/Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcUnsupportedProtocolException.html#Org_Apache_Plc4x_JavaNs_Api_Exceptions_PlcUnsupportedProtocolException__ctor_
+  commentId: Overload:Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcUnsupportedProtocolException.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcUnsupportedProtocolException.PlcUnsupportedProtocolException
+  fullName.vb: Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcUnsupportedProtocolException.New
+  nameWithType: PlcUnsupportedProtocolException.PlcUnsupportedProtocolException
+  nameWithType.vb: PlcUnsupportedProtocolException.New
 - uid: Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcUnsupportedProtocolException.BridgeClassName
   name: BridgeClassName
   href: api/Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcUnsupportedProtocolException.html#Org_Apache_Plc4x_JavaNs_Api_Exceptions_PlcUnsupportedProtocolException_BridgeClassName
@@ -1600,6 +2219,15 @@ references:
   fullName.vb: Org.Apache.Plc4x.JavaNs.Api.Experimental.New()
   nameWithType: Experimental.Experimental()
   nameWithType.vb: Experimental.New()
+- uid: Org.Apache.Plc4x.JavaNs.Api.Experimental.#ctor(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  name: Experimental(IJVMBridgeBaseInitializer)
+  href: api/Org.Apache.Plc4x.JavaNs.Api.Experimental.html#Org_Apache_Plc4x_JavaNs_Api_Experimental__ctor_MASES_JCOBridge_C2JBridge_IJVMBridgeBaseInitializer_
+  commentId: M:Org.Apache.Plc4x.JavaNs.Api.Experimental.#ctor(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  name.vb: New(IJVMBridgeBaseInitializer)
+  fullName: Org.Apache.Plc4x.JavaNs.Api.Experimental.Experimental(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  fullName.vb: Org.Apache.Plc4x.JavaNs.Api.Experimental.New(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  nameWithType: Experimental.Experimental(IJVMBridgeBaseInitializer)
+  nameWithType.vb: Experimental.New(IJVMBridgeBaseInitializer)
 - uid: Org.Apache.Plc4x.JavaNs.Api.Experimental.#ctor(System.Object[])
   name: Experimental(params object[])
   href: api/Org.Apache.Plc4x.JavaNs.Api.Experimental.html#Org_Apache_Plc4x_JavaNs_Api_Experimental__ctor_System_Object___
@@ -1741,6 +2369,15 @@ references:
   fullName.vb: Org.Apache.Plc4x.JavaNs.Api.Listener.ConnectionStateListener.New()
   nameWithType: ConnectionStateListener.ConnectionStateListener()
   nameWithType.vb: ConnectionStateListener.New()
+- uid: Org.Apache.Plc4x.JavaNs.Api.Listener.ConnectionStateListener.#ctor(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  name: ConnectionStateListener(IJVMBridgeBaseInitializer)
+  href: api/Org.Apache.Plc4x.JavaNs.Api.Listener.ConnectionStateListener.html#Org_Apache_Plc4x_JavaNs_Api_Listener_ConnectionStateListener__ctor_MASES_JCOBridge_C2JBridge_IJVMBridgeBaseInitializer_
+  commentId: M:Org.Apache.Plc4x.JavaNs.Api.Listener.ConnectionStateListener.#ctor(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  name.vb: New(IJVMBridgeBaseInitializer)
+  fullName: Org.Apache.Plc4x.JavaNs.Api.Listener.ConnectionStateListener.ConnectionStateListener(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  fullName.vb: Org.Apache.Plc4x.JavaNs.Api.Listener.ConnectionStateListener.New(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  nameWithType: ConnectionStateListener.ConnectionStateListener(IJVMBridgeBaseInitializer)
+  nameWithType.vb: ConnectionStateListener.New(IJVMBridgeBaseInitializer)
 - uid: Org.Apache.Plc4x.JavaNs.Api.Listener.ConnectionStateListener.#ctor(System.Object[])
   name: ConnectionStateListener(params object[])
   href: api/Org.Apache.Plc4x.JavaNs.Api.Listener.ConnectionStateListener.html#Org_Apache_Plc4x_JavaNs_Api_Listener_ConnectionStateListener__ctor_System_Object___
@@ -1844,6 +2481,34 @@ references:
   commentId: T:Org.Apache.Plc4x.JavaNs.Api.Listener.ConnectionStateListenerDirect
   fullName: Org.Apache.Plc4x.JavaNs.Api.Listener.ConnectionStateListenerDirect
   nameWithType: ConnectionStateListenerDirect
+- uid: Org.Apache.Plc4x.JavaNs.Api.Listener.ConnectionStateListenerDirect.#ctor
+  name: ConnectionStateListenerDirect()
+  href: api/Org.Apache.Plc4x.JavaNs.Api.Listener.ConnectionStateListenerDirect.html#Org_Apache_Plc4x_JavaNs_Api_Listener_ConnectionStateListenerDirect__ctor
+  commentId: M:Org.Apache.Plc4x.JavaNs.Api.Listener.ConnectionStateListenerDirect.#ctor
+  name.vb: New()
+  fullName: Org.Apache.Plc4x.JavaNs.Api.Listener.ConnectionStateListenerDirect.ConnectionStateListenerDirect()
+  fullName.vb: Org.Apache.Plc4x.JavaNs.Api.Listener.ConnectionStateListenerDirect.New()
+  nameWithType: ConnectionStateListenerDirect.ConnectionStateListenerDirect()
+  nameWithType.vb: ConnectionStateListenerDirect.New()
+- uid: Org.Apache.Plc4x.JavaNs.Api.Listener.ConnectionStateListenerDirect.#ctor(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  name: ConnectionStateListenerDirect(IJVMBridgeBaseInitializer)
+  href: api/Org.Apache.Plc4x.JavaNs.Api.Listener.ConnectionStateListenerDirect.html#Org_Apache_Plc4x_JavaNs_Api_Listener_ConnectionStateListenerDirect__ctor_MASES_JCOBridge_C2JBridge_IJVMBridgeBaseInitializer_
+  commentId: M:Org.Apache.Plc4x.JavaNs.Api.Listener.ConnectionStateListenerDirect.#ctor(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  name.vb: New(IJVMBridgeBaseInitializer)
+  fullName: Org.Apache.Plc4x.JavaNs.Api.Listener.ConnectionStateListenerDirect.ConnectionStateListenerDirect(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  fullName.vb: Org.Apache.Plc4x.JavaNs.Api.Listener.ConnectionStateListenerDirect.New(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  nameWithType: ConnectionStateListenerDirect.ConnectionStateListenerDirect(IJVMBridgeBaseInitializer)
+  nameWithType.vb: ConnectionStateListenerDirect.New(IJVMBridgeBaseInitializer)
+- uid: Org.Apache.Plc4x.JavaNs.Api.Listener.ConnectionStateListenerDirect.#ctor*
+  name: ConnectionStateListenerDirect
+  href: api/Org.Apache.Plc4x.JavaNs.Api.Listener.ConnectionStateListenerDirect.html#Org_Apache_Plc4x_JavaNs_Api_Listener_ConnectionStateListenerDirect__ctor_
+  commentId: Overload:Org.Apache.Plc4x.JavaNs.Api.Listener.ConnectionStateListenerDirect.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: Org.Apache.Plc4x.JavaNs.Api.Listener.ConnectionStateListenerDirect.ConnectionStateListenerDirect
+  fullName.vb: Org.Apache.Plc4x.JavaNs.Api.Listener.ConnectionStateListenerDirect.New
+  nameWithType: ConnectionStateListenerDirect.ConnectionStateListenerDirect
+  nameWithType.vb: ConnectionStateListenerDirect.New
 - uid: Org.Apache.Plc4x.JavaNs.Api.Listener.ConnectionStateListenerDirect.AutoInit
   name: AutoInit
   href: api/Org.Apache.Plc4x.JavaNs.Api.Listener.ConnectionStateListenerDirect.html#Org_Apache_Plc4x_JavaNs_Api_Listener_ConnectionStateListenerDirect_AutoInit
@@ -1976,6 +2641,15 @@ references:
   fullName.vb: Org.Apache.Plc4x.JavaNs.Api.Listener.EventListener.New()
   nameWithType: EventListener.EventListener()
   nameWithType.vb: EventListener.New()
+- uid: Org.Apache.Plc4x.JavaNs.Api.Listener.EventListener.#ctor(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  name: EventListener(IJVMBridgeBaseInitializer)
+  href: api/Org.Apache.Plc4x.JavaNs.Api.Listener.EventListener.html#Org_Apache_Plc4x_JavaNs_Api_Listener_EventListener__ctor_MASES_JCOBridge_C2JBridge_IJVMBridgeBaseInitializer_
+  commentId: M:Org.Apache.Plc4x.JavaNs.Api.Listener.EventListener.#ctor(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  name.vb: New(IJVMBridgeBaseInitializer)
+  fullName: Org.Apache.Plc4x.JavaNs.Api.Listener.EventListener.EventListener(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  fullName.vb: Org.Apache.Plc4x.JavaNs.Api.Listener.EventListener.New(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  nameWithType: EventListener.EventListener(IJVMBridgeBaseInitializer)
+  nameWithType.vb: EventListener.New(IJVMBridgeBaseInitializer)
 - uid: Org.Apache.Plc4x.JavaNs.Api.Listener.EventListener.#ctor(System.Object[])
   name: EventListener(params object[])
   href: api/Org.Apache.Plc4x.JavaNs.Api.Listener.EventListener.html#Org_Apache_Plc4x_JavaNs_Api_Listener_EventListener__ctor_System_Object___
@@ -2027,6 +2701,34 @@ references:
   commentId: T:Org.Apache.Plc4x.JavaNs.Api.Listener.EventListenerDirect
   fullName: Org.Apache.Plc4x.JavaNs.Api.Listener.EventListenerDirect
   nameWithType: EventListenerDirect
+- uid: Org.Apache.Plc4x.JavaNs.Api.Listener.EventListenerDirect.#ctor
+  name: EventListenerDirect()
+  href: api/Org.Apache.Plc4x.JavaNs.Api.Listener.EventListenerDirect.html#Org_Apache_Plc4x_JavaNs_Api_Listener_EventListenerDirect__ctor
+  commentId: M:Org.Apache.Plc4x.JavaNs.Api.Listener.EventListenerDirect.#ctor
+  name.vb: New()
+  fullName: Org.Apache.Plc4x.JavaNs.Api.Listener.EventListenerDirect.EventListenerDirect()
+  fullName.vb: Org.Apache.Plc4x.JavaNs.Api.Listener.EventListenerDirect.New()
+  nameWithType: EventListenerDirect.EventListenerDirect()
+  nameWithType.vb: EventListenerDirect.New()
+- uid: Org.Apache.Plc4x.JavaNs.Api.Listener.EventListenerDirect.#ctor(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  name: EventListenerDirect(IJVMBridgeBaseInitializer)
+  href: api/Org.Apache.Plc4x.JavaNs.Api.Listener.EventListenerDirect.html#Org_Apache_Plc4x_JavaNs_Api_Listener_EventListenerDirect__ctor_MASES_JCOBridge_C2JBridge_IJVMBridgeBaseInitializer_
+  commentId: M:Org.Apache.Plc4x.JavaNs.Api.Listener.EventListenerDirect.#ctor(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  name.vb: New(IJVMBridgeBaseInitializer)
+  fullName: Org.Apache.Plc4x.JavaNs.Api.Listener.EventListenerDirect.EventListenerDirect(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  fullName.vb: Org.Apache.Plc4x.JavaNs.Api.Listener.EventListenerDirect.New(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  nameWithType: EventListenerDirect.EventListenerDirect(IJVMBridgeBaseInitializer)
+  nameWithType.vb: EventListenerDirect.New(IJVMBridgeBaseInitializer)
+- uid: Org.Apache.Plc4x.JavaNs.Api.Listener.EventListenerDirect.#ctor*
+  name: EventListenerDirect
+  href: api/Org.Apache.Plc4x.JavaNs.Api.Listener.EventListenerDirect.html#Org_Apache_Plc4x_JavaNs_Api_Listener_EventListenerDirect__ctor_
+  commentId: Overload:Org.Apache.Plc4x.JavaNs.Api.Listener.EventListenerDirect.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: Org.Apache.Plc4x.JavaNs.Api.Listener.EventListenerDirect.EventListenerDirect
+  fullName.vb: Org.Apache.Plc4x.JavaNs.Api.Listener.EventListenerDirect.New
+  nameWithType: EventListenerDirect.EventListenerDirect
+  nameWithType.vb: EventListenerDirect.New
 - uid: Org.Apache.Plc4x.JavaNs.Api.Listener.EventListenerDirect.AutoInit
   name: AutoInit
   href: api/Org.Apache.Plc4x.JavaNs.Api.Listener.EventListenerDirect.html#Org_Apache_Plc4x_JavaNs_Api_Listener_EventListenerDirect_AutoInit
@@ -2151,6 +2853,15 @@ references:
   fullName.vb: Org.Apache.Plc4x.JavaNs.Api.Listener.MessageExchangeListener.New()
   nameWithType: MessageExchangeListener.MessageExchangeListener()
   nameWithType.vb: MessageExchangeListener.New()
+- uid: Org.Apache.Plc4x.JavaNs.Api.Listener.MessageExchangeListener.#ctor(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  name: MessageExchangeListener(IJVMBridgeBaseInitializer)
+  href: api/Org.Apache.Plc4x.JavaNs.Api.Listener.MessageExchangeListener.html#Org_Apache_Plc4x_JavaNs_Api_Listener_MessageExchangeListener__ctor_MASES_JCOBridge_C2JBridge_IJVMBridgeBaseInitializer_
+  commentId: M:Org.Apache.Plc4x.JavaNs.Api.Listener.MessageExchangeListener.#ctor(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  name.vb: New(IJVMBridgeBaseInitializer)
+  fullName: Org.Apache.Plc4x.JavaNs.Api.Listener.MessageExchangeListener.MessageExchangeListener(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  fullName.vb: Org.Apache.Plc4x.JavaNs.Api.Listener.MessageExchangeListener.New(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  nameWithType: MessageExchangeListener.MessageExchangeListener(IJVMBridgeBaseInitializer)
+  nameWithType.vb: MessageExchangeListener.New(IJVMBridgeBaseInitializer)
 - uid: Org.Apache.Plc4x.JavaNs.Api.Listener.MessageExchangeListener.#ctor(System.Object[])
   name: MessageExchangeListener(params object[])
   href: api/Org.Apache.Plc4x.JavaNs.Api.Listener.MessageExchangeListener.html#Org_Apache_Plc4x_JavaNs_Api_Listener_MessageExchangeListener__ctor_System_Object___
@@ -2260,6 +2971,34 @@ references:
   commentId: T:Org.Apache.Plc4x.JavaNs.Api.Listener.MessageExchangeListenerDirect
   fullName: Org.Apache.Plc4x.JavaNs.Api.Listener.MessageExchangeListenerDirect
   nameWithType: MessageExchangeListenerDirect
+- uid: Org.Apache.Plc4x.JavaNs.Api.Listener.MessageExchangeListenerDirect.#ctor
+  name: MessageExchangeListenerDirect()
+  href: api/Org.Apache.Plc4x.JavaNs.Api.Listener.MessageExchangeListenerDirect.html#Org_Apache_Plc4x_JavaNs_Api_Listener_MessageExchangeListenerDirect__ctor
+  commentId: M:Org.Apache.Plc4x.JavaNs.Api.Listener.MessageExchangeListenerDirect.#ctor
+  name.vb: New()
+  fullName: Org.Apache.Plc4x.JavaNs.Api.Listener.MessageExchangeListenerDirect.MessageExchangeListenerDirect()
+  fullName.vb: Org.Apache.Plc4x.JavaNs.Api.Listener.MessageExchangeListenerDirect.New()
+  nameWithType: MessageExchangeListenerDirect.MessageExchangeListenerDirect()
+  nameWithType.vb: MessageExchangeListenerDirect.New()
+- uid: Org.Apache.Plc4x.JavaNs.Api.Listener.MessageExchangeListenerDirect.#ctor(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  name: MessageExchangeListenerDirect(IJVMBridgeBaseInitializer)
+  href: api/Org.Apache.Plc4x.JavaNs.Api.Listener.MessageExchangeListenerDirect.html#Org_Apache_Plc4x_JavaNs_Api_Listener_MessageExchangeListenerDirect__ctor_MASES_JCOBridge_C2JBridge_IJVMBridgeBaseInitializer_
+  commentId: M:Org.Apache.Plc4x.JavaNs.Api.Listener.MessageExchangeListenerDirect.#ctor(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  name.vb: New(IJVMBridgeBaseInitializer)
+  fullName: Org.Apache.Plc4x.JavaNs.Api.Listener.MessageExchangeListenerDirect.MessageExchangeListenerDirect(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  fullName.vb: Org.Apache.Plc4x.JavaNs.Api.Listener.MessageExchangeListenerDirect.New(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  nameWithType: MessageExchangeListenerDirect.MessageExchangeListenerDirect(IJVMBridgeBaseInitializer)
+  nameWithType.vb: MessageExchangeListenerDirect.New(IJVMBridgeBaseInitializer)
+- uid: Org.Apache.Plc4x.JavaNs.Api.Listener.MessageExchangeListenerDirect.#ctor*
+  name: MessageExchangeListenerDirect
+  href: api/Org.Apache.Plc4x.JavaNs.Api.Listener.MessageExchangeListenerDirect.html#Org_Apache_Plc4x_JavaNs_Api_Listener_MessageExchangeListenerDirect__ctor_
+  commentId: Overload:Org.Apache.Plc4x.JavaNs.Api.Listener.MessageExchangeListenerDirect.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: Org.Apache.Plc4x.JavaNs.Api.Listener.MessageExchangeListenerDirect.MessageExchangeListenerDirect
+  fullName.vb: Org.Apache.Plc4x.JavaNs.Api.Listener.MessageExchangeListenerDirect.New
+  nameWithType: MessageExchangeListenerDirect.MessageExchangeListenerDirect
+  nameWithType.vb: MessageExchangeListenerDirect.New
 - uid: Org.Apache.Plc4x.JavaNs.Api.Listener.MessageExchangeListenerDirect.AutoInit
   name: AutoInit
   href: api/Org.Apache.Plc4x.JavaNs.Api.Listener.MessageExchangeListenerDirect.html#Org_Apache_Plc4x_JavaNs_Api_Listener_MessageExchangeListenerDirect_AutoInit
@@ -2578,6 +3317,15 @@ references:
   fullName.vb: Org.Apache.Plc4x.JavaNs.Api.Messages.PlcBrowseItem.New()
   nameWithType: PlcBrowseItem.PlcBrowseItem()
   nameWithType.vb: PlcBrowseItem.New()
+- uid: Org.Apache.Plc4x.JavaNs.Api.Messages.PlcBrowseItem.#ctor(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  name: PlcBrowseItem(IJVMBridgeBaseInitializer)
+  href: api/Org.Apache.Plc4x.JavaNs.Api.Messages.PlcBrowseItem.html#Org_Apache_Plc4x_JavaNs_Api_Messages_PlcBrowseItem__ctor_MASES_JCOBridge_C2JBridge_IJVMBridgeBaseInitializer_
+  commentId: M:Org.Apache.Plc4x.JavaNs.Api.Messages.PlcBrowseItem.#ctor(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  name.vb: New(IJVMBridgeBaseInitializer)
+  fullName: Org.Apache.Plc4x.JavaNs.Api.Messages.PlcBrowseItem.PlcBrowseItem(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  fullName.vb: Org.Apache.Plc4x.JavaNs.Api.Messages.PlcBrowseItem.New(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  nameWithType: PlcBrowseItem.PlcBrowseItem(IJVMBridgeBaseInitializer)
+  nameWithType.vb: PlcBrowseItem.New(IJVMBridgeBaseInitializer)
 - uid: Org.Apache.Plc4x.JavaNs.Api.Messages.PlcBrowseItem.#ctor(System.Object[])
   name: PlcBrowseItem(params object[])
   href: api/Org.Apache.Plc4x.JavaNs.Api.Messages.PlcBrowseItem.html#Org_Apache_Plc4x_JavaNs_Api_Messages_PlcBrowseItem__ctor_System_Object___
@@ -2807,6 +3555,15 @@ references:
   fullName.vb: Org.Apache.Plc4x.JavaNs.Api.Messages.PlcBrowseItemArrayInfo.New()
   nameWithType: PlcBrowseItemArrayInfo.PlcBrowseItemArrayInfo()
   nameWithType.vb: PlcBrowseItemArrayInfo.New()
+- uid: Org.Apache.Plc4x.JavaNs.Api.Messages.PlcBrowseItemArrayInfo.#ctor(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  name: PlcBrowseItemArrayInfo(IJVMBridgeBaseInitializer)
+  href: api/Org.Apache.Plc4x.JavaNs.Api.Messages.PlcBrowseItemArrayInfo.html#Org_Apache_Plc4x_JavaNs_Api_Messages_PlcBrowseItemArrayInfo__ctor_MASES_JCOBridge_C2JBridge_IJVMBridgeBaseInitializer_
+  commentId: M:Org.Apache.Plc4x.JavaNs.Api.Messages.PlcBrowseItemArrayInfo.#ctor(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  name.vb: New(IJVMBridgeBaseInitializer)
+  fullName: Org.Apache.Plc4x.JavaNs.Api.Messages.PlcBrowseItemArrayInfo.PlcBrowseItemArrayInfo(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  fullName.vb: Org.Apache.Plc4x.JavaNs.Api.Messages.PlcBrowseItemArrayInfo.New(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  nameWithType: PlcBrowseItemArrayInfo.PlcBrowseItemArrayInfo(IJVMBridgeBaseInitializer)
+  nameWithType.vb: PlcBrowseItemArrayInfo.New(IJVMBridgeBaseInitializer)
 - uid: Org.Apache.Plc4x.JavaNs.Api.Messages.PlcBrowseItemArrayInfo.#ctor(System.Object[])
   name: PlcBrowseItemArrayInfo(params object[])
   href: api/Org.Apache.Plc4x.JavaNs.Api.Messages.PlcBrowseItemArrayInfo.html#Org_Apache_Plc4x_JavaNs_Api_Messages_PlcBrowseItemArrayInfo__ctor_System_Object___
@@ -2945,6 +3702,15 @@ references:
   fullName.vb: Org.Apache.Plc4x.JavaNs.Api.Messages.PlcBrowseRequest.New()
   nameWithType: PlcBrowseRequest.PlcBrowseRequest()
   nameWithType.vb: PlcBrowseRequest.New()
+- uid: Org.Apache.Plc4x.JavaNs.Api.Messages.PlcBrowseRequest.#ctor(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  name: PlcBrowseRequest(IJVMBridgeBaseInitializer)
+  href: api/Org.Apache.Plc4x.JavaNs.Api.Messages.PlcBrowseRequest.html#Org_Apache_Plc4x_JavaNs_Api_Messages_PlcBrowseRequest__ctor_MASES_JCOBridge_C2JBridge_IJVMBridgeBaseInitializer_
+  commentId: M:Org.Apache.Plc4x.JavaNs.Api.Messages.PlcBrowseRequest.#ctor(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  name.vb: New(IJVMBridgeBaseInitializer)
+  fullName: Org.Apache.Plc4x.JavaNs.Api.Messages.PlcBrowseRequest.PlcBrowseRequest(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  fullName.vb: Org.Apache.Plc4x.JavaNs.Api.Messages.PlcBrowseRequest.New(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  nameWithType: PlcBrowseRequest.PlcBrowseRequest(IJVMBridgeBaseInitializer)
+  nameWithType.vb: PlcBrowseRequest.New(IJVMBridgeBaseInitializer)
 - uid: Org.Apache.Plc4x.JavaNs.Api.Messages.PlcBrowseRequest.#ctor(System.Object[])
   name: PlcBrowseRequest(params object[])
   href: api/Org.Apache.Plc4x.JavaNs.Api.Messages.PlcBrowseRequest.html#Org_Apache_Plc4x_JavaNs_Api_Messages_PlcBrowseRequest__ctor_System_Object___
@@ -2992,6 +3758,15 @@ references:
   fullName.vb: Org.Apache.Plc4x.JavaNs.Api.Messages.PlcBrowseRequest.Builder.New()
   nameWithType: PlcBrowseRequest.Builder.Builder()
   nameWithType.vb: PlcBrowseRequest.Builder.New()
+- uid: Org.Apache.Plc4x.JavaNs.Api.Messages.PlcBrowseRequest.Builder.#ctor(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  name: Builder(IJVMBridgeBaseInitializer)
+  href: api/Org.Apache.Plc4x.JavaNs.Api.Messages.PlcBrowseRequest.Builder.html#Org_Apache_Plc4x_JavaNs_Api_Messages_PlcBrowseRequest_Builder__ctor_MASES_JCOBridge_C2JBridge_IJVMBridgeBaseInitializer_
+  commentId: M:Org.Apache.Plc4x.JavaNs.Api.Messages.PlcBrowseRequest.Builder.#ctor(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  name.vb: New(IJVMBridgeBaseInitializer)
+  fullName: Org.Apache.Plc4x.JavaNs.Api.Messages.PlcBrowseRequest.Builder.Builder(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  fullName.vb: Org.Apache.Plc4x.JavaNs.Api.Messages.PlcBrowseRequest.Builder.New(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  nameWithType: PlcBrowseRequest.Builder.Builder(IJVMBridgeBaseInitializer)
+  nameWithType.vb: PlcBrowseRequest.Builder.New(IJVMBridgeBaseInitializer)
 - uid: Org.Apache.Plc4x.JavaNs.Api.Messages.PlcBrowseRequest.Builder.#ctor(System.Object[])
   name: Builder(params object[])
   href: api/Org.Apache.Plc4x.JavaNs.Api.Messages.PlcBrowseRequest.Builder.html#Org_Apache_Plc4x_JavaNs_Api_Messages_PlcBrowseRequest_Builder__ctor_System_Object___
@@ -3227,6 +4002,15 @@ references:
   fullName.vb: Org.Apache.Plc4x.JavaNs.Api.Messages.PlcBrowseRequestInterceptor.New()
   nameWithType: PlcBrowseRequestInterceptor.PlcBrowseRequestInterceptor()
   nameWithType.vb: PlcBrowseRequestInterceptor.New()
+- uid: Org.Apache.Plc4x.JavaNs.Api.Messages.PlcBrowseRequestInterceptor.#ctor(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  name: PlcBrowseRequestInterceptor(IJVMBridgeBaseInitializer)
+  href: api/Org.Apache.Plc4x.JavaNs.Api.Messages.PlcBrowseRequestInterceptor.html#Org_Apache_Plc4x_JavaNs_Api_Messages_PlcBrowseRequestInterceptor__ctor_MASES_JCOBridge_C2JBridge_IJVMBridgeBaseInitializer_
+  commentId: M:Org.Apache.Plc4x.JavaNs.Api.Messages.PlcBrowseRequestInterceptor.#ctor(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  name.vb: New(IJVMBridgeBaseInitializer)
+  fullName: Org.Apache.Plc4x.JavaNs.Api.Messages.PlcBrowseRequestInterceptor.PlcBrowseRequestInterceptor(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  fullName.vb: Org.Apache.Plc4x.JavaNs.Api.Messages.PlcBrowseRequestInterceptor.New(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  nameWithType: PlcBrowseRequestInterceptor.PlcBrowseRequestInterceptor(IJVMBridgeBaseInitializer)
+  nameWithType.vb: PlcBrowseRequestInterceptor.New(IJVMBridgeBaseInitializer)
 - uid: Org.Apache.Plc4x.JavaNs.Api.Messages.PlcBrowseRequestInterceptor.#ctor(System.Object[])
   name: PlcBrowseRequestInterceptor(params object[])
   href: api/Org.Apache.Plc4x.JavaNs.Api.Messages.PlcBrowseRequestInterceptor.html#Org_Apache_Plc4x_JavaNs_Api_Messages_PlcBrowseRequestInterceptor__ctor_System_Object___
@@ -3339,6 +4123,15 @@ references:
   fullName.vb: Org.Apache.Plc4x.JavaNs.Api.Messages.PlcBrowseResponse.New()
   nameWithType: PlcBrowseResponse.PlcBrowseResponse()
   nameWithType.vb: PlcBrowseResponse.New()
+- uid: Org.Apache.Plc4x.JavaNs.Api.Messages.PlcBrowseResponse.#ctor(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  name: PlcBrowseResponse(IJVMBridgeBaseInitializer)
+  href: api/Org.Apache.Plc4x.JavaNs.Api.Messages.PlcBrowseResponse.html#Org_Apache_Plc4x_JavaNs_Api_Messages_PlcBrowseResponse__ctor_MASES_JCOBridge_C2JBridge_IJVMBridgeBaseInitializer_
+  commentId: M:Org.Apache.Plc4x.JavaNs.Api.Messages.PlcBrowseResponse.#ctor(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  name.vb: New(IJVMBridgeBaseInitializer)
+  fullName: Org.Apache.Plc4x.JavaNs.Api.Messages.PlcBrowseResponse.PlcBrowseResponse(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  fullName.vb: Org.Apache.Plc4x.JavaNs.Api.Messages.PlcBrowseResponse.New(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  nameWithType: PlcBrowseResponse.PlcBrowseResponse(IJVMBridgeBaseInitializer)
+  nameWithType.vb: PlcBrowseResponse.New(IJVMBridgeBaseInitializer)
 - uid: Org.Apache.Plc4x.JavaNs.Api.Messages.PlcBrowseResponse.#ctor(System.Object[])
   name: PlcBrowseResponse(params object[])
   href: api/Org.Apache.Plc4x.JavaNs.Api.Messages.PlcBrowseResponse.html#Org_Apache_Plc4x_JavaNs_Api_Messages_PlcBrowseResponse__ctor_System_Object___
@@ -3490,6 +4283,15 @@ references:
   fullName.vb: Org.Apache.Plc4x.JavaNs.Api.Messages.PlcDiscoveryItem.New()
   nameWithType: PlcDiscoveryItem.PlcDiscoveryItem()
   nameWithType.vb: PlcDiscoveryItem.New()
+- uid: Org.Apache.Plc4x.JavaNs.Api.Messages.PlcDiscoveryItem.#ctor(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  name: PlcDiscoveryItem(IJVMBridgeBaseInitializer)
+  href: api/Org.Apache.Plc4x.JavaNs.Api.Messages.PlcDiscoveryItem.html#Org_Apache_Plc4x_JavaNs_Api_Messages_PlcDiscoveryItem__ctor_MASES_JCOBridge_C2JBridge_IJVMBridgeBaseInitializer_
+  commentId: M:Org.Apache.Plc4x.JavaNs.Api.Messages.PlcDiscoveryItem.#ctor(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  name.vb: New(IJVMBridgeBaseInitializer)
+  fullName: Org.Apache.Plc4x.JavaNs.Api.Messages.PlcDiscoveryItem.PlcDiscoveryItem(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  fullName.vb: Org.Apache.Plc4x.JavaNs.Api.Messages.PlcDiscoveryItem.New(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  nameWithType: PlcDiscoveryItem.PlcDiscoveryItem(IJVMBridgeBaseInitializer)
+  nameWithType.vb: PlcDiscoveryItem.New(IJVMBridgeBaseInitializer)
 - uid: Org.Apache.Plc4x.JavaNs.Api.Messages.PlcDiscoveryItem.#ctor(System.Object[])
   name: PlcDiscoveryItem(params object[])
   href: api/Org.Apache.Plc4x.JavaNs.Api.Messages.PlcDiscoveryItem.html#Org_Apache_Plc4x_JavaNs_Api_Messages_PlcDiscoveryItem__ctor_System_Object___
@@ -3680,6 +4482,15 @@ references:
   fullName.vb: Org.Apache.Plc4x.JavaNs.Api.Messages.PlcDiscoveryItemHandler.New()
   nameWithType: PlcDiscoveryItemHandler.PlcDiscoveryItemHandler()
   nameWithType.vb: PlcDiscoveryItemHandler.New()
+- uid: Org.Apache.Plc4x.JavaNs.Api.Messages.PlcDiscoveryItemHandler.#ctor(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  name: PlcDiscoveryItemHandler(IJVMBridgeBaseInitializer)
+  href: api/Org.Apache.Plc4x.JavaNs.Api.Messages.PlcDiscoveryItemHandler.html#Org_Apache_Plc4x_JavaNs_Api_Messages_PlcDiscoveryItemHandler__ctor_MASES_JCOBridge_C2JBridge_IJVMBridgeBaseInitializer_
+  commentId: M:Org.Apache.Plc4x.JavaNs.Api.Messages.PlcDiscoveryItemHandler.#ctor(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  name.vb: New(IJVMBridgeBaseInitializer)
+  fullName: Org.Apache.Plc4x.JavaNs.Api.Messages.PlcDiscoveryItemHandler.PlcDiscoveryItemHandler(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  fullName.vb: Org.Apache.Plc4x.JavaNs.Api.Messages.PlcDiscoveryItemHandler.New(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  nameWithType: PlcDiscoveryItemHandler.PlcDiscoveryItemHandler(IJVMBridgeBaseInitializer)
+  nameWithType.vb: PlcDiscoveryItemHandler.New(IJVMBridgeBaseInitializer)
 - uid: Org.Apache.Plc4x.JavaNs.Api.Messages.PlcDiscoveryItemHandler.#ctor(System.Object[])
   name: PlcDiscoveryItemHandler(params object[])
   href: api/Org.Apache.Plc4x.JavaNs.Api.Messages.PlcDiscoveryItemHandler.html#Org_Apache_Plc4x_JavaNs_Api_Messages_PlcDiscoveryItemHandler__ctor_System_Object___
@@ -3792,6 +4603,15 @@ references:
   fullName.vb: Org.Apache.Plc4x.JavaNs.Api.Messages.PlcDiscoveryRequest.New()
   nameWithType: PlcDiscoveryRequest.PlcDiscoveryRequest()
   nameWithType.vb: PlcDiscoveryRequest.New()
+- uid: Org.Apache.Plc4x.JavaNs.Api.Messages.PlcDiscoveryRequest.#ctor(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  name: PlcDiscoveryRequest(IJVMBridgeBaseInitializer)
+  href: api/Org.Apache.Plc4x.JavaNs.Api.Messages.PlcDiscoveryRequest.html#Org_Apache_Plc4x_JavaNs_Api_Messages_PlcDiscoveryRequest__ctor_MASES_JCOBridge_C2JBridge_IJVMBridgeBaseInitializer_
+  commentId: M:Org.Apache.Plc4x.JavaNs.Api.Messages.PlcDiscoveryRequest.#ctor(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  name.vb: New(IJVMBridgeBaseInitializer)
+  fullName: Org.Apache.Plc4x.JavaNs.Api.Messages.PlcDiscoveryRequest.PlcDiscoveryRequest(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  fullName.vb: Org.Apache.Plc4x.JavaNs.Api.Messages.PlcDiscoveryRequest.New(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  nameWithType: PlcDiscoveryRequest.PlcDiscoveryRequest(IJVMBridgeBaseInitializer)
+  nameWithType.vb: PlcDiscoveryRequest.New(IJVMBridgeBaseInitializer)
 - uid: Org.Apache.Plc4x.JavaNs.Api.Messages.PlcDiscoveryRequest.#ctor(System.Object[])
   name: PlcDiscoveryRequest(params object[])
   href: api/Org.Apache.Plc4x.JavaNs.Api.Messages.PlcDiscoveryRequest.html#Org_Apache_Plc4x_JavaNs_Api_Messages_PlcDiscoveryRequest__ctor_System_Object___
@@ -3839,6 +4659,15 @@ references:
   fullName.vb: Org.Apache.Plc4x.JavaNs.Api.Messages.PlcDiscoveryRequest.Builder.New()
   nameWithType: PlcDiscoveryRequest.Builder.Builder()
   nameWithType.vb: PlcDiscoveryRequest.Builder.New()
+- uid: Org.Apache.Plc4x.JavaNs.Api.Messages.PlcDiscoveryRequest.Builder.#ctor(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  name: Builder(IJVMBridgeBaseInitializer)
+  href: api/Org.Apache.Plc4x.JavaNs.Api.Messages.PlcDiscoveryRequest.Builder.html#Org_Apache_Plc4x_JavaNs_Api_Messages_PlcDiscoveryRequest_Builder__ctor_MASES_JCOBridge_C2JBridge_IJVMBridgeBaseInitializer_
+  commentId: M:Org.Apache.Plc4x.JavaNs.Api.Messages.PlcDiscoveryRequest.Builder.#ctor(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  name.vb: New(IJVMBridgeBaseInitializer)
+  fullName: Org.Apache.Plc4x.JavaNs.Api.Messages.PlcDiscoveryRequest.Builder.Builder(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  fullName.vb: Org.Apache.Plc4x.JavaNs.Api.Messages.PlcDiscoveryRequest.Builder.New(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  nameWithType: PlcDiscoveryRequest.Builder.Builder(IJVMBridgeBaseInitializer)
+  nameWithType.vb: PlcDiscoveryRequest.Builder.New(IJVMBridgeBaseInitializer)
 - uid: Org.Apache.Plc4x.JavaNs.Api.Messages.PlcDiscoveryRequest.Builder.#ctor(System.Object[])
   name: Builder(params object[])
   href: api/Org.Apache.Plc4x.JavaNs.Api.Messages.PlcDiscoveryRequest.Builder.html#Org_Apache_Plc4x_JavaNs_Api_Messages_PlcDiscoveryRequest_Builder__ctor_System_Object___
@@ -4048,6 +4877,15 @@ references:
   fullName.vb: Org.Apache.Plc4x.JavaNs.Api.Messages.PlcDiscoveryResponse.New()
   nameWithType: PlcDiscoveryResponse.PlcDiscoveryResponse()
   nameWithType.vb: PlcDiscoveryResponse.New()
+- uid: Org.Apache.Plc4x.JavaNs.Api.Messages.PlcDiscoveryResponse.#ctor(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  name: PlcDiscoveryResponse(IJVMBridgeBaseInitializer)
+  href: api/Org.Apache.Plc4x.JavaNs.Api.Messages.PlcDiscoveryResponse.html#Org_Apache_Plc4x_JavaNs_Api_Messages_PlcDiscoveryResponse__ctor_MASES_JCOBridge_C2JBridge_IJVMBridgeBaseInitializer_
+  commentId: M:Org.Apache.Plc4x.JavaNs.Api.Messages.PlcDiscoveryResponse.#ctor(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  name.vb: New(IJVMBridgeBaseInitializer)
+  fullName: Org.Apache.Plc4x.JavaNs.Api.Messages.PlcDiscoveryResponse.PlcDiscoveryResponse(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  fullName.vb: Org.Apache.Plc4x.JavaNs.Api.Messages.PlcDiscoveryResponse.New(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  nameWithType: PlcDiscoveryResponse.PlcDiscoveryResponse(IJVMBridgeBaseInitializer)
+  nameWithType.vb: PlcDiscoveryResponse.New(IJVMBridgeBaseInitializer)
 - uid: Org.Apache.Plc4x.JavaNs.Api.Messages.PlcDiscoveryResponse.#ctor(System.Object[])
   name: PlcDiscoveryResponse(params object[])
   href: api/Org.Apache.Plc4x.JavaNs.Api.Messages.PlcDiscoveryResponse.html#Org_Apache_Plc4x_JavaNs_Api_Messages_PlcDiscoveryResponse__ctor_System_Object___
@@ -4186,6 +5024,15 @@ references:
   fullName.vb: Org.Apache.Plc4x.JavaNs.Api.Messages.PlcMessage.New()
   nameWithType: PlcMessage.PlcMessage()
   nameWithType.vb: PlcMessage.New()
+- uid: Org.Apache.Plc4x.JavaNs.Api.Messages.PlcMessage.#ctor(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  name: PlcMessage(IJVMBridgeBaseInitializer)
+  href: api/Org.Apache.Plc4x.JavaNs.Api.Messages.PlcMessage.html#Org_Apache_Plc4x_JavaNs_Api_Messages_PlcMessage__ctor_MASES_JCOBridge_C2JBridge_IJVMBridgeBaseInitializer_
+  commentId: M:Org.Apache.Plc4x.JavaNs.Api.Messages.PlcMessage.#ctor(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  name.vb: New(IJVMBridgeBaseInitializer)
+  fullName: Org.Apache.Plc4x.JavaNs.Api.Messages.PlcMessage.PlcMessage(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  fullName.vb: Org.Apache.Plc4x.JavaNs.Api.Messages.PlcMessage.New(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  nameWithType: PlcMessage.PlcMessage(IJVMBridgeBaseInitializer)
+  nameWithType.vb: PlcMessage.New(IJVMBridgeBaseInitializer)
 - uid: Org.Apache.Plc4x.JavaNs.Api.Messages.PlcMessage.#ctor(System.Object[])
   name: PlcMessage(params object[])
   href: api/Org.Apache.Plc4x.JavaNs.Api.Messages.PlcMessage.html#Org_Apache_Plc4x_JavaNs_Api_Messages_PlcMessage__ctor_System_Object___
@@ -4285,6 +5132,15 @@ references:
   fullName.vb: Org.Apache.Plc4x.JavaNs.Api.Messages.PlcMetadataKeys.New()
   nameWithType: PlcMetadataKeys.PlcMetadataKeys()
   nameWithType.vb: PlcMetadataKeys.New()
+- uid: Org.Apache.Plc4x.JavaNs.Api.Messages.PlcMetadataKeys.#ctor(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  name: PlcMetadataKeys(IJVMBridgeBaseInitializer)
+  href: api/Org.Apache.Plc4x.JavaNs.Api.Messages.PlcMetadataKeys.html#Org_Apache_Plc4x_JavaNs_Api_Messages_PlcMetadataKeys__ctor_MASES_JCOBridge_C2JBridge_IJVMBridgeBaseInitializer_
+  commentId: M:Org.Apache.Plc4x.JavaNs.Api.Messages.PlcMetadataKeys.#ctor(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  name.vb: New(IJVMBridgeBaseInitializer)
+  fullName: Org.Apache.Plc4x.JavaNs.Api.Messages.PlcMetadataKeys.PlcMetadataKeys(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  fullName.vb: Org.Apache.Plc4x.JavaNs.Api.Messages.PlcMetadataKeys.New(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  nameWithType: PlcMetadataKeys.PlcMetadataKeys(IJVMBridgeBaseInitializer)
+  nameWithType.vb: PlcMetadataKeys.New(IJVMBridgeBaseInitializer)
 - uid: Org.Apache.Plc4x.JavaNs.Api.Messages.PlcMetadataKeys.#ctor(System.Object[])
   name: PlcMetadataKeys(params object[])
   href: api/Org.Apache.Plc4x.JavaNs.Api.Messages.PlcMetadataKeys.html#Org_Apache_Plc4x_JavaNs_Api_Messages_PlcMetadataKeys__ctor_System_Object___
@@ -4423,6 +5279,15 @@ references:
   fullName.vb: Org.Apache.Plc4x.JavaNs.Api.Messages.PlcPingRequest.New()
   nameWithType: PlcPingRequest.PlcPingRequest()
   nameWithType.vb: PlcPingRequest.New()
+- uid: Org.Apache.Plc4x.JavaNs.Api.Messages.PlcPingRequest.#ctor(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  name: PlcPingRequest(IJVMBridgeBaseInitializer)
+  href: api/Org.Apache.Plc4x.JavaNs.Api.Messages.PlcPingRequest.html#Org_Apache_Plc4x_JavaNs_Api_Messages_PlcPingRequest__ctor_MASES_JCOBridge_C2JBridge_IJVMBridgeBaseInitializer_
+  commentId: M:Org.Apache.Plc4x.JavaNs.Api.Messages.PlcPingRequest.#ctor(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  name.vb: New(IJVMBridgeBaseInitializer)
+  fullName: Org.Apache.Plc4x.JavaNs.Api.Messages.PlcPingRequest.PlcPingRequest(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  fullName.vb: Org.Apache.Plc4x.JavaNs.Api.Messages.PlcPingRequest.New(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  nameWithType: PlcPingRequest.PlcPingRequest(IJVMBridgeBaseInitializer)
+  nameWithType.vb: PlcPingRequest.New(IJVMBridgeBaseInitializer)
 - uid: Org.Apache.Plc4x.JavaNs.Api.Messages.PlcPingRequest.#ctor(System.Object[])
   name: PlcPingRequest(params object[])
   href: api/Org.Apache.Plc4x.JavaNs.Api.Messages.PlcPingRequest.html#Org_Apache_Plc4x_JavaNs_Api_Messages_PlcPingRequest__ctor_System_Object___
@@ -4538,6 +5403,15 @@ references:
   fullName.vb: Org.Apache.Plc4x.JavaNs.Api.Messages.PlcPingResponse.New()
   nameWithType: PlcPingResponse.PlcPingResponse()
   nameWithType.vb: PlcPingResponse.New()
+- uid: Org.Apache.Plc4x.JavaNs.Api.Messages.PlcPingResponse.#ctor(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  name: PlcPingResponse(IJVMBridgeBaseInitializer)
+  href: api/Org.Apache.Plc4x.JavaNs.Api.Messages.PlcPingResponse.html#Org_Apache_Plc4x_JavaNs_Api_Messages_PlcPingResponse__ctor_MASES_JCOBridge_C2JBridge_IJVMBridgeBaseInitializer_
+  commentId: M:Org.Apache.Plc4x.JavaNs.Api.Messages.PlcPingResponse.#ctor(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  name.vb: New(IJVMBridgeBaseInitializer)
+  fullName: Org.Apache.Plc4x.JavaNs.Api.Messages.PlcPingResponse.PlcPingResponse(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  fullName.vb: Org.Apache.Plc4x.JavaNs.Api.Messages.PlcPingResponse.New(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  nameWithType: PlcPingResponse.PlcPingResponse(IJVMBridgeBaseInitializer)
+  nameWithType.vb: PlcPingResponse.New(IJVMBridgeBaseInitializer)
 - uid: Org.Apache.Plc4x.JavaNs.Api.Messages.PlcPingResponse.#ctor(System.Object[])
   name: PlcPingResponse(params object[])
   href: api/Org.Apache.Plc4x.JavaNs.Api.Messages.PlcPingResponse.html#Org_Apache_Plc4x_JavaNs_Api_Messages_PlcPingResponse__ctor_System_Object___
@@ -4663,6 +5537,15 @@ references:
   fullName.vb: Org.Apache.Plc4x.JavaNs.Api.Messages.PlcReadRequest.New()
   nameWithType: PlcReadRequest.PlcReadRequest()
   nameWithType.vb: PlcReadRequest.New()
+- uid: Org.Apache.Plc4x.JavaNs.Api.Messages.PlcReadRequest.#ctor(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  name: PlcReadRequest(IJVMBridgeBaseInitializer)
+  href: api/Org.Apache.Plc4x.JavaNs.Api.Messages.PlcReadRequest.html#Org_Apache_Plc4x_JavaNs_Api_Messages_PlcReadRequest__ctor_MASES_JCOBridge_C2JBridge_IJVMBridgeBaseInitializer_
+  commentId: M:Org.Apache.Plc4x.JavaNs.Api.Messages.PlcReadRequest.#ctor(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  name.vb: New(IJVMBridgeBaseInitializer)
+  fullName: Org.Apache.Plc4x.JavaNs.Api.Messages.PlcReadRequest.PlcReadRequest(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  fullName.vb: Org.Apache.Plc4x.JavaNs.Api.Messages.PlcReadRequest.New(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  nameWithType: PlcReadRequest.PlcReadRequest(IJVMBridgeBaseInitializer)
+  nameWithType.vb: PlcReadRequest.New(IJVMBridgeBaseInitializer)
 - uid: Org.Apache.Plc4x.JavaNs.Api.Messages.PlcReadRequest.#ctor(System.Object[])
   name: PlcReadRequest(params object[])
   href: api/Org.Apache.Plc4x.JavaNs.Api.Messages.PlcReadRequest.html#Org_Apache_Plc4x_JavaNs_Api_Messages_PlcReadRequest__ctor_System_Object___
@@ -4710,6 +5593,15 @@ references:
   fullName.vb: Org.Apache.Plc4x.JavaNs.Api.Messages.PlcReadRequest.Builder.New()
   nameWithType: PlcReadRequest.Builder.Builder()
   nameWithType.vb: PlcReadRequest.Builder.New()
+- uid: Org.Apache.Plc4x.JavaNs.Api.Messages.PlcReadRequest.Builder.#ctor(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  name: Builder(IJVMBridgeBaseInitializer)
+  href: api/Org.Apache.Plc4x.JavaNs.Api.Messages.PlcReadRequest.Builder.html#Org_Apache_Plc4x_JavaNs_Api_Messages_PlcReadRequest_Builder__ctor_MASES_JCOBridge_C2JBridge_IJVMBridgeBaseInitializer_
+  commentId: M:Org.Apache.Plc4x.JavaNs.Api.Messages.PlcReadRequest.Builder.#ctor(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  name.vb: New(IJVMBridgeBaseInitializer)
+  fullName: Org.Apache.Plc4x.JavaNs.Api.Messages.PlcReadRequest.Builder.Builder(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  fullName.vb: Org.Apache.Plc4x.JavaNs.Api.Messages.PlcReadRequest.Builder.New(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  nameWithType: PlcReadRequest.Builder.Builder(IJVMBridgeBaseInitializer)
+  nameWithType.vb: PlcReadRequest.Builder.New(IJVMBridgeBaseInitializer)
 - uid: Org.Apache.Plc4x.JavaNs.Api.Messages.PlcReadRequest.Builder.#ctor(System.Object[])
   name: Builder(params object[])
   href: api/Org.Apache.Plc4x.JavaNs.Api.Messages.PlcReadRequest.Builder.html#Org_Apache_Plc4x_JavaNs_Api_Messages_PlcReadRequest_Builder__ctor_System_Object___
@@ -4916,6 +5808,15 @@ references:
   fullName.vb: Org.Apache.Plc4x.JavaNs.Api.Messages.PlcReadResponse.New()
   nameWithType: PlcReadResponse.PlcReadResponse()
   nameWithType.vb: PlcReadResponse.New()
+- uid: Org.Apache.Plc4x.JavaNs.Api.Messages.PlcReadResponse.#ctor(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  name: PlcReadResponse(IJVMBridgeBaseInitializer)
+  href: api/Org.Apache.Plc4x.JavaNs.Api.Messages.PlcReadResponse.html#Org_Apache_Plc4x_JavaNs_Api_Messages_PlcReadResponse__ctor_MASES_JCOBridge_C2JBridge_IJVMBridgeBaseInitializer_
+  commentId: M:Org.Apache.Plc4x.JavaNs.Api.Messages.PlcReadResponse.#ctor(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  name.vb: New(IJVMBridgeBaseInitializer)
+  fullName: Org.Apache.Plc4x.JavaNs.Api.Messages.PlcReadResponse.PlcReadResponse(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  fullName.vb: Org.Apache.Plc4x.JavaNs.Api.Messages.PlcReadResponse.New(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  nameWithType: PlcReadResponse.PlcReadResponse(IJVMBridgeBaseInitializer)
+  nameWithType.vb: PlcReadResponse.New(IJVMBridgeBaseInitializer)
 - uid: Org.Apache.Plc4x.JavaNs.Api.Messages.PlcReadResponse.#ctor(System.Object[])
   name: PlcReadResponse(params object[])
   href: api/Org.Apache.Plc4x.JavaNs.Api.Messages.PlcReadResponse.html#Org_Apache_Plc4x_JavaNs_Api_Messages_PlcReadResponse__ctor_System_Object___
@@ -5843,6 +6744,15 @@ references:
   fullName.vb: Org.Apache.Plc4x.JavaNs.Api.Messages.PlcRequest.New()
   nameWithType: PlcRequest.PlcRequest()
   nameWithType.vb: PlcRequest.New()
+- uid: Org.Apache.Plc4x.JavaNs.Api.Messages.PlcRequest.#ctor(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  name: PlcRequest(IJVMBridgeBaseInitializer)
+  href: api/Org.Apache.Plc4x.JavaNs.Api.Messages.PlcRequest.html#Org_Apache_Plc4x_JavaNs_Api_Messages_PlcRequest__ctor_MASES_JCOBridge_C2JBridge_IJVMBridgeBaseInitializer_
+  commentId: M:Org.Apache.Plc4x.JavaNs.Api.Messages.PlcRequest.#ctor(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  name.vb: New(IJVMBridgeBaseInitializer)
+  fullName: Org.Apache.Plc4x.JavaNs.Api.Messages.PlcRequest.PlcRequest(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  fullName.vb: Org.Apache.Plc4x.JavaNs.Api.Messages.PlcRequest.New(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  nameWithType: PlcRequest.PlcRequest(IJVMBridgeBaseInitializer)
+  nameWithType.vb: PlcRequest.New(IJVMBridgeBaseInitializer)
 - uid: Org.Apache.Plc4x.JavaNs.Api.Messages.PlcRequest.#ctor(System.Object[])
   name: PlcRequest(params object[])
   href: api/Org.Apache.Plc4x.JavaNs.Api.Messages.PlcRequest.html#Org_Apache_Plc4x_JavaNs_Api_Messages_PlcRequest__ctor_System_Object___
@@ -5958,6 +6868,15 @@ references:
   fullName.vb: Org.Apache.Plc4x.JavaNs.Api.Messages.PlcRequestBuilder.New()
   nameWithType: PlcRequestBuilder.PlcRequestBuilder()
   nameWithType.vb: PlcRequestBuilder.New()
+- uid: Org.Apache.Plc4x.JavaNs.Api.Messages.PlcRequestBuilder.#ctor(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  name: PlcRequestBuilder(IJVMBridgeBaseInitializer)
+  href: api/Org.Apache.Plc4x.JavaNs.Api.Messages.PlcRequestBuilder.html#Org_Apache_Plc4x_JavaNs_Api_Messages_PlcRequestBuilder__ctor_MASES_JCOBridge_C2JBridge_IJVMBridgeBaseInitializer_
+  commentId: M:Org.Apache.Plc4x.JavaNs.Api.Messages.PlcRequestBuilder.#ctor(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  name.vb: New(IJVMBridgeBaseInitializer)
+  fullName: Org.Apache.Plc4x.JavaNs.Api.Messages.PlcRequestBuilder.PlcRequestBuilder(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  fullName.vb: Org.Apache.Plc4x.JavaNs.Api.Messages.PlcRequestBuilder.New(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  nameWithType: PlcRequestBuilder.PlcRequestBuilder(IJVMBridgeBaseInitializer)
+  nameWithType.vb: PlcRequestBuilder.New(IJVMBridgeBaseInitializer)
 - uid: Org.Apache.Plc4x.JavaNs.Api.Messages.PlcRequestBuilder.#ctor(System.Object[])
   name: PlcRequestBuilder(params object[])
   href: api/Org.Apache.Plc4x.JavaNs.Api.Messages.PlcRequestBuilder.html#Org_Apache_Plc4x_JavaNs_Api_Messages_PlcRequestBuilder__ctor_System_Object___
@@ -6070,6 +6989,15 @@ references:
   fullName.vb: Org.Apache.Plc4x.JavaNs.Api.Messages.PlcResponse.New()
   nameWithType: PlcResponse.PlcResponse()
   nameWithType.vb: PlcResponse.New()
+- uid: Org.Apache.Plc4x.JavaNs.Api.Messages.PlcResponse.#ctor(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  name: PlcResponse(IJVMBridgeBaseInitializer)
+  href: api/Org.Apache.Plc4x.JavaNs.Api.Messages.PlcResponse.html#Org_Apache_Plc4x_JavaNs_Api_Messages_PlcResponse__ctor_MASES_JCOBridge_C2JBridge_IJVMBridgeBaseInitializer_
+  commentId: M:Org.Apache.Plc4x.JavaNs.Api.Messages.PlcResponse.#ctor(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  name.vb: New(IJVMBridgeBaseInitializer)
+  fullName: Org.Apache.Plc4x.JavaNs.Api.Messages.PlcResponse.PlcResponse(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  fullName.vb: Org.Apache.Plc4x.JavaNs.Api.Messages.PlcResponse.New(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  nameWithType: PlcResponse.PlcResponse(IJVMBridgeBaseInitializer)
+  nameWithType.vb: PlcResponse.New(IJVMBridgeBaseInitializer)
 - uid: Org.Apache.Plc4x.JavaNs.Api.Messages.PlcResponse.#ctor(System.Object[])
   name: PlcResponse(params object[])
   href: api/Org.Apache.Plc4x.JavaNs.Api.Messages.PlcResponse.html#Org_Apache_Plc4x_JavaNs_Api_Messages_PlcResponse__ctor_System_Object___
@@ -6182,6 +7110,15 @@ references:
   fullName.vb: Org.Apache.Plc4x.JavaNs.Api.Messages.PlcSubscriptionEvent.New()
   nameWithType: PlcSubscriptionEvent.PlcSubscriptionEvent()
   nameWithType.vb: PlcSubscriptionEvent.New()
+- uid: Org.Apache.Plc4x.JavaNs.Api.Messages.PlcSubscriptionEvent.#ctor(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  name: PlcSubscriptionEvent(IJVMBridgeBaseInitializer)
+  href: api/Org.Apache.Plc4x.JavaNs.Api.Messages.PlcSubscriptionEvent.html#Org_Apache_Plc4x_JavaNs_Api_Messages_PlcSubscriptionEvent__ctor_MASES_JCOBridge_C2JBridge_IJVMBridgeBaseInitializer_
+  commentId: M:Org.Apache.Plc4x.JavaNs.Api.Messages.PlcSubscriptionEvent.#ctor(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  name.vb: New(IJVMBridgeBaseInitializer)
+  fullName: Org.Apache.Plc4x.JavaNs.Api.Messages.PlcSubscriptionEvent.PlcSubscriptionEvent(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  fullName.vb: Org.Apache.Plc4x.JavaNs.Api.Messages.PlcSubscriptionEvent.New(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  nameWithType: PlcSubscriptionEvent.PlcSubscriptionEvent(IJVMBridgeBaseInitializer)
+  nameWithType.vb: PlcSubscriptionEvent.New(IJVMBridgeBaseInitializer)
 - uid: Org.Apache.Plc4x.JavaNs.Api.Messages.PlcSubscriptionEvent.#ctor(System.Object[])
   name: PlcSubscriptionEvent(params object[])
   href: api/Org.Apache.Plc4x.JavaNs.Api.Messages.PlcSubscriptionEvent.html#Org_Apache_Plc4x_JavaNs_Api_Messages_PlcSubscriptionEvent__ctor_System_Object___
@@ -6294,6 +7231,15 @@ references:
   fullName.vb: Org.Apache.Plc4x.JavaNs.Api.Messages.PlcSubscriptionRequest.New()
   nameWithType: PlcSubscriptionRequest.PlcSubscriptionRequest()
   nameWithType.vb: PlcSubscriptionRequest.New()
+- uid: Org.Apache.Plc4x.JavaNs.Api.Messages.PlcSubscriptionRequest.#ctor(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  name: PlcSubscriptionRequest(IJVMBridgeBaseInitializer)
+  href: api/Org.Apache.Plc4x.JavaNs.Api.Messages.PlcSubscriptionRequest.html#Org_Apache_Plc4x_JavaNs_Api_Messages_PlcSubscriptionRequest__ctor_MASES_JCOBridge_C2JBridge_IJVMBridgeBaseInitializer_
+  commentId: M:Org.Apache.Plc4x.JavaNs.Api.Messages.PlcSubscriptionRequest.#ctor(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  name.vb: New(IJVMBridgeBaseInitializer)
+  fullName: Org.Apache.Plc4x.JavaNs.Api.Messages.PlcSubscriptionRequest.PlcSubscriptionRequest(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  fullName.vb: Org.Apache.Plc4x.JavaNs.Api.Messages.PlcSubscriptionRequest.New(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  nameWithType: PlcSubscriptionRequest.PlcSubscriptionRequest(IJVMBridgeBaseInitializer)
+  nameWithType.vb: PlcSubscriptionRequest.New(IJVMBridgeBaseInitializer)
 - uid: Org.Apache.Plc4x.JavaNs.Api.Messages.PlcSubscriptionRequest.#ctor(System.Object[])
   name: PlcSubscriptionRequest(params object[])
   href: api/Org.Apache.Plc4x.JavaNs.Api.Messages.PlcSubscriptionRequest.html#Org_Apache_Plc4x_JavaNs_Api_Messages_PlcSubscriptionRequest__ctor_System_Object___
@@ -6341,6 +7287,15 @@ references:
   fullName.vb: Org.Apache.Plc4x.JavaNs.Api.Messages.PlcSubscriptionRequest.Builder.New()
   nameWithType: PlcSubscriptionRequest.Builder.Builder()
   nameWithType.vb: PlcSubscriptionRequest.Builder.New()
+- uid: Org.Apache.Plc4x.JavaNs.Api.Messages.PlcSubscriptionRequest.Builder.#ctor(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  name: Builder(IJVMBridgeBaseInitializer)
+  href: api/Org.Apache.Plc4x.JavaNs.Api.Messages.PlcSubscriptionRequest.Builder.html#Org_Apache_Plc4x_JavaNs_Api_Messages_PlcSubscriptionRequest_Builder__ctor_MASES_JCOBridge_C2JBridge_IJVMBridgeBaseInitializer_
+  commentId: M:Org.Apache.Plc4x.JavaNs.Api.Messages.PlcSubscriptionRequest.Builder.#ctor(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  name.vb: New(IJVMBridgeBaseInitializer)
+  fullName: Org.Apache.Plc4x.JavaNs.Api.Messages.PlcSubscriptionRequest.Builder.Builder(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  fullName.vb: Org.Apache.Plc4x.JavaNs.Api.Messages.PlcSubscriptionRequest.Builder.New(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  nameWithType: PlcSubscriptionRequest.Builder.Builder(IJVMBridgeBaseInitializer)
+  nameWithType.vb: PlcSubscriptionRequest.Builder.New(IJVMBridgeBaseInitializer)
 - uid: Org.Apache.Plc4x.JavaNs.Api.Messages.PlcSubscriptionRequest.Builder.#ctor(System.Object[])
   name: Builder(params object[])
   href: api/Org.Apache.Plc4x.JavaNs.Api.Messages.PlcSubscriptionRequest.Builder.html#Org_Apache_Plc4x_JavaNs_Api_Messages_PlcSubscriptionRequest_Builder__ctor_System_Object___
@@ -6669,6 +7624,15 @@ references:
   fullName.vb: Org.Apache.Plc4x.JavaNs.Api.Messages.PlcSubscriptionResponse.New()
   nameWithType: PlcSubscriptionResponse.PlcSubscriptionResponse()
   nameWithType.vb: PlcSubscriptionResponse.New()
+- uid: Org.Apache.Plc4x.JavaNs.Api.Messages.PlcSubscriptionResponse.#ctor(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  name: PlcSubscriptionResponse(IJVMBridgeBaseInitializer)
+  href: api/Org.Apache.Plc4x.JavaNs.Api.Messages.PlcSubscriptionResponse.html#Org_Apache_Plc4x_JavaNs_Api_Messages_PlcSubscriptionResponse__ctor_MASES_JCOBridge_C2JBridge_IJVMBridgeBaseInitializer_
+  commentId: M:Org.Apache.Plc4x.JavaNs.Api.Messages.PlcSubscriptionResponse.#ctor(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  name.vb: New(IJVMBridgeBaseInitializer)
+  fullName: Org.Apache.Plc4x.JavaNs.Api.Messages.PlcSubscriptionResponse.PlcSubscriptionResponse(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  fullName.vb: Org.Apache.Plc4x.JavaNs.Api.Messages.PlcSubscriptionResponse.New(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  nameWithType: PlcSubscriptionResponse.PlcSubscriptionResponse(IJVMBridgeBaseInitializer)
+  nameWithType.vb: PlcSubscriptionResponse.New(IJVMBridgeBaseInitializer)
 - uid: Org.Apache.Plc4x.JavaNs.Api.Messages.PlcSubscriptionResponse.#ctor(System.Object[])
   name: PlcSubscriptionResponse(params object[])
   href: api/Org.Apache.Plc4x.JavaNs.Api.Messages.PlcSubscriptionResponse.html#Org_Apache_Plc4x_JavaNs_Api_Messages_PlcSubscriptionResponse__ctor_System_Object___
@@ -6807,6 +7771,15 @@ references:
   fullName.vb: Org.Apache.Plc4x.JavaNs.Api.Messages.PlcSubscriptionTagRequest.New()
   nameWithType: PlcSubscriptionTagRequest.PlcSubscriptionTagRequest()
   nameWithType.vb: PlcSubscriptionTagRequest.New()
+- uid: Org.Apache.Plc4x.JavaNs.Api.Messages.PlcSubscriptionTagRequest.#ctor(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  name: PlcSubscriptionTagRequest(IJVMBridgeBaseInitializer)
+  href: api/Org.Apache.Plc4x.JavaNs.Api.Messages.PlcSubscriptionTagRequest.html#Org_Apache_Plc4x_JavaNs_Api_Messages_PlcSubscriptionTagRequest__ctor_MASES_JCOBridge_C2JBridge_IJVMBridgeBaseInitializer_
+  commentId: M:Org.Apache.Plc4x.JavaNs.Api.Messages.PlcSubscriptionTagRequest.#ctor(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  name.vb: New(IJVMBridgeBaseInitializer)
+  fullName: Org.Apache.Plc4x.JavaNs.Api.Messages.PlcSubscriptionTagRequest.PlcSubscriptionTagRequest(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  fullName.vb: Org.Apache.Plc4x.JavaNs.Api.Messages.PlcSubscriptionTagRequest.New(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  nameWithType: PlcSubscriptionTagRequest.PlcSubscriptionTagRequest(IJVMBridgeBaseInitializer)
+  nameWithType.vb: PlcSubscriptionTagRequest.New(IJVMBridgeBaseInitializer)
 - uid: Org.Apache.Plc4x.JavaNs.Api.Messages.PlcSubscriptionTagRequest.#ctor(System.Object[])
   name: PlcSubscriptionTagRequest(params object[])
   href: api/Org.Apache.Plc4x.JavaNs.Api.Messages.PlcSubscriptionTagRequest.html#Org_Apache_Plc4x_JavaNs_Api_Messages_PlcSubscriptionTagRequest__ctor_System_Object___
@@ -7026,6 +7999,15 @@ references:
   fullName.vb: Org.Apache.Plc4x.JavaNs.Api.Messages.PlcSubscriptionTagResponse.New()
   nameWithType: PlcSubscriptionTagResponse.PlcSubscriptionTagResponse()
   nameWithType.vb: PlcSubscriptionTagResponse.New()
+- uid: Org.Apache.Plc4x.JavaNs.Api.Messages.PlcSubscriptionTagResponse.#ctor(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  name: PlcSubscriptionTagResponse(IJVMBridgeBaseInitializer)
+  href: api/Org.Apache.Plc4x.JavaNs.Api.Messages.PlcSubscriptionTagResponse.html#Org_Apache_Plc4x_JavaNs_Api_Messages_PlcSubscriptionTagResponse__ctor_MASES_JCOBridge_C2JBridge_IJVMBridgeBaseInitializer_
+  commentId: M:Org.Apache.Plc4x.JavaNs.Api.Messages.PlcSubscriptionTagResponse.#ctor(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  name.vb: New(IJVMBridgeBaseInitializer)
+  fullName: Org.Apache.Plc4x.JavaNs.Api.Messages.PlcSubscriptionTagResponse.PlcSubscriptionTagResponse(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  fullName.vb: Org.Apache.Plc4x.JavaNs.Api.Messages.PlcSubscriptionTagResponse.New(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  nameWithType: PlcSubscriptionTagResponse.PlcSubscriptionTagResponse(IJVMBridgeBaseInitializer)
+  nameWithType.vb: PlcSubscriptionTagResponse.New(IJVMBridgeBaseInitializer)
 - uid: Org.Apache.Plc4x.JavaNs.Api.Messages.PlcSubscriptionTagResponse.#ctor(System.Object[])
   name: PlcSubscriptionTagResponse(params object[])
   href: api/Org.Apache.Plc4x.JavaNs.Api.Messages.PlcSubscriptionTagResponse.html#Org_Apache_Plc4x_JavaNs_Api_Messages_PlcSubscriptionTagResponse__ctor_System_Object___
@@ -7177,6 +8159,15 @@ references:
   fullName.vb: Org.Apache.Plc4x.JavaNs.Api.Messages.PlcTagRequest.New()
   nameWithType: PlcTagRequest.PlcTagRequest()
   nameWithType.vb: PlcTagRequest.New()
+- uid: Org.Apache.Plc4x.JavaNs.Api.Messages.PlcTagRequest.#ctor(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  name: PlcTagRequest(IJVMBridgeBaseInitializer)
+  href: api/Org.Apache.Plc4x.JavaNs.Api.Messages.PlcTagRequest.html#Org_Apache_Plc4x_JavaNs_Api_Messages_PlcTagRequest__ctor_MASES_JCOBridge_C2JBridge_IJVMBridgeBaseInitializer_
+  commentId: M:Org.Apache.Plc4x.JavaNs.Api.Messages.PlcTagRequest.#ctor(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  name.vb: New(IJVMBridgeBaseInitializer)
+  fullName: Org.Apache.Plc4x.JavaNs.Api.Messages.PlcTagRequest.PlcTagRequest(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  fullName.vb: Org.Apache.Plc4x.JavaNs.Api.Messages.PlcTagRequest.New(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  nameWithType: PlcTagRequest.PlcTagRequest(IJVMBridgeBaseInitializer)
+  nameWithType.vb: PlcTagRequest.New(IJVMBridgeBaseInitializer)
 - uid: Org.Apache.Plc4x.JavaNs.Api.Messages.PlcTagRequest.#ctor(System.Object[])
   name: PlcTagRequest(params object[])
   href: api/Org.Apache.Plc4x.JavaNs.Api.Messages.PlcTagRequest.html#Org_Apache_Plc4x_JavaNs_Api_Messages_PlcTagRequest__ctor_System_Object___
@@ -7357,6 +8348,15 @@ references:
   fullName.vb: Org.Apache.Plc4x.JavaNs.Api.Messages.PlcTagResponse.New()
   nameWithType: PlcTagResponse.PlcTagResponse()
   nameWithType.vb: PlcTagResponse.New()
+- uid: Org.Apache.Plc4x.JavaNs.Api.Messages.PlcTagResponse.#ctor(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  name: PlcTagResponse(IJVMBridgeBaseInitializer)
+  href: api/Org.Apache.Plc4x.JavaNs.Api.Messages.PlcTagResponse.html#Org_Apache_Plc4x_JavaNs_Api_Messages_PlcTagResponse__ctor_MASES_JCOBridge_C2JBridge_IJVMBridgeBaseInitializer_
+  commentId: M:Org.Apache.Plc4x.JavaNs.Api.Messages.PlcTagResponse.#ctor(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  name.vb: New(IJVMBridgeBaseInitializer)
+  fullName: Org.Apache.Plc4x.JavaNs.Api.Messages.PlcTagResponse.PlcTagResponse(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  fullName.vb: Org.Apache.Plc4x.JavaNs.Api.Messages.PlcTagResponse.New(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  nameWithType: PlcTagResponse.PlcTagResponse(IJVMBridgeBaseInitializer)
+  nameWithType.vb: PlcTagResponse.New(IJVMBridgeBaseInitializer)
 - uid: Org.Apache.Plc4x.JavaNs.Api.Messages.PlcTagResponse.#ctor(System.Object[])
   name: PlcTagResponse(params object[])
   href: api/Org.Apache.Plc4x.JavaNs.Api.Messages.PlcTagResponse.html#Org_Apache_Plc4x_JavaNs_Api_Messages_PlcTagResponse__ctor_System_Object___
@@ -7521,6 +8521,15 @@ references:
   fullName.vb: Org.Apache.Plc4x.JavaNs.Api.Messages.PlcUnsubscriptionRequest.New()
   nameWithType: PlcUnsubscriptionRequest.PlcUnsubscriptionRequest()
   nameWithType.vb: PlcUnsubscriptionRequest.New()
+- uid: Org.Apache.Plc4x.JavaNs.Api.Messages.PlcUnsubscriptionRequest.#ctor(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  name: PlcUnsubscriptionRequest(IJVMBridgeBaseInitializer)
+  href: api/Org.Apache.Plc4x.JavaNs.Api.Messages.PlcUnsubscriptionRequest.html#Org_Apache_Plc4x_JavaNs_Api_Messages_PlcUnsubscriptionRequest__ctor_MASES_JCOBridge_C2JBridge_IJVMBridgeBaseInitializer_
+  commentId: M:Org.Apache.Plc4x.JavaNs.Api.Messages.PlcUnsubscriptionRequest.#ctor(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  name.vb: New(IJVMBridgeBaseInitializer)
+  fullName: Org.Apache.Plc4x.JavaNs.Api.Messages.PlcUnsubscriptionRequest.PlcUnsubscriptionRequest(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  fullName.vb: Org.Apache.Plc4x.JavaNs.Api.Messages.PlcUnsubscriptionRequest.New(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  nameWithType: PlcUnsubscriptionRequest.PlcUnsubscriptionRequest(IJVMBridgeBaseInitializer)
+  nameWithType.vb: PlcUnsubscriptionRequest.New(IJVMBridgeBaseInitializer)
 - uid: Org.Apache.Plc4x.JavaNs.Api.Messages.PlcUnsubscriptionRequest.#ctor(System.Object[])
   name: PlcUnsubscriptionRequest(params object[])
   href: api/Org.Apache.Plc4x.JavaNs.Api.Messages.PlcUnsubscriptionRequest.html#Org_Apache_Plc4x_JavaNs_Api_Messages_PlcUnsubscriptionRequest__ctor_System_Object___
@@ -7568,6 +8577,15 @@ references:
   fullName.vb: Org.Apache.Plc4x.JavaNs.Api.Messages.PlcUnsubscriptionRequest.Builder.New()
   nameWithType: PlcUnsubscriptionRequest.Builder.Builder()
   nameWithType.vb: PlcUnsubscriptionRequest.Builder.New()
+- uid: Org.Apache.Plc4x.JavaNs.Api.Messages.PlcUnsubscriptionRequest.Builder.#ctor(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  name: Builder(IJVMBridgeBaseInitializer)
+  href: api/Org.Apache.Plc4x.JavaNs.Api.Messages.PlcUnsubscriptionRequest.Builder.html#Org_Apache_Plc4x_JavaNs_Api_Messages_PlcUnsubscriptionRequest_Builder__ctor_MASES_JCOBridge_C2JBridge_IJVMBridgeBaseInitializer_
+  commentId: M:Org.Apache.Plc4x.JavaNs.Api.Messages.PlcUnsubscriptionRequest.Builder.#ctor(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  name.vb: New(IJVMBridgeBaseInitializer)
+  fullName: Org.Apache.Plc4x.JavaNs.Api.Messages.PlcUnsubscriptionRequest.Builder.Builder(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  fullName.vb: Org.Apache.Plc4x.JavaNs.Api.Messages.PlcUnsubscriptionRequest.Builder.New(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  nameWithType: PlcUnsubscriptionRequest.Builder.Builder(IJVMBridgeBaseInitializer)
+  nameWithType.vb: PlcUnsubscriptionRequest.Builder.New(IJVMBridgeBaseInitializer)
 - uid: Org.Apache.Plc4x.JavaNs.Api.Messages.PlcUnsubscriptionRequest.Builder.#ctor(System.Object[])
   name: Builder(params object[])
   href: api/Org.Apache.Plc4x.JavaNs.Api.Messages.PlcUnsubscriptionRequest.Builder.html#Org_Apache_Plc4x_JavaNs_Api_Messages_PlcUnsubscriptionRequest_Builder__ctor_System_Object___
@@ -7789,6 +8807,15 @@ references:
   fullName.vb: Org.Apache.Plc4x.JavaNs.Api.Messages.PlcUnsubscriptionResponse.New()
   nameWithType: PlcUnsubscriptionResponse.PlcUnsubscriptionResponse()
   nameWithType.vb: PlcUnsubscriptionResponse.New()
+- uid: Org.Apache.Plc4x.JavaNs.Api.Messages.PlcUnsubscriptionResponse.#ctor(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  name: PlcUnsubscriptionResponse(IJVMBridgeBaseInitializer)
+  href: api/Org.Apache.Plc4x.JavaNs.Api.Messages.PlcUnsubscriptionResponse.html#Org_Apache_Plc4x_JavaNs_Api_Messages_PlcUnsubscriptionResponse__ctor_MASES_JCOBridge_C2JBridge_IJVMBridgeBaseInitializer_
+  commentId: M:Org.Apache.Plc4x.JavaNs.Api.Messages.PlcUnsubscriptionResponse.#ctor(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  name.vb: New(IJVMBridgeBaseInitializer)
+  fullName: Org.Apache.Plc4x.JavaNs.Api.Messages.PlcUnsubscriptionResponse.PlcUnsubscriptionResponse(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  fullName.vb: Org.Apache.Plc4x.JavaNs.Api.Messages.PlcUnsubscriptionResponse.New(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  nameWithType: PlcUnsubscriptionResponse.PlcUnsubscriptionResponse(IJVMBridgeBaseInitializer)
+  nameWithType.vb: PlcUnsubscriptionResponse.New(IJVMBridgeBaseInitializer)
 - uid: Org.Apache.Plc4x.JavaNs.Api.Messages.PlcUnsubscriptionResponse.#ctor(System.Object[])
   name: PlcUnsubscriptionResponse(params object[])
   href: api/Org.Apache.Plc4x.JavaNs.Api.Messages.PlcUnsubscriptionResponse.html#Org_Apache_Plc4x_JavaNs_Api_Messages_PlcUnsubscriptionResponse__ctor_System_Object___
@@ -7901,6 +8928,15 @@ references:
   fullName.vb: Org.Apache.Plc4x.JavaNs.Api.Messages.PlcWriteRequest.New()
   nameWithType: PlcWriteRequest.PlcWriteRequest()
   nameWithType.vb: PlcWriteRequest.New()
+- uid: Org.Apache.Plc4x.JavaNs.Api.Messages.PlcWriteRequest.#ctor(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  name: PlcWriteRequest(IJVMBridgeBaseInitializer)
+  href: api/Org.Apache.Plc4x.JavaNs.Api.Messages.PlcWriteRequest.html#Org_Apache_Plc4x_JavaNs_Api_Messages_PlcWriteRequest__ctor_MASES_JCOBridge_C2JBridge_IJVMBridgeBaseInitializer_
+  commentId: M:Org.Apache.Plc4x.JavaNs.Api.Messages.PlcWriteRequest.#ctor(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  name.vb: New(IJVMBridgeBaseInitializer)
+  fullName: Org.Apache.Plc4x.JavaNs.Api.Messages.PlcWriteRequest.PlcWriteRequest(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  fullName.vb: Org.Apache.Plc4x.JavaNs.Api.Messages.PlcWriteRequest.New(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  nameWithType: PlcWriteRequest.PlcWriteRequest(IJVMBridgeBaseInitializer)
+  nameWithType.vb: PlcWriteRequest.New(IJVMBridgeBaseInitializer)
 - uid: Org.Apache.Plc4x.JavaNs.Api.Messages.PlcWriteRequest.#ctor(System.Object[])
   name: PlcWriteRequest(params object[])
   href: api/Org.Apache.Plc4x.JavaNs.Api.Messages.PlcWriteRequest.html#Org_Apache_Plc4x_JavaNs_Api_Messages_PlcWriteRequest__ctor_System_Object___
@@ -7948,6 +8984,15 @@ references:
   fullName.vb: Org.Apache.Plc4x.JavaNs.Api.Messages.PlcWriteRequest.Builder.New()
   nameWithType: PlcWriteRequest.Builder.Builder()
   nameWithType.vb: PlcWriteRequest.Builder.New()
+- uid: Org.Apache.Plc4x.JavaNs.Api.Messages.PlcWriteRequest.Builder.#ctor(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  name: Builder(IJVMBridgeBaseInitializer)
+  href: api/Org.Apache.Plc4x.JavaNs.Api.Messages.PlcWriteRequest.Builder.html#Org_Apache_Plc4x_JavaNs_Api_Messages_PlcWriteRequest_Builder__ctor_MASES_JCOBridge_C2JBridge_IJVMBridgeBaseInitializer_
+  commentId: M:Org.Apache.Plc4x.JavaNs.Api.Messages.PlcWriteRequest.Builder.#ctor(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  name.vb: New(IJVMBridgeBaseInitializer)
+  fullName: Org.Apache.Plc4x.JavaNs.Api.Messages.PlcWriteRequest.Builder.Builder(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  fullName.vb: Org.Apache.Plc4x.JavaNs.Api.Messages.PlcWriteRequest.Builder.New(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  nameWithType: PlcWriteRequest.Builder.Builder(IJVMBridgeBaseInitializer)
+  nameWithType.vb: PlcWriteRequest.Builder.New(IJVMBridgeBaseInitializer)
 - uid: Org.Apache.Plc4x.JavaNs.Api.Messages.PlcWriteRequest.Builder.#ctor(System.Object[])
   name: Builder(params object[])
   href: api/Org.Apache.Plc4x.JavaNs.Api.Messages.PlcWriteRequest.Builder.html#Org_Apache_Plc4x_JavaNs_Api_Messages_PlcWriteRequest_Builder__ctor_System_Object___
@@ -8186,6 +9231,15 @@ references:
   fullName.vb: Org.Apache.Plc4x.JavaNs.Api.Messages.PlcWriteResponse.New()
   nameWithType: PlcWriteResponse.PlcWriteResponse()
   nameWithType.vb: PlcWriteResponse.New()
+- uid: Org.Apache.Plc4x.JavaNs.Api.Messages.PlcWriteResponse.#ctor(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  name: PlcWriteResponse(IJVMBridgeBaseInitializer)
+  href: api/Org.Apache.Plc4x.JavaNs.Api.Messages.PlcWriteResponse.html#Org_Apache_Plc4x_JavaNs_Api_Messages_PlcWriteResponse__ctor_MASES_JCOBridge_C2JBridge_IJVMBridgeBaseInitializer_
+  commentId: M:Org.Apache.Plc4x.JavaNs.Api.Messages.PlcWriteResponse.#ctor(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  name.vb: New(IJVMBridgeBaseInitializer)
+  fullName: Org.Apache.Plc4x.JavaNs.Api.Messages.PlcWriteResponse.PlcWriteResponse(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  fullName.vb: Org.Apache.Plc4x.JavaNs.Api.Messages.PlcWriteResponse.New(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  nameWithType: PlcWriteResponse.PlcWriteResponse(IJVMBridgeBaseInitializer)
+  nameWithType.vb: PlcWriteResponse.New(IJVMBridgeBaseInitializer)
 - uid: Org.Apache.Plc4x.JavaNs.Api.Messages.PlcWriteResponse.#ctor(System.Object[])
   name: PlcWriteResponse(params object[])
   href: api/Org.Apache.Plc4x.JavaNs.Api.Messages.PlcWriteResponse.html#Org_Apache_Plc4x_JavaNs_Api_Messages_PlcWriteResponse__ctor_System_Object___
@@ -8334,6 +9388,15 @@ references:
   fullName.vb: Org.Apache.Plc4x.JavaNs.Api.Metadata.Metadata.New()
   nameWithType: Metadata.Metadata()
   nameWithType.vb: Metadata.New()
+- uid: Org.Apache.Plc4x.JavaNs.Api.Metadata.Metadata.#ctor(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  name: Metadata(IJVMBridgeBaseInitializer)
+  href: api/Org.Apache.Plc4x.JavaNs.Api.Metadata.Metadata.html#Org_Apache_Plc4x_JavaNs_Api_Metadata_Metadata__ctor_MASES_JCOBridge_C2JBridge_IJVMBridgeBaseInitializer_
+  commentId: M:Org.Apache.Plc4x.JavaNs.Api.Metadata.Metadata.#ctor(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  name.vb: New(IJVMBridgeBaseInitializer)
+  fullName: Org.Apache.Plc4x.JavaNs.Api.Metadata.Metadata.Metadata(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  fullName.vb: Org.Apache.Plc4x.JavaNs.Api.Metadata.Metadata.New(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  nameWithType: Metadata.Metadata(IJVMBridgeBaseInitializer)
+  nameWithType.vb: Metadata.New(IJVMBridgeBaseInitializer)
 - uid: Org.Apache.Plc4x.JavaNs.Api.Metadata.Metadata.#ctor(System.Object[])
   name: Metadata(params object[])
   href: api/Org.Apache.Plc4x.JavaNs.Api.Metadata.Metadata.html#Org_Apache_Plc4x_JavaNs_Api_Metadata_Metadata__ctor_System_Object___
@@ -8475,6 +9538,15 @@ references:
   fullName.vb: Org.Apache.Plc4x.JavaNs.Api.Metadata.Metadata.Key.New()
   nameWithType: Metadata.Key.Key()
   nameWithType.vb: Metadata.Key.New()
+- uid: Org.Apache.Plc4x.JavaNs.Api.Metadata.Metadata.Key.#ctor(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  name: Key(IJVMBridgeBaseInitializer)
+  href: api/Org.Apache.Plc4x.JavaNs.Api.Metadata.Metadata.Key.html#Org_Apache_Plc4x_JavaNs_Api_Metadata_Metadata_Key__ctor_MASES_JCOBridge_C2JBridge_IJVMBridgeBaseInitializer_
+  commentId: M:Org.Apache.Plc4x.JavaNs.Api.Metadata.Metadata.Key.#ctor(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  name.vb: New(IJVMBridgeBaseInitializer)
+  fullName: Org.Apache.Plc4x.JavaNs.Api.Metadata.Metadata.Key.Key(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  fullName.vb: Org.Apache.Plc4x.JavaNs.Api.Metadata.Metadata.Key.New(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  nameWithType: Metadata.Key.Key(IJVMBridgeBaseInitializer)
+  nameWithType.vb: Metadata.Key.New(IJVMBridgeBaseInitializer)
 - uid: Org.Apache.Plc4x.JavaNs.Api.Metadata.Metadata.Key.#ctor(System.Object[])
   name: Key(params object[])
   href: api/Org.Apache.Plc4x.JavaNs.Api.Metadata.Metadata.Key.html#Org_Apache_Plc4x_JavaNs_Api_Metadata_Metadata_Key__ctor_System_Object___
@@ -8619,6 +9691,15 @@ references:
   fullName.vb: Org.Apache.Plc4x.JavaNs.Api.Metadata.Metadata.Key(Of T).New()
   nameWithType: Metadata.Key<T>.Key()
   nameWithType.vb: Metadata.Key(Of T).New()
+- uid: Org.Apache.Plc4x.JavaNs.Api.Metadata.Metadata.Key`1.#ctor(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  name: Key(IJVMBridgeBaseInitializer)
+  href: api/Org.Apache.Plc4x.JavaNs.Api.Metadata.Metadata.Key-1.html#Org_Apache_Plc4x_JavaNs_Api_Metadata_Metadata_Key_1__ctor_MASES_JCOBridge_C2JBridge_IJVMBridgeBaseInitializer_
+  commentId: M:Org.Apache.Plc4x.JavaNs.Api.Metadata.Metadata.Key`1.#ctor(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  name.vb: New(IJVMBridgeBaseInitializer)
+  fullName: Org.Apache.Plc4x.JavaNs.Api.Metadata.Metadata.Key<T>.Key(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  fullName.vb: Org.Apache.Plc4x.JavaNs.Api.Metadata.Metadata.Key(Of T).New(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  nameWithType: Metadata.Key<T>.Key(IJVMBridgeBaseInitializer)
+  nameWithType.vb: Metadata.Key(Of T).New(IJVMBridgeBaseInitializer)
 - uid: Org.Apache.Plc4x.JavaNs.Api.Metadata.Metadata.Key`1.#ctor(System.Object[])
   name: Key(params object[])
   href: api/Org.Apache.Plc4x.JavaNs.Api.Metadata.Metadata.Key-1.html#Org_Apache_Plc4x_JavaNs_Api_Metadata_Metadata_Key_1__ctor_System_Object___
@@ -8822,6 +9903,15 @@ references:
   fullName.vb: Org.Apache.Plc4x.JavaNs.Api.Metadata.Option.New()
   nameWithType: Option.Option()
   nameWithType.vb: Option.New()
+- uid: Org.Apache.Plc4x.JavaNs.Api.Metadata.Option.#ctor(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  name: Option(IJVMBridgeBaseInitializer)
+  href: api/Org.Apache.Plc4x.JavaNs.Api.Metadata.Option.html#Org_Apache_Plc4x_JavaNs_Api_Metadata_Option__ctor_MASES_JCOBridge_C2JBridge_IJVMBridgeBaseInitializer_
+  commentId: M:Org.Apache.Plc4x.JavaNs.Api.Metadata.Option.#ctor(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  name.vb: New(IJVMBridgeBaseInitializer)
+  fullName: Org.Apache.Plc4x.JavaNs.Api.Metadata.Option.Option(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  fullName.vb: Org.Apache.Plc4x.JavaNs.Api.Metadata.Option.New(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  nameWithType: Option.Option(IJVMBridgeBaseInitializer)
+  nameWithType.vb: Option.New(IJVMBridgeBaseInitializer)
 - uid: Org.Apache.Plc4x.JavaNs.Api.Metadata.Option.#ctor(System.Object[])
   name: Option(params object[])
   href: api/Org.Apache.Plc4x.JavaNs.Api.Metadata.Option.html#Org_Apache_Plc4x_JavaNs_Api_Metadata_Option__ctor_System_Object___
@@ -8999,6 +10089,15 @@ references:
   fullName.vb: Org.Apache.Plc4x.JavaNs.Api.Metadata.OptionMetadata.New()
   nameWithType: OptionMetadata.OptionMetadata()
   nameWithType.vb: OptionMetadata.New()
+- uid: Org.Apache.Plc4x.JavaNs.Api.Metadata.OptionMetadata.#ctor(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  name: OptionMetadata(IJVMBridgeBaseInitializer)
+  href: api/Org.Apache.Plc4x.JavaNs.Api.Metadata.OptionMetadata.html#Org_Apache_Plc4x_JavaNs_Api_Metadata_OptionMetadata__ctor_MASES_JCOBridge_C2JBridge_IJVMBridgeBaseInitializer_
+  commentId: M:Org.Apache.Plc4x.JavaNs.Api.Metadata.OptionMetadata.#ctor(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  name.vb: New(IJVMBridgeBaseInitializer)
+  fullName: Org.Apache.Plc4x.JavaNs.Api.Metadata.OptionMetadata.OptionMetadata(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  fullName.vb: Org.Apache.Plc4x.JavaNs.Api.Metadata.OptionMetadata.New(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  nameWithType: OptionMetadata.OptionMetadata(IJVMBridgeBaseInitializer)
+  nameWithType.vb: OptionMetadata.New(IJVMBridgeBaseInitializer)
 - uid: Org.Apache.Plc4x.JavaNs.Api.Metadata.OptionMetadata.#ctor(System.Object[])
   name: OptionMetadata(params object[])
   href: api/Org.Apache.Plc4x.JavaNs.Api.Metadata.OptionMetadata.html#Org_Apache_Plc4x_JavaNs_Api_Metadata_OptionMetadata__ctor_System_Object___
@@ -9124,6 +10223,15 @@ references:
   fullName.vb: Org.Apache.Plc4x.JavaNs.Api.Metadata.PlcConnectionMetadata.New()
   nameWithType: PlcConnectionMetadata.PlcConnectionMetadata()
   nameWithType.vb: PlcConnectionMetadata.New()
+- uid: Org.Apache.Plc4x.JavaNs.Api.Metadata.PlcConnectionMetadata.#ctor(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  name: PlcConnectionMetadata(IJVMBridgeBaseInitializer)
+  href: api/Org.Apache.Plc4x.JavaNs.Api.Metadata.PlcConnectionMetadata.html#Org_Apache_Plc4x_JavaNs_Api_Metadata_PlcConnectionMetadata__ctor_MASES_JCOBridge_C2JBridge_IJVMBridgeBaseInitializer_
+  commentId: M:Org.Apache.Plc4x.JavaNs.Api.Metadata.PlcConnectionMetadata.#ctor(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  name.vb: New(IJVMBridgeBaseInitializer)
+  fullName: Org.Apache.Plc4x.JavaNs.Api.Metadata.PlcConnectionMetadata.PlcConnectionMetadata(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  fullName.vb: Org.Apache.Plc4x.JavaNs.Api.Metadata.PlcConnectionMetadata.New(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  nameWithType: PlcConnectionMetadata.PlcConnectionMetadata(IJVMBridgeBaseInitializer)
+  nameWithType.vb: PlcConnectionMetadata.New(IJVMBridgeBaseInitializer)
 - uid: Org.Apache.Plc4x.JavaNs.Api.Metadata.PlcConnectionMetadata.#ctor(System.Object[])
   name: PlcConnectionMetadata(params object[])
   href: api/Org.Apache.Plc4x.JavaNs.Api.Metadata.PlcConnectionMetadata.html#Org_Apache_Plc4x_JavaNs_Api_Metadata_PlcConnectionMetadata__ctor_System_Object___
@@ -9275,6 +10383,15 @@ references:
   fullName.vb: Org.Apache.Plc4x.JavaNs.Api.Metadata.PlcDriverMetadata.New()
   nameWithType: PlcDriverMetadata.PlcDriverMetadata()
   nameWithType.vb: PlcDriverMetadata.New()
+- uid: Org.Apache.Plc4x.JavaNs.Api.Metadata.PlcDriverMetadata.#ctor(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  name: PlcDriverMetadata(IJVMBridgeBaseInitializer)
+  href: api/Org.Apache.Plc4x.JavaNs.Api.Metadata.PlcDriverMetadata.html#Org_Apache_Plc4x_JavaNs_Api_Metadata_PlcDriverMetadata__ctor_MASES_JCOBridge_C2JBridge_IJVMBridgeBaseInitializer_
+  commentId: M:Org.Apache.Plc4x.JavaNs.Api.Metadata.PlcDriverMetadata.#ctor(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  name.vb: New(IJVMBridgeBaseInitializer)
+  fullName: Org.Apache.Plc4x.JavaNs.Api.Metadata.PlcDriverMetadata.PlcDriverMetadata(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  fullName.vb: Org.Apache.Plc4x.JavaNs.Api.Metadata.PlcDriverMetadata.New(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  nameWithType: PlcDriverMetadata.PlcDriverMetadata(IJVMBridgeBaseInitializer)
+  nameWithType.vb: PlcDriverMetadata.New(IJVMBridgeBaseInitializer)
 - uid: Org.Apache.Plc4x.JavaNs.Api.Metadata.PlcDriverMetadata.#ctor(System.Object[])
   name: PlcDriverMetadata(params object[])
   href: api/Org.Apache.Plc4x.JavaNs.Api.Metadata.PlcDriverMetadata.html#Org_Apache_Plc4x_JavaNs_Api_Metadata_PlcDriverMetadata__ctor_System_Object___
@@ -9445,6 +10562,15 @@ references:
   fullName.vb: Org.Apache.Plc4x.JavaNs.Api.Metadata.Time.TimeSource.New()
   nameWithType: TimeSource.TimeSource()
   nameWithType.vb: TimeSource.New()
+- uid: Org.Apache.Plc4x.JavaNs.Api.Metadata.Time.TimeSource.#ctor(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  name: TimeSource(IJVMBridgeBaseInitializer)
+  href: api/Org.Apache.Plc4x.JavaNs.Api.Metadata.Time.TimeSource.html#Org_Apache_Plc4x_JavaNs_Api_Metadata_Time_TimeSource__ctor_MASES_JCOBridge_C2JBridge_IJVMBridgeBaseInitializer_
+  commentId: M:Org.Apache.Plc4x.JavaNs.Api.Metadata.Time.TimeSource.#ctor(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  name.vb: New(IJVMBridgeBaseInitializer)
+  fullName: Org.Apache.Plc4x.JavaNs.Api.Metadata.Time.TimeSource.TimeSource(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  fullName.vb: Org.Apache.Plc4x.JavaNs.Api.Metadata.Time.TimeSource.New(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  nameWithType: TimeSource.TimeSource(IJVMBridgeBaseInitializer)
+  nameWithType.vb: TimeSource.New(IJVMBridgeBaseInitializer)
 - uid: Org.Apache.Plc4x.JavaNs.Api.Metadata.Time.TimeSource.#ctor(System.Object[])
   name: TimeSource(params object[])
   href: api/Org.Apache.Plc4x.JavaNs.Api.Metadata.Time.TimeSource.html#Org_Apache_Plc4x_JavaNs_Api_Metadata_Time_TimeSource__ctor_System_Object___
@@ -9628,6 +10754,15 @@ references:
   fullName.vb: Org.Apache.Plc4x.JavaNs.Api.Model.ArrayInfo.New()
   nameWithType: ArrayInfo.ArrayInfo()
   nameWithType.vb: ArrayInfo.New()
+- uid: Org.Apache.Plc4x.JavaNs.Api.Model.ArrayInfo.#ctor(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  name: ArrayInfo(IJVMBridgeBaseInitializer)
+  href: api/Org.Apache.Plc4x.JavaNs.Api.Model.ArrayInfo.html#Org_Apache_Plc4x_JavaNs_Api_Model_ArrayInfo__ctor_MASES_JCOBridge_C2JBridge_IJVMBridgeBaseInitializer_
+  commentId: M:Org.Apache.Plc4x.JavaNs.Api.Model.ArrayInfo.#ctor(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  name.vb: New(IJVMBridgeBaseInitializer)
+  fullName: Org.Apache.Plc4x.JavaNs.Api.Model.ArrayInfo.ArrayInfo(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  fullName.vb: Org.Apache.Plc4x.JavaNs.Api.Model.ArrayInfo.New(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  nameWithType: ArrayInfo.ArrayInfo(IJVMBridgeBaseInitializer)
+  nameWithType.vb: ArrayInfo.New(IJVMBridgeBaseInitializer)
 - uid: Org.Apache.Plc4x.JavaNs.Api.Model.ArrayInfo.#ctor(System.Object[])
   name: ArrayInfo(params object[])
   href: api/Org.Apache.Plc4x.JavaNs.Api.Model.ArrayInfo.html#Org_Apache_Plc4x_JavaNs_Api_Model_ArrayInfo__ctor_System_Object___
@@ -9808,6 +10943,15 @@ references:
   fullName.vb: Org.Apache.Plc4x.JavaNs.Api.Model.PlcConsumerRegistration.New()
   nameWithType: PlcConsumerRegistration.PlcConsumerRegistration()
   nameWithType.vb: PlcConsumerRegistration.New()
+- uid: Org.Apache.Plc4x.JavaNs.Api.Model.PlcConsumerRegistration.#ctor(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  name: PlcConsumerRegistration(IJVMBridgeBaseInitializer)
+  href: api/Org.Apache.Plc4x.JavaNs.Api.Model.PlcConsumerRegistration.html#Org_Apache_Plc4x_JavaNs_Api_Model_PlcConsumerRegistration__ctor_MASES_JCOBridge_C2JBridge_IJVMBridgeBaseInitializer_
+  commentId: M:Org.Apache.Plc4x.JavaNs.Api.Model.PlcConsumerRegistration.#ctor(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  name.vb: New(IJVMBridgeBaseInitializer)
+  fullName: Org.Apache.Plc4x.JavaNs.Api.Model.PlcConsumerRegistration.PlcConsumerRegistration(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  fullName.vb: Org.Apache.Plc4x.JavaNs.Api.Model.PlcConsumerRegistration.New(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  nameWithType: PlcConsumerRegistration.PlcConsumerRegistration(IJVMBridgeBaseInitializer)
+  nameWithType.vb: PlcConsumerRegistration.New(IJVMBridgeBaseInitializer)
 - uid: Org.Apache.Plc4x.JavaNs.Api.Model.PlcConsumerRegistration.#ctor(System.Object[])
   name: PlcConsumerRegistration(params object[])
   href: api/Org.Apache.Plc4x.JavaNs.Api.Model.PlcConsumerRegistration.html#Org_Apache_Plc4x_JavaNs_Api_Model_PlcConsumerRegistration__ctor_System_Object___
@@ -9946,6 +11090,15 @@ references:
   fullName.vb: Org.Apache.Plc4x.JavaNs.Api.Model.PlcDiscoveryHandler.New()
   nameWithType: PlcDiscoveryHandler.PlcDiscoveryHandler()
   nameWithType.vb: PlcDiscoveryHandler.New()
+- uid: Org.Apache.Plc4x.JavaNs.Api.Model.PlcDiscoveryHandler.#ctor(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  name: PlcDiscoveryHandler(IJVMBridgeBaseInitializer)
+  href: api/Org.Apache.Plc4x.JavaNs.Api.Model.PlcDiscoveryHandler.html#Org_Apache_Plc4x_JavaNs_Api_Model_PlcDiscoveryHandler__ctor_MASES_JCOBridge_C2JBridge_IJVMBridgeBaseInitializer_
+  commentId: M:Org.Apache.Plc4x.JavaNs.Api.Model.PlcDiscoveryHandler.#ctor(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  name.vb: New(IJVMBridgeBaseInitializer)
+  fullName: Org.Apache.Plc4x.JavaNs.Api.Model.PlcDiscoveryHandler.PlcDiscoveryHandler(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  fullName.vb: Org.Apache.Plc4x.JavaNs.Api.Model.PlcDiscoveryHandler.New(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  nameWithType: PlcDiscoveryHandler.PlcDiscoveryHandler(IJVMBridgeBaseInitializer)
+  nameWithType.vb: PlcDiscoveryHandler.New(IJVMBridgeBaseInitializer)
 - uid: Org.Apache.Plc4x.JavaNs.Api.Model.PlcDiscoveryHandler.#ctor(System.Object[])
   name: PlcDiscoveryHandler(params object[])
   href: api/Org.Apache.Plc4x.JavaNs.Api.Model.PlcDiscoveryHandler.html#Org_Apache_Plc4x_JavaNs_Api_Model_PlcDiscoveryHandler__ctor_System_Object___
@@ -10058,6 +11211,15 @@ references:
   fullName.vb: Org.Apache.Plc4x.JavaNs.Api.Model.PlcQuery.New()
   nameWithType: PlcQuery.PlcQuery()
   nameWithType.vb: PlcQuery.New()
+- uid: Org.Apache.Plc4x.JavaNs.Api.Model.PlcQuery.#ctor(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  name: PlcQuery(IJVMBridgeBaseInitializer)
+  href: api/Org.Apache.Plc4x.JavaNs.Api.Model.PlcQuery.html#Org_Apache_Plc4x_JavaNs_Api_Model_PlcQuery__ctor_MASES_JCOBridge_C2JBridge_IJVMBridgeBaseInitializer_
+  commentId: M:Org.Apache.Plc4x.JavaNs.Api.Model.PlcQuery.#ctor(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  name.vb: New(IJVMBridgeBaseInitializer)
+  fullName: Org.Apache.Plc4x.JavaNs.Api.Model.PlcQuery.PlcQuery(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  fullName.vb: Org.Apache.Plc4x.JavaNs.Api.Model.PlcQuery.New(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  nameWithType: PlcQuery.PlcQuery(IJVMBridgeBaseInitializer)
+  nameWithType.vb: PlcQuery.New(IJVMBridgeBaseInitializer)
 - uid: Org.Apache.Plc4x.JavaNs.Api.Model.PlcQuery.#ctor(System.Object[])
   name: PlcQuery(params object[])
   href: api/Org.Apache.Plc4x.JavaNs.Api.Model.PlcQuery.html#Org_Apache_Plc4x_JavaNs_Api_Model_PlcQuery__ctor_System_Object___
@@ -10170,6 +11332,15 @@ references:
   fullName.vb: Org.Apache.Plc4x.JavaNs.Api.Model.PlcSubscriptionHandle.New()
   nameWithType: PlcSubscriptionHandle.PlcSubscriptionHandle()
   nameWithType.vb: PlcSubscriptionHandle.New()
+- uid: Org.Apache.Plc4x.JavaNs.Api.Model.PlcSubscriptionHandle.#ctor(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  name: PlcSubscriptionHandle(IJVMBridgeBaseInitializer)
+  href: api/Org.Apache.Plc4x.JavaNs.Api.Model.PlcSubscriptionHandle.html#Org_Apache_Plc4x_JavaNs_Api_Model_PlcSubscriptionHandle__ctor_MASES_JCOBridge_C2JBridge_IJVMBridgeBaseInitializer_
+  commentId: M:Org.Apache.Plc4x.JavaNs.Api.Model.PlcSubscriptionHandle.#ctor(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  name.vb: New(IJVMBridgeBaseInitializer)
+  fullName: Org.Apache.Plc4x.JavaNs.Api.Model.PlcSubscriptionHandle.PlcSubscriptionHandle(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  fullName.vb: Org.Apache.Plc4x.JavaNs.Api.Model.PlcSubscriptionHandle.New(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  nameWithType: PlcSubscriptionHandle.PlcSubscriptionHandle(IJVMBridgeBaseInitializer)
+  nameWithType.vb: PlcSubscriptionHandle.New(IJVMBridgeBaseInitializer)
 - uid: Org.Apache.Plc4x.JavaNs.Api.Model.PlcSubscriptionHandle.#ctor(System.Object[])
   name: PlcSubscriptionHandle(params object[])
   href: api/Org.Apache.Plc4x.JavaNs.Api.Model.PlcSubscriptionHandle.html#Org_Apache_Plc4x_JavaNs_Api_Model_PlcSubscriptionHandle__ctor_System_Object___
@@ -10285,6 +11456,15 @@ references:
   fullName.vb: Org.Apache.Plc4x.JavaNs.Api.Model.PlcSubscriptionTag.New()
   nameWithType: PlcSubscriptionTag.PlcSubscriptionTag()
   nameWithType.vb: PlcSubscriptionTag.New()
+- uid: Org.Apache.Plc4x.JavaNs.Api.Model.PlcSubscriptionTag.#ctor(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  name: PlcSubscriptionTag(IJVMBridgeBaseInitializer)
+  href: api/Org.Apache.Plc4x.JavaNs.Api.Model.PlcSubscriptionTag.html#Org_Apache_Plc4x_JavaNs_Api_Model_PlcSubscriptionTag__ctor_MASES_JCOBridge_C2JBridge_IJVMBridgeBaseInitializer_
+  commentId: M:Org.Apache.Plc4x.JavaNs.Api.Model.PlcSubscriptionTag.#ctor(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  name.vb: New(IJVMBridgeBaseInitializer)
+  fullName: Org.Apache.Plc4x.JavaNs.Api.Model.PlcSubscriptionTag.PlcSubscriptionTag(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  fullName.vb: Org.Apache.Plc4x.JavaNs.Api.Model.PlcSubscriptionTag.New(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  nameWithType: PlcSubscriptionTag.PlcSubscriptionTag(IJVMBridgeBaseInitializer)
+  nameWithType.vb: PlcSubscriptionTag.New(IJVMBridgeBaseInitializer)
 - uid: Org.Apache.Plc4x.JavaNs.Api.Model.PlcSubscriptionTag.#ctor(System.Object[])
   name: PlcSubscriptionTag(params object[])
   href: api/Org.Apache.Plc4x.JavaNs.Api.Model.PlcSubscriptionTag.html#Org_Apache_Plc4x_JavaNs_Api_Model_PlcSubscriptionTag__ctor_System_Object___
@@ -10423,6 +11603,15 @@ references:
   fullName.vb: Org.Apache.Plc4x.JavaNs.Api.Model.PlcTag.New()
   nameWithType: PlcTag.PlcTag()
   nameWithType.vb: PlcTag.New()
+- uid: Org.Apache.Plc4x.JavaNs.Api.Model.PlcTag.#ctor(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  name: PlcTag(IJVMBridgeBaseInitializer)
+  href: api/Org.Apache.Plc4x.JavaNs.Api.Model.PlcTag.html#Org_Apache_Plc4x_JavaNs_Api_Model_PlcTag__ctor_MASES_JCOBridge_C2JBridge_IJVMBridgeBaseInitializer_
+  commentId: M:Org.Apache.Plc4x.JavaNs.Api.Model.PlcTag.#ctor(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  name.vb: New(IJVMBridgeBaseInitializer)
+  fullName: Org.Apache.Plc4x.JavaNs.Api.Model.PlcTag.PlcTag(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  fullName.vb: Org.Apache.Plc4x.JavaNs.Api.Model.PlcTag.New(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  nameWithType: PlcTag.PlcTag(IJVMBridgeBaseInitializer)
+  nameWithType.vb: PlcTag.New(IJVMBridgeBaseInitializer)
 - uid: Org.Apache.Plc4x.JavaNs.Api.Model.PlcTag.#ctor(System.Object[])
   name: PlcTag(params object[])
   href: api/Org.Apache.Plc4x.JavaNs.Api.Model.PlcTag.html#Org_Apache_Plc4x_JavaNs_Api_Model_PlcTag__ctor_System_Object___
@@ -10561,6 +11750,15 @@ references:
   fullName.vb: Org.Apache.Plc4x.JavaNs.Api.PlcConnection.New()
   nameWithType: PlcConnection.PlcConnection()
   nameWithType.vb: PlcConnection.New()
+- uid: Org.Apache.Plc4x.JavaNs.Api.PlcConnection.#ctor(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  name: PlcConnection(IJVMBridgeBaseInitializer)
+  href: api/Org.Apache.Plc4x.JavaNs.Api.PlcConnection.html#Org_Apache_Plc4x_JavaNs_Api_PlcConnection__ctor_MASES_JCOBridge_C2JBridge_IJVMBridgeBaseInitializer_
+  commentId: M:Org.Apache.Plc4x.JavaNs.Api.PlcConnection.#ctor(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  name.vb: New(IJVMBridgeBaseInitializer)
+  fullName: Org.Apache.Plc4x.JavaNs.Api.PlcConnection.PlcConnection(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  fullName.vb: Org.Apache.Plc4x.JavaNs.Api.PlcConnection.New(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  nameWithType: PlcConnection.PlcConnection(IJVMBridgeBaseInitializer)
+  nameWithType.vb: PlcConnection.New(IJVMBridgeBaseInitializer)
 - uid: Org.Apache.Plc4x.JavaNs.Api.PlcConnection.#ctor(System.Object[])
   name: PlcConnection(params object[])
   href: api/Org.Apache.Plc4x.JavaNs.Api.PlcConnection.html#Org_Apache_Plc4x_JavaNs_Api_PlcConnection__ctor_System_Object___
@@ -10822,6 +12020,15 @@ references:
   fullName.vb: Org.Apache.Plc4x.JavaNs.Api.PlcConnectionManager.New()
   nameWithType: PlcConnectionManager.PlcConnectionManager()
   nameWithType.vb: PlcConnectionManager.New()
+- uid: Org.Apache.Plc4x.JavaNs.Api.PlcConnectionManager.#ctor(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  name: PlcConnectionManager(IJVMBridgeBaseInitializer)
+  href: api/Org.Apache.Plc4x.JavaNs.Api.PlcConnectionManager.html#Org_Apache_Plc4x_JavaNs_Api_PlcConnectionManager__ctor_MASES_JCOBridge_C2JBridge_IJVMBridgeBaseInitializer_
+  commentId: M:Org.Apache.Plc4x.JavaNs.Api.PlcConnectionManager.#ctor(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  name.vb: New(IJVMBridgeBaseInitializer)
+  fullName: Org.Apache.Plc4x.JavaNs.Api.PlcConnectionManager.PlcConnectionManager(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  fullName.vb: Org.Apache.Plc4x.JavaNs.Api.PlcConnectionManager.New(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  nameWithType: PlcConnectionManager.PlcConnectionManager(IJVMBridgeBaseInitializer)
+  nameWithType.vb: PlcConnectionManager.New(IJVMBridgeBaseInitializer)
 - uid: Org.Apache.Plc4x.JavaNs.Api.PlcConnectionManager.#ctor(System.Object[])
   name: PlcConnectionManager(params object[])
   href: api/Org.Apache.Plc4x.JavaNs.Api.PlcConnectionManager.html#Org_Apache_Plc4x_JavaNs_Api_PlcConnectionManager__ctor_System_Object___
@@ -10940,6 +12147,15 @@ references:
   fullName.vb: Org.Apache.Plc4x.JavaNs.Api.PlcDriver.New()
   nameWithType: PlcDriver.PlcDriver()
   nameWithType.vb: PlcDriver.New()
+- uid: Org.Apache.Plc4x.JavaNs.Api.PlcDriver.#ctor(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  name: PlcDriver(IJVMBridgeBaseInitializer)
+  href: api/Org.Apache.Plc4x.JavaNs.Api.PlcDriver.html#Org_Apache_Plc4x_JavaNs_Api_PlcDriver__ctor_MASES_JCOBridge_C2JBridge_IJVMBridgeBaseInitializer_
+  commentId: M:Org.Apache.Plc4x.JavaNs.Api.PlcDriver.#ctor(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  name.vb: New(IJVMBridgeBaseInitializer)
+  fullName: Org.Apache.Plc4x.JavaNs.Api.PlcDriver.PlcDriver(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  fullName.vb: Org.Apache.Plc4x.JavaNs.Api.PlcDriver.New(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  nameWithType: PlcDriver.PlcDriver(IJVMBridgeBaseInitializer)
+  nameWithType.vb: PlcDriver.New(IJVMBridgeBaseInitializer)
 - uid: Org.Apache.Plc4x.JavaNs.Api.PlcDriver.#ctor(System.Object[])
   name: PlcDriver(params object[])
   href: api/Org.Apache.Plc4x.JavaNs.Api.PlcDriver.html#Org_Apache_Plc4x_JavaNs_Api_PlcDriver__ctor_System_Object___
@@ -11123,6 +12339,15 @@ references:
   fullName.vb: Org.Apache.Plc4x.JavaNs.Api.PlcDriverManager.New()
   nameWithType: PlcDriverManager.PlcDriverManager()
   nameWithType.vb: PlcDriverManager.New()
+- uid: Org.Apache.Plc4x.JavaNs.Api.PlcDriverManager.#ctor(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  name: PlcDriverManager(IJVMBridgeBaseInitializer)
+  href: api/Org.Apache.Plc4x.JavaNs.Api.PlcDriverManager.html#Org_Apache_Plc4x_JavaNs_Api_PlcDriverManager__ctor_MASES_JCOBridge_C2JBridge_IJVMBridgeBaseInitializer_
+  commentId: M:Org.Apache.Plc4x.JavaNs.Api.PlcDriverManager.#ctor(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  name.vb: New(IJVMBridgeBaseInitializer)
+  fullName: Org.Apache.Plc4x.JavaNs.Api.PlcDriverManager.PlcDriverManager(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  fullName.vb: Org.Apache.Plc4x.JavaNs.Api.PlcDriverManager.New(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  nameWithType: PlcDriverManager.PlcDriverManager(IJVMBridgeBaseInitializer)
+  nameWithType.vb: PlcDriverManager.New(IJVMBridgeBaseInitializer)
 - uid: Org.Apache.Plc4x.JavaNs.Api.PlcDriverManager.#ctor(System.Object[])
   name: PlcDriverManager(params object[])
   href: api/Org.Apache.Plc4x.JavaNs.Api.PlcDriverManager.html#Org_Apache_Plc4x_JavaNs_Api_PlcDriverManager__ctor_System_Object___
@@ -11293,6 +12518,15 @@ references:
   fullName.vb: Org.Apache.Plc4x.JavaNs.Api.Types.OptionType.New()
   nameWithType: OptionType.OptionType()
   nameWithType.vb: OptionType.New()
+- uid: Org.Apache.Plc4x.JavaNs.Api.Types.OptionType.#ctor(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  name: OptionType(IJVMBridgeBaseInitializer)
+  href: api/Org.Apache.Plc4x.JavaNs.Api.Types.OptionType.html#Org_Apache_Plc4x_JavaNs_Api_Types_OptionType__ctor_MASES_JCOBridge_C2JBridge_IJVMBridgeBaseInitializer_
+  commentId: M:Org.Apache.Plc4x.JavaNs.Api.Types.OptionType.#ctor(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  name.vb: New(IJVMBridgeBaseInitializer)
+  fullName: Org.Apache.Plc4x.JavaNs.Api.Types.OptionType.OptionType(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  fullName.vb: Org.Apache.Plc4x.JavaNs.Api.Types.OptionType.New(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  nameWithType: OptionType.OptionType(IJVMBridgeBaseInitializer)
+  nameWithType.vb: OptionType.New(IJVMBridgeBaseInitializer)
 - uid: Org.Apache.Plc4x.JavaNs.Api.Types.OptionType.#ctor(System.Object[])
   name: OptionType(params object[])
   href: api/Org.Apache.Plc4x.JavaNs.Api.Types.OptionType.html#Org_Apache_Plc4x_JavaNs_Api_Types_OptionType__ctor_System_Object___
@@ -11509,6 +12743,15 @@ references:
   fullName.vb: Org.Apache.Plc4x.JavaNs.Api.Types.PlcResponseCode.New()
   nameWithType: PlcResponseCode.PlcResponseCode()
   nameWithType.vb: PlcResponseCode.New()
+- uid: Org.Apache.Plc4x.JavaNs.Api.Types.PlcResponseCode.#ctor(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  name: PlcResponseCode(IJVMBridgeBaseInitializer)
+  href: api/Org.Apache.Plc4x.JavaNs.Api.Types.PlcResponseCode.html#Org_Apache_Plc4x_JavaNs_Api_Types_PlcResponseCode__ctor_MASES_JCOBridge_C2JBridge_IJVMBridgeBaseInitializer_
+  commentId: M:Org.Apache.Plc4x.JavaNs.Api.Types.PlcResponseCode.#ctor(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  name.vb: New(IJVMBridgeBaseInitializer)
+  fullName: Org.Apache.Plc4x.JavaNs.Api.Types.PlcResponseCode.PlcResponseCode(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  fullName.vb: Org.Apache.Plc4x.JavaNs.Api.Types.PlcResponseCode.New(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  nameWithType: PlcResponseCode.PlcResponseCode(IJVMBridgeBaseInitializer)
+  nameWithType.vb: PlcResponseCode.New(IJVMBridgeBaseInitializer)
 - uid: Org.Apache.Plc4x.JavaNs.Api.Types.PlcResponseCode.#ctor(System.Object[])
   name: PlcResponseCode(params object[])
   href: api/Org.Apache.Plc4x.JavaNs.Api.Types.PlcResponseCode.html#Org_Apache_Plc4x_JavaNs_Api_Types_PlcResponseCode__ctor_System_Object___
@@ -11822,6 +13065,15 @@ references:
   fullName.vb: Org.Apache.Plc4x.JavaNs.Api.Types.PlcSubscriptionType.New()
   nameWithType: PlcSubscriptionType.PlcSubscriptionType()
   nameWithType.vb: PlcSubscriptionType.New()
+- uid: Org.Apache.Plc4x.JavaNs.Api.Types.PlcSubscriptionType.#ctor(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  name: PlcSubscriptionType(IJVMBridgeBaseInitializer)
+  href: api/Org.Apache.Plc4x.JavaNs.Api.Types.PlcSubscriptionType.html#Org_Apache_Plc4x_JavaNs_Api_Types_PlcSubscriptionType__ctor_MASES_JCOBridge_C2JBridge_IJVMBridgeBaseInitializer_
+  commentId: M:Org.Apache.Plc4x.JavaNs.Api.Types.PlcSubscriptionType.#ctor(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  name.vb: New(IJVMBridgeBaseInitializer)
+  fullName: Org.Apache.Plc4x.JavaNs.Api.Types.PlcSubscriptionType.PlcSubscriptionType(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  fullName.vb: Org.Apache.Plc4x.JavaNs.Api.Types.PlcSubscriptionType.New(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  nameWithType: PlcSubscriptionType.PlcSubscriptionType(IJVMBridgeBaseInitializer)
+  nameWithType.vb: PlcSubscriptionType.New(IJVMBridgeBaseInitializer)
 - uid: Org.Apache.Plc4x.JavaNs.Api.Types.PlcSubscriptionType.#ctor(System.Object[])
   name: PlcSubscriptionType(params object[])
   href: api/Org.Apache.Plc4x.JavaNs.Api.Types.PlcSubscriptionType.html#Org_Apache_Plc4x_JavaNs_Api_Types_PlcSubscriptionType__ctor_System_Object___
@@ -12031,6 +13283,15 @@ references:
   fullName.vb: Org.Apache.Plc4x.JavaNs.Api.Types.PlcValueType.New()
   nameWithType: PlcValueType.PlcValueType()
   nameWithType.vb: PlcValueType.New()
+- uid: Org.Apache.Plc4x.JavaNs.Api.Types.PlcValueType.#ctor(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  name: PlcValueType(IJVMBridgeBaseInitializer)
+  href: api/Org.Apache.Plc4x.JavaNs.Api.Types.PlcValueType.html#Org_Apache_Plc4x_JavaNs_Api_Types_PlcValueType__ctor_MASES_JCOBridge_C2JBridge_IJVMBridgeBaseInitializer_
+  commentId: M:Org.Apache.Plc4x.JavaNs.Api.Types.PlcValueType.#ctor(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  name.vb: New(IJVMBridgeBaseInitializer)
+  fullName: Org.Apache.Plc4x.JavaNs.Api.Types.PlcValueType.PlcValueType(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  fullName.vb: Org.Apache.Plc4x.JavaNs.Api.Types.PlcValueType.New(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  nameWithType: PlcValueType.PlcValueType(IJVMBridgeBaseInitializer)
+  nameWithType.vb: PlcValueType.New(IJVMBridgeBaseInitializer)
 - uid: Org.Apache.Plc4x.JavaNs.Api.Types.PlcValueType.#ctor(System.Object[])
   name: PlcValueType(params object[])
   href: api/Org.Apache.Plc4x.JavaNs.Api.Types.PlcValueType.html#Org_Apache_Plc4x_JavaNs_Api_Types_PlcValueType__ctor_System_Object___
@@ -12642,6 +13903,15 @@ references:
   fullName.vb: Org.Apache.Plc4x.JavaNs.Api.Value.PlcValue.New()
   nameWithType: PlcValue.PlcValue()
   nameWithType.vb: PlcValue.New()
+- uid: Org.Apache.Plc4x.JavaNs.Api.Value.PlcValue.#ctor(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  name: PlcValue(IJVMBridgeBaseInitializer)
+  href: api/Org.Apache.Plc4x.JavaNs.Api.Value.PlcValue.html#Org_Apache_Plc4x_JavaNs_Api_Value_PlcValue__ctor_MASES_JCOBridge_C2JBridge_IJVMBridgeBaseInitializer_
+  commentId: M:Org.Apache.Plc4x.JavaNs.Api.Value.PlcValue.#ctor(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  name.vb: New(IJVMBridgeBaseInitializer)
+  fullName: Org.Apache.Plc4x.JavaNs.Api.Value.PlcValue.PlcValue(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  fullName.vb: Org.Apache.Plc4x.JavaNs.Api.Value.PlcValue.New(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  nameWithType: PlcValue.PlcValue(IJVMBridgeBaseInitializer)
+  nameWithType.vb: PlcValue.New(IJVMBridgeBaseInitializer)
 - uid: Org.Apache.Plc4x.JavaNs.Api.Value.PlcValue.#ctor(System.Object[])
   name: PlcValue(params object[])
   href: api/Org.Apache.Plc4x.JavaNs.Api.Value.PlcValue.html#Org_Apache_Plc4x_JavaNs_Api_Value_PlcValue__ctor_System_Object___
@@ -13406,6 +14676,15 @@ references:
   fullName.vb: Org.Apache.Plc4x.JavaNs.DefaultPlcDriverManager.New(Java.Lang.ClassLoader)
   nameWithType: DefaultPlcDriverManager.DefaultPlcDriverManager(ClassLoader)
   nameWithType.vb: DefaultPlcDriverManager.New(ClassLoader)
+- uid: Org.Apache.Plc4x.JavaNs.DefaultPlcDriverManager.#ctor(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  name: DefaultPlcDriverManager(IJVMBridgeBaseInitializer)
+  href: api/Org.Apache.Plc4x.JavaNs.DefaultPlcDriverManager.html#Org_Apache_Plc4x_JavaNs_DefaultPlcDriverManager__ctor_MASES_JCOBridge_C2JBridge_IJVMBridgeBaseInitializer_
+  commentId: M:Org.Apache.Plc4x.JavaNs.DefaultPlcDriverManager.#ctor(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  name.vb: New(IJVMBridgeBaseInitializer)
+  fullName: Org.Apache.Plc4x.JavaNs.DefaultPlcDriverManager.DefaultPlcDriverManager(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  fullName.vb: Org.Apache.Plc4x.JavaNs.DefaultPlcDriverManager.New(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  nameWithType: DefaultPlcDriverManager.DefaultPlcDriverManager(IJVMBridgeBaseInitializer)
+  nameWithType.vb: DefaultPlcDriverManager.New(IJVMBridgeBaseInitializer)
 - uid: Org.Apache.Plc4x.JavaNs.DefaultPlcDriverManager.#ctor(System.Object[])
   name: DefaultPlcDriverManager(params object[])
   href: api/Org.Apache.Plc4x.JavaNs.DefaultPlcDriverManager.html#Org_Apache_Plc4x_JavaNs_DefaultPlcDriverManager__ctor_System_Object___
