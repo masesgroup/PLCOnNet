@@ -8,7 +8,7 @@
 
 RootModule = 'MASES.PLCOnNetPS.psm1'
 
-ModuleVersion = '0.13.1'
+ModuleVersion = '0.13.2'
 
 CompatiblePSEditions = 'Desktop', 'Core'
 
