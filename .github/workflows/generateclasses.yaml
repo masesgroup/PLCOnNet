@@ -40,8 +40,8 @@ jobs:
       DOTNET_CreateDumpDiagnostics: 1
       DOTNET_CreateDumpVerboseDiagnostics: 1
       DOTNET_EnableCrashReport: 1
-      JCOBRIDGE_LicensePath: ${{ secrets.JCOBRIDGE_ENCODED_2_6_5 }}
-      JNet_Version: 2.6.5
+      JCOBRIDGE_LicensePath: ${{ secrets.JCOBRIDGE_ENCODED_2_6_6 }}
+      JNet_Version: 2.6.6
       
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
@@ -96,7 +96,7 @@ jobs:
         run: Remove-Item .\src\net\PLCOnNet\Generated\* -Recurse -Force -Exclude README.md
 
       - name: Clear Java generated files
-        run: Remove-Item .\src\jvm\plconnet\src\main\java\org\mases\plconnet\generated\* -Recurse -Force -Exclude README.md
+        run: Remove-Item .\src\jvm\plconnet\src\main\java\org\mases\plconnet\generated\* -Recurse -Force -Exclude README.md,.editorconfig
 
       - name: Get last workflow run of JNet
         if: ${{ inputs.UseLastRepositoryBuild == true }}
