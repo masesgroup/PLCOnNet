@@ -42,7 +42,7 @@ jobs:
         with:
           fetch-depth: '1'
 
-      - run: (Get-Content ${{ github.workspace }}\src\jvm\plconnet\pom.xml).Replace('<knetVersion>${{ inputs.CurrentVersion }}.0</knetVersion>', '<knetVersion>${{ inputs.NewVersion }}.0</knetVersion>') | Set-Content ${{ github.workspace }}\src\jvm\plconnet\pom.xml
+      - run: (Get-Content ${{ github.workspace }}\src\jvm\plconnet\pom.xml).Replace('<plconnetversion>${{ inputs.CurrentVersion }}.0</plconnetversion>', '<plconnetversion>${{ inputs.NewVersion }}.0</plconnetversion>') | Set-Content ${{ github.workspace }}\src\jvm\plconnet\pom.xml
       
       - run: (Get-Content ${{ github.workspace }}\src\net\Common\Common.props).Replace('<Version>${{ inputs.CurrentVersion }}.0${{ inputs.PreReleaseCurrentVersion }}</Version>', '<Version>${{ inputs.NewVersion }}.0${{ inputs.PreReleaseNewVersion }}</Version>') | Set-Content ${{ github.workspace }}\src\net\Common\Common.props
 
