@@ -177,13 +177,11 @@ See [PLCOnNet usage](src/documentation/articles/usage.md) for other examples.
 
 ### Community and Contribution
 
-Do you like the project? 
-- Request your free [community subscription](https://www.jcobridge.com/pricing-25/).
+If you find PLCOnNet useful:
 
-Do you want to help us?
-- put a :star: on this project
-- open [issues](https://github.com/masesgroup/PLCOnNet/issues) to request features or report bugs :bug:
-- improves the project with Pull Requests
+* Leave a ⭐ on the repository
+* Open [issues](https://github.com/masesgroup/PLCOnNet/issues) to report bugs 🐛 or request features
+* Submit Pull Requests to improve the project
 
 This project adheres to the Contributor [Covenant code of conduct](CODE_OF_CONDUCT.md). By participating, you are expected to uphold this code. Please report unacceptable behavior to coc_reporting@masesgroup.com.
 
@@ -222,7 +220,7 @@ PLCOnNet uses [JNet](https://github.com/masesgroup/JNet), and indeed [JCOBridge]
   * Documentation is shared;
 * **Dynamic code**: it helps to write a Java/Scala/Kotlin/etc seamless language code directly inside a standard .NET application written in C#/VB.NET: look at this [simple example](https://www.jcobridge.com/net-examples/dotnet-examples/) and [APIs extensibility](https://jnet.masesgroup.com/articles/API_extensibility.html).
 
-[JCOBridge 2.6.*](https://www.jcobridge.com) can be used for free without any obligations; you need to purchase a commercial license, or uninstall the software, if you have direct or indirect incomes from the product usage.
+[JCOBridge 2.6.*](https://www.jcobridge.com) can be used for free without any obligations. A commercial license must be purchased — or the software uninstalled — if you derive direct or indirect income from its usage.
 
 ### JCOBridge resources
 
@@ -232,7 +230,7 @@ Have a look at the following JCOBridge resources:
 |:---:	|:---:	|:---:	|
 |PLCOnNet | > 0.12.* series | 0.12.3 and > 0.13.* series |
 |Release notes|[Link](https://www.jcobridge.com/release-notes/)| [Link](https://www.jcobridge.com/release-notes/)|
-|Community Edition|[Conditions](https://www.jcobridge.com/pricing-25/)|[Conditions](https://www.jcobridge.com/pricing-25/)|
-|Commercial Edition|[Information](https://www.jcobridge.com/pricing-26/)|[Information](https://www.jcobridge.com/pricing-26/)|
+|Community Edition|[Conditions](https://www.jcobridge.com/pricing-25/)|[Conditions](https://www.jcobridge.com/pricing-26/)|
+|Commercial Edition|[Information](https://www.jcobridge.com/pricing-25/)|[Information](https://www.jcobridge.com/pricing-26/)|
 
 Latest release: [![JCOBridge nuget](https://img.shields.io/nuget/v/MASES.JCOBridge)](https://www.nuget.org/packages/MASES.JCOBridge)
