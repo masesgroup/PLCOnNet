@@ -203,10 +203,10 @@ This project adheres to the Contributor [Covenant code of conduct](CODE_OF_CONDU
 * [PLCOnNet PowerShell usage](src/documentation/articles/usagePS.md)
 * [PLCOnNet Command-line switches](src/documentation/articles/commandlineswitch.md)
 
-### News
+### Recent changes
 
-* V0.12.0+: First version based on [PLC4X™](https://plc4x.apache.org) 0.12.0
 * V0.13.0+: Version based on [PLC4X™](https://plc4x.apache.org) 0.13.*
+* V0.12.0+: First version based on [PLC4X™](https://plc4x.apache.org) 0.12.0
 
 ---
 
@@ -225,7 +225,8 @@ PLCOnNet uses [JNet](https://github.com/masesgroup/JNet), and indeed [JCOBridge]
   * Documentation is shared;
 * **Dynamic code**: it helps to write a Java/Scala/Kotlin/etc seamless language code directly inside a standard .NET application written in C#/VB.NET: look at this [simple example](https://www.jcobridge.com/net-examples/dotnet-examples/) and [APIs extensibility](https://jnet.masesgroup.com/articles/API_extensibility.html).
 
-[JCOBridge 2.6.*](https://www.jcobridge.com) can be used for free without any obligations. A commercial license must be purchased — or the software uninstalled — if you derive direct or indirect income from its usage.
+> [!NOTE]
+> [JCOBridge 2.6.\*](https://www.jcobridge.com) can be used for free without any obligations. A commercial license must be purchased — or the software uninstalled — if you derive direct or indirect income from its usage.
 
 ### JCOBridge resources
 
