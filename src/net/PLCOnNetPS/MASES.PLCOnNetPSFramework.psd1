@@ -94,8 +94,10 @@ FileList = ''
 PrivateData = @{
 
     PSData = @{
+	
+        Prerelease = ''
 
-        Tags = @('PLCOnNetPS', 'PLCOnNet', 'PSEdition_Core', 'PSEdition_Desktop', 'Windows', 'Linux', 'JVM', 'Java', 'PLC4X™', 'PLC', 'IOT', 'bridge', 'gateway')
+        Tags = @('PLCOnNetPS', 'PLCOnNet', 'PSEdition_Desktop', 'Windows', 'Linux', 'JVM', 'Java', 'PLC4X™', 'PLC', 'IOT', 'bridge', 'gateway')
 
         LicenseUri = 'https://github.com/masesgroup/PLCOnNet/blob/master/LICENSE'
 
