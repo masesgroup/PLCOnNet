@@ -73,6 +73,8 @@ AliasesToExport = @()
 PrivateData = @{
 
     PSData = @{
+	
+        Prerelease = ''
 
         Tags = @('PLCOnNetPS', 'PLCOnNet', 'PSEdition_Core', 'PSEdition_Desktop', 'Windows', 'Linux', 'JVM', 'Java', 'PLC4X™', 'PLC', 'IOT', 'bridge', 'gateway')
 
