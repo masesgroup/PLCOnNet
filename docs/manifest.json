@@ -722,7 +722,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "Org.Apache.Plc4x.JavaNs.Api.Listener.ConnectionStateListenerDirect",
-      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.Listener.ConnectionStateListenerDirect.yml\" sourcestartlinenumber=\"1\">Direct override of <xref href=\"Org.Apache.Plc4x.JavaNs.Api.Listener.ConnectionStateListener\" data-throw-if-not-resolved=\"false\"></xref> or its generic type if there is one</p>\n"
+      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.Listener.ConnectionStateListenerDirect.yml\" sourcestartlinenumber=\"1\">Concrete CLR representation of <xref href=\"Org.Apache.Plc4x.JavaNs.Api.Listener.ConnectionStateListener\" data-throw-if-not-resolved=\"false\"></xref> returned by the JVM.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -750,7 +750,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "Org.Apache.Plc4x.JavaNs.Api.Listener.EventListenerDirect",
-      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.Listener.EventListenerDirect.yml\" sourcestartlinenumber=\"1\">Direct override of <xref href=\"Org.Apache.Plc4x.JavaNs.Api.Listener.EventListener\" data-throw-if-not-resolved=\"false\"></xref> or its generic type if there is one</p>\n"
+      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.Listener.EventListenerDirect.yml\" sourcestartlinenumber=\"1\">Concrete CLR representation of <xref href=\"Org.Apache.Plc4x.JavaNs.Api.Listener.EventListener\" data-throw-if-not-resolved=\"false\"></xref> returned by the JVM.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -820,7 +820,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "Org.Apache.Plc4x.JavaNs.Api.Listener.MessageExchangeListenerDirect",
-      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.Listener.MessageExchangeListenerDirect.yml\" sourcestartlinenumber=\"1\">Direct override of <xref href=\"Org.Apache.Plc4x.JavaNs.Api.Listener.MessageExchangeListener\" data-throw-if-not-resolved=\"false\"></xref> or its generic type if there is one</p>\n"
+      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.Listener.MessageExchangeListenerDirect.yml\" sourcestartlinenumber=\"1\">Concrete CLR representation of <xref href=\"Org.Apache.Plc4x.JavaNs.Api.Listener.MessageExchangeListener\" data-throw-if-not-resolved=\"false\"></xref> returned by the JVM.</p>\n"
     },
     {
       "type": "ManagedReference",
