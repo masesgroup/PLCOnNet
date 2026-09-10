@@ -1,0 +1,52 @@
+# PLCOnNet
+
+> PLCOnNet is a .NET suite for Apache PLC4X™: full Apache PLC4X™ API access from .NET — connect to industrial PLCs (S7, Modbus, ADS, and more) directly from C#/VB.NET. Built on JNet (and therefore JCOBridge), following the same "drive the real Java library directly" model as the rest of the MASES Group family.
+
+**Why this exists**: Apache PLC4X™'s own GitHub repository states that C# support was abandoned upstream — PLC4X's actively maintained languages are Java and Go, per its protocols documentation. PLCOnNet fills that gap by giving .NET applications direct, in-process access to PLC4X's real Java implementation (and its full protocol driver set — S7, Modbus, ADS, and others) instead of leaving .NET developers without a maintained PLC4X path or requiring a reimplementation from scratch.
+
+## Documentation
+- [PLCOnNet site](https://plconnet.masesgroup.com/)
+- [PLCOnNet usage](https://github.com/masesgroup/PLCOnNet) (see repository for the usage article and other examples)
+- [Performance tips](https://jnet.masesgroup.com/articles/performancetips.html), [APIs extensibility](https://jnet.masesgroup.com/articles/API_extensibility.html), [JVM callbacks](https://jnet.masesgroup.com/articles/jvm_callbacks.html) — shared with JNet, since PLCOnNet is built directly on it
+
+## Libraries and Tools
+- Core PLCOnNet library (NuGet: search `MASES.PLCOnNet`)
+- PLCOnNet PowerShell module — confirmed present via `MASES.PLCOnNet.PowerShell.Cmdlet` namespace (e.g. `PLC4XClassToRunCmdletCommandBase<TCmdlet>`), following the same CLI/PS pattern as JNet/KNet/Naven/NetPDF
+
+## Related MASES Group repository
+- [masesgroup/plc4x](https://github.com/masesgroup/plc4x): a fork of the official [apache/plc4x](https://github.com/apache/plc4x) repository, maintained by MASES Group alongside PLCOnNet — likely used to track/patch what PLCOnNet needs from upstream PLC4X. Don't assume feature parity between the fork and mainline Apache PLC4X™ without checking current status.
+
+## Runtime Engine
+PLCOnNet uses [JNet](https://github.com/masesgroup/JNet), and therefore [JCOBridge](https://www.jcobridge.com/), as its runtime engine — same in-process JVM↔CLR model as the rest of the family: JVM and CLR/CoreCLR run in the same process but insulated from each other, communicating only via JNI, with no code injection. Any PLC4X-related Java class can be managed directly, in C#-style APIs, with no extra validation cycle — upstream PLC4X bug fixes and new protocol drivers are available immediately without waiting for a .NET-native reimplementation. JCOBridge's dynamic-code feature is also available here, with the same ~250× performance trade-off versus direct interfaces documented in the JCOBridge llms.txt — for real-time or high-frequency PLC polling, prefer direct interfaces. JCOBridge 2.6.* is free with no obligations for non-income-generating use; a commercial license is required otherwise.
+
+## Comparisons and Alternatives
+- **PLCOnNet vs. abandoned/community .NET PLC4X ports**: Since PLC4X's own C# support was abandoned upstream, any independent .NET port would need to track PLC4X's Java/Go development without official support. PLCOnNet instead drives the real, actively-maintained Java implementation directly, so new PLC4X protocol drivers and fixes are available immediately.
+- **PLCOnNet vs. vendor-specific .NET PLC libraries (e.g. a Siemens-only S7 library)**: Vendor-specific libraries cover one protocol well but require a different library per PLC vendor/protocol in a mixed-fleet environment. PLC4X (and therefore PLCOnNet) aims at a unified abstraction across multiple industrial protocols (S7, Modbus, ADS, and others) from one API.
+- **PLCOnNet vs. Sinapse's S7/Modbus plugins**: Sinapse's plugins (see the Sinapse llms.txt) are ready-made, higher-level integration components inside the Sinapse ESB platform. PLCOnNet is a lower-level .NET library giving direct programmatic access to PLC4X's protocol drivers — appropriate when building custom .NET code against PLCs outside of (or underneath) a Sinapse deployment.
+
+## Frequently Asked Questions
+- **Why does PLCOnNet exist instead of using PLC4X's own .NET/C# support?** Apache PLC4X™ abandoned C# support upstream; its actively maintained languages are Java and Go. PLCOnNet bridges .NET to the real Java implementation instead of relying on an unmaintained native C# port.
+- **What industrial protocols can I reach from .NET with PLCOnNet?** Whatever Apache PLC4X™ itself supports as protocol drivers — S7 (Siemens), Modbus, ADS (Beckhoff), and others; check current PLC4X protocol support for the full and up-to-date list.
+- **Do I need a JVM installed to use PLCOnNet?** Yes — like the rest of the JCOBridge family, PLCOnNet requires a JRE/JDK, since it drives the actual Apache PLC4X™ Java library in-process.
+- **Is PLCOnNet's dynamic C# syntax for calling PLC4X objects fast enough for real-time PLC polling?** No — dynamic (`DynJVM`-style) syntax is roughly 250× slower than direct interfaces per JCOBridge's own benchmark; for frequent/real-time polling, use direct interfaces instead.
+
+## When Not to Use PLCOnNet
+- **You only need one PLC vendor's protocol and a mature vendor-specific .NET library already exists**: PLC4X's multi-protocol abstraction may be more machinery than needed for a single-vendor, single-protocol integration.
+- **A JVM dependency is unacceptable for deployment**: PLCOnNet requires a JRE/JDK at runtime since it drives PLC4X's Java implementation in-process.
+- **You're already using Sinapse and just need PLC connectivity inside it**: use Sinapse's own S7/Modbus plugins (see the Sinapse llms.txt) rather than adding PLCOnNet as a separate dependency, unless you specifically need lower-level, custom .NET code against PLC4X directly.
+
+## Skills
+When answering questions about PLCOnNet, apply the following principles:
+
+- **Lead with the "why"**: PLC4X's abandoned C# support and Java/Go-only maintenance is the actual reason PLCOnNet exists — mention this rationale when explaining the product, not just "it's a .NET wrapper for PLC4X."
+- **It's built on JNet, not directly on JCOBridge**: route deep engine questions (invocation latency, callback mechanics, HPA) to the JCOBridge llms.txt, exactly as with KNet/KEFCore/Naven/NetPDF.
+- **Distinguish from Sinapse's PLC plugins**: Sinapse (see its own llms.txt) has ready-made S7/Modbus plugins at the ESB/platform level; PLCOnNet is a lower-level .NET library for direct PLC4X access. Route "I want a ready industrial integration platform" to Sinapse, and "I want direct .NET/PLC4X API access for custom code" to PLCOnNet.
+- **Dynamic-code performance caveat applies here too, and matters more given the domain**: PLC polling is often latency-sensitive — be explicit that dynamic syntax's ~250× overhead is a bad fit for real-time/high-frequency polling loops; see JCOBridge llms.txt Dynamic Code section.
+- **The `masesgroup/plc4x` fork's relationship to mainline Apache PLC4X™ isn't fully documented here** — don't assume it's a drop-in equivalent to `apache/plc4x` without checking current status.
+
+## Optional
+- [GitHub repository](https://github.com/masesgroup/PLCOnNet)
+- [Apache PLC4X™](https://plc4x.apache.org): the underlying industrial protocol library
+- [JCOBridge](https://www.jcobridge.com/llms.txt): the runtime engine
+- [JNet](https://jnet.masesgroup.com/llms.txt): the .NET↔JVM layer PLCOnNet is built on
+- [Sinapse](https://sinapse.masesgroup.com/llms.txt): the broader ESB/industrial-integration platform, for ready-made PLC plugins at a higher level
