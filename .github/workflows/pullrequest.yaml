@@ -88,7 +88,7 @@ jobs:
         uses: actions/setup-java@v6.0.0
         with: # running setup-java again overwrites the settings.xml
           distribution: temurin
-          java-version: 11
+          java-version: 17
           cache: 'maven'
 
       - name: Create Jars
@@ -134,7 +134,7 @@ jobs:
         uses: actions/setup-java@v6.0.0
         with: # running setup-java again overwrites the settings.xml
           distribution: temurin
-          java-version: 11
+          java-version: 17
           cache: 'maven'
 
       - name: Create Jars

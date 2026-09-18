@@ -77,11 +77,13 @@ jobs:
         uses: actions/setup-java@v6.0.0
         with: # running setup-java again overwrites the settings.xml
           distribution: temurin
-          java-version: 11
+          java-version: 17
           cache: 'maven'
 
       - name: Create Jars
         run: mvn "-DmavenSkipMain=true" --file ./src/jvm/plconnet/pom.xml --no-transfer-progress package
+
+      - run: dir .\jars\
 
       - name: Clear C# generated files
         run: Remove-Item .\src\net\PLCOnNet\Generated\* -Recurse -Force -Exclude README.md,.editorconfig
