@@ -83,6 +83,8 @@ jobs:
       - name: Create Jars
         run: mvn "-DmavenSkipMain=true" --file ./src/jvm/plconnet/pom.xml --no-transfer-progress package
 
+      - run: dir .\jars\
+
       - name: Clear C# generated files
         run: Remove-Item .\src\net\PLCOnNet\Generated\* -Recurse -Force -Exclude README.md,.editorconfig
 
