@@ -28,7 +28,7 @@ namespace MASES.PLCOnNetTemplate.PLCOnNetApp
                 // copied from https://plc4x.apache.org/plc4x/latest/users/getting-started/plc4j.html
                 Console.WriteLine($"Opening connection to {appArgs[0]}");
 
-                using var plcConnection = PlcDriverManager.Default.ConnectionManager.GetConnection(appArgs[0]);
+                using var plcConnection = PlcDriverManager.Default.ConnectionFactory.GetConnection(appArgs[0]);
 
                 ReadRequest(plcConnection);
                 WriteRequest(plcConnection);
