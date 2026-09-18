@@ -312,7 +312,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "Org.Apache.Plc4x.JavaNs.Api.Authentication.IPlcAuthentication",
-      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.Authentication.IPlcAuthentication.yml\" sourcestartlinenumber=\"1\">.NET interface skeleton to be manually developed following <a href=\"https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.13.1/org/apache/plc4x/java/api/authentication/PlcAuthentication.html\">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.13.1/org/apache/plc4x/java/api/authentication/PlcAuthentication.html</a></p>\n"
+      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.Authentication.IPlcAuthentication.yml\" sourcestartlinenumber=\"1\">.NET interface skeleton to be manually developed following <a href=\"https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/1.0.0/org/apache/plc4x/java/api/authentication/PlcAuthentication.html\">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/1.0.0/org/apache/plc4x/java/api/authentication/PlcAuthentication.html</a></p>\n"
     },
     {
       "type": "ManagedReference",
@@ -326,7 +326,35 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "Org.Apache.Plc4x.JavaNs.Api.Authentication.PlcAuthentication",
-      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.Authentication.PlcAuthentication.yml\" sourcestartlinenumber=\"1\"><a href=\"https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.13.1/org/apache/plc4x/java/api/authentication/PlcAuthentication.html\">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.13.1/org/apache/plc4x/java/api/authentication/PlcAuthentication.html</a></p>\n"
+      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.Authentication.PlcAuthentication.yml\" sourcestartlinenumber=\"1\"><a href=\"https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/1.0.0/org/apache/plc4x/java/api/authentication/PlcAuthentication.html\">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/1.0.0/org/apache/plc4x/java/api/authentication/PlcAuthentication.html</a></p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Org.Apache.Plc4x.JavaNs.Api.Authentication.PlcCertificateAuthentication.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Org.Apache.Plc4x.JavaNs.Api.Authentication.PlcCertificateAuthentication.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Org.Apache.Plc4x.JavaNs.Api.Authentication.PlcCertificateAuthentication",
+      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.Authentication.PlcCertificateAuthentication.yml\" sourcestartlinenumber=\"1\"><a href=\"https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/1.0.0/org/apache/plc4x/java/api/authentication/PlcCertificateAuthentication.html\">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/1.0.0/org/apache/plc4x/java/api/authentication/PlcCertificateAuthentication.html</a></p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Org.Apache.Plc4x.JavaNs.Api.Authentication.PlcNullAuthentication.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Org.Apache.Plc4x.JavaNs.Api.Authentication.PlcNullAuthentication.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Org.Apache.Plc4x.JavaNs.Api.Authentication.PlcNullAuthentication",
+      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.Authentication.PlcNullAuthentication.yml\" sourcestartlinenumber=\"1\"><a href=\"https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/1.0.0/org/apache/plc4x/java/api/authentication/PlcNullAuthentication.html\">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/1.0.0/org/apache/plc4x/java/api/authentication/PlcNullAuthentication.html</a></p>\n"
     },
     {
       "type": "ManagedReference",
@@ -340,7 +368,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "Org.Apache.Plc4x.JavaNs.Api.Authentication.PlcUsernamePasswordAuthentication",
-      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.Authentication.PlcUsernamePasswordAuthentication.yml\" sourcestartlinenumber=\"1\"><a href=\"https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.13.1/org/apache/plc4x/java/api/authentication/PlcUsernamePasswordAuthentication.html\">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.13.1/org/apache/plc4x/java/api/authentication/PlcUsernamePasswordAuthentication.html</a></p>\n"
+      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.Authentication.PlcUsernamePasswordAuthentication.yml\" sourcestartlinenumber=\"1\"><a href=\"https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/1.0.0/org/apache/plc4x/java/api/authentication/PlcUsernamePasswordAuthentication.html\">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/1.0.0/org/apache/plc4x/java/api/authentication/PlcUsernamePasswordAuthentication.html</a></p>\n"
     },
     {
       "type": "ManagedReference",
@@ -368,7 +396,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "Org.Apache.Plc4x.JavaNs.Api.EventPlcConnection",
-      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.EventPlcConnection.yml\" sourcestartlinenumber=\"1\"><a href=\"https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.13.1/org/apache/plc4x/java/api/EventPlcConnection.html\">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.13.1/org/apache/plc4x/java/api/EventPlcConnection.html</a></p>\n"
+      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.EventPlcConnection.yml\" sourcestartlinenumber=\"1\"><a href=\"https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/1.0.0/org/apache/plc4x/java/api/EventPlcConnection.html\">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/1.0.0/org/apache/plc4x/java/api/EventPlcConnection.html</a></p>\n"
     },
     {
       "type": "ManagedReference",
@@ -382,7 +410,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcConnectionException",
-      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcConnectionException.yml\" sourcestartlinenumber=\"1\"><a href=\"https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.13.1/org/apache/plc4x/java/api/exceptions/PlcConnectionException.html\">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.13.1/org/apache/plc4x/java/api/exceptions/PlcConnectionException.html</a></p>\n"
+      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcConnectionException.yml\" sourcestartlinenumber=\"1\"><a href=\"https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/1.0.0/org/apache/plc4x/java/api/exceptions/PlcConnectionException.html\">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/1.0.0/org/apache/plc4x/java/api/exceptions/PlcConnectionException.html</a></p>\n"
     },
     {
       "type": "ManagedReference",
@@ -396,7 +424,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcException",
-      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcException.yml\" sourcestartlinenumber=\"1\"><a href=\"https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.13.1/org/apache/plc4x/java/api/exceptions/PlcException.html\">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.13.1/org/apache/plc4x/java/api/exceptions/PlcException.html</a></p>\n"
+      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcException.yml\" sourcestartlinenumber=\"1\"><a href=\"https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/1.0.0/org/apache/plc4x/java/api/exceptions/PlcException.html\">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/1.0.0/org/apache/plc4x/java/api/exceptions/PlcException.html</a></p>\n"
     },
     {
       "type": "ManagedReference",
@@ -410,7 +438,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcIncompatibleDatatypeException",
-      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcIncompatibleDatatypeException.yml\" sourcestartlinenumber=\"1\"><a href=\"https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.13.1/org/apache/plc4x/java/api/exceptions/PlcIncompatibleDatatypeException.html\">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.13.1/org/apache/plc4x/java/api/exceptions/PlcIncompatibleDatatypeException.html</a></p>\n"
+      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcIncompatibleDatatypeException.yml\" sourcestartlinenumber=\"1\"><a href=\"https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/1.0.0/org/apache/plc4x/java/api/exceptions/PlcIncompatibleDatatypeException.html\">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/1.0.0/org/apache/plc4x/java/api/exceptions/PlcIncompatibleDatatypeException.html</a></p>\n"
     },
     {
       "type": "ManagedReference",
@@ -424,7 +452,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcInvalidTagException",
-      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcInvalidTagException.yml\" sourcestartlinenumber=\"1\"><a href=\"https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.13.1/org/apache/plc4x/java/api/exceptions/PlcInvalidTagException.html\">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.13.1/org/apache/plc4x/java/api/exceptions/PlcInvalidTagException.html</a></p>\n"
+      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcInvalidTagException.yml\" sourcestartlinenumber=\"1\"><a href=\"https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/1.0.0/org/apache/plc4x/java/api/exceptions/PlcInvalidTagException.html\">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/1.0.0/org/apache/plc4x/java/api/exceptions/PlcInvalidTagException.html</a></p>\n"
     },
     {
       "type": "ManagedReference",
@@ -438,7 +466,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcIoException",
-      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcIoException.yml\" sourcestartlinenumber=\"1\"><a href=\"https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.13.1/org/apache/plc4x/java/api/exceptions/PlcIoException.html\">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.13.1/org/apache/plc4x/java/api/exceptions/PlcIoException.html</a></p>\n"
+      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcIoException.yml\" sourcestartlinenumber=\"1\"><a href=\"https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/1.0.0/org/apache/plc4x/java/api/exceptions/PlcIoException.html\">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/1.0.0/org/apache/plc4x/java/api/exceptions/PlcIoException.html</a></p>\n"
     },
     {
       "type": "ManagedReference",
@@ -452,7 +480,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcNotImplementedException",
-      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcNotImplementedException.yml\" sourcestartlinenumber=\"1\"><a href=\"https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.13.1/org/apache/plc4x/java/api/exceptions/PlcNotImplementedException.html\">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.13.1/org/apache/plc4x/java/api/exceptions/PlcNotImplementedException.html</a></p>\n"
+      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcNotImplementedException.yml\" sourcestartlinenumber=\"1\"><a href=\"https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/1.0.0/org/apache/plc4x/java/api/exceptions/PlcNotImplementedException.html\">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/1.0.0/org/apache/plc4x/java/api/exceptions/PlcNotImplementedException.html</a></p>\n"
     },
     {
       "type": "ManagedReference",
@@ -466,7 +494,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcProtocolException",
-      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcProtocolException.yml\" sourcestartlinenumber=\"1\"><a href=\"https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.13.1/org/apache/plc4x/java/api/exceptions/PlcProtocolException.html\">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.13.1/org/apache/plc4x/java/api/exceptions/PlcProtocolException.html</a></p>\n"
+      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcProtocolException.yml\" sourcestartlinenumber=\"1\"><a href=\"https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/1.0.0/org/apache/plc4x/java/api/exceptions/PlcProtocolException.html\">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/1.0.0/org/apache/plc4x/java/api/exceptions/PlcProtocolException.html</a></p>\n"
     },
     {
       "type": "ManagedReference",
@@ -480,7 +508,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcProtocolPayloadTooBigException",
-      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcProtocolPayloadTooBigException.yml\" sourcestartlinenumber=\"1\"><a href=\"https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.13.1/org/apache/plc4x/java/api/exceptions/PlcProtocolPayloadTooBigException.html\">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.13.1/org/apache/plc4x/java/api/exceptions/PlcProtocolPayloadTooBigException.html</a></p>\n"
+      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcProtocolPayloadTooBigException.yml\" sourcestartlinenumber=\"1\"><a href=\"https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/1.0.0/org/apache/plc4x/java/api/exceptions/PlcProtocolPayloadTooBigException.html\">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/1.0.0/org/apache/plc4x/java/api/exceptions/PlcProtocolPayloadTooBigException.html</a></p>\n"
     },
     {
       "type": "ManagedReference",
@@ -494,7 +522,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcProtocolTimeoutException",
-      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcProtocolTimeoutException.yml\" sourcestartlinenumber=\"1\"><a href=\"https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.13.1/org/apache/plc4x/java/api/exceptions/PlcProtocolTimeoutException.html\">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.13.1/org/apache/plc4x/java/api/exceptions/PlcProtocolTimeoutException.html</a></p>\n"
+      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcProtocolTimeoutException.yml\" sourcestartlinenumber=\"1\"><a href=\"https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/1.0.0/org/apache/plc4x/java/api/exceptions/PlcProtocolTimeoutException.html\">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/1.0.0/org/apache/plc4x/java/api/exceptions/PlcProtocolTimeoutException.html</a></p>\n"
     },
     {
       "type": "ManagedReference",
@@ -508,7 +536,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcRuntimeException",
-      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcRuntimeException.yml\" sourcestartlinenumber=\"1\"><a href=\"https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.13.1/org/apache/plc4x/java/api/exceptions/PlcRuntimeException.html\">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.13.1/org/apache/plc4x/java/api/exceptions/PlcRuntimeException.html</a></p>\n"
+      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcRuntimeException.yml\" sourcestartlinenumber=\"1\"><a href=\"https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/1.0.0/org/apache/plc4x/java/api/exceptions/PlcRuntimeException.html\">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/1.0.0/org/apache/plc4x/java/api/exceptions/PlcRuntimeException.html</a></p>\n"
     },
     {
       "type": "ManagedReference",
@@ -522,7 +550,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcTagNotFoundException",
-      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcTagNotFoundException.yml\" sourcestartlinenumber=\"1\"><a href=\"https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.13.1/org/apache/plc4x/java/api/exceptions/PlcTagNotFoundException.html\">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.13.1/org/apache/plc4x/java/api/exceptions/PlcTagNotFoundException.html</a></p>\n"
+      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcTagNotFoundException.yml\" sourcestartlinenumber=\"1\"><a href=\"https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/1.0.0/org/apache/plc4x/java/api/exceptions/PlcTagNotFoundException.html\">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/1.0.0/org/apache/plc4x/java/api/exceptions/PlcTagNotFoundException.html</a></p>\n"
     },
     {
       "type": "ManagedReference",
@@ -536,7 +564,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcTagRangeException",
-      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcTagRangeException.yml\" sourcestartlinenumber=\"1\"><a href=\"https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.13.1/org/apache/plc4x/java/api/exceptions/PlcTagRangeException.html\">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.13.1/org/apache/plc4x/java/api/exceptions/PlcTagRangeException.html</a></p>\n"
+      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcTagRangeException.yml\" sourcestartlinenumber=\"1\"><a href=\"https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/1.0.0/org/apache/plc4x/java/api/exceptions/PlcTagRangeException.html\">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/1.0.0/org/apache/plc4x/java/api/exceptions/PlcTagRangeException.html</a></p>\n"
     },
     {
       "type": "ManagedReference",
@@ -550,7 +578,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcTimeoutException",
-      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcTimeoutException.yml\" sourcestartlinenumber=\"1\"><a href=\"https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.13.1/org/apache/plc4x/java/api/exceptions/PlcTimeoutException.html\">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.13.1/org/apache/plc4x/java/api/exceptions/PlcTimeoutException.html</a></p>\n"
+      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcTimeoutException.yml\" sourcestartlinenumber=\"1\"><a href=\"https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/1.0.0/org/apache/plc4x/java/api/exceptions/PlcTimeoutException.html\">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/1.0.0/org/apache/plc4x/java/api/exceptions/PlcTimeoutException.html</a></p>\n"
     },
     {
       "type": "ManagedReference",
@@ -564,7 +592,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcUnsupportedDataTypeException",
-      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcUnsupportedDataTypeException.yml\" sourcestartlinenumber=\"1\"><a href=\"https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.13.1/org/apache/plc4x/java/api/exceptions/PlcUnsupportedDataTypeException.html\">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.13.1/org/apache/plc4x/java/api/exceptions/PlcUnsupportedDataTypeException.html</a></p>\n"
+      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcUnsupportedDataTypeException.yml\" sourcestartlinenumber=\"1\"><a href=\"https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/1.0.0/org/apache/plc4x/java/api/exceptions/PlcUnsupportedDataTypeException.html\">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/1.0.0/org/apache/plc4x/java/api/exceptions/PlcUnsupportedDataTypeException.html</a></p>\n"
     },
     {
       "type": "ManagedReference",
@@ -578,7 +606,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcUnsupportedOperationException",
-      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcUnsupportedOperationException.yml\" sourcestartlinenumber=\"1\"><a href=\"https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.13.1/org/apache/plc4x/java/api/exceptions/PlcUnsupportedOperationException.html\">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.13.1/org/apache/plc4x/java/api/exceptions/PlcUnsupportedOperationException.html</a></p>\n"
+      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcUnsupportedOperationException.yml\" sourcestartlinenumber=\"1\"><a href=\"https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/1.0.0/org/apache/plc4x/java/api/exceptions/PlcUnsupportedOperationException.html\">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/1.0.0/org/apache/plc4x/java/api/exceptions/PlcUnsupportedOperationException.html</a></p>\n"
     },
     {
       "type": "ManagedReference",
@@ -592,7 +620,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcUnsupportedProtocolException",
-      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcUnsupportedProtocolException.yml\" sourcestartlinenumber=\"1\"><a href=\"https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.13.1/org/apache/plc4x/java/api/exceptions/PlcUnsupportedProtocolException.html\">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.13.1/org/apache/plc4x/java/api/exceptions/PlcUnsupportedProtocolException.html</a></p>\n"
+      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcUnsupportedProtocolException.yml\" sourcestartlinenumber=\"1\"><a href=\"https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/1.0.0/org/apache/plc4x/java/api/exceptions/PlcUnsupportedProtocolException.html\">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/1.0.0/org/apache/plc4x/java/api/exceptions/PlcUnsupportedProtocolException.html</a></p>\n"
     },
     {
       "type": "ManagedReference",
@@ -620,7 +648,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "Org.Apache.Plc4x.JavaNs.Api.Experimental",
-      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.Experimental.yml\" sourcestartlinenumber=\"1\"><a href=\"https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.13.1/org/apache/plc4x/java/api/Experimental.html\">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.13.1/org/apache/plc4x/java/api/Experimental.html</a></p>\n"
+      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.Experimental.yml\" sourcestartlinenumber=\"1\"><a href=\"https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/1.0.0/org/apache/plc4x/java/api/Experimental.html\">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/1.0.0/org/apache/plc4x/java/api/Experimental.html</a></p>\n"
     },
     {
       "type": "ManagedReference",
@@ -634,7 +662,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "Org.Apache.Plc4x.JavaNs.Api.IEventPlcConnection",
-      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.IEventPlcConnection.yml\" sourcestartlinenumber=\"1\">.NET interface skeleton to be manually developed following <a href=\"https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.13.1/org/apache/plc4x/java/api/EventPlcConnection.html\">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.13.1/org/apache/plc4x/java/api/EventPlcConnection.html</a></p>\n"
+      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.IEventPlcConnection.yml\" sourcestartlinenumber=\"1\">.NET interface skeleton to be manually developed following <a href=\"https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/1.0.0/org/apache/plc4x/java/api/EventPlcConnection.html\">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/1.0.0/org/apache/plc4x/java/api/EventPlcConnection.html</a></p>\n"
     },
     {
       "type": "ManagedReference",
@@ -648,7 +676,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "Org.Apache.Plc4x.JavaNs.Api.IExperimental",
-      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.IExperimental.yml\" sourcestartlinenumber=\"1\">.NET interface skeleton to be manually developed following <a href=\"https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.13.1/org/apache/plc4x/java/api/Experimental.html\">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.13.1/org/apache/plc4x/java/api/Experimental.html</a></p>\n"
+      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.IExperimental.yml\" sourcestartlinenumber=\"1\">.NET interface skeleton to be manually developed following <a href=\"https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/1.0.0/org/apache/plc4x/java/api/Experimental.html\">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/1.0.0/org/apache/plc4x/java/api/Experimental.html</a></p>\n"
     },
     {
       "type": "ManagedReference",
@@ -662,7 +690,21 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "Org.Apache.Plc4x.JavaNs.Api.IPlcConnection",
-      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.IPlcConnection.yml\" sourcestartlinenumber=\"1\">.NET interface skeleton to be manually developed following <a href=\"https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.13.1/org/apache/plc4x/java/api/PlcConnection.html\">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.13.1/org/apache/plc4x/java/api/PlcConnection.html</a></p>\n"
+      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.IPlcConnection.yml\" sourcestartlinenumber=\"1\">.NET interface skeleton to be manually developed following <a href=\"https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/1.0.0/org/apache/plc4x/java/api/PlcConnection.html\">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/1.0.0/org/apache/plc4x/java/api/PlcConnection.html</a></p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Org.Apache.Plc4x.JavaNs.Api.IPlcConnectionFactory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Org.Apache.Plc4x.JavaNs.Api.IPlcConnectionFactory.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Org.Apache.Plc4x.JavaNs.Api.IPlcConnectionFactory",
+      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.IPlcConnectionFactory.yml\" sourcestartlinenumber=\"1\">.NET interface skeleton to be manually developed following <a href=\"https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/1.0.0/org/apache/plc4x/java/api/PlcConnectionFactory.html\">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/1.0.0/org/apache/plc4x/java/api/PlcConnectionFactory.html</a></p>\n"
     },
     {
       "type": "ManagedReference",
@@ -676,7 +718,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "Org.Apache.Plc4x.JavaNs.Api.IPlcConnectionManager",
-      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.IPlcConnectionManager.yml\" sourcestartlinenumber=\"1\">.NET interface skeleton to be manually developed following <a href=\"https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.13.1/org/apache/plc4x/java/api/PlcConnectionManager.html\">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.13.1/org/apache/plc4x/java/api/PlcConnectionManager.html</a></p>\n"
+      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.IPlcConnectionManager.yml\" sourcestartlinenumber=\"1\">.NET interface skeleton to be manually developed following <a href=\"https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/1.0.0/org/apache/plc4x/java/api/PlcConnectionManager.html\">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/1.0.0/org/apache/plc4x/java/api/PlcConnectionManager.html</a></p>\n"
     },
     {
       "type": "ManagedReference",
@@ -690,7 +732,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "Org.Apache.Plc4x.JavaNs.Api.IPlcDriver",
-      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.IPlcDriver.yml\" sourcestartlinenumber=\"1\">.NET interface skeleton to be manually developed following <a href=\"https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.13.1/org/apache/plc4x/java/api/PlcDriver.html\">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.13.1/org/apache/plc4x/java/api/PlcDriver.html</a></p>\n"
+      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.IPlcDriver.yml\" sourcestartlinenumber=\"1\">.NET interface skeleton to be manually developed following <a href=\"https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/1.0.0/org/apache/plc4x/java/api/PlcDriver.html\">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/1.0.0/org/apache/plc4x/java/api/PlcDriver.html</a></p>\n"
     },
     {
       "type": "ManagedReference",
@@ -704,7 +746,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "Org.Apache.Plc4x.JavaNs.Api.IPlcDriverManager",
-      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.IPlcDriverManager.yml\" sourcestartlinenumber=\"1\">.NET interface skeleton to be manually developed following <a href=\"https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.13.1/org/apache/plc4x/java/api/PlcDriverManager.html\">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.13.1/org/apache/plc4x/java/api/PlcDriverManager.html</a></p>\n"
+      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.IPlcDriverManager.yml\" sourcestartlinenumber=\"1\">.NET interface skeleton to be manually developed following <a href=\"https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/1.0.0/org/apache/plc4x/java/api/PlcDriverManager.html\">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/1.0.0/org/apache/plc4x/java/api/PlcDriverManager.html</a></p>\n"
     },
     {
       "type": "ManagedReference",
@@ -718,7 +760,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "Org.Apache.Plc4x.JavaNs.Api.Listener.ConnectionStateListener",
-      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.Listener.ConnectionStateListener.yml\" sourcestartlinenumber=\"1\"><a href=\"https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.13.1/org/apache/plc4x/java/api/listener/ConnectionStateListener.html\">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.13.1/org/apache/plc4x/java/api/listener/ConnectionStateListener.html</a></p>\n"
+      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.Listener.ConnectionStateListener.yml\" sourcestartlinenumber=\"1\"><a href=\"https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/1.0.0/org/apache/plc4x/java/api/listener/ConnectionStateListener.html\">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/1.0.0/org/apache/plc4x/java/api/listener/ConnectionStateListener.html</a></p>\n"
     },
     {
       "type": "ManagedReference",
@@ -746,7 +788,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "Org.Apache.Plc4x.JavaNs.Api.Listener.EventListener",
-      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.Listener.EventListener.yml\" sourcestartlinenumber=\"1\"><a href=\"https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.13.1/org/apache/plc4x/java/api/listener/EventListener.html\">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.13.1/org/apache/plc4x/java/api/listener/EventListener.html</a></p>\n"
+      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.Listener.EventListener.yml\" sourcestartlinenumber=\"1\"><a href=\"https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/1.0.0/org/apache/plc4x/java/api/listener/EventListener.html\">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/1.0.0/org/apache/plc4x/java/api/listener/EventListener.html</a></p>\n"
     },
     {
       "type": "ManagedReference",
@@ -774,7 +816,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "Org.Apache.Plc4x.JavaNs.Api.Listener.IConnectionStateListener",
-      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.Listener.IConnectionStateListener.yml\" sourcestartlinenumber=\"1\">.NET interface for org.mases.plconnet.generated.org.apache.plc4x.java.api.listener.ConnectionStateListener implementing <a href=\"https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.13.1/org/apache/plc4x/java/api/listener/ConnectionStateListener.html\">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.13.1/org/apache/plc4x/java/api/listener/ConnectionStateListener.html</a></p>\n"
+      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.Listener.IConnectionStateListener.yml\" sourcestartlinenumber=\"1\">.NET interface for org.mases.plconnet.generated.org.apache.plc4x.java.api.listener.ConnectionStateListener implementing <a href=\"https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/1.0.0/org/apache/plc4x/java/api/listener/ConnectionStateListener.html\">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/1.0.0/org/apache/plc4x/java/api/listener/ConnectionStateListener.html</a></p>\n"
     },
     {
       "type": "ManagedReference",
@@ -788,7 +830,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "Org.Apache.Plc4x.JavaNs.Api.Listener.IEventListener",
-      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.Listener.IEventListener.yml\" sourcestartlinenumber=\"1\">.NET interface for org.mases.plconnet.generated.org.apache.plc4x.java.api.listener.EventListener implementing <a href=\"https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.13.1/org/apache/plc4x/java/api/listener/EventListener.html\">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.13.1/org/apache/plc4x/java/api/listener/EventListener.html</a></p>\n"
+      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.Listener.IEventListener.yml\" sourcestartlinenumber=\"1\">.NET interface for org.mases.plconnet.generated.org.apache.plc4x.java.api.listener.EventListener implementing <a href=\"https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/1.0.0/org/apache/plc4x/java/api/listener/EventListener.html\">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/1.0.0/org/apache/plc4x/java/api/listener/EventListener.html</a></p>\n"
     },
     {
       "type": "ManagedReference",
@@ -802,7 +844,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "Org.Apache.Plc4x.JavaNs.Api.Listener.IMessageExchangeListener",
-      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.Listener.IMessageExchangeListener.yml\" sourcestartlinenumber=\"1\">.NET interface for org.mases.plconnet.generated.org.apache.plc4x.java.api.listener.MessageExchangeListener implementing <a href=\"https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.13.1/org/apache/plc4x/java/api/listener/MessageExchangeListener.html\">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.13.1/org/apache/plc4x/java/api/listener/MessageExchangeListener.html</a></p>\n"
+      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.Listener.IMessageExchangeListener.yml\" sourcestartlinenumber=\"1\">.NET interface for org.mases.plconnet.generated.org.apache.plc4x.java.api.listener.MessageExchangeListener implementing <a href=\"https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/1.0.0/org/apache/plc4x/java/api/listener/MessageExchangeListener.html\">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/1.0.0/org/apache/plc4x/java/api/listener/MessageExchangeListener.html</a></p>\n"
     },
     {
       "type": "ManagedReference",
@@ -816,7 +858,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "Org.Apache.Plc4x.JavaNs.Api.Listener.MessageExchangeListener",
-      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.Listener.MessageExchangeListener.yml\" sourcestartlinenumber=\"1\"><a href=\"https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.13.1/org/apache/plc4x/java/api/listener/MessageExchangeListener.html\">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.13.1/org/apache/plc4x/java/api/listener/MessageExchangeListener.html</a></p>\n"
+      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.Listener.MessageExchangeListener.yml\" sourcestartlinenumber=\"1\"><a href=\"https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/1.0.0/org/apache/plc4x/java/api/listener/MessageExchangeListener.html\">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/1.0.0/org/apache/plc4x/java/api/listener/MessageExchangeListener.html</a></p>\n"
     },
     {
       "type": "ManagedReference",
@@ -858,7 +900,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "Org.Apache.Plc4x.JavaNs.Api.Messages.IPlcBrowseItem",
-      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.Messages.IPlcBrowseItem.yml\" sourcestartlinenumber=\"1\">.NET interface skeleton to be manually developed following <a href=\"https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.13.1/org/apache/plc4x/java/api/messages/PlcBrowseItem.html\">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.13.1/org/apache/plc4x/java/api/messages/PlcBrowseItem.html</a></p>\n"
+      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.Messages.IPlcBrowseItem.yml\" sourcestartlinenumber=\"1\">.NET interface skeleton to be manually developed following <a href=\"https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/1.0.0/org/apache/plc4x/java/api/messages/PlcBrowseItem.html\">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/1.0.0/org/apache/plc4x/java/api/messages/PlcBrowseItem.html</a></p>\n"
     },
     {
       "type": "ManagedReference",
@@ -872,7 +914,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "Org.Apache.Plc4x.JavaNs.Api.Messages.IPlcBrowseItemArrayInfo",
-      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.Messages.IPlcBrowseItemArrayInfo.yml\" sourcestartlinenumber=\"1\">.NET interface skeleton to be manually developed following <a href=\"https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.13.1/org/apache/plc4x/java/api/messages/PlcBrowseItemArrayInfo.html\">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.13.1/org/apache/plc4x/java/api/messages/PlcBrowseItemArrayInfo.html</a></p>\n"
+      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.Messages.IPlcBrowseItemArrayInfo.yml\" sourcestartlinenumber=\"1\">.NET interface skeleton to be manually developed following <a href=\"https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/1.0.0/org/apache/plc4x/java/api/messages/PlcBrowseItemArrayInfo.html\">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/1.0.0/org/apache/plc4x/java/api/messages/PlcBrowseItemArrayInfo.html</a></p>\n"
     },
     {
       "type": "ManagedReference",
@@ -886,7 +928,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "Org.Apache.Plc4x.JavaNs.Api.Messages.IPlcBrowseRequest",
-      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.Messages.IPlcBrowseRequest.yml\" sourcestartlinenumber=\"1\">.NET interface skeleton to be manually developed following <a href=\"https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.13.1/org/apache/plc4x/java/api/messages/PlcBrowseRequest.html\">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.13.1/org/apache/plc4x/java/api/messages/PlcBrowseRequest.html</a></p>\n"
+      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.Messages.IPlcBrowseRequest.yml\" sourcestartlinenumber=\"1\">.NET interface skeleton to be manually developed following <a href=\"https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/1.0.0/org/apache/plc4x/java/api/messages/PlcBrowseRequest.html\">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/1.0.0/org/apache/plc4x/java/api/messages/PlcBrowseRequest.html</a></p>\n"
     },
     {
       "type": "ManagedReference",
@@ -900,7 +942,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "Org.Apache.Plc4x.JavaNs.Api.Messages.IPlcBrowseRequestInterceptor",
-      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.Messages.IPlcBrowseRequestInterceptor.yml\" sourcestartlinenumber=\"1\">.NET interface skeleton to be manually developed following <a href=\"https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.13.1/org/apache/plc4x/java/api/messages/PlcBrowseRequestInterceptor.html\">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.13.1/org/apache/plc4x/java/api/messages/PlcBrowseRequestInterceptor.html</a></p>\n"
+      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.Messages.IPlcBrowseRequestInterceptor.yml\" sourcestartlinenumber=\"1\">.NET interface skeleton to be manually developed following <a href=\"https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/1.0.0/org/apache/plc4x/java/api/messages/PlcBrowseRequestInterceptor.html\">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/1.0.0/org/apache/plc4x/java/api/messages/PlcBrowseRequestInterceptor.html</a></p>\n"
     },
     {
       "type": "ManagedReference",
@@ -914,7 +956,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "Org.Apache.Plc4x.JavaNs.Api.Messages.IPlcBrowseResponse",
-      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.Messages.IPlcBrowseResponse.yml\" sourcestartlinenumber=\"1\">.NET interface skeleton to be manually developed following <a href=\"https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.13.1/org/apache/plc4x/java/api/messages/PlcBrowseResponse.html\">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.13.1/org/apache/plc4x/java/api/messages/PlcBrowseResponse.html</a></p>\n"
+      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.Messages.IPlcBrowseResponse.yml\" sourcestartlinenumber=\"1\">.NET interface skeleton to be manually developed following <a href=\"https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/1.0.0/org/apache/plc4x/java/api/messages/PlcBrowseResponse.html\">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/1.0.0/org/apache/plc4x/java/api/messages/PlcBrowseResponse.html</a></p>\n"
     },
     {
       "type": "ManagedReference",
@@ -928,7 +970,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "Org.Apache.Plc4x.JavaNs.Api.Messages.IPlcDiscoveryItem",
-      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.Messages.IPlcDiscoveryItem.yml\" sourcestartlinenumber=\"1\">.NET interface skeleton to be manually developed following <a href=\"https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.13.1/org/apache/plc4x/java/api/messages/PlcDiscoveryItem.html\">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.13.1/org/apache/plc4x/java/api/messages/PlcDiscoveryItem.html</a></p>\n"
+      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.Messages.IPlcDiscoveryItem.yml\" sourcestartlinenumber=\"1\">.NET interface skeleton to be manually developed following <a href=\"https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/1.0.0/org/apache/plc4x/java/api/messages/PlcDiscoveryItem.html\">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/1.0.0/org/apache/plc4x/java/api/messages/PlcDiscoveryItem.html</a></p>\n"
     },
     {
       "type": "ManagedReference",
@@ -942,7 +984,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "Org.Apache.Plc4x.JavaNs.Api.Messages.IPlcDiscoveryItemHandler",
-      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.Messages.IPlcDiscoveryItemHandler.yml\" sourcestartlinenumber=\"1\">.NET interface skeleton to be manually developed following <a href=\"https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.13.1/org/apache/plc4x/java/api/messages/PlcDiscoveryItemHandler.html\">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.13.1/org/apache/plc4x/java/api/messages/PlcDiscoveryItemHandler.html</a></p>\n"
+      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.Messages.IPlcDiscoveryItemHandler.yml\" sourcestartlinenumber=\"1\">.NET interface skeleton to be manually developed following <a href=\"https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/1.0.0/org/apache/plc4x/java/api/messages/PlcDiscoveryItemHandler.html\">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/1.0.0/org/apache/plc4x/java/api/messages/PlcDiscoveryItemHandler.html</a></p>\n"
     },
     {
       "type": "ManagedReference",
@@ -956,7 +998,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "Org.Apache.Plc4x.JavaNs.Api.Messages.IPlcDiscoveryRequest",
-      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.Messages.IPlcDiscoveryRequest.yml\" sourcestartlinenumber=\"1\">.NET interface skeleton to be manually developed following <a href=\"https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.13.1/org/apache/plc4x/java/api/messages/PlcDiscoveryRequest.html\">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.13.1/org/apache/plc4x/java/api/messages/PlcDiscoveryRequest.html</a></p>\n"
+      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.Messages.IPlcDiscoveryRequest.yml\" sourcestartlinenumber=\"1\">.NET interface skeleton to be manually developed following <a href=\"https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/1.0.0/org/apache/plc4x/java/api/messages/PlcDiscoveryRequest.html\">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/1.0.0/org/apache/plc4x/java/api/messages/PlcDiscoveryRequest.html</a></p>\n"
     },
     {
       "type": "ManagedReference",
@@ -970,7 +1012,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "Org.Apache.Plc4x.JavaNs.Api.Messages.IPlcDiscoveryResponse",
-      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.Messages.IPlcDiscoveryResponse.yml\" sourcestartlinenumber=\"1\">.NET interface skeleton to be manually developed following <a href=\"https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.13.1/org/apache/plc4x/java/api/messages/PlcDiscoveryResponse.html\">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.13.1/org/apache/plc4x/java/api/messages/PlcDiscoveryResponse.html</a></p>\n"
+      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.Messages.IPlcDiscoveryResponse.yml\" sourcestartlinenumber=\"1\">.NET interface skeleton to be manually developed following <a href=\"https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/1.0.0/org/apache/plc4x/java/api/messages/PlcDiscoveryResponse.html\">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/1.0.0/org/apache/plc4x/java/api/messages/PlcDiscoveryResponse.html</a></p>\n"
     },
     {
       "type": "ManagedReference",
@@ -984,7 +1026,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "Org.Apache.Plc4x.JavaNs.Api.Messages.IPlcMessage",
-      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.Messages.IPlcMessage.yml\" sourcestartlinenumber=\"1\">.NET interface skeleton to be manually developed following <a href=\"https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.13.1/org/apache/plc4x/java/api/messages/PlcMessage.html\">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.13.1/org/apache/plc4x/java/api/messages/PlcMessage.html</a></p>\n"
+      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.Messages.IPlcMessage.yml\" sourcestartlinenumber=\"1\">.NET interface skeleton to be manually developed following <a href=\"https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/1.0.0/org/apache/plc4x/java/api/messages/PlcMessage.html\">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/1.0.0/org/apache/plc4x/java/api/messages/PlcMessage.html</a></p>\n"
     },
     {
       "type": "ManagedReference",
@@ -998,7 +1040,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "Org.Apache.Plc4x.JavaNs.Api.Messages.IPlcMetadataKeys",
-      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.Messages.IPlcMetadataKeys.yml\" sourcestartlinenumber=\"1\">.NET interface skeleton to be manually developed following <a href=\"https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.13.1/org/apache/plc4x/java/api/messages/PlcMetadataKeys.html\">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.13.1/org/apache/plc4x/java/api/messages/PlcMetadataKeys.html</a></p>\n"
+      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.Messages.IPlcMetadataKeys.yml\" sourcestartlinenumber=\"1\">.NET interface skeleton to be manually developed following <a href=\"https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/1.0.0/org/apache/plc4x/java/api/messages/PlcMetadataKeys.html\">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/1.0.0/org/apache/plc4x/java/api/messages/PlcMetadataKeys.html</a></p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1012,7 +1054,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "Org.Apache.Plc4x.JavaNs.Api.Messages.IPlcPingRequest",
-      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.Messages.IPlcPingRequest.yml\" sourcestartlinenumber=\"1\">.NET interface skeleton to be manually developed following <a href=\"https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.13.1/org/apache/plc4x/java/api/messages/PlcPingRequest.html\">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.13.1/org/apache/plc4x/java/api/messages/PlcPingRequest.html</a></p>\n"
+      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.Messages.IPlcPingRequest.yml\" sourcestartlinenumber=\"1\">.NET interface skeleton to be manually developed following <a href=\"https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/1.0.0/org/apache/plc4x/java/api/messages/PlcPingRequest.html\">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/1.0.0/org/apache/plc4x/java/api/messages/PlcPingRequest.html</a></p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1026,7 +1068,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "Org.Apache.Plc4x.JavaNs.Api.Messages.IPlcPingResponse",
-      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.Messages.IPlcPingResponse.yml\" sourcestartlinenumber=\"1\">.NET interface skeleton to be manually developed following <a href=\"https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.13.1/org/apache/plc4x/java/api/messages/PlcPingResponse.html\">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.13.1/org/apache/plc4x/java/api/messages/PlcPingResponse.html</a></p>\n"
+      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.Messages.IPlcPingResponse.yml\" sourcestartlinenumber=\"1\">.NET interface skeleton to be manually developed following <a href=\"https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/1.0.0/org/apache/plc4x/java/api/messages/PlcPingResponse.html\">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/1.0.0/org/apache/plc4x/java/api/messages/PlcPingResponse.html</a></p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1040,7 +1082,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "Org.Apache.Plc4x.JavaNs.Api.Messages.IPlcReadRequest",
-      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.Messages.IPlcReadRequest.yml\" sourcestartlinenumber=\"1\">.NET interface skeleton to be manually developed following <a href=\"https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.13.1/org/apache/plc4x/java/api/messages/PlcReadRequest.html\">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.13.1/org/apache/plc4x/java/api/messages/PlcReadRequest.html</a></p>\n"
+      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.Messages.IPlcReadRequest.yml\" sourcestartlinenumber=\"1\">.NET interface skeleton to be manually developed following <a href=\"https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/1.0.0/org/apache/plc4x/java/api/messages/PlcReadRequest.html\">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/1.0.0/org/apache/plc4x/java/api/messages/PlcReadRequest.html</a></p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1054,7 +1096,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "Org.Apache.Plc4x.JavaNs.Api.Messages.IPlcReadResponse",
-      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.Messages.IPlcReadResponse.yml\" sourcestartlinenumber=\"1\">.NET interface skeleton to be manually developed following <a href=\"https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.13.1/org/apache/plc4x/java/api/messages/PlcReadResponse.html\">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.13.1/org/apache/plc4x/java/api/messages/PlcReadResponse.html</a></p>\n"
+      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.Messages.IPlcReadResponse.yml\" sourcestartlinenumber=\"1\">.NET interface skeleton to be manually developed following <a href=\"https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/1.0.0/org/apache/plc4x/java/api/messages/PlcReadResponse.html\">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/1.0.0/org/apache/plc4x/java/api/messages/PlcReadResponse.html</a></p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1068,7 +1110,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "Org.Apache.Plc4x.JavaNs.Api.Messages.IPlcRequest",
-      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.Messages.IPlcRequest.yml\" sourcestartlinenumber=\"1\">.NET interface skeleton to be manually developed following <a href=\"https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.13.1/org/apache/plc4x/java/api/messages/PlcRequest.html\">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.13.1/org/apache/plc4x/java/api/messages/PlcRequest.html</a></p>\n"
+      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.Messages.IPlcRequest.yml\" sourcestartlinenumber=\"1\">.NET interface skeleton to be manually developed following <a href=\"https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/1.0.0/org/apache/plc4x/java/api/messages/PlcRequest.html\">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/1.0.0/org/apache/plc4x/java/api/messages/PlcRequest.html</a></p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1082,7 +1124,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "Org.Apache.Plc4x.JavaNs.Api.Messages.IPlcRequestBuilder",
-      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.Messages.IPlcRequestBuilder.yml\" sourcestartlinenumber=\"1\">.NET interface skeleton to be manually developed following <a href=\"https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.13.1/org/apache/plc4x/java/api/messages/PlcRequestBuilder.html\">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.13.1/org/apache/plc4x/java/api/messages/PlcRequestBuilder.html</a></p>\n"
+      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.Messages.IPlcRequestBuilder.yml\" sourcestartlinenumber=\"1\">.NET interface skeleton to be manually developed following <a href=\"https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/1.0.0/org/apache/plc4x/java/api/messages/PlcRequestBuilder.html\">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/1.0.0/org/apache/plc4x/java/api/messages/PlcRequestBuilder.html</a></p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1096,7 +1138,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "Org.Apache.Plc4x.JavaNs.Api.Messages.IPlcResponse",
-      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.Messages.IPlcResponse.yml\" sourcestartlinenumber=\"1\">.NET interface skeleton to be manually developed following <a href=\"https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.13.1/org/apache/plc4x/java/api/messages/PlcResponse.html\">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.13.1/org/apache/plc4x/java/api/messages/PlcResponse.html</a></p>\n"
+      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.Messages.IPlcResponse.yml\" sourcestartlinenumber=\"1\">.NET interface skeleton to be manually developed following <a href=\"https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/1.0.0/org/apache/plc4x/java/api/messages/PlcResponse.html\">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/1.0.0/org/apache/plc4x/java/api/messages/PlcResponse.html</a></p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1110,7 +1152,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "Org.Apache.Plc4x.JavaNs.Api.Messages.IPlcSubscriptionEvent",
-      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.Messages.IPlcSubscriptionEvent.yml\" sourcestartlinenumber=\"1\">.NET interface skeleton to be manually developed following <a href=\"https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.13.1/org/apache/plc4x/java/api/messages/PlcSubscriptionEvent.html\">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.13.1/org/apache/plc4x/java/api/messages/PlcSubscriptionEvent.html</a></p>\n"
+      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.Messages.IPlcSubscriptionEvent.yml\" sourcestartlinenumber=\"1\">.NET interface skeleton to be manually developed following <a href=\"https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/1.0.0/org/apache/plc4x/java/api/messages/PlcSubscriptionEvent.html\">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/1.0.0/org/apache/plc4x/java/api/messages/PlcSubscriptionEvent.html</a></p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1124,7 +1166,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "Org.Apache.Plc4x.JavaNs.Api.Messages.IPlcSubscriptionRequest",
-      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.Messages.IPlcSubscriptionRequest.yml\" sourcestartlinenumber=\"1\">.NET interface skeleton to be manually developed following <a href=\"https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.13.1/org/apache/plc4x/java/api/messages/PlcSubscriptionRequest.html\">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.13.1/org/apache/plc4x/java/api/messages/PlcSubscriptionRequest.html</a></p>\n"
+      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.Messages.IPlcSubscriptionRequest.yml\" sourcestartlinenumber=\"1\">.NET interface skeleton to be manually developed following <a href=\"https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/1.0.0/org/apache/plc4x/java/api/messages/PlcSubscriptionRequest.html\">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/1.0.0/org/apache/plc4x/java/api/messages/PlcSubscriptionRequest.html</a></p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1138,7 +1180,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "Org.Apache.Plc4x.JavaNs.Api.Messages.IPlcSubscriptionResponse",
-      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.Messages.IPlcSubscriptionResponse.yml\" sourcestartlinenumber=\"1\">.NET interface skeleton to be manually developed following <a href=\"https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.13.1/org/apache/plc4x/java/api/messages/PlcSubscriptionResponse.html\">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.13.1/org/apache/plc4x/java/api/messages/PlcSubscriptionResponse.html</a></p>\n"
+      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.Messages.IPlcSubscriptionResponse.yml\" sourcestartlinenumber=\"1\">.NET interface skeleton to be manually developed following <a href=\"https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/1.0.0/org/apache/plc4x/java/api/messages/PlcSubscriptionResponse.html\">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/1.0.0/org/apache/plc4x/java/api/messages/PlcSubscriptionResponse.html</a></p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1152,7 +1194,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "Org.Apache.Plc4x.JavaNs.Api.Messages.IPlcSubscriptionTagRequest",
-      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.Messages.IPlcSubscriptionTagRequest.yml\" sourcestartlinenumber=\"1\">.NET interface skeleton to be manually developed following <a href=\"https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.13.1/org/apache/plc4x/java/api/messages/PlcSubscriptionTagRequest.html\">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.13.1/org/apache/plc4x/java/api/messages/PlcSubscriptionTagRequest.html</a></p>\n"
+      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.Messages.IPlcSubscriptionTagRequest.yml\" sourcestartlinenumber=\"1\">.NET interface skeleton to be manually developed following <a href=\"https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/1.0.0/org/apache/plc4x/java/api/messages/PlcSubscriptionTagRequest.html\">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/1.0.0/org/apache/plc4x/java/api/messages/PlcSubscriptionTagRequest.html</a></p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1166,7 +1208,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "Org.Apache.Plc4x.JavaNs.Api.Messages.IPlcSubscriptionTagResponse",
-      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.Messages.IPlcSubscriptionTagResponse.yml\" sourcestartlinenumber=\"1\">.NET interface skeleton to be manually developed following <a href=\"https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.13.1/org/apache/plc4x/java/api/messages/PlcSubscriptionTagResponse.html\">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.13.1/org/apache/plc4x/java/api/messages/PlcSubscriptionTagResponse.html</a></p>\n"
+      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.Messages.IPlcSubscriptionTagResponse.yml\" sourcestartlinenumber=\"1\">.NET interface skeleton to be manually developed following <a href=\"https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/1.0.0/org/apache/plc4x/java/api/messages/PlcSubscriptionTagResponse.html\">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/1.0.0/org/apache/plc4x/java/api/messages/PlcSubscriptionTagResponse.html</a></p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1180,7 +1222,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "Org.Apache.Plc4x.JavaNs.Api.Messages.IPlcTagRequest",
-      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.Messages.IPlcTagRequest.yml\" sourcestartlinenumber=\"1\">.NET interface skeleton to be manually developed following <a href=\"https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.13.1/org/apache/plc4x/java/api/messages/PlcTagRequest.html\">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.13.1/org/apache/plc4x/java/api/messages/PlcTagRequest.html</a></p>\n"
+      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.Messages.IPlcTagRequest.yml\" sourcestartlinenumber=\"1\">.NET interface skeleton to be manually developed following <a href=\"https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/1.0.0/org/apache/plc4x/java/api/messages/PlcTagRequest.html\">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/1.0.0/org/apache/plc4x/java/api/messages/PlcTagRequest.html</a></p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1194,7 +1236,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "Org.Apache.Plc4x.JavaNs.Api.Messages.IPlcTagResponse",
-      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.Messages.IPlcTagResponse.yml\" sourcestartlinenumber=\"1\">.NET interface skeleton to be manually developed following <a href=\"https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.13.1/org/apache/plc4x/java/api/messages/PlcTagResponse.html\">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.13.1/org/apache/plc4x/java/api/messages/PlcTagResponse.html</a></p>\n"
+      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.Messages.IPlcTagResponse.yml\" sourcestartlinenumber=\"1\">.NET interface skeleton to be manually developed following <a href=\"https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/1.0.0/org/apache/plc4x/java/api/messages/PlcTagResponse.html\">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/1.0.0/org/apache/plc4x/java/api/messages/PlcTagResponse.html</a></p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1208,7 +1250,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "Org.Apache.Plc4x.JavaNs.Api.Messages.IPlcUnsubscriptionRequest",
-      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.Messages.IPlcUnsubscriptionRequest.yml\" sourcestartlinenumber=\"1\">.NET interface skeleton to be manually developed following <a href=\"https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.13.1/org/apache/plc4x/java/api/messages/PlcUnsubscriptionRequest.html\">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.13.1/org/apache/plc4x/java/api/messages/PlcUnsubscriptionRequest.html</a></p>\n"
+      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.Messages.IPlcUnsubscriptionRequest.yml\" sourcestartlinenumber=\"1\">.NET interface skeleton to be manually developed following <a href=\"https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/1.0.0/org/apache/plc4x/java/api/messages/PlcUnsubscriptionRequest.html\">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/1.0.0/org/apache/plc4x/java/api/messages/PlcUnsubscriptionRequest.html</a></p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1222,7 +1264,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "Org.Apache.Plc4x.JavaNs.Api.Messages.IPlcUnsubscriptionResponse",
-      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.Messages.IPlcUnsubscriptionResponse.yml\" sourcestartlinenumber=\"1\">.NET interface skeleton to be manually developed following <a href=\"https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.13.1/org/apache/plc4x/java/api/messages/PlcUnsubscriptionResponse.html\">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.13.1/org/apache/plc4x/java/api/messages/PlcUnsubscriptionResponse.html</a></p>\n"
+      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.Messages.IPlcUnsubscriptionResponse.yml\" sourcestartlinenumber=\"1\">.NET interface skeleton to be manually developed following <a href=\"https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/1.0.0/org/apache/plc4x/java/api/messages/PlcUnsubscriptionResponse.html\">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/1.0.0/org/apache/plc4x/java/api/messages/PlcUnsubscriptionResponse.html</a></p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1236,7 +1278,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "Org.Apache.Plc4x.JavaNs.Api.Messages.IPlcWriteRequest",
-      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.Messages.IPlcWriteRequest.yml\" sourcestartlinenumber=\"1\">.NET interface skeleton to be manually developed following <a href=\"https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.13.1/org/apache/plc4x/java/api/messages/PlcWriteRequest.html\">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.13.1/org/apache/plc4x/java/api/messages/PlcWriteRequest.html</a></p>\n"
+      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.Messages.IPlcWriteRequest.yml\" sourcestartlinenumber=\"1\">.NET interface skeleton to be manually developed following <a href=\"https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/1.0.0/org/apache/plc4x/java/api/messages/PlcWriteRequest.html\">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/1.0.0/org/apache/plc4x/java/api/messages/PlcWriteRequest.html</a></p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1250,7 +1292,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "Org.Apache.Plc4x.JavaNs.Api.Messages.IPlcWriteResponse",
-      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.Messages.IPlcWriteResponse.yml\" sourcestartlinenumber=\"1\">.NET interface skeleton to be manually developed following <a href=\"https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.13.1/org/apache/plc4x/java/api/messages/PlcWriteResponse.html\">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.13.1/org/apache/plc4x/java/api/messages/PlcWriteResponse.html</a></p>\n"
+      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.Messages.IPlcWriteResponse.yml\" sourcestartlinenumber=\"1\">.NET interface skeleton to be manually developed following <a href=\"https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/1.0.0/org/apache/plc4x/java/api/messages/PlcWriteResponse.html\">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/1.0.0/org/apache/plc4x/java/api/messages/PlcWriteResponse.html</a></p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1264,7 +1306,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "Org.Apache.Plc4x.JavaNs.Api.Messages.PlcBrowseItem",
-      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.Messages.PlcBrowseItem.yml\" sourcestartlinenumber=\"1\"><a href=\"https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.13.1/org/apache/plc4x/java/api/messages/PlcBrowseItem.html\">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.13.1/org/apache/plc4x/java/api/messages/PlcBrowseItem.html</a></p>\n"
+      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.Messages.PlcBrowseItem.yml\" sourcestartlinenumber=\"1\"><a href=\"https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/1.0.0/org/apache/plc4x/java/api/messages/PlcBrowseItem.html\">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/1.0.0/org/apache/plc4x/java/api/messages/PlcBrowseItem.html</a></p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1278,7 +1320,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "Org.Apache.Plc4x.JavaNs.Api.Messages.PlcBrowseItemArrayInfo",
-      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.Messages.PlcBrowseItemArrayInfo.yml\" sourcestartlinenumber=\"1\"><a href=\"https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.13.1/org/apache/plc4x/java/api/messages/PlcBrowseItemArrayInfo.html\">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.13.1/org/apache/plc4x/java/api/messages/PlcBrowseItemArrayInfo.html</a></p>\n"
+      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.Messages.PlcBrowseItemArrayInfo.yml\" sourcestartlinenumber=\"1\"><a href=\"https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/1.0.0/org/apache/plc4x/java/api/messages/PlcBrowseItemArrayInfo.html\">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/1.0.0/org/apache/plc4x/java/api/messages/PlcBrowseItemArrayInfo.html</a></p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1292,7 +1334,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "Org.Apache.Plc4x.JavaNs.Api.Messages.PlcBrowseRequest.Builder",
-      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.Messages.PlcBrowseRequest.Builder.yml\" sourcestartlinenumber=\"1\"><a href=\"https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.13.1/org/apache/plc4x/java/api/messages/PlcBrowseRequest.Builder.html\">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.13.1/org/apache/plc4x/java/api/messages/PlcBrowseRequest.Builder.html</a></p>\n"
+      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.Messages.PlcBrowseRequest.Builder.yml\" sourcestartlinenumber=\"1\"><a href=\"https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/1.0.0/org/apache/plc4x/java/api/messages/PlcBrowseRequest.Builder.html\">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/1.0.0/org/apache/plc4x/java/api/messages/PlcBrowseRequest.Builder.html</a></p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1306,7 +1348,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "Org.Apache.Plc4x.JavaNs.Api.Messages.PlcBrowseRequest",
-      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.Messages.PlcBrowseRequest.yml\" sourcestartlinenumber=\"1\"><a href=\"https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.13.1/org/apache/plc4x/java/api/messages/PlcBrowseRequest.html\">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.13.1/org/apache/plc4x/java/api/messages/PlcBrowseRequest.html</a></p>\n"
+      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.Messages.PlcBrowseRequest.yml\" sourcestartlinenumber=\"1\"><a href=\"https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/1.0.0/org/apache/plc4x/java/api/messages/PlcBrowseRequest.html\">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/1.0.0/org/apache/plc4x/java/api/messages/PlcBrowseRequest.html</a></p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1320,7 +1362,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "Org.Apache.Plc4x.JavaNs.Api.Messages.PlcBrowseRequestInterceptor",
-      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.Messages.PlcBrowseRequestInterceptor.yml\" sourcestartlinenumber=\"1\"><a href=\"https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.13.1/org/apache/plc4x/java/api/messages/PlcBrowseRequestInterceptor.html\">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.13.1/org/apache/plc4x/java/api/messages/PlcBrowseRequestInterceptor.html</a></p>\n"
+      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.Messages.PlcBrowseRequestInterceptor.yml\" sourcestartlinenumber=\"1\"><a href=\"https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/1.0.0/org/apache/plc4x/java/api/messages/PlcBrowseRequestInterceptor.html\">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/1.0.0/org/apache/plc4x/java/api/messages/PlcBrowseRequestInterceptor.html</a></p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1334,7 +1376,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "Org.Apache.Plc4x.JavaNs.Api.Messages.PlcBrowseResponse",
-      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.Messages.PlcBrowseResponse.yml\" sourcestartlinenumber=\"1\"><a href=\"https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.13.1/org/apache/plc4x/java/api/messages/PlcBrowseResponse.html\">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.13.1/org/apache/plc4x/java/api/messages/PlcBrowseResponse.html</a></p>\n"
+      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.Messages.PlcBrowseResponse.yml\" sourcestartlinenumber=\"1\"><a href=\"https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/1.0.0/org/apache/plc4x/java/api/messages/PlcBrowseResponse.html\">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/1.0.0/org/apache/plc4x/java/api/messages/PlcBrowseResponse.html</a></p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1348,7 +1390,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "Org.Apache.Plc4x.JavaNs.Api.Messages.PlcDiscoveryItem",
-      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.Messages.PlcDiscoveryItem.yml\" sourcestartlinenumber=\"1\"><a href=\"https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.13.1/org/apache/plc4x/java/api/messages/PlcDiscoveryItem.html\">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.13.1/org/apache/plc4x/java/api/messages/PlcDiscoveryItem.html</a></p>\n"
+      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.Messages.PlcDiscoveryItem.yml\" sourcestartlinenumber=\"1\"><a href=\"https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/1.0.0/org/apache/plc4x/java/api/messages/PlcDiscoveryItem.html\">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/1.0.0/org/apache/plc4x/java/api/messages/PlcDiscoveryItem.html</a></p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1362,7 +1404,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "Org.Apache.Plc4x.JavaNs.Api.Messages.PlcDiscoveryItemHandler",
-      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.Messages.PlcDiscoveryItemHandler.yml\" sourcestartlinenumber=\"1\"><a href=\"https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.13.1/org/apache/plc4x/java/api/messages/PlcDiscoveryItemHandler.html\">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.13.1/org/apache/plc4x/java/api/messages/PlcDiscoveryItemHandler.html</a></p>\n"
+      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.Messages.PlcDiscoveryItemHandler.yml\" sourcestartlinenumber=\"1\"><a href=\"https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/1.0.0/org/apache/plc4x/java/api/messages/PlcDiscoveryItemHandler.html\">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/1.0.0/org/apache/plc4x/java/api/messages/PlcDiscoveryItemHandler.html</a></p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1376,7 +1418,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "Org.Apache.Plc4x.JavaNs.Api.Messages.PlcDiscoveryRequest.Builder",
-      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.Messages.PlcDiscoveryRequest.Builder.yml\" sourcestartlinenumber=\"1\"><a href=\"https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.13.1/org/apache/plc4x/java/api/messages/PlcDiscoveryRequest.Builder.html\">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.13.1/org/apache/plc4x/java/api/messages/PlcDiscoveryRequest.Builder.html</a></p>\n"
+      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.Messages.PlcDiscoveryRequest.Builder.yml\" sourcestartlinenumber=\"1\"><a href=\"https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/1.0.0/org/apache/plc4x/java/api/messages/PlcDiscoveryRequest.Builder.html\">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/1.0.0/org/apache/plc4x/java/api/messages/PlcDiscoveryRequest.Builder.html</a></p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1390,7 +1432,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "Org.Apache.Plc4x.JavaNs.Api.Messages.PlcDiscoveryRequest",
-      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.Messages.PlcDiscoveryRequest.yml\" sourcestartlinenumber=\"1\"><a href=\"https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.13.1/org/apache/plc4x/java/api/messages/PlcDiscoveryRequest.html\">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.13.1/org/apache/plc4x/java/api/messages/PlcDiscoveryRequest.html</a></p>\n"
+      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.Messages.PlcDiscoveryRequest.yml\" sourcestartlinenumber=\"1\"><a href=\"https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/1.0.0/org/apache/plc4x/java/api/messages/PlcDiscoveryRequest.html\">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/1.0.0/org/apache/plc4x/java/api/messages/PlcDiscoveryRequest.html</a></p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1404,7 +1446,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "Org.Apache.Plc4x.JavaNs.Api.Messages.PlcDiscoveryResponse",
-      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.Messages.PlcDiscoveryResponse.yml\" sourcestartlinenumber=\"1\"><a href=\"https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.13.1/org/apache/plc4x/java/api/messages/PlcDiscoveryResponse.html\">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.13.1/org/apache/plc4x/java/api/messages/PlcDiscoveryResponse.html</a></p>\n"
+      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.Messages.PlcDiscoveryResponse.yml\" sourcestartlinenumber=\"1\"><a href=\"https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/1.0.0/org/apache/plc4x/java/api/messages/PlcDiscoveryResponse.html\">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/1.0.0/org/apache/plc4x/java/api/messages/PlcDiscoveryResponse.html</a></p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1418,7 +1460,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "Org.Apache.Plc4x.JavaNs.Api.Messages.PlcMessage",
-      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.Messages.PlcMessage.yml\" sourcestartlinenumber=\"1\"><a href=\"https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.13.1/org/apache/plc4x/java/api/messages/PlcMessage.html\">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.13.1/org/apache/plc4x/java/api/messages/PlcMessage.html</a></p>\n"
+      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.Messages.PlcMessage.yml\" sourcestartlinenumber=\"1\"><a href=\"https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/1.0.0/org/apache/plc4x/java/api/messages/PlcMessage.html\">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/1.0.0/org/apache/plc4x/java/api/messages/PlcMessage.html</a></p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1432,7 +1474,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "Org.Apache.Plc4x.JavaNs.Api.Messages.PlcMetadataKeys",
-      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.Messages.PlcMetadataKeys.yml\" sourcestartlinenumber=\"1\"><a href=\"https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.13.1/org/apache/plc4x/java/api/messages/PlcMetadataKeys.html\">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.13.1/org/apache/plc4x/java/api/messages/PlcMetadataKeys.html</a></p>\n"
+      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.Messages.PlcMetadataKeys.yml\" sourcestartlinenumber=\"1\"><a href=\"https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/1.0.0/org/apache/plc4x/java/api/messages/PlcMetadataKeys.html\">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/1.0.0/org/apache/plc4x/java/api/messages/PlcMetadataKeys.html</a></p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1446,7 +1488,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "Org.Apache.Plc4x.JavaNs.Api.Messages.PlcPingRequest",
-      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.Messages.PlcPingRequest.yml\" sourcestartlinenumber=\"1\"><a href=\"https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.13.1/org/apache/plc4x/java/api/messages/PlcPingRequest.html\">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.13.1/org/apache/plc4x/java/api/messages/PlcPingRequest.html</a></p>\n"
+      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.Messages.PlcPingRequest.yml\" sourcestartlinenumber=\"1\"><a href=\"https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/1.0.0/org/apache/plc4x/java/api/messages/PlcPingRequest.html\">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/1.0.0/org/apache/plc4x/java/api/messages/PlcPingRequest.html</a></p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1460,7 +1502,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "Org.Apache.Plc4x.JavaNs.Api.Messages.PlcPingResponse",
-      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.Messages.PlcPingResponse.yml\" sourcestartlinenumber=\"1\"><a href=\"https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.13.1/org/apache/plc4x/java/api/messages/PlcPingResponse.html\">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.13.1/org/apache/plc4x/java/api/messages/PlcPingResponse.html</a></p>\n"
+      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.Messages.PlcPingResponse.yml\" sourcestartlinenumber=\"1\"><a href=\"https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/1.0.0/org/apache/plc4x/java/api/messages/PlcPingResponse.html\">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/1.0.0/org/apache/plc4x/java/api/messages/PlcPingResponse.html</a></p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1474,7 +1516,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "Org.Apache.Plc4x.JavaNs.Api.Messages.PlcReadRequest.Builder",
-      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.Messages.PlcReadRequest.Builder.yml\" sourcestartlinenumber=\"1\"><a href=\"https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.13.1/org/apache/plc4x/java/api/messages/PlcReadRequest.Builder.html\">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.13.1/org/apache/plc4x/java/api/messages/PlcReadRequest.Builder.html</a></p>\n"
+      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.Messages.PlcReadRequest.Builder.yml\" sourcestartlinenumber=\"1\"><a href=\"https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/1.0.0/org/apache/plc4x/java/api/messages/PlcReadRequest.Builder.html\">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/1.0.0/org/apache/plc4x/java/api/messages/PlcReadRequest.Builder.html</a></p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1488,7 +1530,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "Org.Apache.Plc4x.JavaNs.Api.Messages.PlcReadRequest",
-      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.Messages.PlcReadRequest.yml\" sourcestartlinenumber=\"1\"><a href=\"https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.13.1/org/apache/plc4x/java/api/messages/PlcReadRequest.html\">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.13.1/org/apache/plc4x/java/api/messages/PlcReadRequest.html</a></p>\n"
+      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.Messages.PlcReadRequest.yml\" sourcestartlinenumber=\"1\"><a href=\"https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/1.0.0/org/apache/plc4x/java/api/messages/PlcReadRequest.html\">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/1.0.0/org/apache/plc4x/java/api/messages/PlcReadRequest.html</a></p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1502,7 +1544,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "Org.Apache.Plc4x.JavaNs.Api.Messages.PlcReadResponse",
-      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.Messages.PlcReadResponse.yml\" sourcestartlinenumber=\"1\"><a href=\"https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.13.1/org/apache/plc4x/java/api/messages/PlcReadResponse.html\">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.13.1/org/apache/plc4x/java/api/messages/PlcReadResponse.html</a></p>\n"
+      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.Messages.PlcReadResponse.yml\" sourcestartlinenumber=\"1\"><a href=\"https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/1.0.0/org/apache/plc4x/java/api/messages/PlcReadResponse.html\">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/1.0.0/org/apache/plc4x/java/api/messages/PlcReadResponse.html</a></p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1516,7 +1558,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "Org.Apache.Plc4x.JavaNs.Api.Messages.PlcRequest",
-      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.Messages.PlcRequest.yml\" sourcestartlinenumber=\"1\"><a href=\"https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.13.1/org/apache/plc4x/java/api/messages/PlcRequest.html\">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.13.1/org/apache/plc4x/java/api/messages/PlcRequest.html</a></p>\n"
+      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.Messages.PlcRequest.yml\" sourcestartlinenumber=\"1\"><a href=\"https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/1.0.0/org/apache/plc4x/java/api/messages/PlcRequest.html\">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/1.0.0/org/apache/plc4x/java/api/messages/PlcRequest.html</a></p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1530,7 +1572,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "Org.Apache.Plc4x.JavaNs.Api.Messages.PlcRequestBuilder",
-      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.Messages.PlcRequestBuilder.yml\" sourcestartlinenumber=\"1\"><a href=\"https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.13.1/org/apache/plc4x/java/api/messages/PlcRequestBuilder.html\">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.13.1/org/apache/plc4x/java/api/messages/PlcRequestBuilder.html</a></p>\n"
+      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.Messages.PlcRequestBuilder.yml\" sourcestartlinenumber=\"1\"><a href=\"https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/1.0.0/org/apache/plc4x/java/api/messages/PlcRequestBuilder.html\">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/1.0.0/org/apache/plc4x/java/api/messages/PlcRequestBuilder.html</a></p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1544,7 +1586,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "Org.Apache.Plc4x.JavaNs.Api.Messages.PlcResponse",
-      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.Messages.PlcResponse.yml\" sourcestartlinenumber=\"1\"><a href=\"https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.13.1/org/apache/plc4x/java/api/messages/PlcResponse.html\">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.13.1/org/apache/plc4x/java/api/messages/PlcResponse.html</a></p>\n"
+      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.Messages.PlcResponse.yml\" sourcestartlinenumber=\"1\"><a href=\"https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/1.0.0/org/apache/plc4x/java/api/messages/PlcResponse.html\">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/1.0.0/org/apache/plc4x/java/api/messages/PlcResponse.html</a></p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1558,7 +1600,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "Org.Apache.Plc4x.JavaNs.Api.Messages.PlcSubscriptionEvent",
-      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.Messages.PlcSubscriptionEvent.yml\" sourcestartlinenumber=\"1\"><a href=\"https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.13.1/org/apache/plc4x/java/api/messages/PlcSubscriptionEvent.html\">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.13.1/org/apache/plc4x/java/api/messages/PlcSubscriptionEvent.html</a></p>\n"
+      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.Messages.PlcSubscriptionEvent.yml\" sourcestartlinenumber=\"1\"><a href=\"https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/1.0.0/org/apache/plc4x/java/api/messages/PlcSubscriptionEvent.html\">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/1.0.0/org/apache/plc4x/java/api/messages/PlcSubscriptionEvent.html</a></p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1572,7 +1614,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "Org.Apache.Plc4x.JavaNs.Api.Messages.PlcSubscriptionRequest.Builder",
-      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.Messages.PlcSubscriptionRequest.Builder.yml\" sourcestartlinenumber=\"1\"><a href=\"https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.13.1/org/apache/plc4x/java/api/messages/PlcSubscriptionRequest.Builder.html\">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.13.1/org/apache/plc4x/java/api/messages/PlcSubscriptionRequest.Builder.html</a></p>\n"
+      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.Messages.PlcSubscriptionRequest.Builder.yml\" sourcestartlinenumber=\"1\"><a href=\"https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/1.0.0/org/apache/plc4x/java/api/messages/PlcSubscriptionRequest.Builder.html\">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/1.0.0/org/apache/plc4x/java/api/messages/PlcSubscriptionRequest.Builder.html</a></p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1586,7 +1628,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "Org.Apache.Plc4x.JavaNs.Api.Messages.PlcSubscriptionRequest",
-      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.Messages.PlcSubscriptionRequest.yml\" sourcestartlinenumber=\"1\"><a href=\"https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.13.1/org/apache/plc4x/java/api/messages/PlcSubscriptionRequest.html\">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.13.1/org/apache/plc4x/java/api/messages/PlcSubscriptionRequest.html</a></p>\n"
+      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.Messages.PlcSubscriptionRequest.yml\" sourcestartlinenumber=\"1\"><a href=\"https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/1.0.0/org/apache/plc4x/java/api/messages/PlcSubscriptionRequest.html\">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/1.0.0/org/apache/plc4x/java/api/messages/PlcSubscriptionRequest.html</a></p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1600,7 +1642,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "Org.Apache.Plc4x.JavaNs.Api.Messages.PlcSubscriptionResponse",
-      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.Messages.PlcSubscriptionResponse.yml\" sourcestartlinenumber=\"1\"><a href=\"https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.13.1/org/apache/plc4x/java/api/messages/PlcSubscriptionResponse.html\">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.13.1/org/apache/plc4x/java/api/messages/PlcSubscriptionResponse.html</a></p>\n"
+      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.Messages.PlcSubscriptionResponse.yml\" sourcestartlinenumber=\"1\"><a href=\"https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/1.0.0/org/apache/plc4x/java/api/messages/PlcSubscriptionResponse.html\">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/1.0.0/org/apache/plc4x/java/api/messages/PlcSubscriptionResponse.html</a></p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1614,7 +1656,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "Org.Apache.Plc4x.JavaNs.Api.Messages.PlcSubscriptionTagRequest",
-      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.Messages.PlcSubscriptionTagRequest.yml\" sourcestartlinenumber=\"1\"><a href=\"https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.13.1/org/apache/plc4x/java/api/messages/PlcSubscriptionTagRequest.html\">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.13.1/org/apache/plc4x/java/api/messages/PlcSubscriptionTagRequest.html</a></p>\n"
+      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.Messages.PlcSubscriptionTagRequest.yml\" sourcestartlinenumber=\"1\"><a href=\"https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/1.0.0/org/apache/plc4x/java/api/messages/PlcSubscriptionTagRequest.html\">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/1.0.0/org/apache/plc4x/java/api/messages/PlcSubscriptionTagRequest.html</a></p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1628,7 +1670,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "Org.Apache.Plc4x.JavaNs.Api.Messages.PlcSubscriptionTagResponse",
-      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.Messages.PlcSubscriptionTagResponse.yml\" sourcestartlinenumber=\"1\"><a href=\"https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.13.1/org/apache/plc4x/java/api/messages/PlcSubscriptionTagResponse.html\">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.13.1/org/apache/plc4x/java/api/messages/PlcSubscriptionTagResponse.html</a></p>\n"
+      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.Messages.PlcSubscriptionTagResponse.yml\" sourcestartlinenumber=\"1\"><a href=\"https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/1.0.0/org/apache/plc4x/java/api/messages/PlcSubscriptionTagResponse.html\">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/1.0.0/org/apache/plc4x/java/api/messages/PlcSubscriptionTagResponse.html</a></p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1642,7 +1684,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "Org.Apache.Plc4x.JavaNs.Api.Messages.PlcTagRequest",
-      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.Messages.PlcTagRequest.yml\" sourcestartlinenumber=\"1\"><a href=\"https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.13.1/org/apache/plc4x/java/api/messages/PlcTagRequest.html\">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.13.1/org/apache/plc4x/java/api/messages/PlcTagRequest.html</a></p>\n"
+      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.Messages.PlcTagRequest.yml\" sourcestartlinenumber=\"1\"><a href=\"https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/1.0.0/org/apache/plc4x/java/api/messages/PlcTagRequest.html\">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/1.0.0/org/apache/plc4x/java/api/messages/PlcTagRequest.html</a></p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1656,7 +1698,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "Org.Apache.Plc4x.JavaNs.Api.Messages.PlcTagResponse",
-      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.Messages.PlcTagResponse.yml\" sourcestartlinenumber=\"1\"><a href=\"https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.13.1/org/apache/plc4x/java/api/messages/PlcTagResponse.html\">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.13.1/org/apache/plc4x/java/api/messages/PlcTagResponse.html</a></p>\n"
+      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.Messages.PlcTagResponse.yml\" sourcestartlinenumber=\"1\"><a href=\"https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/1.0.0/org/apache/plc4x/java/api/messages/PlcTagResponse.html\">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/1.0.0/org/apache/plc4x/java/api/messages/PlcTagResponse.html</a></p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1670,7 +1712,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "Org.Apache.Plc4x.JavaNs.Api.Messages.PlcUnsubscriptionRequest.Builder",
-      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.Messages.PlcUnsubscriptionRequest.Builder.yml\" sourcestartlinenumber=\"1\"><a href=\"https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.13.1/org/apache/plc4x/java/api/messages/PlcUnsubscriptionRequest.Builder.html\">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.13.1/org/apache/plc4x/java/api/messages/PlcUnsubscriptionRequest.Builder.html</a></p>\n"
+      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.Messages.PlcUnsubscriptionRequest.Builder.yml\" sourcestartlinenumber=\"1\"><a href=\"https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/1.0.0/org/apache/plc4x/java/api/messages/PlcUnsubscriptionRequest.Builder.html\">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/1.0.0/org/apache/plc4x/java/api/messages/PlcUnsubscriptionRequest.Builder.html</a></p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1684,7 +1726,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "Org.Apache.Plc4x.JavaNs.Api.Messages.PlcUnsubscriptionRequest",
-      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.Messages.PlcUnsubscriptionRequest.yml\" sourcestartlinenumber=\"1\"><a href=\"https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.13.1/org/apache/plc4x/java/api/messages/PlcUnsubscriptionRequest.html\">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.13.1/org/apache/plc4x/java/api/messages/PlcUnsubscriptionRequest.html</a></p>\n"
+      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.Messages.PlcUnsubscriptionRequest.yml\" sourcestartlinenumber=\"1\"><a href=\"https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/1.0.0/org/apache/plc4x/java/api/messages/PlcUnsubscriptionRequest.html\">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/1.0.0/org/apache/plc4x/java/api/messages/PlcUnsubscriptionRequest.html</a></p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1698,7 +1740,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "Org.Apache.Plc4x.JavaNs.Api.Messages.PlcUnsubscriptionResponse",
-      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.Messages.PlcUnsubscriptionResponse.yml\" sourcestartlinenumber=\"1\"><a href=\"https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.13.1/org/apache/plc4x/java/api/messages/PlcUnsubscriptionResponse.html\">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.13.1/org/apache/plc4x/java/api/messages/PlcUnsubscriptionResponse.html</a></p>\n"
+      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.Messages.PlcUnsubscriptionResponse.yml\" sourcestartlinenumber=\"1\"><a href=\"https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/1.0.0/org/apache/plc4x/java/api/messages/PlcUnsubscriptionResponse.html\">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/1.0.0/org/apache/plc4x/java/api/messages/PlcUnsubscriptionResponse.html</a></p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1712,7 +1754,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "Org.Apache.Plc4x.JavaNs.Api.Messages.PlcWriteRequest.Builder",
-      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.Messages.PlcWriteRequest.Builder.yml\" sourcestartlinenumber=\"1\"><a href=\"https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.13.1/org/apache/plc4x/java/api/messages/PlcWriteRequest.Builder.html\">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.13.1/org/apache/plc4x/java/api/messages/PlcWriteRequest.Builder.html</a></p>\n"
+      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.Messages.PlcWriteRequest.Builder.yml\" sourcestartlinenumber=\"1\"><a href=\"https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/1.0.0/org/apache/plc4x/java/api/messages/PlcWriteRequest.Builder.html\">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/1.0.0/org/apache/plc4x/java/api/messages/PlcWriteRequest.Builder.html</a></p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1726,7 +1768,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "Org.Apache.Plc4x.JavaNs.Api.Messages.PlcWriteRequest",
-      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.Messages.PlcWriteRequest.yml\" sourcestartlinenumber=\"1\"><a href=\"https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.13.1/org/apache/plc4x/java/api/messages/PlcWriteRequest.html\">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.13.1/org/apache/plc4x/java/api/messages/PlcWriteRequest.html</a></p>\n"
+      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.Messages.PlcWriteRequest.yml\" sourcestartlinenumber=\"1\"><a href=\"https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/1.0.0/org/apache/plc4x/java/api/messages/PlcWriteRequest.html\">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/1.0.0/org/apache/plc4x/java/api/messages/PlcWriteRequest.html</a></p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1740,7 +1782,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "Org.Apache.Plc4x.JavaNs.Api.Messages.PlcWriteResponse",
-      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.Messages.PlcWriteResponse.yml\" sourcestartlinenumber=\"1\"><a href=\"https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.13.1/org/apache/plc4x/java/api/messages/PlcWriteResponse.html\">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.13.1/org/apache/plc4x/java/api/messages/PlcWriteResponse.html</a></p>\n"
+      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.Messages.PlcWriteResponse.yml\" sourcestartlinenumber=\"1\"><a href=\"https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/1.0.0/org/apache/plc4x/java/api/messages/PlcWriteResponse.html\">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/1.0.0/org/apache/plc4x/java/api/messages/PlcWriteResponse.html</a></p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1768,7 +1810,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "Org.Apache.Plc4x.JavaNs.Api.Metadata.IMetadata",
-      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.Metadata.IMetadata.yml\" sourcestartlinenumber=\"1\">.NET interface skeleton to be manually developed following <a href=\"https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.13.1/org/apache/plc4x/java/api/metadata/Metadata.html\">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.13.1/org/apache/plc4x/java/api/metadata/Metadata.html</a></p>\n"
+      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.Metadata.IMetadata.yml\" sourcestartlinenumber=\"1\">.NET interface skeleton to be manually developed following <a href=\"https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/1.0.0/org/apache/plc4x/java/api/metadata/Metadata.html\">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/1.0.0/org/apache/plc4x/java/api/metadata/Metadata.html</a></p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1782,7 +1824,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "Org.Apache.Plc4x.JavaNs.Api.Metadata.IOption",
-      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.Metadata.IOption.yml\" sourcestartlinenumber=\"1\">.NET interface skeleton to be manually developed following <a href=\"https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.13.1/org/apache/plc4x/java/api/metadata/Option.html\">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.13.1/org/apache/plc4x/java/api/metadata/Option.html</a></p>\n"
+      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.Metadata.IOption.yml\" sourcestartlinenumber=\"1\">.NET interface skeleton to be manually developed following <a href=\"https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/1.0.0/org/apache/plc4x/java/api/metadata/Option.html\">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/1.0.0/org/apache/plc4x/java/api/metadata/Option.html</a></p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1796,7 +1838,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "Org.Apache.Plc4x.JavaNs.Api.Metadata.IOptionMetadata",
-      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.Metadata.IOptionMetadata.yml\" sourcestartlinenumber=\"1\">.NET interface skeleton to be manually developed following <a href=\"https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.13.1/org/apache/plc4x/java/api/metadata/OptionMetadata.html\">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.13.1/org/apache/plc4x/java/api/metadata/OptionMetadata.html</a></p>\n"
+      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.Metadata.IOptionMetadata.yml\" sourcestartlinenumber=\"1\">.NET interface skeleton to be manually developed following <a href=\"https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/1.0.0/org/apache/plc4x/java/api/metadata/OptionMetadata.html\">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/1.0.0/org/apache/plc4x/java/api/metadata/OptionMetadata.html</a></p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1810,7 +1852,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "Org.Apache.Plc4x.JavaNs.Api.Metadata.IPlcConnectionMetadata",
-      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.Metadata.IPlcConnectionMetadata.yml\" sourcestartlinenumber=\"1\">.NET interface skeleton to be manually developed following <a href=\"https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.13.1/org/apache/plc4x/java/api/metadata/PlcConnectionMetadata.html\">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.13.1/org/apache/plc4x/java/api/metadata/PlcConnectionMetadata.html</a></p>\n"
+      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.Metadata.IPlcConnectionMetadata.yml\" sourcestartlinenumber=\"1\">.NET interface skeleton to be manually developed following <a href=\"https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/1.0.0/org/apache/plc4x/java/api/metadata/PlcConnectionMetadata.html\">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/1.0.0/org/apache/plc4x/java/api/metadata/PlcConnectionMetadata.html</a></p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1824,7 +1866,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "Org.Apache.Plc4x.JavaNs.Api.Metadata.IPlcDriverMetadata",
-      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.Metadata.IPlcDriverMetadata.yml\" sourcestartlinenumber=\"1\">.NET interface skeleton to be manually developed following <a href=\"https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.13.1/org/apache/plc4x/java/api/metadata/PlcDriverMetadata.html\">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.13.1/org/apache/plc4x/java/api/metadata/PlcDriverMetadata.html</a></p>\n"
+      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.Metadata.IPlcDriverMetadata.yml\" sourcestartlinenumber=\"1\">.NET interface skeleton to be manually developed following <a href=\"https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/1.0.0/org/apache/plc4x/java/api/metadata/PlcDriverMetadata.html\">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/1.0.0/org/apache/plc4x/java/api/metadata/PlcDriverMetadata.html</a></p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1838,7 +1880,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "Org.Apache.Plc4x.JavaNs.Api.Metadata.Metadata.Key<T>",
-      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.Metadata.Metadata.Key-1.yml\" sourcestartlinenumber=\"1\"><a href=\"https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.13.1/org/apache/plc4x/java/api/metadata/Metadata.Key.html\">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.13.1/org/apache/plc4x/java/api/metadata/Metadata.Key.html</a></p>\n"
+      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.Metadata.Metadata.Key-1.yml\" sourcestartlinenumber=\"1\"><a href=\"https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/1.0.0/org/apache/plc4x/java/api/metadata/Metadata.Key.html\">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/1.0.0/org/apache/plc4x/java/api/metadata/Metadata.Key.html</a></p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1852,7 +1894,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "Org.Apache.Plc4x.JavaNs.Api.Metadata.Metadata.Key",
-      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.Metadata.Metadata.Key.yml\" sourcestartlinenumber=\"1\"><a href=\"https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.13.1/org/apache/plc4x/java/api/metadata/Metadata.Key.html\">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.13.1/org/apache/plc4x/java/api/metadata/Metadata.Key.html</a></p>\n"
+      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.Metadata.Metadata.Key.yml\" sourcestartlinenumber=\"1\"><a href=\"https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/1.0.0/org/apache/plc4x/java/api/metadata/Metadata.Key.html\">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/1.0.0/org/apache/plc4x/java/api/metadata/Metadata.Key.html</a></p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1866,7 +1908,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "Org.Apache.Plc4x.JavaNs.Api.Metadata.Metadata",
-      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.Metadata.Metadata.yml\" sourcestartlinenumber=\"1\"><a href=\"https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.13.1/org/apache/plc4x/java/api/metadata/Metadata.html\">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.13.1/org/apache/plc4x/java/api/metadata/Metadata.html</a></p>\n"
+      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.Metadata.Metadata.yml\" sourcestartlinenumber=\"1\"><a href=\"https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/1.0.0/org/apache/plc4x/java/api/metadata/Metadata.html\">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/1.0.0/org/apache/plc4x/java/api/metadata/Metadata.html</a></p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1880,7 +1922,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "Org.Apache.Plc4x.JavaNs.Api.Metadata.Option",
-      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.Metadata.Option.yml\" sourcestartlinenumber=\"1\"><a href=\"https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.13.1/org/apache/plc4x/java/api/metadata/Option.html\">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.13.1/org/apache/plc4x/java/api/metadata/Option.html</a></p>\n"
+      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.Metadata.Option.yml\" sourcestartlinenumber=\"1\"><a href=\"https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/1.0.0/org/apache/plc4x/java/api/metadata/Option.html\">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/1.0.0/org/apache/plc4x/java/api/metadata/Option.html</a></p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1894,7 +1936,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "Org.Apache.Plc4x.JavaNs.Api.Metadata.OptionMetadata",
-      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.Metadata.OptionMetadata.yml\" sourcestartlinenumber=\"1\"><a href=\"https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.13.1/org/apache/plc4x/java/api/metadata/OptionMetadata.html\">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.13.1/org/apache/plc4x/java/api/metadata/OptionMetadata.html</a></p>\n"
+      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.Metadata.OptionMetadata.yml\" sourcestartlinenumber=\"1\"><a href=\"https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/1.0.0/org/apache/plc4x/java/api/metadata/OptionMetadata.html\">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/1.0.0/org/apache/plc4x/java/api/metadata/OptionMetadata.html</a></p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1908,7 +1950,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "Org.Apache.Plc4x.JavaNs.Api.Metadata.PlcConnectionMetadata",
-      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.Metadata.PlcConnectionMetadata.yml\" sourcestartlinenumber=\"1\"><a href=\"https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.13.1/org/apache/plc4x/java/api/metadata/PlcConnectionMetadata.html\">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.13.1/org/apache/plc4x/java/api/metadata/PlcConnectionMetadata.html</a></p>\n"
+      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.Metadata.PlcConnectionMetadata.yml\" sourcestartlinenumber=\"1\"><a href=\"https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/1.0.0/org/apache/plc4x/java/api/metadata/PlcConnectionMetadata.html\">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/1.0.0/org/apache/plc4x/java/api/metadata/PlcConnectionMetadata.html</a></p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1922,7 +1964,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "Org.Apache.Plc4x.JavaNs.Api.Metadata.PlcDriverMetadata",
-      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.Metadata.PlcDriverMetadata.yml\" sourcestartlinenumber=\"1\"><a href=\"https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.13.1/org/apache/plc4x/java/api/metadata/PlcDriverMetadata.html\">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.13.1/org/apache/plc4x/java/api/metadata/PlcDriverMetadata.html</a></p>\n"
+      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.Metadata.PlcDriverMetadata.yml\" sourcestartlinenumber=\"1\"><a href=\"https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/1.0.0/org/apache/plc4x/java/api/metadata/PlcDriverMetadata.html\">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/1.0.0/org/apache/plc4x/java/api/metadata/PlcDriverMetadata.html</a></p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1936,7 +1978,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "Org.Apache.Plc4x.JavaNs.Api.Metadata.Time.TimeSource",
-      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.Metadata.Time.TimeSource.yml\" sourcestartlinenumber=\"1\"><a href=\"https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.13.1/org/apache/plc4x/java/api/metadata/time/TimeSource.html\">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.13.1/org/apache/plc4x/java/api/metadata/time/TimeSource.html</a></p>\n"
+      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.Metadata.Time.TimeSource.yml\" sourcestartlinenumber=\"1\"><a href=\"https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/1.0.0/org/apache/plc4x/java/api/metadata/time/TimeSource.html\">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/1.0.0/org/apache/plc4x/java/api/metadata/time/TimeSource.html</a></p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1978,7 +2020,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "Org.Apache.Plc4x.JavaNs.Api.Model.ArrayInfo",
-      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.Model.ArrayInfo.yml\" sourcestartlinenumber=\"1\"><a href=\"https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.13.1/org/apache/plc4x/java/api/model/ArrayInfo.html\">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.13.1/org/apache/plc4x/java/api/model/ArrayInfo.html</a></p>\n"
+      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.Model.ArrayInfo.yml\" sourcestartlinenumber=\"1\"><a href=\"https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/1.0.0/org/apache/plc4x/java/api/model/ArrayInfo.html\">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/1.0.0/org/apache/plc4x/java/api/model/ArrayInfo.html</a></p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1992,7 +2034,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "Org.Apache.Plc4x.JavaNs.Api.Model.IArrayInfo",
-      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.Model.IArrayInfo.yml\" sourcestartlinenumber=\"1\">.NET interface skeleton to be manually developed following <a href=\"https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.13.1/org/apache/plc4x/java/api/model/ArrayInfo.html\">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.13.1/org/apache/plc4x/java/api/model/ArrayInfo.html</a></p>\n"
+      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.Model.IArrayInfo.yml\" sourcestartlinenumber=\"1\">.NET interface skeleton to be manually developed following <a href=\"https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/1.0.0/org/apache/plc4x/java/api/model/ArrayInfo.html\">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/1.0.0/org/apache/plc4x/java/api/model/ArrayInfo.html</a></p>\n"
     },
     {
       "type": "ManagedReference",
@@ -2006,7 +2048,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "Org.Apache.Plc4x.JavaNs.Api.Model.IPlcConsumerRegistration",
-      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.Model.IPlcConsumerRegistration.yml\" sourcestartlinenumber=\"1\">.NET interface skeleton to be manually developed following <a href=\"https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.13.1/org/apache/plc4x/java/api/model/PlcConsumerRegistration.html\">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.13.1/org/apache/plc4x/java/api/model/PlcConsumerRegistration.html</a></p>\n"
+      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.Model.IPlcConsumerRegistration.yml\" sourcestartlinenumber=\"1\">.NET interface skeleton to be manually developed following <a href=\"https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/1.0.0/org/apache/plc4x/java/api/model/PlcConsumerRegistration.html\">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/1.0.0/org/apache/plc4x/java/api/model/PlcConsumerRegistration.html</a></p>\n"
     },
     {
       "type": "ManagedReference",
@@ -2020,7 +2062,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "Org.Apache.Plc4x.JavaNs.Api.Model.IPlcDiscoveryHandler",
-      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.Model.IPlcDiscoveryHandler.yml\" sourcestartlinenumber=\"1\">.NET interface skeleton to be manually developed following <a href=\"https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.13.1/org/apache/plc4x/java/api/model/PlcDiscoveryHandler.html\">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.13.1/org/apache/plc4x/java/api/model/PlcDiscoveryHandler.html</a></p>\n"
+      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.Model.IPlcDiscoveryHandler.yml\" sourcestartlinenumber=\"1\">.NET interface skeleton to be manually developed following <a href=\"https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/1.0.0/org/apache/plc4x/java/api/model/PlcDiscoveryHandler.html\">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/1.0.0/org/apache/plc4x/java/api/model/PlcDiscoveryHandler.html</a></p>\n"
     },
     {
       "type": "ManagedReference",
@@ -2034,7 +2076,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "Org.Apache.Plc4x.JavaNs.Api.Model.IPlcQuery",
-      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.Model.IPlcQuery.yml\" sourcestartlinenumber=\"1\">.NET interface skeleton to be manually developed following <a href=\"https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.13.1/org/apache/plc4x/java/api/model/PlcQuery.html\">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.13.1/org/apache/plc4x/java/api/model/PlcQuery.html</a></p>\n"
+      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.Model.IPlcQuery.yml\" sourcestartlinenumber=\"1\">.NET interface skeleton to be manually developed following <a href=\"https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/1.0.0/org/apache/plc4x/java/api/model/PlcQuery.html\">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/1.0.0/org/apache/plc4x/java/api/model/PlcQuery.html</a></p>\n"
     },
     {
       "type": "ManagedReference",
@@ -2048,7 +2090,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "Org.Apache.Plc4x.JavaNs.Api.Model.IPlcSubscriptionHandle",
-      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.Model.IPlcSubscriptionHandle.yml\" sourcestartlinenumber=\"1\">.NET interface skeleton to be manually developed following <a href=\"https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.13.1/org/apache/plc4x/java/api/model/PlcSubscriptionHandle.html\">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.13.1/org/apache/plc4x/java/api/model/PlcSubscriptionHandle.html</a></p>\n"
+      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.Model.IPlcSubscriptionHandle.yml\" sourcestartlinenumber=\"1\">.NET interface skeleton to be manually developed following <a href=\"https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/1.0.0/org/apache/plc4x/java/api/model/PlcSubscriptionHandle.html\">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/1.0.0/org/apache/plc4x/java/api/model/PlcSubscriptionHandle.html</a></p>\n"
     },
     {
       "type": "ManagedReference",
@@ -2062,7 +2104,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "Org.Apache.Plc4x.JavaNs.Api.Model.IPlcSubscriptionTag",
-      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.Model.IPlcSubscriptionTag.yml\" sourcestartlinenumber=\"1\">.NET interface skeleton to be manually developed following <a href=\"https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.13.1/org/apache/plc4x/java/api/model/PlcSubscriptionTag.html\">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.13.1/org/apache/plc4x/java/api/model/PlcSubscriptionTag.html</a></p>\n"
+      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.Model.IPlcSubscriptionTag.yml\" sourcestartlinenumber=\"1\">.NET interface skeleton to be manually developed following <a href=\"https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/1.0.0/org/apache/plc4x/java/api/model/PlcSubscriptionTag.html\">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/1.0.0/org/apache/plc4x/java/api/model/PlcSubscriptionTag.html</a></p>\n"
     },
     {
       "type": "ManagedReference",
@@ -2076,7 +2118,21 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "Org.Apache.Plc4x.JavaNs.Api.Model.IPlcTag",
-      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.Model.IPlcTag.yml\" sourcestartlinenumber=\"1\">.NET interface skeleton to be manually developed following <a href=\"https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.13.1/org/apache/plc4x/java/api/model/PlcTag.html\">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.13.1/org/apache/plc4x/java/api/model/PlcTag.html</a></p>\n"
+      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.Model.IPlcTag.yml\" sourcestartlinenumber=\"1\">.NET interface skeleton to be manually developed following <a href=\"https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/1.0.0/org/apache/plc4x/java/api/model/PlcTag.html\">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/1.0.0/org/apache/plc4x/java/api/model/PlcTag.html</a></p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Org.Apache.Plc4x.JavaNs.Api.Model.PlcConnectionStateChangedEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Org.Apache.Plc4x.JavaNs.Api.Model.PlcConnectionStateChangedEvent.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Org.Apache.Plc4x.JavaNs.Api.Model.PlcConnectionStateChangedEvent",
+      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.Model.PlcConnectionStateChangedEvent.yml\" sourcestartlinenumber=\"1\"><a href=\"https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/1.0.0/org/apache/plc4x/java/api/model/PlcConnectionStateChangedEvent.html\">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/1.0.0/org/apache/plc4x/java/api/model/PlcConnectionStateChangedEvent.html</a></p>\n"
     },
     {
       "type": "ManagedReference",
@@ -2090,7 +2146,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "Org.Apache.Plc4x.JavaNs.Api.Model.PlcConsumerRegistration",
-      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.Model.PlcConsumerRegistration.yml\" sourcestartlinenumber=\"1\"><a href=\"https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.13.1/org/apache/plc4x/java/api/model/PlcConsumerRegistration.html\">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.13.1/org/apache/plc4x/java/api/model/PlcConsumerRegistration.html</a></p>\n"
+      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.Model.PlcConsumerRegistration.yml\" sourcestartlinenumber=\"1\"><a href=\"https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/1.0.0/org/apache/plc4x/java/api/model/PlcConsumerRegistration.html\">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/1.0.0/org/apache/plc4x/java/api/model/PlcConsumerRegistration.html</a></p>\n"
     },
     {
       "type": "ManagedReference",
@@ -2104,7 +2160,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "Org.Apache.Plc4x.JavaNs.Api.Model.PlcDiscoveryHandler",
-      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.Model.PlcDiscoveryHandler.yml\" sourcestartlinenumber=\"1\"><a href=\"https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.13.1/org/apache/plc4x/java/api/model/PlcDiscoveryHandler.html\">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.13.1/org/apache/plc4x/java/api/model/PlcDiscoveryHandler.html</a></p>\n"
+      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.Model.PlcDiscoveryHandler.yml\" sourcestartlinenumber=\"1\"><a href=\"https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/1.0.0/org/apache/plc4x/java/api/model/PlcDiscoveryHandler.html\">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/1.0.0/org/apache/plc4x/java/api/model/PlcDiscoveryHandler.html</a></p>\n"
     },
     {
       "type": "ManagedReference",
@@ -2118,7 +2174,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "Org.Apache.Plc4x.JavaNs.Api.Model.PlcQuery",
-      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.Model.PlcQuery.yml\" sourcestartlinenumber=\"1\"><a href=\"https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.13.1/org/apache/plc4x/java/api/model/PlcQuery.html\">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.13.1/org/apache/plc4x/java/api/model/PlcQuery.html</a></p>\n"
+      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.Model.PlcQuery.yml\" sourcestartlinenumber=\"1\"><a href=\"https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/1.0.0/org/apache/plc4x/java/api/model/PlcQuery.html\">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/1.0.0/org/apache/plc4x/java/api/model/PlcQuery.html</a></p>\n"
     },
     {
       "type": "ManagedReference",
@@ -2132,7 +2188,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "Org.Apache.Plc4x.JavaNs.Api.Model.PlcSubscriptionHandle",
-      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.Model.PlcSubscriptionHandle.yml\" sourcestartlinenumber=\"1\"><a href=\"https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.13.1/org/apache/plc4x/java/api/model/PlcSubscriptionHandle.html\">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.13.1/org/apache/plc4x/java/api/model/PlcSubscriptionHandle.html</a></p>\n"
+      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.Model.PlcSubscriptionHandle.yml\" sourcestartlinenumber=\"1\"><a href=\"https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/1.0.0/org/apache/plc4x/java/api/model/PlcSubscriptionHandle.html\">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/1.0.0/org/apache/plc4x/java/api/model/PlcSubscriptionHandle.html</a></p>\n"
     },
     {
       "type": "ManagedReference",
@@ -2146,7 +2202,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "Org.Apache.Plc4x.JavaNs.Api.Model.PlcSubscriptionTag",
-      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.Model.PlcSubscriptionTag.yml\" sourcestartlinenumber=\"1\"><a href=\"https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.13.1/org/apache/plc4x/java/api/model/PlcSubscriptionTag.html\">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.13.1/org/apache/plc4x/java/api/model/PlcSubscriptionTag.html</a></p>\n"
+      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.Model.PlcSubscriptionTag.yml\" sourcestartlinenumber=\"1\"><a href=\"https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/1.0.0/org/apache/plc4x/java/api/model/PlcSubscriptionTag.html\">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/1.0.0/org/apache/plc4x/java/api/model/PlcSubscriptionTag.html</a></p>\n"
     },
     {
       "type": "ManagedReference",
@@ -2160,7 +2216,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "Org.Apache.Plc4x.JavaNs.Api.Model.PlcTag",
-      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.Model.PlcTag.yml\" sourcestartlinenumber=\"1\"><a href=\"https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.13.1/org/apache/plc4x/java/api/model/PlcTag.html\">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.13.1/org/apache/plc4x/java/api/model/PlcTag.html</a></p>\n"
+      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.Model.PlcTag.yml\" sourcestartlinenumber=\"1\"><a href=\"https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/1.0.0/org/apache/plc4x/java/api/model/PlcTag.html\">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/1.0.0/org/apache/plc4x/java/api/model/PlcTag.html</a></p>\n"
     },
     {
       "type": "ManagedReference",
@@ -2188,7 +2244,21 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "Org.Apache.Plc4x.JavaNs.Api.PlcConnection",
-      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.PlcConnection.yml\" sourcestartlinenumber=\"1\"><a href=\"https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.13.1/org/apache/plc4x/java/api/PlcConnection.html\">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.13.1/org/apache/plc4x/java/api/PlcConnection.html</a></p>\n"
+      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.PlcConnection.yml\" sourcestartlinenumber=\"1\"><a href=\"https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/1.0.0/org/apache/plc4x/java/api/PlcConnection.html\">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/1.0.0/org/apache/plc4x/java/api/PlcConnection.html</a></p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Org.Apache.Plc4x.JavaNs.Api.PlcConnectionFactory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Org.Apache.Plc4x.JavaNs.Api.PlcConnectionFactory.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Org.Apache.Plc4x.JavaNs.Api.PlcConnectionFactory",
+      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.PlcConnectionFactory.yml\" sourcestartlinenumber=\"1\"><a href=\"https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/1.0.0/org/apache/plc4x/java/api/PlcConnectionFactory.html\">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/1.0.0/org/apache/plc4x/java/api/PlcConnectionFactory.html</a></p>\n"
     },
     {
       "type": "ManagedReference",
@@ -2202,7 +2272,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "Org.Apache.Plc4x.JavaNs.Api.PlcConnectionManager",
-      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.PlcConnectionManager.yml\" sourcestartlinenumber=\"1\"><a href=\"https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.13.1/org/apache/plc4x/java/api/PlcConnectionManager.html\">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.13.1/org/apache/plc4x/java/api/PlcConnectionManager.html</a></p>\n"
+      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.PlcConnectionManager.yml\" sourcestartlinenumber=\"1\"><a href=\"https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/1.0.0/org/apache/plc4x/java/api/PlcConnectionManager.html\">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/1.0.0/org/apache/plc4x/java/api/PlcConnectionManager.html</a></p>\n"
     },
     {
       "type": "ManagedReference",
@@ -2216,7 +2286,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "Org.Apache.Plc4x.JavaNs.Api.PlcDriver",
-      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.PlcDriver.yml\" sourcestartlinenumber=\"1\"><a href=\"https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.13.1/org/apache/plc4x/java/api/PlcDriver.html\">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.13.1/org/apache/plc4x/java/api/PlcDriver.html</a></p>\n"
+      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.PlcDriver.yml\" sourcestartlinenumber=\"1\"><a href=\"https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/1.0.0/org/apache/plc4x/java/api/PlcDriver.html\">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/1.0.0/org/apache/plc4x/java/api/PlcDriver.html</a></p>\n"
     },
     {
       "type": "ManagedReference",
@@ -2230,7 +2300,21 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "Org.Apache.Plc4x.JavaNs.Api.PlcDriverManager",
-      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.PlcDriverManager.yml\" sourcestartlinenumber=\"1\"><a href=\"https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.13.1/org/apache/plc4x/java/api/PlcDriverManager.html\">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.13.1/org/apache/plc4x/java/api/PlcDriverManager.html</a></p>\n"
+      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.PlcDriverManager.yml\" sourcestartlinenumber=\"1\"><a href=\"https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/1.0.0/org/apache/plc4x/java/api/PlcDriverManager.html\">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/1.0.0/org/apache/plc4x/java/api/PlcDriverManager.html</a></p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Org.Apache.Plc4x.JavaNs.Api.Types.ConnectionStateChangeType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Org.Apache.Plc4x.JavaNs.Api.Types.ConnectionStateChangeType.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Org.Apache.Plc4x.JavaNs.Api.Types.ConnectionStateChangeType",
+      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.Types.ConnectionStateChangeType.yml\" sourcestartlinenumber=\"1\"><a href=\"https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/1.0.0/org/apache/plc4x/java/api/types/ConnectionStateChangeType.html\">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/1.0.0/org/apache/plc4x/java/api/types/ConnectionStateChangeType.html</a></p>\n"
     },
     {
       "type": "ManagedReference",
@@ -2244,7 +2328,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "Org.Apache.Plc4x.JavaNs.Api.Types.OptionType",
-      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.Types.OptionType.yml\" sourcestartlinenumber=\"1\"><a href=\"https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.13.1/org/apache/plc4x/java/api/types/OptionType.html\">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.13.1/org/apache/plc4x/java/api/types/OptionType.html</a></p>\n"
+      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.Types.OptionType.yml\" sourcestartlinenumber=\"1\"><a href=\"https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/1.0.0/org/apache/plc4x/java/api/types/OptionType.html\">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/1.0.0/org/apache/plc4x/java/api/types/OptionType.html</a></p>\n"
     },
     {
       "type": "ManagedReference",
@@ -2258,7 +2342,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "Org.Apache.Plc4x.JavaNs.Api.Types.PlcResponseCode",
-      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.Types.PlcResponseCode.yml\" sourcestartlinenumber=\"1\"><a href=\"https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.13.1/org/apache/plc4x/java/api/types/PlcResponseCode.html\">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.13.1/org/apache/plc4x/java/api/types/PlcResponseCode.html</a></p>\n"
+      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.Types.PlcResponseCode.yml\" sourcestartlinenumber=\"1\"><a href=\"https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/1.0.0/org/apache/plc4x/java/api/types/PlcResponseCode.html\">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/1.0.0/org/apache/plc4x/java/api/types/PlcResponseCode.html</a></p>\n"
     },
     {
       "type": "ManagedReference",
@@ -2272,7 +2356,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "Org.Apache.Plc4x.JavaNs.Api.Types.PlcSubscriptionType",
-      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.Types.PlcSubscriptionType.yml\" sourcestartlinenumber=\"1\"><a href=\"https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.13.1/org/apache/plc4x/java/api/types/PlcSubscriptionType.html\">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.13.1/org/apache/plc4x/java/api/types/PlcSubscriptionType.html</a></p>\n"
+      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.Types.PlcSubscriptionType.yml\" sourcestartlinenumber=\"1\"><a href=\"https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/1.0.0/org/apache/plc4x/java/api/types/PlcSubscriptionType.html\">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/1.0.0/org/apache/plc4x/java/api/types/PlcSubscriptionType.html</a></p>\n"
     },
     {
       "type": "ManagedReference",
@@ -2286,7 +2370,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "Org.Apache.Plc4x.JavaNs.Api.Types.PlcValueType",
-      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.Types.PlcValueType.yml\" sourcestartlinenumber=\"1\"><a href=\"https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.13.1/org/apache/plc4x/java/api/types/PlcValueType.html\">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.13.1/org/apache/plc4x/java/api/types/PlcValueType.html</a></p>\n"
+      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.Types.PlcValueType.yml\" sourcestartlinenumber=\"1\"><a href=\"https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/1.0.0/org/apache/plc4x/java/api/types/PlcValueType.html\">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/1.0.0/org/apache/plc4x/java/api/types/PlcValueType.html</a></p>\n"
     },
     {
       "type": "ManagedReference",
@@ -2314,7 +2398,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "Org.Apache.Plc4x.JavaNs.Api.Value.IPlcValue",
-      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.Value.IPlcValue.yml\" sourcestartlinenumber=\"1\">.NET interface skeleton to be manually developed following <a href=\"https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.13.1/org/apache/plc4x/java/api/value/PlcValue.html\">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.13.1/org/apache/plc4x/java/api/value/PlcValue.html</a></p>\n"
+      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.Value.IPlcValue.yml\" sourcestartlinenumber=\"1\">.NET interface skeleton to be manually developed following <a href=\"https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/1.0.0/org/apache/plc4x/java/api/value/PlcValue.html\">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/1.0.0/org/apache/plc4x/java/api/value/PlcValue.html</a></p>\n"
     },
     {
       "type": "ManagedReference",
@@ -2328,7 +2412,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "Org.Apache.Plc4x.JavaNs.Api.Value.PlcValue",
-      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.Value.PlcValue.yml\" sourcestartlinenumber=\"1\"><a href=\"https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.13.1/org/apache/plc4x/java/api/value/PlcValue.html\">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.13.1/org/apache/plc4x/java/api/value/PlcValue.html</a></p>\n"
+      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.Api.Value.PlcValue.yml\" sourcestartlinenumber=\"1\"><a href=\"https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/1.0.0/org/apache/plc4x/java/api/value/PlcValue.html\">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/1.0.0/org/apache/plc4x/java/api/value/PlcValue.html</a></p>\n"
     },
     {
       "type": "ManagedReference",
@@ -2370,7 +2454,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "Org.Apache.Plc4x.JavaNs.DefaultPlcDriverManager",
-      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.DefaultPlcDriverManager.yml\" sourcestartlinenumber=\"1\"><a href=\"https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.13.1/org/apache/plc4x/java/DefaultPlcDriverManager.html\">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.13.1/org/apache/plc4x/java/DefaultPlcDriverManager.html</a></p>\n"
+      "Summary": "<p sourcefile=\"api/Org.Apache.Plc4x.JavaNs.DefaultPlcDriverManager.yml\" sourcestartlinenumber=\"1\"><a href=\"https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/1.0.0/org/apache/plc4x/java/DefaultPlcDriverManager.html\">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/1.0.0/org/apache/plc4x/java/DefaultPlcDriverManager.html</a></p>\n"
     },
     {
       "type": "ManagedReference",

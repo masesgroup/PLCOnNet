@@ -1007,6 +1007,290 @@ references:
   isSpec: "True"
   fullName: Org.Apache.Plc4x.JavaNs.Api.Authentication.PlcAuthentication.IsBridgeStatic
   nameWithType: PlcAuthentication.IsBridgeStatic
+- uid: Org.Apache.Plc4x.JavaNs.Api.Authentication.PlcCertificateAuthentication
+  name: PlcCertificateAuthentication
+  href: api/Org.Apache.Plc4x.JavaNs.Api.Authentication.PlcCertificateAuthentication.html
+  commentId: T:Org.Apache.Plc4x.JavaNs.Api.Authentication.PlcCertificateAuthentication
+  fullName: Org.Apache.Plc4x.JavaNs.Api.Authentication.PlcCertificateAuthentication
+  nameWithType: PlcCertificateAuthentication
+- uid: Org.Apache.Plc4x.JavaNs.Api.Authentication.PlcCertificateAuthentication.#ctor(Java.Security.KeyStore,System.Char[])
+  name: PlcCertificateAuthentication(KeyStore, char[])
+  href: api/Org.Apache.Plc4x.JavaNs.Api.Authentication.PlcCertificateAuthentication.html#Org_Apache_Plc4x_JavaNs_Api_Authentication_PlcCertificateAuthentication__ctor_Java_Security_KeyStore_System_Char___
+  commentId: M:Org.Apache.Plc4x.JavaNs.Api.Authentication.PlcCertificateAuthentication.#ctor(Java.Security.KeyStore,System.Char[])
+  name.vb: New(KeyStore, Char())
+  fullName: Org.Apache.Plc4x.JavaNs.Api.Authentication.PlcCertificateAuthentication.PlcCertificateAuthentication(Java.Security.KeyStore, char[])
+  fullName.vb: Org.Apache.Plc4x.JavaNs.Api.Authentication.PlcCertificateAuthentication.New(Java.Security.KeyStore, Char())
+  nameWithType: PlcCertificateAuthentication.PlcCertificateAuthentication(KeyStore, char[])
+  nameWithType.vb: PlcCertificateAuthentication.New(KeyStore, Char())
+- uid: Org.Apache.Plc4x.JavaNs.Api.Authentication.PlcCertificateAuthentication.#ctor(Java.Security.KeyStore,System.Char[],Java.Lang.String)
+  name: PlcCertificateAuthentication(KeyStore, char[], String)
+  href: api/Org.Apache.Plc4x.JavaNs.Api.Authentication.PlcCertificateAuthentication.html#Org_Apache_Plc4x_JavaNs_Api_Authentication_PlcCertificateAuthentication__ctor_Java_Security_KeyStore_System_Char___Java_Lang_String_
+  commentId: M:Org.Apache.Plc4x.JavaNs.Api.Authentication.PlcCertificateAuthentication.#ctor(Java.Security.KeyStore,System.Char[],Java.Lang.String)
+  name.vb: New(KeyStore, Char(), String)
+  fullName: Org.Apache.Plc4x.JavaNs.Api.Authentication.PlcCertificateAuthentication.PlcCertificateAuthentication(Java.Security.KeyStore, char[], Java.Lang.String)
+  fullName.vb: Org.Apache.Plc4x.JavaNs.Api.Authentication.PlcCertificateAuthentication.New(Java.Security.KeyStore, Char(), Java.Lang.String)
+  nameWithType: PlcCertificateAuthentication.PlcCertificateAuthentication(KeyStore, char[], String)
+  nameWithType.vb: PlcCertificateAuthentication.New(KeyStore, Char(), String)
+- uid: Org.Apache.Plc4x.JavaNs.Api.Authentication.PlcCertificateAuthentication.#ctor(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  name: PlcCertificateAuthentication(IJVMBridgeBaseInitializer)
+  href: api/Org.Apache.Plc4x.JavaNs.Api.Authentication.PlcCertificateAuthentication.html#Org_Apache_Plc4x_JavaNs_Api_Authentication_PlcCertificateAuthentication__ctor_MASES_JCOBridge_C2JBridge_IJVMBridgeBaseInitializer_
+  commentId: M:Org.Apache.Plc4x.JavaNs.Api.Authentication.PlcCertificateAuthentication.#ctor(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  name.vb: New(IJVMBridgeBaseInitializer)
+  fullName: Org.Apache.Plc4x.JavaNs.Api.Authentication.PlcCertificateAuthentication.PlcCertificateAuthentication(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  fullName.vb: Org.Apache.Plc4x.JavaNs.Api.Authentication.PlcCertificateAuthentication.New(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  nameWithType: PlcCertificateAuthentication.PlcCertificateAuthentication(IJVMBridgeBaseInitializer)
+  nameWithType.vb: PlcCertificateAuthentication.New(IJVMBridgeBaseInitializer)
+- uid: Org.Apache.Plc4x.JavaNs.Api.Authentication.PlcCertificateAuthentication.#ctor*
+  name: PlcCertificateAuthentication
+  href: api/Org.Apache.Plc4x.JavaNs.Api.Authentication.PlcCertificateAuthentication.html#Org_Apache_Plc4x_JavaNs_Api_Authentication_PlcCertificateAuthentication__ctor_
+  commentId: Overload:Org.Apache.Plc4x.JavaNs.Api.Authentication.PlcCertificateAuthentication.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: Org.Apache.Plc4x.JavaNs.Api.Authentication.PlcCertificateAuthentication.PlcCertificateAuthentication
+  fullName.vb: Org.Apache.Plc4x.JavaNs.Api.Authentication.PlcCertificateAuthentication.New
+  nameWithType: PlcCertificateAuthentication.PlcCertificateAuthentication
+  nameWithType.vb: PlcCertificateAuthentication.New
+- uid: Org.Apache.Plc4x.JavaNs.Api.Authentication.PlcCertificateAuthentication.BridgeClassName
+  name: BridgeClassName
+  href: api/Org.Apache.Plc4x.JavaNs.Api.Authentication.PlcCertificateAuthentication.html#Org_Apache_Plc4x_JavaNs_Api_Authentication_PlcCertificateAuthentication_BridgeClassName
+  commentId: P:Org.Apache.Plc4x.JavaNs.Api.Authentication.PlcCertificateAuthentication.BridgeClassName
+  fullName: Org.Apache.Plc4x.JavaNs.Api.Authentication.PlcCertificateAuthentication.BridgeClassName
+  nameWithType: PlcCertificateAuthentication.BridgeClassName
+- uid: Org.Apache.Plc4x.JavaNs.Api.Authentication.PlcCertificateAuthentication.BridgeClassName*
+  name: BridgeClassName
+  href: api/Org.Apache.Plc4x.JavaNs.Api.Authentication.PlcCertificateAuthentication.html#Org_Apache_Plc4x_JavaNs_Api_Authentication_PlcCertificateAuthentication_BridgeClassName_
+  commentId: Overload:Org.Apache.Plc4x.JavaNs.Api.Authentication.PlcCertificateAuthentication.BridgeClassName
+  isSpec: "True"
+  fullName: Org.Apache.Plc4x.JavaNs.Api.Authentication.PlcCertificateAuthentication.BridgeClassName
+  nameWithType: PlcCertificateAuthentication.BridgeClassName
+- uid: Org.Apache.Plc4x.JavaNs.Api.Authentication.PlcCertificateAuthentication.CreatePoolableInstance(Java.Security.KeyStore,System.Char[])
+  name: CreatePoolableInstance(KeyStore, char[])
+  href: api/Org.Apache.Plc4x.JavaNs.Api.Authentication.PlcCertificateAuthentication.html#Org_Apache_Plc4x_JavaNs_Api_Authentication_PlcCertificateAuthentication_CreatePoolableInstance_Java_Security_KeyStore_System_Char___
+  commentId: M:Org.Apache.Plc4x.JavaNs.Api.Authentication.PlcCertificateAuthentication.CreatePoolableInstance(Java.Security.KeyStore,System.Char[])
+  name.vb: CreatePoolableInstance(KeyStore, Char())
+  fullName: Org.Apache.Plc4x.JavaNs.Api.Authentication.PlcCertificateAuthentication.CreatePoolableInstance(Java.Security.KeyStore, char[])
+  fullName.vb: Org.Apache.Plc4x.JavaNs.Api.Authentication.PlcCertificateAuthentication.CreatePoolableInstance(Java.Security.KeyStore, Char())
+  nameWithType: PlcCertificateAuthentication.CreatePoolableInstance(KeyStore, char[])
+  nameWithType.vb: PlcCertificateAuthentication.CreatePoolableInstance(KeyStore, Char())
+- uid: Org.Apache.Plc4x.JavaNs.Api.Authentication.PlcCertificateAuthentication.CreatePoolableInstance(Java.Security.KeyStore,System.Char[],Java.Lang.String)
+  name: CreatePoolableInstance(KeyStore, char[], String)
+  href: api/Org.Apache.Plc4x.JavaNs.Api.Authentication.PlcCertificateAuthentication.html#Org_Apache_Plc4x_JavaNs_Api_Authentication_PlcCertificateAuthentication_CreatePoolableInstance_Java_Security_KeyStore_System_Char___Java_Lang_String_
+  commentId: M:Org.Apache.Plc4x.JavaNs.Api.Authentication.PlcCertificateAuthentication.CreatePoolableInstance(Java.Security.KeyStore,System.Char[],Java.Lang.String)
+  name.vb: CreatePoolableInstance(KeyStore, Char(), String)
+  fullName: Org.Apache.Plc4x.JavaNs.Api.Authentication.PlcCertificateAuthentication.CreatePoolableInstance(Java.Security.KeyStore, char[], Java.Lang.String)
+  fullName.vb: Org.Apache.Plc4x.JavaNs.Api.Authentication.PlcCertificateAuthentication.CreatePoolableInstance(Java.Security.KeyStore, Char(), Java.Lang.String)
+  nameWithType: PlcCertificateAuthentication.CreatePoolableInstance(KeyStore, char[], String)
+  nameWithType.vb: PlcCertificateAuthentication.CreatePoolableInstance(KeyStore, Char(), String)
+- uid: Org.Apache.Plc4x.JavaNs.Api.Authentication.PlcCertificateAuthentication.CreatePoolableInstance*
+  name: CreatePoolableInstance
+  href: api/Org.Apache.Plc4x.JavaNs.Api.Authentication.PlcCertificateAuthentication.html#Org_Apache_Plc4x_JavaNs_Api_Authentication_PlcCertificateAuthentication_CreatePoolableInstance_
+  commentId: Overload:Org.Apache.Plc4x.JavaNs.Api.Authentication.PlcCertificateAuthentication.CreatePoolableInstance
+  isSpec: "True"
+  fullName: Org.Apache.Plc4x.JavaNs.Api.Authentication.PlcCertificateAuthentication.CreatePoolableInstance
+  nameWithType: PlcCertificateAuthentication.CreatePoolableInstance
+- uid: Org.Apache.Plc4x.JavaNs.Api.Authentication.PlcCertificateAuthentication.IsBridgeAbstract
+  name: IsBridgeAbstract
+  href: api/Org.Apache.Plc4x.JavaNs.Api.Authentication.PlcCertificateAuthentication.html#Org_Apache_Plc4x_JavaNs_Api_Authentication_PlcCertificateAuthentication_IsBridgeAbstract
+  commentId: P:Org.Apache.Plc4x.JavaNs.Api.Authentication.PlcCertificateAuthentication.IsBridgeAbstract
+  fullName: Org.Apache.Plc4x.JavaNs.Api.Authentication.PlcCertificateAuthentication.IsBridgeAbstract
+  nameWithType: PlcCertificateAuthentication.IsBridgeAbstract
+- uid: Org.Apache.Plc4x.JavaNs.Api.Authentication.PlcCertificateAuthentication.IsBridgeAbstract*
+  name: IsBridgeAbstract
+  href: api/Org.Apache.Plc4x.JavaNs.Api.Authentication.PlcCertificateAuthentication.html#Org_Apache_Plc4x_JavaNs_Api_Authentication_PlcCertificateAuthentication_IsBridgeAbstract_
+  commentId: Overload:Org.Apache.Plc4x.JavaNs.Api.Authentication.PlcCertificateAuthentication.IsBridgeAbstract
+  isSpec: "True"
+  fullName: Org.Apache.Plc4x.JavaNs.Api.Authentication.PlcCertificateAuthentication.IsBridgeAbstract
+  nameWithType: PlcCertificateAuthentication.IsBridgeAbstract
+- uid: Org.Apache.Plc4x.JavaNs.Api.Authentication.PlcCertificateAuthentication.IsBridgeCloseable
+  name: IsBridgeCloseable
+  href: api/Org.Apache.Plc4x.JavaNs.Api.Authentication.PlcCertificateAuthentication.html#Org_Apache_Plc4x_JavaNs_Api_Authentication_PlcCertificateAuthentication_IsBridgeCloseable
+  commentId: P:Org.Apache.Plc4x.JavaNs.Api.Authentication.PlcCertificateAuthentication.IsBridgeCloseable
+  fullName: Org.Apache.Plc4x.JavaNs.Api.Authentication.PlcCertificateAuthentication.IsBridgeCloseable
+  nameWithType: PlcCertificateAuthentication.IsBridgeCloseable
+- uid: Org.Apache.Plc4x.JavaNs.Api.Authentication.PlcCertificateAuthentication.IsBridgeCloseable*
+  name: IsBridgeCloseable
+  href: api/Org.Apache.Plc4x.JavaNs.Api.Authentication.PlcCertificateAuthentication.html#Org_Apache_Plc4x_JavaNs_Api_Authentication_PlcCertificateAuthentication_IsBridgeCloseable_
+  commentId: Overload:Org.Apache.Plc4x.JavaNs.Api.Authentication.PlcCertificateAuthentication.IsBridgeCloseable
+  isSpec: "True"
+  fullName: Org.Apache.Plc4x.JavaNs.Api.Authentication.PlcCertificateAuthentication.IsBridgeCloseable
+  nameWithType: PlcCertificateAuthentication.IsBridgeCloseable
+- uid: Org.Apache.Plc4x.JavaNs.Api.Authentication.PlcCertificateAuthentication.IsBridgeInterface
+  name: IsBridgeInterface
+  href: api/Org.Apache.Plc4x.JavaNs.Api.Authentication.PlcCertificateAuthentication.html#Org_Apache_Plc4x_JavaNs_Api_Authentication_PlcCertificateAuthentication_IsBridgeInterface
+  commentId: P:Org.Apache.Plc4x.JavaNs.Api.Authentication.PlcCertificateAuthentication.IsBridgeInterface
+  fullName: Org.Apache.Plc4x.JavaNs.Api.Authentication.PlcCertificateAuthentication.IsBridgeInterface
+  nameWithType: PlcCertificateAuthentication.IsBridgeInterface
+- uid: Org.Apache.Plc4x.JavaNs.Api.Authentication.PlcCertificateAuthentication.IsBridgeInterface*
+  name: IsBridgeInterface
+  href: api/Org.Apache.Plc4x.JavaNs.Api.Authentication.PlcCertificateAuthentication.html#Org_Apache_Plc4x_JavaNs_Api_Authentication_PlcCertificateAuthentication_IsBridgeInterface_
+  commentId: Overload:Org.Apache.Plc4x.JavaNs.Api.Authentication.PlcCertificateAuthentication.IsBridgeInterface
+  isSpec: "True"
+  fullName: Org.Apache.Plc4x.JavaNs.Api.Authentication.PlcCertificateAuthentication.IsBridgeInterface
+  nameWithType: PlcCertificateAuthentication.IsBridgeInterface
+- uid: Org.Apache.Plc4x.JavaNs.Api.Authentication.PlcCertificateAuthentication.IsBridgeStatic
+  name: IsBridgeStatic
+  href: api/Org.Apache.Plc4x.JavaNs.Api.Authentication.PlcCertificateAuthentication.html#Org_Apache_Plc4x_JavaNs_Api_Authentication_PlcCertificateAuthentication_IsBridgeStatic
+  commentId: P:Org.Apache.Plc4x.JavaNs.Api.Authentication.PlcCertificateAuthentication.IsBridgeStatic
+  fullName: Org.Apache.Plc4x.JavaNs.Api.Authentication.PlcCertificateAuthentication.IsBridgeStatic
+  nameWithType: PlcCertificateAuthentication.IsBridgeStatic
+- uid: Org.Apache.Plc4x.JavaNs.Api.Authentication.PlcCertificateAuthentication.IsBridgeStatic*
+  name: IsBridgeStatic
+  href: api/Org.Apache.Plc4x.JavaNs.Api.Authentication.PlcCertificateAuthentication.html#Org_Apache_Plc4x_JavaNs_Api_Authentication_PlcCertificateAuthentication_IsBridgeStatic_
+  commentId: Overload:Org.Apache.Plc4x.JavaNs.Api.Authentication.PlcCertificateAuthentication.IsBridgeStatic
+  isSpec: "True"
+  fullName: Org.Apache.Plc4x.JavaNs.Api.Authentication.PlcCertificateAuthentication.IsBridgeStatic
+  nameWithType: PlcCertificateAuthentication.IsBridgeStatic
+- uid: Org.Apache.Plc4x.JavaNs.Api.Authentication.PlcCertificateAuthentication.KeyAlias
+  name: KeyAlias
+  href: api/Org.Apache.Plc4x.JavaNs.Api.Authentication.PlcCertificateAuthentication.html#Org_Apache_Plc4x_JavaNs_Api_Authentication_PlcCertificateAuthentication_KeyAlias
+  commentId: P:Org.Apache.Plc4x.JavaNs.Api.Authentication.PlcCertificateAuthentication.KeyAlias
+  fullName: Org.Apache.Plc4x.JavaNs.Api.Authentication.PlcCertificateAuthentication.KeyAlias
+  nameWithType: PlcCertificateAuthentication.KeyAlias
+- uid: Org.Apache.Plc4x.JavaNs.Api.Authentication.PlcCertificateAuthentication.KeyAlias*
+  name: KeyAlias
+  href: api/Org.Apache.Plc4x.JavaNs.Api.Authentication.PlcCertificateAuthentication.html#Org_Apache_Plc4x_JavaNs_Api_Authentication_PlcCertificateAuthentication_KeyAlias_
+  commentId: Overload:Org.Apache.Plc4x.JavaNs.Api.Authentication.PlcCertificateAuthentication.KeyAlias
+  isSpec: "True"
+  fullName: Org.Apache.Plc4x.JavaNs.Api.Authentication.PlcCertificateAuthentication.KeyAlias
+  nameWithType: PlcCertificateAuthentication.KeyAlias
+- uid: Org.Apache.Plc4x.JavaNs.Api.Authentication.PlcCertificateAuthentication.KeyStore
+  name: KeyStore
+  href: api/Org.Apache.Plc4x.JavaNs.Api.Authentication.PlcCertificateAuthentication.html#Org_Apache_Plc4x_JavaNs_Api_Authentication_PlcCertificateAuthentication_KeyStore
+  commentId: P:Org.Apache.Plc4x.JavaNs.Api.Authentication.PlcCertificateAuthentication.KeyStore
+  fullName: Org.Apache.Plc4x.JavaNs.Api.Authentication.PlcCertificateAuthentication.KeyStore
+  nameWithType: PlcCertificateAuthentication.KeyStore
+- uid: Org.Apache.Plc4x.JavaNs.Api.Authentication.PlcCertificateAuthentication.KeyStore*
+  name: KeyStore
+  href: api/Org.Apache.Plc4x.JavaNs.Api.Authentication.PlcCertificateAuthentication.html#Org_Apache_Plc4x_JavaNs_Api_Authentication_PlcCertificateAuthentication_KeyStore_
+  commentId: Overload:Org.Apache.Plc4x.JavaNs.Api.Authentication.PlcCertificateAuthentication.KeyStore
+  isSpec: "True"
+  fullName: Org.Apache.Plc4x.JavaNs.Api.Authentication.PlcCertificateAuthentication.KeyStore
+  nameWithType: PlcCertificateAuthentication.KeyStore
+- uid: Org.Apache.Plc4x.JavaNs.Api.Authentication.PlcCertificateAuthentication.KeyStorePassword
+  name: KeyStorePassword
+  href: api/Org.Apache.Plc4x.JavaNs.Api.Authentication.PlcCertificateAuthentication.html#Org_Apache_Plc4x_JavaNs_Api_Authentication_PlcCertificateAuthentication_KeyStorePassword
+  commentId: P:Org.Apache.Plc4x.JavaNs.Api.Authentication.PlcCertificateAuthentication.KeyStorePassword
+  fullName: Org.Apache.Plc4x.JavaNs.Api.Authentication.PlcCertificateAuthentication.KeyStorePassword
+  nameWithType: PlcCertificateAuthentication.KeyStorePassword
+- uid: Org.Apache.Plc4x.JavaNs.Api.Authentication.PlcCertificateAuthentication.KeyStorePassword*
+  name: KeyStorePassword
+  href: api/Org.Apache.Plc4x.JavaNs.Api.Authentication.PlcCertificateAuthentication.html#Org_Apache_Plc4x_JavaNs_Api_Authentication_PlcCertificateAuthentication_KeyStorePassword_
+  commentId: Overload:Org.Apache.Plc4x.JavaNs.Api.Authentication.PlcCertificateAuthentication.KeyStorePassword
+  isSpec: "True"
+  fullName: Org.Apache.Plc4x.JavaNs.Api.Authentication.PlcCertificateAuthentication.KeyStorePassword
+  nameWithType: PlcCertificateAuthentication.KeyStorePassword
+- uid: Org.Apache.Plc4x.JavaNs.Api.Authentication.PlcNullAuthentication
+  name: PlcNullAuthentication
+  href: api/Org.Apache.Plc4x.JavaNs.Api.Authentication.PlcNullAuthentication.html
+  commentId: T:Org.Apache.Plc4x.JavaNs.Api.Authentication.PlcNullAuthentication
+  fullName: Org.Apache.Plc4x.JavaNs.Api.Authentication.PlcNullAuthentication
+  nameWithType: PlcNullAuthentication
+- uid: Org.Apache.Plc4x.JavaNs.Api.Authentication.PlcNullAuthentication.#ctor
+  name: PlcNullAuthentication()
+  href: api/Org.Apache.Plc4x.JavaNs.Api.Authentication.PlcNullAuthentication.html#Org_Apache_Plc4x_JavaNs_Api_Authentication_PlcNullAuthentication__ctor
+  commentId: M:Org.Apache.Plc4x.JavaNs.Api.Authentication.PlcNullAuthentication.#ctor
+  name.vb: New()
+  fullName: Org.Apache.Plc4x.JavaNs.Api.Authentication.PlcNullAuthentication.PlcNullAuthentication()
+  fullName.vb: Org.Apache.Plc4x.JavaNs.Api.Authentication.PlcNullAuthentication.New()
+  nameWithType: PlcNullAuthentication.PlcNullAuthentication()
+  nameWithType.vb: PlcNullAuthentication.New()
+- uid: Org.Apache.Plc4x.JavaNs.Api.Authentication.PlcNullAuthentication.#ctor(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  name: PlcNullAuthentication(IJVMBridgeBaseInitializer)
+  href: api/Org.Apache.Plc4x.JavaNs.Api.Authentication.PlcNullAuthentication.html#Org_Apache_Plc4x_JavaNs_Api_Authentication_PlcNullAuthentication__ctor_MASES_JCOBridge_C2JBridge_IJVMBridgeBaseInitializer_
+  commentId: M:Org.Apache.Plc4x.JavaNs.Api.Authentication.PlcNullAuthentication.#ctor(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  name.vb: New(IJVMBridgeBaseInitializer)
+  fullName: Org.Apache.Plc4x.JavaNs.Api.Authentication.PlcNullAuthentication.PlcNullAuthentication(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  fullName.vb: Org.Apache.Plc4x.JavaNs.Api.Authentication.PlcNullAuthentication.New(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  nameWithType: PlcNullAuthentication.PlcNullAuthentication(IJVMBridgeBaseInitializer)
+  nameWithType.vb: PlcNullAuthentication.New(IJVMBridgeBaseInitializer)
+- uid: Org.Apache.Plc4x.JavaNs.Api.Authentication.PlcNullAuthentication.#ctor*
+  name: PlcNullAuthentication
+  href: api/Org.Apache.Plc4x.JavaNs.Api.Authentication.PlcNullAuthentication.html#Org_Apache_Plc4x_JavaNs_Api_Authentication_PlcNullAuthentication__ctor_
+  commentId: Overload:Org.Apache.Plc4x.JavaNs.Api.Authentication.PlcNullAuthentication.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: Org.Apache.Plc4x.JavaNs.Api.Authentication.PlcNullAuthentication.PlcNullAuthentication
+  fullName.vb: Org.Apache.Plc4x.JavaNs.Api.Authentication.PlcNullAuthentication.New
+  nameWithType: PlcNullAuthentication.PlcNullAuthentication
+  nameWithType.vb: PlcNullAuthentication.New
+- uid: Org.Apache.Plc4x.JavaNs.Api.Authentication.PlcNullAuthentication.BridgeClassName
+  name: BridgeClassName
+  href: api/Org.Apache.Plc4x.JavaNs.Api.Authentication.PlcNullAuthentication.html#Org_Apache_Plc4x_JavaNs_Api_Authentication_PlcNullAuthentication_BridgeClassName
+  commentId: P:Org.Apache.Plc4x.JavaNs.Api.Authentication.PlcNullAuthentication.BridgeClassName
+  fullName: Org.Apache.Plc4x.JavaNs.Api.Authentication.PlcNullAuthentication.BridgeClassName
+  nameWithType: PlcNullAuthentication.BridgeClassName
+- uid: Org.Apache.Plc4x.JavaNs.Api.Authentication.PlcNullAuthentication.BridgeClassName*
+  name: BridgeClassName
+  href: api/Org.Apache.Plc4x.JavaNs.Api.Authentication.PlcNullAuthentication.html#Org_Apache_Plc4x_JavaNs_Api_Authentication_PlcNullAuthentication_BridgeClassName_
+  commentId: Overload:Org.Apache.Plc4x.JavaNs.Api.Authentication.PlcNullAuthentication.BridgeClassName
+  isSpec: "True"
+  fullName: Org.Apache.Plc4x.JavaNs.Api.Authentication.PlcNullAuthentication.BridgeClassName
+  nameWithType: PlcNullAuthentication.BridgeClassName
+- uid: Org.Apache.Plc4x.JavaNs.Api.Authentication.PlcNullAuthentication.CreatePoolableInstance
+  name: CreatePoolableInstance()
+  href: api/Org.Apache.Plc4x.JavaNs.Api.Authentication.PlcNullAuthentication.html#Org_Apache_Plc4x_JavaNs_Api_Authentication_PlcNullAuthentication_CreatePoolableInstance
+  commentId: M:Org.Apache.Plc4x.JavaNs.Api.Authentication.PlcNullAuthentication.CreatePoolableInstance
+  fullName: Org.Apache.Plc4x.JavaNs.Api.Authentication.PlcNullAuthentication.CreatePoolableInstance()
+  nameWithType: PlcNullAuthentication.CreatePoolableInstance()
+- uid: Org.Apache.Plc4x.JavaNs.Api.Authentication.PlcNullAuthentication.CreatePoolableInstance*
+  name: CreatePoolableInstance
+  href: api/Org.Apache.Plc4x.JavaNs.Api.Authentication.PlcNullAuthentication.html#Org_Apache_Plc4x_JavaNs_Api_Authentication_PlcNullAuthentication_CreatePoolableInstance_
+  commentId: Overload:Org.Apache.Plc4x.JavaNs.Api.Authentication.PlcNullAuthentication.CreatePoolableInstance
+  isSpec: "True"
+  fullName: Org.Apache.Plc4x.JavaNs.Api.Authentication.PlcNullAuthentication.CreatePoolableInstance
+  nameWithType: PlcNullAuthentication.CreatePoolableInstance
+- uid: Org.Apache.Plc4x.JavaNs.Api.Authentication.PlcNullAuthentication.IsBridgeAbstract
+  name: IsBridgeAbstract
+  href: api/Org.Apache.Plc4x.JavaNs.Api.Authentication.PlcNullAuthentication.html#Org_Apache_Plc4x_JavaNs_Api_Authentication_PlcNullAuthentication_IsBridgeAbstract
+  commentId: P:Org.Apache.Plc4x.JavaNs.Api.Authentication.PlcNullAuthentication.IsBridgeAbstract
+  fullName: Org.Apache.Plc4x.JavaNs.Api.Authentication.PlcNullAuthentication.IsBridgeAbstract
+  nameWithType: PlcNullAuthentication.IsBridgeAbstract
+- uid: Org.Apache.Plc4x.JavaNs.Api.Authentication.PlcNullAuthentication.IsBridgeAbstract*
+  name: IsBridgeAbstract
+  href: api/Org.Apache.Plc4x.JavaNs.Api.Authentication.PlcNullAuthentication.html#Org_Apache_Plc4x_JavaNs_Api_Authentication_PlcNullAuthentication_IsBridgeAbstract_
+  commentId: Overload:Org.Apache.Plc4x.JavaNs.Api.Authentication.PlcNullAuthentication.IsBridgeAbstract
+  isSpec: "True"
+  fullName: Org.Apache.Plc4x.JavaNs.Api.Authentication.PlcNullAuthentication.IsBridgeAbstract
+  nameWithType: PlcNullAuthentication.IsBridgeAbstract
+- uid: Org.Apache.Plc4x.JavaNs.Api.Authentication.PlcNullAuthentication.IsBridgeCloseable
+  name: IsBridgeCloseable
+  href: api/Org.Apache.Plc4x.JavaNs.Api.Authentication.PlcNullAuthentication.html#Org_Apache_Plc4x_JavaNs_Api_Authentication_PlcNullAuthentication_IsBridgeCloseable
+  commentId: P:Org.Apache.Plc4x.JavaNs.Api.Authentication.PlcNullAuthentication.IsBridgeCloseable
+  fullName: Org.Apache.Plc4x.JavaNs.Api.Authentication.PlcNullAuthentication.IsBridgeCloseable
+  nameWithType: PlcNullAuthentication.IsBridgeCloseable
+- uid: Org.Apache.Plc4x.JavaNs.Api.Authentication.PlcNullAuthentication.IsBridgeCloseable*
+  name: IsBridgeCloseable
+  href: api/Org.Apache.Plc4x.JavaNs.Api.Authentication.PlcNullAuthentication.html#Org_Apache_Plc4x_JavaNs_Api_Authentication_PlcNullAuthentication_IsBridgeCloseable_
+  commentId: Overload:Org.Apache.Plc4x.JavaNs.Api.Authentication.PlcNullAuthentication.IsBridgeCloseable
+  isSpec: "True"
+  fullName: Org.Apache.Plc4x.JavaNs.Api.Authentication.PlcNullAuthentication.IsBridgeCloseable
+  nameWithType: PlcNullAuthentication.IsBridgeCloseable
+- uid: Org.Apache.Plc4x.JavaNs.Api.Authentication.PlcNullAuthentication.IsBridgeInterface
+  name: IsBridgeInterface
+  href: api/Org.Apache.Plc4x.JavaNs.Api.Authentication.PlcNullAuthentication.html#Org_Apache_Plc4x_JavaNs_Api_Authentication_PlcNullAuthentication_IsBridgeInterface
+  commentId: P:Org.Apache.Plc4x.JavaNs.Api.Authentication.PlcNullAuthentication.IsBridgeInterface
+  fullName: Org.Apache.Plc4x.JavaNs.Api.Authentication.PlcNullAuthentication.IsBridgeInterface
+  nameWithType: PlcNullAuthentication.IsBridgeInterface
+- uid: Org.Apache.Plc4x.JavaNs.Api.Authentication.PlcNullAuthentication.IsBridgeInterface*
+  name: IsBridgeInterface
+  href: api/Org.Apache.Plc4x.JavaNs.Api.Authentication.PlcNullAuthentication.html#Org_Apache_Plc4x_JavaNs_Api_Authentication_PlcNullAuthentication_IsBridgeInterface_
+  commentId: Overload:Org.Apache.Plc4x.JavaNs.Api.Authentication.PlcNullAuthentication.IsBridgeInterface
+  isSpec: "True"
+  fullName: Org.Apache.Plc4x.JavaNs.Api.Authentication.PlcNullAuthentication.IsBridgeInterface
+  nameWithType: PlcNullAuthentication.IsBridgeInterface
+- uid: Org.Apache.Plc4x.JavaNs.Api.Authentication.PlcNullAuthentication.IsBridgeStatic
+  name: IsBridgeStatic
+  href: api/Org.Apache.Plc4x.JavaNs.Api.Authentication.PlcNullAuthentication.html#Org_Apache_Plc4x_JavaNs_Api_Authentication_PlcNullAuthentication_IsBridgeStatic
+  commentId: P:Org.Apache.Plc4x.JavaNs.Api.Authentication.PlcNullAuthentication.IsBridgeStatic
+  fullName: Org.Apache.Plc4x.JavaNs.Api.Authentication.PlcNullAuthentication.IsBridgeStatic
+  nameWithType: PlcNullAuthentication.IsBridgeStatic
+- uid: Org.Apache.Plc4x.JavaNs.Api.Authentication.PlcNullAuthentication.IsBridgeStatic*
+  name: IsBridgeStatic
+  href: api/Org.Apache.Plc4x.JavaNs.Api.Authentication.PlcNullAuthentication.html#Org_Apache_Plc4x_JavaNs_Api_Authentication_PlcNullAuthentication_IsBridgeStatic_
+  commentId: Overload:Org.Apache.Plc4x.JavaNs.Api.Authentication.PlcNullAuthentication.IsBridgeStatic
+  isSpec: "True"
+  fullName: Org.Apache.Plc4x.JavaNs.Api.Authentication.PlcNullAuthentication.IsBridgeStatic
+  nameWithType: PlcNullAuthentication.IsBridgeStatic
 - uid: Org.Apache.Plc4x.JavaNs.Api.Authentication.PlcUsernamePasswordAuthentication
   name: PlcUsernamePasswordAuthentication
   href: api/Org.Apache.Plc4x.JavaNs.Api.Authentication.PlcUsernamePasswordAuthentication.html
@@ -2271,6 +2555,12 @@ references:
   commentId: T:Org.Apache.Plc4x.JavaNs.Api.IPlcConnection
   fullName: Org.Apache.Plc4x.JavaNs.Api.IPlcConnection
   nameWithType: IPlcConnection
+- uid: Org.Apache.Plc4x.JavaNs.Api.IPlcConnectionFactory
+  name: IPlcConnectionFactory
+  href: api/Org.Apache.Plc4x.JavaNs.Api.IPlcConnectionFactory.html
+  commentId: T:Org.Apache.Plc4x.JavaNs.Api.IPlcConnectionFactory
+  fullName: Org.Apache.Plc4x.JavaNs.Api.IPlcConnectionFactory
+  nameWithType: IPlcConnectionFactory
 - uid: Org.Apache.Plc4x.JavaNs.Api.IPlcConnectionManager
   name: IPlcConnectionManager
   href: api/Org.Apache.Plc4x.JavaNs.Api.IPlcConnectionManager.html
@@ -2342,32 +2632,6 @@ references:
   isSpec: "True"
   fullName: Org.Apache.Plc4x.JavaNs.Api.Listener.ConnectionStateListener.BridgeClassName
   nameWithType: ConnectionStateListener.BridgeClassName
-- uid: Org.Apache.Plc4x.JavaNs.Api.Listener.ConnectionStateListener.Connected
-  name: Connected()
-  href: api/Org.Apache.Plc4x.JavaNs.Api.Listener.ConnectionStateListener.html#Org_Apache_Plc4x_JavaNs_Api_Listener_ConnectionStateListener_Connected
-  commentId: M:Org.Apache.Plc4x.JavaNs.Api.Listener.ConnectionStateListener.Connected
-  fullName: Org.Apache.Plc4x.JavaNs.Api.Listener.ConnectionStateListener.Connected()
-  nameWithType: ConnectionStateListener.Connected()
-- uid: Org.Apache.Plc4x.JavaNs.Api.Listener.ConnectionStateListener.Connected*
-  name: Connected
-  href: api/Org.Apache.Plc4x.JavaNs.Api.Listener.ConnectionStateListener.html#Org_Apache_Plc4x_JavaNs_Api_Listener_ConnectionStateListener_Connected_
-  commentId: Overload:Org.Apache.Plc4x.JavaNs.Api.Listener.ConnectionStateListener.Connected
-  isSpec: "True"
-  fullName: Org.Apache.Plc4x.JavaNs.Api.Listener.ConnectionStateListener.Connected
-  nameWithType: ConnectionStateListener.Connected
-- uid: Org.Apache.Plc4x.JavaNs.Api.Listener.ConnectionStateListener.Disconnected
-  name: Disconnected()
-  href: api/Org.Apache.Plc4x.JavaNs.Api.Listener.ConnectionStateListener.html#Org_Apache_Plc4x_JavaNs_Api_Listener_ConnectionStateListener_Disconnected
-  commentId: M:Org.Apache.Plc4x.JavaNs.Api.Listener.ConnectionStateListener.Disconnected
-  fullName: Org.Apache.Plc4x.JavaNs.Api.Listener.ConnectionStateListener.Disconnected()
-  nameWithType: ConnectionStateListener.Disconnected()
-- uid: Org.Apache.Plc4x.JavaNs.Api.Listener.ConnectionStateListener.Disconnected*
-  name: Disconnected
-  href: api/Org.Apache.Plc4x.JavaNs.Api.Listener.ConnectionStateListener.html#Org_Apache_Plc4x_JavaNs_Api_Listener_ConnectionStateListener_Disconnected_
-  commentId: Overload:Org.Apache.Plc4x.JavaNs.Api.Listener.ConnectionStateListener.Disconnected
-  isSpec: "True"
-  fullName: Org.Apache.Plc4x.JavaNs.Api.Listener.ConnectionStateListener.Disconnected
-  nameWithType: ConnectionStateListener.Disconnected
 - uid: Org.Apache.Plc4x.JavaNs.Api.Listener.ConnectionStateListener.InitializeHandlers(System.Type)
   name: InitializeHandlers(Type)
   href: api/Org.Apache.Plc4x.JavaNs.Api.Listener.ConnectionStateListener.html#Org_Apache_Plc4x_JavaNs_Api_Listener_ConnectionStateListener_InitializeHandlers_System_Type_
@@ -2413,32 +2677,32 @@ references:
   isSpec: "True"
   fullName: Org.Apache.Plc4x.JavaNs.Api.Listener.ConnectionStateListener.ListenerShallManageEventHandlers
   nameWithType: ConnectionStateListener.ListenerShallManageEventHandlers
-- uid: Org.Apache.Plc4x.JavaNs.Api.Listener.ConnectionStateListener.OnConnected
-  name: OnConnected
-  href: api/Org.Apache.Plc4x.JavaNs.Api.Listener.ConnectionStateListener.html#Org_Apache_Plc4x_JavaNs_Api_Listener_ConnectionStateListener_OnConnected
-  commentId: P:Org.Apache.Plc4x.JavaNs.Api.Listener.ConnectionStateListener.OnConnected
-  fullName: Org.Apache.Plc4x.JavaNs.Api.Listener.ConnectionStateListener.OnConnected
-  nameWithType: ConnectionStateListener.OnConnected
-- uid: Org.Apache.Plc4x.JavaNs.Api.Listener.ConnectionStateListener.OnConnected*
-  name: OnConnected
-  href: api/Org.Apache.Plc4x.JavaNs.Api.Listener.ConnectionStateListener.html#Org_Apache_Plc4x_JavaNs_Api_Listener_ConnectionStateListener_OnConnected_
-  commentId: Overload:Org.Apache.Plc4x.JavaNs.Api.Listener.ConnectionStateListener.OnConnected
+- uid: Org.Apache.Plc4x.JavaNs.Api.Listener.ConnectionStateListener.OnConnectionStateChanged(Org.Apache.Plc4x.JavaNs.Api.Model.PlcConnectionStateChangedEvent)
+  name: OnConnectionStateChanged(PlcConnectionStateChangedEvent)
+  href: api/Org.Apache.Plc4x.JavaNs.Api.Listener.ConnectionStateListener.html#Org_Apache_Plc4x_JavaNs_Api_Listener_ConnectionStateListener_OnConnectionStateChanged_Org_Apache_Plc4x_JavaNs_Api_Model_PlcConnectionStateChangedEvent_
+  commentId: M:Org.Apache.Plc4x.JavaNs.Api.Listener.ConnectionStateListener.OnConnectionStateChanged(Org.Apache.Plc4x.JavaNs.Api.Model.PlcConnectionStateChangedEvent)
+  fullName: Org.Apache.Plc4x.JavaNs.Api.Listener.ConnectionStateListener.OnConnectionStateChanged(Org.Apache.Plc4x.JavaNs.Api.Model.PlcConnectionStateChangedEvent)
+  nameWithType: ConnectionStateListener.OnConnectionStateChanged(PlcConnectionStateChangedEvent)
+- uid: Org.Apache.Plc4x.JavaNs.Api.Listener.ConnectionStateListener.OnConnectionStateChanged*
+  name: OnConnectionStateChanged
+  href: api/Org.Apache.Plc4x.JavaNs.Api.Listener.ConnectionStateListener.html#Org_Apache_Plc4x_JavaNs_Api_Listener_ConnectionStateListener_OnConnectionStateChanged_
+  commentId: Overload:Org.Apache.Plc4x.JavaNs.Api.Listener.ConnectionStateListener.OnConnectionStateChanged
   isSpec: "True"
-  fullName: Org.Apache.Plc4x.JavaNs.Api.Listener.ConnectionStateListener.OnConnected
-  nameWithType: ConnectionStateListener.OnConnected
-- uid: Org.Apache.Plc4x.JavaNs.Api.Listener.ConnectionStateListener.OnDisconnected
-  name: OnDisconnected
-  href: api/Org.Apache.Plc4x.JavaNs.Api.Listener.ConnectionStateListener.html#Org_Apache_Plc4x_JavaNs_Api_Listener_ConnectionStateListener_OnDisconnected
-  commentId: P:Org.Apache.Plc4x.JavaNs.Api.Listener.ConnectionStateListener.OnDisconnected
-  fullName: Org.Apache.Plc4x.JavaNs.Api.Listener.ConnectionStateListener.OnDisconnected
-  nameWithType: ConnectionStateListener.OnDisconnected
-- uid: Org.Apache.Plc4x.JavaNs.Api.Listener.ConnectionStateListener.OnDisconnected*
-  name: OnDisconnected
-  href: api/Org.Apache.Plc4x.JavaNs.Api.Listener.ConnectionStateListener.html#Org_Apache_Plc4x_JavaNs_Api_Listener_ConnectionStateListener_OnDisconnected_
-  commentId: Overload:Org.Apache.Plc4x.JavaNs.Api.Listener.ConnectionStateListener.OnDisconnected
+  fullName: Org.Apache.Plc4x.JavaNs.Api.Listener.ConnectionStateListener.OnConnectionStateChanged
+  nameWithType: ConnectionStateListener.OnConnectionStateChanged
+- uid: Org.Apache.Plc4x.JavaNs.Api.Listener.ConnectionStateListener.OnOnConnectionStateChanged
+  name: OnOnConnectionStateChanged
+  href: api/Org.Apache.Plc4x.JavaNs.Api.Listener.ConnectionStateListener.html#Org_Apache_Plc4x_JavaNs_Api_Listener_ConnectionStateListener_OnOnConnectionStateChanged
+  commentId: P:Org.Apache.Plc4x.JavaNs.Api.Listener.ConnectionStateListener.OnOnConnectionStateChanged
+  fullName: Org.Apache.Plc4x.JavaNs.Api.Listener.ConnectionStateListener.OnOnConnectionStateChanged
+  nameWithType: ConnectionStateListener.OnOnConnectionStateChanged
+- uid: Org.Apache.Plc4x.JavaNs.Api.Listener.ConnectionStateListener.OnOnConnectionStateChanged*
+  name: OnOnConnectionStateChanged
+  href: api/Org.Apache.Plc4x.JavaNs.Api.Listener.ConnectionStateListener.html#Org_Apache_Plc4x_JavaNs_Api_Listener_ConnectionStateListener_OnOnConnectionStateChanged_
+  commentId: Overload:Org.Apache.Plc4x.JavaNs.Api.Listener.ConnectionStateListener.OnOnConnectionStateChanged
   isSpec: "True"
-  fullName: Org.Apache.Plc4x.JavaNs.Api.Listener.ConnectionStateListener.OnDisconnected
-  nameWithType: ConnectionStateListener.OnDisconnected
+  fullName: Org.Apache.Plc4x.JavaNs.Api.Listener.ConnectionStateListener.OnOnConnectionStateChanged
+  nameWithType: ConnectionStateListener.OnOnConnectionStateChanged
 - uid: Org.Apache.Plc4x.JavaNs.Api.Listener.ConnectionStateListenerDirect
   name: ConnectionStateListenerDirect
   href: api/Org.Apache.Plc4x.JavaNs.Api.Listener.ConnectionStateListenerDirect.html
@@ -2499,32 +2763,6 @@ references:
   isSpec: "True"
   fullName: Org.Apache.Plc4x.JavaNs.Api.Listener.ConnectionStateListenerDirect.BridgeClassName
   nameWithType: ConnectionStateListenerDirect.BridgeClassName
-- uid: Org.Apache.Plc4x.JavaNs.Api.Listener.ConnectionStateListenerDirect.Connected
-  name: Connected()
-  href: api/Org.Apache.Plc4x.JavaNs.Api.Listener.ConnectionStateListenerDirect.html#Org_Apache_Plc4x_JavaNs_Api_Listener_ConnectionStateListenerDirect_Connected
-  commentId: M:Org.Apache.Plc4x.JavaNs.Api.Listener.ConnectionStateListenerDirect.Connected
-  fullName: Org.Apache.Plc4x.JavaNs.Api.Listener.ConnectionStateListenerDirect.Connected()
-  nameWithType: ConnectionStateListenerDirect.Connected()
-- uid: Org.Apache.Plc4x.JavaNs.Api.Listener.ConnectionStateListenerDirect.Connected*
-  name: Connected
-  href: api/Org.Apache.Plc4x.JavaNs.Api.Listener.ConnectionStateListenerDirect.html#Org_Apache_Plc4x_JavaNs_Api_Listener_ConnectionStateListenerDirect_Connected_
-  commentId: Overload:Org.Apache.Plc4x.JavaNs.Api.Listener.ConnectionStateListenerDirect.Connected
-  isSpec: "True"
-  fullName: Org.Apache.Plc4x.JavaNs.Api.Listener.ConnectionStateListenerDirect.Connected
-  nameWithType: ConnectionStateListenerDirect.Connected
-- uid: Org.Apache.Plc4x.JavaNs.Api.Listener.ConnectionStateListenerDirect.Disconnected
-  name: Disconnected()
-  href: api/Org.Apache.Plc4x.JavaNs.Api.Listener.ConnectionStateListenerDirect.html#Org_Apache_Plc4x_JavaNs_Api_Listener_ConnectionStateListenerDirect_Disconnected
-  commentId: M:Org.Apache.Plc4x.JavaNs.Api.Listener.ConnectionStateListenerDirect.Disconnected
-  fullName: Org.Apache.Plc4x.JavaNs.Api.Listener.ConnectionStateListenerDirect.Disconnected()
-  nameWithType: ConnectionStateListenerDirect.Disconnected()
-- uid: Org.Apache.Plc4x.JavaNs.Api.Listener.ConnectionStateListenerDirect.Disconnected*
-  name: Disconnected
-  href: api/Org.Apache.Plc4x.JavaNs.Api.Listener.ConnectionStateListenerDirect.html#Org_Apache_Plc4x_JavaNs_Api_Listener_ConnectionStateListenerDirect_Disconnected_
-  commentId: Overload:Org.Apache.Plc4x.JavaNs.Api.Listener.ConnectionStateListenerDirect.Disconnected
-  isSpec: "True"
-  fullName: Org.Apache.Plc4x.JavaNs.Api.Listener.ConnectionStateListenerDirect.Disconnected
-  nameWithType: ConnectionStateListenerDirect.Disconnected
 - uid: Org.Apache.Plc4x.JavaNs.Api.Listener.ConnectionStateListenerDirect.InitializeHandlers(System.Type)
   name: InitializeHandlers(Type)
   href: api/Org.Apache.Plc4x.JavaNs.Api.Listener.ConnectionStateListenerDirect.html#Org_Apache_Plc4x_JavaNs_Api_Listener_ConnectionStateListenerDirect_InitializeHandlers_System_Type_
@@ -2606,6 +2844,19 @@ references:
   isSpec: "True"
   fullName: Org.Apache.Plc4x.JavaNs.Api.Listener.ConnectionStateListenerDirect.ListenerShallManageEvent
   nameWithType: ConnectionStateListenerDirect.ListenerShallManageEvent
+- uid: Org.Apache.Plc4x.JavaNs.Api.Listener.ConnectionStateListenerDirect.OnConnectionStateChanged(Org.Apache.Plc4x.JavaNs.Api.Model.PlcConnectionStateChangedEvent)
+  name: OnConnectionStateChanged(PlcConnectionStateChangedEvent)
+  href: api/Org.Apache.Plc4x.JavaNs.Api.Listener.ConnectionStateListenerDirect.html#Org_Apache_Plc4x_JavaNs_Api_Listener_ConnectionStateListenerDirect_OnConnectionStateChanged_Org_Apache_Plc4x_JavaNs_Api_Model_PlcConnectionStateChangedEvent_
+  commentId: M:Org.Apache.Plc4x.JavaNs.Api.Listener.ConnectionStateListenerDirect.OnConnectionStateChanged(Org.Apache.Plc4x.JavaNs.Api.Model.PlcConnectionStateChangedEvent)
+  fullName: Org.Apache.Plc4x.JavaNs.Api.Listener.ConnectionStateListenerDirect.OnConnectionStateChanged(Org.Apache.Plc4x.JavaNs.Api.Model.PlcConnectionStateChangedEvent)
+  nameWithType: ConnectionStateListenerDirect.OnConnectionStateChanged(PlcConnectionStateChangedEvent)
+- uid: Org.Apache.Plc4x.JavaNs.Api.Listener.ConnectionStateListenerDirect.OnConnectionStateChanged*
+  name: OnConnectionStateChanged
+  href: api/Org.Apache.Plc4x.JavaNs.Api.Listener.ConnectionStateListenerDirect.html#Org_Apache_Plc4x_JavaNs_Api_Listener_ConnectionStateListenerDirect_OnConnectionStateChanged_
+  commentId: Overload:Org.Apache.Plc4x.JavaNs.Api.Listener.ConnectionStateListenerDirect.OnConnectionStateChanged
+  isSpec: "True"
+  fullName: Org.Apache.Plc4x.JavaNs.Api.Listener.ConnectionStateListenerDirect.OnConnectionStateChanged
+  nameWithType: ConnectionStateListenerDirect.OnConnectionStateChanged
 - uid: Org.Apache.Plc4x.JavaNs.Api.Listener.EventListener
   name: EventListener
   href: api/Org.Apache.Plc4x.JavaNs.Api.Listener.EventListener.html
@@ -3567,6 +3818,19 @@ references:
   isSpec: "True"
   fullName: Org.Apache.Plc4x.JavaNs.Api.Messages.PlcBrowseItem.Options
   nameWithType: PlcBrowseItem.Options
+- uid: Org.Apache.Plc4x.JavaNs.Api.Messages.PlcBrowseItem.SupportedSubscriptionTypes
+  name: SupportedSubscriptionTypes
+  href: api/Org.Apache.Plc4x.JavaNs.Api.Messages.PlcBrowseItem.html#Org_Apache_Plc4x_JavaNs_Api_Messages_PlcBrowseItem_SupportedSubscriptionTypes
+  commentId: P:Org.Apache.Plc4x.JavaNs.Api.Messages.PlcBrowseItem.SupportedSubscriptionTypes
+  fullName: Org.Apache.Plc4x.JavaNs.Api.Messages.PlcBrowseItem.SupportedSubscriptionTypes
+  nameWithType: PlcBrowseItem.SupportedSubscriptionTypes
+- uid: Org.Apache.Plc4x.JavaNs.Api.Messages.PlcBrowseItem.SupportedSubscriptionTypes*
+  name: SupportedSubscriptionTypes
+  href: api/Org.Apache.Plc4x.JavaNs.Api.Messages.PlcBrowseItem.html#Org_Apache_Plc4x_JavaNs_Api_Messages_PlcBrowseItem_SupportedSubscriptionTypes_
+  commentId: Overload:Org.Apache.Plc4x.JavaNs.Api.Messages.PlcBrowseItem.SupportedSubscriptionTypes
+  isSpec: "True"
+  fullName: Org.Apache.Plc4x.JavaNs.Api.Messages.PlcBrowseItem.SupportedSubscriptionTypes
+  nameWithType: PlcBrowseItem.SupportedSubscriptionTypes
 - uid: Org.Apache.Plc4x.JavaNs.Api.Messages.PlcBrowseItem.Tag
   name: Tag
   href: api/Org.Apache.Plc4x.JavaNs.Api.Messages.PlcBrowseItem.html#Org_Apache_Plc4x_JavaNs_Api_Messages_PlcBrowseItem_Tag
@@ -4011,12 +4275,12 @@ references:
   isSpec: "True"
   fullName: Org.Apache.Plc4x.JavaNs.Api.Messages.PlcBrowseRequestInterceptor.BridgeClassName
   nameWithType: PlcBrowseRequestInterceptor.BridgeClassName
-- uid: Org.Apache.Plc4x.JavaNs.Api.Messages.PlcBrowseRequestInterceptor.Intercept(Org.Apache.Plc4x.JavaNs.Api.Messages.PlcBrowseItem)
-  name: Intercept(PlcBrowseItem)
-  href: api/Org.Apache.Plc4x.JavaNs.Api.Messages.PlcBrowseRequestInterceptor.html#Org_Apache_Plc4x_JavaNs_Api_Messages_PlcBrowseRequestInterceptor_Intercept_Org_Apache_Plc4x_JavaNs_Api_Messages_PlcBrowseItem_
-  commentId: M:Org.Apache.Plc4x.JavaNs.Api.Messages.PlcBrowseRequestInterceptor.Intercept(Org.Apache.Plc4x.JavaNs.Api.Messages.PlcBrowseItem)
-  fullName: Org.Apache.Plc4x.JavaNs.Api.Messages.PlcBrowseRequestInterceptor.Intercept(Org.Apache.Plc4x.JavaNs.Api.Messages.PlcBrowseItem)
-  nameWithType: PlcBrowseRequestInterceptor.Intercept(PlcBrowseItem)
+- uid: Org.Apache.Plc4x.JavaNs.Api.Messages.PlcBrowseRequestInterceptor.Intercept(Java.Lang.String,Org.Apache.Plc4x.JavaNs.Api.Model.PlcQuery,Org.Apache.Plc4x.JavaNs.Api.Messages.PlcBrowseItem)
+  name: Intercept(String, PlcQuery, PlcBrowseItem)
+  href: api/Org.Apache.Plc4x.JavaNs.Api.Messages.PlcBrowseRequestInterceptor.html#Org_Apache_Plc4x_JavaNs_Api_Messages_PlcBrowseRequestInterceptor_Intercept_Java_Lang_String_Org_Apache_Plc4x_JavaNs_Api_Model_PlcQuery_Org_Apache_Plc4x_JavaNs_Api_Messages_PlcBrowseItem_
+  commentId: M:Org.Apache.Plc4x.JavaNs.Api.Messages.PlcBrowseRequestInterceptor.Intercept(Java.Lang.String,Org.Apache.Plc4x.JavaNs.Api.Model.PlcQuery,Org.Apache.Plc4x.JavaNs.Api.Messages.PlcBrowseItem)
+  fullName: Org.Apache.Plc4x.JavaNs.Api.Messages.PlcBrowseRequestInterceptor.Intercept(Java.Lang.String, Org.Apache.Plc4x.JavaNs.Api.Model.PlcQuery, Org.Apache.Plc4x.JavaNs.Api.Messages.PlcBrowseItem)
+  nameWithType: PlcBrowseRequestInterceptor.Intercept(String, PlcQuery, PlcBrowseItem)
 - uid: Org.Apache.Plc4x.JavaNs.Api.Messages.PlcBrowseRequestInterceptor.Intercept*
   name: Intercept
   href: api/Org.Apache.Plc4x.JavaNs.Api.Messages.PlcBrowseRequestInterceptor.html#Org_Apache_Plc4x_JavaNs_Api_Messages_PlcBrowseRequestInterceptor_Intercept_
@@ -6947,6 +7211,12 @@ references:
   commentId: M:Org.Apache.Plc4x.JavaNs.Api.Messages.PlcSubscriptionRequest.Builder.AddChangeOfStateTag(Java.Lang.String,Org.Apache.Plc4x.JavaNs.Api.Model.PlcTag)
   fullName: Org.Apache.Plc4x.JavaNs.Api.Messages.PlcSubscriptionRequest.Builder.AddChangeOfStateTag(Java.Lang.String, Org.Apache.Plc4x.JavaNs.Api.Model.PlcTag)
   nameWithType: PlcSubscriptionRequest.Builder.AddChangeOfStateTag(String, PlcTag)
+- uid: Org.Apache.Plc4x.JavaNs.Api.Messages.PlcSubscriptionRequest.Builder.AddChangeOfStateTag(Java.Lang.String,Org.Apache.Plc4x.JavaNs.Api.Model.PlcTag,Java.Time.Duration)
+  name: AddChangeOfStateTag(String, PlcTag, Duration)
+  href: api/Org.Apache.Plc4x.JavaNs.Api.Messages.PlcSubscriptionRequest.Builder.html#Org_Apache_Plc4x_JavaNs_Api_Messages_PlcSubscriptionRequest_Builder_AddChangeOfStateTag_Java_Lang_String_Org_Apache_Plc4x_JavaNs_Api_Model_PlcTag_Java_Time_Duration_
+  commentId: M:Org.Apache.Plc4x.JavaNs.Api.Messages.PlcSubscriptionRequest.Builder.AddChangeOfStateTag(Java.Lang.String,Org.Apache.Plc4x.JavaNs.Api.Model.PlcTag,Java.Time.Duration)
+  fullName: Org.Apache.Plc4x.JavaNs.Api.Messages.PlcSubscriptionRequest.Builder.AddChangeOfStateTag(Java.Lang.String, Org.Apache.Plc4x.JavaNs.Api.Model.PlcTag, Java.Time.Duration)
+  nameWithType: PlcSubscriptionRequest.Builder.AddChangeOfStateTag(String, PlcTag, Duration)
 - uid: Org.Apache.Plc4x.JavaNs.Api.Messages.PlcSubscriptionRequest.Builder.AddChangeOfStateTag(Java.Lang.String,Org.Apache.Plc4x.JavaNs.Api.Model.PlcTag,Java.Util.Function.Consumer{Org.Apache.Plc4x.JavaNs.Api.Messages.PlcSubscriptionEvent})
   name: AddChangeOfStateTag(String, PlcTag, Consumer<PlcSubscriptionEvent>)
   href: api/Org.Apache.Plc4x.JavaNs.Api.Messages.PlcSubscriptionRequest.Builder.html#Org_Apache_Plc4x_JavaNs_Api_Messages_PlcSubscriptionRequest_Builder_AddChangeOfStateTag_Java_Lang_String_Org_Apache_Plc4x_JavaNs_Api_Model_PlcTag_Java_Util_Function_Consumer_Org_Apache_Plc4x_JavaNs_Api_Messages_PlcSubscriptionEvent__
@@ -6956,6 +7226,15 @@ references:
   fullName.vb: Org.Apache.Plc4x.JavaNs.Api.Messages.PlcSubscriptionRequest.Builder.AddChangeOfStateTag(Java.Lang.String, Org.Apache.Plc4x.JavaNs.Api.Model.PlcTag, Java.Util.Function.Consumer(Of Org.Apache.Plc4x.JavaNs.Api.Messages.PlcSubscriptionEvent))
   nameWithType: PlcSubscriptionRequest.Builder.AddChangeOfStateTag(String, PlcTag, Consumer<PlcSubscriptionEvent>)
   nameWithType.vb: PlcSubscriptionRequest.Builder.AddChangeOfStateTag(String, PlcTag, Consumer(Of PlcSubscriptionEvent))
+- uid: Org.Apache.Plc4x.JavaNs.Api.Messages.PlcSubscriptionRequest.Builder.AddChangeOfStateTag(Java.Lang.String,Org.Apache.Plc4x.JavaNs.Api.Model.PlcTag,Java.Util.Function.Consumer{Org.Apache.Plc4x.JavaNs.Api.Messages.PlcSubscriptionEvent},Java.Time.Duration)
+  name: AddChangeOfStateTag(String, PlcTag, Consumer<PlcSubscriptionEvent>, Duration)
+  href: api/Org.Apache.Plc4x.JavaNs.Api.Messages.PlcSubscriptionRequest.Builder.html#Org_Apache_Plc4x_JavaNs_Api_Messages_PlcSubscriptionRequest_Builder_AddChangeOfStateTag_Java_Lang_String_Org_Apache_Plc4x_JavaNs_Api_Model_PlcTag_Java_Util_Function_Consumer_Org_Apache_Plc4x_JavaNs_Api_Messages_PlcSubscriptionEvent__Java_Time_Duration_
+  commentId: M:Org.Apache.Plc4x.JavaNs.Api.Messages.PlcSubscriptionRequest.Builder.AddChangeOfStateTag(Java.Lang.String,Org.Apache.Plc4x.JavaNs.Api.Model.PlcTag,Java.Util.Function.Consumer{Org.Apache.Plc4x.JavaNs.Api.Messages.PlcSubscriptionEvent},Java.Time.Duration)
+  name.vb: AddChangeOfStateTag(String, PlcTag, Consumer(Of PlcSubscriptionEvent), Duration)
+  fullName: Org.Apache.Plc4x.JavaNs.Api.Messages.PlcSubscriptionRequest.Builder.AddChangeOfStateTag(Java.Lang.String, Org.Apache.Plc4x.JavaNs.Api.Model.PlcTag, Java.Util.Function.Consumer<Org.Apache.Plc4x.JavaNs.Api.Messages.PlcSubscriptionEvent>, Java.Time.Duration)
+  fullName.vb: Org.Apache.Plc4x.JavaNs.Api.Messages.PlcSubscriptionRequest.Builder.AddChangeOfStateTag(Java.Lang.String, Org.Apache.Plc4x.JavaNs.Api.Model.PlcTag, Java.Util.Function.Consumer(Of Org.Apache.Plc4x.JavaNs.Api.Messages.PlcSubscriptionEvent), Java.Time.Duration)
+  nameWithType: PlcSubscriptionRequest.Builder.AddChangeOfStateTag(String, PlcTag, Consumer<PlcSubscriptionEvent>, Duration)
+  nameWithType.vb: PlcSubscriptionRequest.Builder.AddChangeOfStateTag(String, PlcTag, Consumer(Of PlcSubscriptionEvent), Duration)
 - uid: Org.Apache.Plc4x.JavaNs.Api.Messages.PlcSubscriptionRequest.Builder.AddChangeOfStateTag*
   name: AddChangeOfStateTag
   href: api/Org.Apache.Plc4x.JavaNs.Api.Messages.PlcSubscriptionRequest.Builder.html#Org_Apache_Plc4x_JavaNs_Api_Messages_PlcSubscriptionRequest_Builder_AddChangeOfStateTag_
@@ -6969,6 +7248,12 @@ references:
   commentId: M:Org.Apache.Plc4x.JavaNs.Api.Messages.PlcSubscriptionRequest.Builder.AddChangeOfStateTagAddress(Java.Lang.String,Java.Lang.String)
   fullName: Org.Apache.Plc4x.JavaNs.Api.Messages.PlcSubscriptionRequest.Builder.AddChangeOfStateTagAddress(Java.Lang.String, Java.Lang.String)
   nameWithType: PlcSubscriptionRequest.Builder.AddChangeOfStateTagAddress(String, String)
+- uid: Org.Apache.Plc4x.JavaNs.Api.Messages.PlcSubscriptionRequest.Builder.AddChangeOfStateTagAddress(Java.Lang.String,Java.Lang.String,Java.Time.Duration)
+  name: AddChangeOfStateTagAddress(String, String, Duration)
+  href: api/Org.Apache.Plc4x.JavaNs.Api.Messages.PlcSubscriptionRequest.Builder.html#Org_Apache_Plc4x_JavaNs_Api_Messages_PlcSubscriptionRequest_Builder_AddChangeOfStateTagAddress_Java_Lang_String_Java_Lang_String_Java_Time_Duration_
+  commentId: M:Org.Apache.Plc4x.JavaNs.Api.Messages.PlcSubscriptionRequest.Builder.AddChangeOfStateTagAddress(Java.Lang.String,Java.Lang.String,Java.Time.Duration)
+  fullName: Org.Apache.Plc4x.JavaNs.Api.Messages.PlcSubscriptionRequest.Builder.AddChangeOfStateTagAddress(Java.Lang.String, Java.Lang.String, Java.Time.Duration)
+  nameWithType: PlcSubscriptionRequest.Builder.AddChangeOfStateTagAddress(String, String, Duration)
 - uid: Org.Apache.Plc4x.JavaNs.Api.Messages.PlcSubscriptionRequest.Builder.AddChangeOfStateTagAddress(Java.Lang.String,Java.Lang.String,Java.Util.Function.Consumer{Org.Apache.Plc4x.JavaNs.Api.Messages.PlcSubscriptionEvent})
   name: AddChangeOfStateTagAddress(String, String, Consumer<PlcSubscriptionEvent>)
   href: api/Org.Apache.Plc4x.JavaNs.Api.Messages.PlcSubscriptionRequest.Builder.html#Org_Apache_Plc4x_JavaNs_Api_Messages_PlcSubscriptionRequest_Builder_AddChangeOfStateTagAddress_Java_Lang_String_Java_Lang_String_Java_Util_Function_Consumer_Org_Apache_Plc4x_JavaNs_Api_Messages_PlcSubscriptionEvent__
@@ -6978,6 +7263,15 @@ references:
   fullName.vb: Org.Apache.Plc4x.JavaNs.Api.Messages.PlcSubscriptionRequest.Builder.AddChangeOfStateTagAddress(Java.Lang.String, Java.Lang.String, Java.Util.Function.Consumer(Of Org.Apache.Plc4x.JavaNs.Api.Messages.PlcSubscriptionEvent))
   nameWithType: PlcSubscriptionRequest.Builder.AddChangeOfStateTagAddress(String, String, Consumer<PlcSubscriptionEvent>)
   nameWithType.vb: PlcSubscriptionRequest.Builder.AddChangeOfStateTagAddress(String, String, Consumer(Of PlcSubscriptionEvent))
+- uid: Org.Apache.Plc4x.JavaNs.Api.Messages.PlcSubscriptionRequest.Builder.AddChangeOfStateTagAddress(Java.Lang.String,Java.Lang.String,Java.Util.Function.Consumer{Org.Apache.Plc4x.JavaNs.Api.Messages.PlcSubscriptionEvent},Java.Time.Duration)
+  name: AddChangeOfStateTagAddress(String, String, Consumer<PlcSubscriptionEvent>, Duration)
+  href: api/Org.Apache.Plc4x.JavaNs.Api.Messages.PlcSubscriptionRequest.Builder.html#Org_Apache_Plc4x_JavaNs_Api_Messages_PlcSubscriptionRequest_Builder_AddChangeOfStateTagAddress_Java_Lang_String_Java_Lang_String_Java_Util_Function_Consumer_Org_Apache_Plc4x_JavaNs_Api_Messages_PlcSubscriptionEvent__Java_Time_Duration_
+  commentId: M:Org.Apache.Plc4x.JavaNs.Api.Messages.PlcSubscriptionRequest.Builder.AddChangeOfStateTagAddress(Java.Lang.String,Java.Lang.String,Java.Util.Function.Consumer{Org.Apache.Plc4x.JavaNs.Api.Messages.PlcSubscriptionEvent},Java.Time.Duration)
+  name.vb: AddChangeOfStateTagAddress(String, String, Consumer(Of PlcSubscriptionEvent), Duration)
+  fullName: Org.Apache.Plc4x.JavaNs.Api.Messages.PlcSubscriptionRequest.Builder.AddChangeOfStateTagAddress(Java.Lang.String, Java.Lang.String, Java.Util.Function.Consumer<Org.Apache.Plc4x.JavaNs.Api.Messages.PlcSubscriptionEvent>, Java.Time.Duration)
+  fullName.vb: Org.Apache.Plc4x.JavaNs.Api.Messages.PlcSubscriptionRequest.Builder.AddChangeOfStateTagAddress(Java.Lang.String, Java.Lang.String, Java.Util.Function.Consumer(Of Org.Apache.Plc4x.JavaNs.Api.Messages.PlcSubscriptionEvent), Java.Time.Duration)
+  nameWithType: PlcSubscriptionRequest.Builder.AddChangeOfStateTagAddress(String, String, Consumer<PlcSubscriptionEvent>, Duration)
+  nameWithType.vb: PlcSubscriptionRequest.Builder.AddChangeOfStateTagAddress(String, String, Consumer(Of PlcSubscriptionEvent), Duration)
 - uid: Org.Apache.Plc4x.JavaNs.Api.Messages.PlcSubscriptionRequest.Builder.AddChangeOfStateTagAddress*
   name: AddChangeOfStateTagAddress
   href: api/Org.Apache.Plc4x.JavaNs.Api.Messages.PlcSubscriptionRequest.Builder.html#Org_Apache_Plc4x_JavaNs_Api_Messages_PlcSubscriptionRequest_Builder_AddChangeOfStateTagAddress_
@@ -9391,6 +9685,19 @@ references:
   isSpec: "True"
   fullName: Org.Apache.Plc4x.JavaNs.Api.Metadata.Option.IsRequired
   nameWithType: Option.IsRequired
+- uid: Org.Apache.Plc4x.JavaNs.Api.Metadata.Option.IsSecret
+  name: IsSecret()
+  href: api/Org.Apache.Plc4x.JavaNs.Api.Metadata.Option.html#Org_Apache_Plc4x_JavaNs_Api_Metadata_Option_IsSecret
+  commentId: M:Org.Apache.Plc4x.JavaNs.Api.Metadata.Option.IsSecret
+  fullName: Org.Apache.Plc4x.JavaNs.Api.Metadata.Option.IsSecret()
+  nameWithType: Option.IsSecret()
+- uid: Org.Apache.Plc4x.JavaNs.Api.Metadata.Option.IsSecret*
+  name: IsSecret
+  href: api/Org.Apache.Plc4x.JavaNs.Api.Metadata.Option.html#Org_Apache_Plc4x_JavaNs_Api_Metadata_Option_IsSecret_
+  commentId: Overload:Org.Apache.Plc4x.JavaNs.Api.Metadata.Option.IsSecret
+  isSpec: "True"
+  fullName: Org.Apache.Plc4x.JavaNs.Api.Metadata.Option.IsSecret
+  nameWithType: Option.IsSecret
 - uid: Org.Apache.Plc4x.JavaNs.Api.Metadata.Option.Key
   name: Key
   href: api/Org.Apache.Plc4x.JavaNs.Api.Metadata.Option.html#Org_Apache_Plc4x_JavaNs_Api_Metadata_Option_Key
@@ -10048,6 +10355,19 @@ references:
   fullName.vb: Org.Apache.Plc4x.JavaNs.Api.Model.ArrayInfo.New
   nameWithType: ArrayInfo.ArrayInfo
   nameWithType.vb: ArrayInfo.New
+- uid: Org.Apache.Plc4x.JavaNs.Api.Model.ArrayInfo.Base
+  name: Base
+  href: api/Org.Apache.Plc4x.JavaNs.Api.Model.ArrayInfo.html#Org_Apache_Plc4x_JavaNs_Api_Model_ArrayInfo_Base
+  commentId: P:Org.Apache.Plc4x.JavaNs.Api.Model.ArrayInfo.Base
+  fullName: Org.Apache.Plc4x.JavaNs.Api.Model.ArrayInfo.Base
+  nameWithType: ArrayInfo.Base
+- uid: Org.Apache.Plc4x.JavaNs.Api.Model.ArrayInfo.Base*
+  name: Base
+  href: api/Org.Apache.Plc4x.JavaNs.Api.Model.ArrayInfo.html#Org_Apache_Plc4x_JavaNs_Api_Model_ArrayInfo_Base_
+  commentId: Overload:Org.Apache.Plc4x.JavaNs.Api.Model.ArrayInfo.Base
+  isSpec: "True"
+  fullName: Org.Apache.Plc4x.JavaNs.Api.Model.ArrayInfo.Base
+  nameWithType: ArrayInfo.Base
 - uid: Org.Apache.Plc4x.JavaNs.Api.Model.ArrayInfo.BridgeClassName
   name: BridgeClassName
   href: api/Org.Apache.Plc4x.JavaNs.Api.Model.ArrayInfo.html#Org_Apache_Plc4x_JavaNs_Api_Model_ArrayInfo_BridgeClassName
@@ -10113,6 +10433,19 @@ references:
   isSpec: "True"
   fullName: Org.Apache.Plc4x.JavaNs.Api.Model.ArrayInfo.IsBridgeStatic
   nameWithType: ArrayInfo.IsBridgeStatic
+- uid: Org.Apache.Plc4x.JavaNs.Api.Model.ArrayInfo.IsRange
+  name: IsRange()
+  href: api/Org.Apache.Plc4x.JavaNs.Api.Model.ArrayInfo.html#Org_Apache_Plc4x_JavaNs_Api_Model_ArrayInfo_IsRange
+  commentId: M:Org.Apache.Plc4x.JavaNs.Api.Model.ArrayInfo.IsRange
+  fullName: Org.Apache.Plc4x.JavaNs.Api.Model.ArrayInfo.IsRange()
+  nameWithType: ArrayInfo.IsRange()
+- uid: Org.Apache.Plc4x.JavaNs.Api.Model.ArrayInfo.IsRange*
+  name: IsRange
+  href: api/Org.Apache.Plc4x.JavaNs.Api.Model.ArrayInfo.html#Org_Apache_Plc4x_JavaNs_Api_Model_ArrayInfo_IsRange_
+  commentId: Overload:Org.Apache.Plc4x.JavaNs.Api.Model.ArrayInfo.IsRange
+  isSpec: "True"
+  fullName: Org.Apache.Plc4x.JavaNs.Api.Model.ArrayInfo.IsRange
+  nameWithType: ArrayInfo.IsRange
 - uid: Org.Apache.Plc4x.JavaNs.Api.Model.ArrayInfo.LowerBound
   name: LowerBound
   href: api/Org.Apache.Plc4x.JavaNs.Api.Model.ArrayInfo.html#Org_Apache_Plc4x_JavaNs_Api_Model_ArrayInfo_LowerBound
@@ -10194,6 +10527,144 @@ references:
   commentId: T:Org.Apache.Plc4x.JavaNs.Api.Model.IPlcTag
   fullName: Org.Apache.Plc4x.JavaNs.Api.Model.IPlcTag
   nameWithType: IPlcTag
+- uid: Org.Apache.Plc4x.JavaNs.Api.Model.PlcConnectionStateChangedEvent
+  name: PlcConnectionStateChangedEvent
+  href: api/Org.Apache.Plc4x.JavaNs.Api.Model.PlcConnectionStateChangedEvent.html
+  commentId: T:Org.Apache.Plc4x.JavaNs.Api.Model.PlcConnectionStateChangedEvent
+  fullName: Org.Apache.Plc4x.JavaNs.Api.Model.PlcConnectionStateChangedEvent
+  nameWithType: PlcConnectionStateChangedEvent
+- uid: Org.Apache.Plc4x.JavaNs.Api.Model.PlcConnectionStateChangedEvent.#ctor(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  name: PlcConnectionStateChangedEvent(IJVMBridgeBaseInitializer)
+  href: api/Org.Apache.Plc4x.JavaNs.Api.Model.PlcConnectionStateChangedEvent.html#Org_Apache_Plc4x_JavaNs_Api_Model_PlcConnectionStateChangedEvent__ctor_MASES_JCOBridge_C2JBridge_IJVMBridgeBaseInitializer_
+  commentId: M:Org.Apache.Plc4x.JavaNs.Api.Model.PlcConnectionStateChangedEvent.#ctor(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  name.vb: New(IJVMBridgeBaseInitializer)
+  fullName: Org.Apache.Plc4x.JavaNs.Api.Model.PlcConnectionStateChangedEvent.PlcConnectionStateChangedEvent(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  fullName.vb: Org.Apache.Plc4x.JavaNs.Api.Model.PlcConnectionStateChangedEvent.New(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  nameWithType: PlcConnectionStateChangedEvent.PlcConnectionStateChangedEvent(IJVMBridgeBaseInitializer)
+  nameWithType.vb: PlcConnectionStateChangedEvent.New(IJVMBridgeBaseInitializer)
+- uid: Org.Apache.Plc4x.JavaNs.Api.Model.PlcConnectionStateChangedEvent.#ctor(Org.Apache.Plc4x.JavaNs.Api.Types.ConnectionStateChangeType,Java.Lang.String)
+  name: PlcConnectionStateChangedEvent(ConnectionStateChangeType, String)
+  href: api/Org.Apache.Plc4x.JavaNs.Api.Model.PlcConnectionStateChangedEvent.html#Org_Apache_Plc4x_JavaNs_Api_Model_PlcConnectionStateChangedEvent__ctor_Org_Apache_Plc4x_JavaNs_Api_Types_ConnectionStateChangeType_Java_Lang_String_
+  commentId: M:Org.Apache.Plc4x.JavaNs.Api.Model.PlcConnectionStateChangedEvent.#ctor(Org.Apache.Plc4x.JavaNs.Api.Types.ConnectionStateChangeType,Java.Lang.String)
+  name.vb: New(ConnectionStateChangeType, String)
+  fullName: Org.Apache.Plc4x.JavaNs.Api.Model.PlcConnectionStateChangedEvent.PlcConnectionStateChangedEvent(Org.Apache.Plc4x.JavaNs.Api.Types.ConnectionStateChangeType, Java.Lang.String)
+  fullName.vb: Org.Apache.Plc4x.JavaNs.Api.Model.PlcConnectionStateChangedEvent.New(Org.Apache.Plc4x.JavaNs.Api.Types.ConnectionStateChangeType, Java.Lang.String)
+  nameWithType: PlcConnectionStateChangedEvent.PlcConnectionStateChangedEvent(ConnectionStateChangeType, String)
+  nameWithType.vb: PlcConnectionStateChangedEvent.New(ConnectionStateChangeType, String)
+- uid: Org.Apache.Plc4x.JavaNs.Api.Model.PlcConnectionStateChangedEvent.#ctor*
+  name: PlcConnectionStateChangedEvent
+  href: api/Org.Apache.Plc4x.JavaNs.Api.Model.PlcConnectionStateChangedEvent.html#Org_Apache_Plc4x_JavaNs_Api_Model_PlcConnectionStateChangedEvent__ctor_
+  commentId: Overload:Org.Apache.Plc4x.JavaNs.Api.Model.PlcConnectionStateChangedEvent.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: Org.Apache.Plc4x.JavaNs.Api.Model.PlcConnectionStateChangedEvent.PlcConnectionStateChangedEvent
+  fullName.vb: Org.Apache.Plc4x.JavaNs.Api.Model.PlcConnectionStateChangedEvent.New
+  nameWithType: PlcConnectionStateChangedEvent.PlcConnectionStateChangedEvent
+  nameWithType.vb: PlcConnectionStateChangedEvent.New
+- uid: Org.Apache.Plc4x.JavaNs.Api.Model.PlcConnectionStateChangedEvent.BridgeClassName
+  name: BridgeClassName
+  href: api/Org.Apache.Plc4x.JavaNs.Api.Model.PlcConnectionStateChangedEvent.html#Org_Apache_Plc4x_JavaNs_Api_Model_PlcConnectionStateChangedEvent_BridgeClassName
+  commentId: P:Org.Apache.Plc4x.JavaNs.Api.Model.PlcConnectionStateChangedEvent.BridgeClassName
+  fullName: Org.Apache.Plc4x.JavaNs.Api.Model.PlcConnectionStateChangedEvent.BridgeClassName
+  nameWithType: PlcConnectionStateChangedEvent.BridgeClassName
+- uid: Org.Apache.Plc4x.JavaNs.Api.Model.PlcConnectionStateChangedEvent.BridgeClassName*
+  name: BridgeClassName
+  href: api/Org.Apache.Plc4x.JavaNs.Api.Model.PlcConnectionStateChangedEvent.html#Org_Apache_Plc4x_JavaNs_Api_Model_PlcConnectionStateChangedEvent_BridgeClassName_
+  commentId: Overload:Org.Apache.Plc4x.JavaNs.Api.Model.PlcConnectionStateChangedEvent.BridgeClassName
+  isSpec: "True"
+  fullName: Org.Apache.Plc4x.JavaNs.Api.Model.PlcConnectionStateChangedEvent.BridgeClassName
+  nameWithType: PlcConnectionStateChangedEvent.BridgeClassName
+- uid: Org.Apache.Plc4x.JavaNs.Api.Model.PlcConnectionStateChangedEvent.ChangeType
+  name: ChangeType
+  href: api/Org.Apache.Plc4x.JavaNs.Api.Model.PlcConnectionStateChangedEvent.html#Org_Apache_Plc4x_JavaNs_Api_Model_PlcConnectionStateChangedEvent_ChangeType
+  commentId: P:Org.Apache.Plc4x.JavaNs.Api.Model.PlcConnectionStateChangedEvent.ChangeType
+  fullName: Org.Apache.Plc4x.JavaNs.Api.Model.PlcConnectionStateChangedEvent.ChangeType
+  nameWithType: PlcConnectionStateChangedEvent.ChangeType
+- uid: Org.Apache.Plc4x.JavaNs.Api.Model.PlcConnectionStateChangedEvent.ChangeType*
+  name: ChangeType
+  href: api/Org.Apache.Plc4x.JavaNs.Api.Model.PlcConnectionStateChangedEvent.html#Org_Apache_Plc4x_JavaNs_Api_Model_PlcConnectionStateChangedEvent_ChangeType_
+  commentId: Overload:Org.Apache.Plc4x.JavaNs.Api.Model.PlcConnectionStateChangedEvent.ChangeType
+  isSpec: "True"
+  fullName: Org.Apache.Plc4x.JavaNs.Api.Model.PlcConnectionStateChangedEvent.ChangeType
+  nameWithType: PlcConnectionStateChangedEvent.ChangeType
+- uid: Org.Apache.Plc4x.JavaNs.Api.Model.PlcConnectionStateChangedEvent.CreatePoolableInstance(Org.Apache.Plc4x.JavaNs.Api.Types.ConnectionStateChangeType,Java.Lang.String)
+  name: CreatePoolableInstance(ConnectionStateChangeType, String)
+  href: api/Org.Apache.Plc4x.JavaNs.Api.Model.PlcConnectionStateChangedEvent.html#Org_Apache_Plc4x_JavaNs_Api_Model_PlcConnectionStateChangedEvent_CreatePoolableInstance_Org_Apache_Plc4x_JavaNs_Api_Types_ConnectionStateChangeType_Java_Lang_String_
+  commentId: M:Org.Apache.Plc4x.JavaNs.Api.Model.PlcConnectionStateChangedEvent.CreatePoolableInstance(Org.Apache.Plc4x.JavaNs.Api.Types.ConnectionStateChangeType,Java.Lang.String)
+  fullName: Org.Apache.Plc4x.JavaNs.Api.Model.PlcConnectionStateChangedEvent.CreatePoolableInstance(Org.Apache.Plc4x.JavaNs.Api.Types.ConnectionStateChangeType, Java.Lang.String)
+  nameWithType: PlcConnectionStateChangedEvent.CreatePoolableInstance(ConnectionStateChangeType, String)
+- uid: Org.Apache.Plc4x.JavaNs.Api.Model.PlcConnectionStateChangedEvent.CreatePoolableInstance*
+  name: CreatePoolableInstance
+  href: api/Org.Apache.Plc4x.JavaNs.Api.Model.PlcConnectionStateChangedEvent.html#Org_Apache_Plc4x_JavaNs_Api_Model_PlcConnectionStateChangedEvent_CreatePoolableInstance_
+  commentId: Overload:Org.Apache.Plc4x.JavaNs.Api.Model.PlcConnectionStateChangedEvent.CreatePoolableInstance
+  isSpec: "True"
+  fullName: Org.Apache.Plc4x.JavaNs.Api.Model.PlcConnectionStateChangedEvent.CreatePoolableInstance
+  nameWithType: PlcConnectionStateChangedEvent.CreatePoolableInstance
+- uid: Org.Apache.Plc4x.JavaNs.Api.Model.PlcConnectionStateChangedEvent.Details
+  name: Details
+  href: api/Org.Apache.Plc4x.JavaNs.Api.Model.PlcConnectionStateChangedEvent.html#Org_Apache_Plc4x_JavaNs_Api_Model_PlcConnectionStateChangedEvent_Details
+  commentId: P:Org.Apache.Plc4x.JavaNs.Api.Model.PlcConnectionStateChangedEvent.Details
+  fullName: Org.Apache.Plc4x.JavaNs.Api.Model.PlcConnectionStateChangedEvent.Details
+  nameWithType: PlcConnectionStateChangedEvent.Details
+- uid: Org.Apache.Plc4x.JavaNs.Api.Model.PlcConnectionStateChangedEvent.Details*
+  name: Details
+  href: api/Org.Apache.Plc4x.JavaNs.Api.Model.PlcConnectionStateChangedEvent.html#Org_Apache_Plc4x_JavaNs_Api_Model_PlcConnectionStateChangedEvent_Details_
+  commentId: Overload:Org.Apache.Plc4x.JavaNs.Api.Model.PlcConnectionStateChangedEvent.Details
+  isSpec: "True"
+  fullName: Org.Apache.Plc4x.JavaNs.Api.Model.PlcConnectionStateChangedEvent.Details
+  nameWithType: PlcConnectionStateChangedEvent.Details
+- uid: Org.Apache.Plc4x.JavaNs.Api.Model.PlcConnectionStateChangedEvent.IsBridgeAbstract
+  name: IsBridgeAbstract
+  href: api/Org.Apache.Plc4x.JavaNs.Api.Model.PlcConnectionStateChangedEvent.html#Org_Apache_Plc4x_JavaNs_Api_Model_PlcConnectionStateChangedEvent_IsBridgeAbstract
+  commentId: P:Org.Apache.Plc4x.JavaNs.Api.Model.PlcConnectionStateChangedEvent.IsBridgeAbstract
+  fullName: Org.Apache.Plc4x.JavaNs.Api.Model.PlcConnectionStateChangedEvent.IsBridgeAbstract
+  nameWithType: PlcConnectionStateChangedEvent.IsBridgeAbstract
+- uid: Org.Apache.Plc4x.JavaNs.Api.Model.PlcConnectionStateChangedEvent.IsBridgeAbstract*
+  name: IsBridgeAbstract
+  href: api/Org.Apache.Plc4x.JavaNs.Api.Model.PlcConnectionStateChangedEvent.html#Org_Apache_Plc4x_JavaNs_Api_Model_PlcConnectionStateChangedEvent_IsBridgeAbstract_
+  commentId: Overload:Org.Apache.Plc4x.JavaNs.Api.Model.PlcConnectionStateChangedEvent.IsBridgeAbstract
+  isSpec: "True"
+  fullName: Org.Apache.Plc4x.JavaNs.Api.Model.PlcConnectionStateChangedEvent.IsBridgeAbstract
+  nameWithType: PlcConnectionStateChangedEvent.IsBridgeAbstract
+- uid: Org.Apache.Plc4x.JavaNs.Api.Model.PlcConnectionStateChangedEvent.IsBridgeCloseable
+  name: IsBridgeCloseable
+  href: api/Org.Apache.Plc4x.JavaNs.Api.Model.PlcConnectionStateChangedEvent.html#Org_Apache_Plc4x_JavaNs_Api_Model_PlcConnectionStateChangedEvent_IsBridgeCloseable
+  commentId: P:Org.Apache.Plc4x.JavaNs.Api.Model.PlcConnectionStateChangedEvent.IsBridgeCloseable
+  fullName: Org.Apache.Plc4x.JavaNs.Api.Model.PlcConnectionStateChangedEvent.IsBridgeCloseable
+  nameWithType: PlcConnectionStateChangedEvent.IsBridgeCloseable
+- uid: Org.Apache.Plc4x.JavaNs.Api.Model.PlcConnectionStateChangedEvent.IsBridgeCloseable*
+  name: IsBridgeCloseable
+  href: api/Org.Apache.Plc4x.JavaNs.Api.Model.PlcConnectionStateChangedEvent.html#Org_Apache_Plc4x_JavaNs_Api_Model_PlcConnectionStateChangedEvent_IsBridgeCloseable_
+  commentId: Overload:Org.Apache.Plc4x.JavaNs.Api.Model.PlcConnectionStateChangedEvent.IsBridgeCloseable
+  isSpec: "True"
+  fullName: Org.Apache.Plc4x.JavaNs.Api.Model.PlcConnectionStateChangedEvent.IsBridgeCloseable
+  nameWithType: PlcConnectionStateChangedEvent.IsBridgeCloseable
+- uid: Org.Apache.Plc4x.JavaNs.Api.Model.PlcConnectionStateChangedEvent.IsBridgeInterface
+  name: IsBridgeInterface
+  href: api/Org.Apache.Plc4x.JavaNs.Api.Model.PlcConnectionStateChangedEvent.html#Org_Apache_Plc4x_JavaNs_Api_Model_PlcConnectionStateChangedEvent_IsBridgeInterface
+  commentId: P:Org.Apache.Plc4x.JavaNs.Api.Model.PlcConnectionStateChangedEvent.IsBridgeInterface
+  fullName: Org.Apache.Plc4x.JavaNs.Api.Model.PlcConnectionStateChangedEvent.IsBridgeInterface
+  nameWithType: PlcConnectionStateChangedEvent.IsBridgeInterface
+- uid: Org.Apache.Plc4x.JavaNs.Api.Model.PlcConnectionStateChangedEvent.IsBridgeInterface*
+  name: IsBridgeInterface
+  href: api/Org.Apache.Plc4x.JavaNs.Api.Model.PlcConnectionStateChangedEvent.html#Org_Apache_Plc4x_JavaNs_Api_Model_PlcConnectionStateChangedEvent_IsBridgeInterface_
+  commentId: Overload:Org.Apache.Plc4x.JavaNs.Api.Model.PlcConnectionStateChangedEvent.IsBridgeInterface
+  isSpec: "True"
+  fullName: Org.Apache.Plc4x.JavaNs.Api.Model.PlcConnectionStateChangedEvent.IsBridgeInterface
+  nameWithType: PlcConnectionStateChangedEvent.IsBridgeInterface
+- uid: Org.Apache.Plc4x.JavaNs.Api.Model.PlcConnectionStateChangedEvent.IsBridgeStatic
+  name: IsBridgeStatic
+  href: api/Org.Apache.Plc4x.JavaNs.Api.Model.PlcConnectionStateChangedEvent.html#Org_Apache_Plc4x_JavaNs_Api_Model_PlcConnectionStateChangedEvent_IsBridgeStatic
+  commentId: P:Org.Apache.Plc4x.JavaNs.Api.Model.PlcConnectionStateChangedEvent.IsBridgeStatic
+  fullName: Org.Apache.Plc4x.JavaNs.Api.Model.PlcConnectionStateChangedEvent.IsBridgeStatic
+  nameWithType: PlcConnectionStateChangedEvent.IsBridgeStatic
+- uid: Org.Apache.Plc4x.JavaNs.Api.Model.PlcConnectionStateChangedEvent.IsBridgeStatic*
+  name: IsBridgeStatic
+  href: api/Org.Apache.Plc4x.JavaNs.Api.Model.PlcConnectionStateChangedEvent.html#Org_Apache_Plc4x_JavaNs_Api_Model_PlcConnectionStateChangedEvent_IsBridgeStatic_
+  commentId: Overload:Org.Apache.Plc4x.JavaNs.Api.Model.PlcConnectionStateChangedEvent.IsBridgeStatic
+  isSpec: "True"
+  fullName: Org.Apache.Plc4x.JavaNs.Api.Model.PlcConnectionStateChangedEvent.IsBridgeStatic
+  nameWithType: PlcConnectionStateChangedEvent.IsBridgeStatic
 - uid: Org.Apache.Plc4x.JavaNs.Api.Model.PlcConsumerRegistration
   name: PlcConsumerRegistration
   href: api/Org.Apache.Plc4x.JavaNs.Api.Model.PlcConsumerRegistration.html
@@ -11093,6 +11564,32 @@ references:
   fullName.vb: Org.Apache.Plc4x.JavaNs.Api.PlcConnection.Ping(Of ReturnExtendsOrg_Apache_Plc4x_JavaNs_Api_Messages_PlcPingResponse)()
   nameWithType: PlcConnection.Ping<ReturnExtendsOrg_Apache_Plc4x_JavaNs_Api_Messages_PlcPingResponse>()
   nameWithType.vb: PlcConnection.Ping(Of ReturnExtendsOrg_Apache_Plc4x_JavaNs_Api_Messages_PlcPingResponse)()
+- uid: Org.Apache.Plc4x.JavaNs.Api.PlcConnection.ProtocolCode
+  name: ProtocolCode
+  href: api/Org.Apache.Plc4x.JavaNs.Api.PlcConnection.html#Org_Apache_Plc4x_JavaNs_Api_PlcConnection_ProtocolCode
+  commentId: P:Org.Apache.Plc4x.JavaNs.Api.PlcConnection.ProtocolCode
+  fullName: Org.Apache.Plc4x.JavaNs.Api.PlcConnection.ProtocolCode
+  nameWithType: PlcConnection.ProtocolCode
+- uid: Org.Apache.Plc4x.JavaNs.Api.PlcConnection.ProtocolCode*
+  name: ProtocolCode
+  href: api/Org.Apache.Plc4x.JavaNs.Api.PlcConnection.html#Org_Apache_Plc4x_JavaNs_Api_PlcConnection_ProtocolCode_
+  commentId: Overload:Org.Apache.Plc4x.JavaNs.Api.PlcConnection.ProtocolCode
+  isSpec: "True"
+  fullName: Org.Apache.Plc4x.JavaNs.Api.PlcConnection.ProtocolCode
+  nameWithType: PlcConnection.ProtocolCode
+- uid: Org.Apache.Plc4x.JavaNs.Api.PlcConnection.ProtocolName
+  name: ProtocolName
+  href: api/Org.Apache.Plc4x.JavaNs.Api.PlcConnection.html#Org_Apache_Plc4x_JavaNs_Api_PlcConnection_ProtocolName
+  commentId: P:Org.Apache.Plc4x.JavaNs.Api.PlcConnection.ProtocolName
+  fullName: Org.Apache.Plc4x.JavaNs.Api.PlcConnection.ProtocolName
+  nameWithType: PlcConnection.ProtocolName
+- uid: Org.Apache.Plc4x.JavaNs.Api.PlcConnection.ProtocolName*
+  name: ProtocolName
+  href: api/Org.Apache.Plc4x.JavaNs.Api.PlcConnection.html#Org_Apache_Plc4x_JavaNs_Api_PlcConnection_ProtocolName_
+  commentId: Overload:Org.Apache.Plc4x.JavaNs.Api.PlcConnection.ProtocolName
+  isSpec: "True"
+  fullName: Org.Apache.Plc4x.JavaNs.Api.PlcConnection.ProtocolName
+  nameWithType: PlcConnection.ProtocolName
 - uid: Org.Apache.Plc4x.JavaNs.Api.PlcConnection.ReadRequestBuilder
   name: ReadRequestBuilder()
   href: api/Org.Apache.Plc4x.JavaNs.Api.PlcConnection.html#Org_Apache_Plc4x_JavaNs_Api_PlcConnection_ReadRequestBuilder
@@ -11119,6 +11616,32 @@ references:
   isSpec: "True"
   fullName: Org.Apache.Plc4x.JavaNs.Api.PlcConnection.SubscriptionRequestBuilder
   nameWithType: PlcConnection.SubscriptionRequestBuilder
+- uid: Org.Apache.Plc4x.JavaNs.Api.PlcConnection.TransportCode
+  name: TransportCode
+  href: api/Org.Apache.Plc4x.JavaNs.Api.PlcConnection.html#Org_Apache_Plc4x_JavaNs_Api_PlcConnection_TransportCode
+  commentId: P:Org.Apache.Plc4x.JavaNs.Api.PlcConnection.TransportCode
+  fullName: Org.Apache.Plc4x.JavaNs.Api.PlcConnection.TransportCode
+  nameWithType: PlcConnection.TransportCode
+- uid: Org.Apache.Plc4x.JavaNs.Api.PlcConnection.TransportCode*
+  name: TransportCode
+  href: api/Org.Apache.Plc4x.JavaNs.Api.PlcConnection.html#Org_Apache_Plc4x_JavaNs_Api_PlcConnection_TransportCode_
+  commentId: Overload:Org.Apache.Plc4x.JavaNs.Api.PlcConnection.TransportCode
+  isSpec: "True"
+  fullName: Org.Apache.Plc4x.JavaNs.Api.PlcConnection.TransportCode
+  nameWithType: PlcConnection.TransportCode
+- uid: Org.Apache.Plc4x.JavaNs.Api.PlcConnection.TransportName
+  name: TransportName
+  href: api/Org.Apache.Plc4x.JavaNs.Api.PlcConnection.html#Org_Apache_Plc4x_JavaNs_Api_PlcConnection_TransportName
+  commentId: P:Org.Apache.Plc4x.JavaNs.Api.PlcConnection.TransportName
+  fullName: Org.Apache.Plc4x.JavaNs.Api.PlcConnection.TransportName
+  nameWithType: PlcConnection.TransportName
+- uid: Org.Apache.Plc4x.JavaNs.Api.PlcConnection.TransportName*
+  name: TransportName
+  href: api/Org.Apache.Plc4x.JavaNs.Api.PlcConnection.html#Org_Apache_Plc4x_JavaNs_Api_PlcConnection_TransportName_
+  commentId: Overload:Org.Apache.Plc4x.JavaNs.Api.PlcConnection.TransportName
+  isSpec: "True"
+  fullName: Org.Apache.Plc4x.JavaNs.Api.PlcConnection.TransportName
+  nameWithType: PlcConnection.TransportName
 - uid: Org.Apache.Plc4x.JavaNs.Api.PlcConnection.UnsubscriptionRequestBuilder
   name: UnsubscriptionRequestBuilder()
   href: api/Org.Apache.Plc4x.JavaNs.Api.PlcConnection.html#Org_Apache_Plc4x_JavaNs_Api_PlcConnection_UnsubscriptionRequestBuilder
@@ -11145,6 +11668,115 @@ references:
   isSpec: "True"
   fullName: Org.Apache.Plc4x.JavaNs.Api.PlcConnection.WriteRequestBuilder
   nameWithType: PlcConnection.WriteRequestBuilder
+- uid: Org.Apache.Plc4x.JavaNs.Api.PlcConnectionFactory
+  name: PlcConnectionFactory
+  href: api/Org.Apache.Plc4x.JavaNs.Api.PlcConnectionFactory.html
+  commentId: T:Org.Apache.Plc4x.JavaNs.Api.PlcConnectionFactory
+  fullName: Org.Apache.Plc4x.JavaNs.Api.PlcConnectionFactory
+  nameWithType: PlcConnectionFactory
+- uid: Org.Apache.Plc4x.JavaNs.Api.PlcConnectionFactory.#ctor(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  name: PlcConnectionFactory(IJVMBridgeBaseInitializer)
+  href: api/Org.Apache.Plc4x.JavaNs.Api.PlcConnectionFactory.html#Org_Apache_Plc4x_JavaNs_Api_PlcConnectionFactory__ctor_MASES_JCOBridge_C2JBridge_IJVMBridgeBaseInitializer_
+  commentId: M:Org.Apache.Plc4x.JavaNs.Api.PlcConnectionFactory.#ctor(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  name.vb: New(IJVMBridgeBaseInitializer)
+  fullName: Org.Apache.Plc4x.JavaNs.Api.PlcConnectionFactory.PlcConnectionFactory(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  fullName.vb: Org.Apache.Plc4x.JavaNs.Api.PlcConnectionFactory.New(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  nameWithType: PlcConnectionFactory.PlcConnectionFactory(IJVMBridgeBaseInitializer)
+  nameWithType.vb: PlcConnectionFactory.New(IJVMBridgeBaseInitializer)
+- uid: Org.Apache.Plc4x.JavaNs.Api.PlcConnectionFactory.#ctor*
+  name: PlcConnectionFactory
+  href: api/Org.Apache.Plc4x.JavaNs.Api.PlcConnectionFactory.html#Org_Apache_Plc4x_JavaNs_Api_PlcConnectionFactory__ctor_
+  commentId: Overload:Org.Apache.Plc4x.JavaNs.Api.PlcConnectionFactory.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: Org.Apache.Plc4x.JavaNs.Api.PlcConnectionFactory.PlcConnectionFactory
+  fullName.vb: Org.Apache.Plc4x.JavaNs.Api.PlcConnectionFactory.New
+  nameWithType: PlcConnectionFactory.PlcConnectionFactory
+  nameWithType.vb: PlcConnectionFactory.New
+- uid: Org.Apache.Plc4x.JavaNs.Api.PlcConnectionFactory.BridgeClassName
+  name: BridgeClassName
+  href: api/Org.Apache.Plc4x.JavaNs.Api.PlcConnectionFactory.html#Org_Apache_Plc4x_JavaNs_Api_PlcConnectionFactory_BridgeClassName
+  commentId: P:Org.Apache.Plc4x.JavaNs.Api.PlcConnectionFactory.BridgeClassName
+  fullName: Org.Apache.Plc4x.JavaNs.Api.PlcConnectionFactory.BridgeClassName
+  nameWithType: PlcConnectionFactory.BridgeClassName
+- uid: Org.Apache.Plc4x.JavaNs.Api.PlcConnectionFactory.BridgeClassName*
+  name: BridgeClassName
+  href: api/Org.Apache.Plc4x.JavaNs.Api.PlcConnectionFactory.html#Org_Apache_Plc4x_JavaNs_Api_PlcConnectionFactory_BridgeClassName_
+  commentId: Overload:Org.Apache.Plc4x.JavaNs.Api.PlcConnectionFactory.BridgeClassName
+  isSpec: "True"
+  fullName: Org.Apache.Plc4x.JavaNs.Api.PlcConnectionFactory.BridgeClassName
+  nameWithType: PlcConnectionFactory.BridgeClassName
+- uid: Org.Apache.Plc4x.JavaNs.Api.PlcConnectionFactory.GetConnection(Java.Lang.String)
+  name: GetConnection(String)
+  href: api/Org.Apache.Plc4x.JavaNs.Api.PlcConnectionFactory.html#Org_Apache_Plc4x_JavaNs_Api_PlcConnectionFactory_GetConnection_Java_Lang_String_
+  commentId: M:Org.Apache.Plc4x.JavaNs.Api.PlcConnectionFactory.GetConnection(Java.Lang.String)
+  fullName: Org.Apache.Plc4x.JavaNs.Api.PlcConnectionFactory.GetConnection(Java.Lang.String)
+  nameWithType: PlcConnectionFactory.GetConnection(String)
+- uid: Org.Apache.Plc4x.JavaNs.Api.PlcConnectionFactory.GetConnection(Java.Lang.String,Org.Apache.Plc4x.JavaNs.Api.Authentication.PlcAuthentication)
+  name: GetConnection(String, PlcAuthentication)
+  href: api/Org.Apache.Plc4x.JavaNs.Api.PlcConnectionFactory.html#Org_Apache_Plc4x_JavaNs_Api_PlcConnectionFactory_GetConnection_Java_Lang_String_Org_Apache_Plc4x_JavaNs_Api_Authentication_PlcAuthentication_
+  commentId: M:Org.Apache.Plc4x.JavaNs.Api.PlcConnectionFactory.GetConnection(Java.Lang.String,Org.Apache.Plc4x.JavaNs.Api.Authentication.PlcAuthentication)
+  fullName: Org.Apache.Plc4x.JavaNs.Api.PlcConnectionFactory.GetConnection(Java.Lang.String, Org.Apache.Plc4x.JavaNs.Api.Authentication.PlcAuthentication)
+  nameWithType: PlcConnectionFactory.GetConnection(String, PlcAuthentication)
+- uid: Org.Apache.Plc4x.JavaNs.Api.PlcConnectionFactory.GetConnection*
+  name: GetConnection
+  href: api/Org.Apache.Plc4x.JavaNs.Api.PlcConnectionFactory.html#Org_Apache_Plc4x_JavaNs_Api_PlcConnectionFactory_GetConnection_
+  commentId: Overload:Org.Apache.Plc4x.JavaNs.Api.PlcConnectionFactory.GetConnection
+  isSpec: "True"
+  fullName: Org.Apache.Plc4x.JavaNs.Api.PlcConnectionFactory.GetConnection
+  nameWithType: PlcConnectionFactory.GetConnection
+- uid: Org.Apache.Plc4x.JavaNs.Api.PlcConnectionFactory.IsBridgeAbstract
+  name: IsBridgeAbstract
+  href: api/Org.Apache.Plc4x.JavaNs.Api.PlcConnectionFactory.html#Org_Apache_Plc4x_JavaNs_Api_PlcConnectionFactory_IsBridgeAbstract
+  commentId: P:Org.Apache.Plc4x.JavaNs.Api.PlcConnectionFactory.IsBridgeAbstract
+  fullName: Org.Apache.Plc4x.JavaNs.Api.PlcConnectionFactory.IsBridgeAbstract
+  nameWithType: PlcConnectionFactory.IsBridgeAbstract
+- uid: Org.Apache.Plc4x.JavaNs.Api.PlcConnectionFactory.IsBridgeAbstract*
+  name: IsBridgeAbstract
+  href: api/Org.Apache.Plc4x.JavaNs.Api.PlcConnectionFactory.html#Org_Apache_Plc4x_JavaNs_Api_PlcConnectionFactory_IsBridgeAbstract_
+  commentId: Overload:Org.Apache.Plc4x.JavaNs.Api.PlcConnectionFactory.IsBridgeAbstract
+  isSpec: "True"
+  fullName: Org.Apache.Plc4x.JavaNs.Api.PlcConnectionFactory.IsBridgeAbstract
+  nameWithType: PlcConnectionFactory.IsBridgeAbstract
+- uid: Org.Apache.Plc4x.JavaNs.Api.PlcConnectionFactory.IsBridgeCloseable
+  name: IsBridgeCloseable
+  href: api/Org.Apache.Plc4x.JavaNs.Api.PlcConnectionFactory.html#Org_Apache_Plc4x_JavaNs_Api_PlcConnectionFactory_IsBridgeCloseable
+  commentId: P:Org.Apache.Plc4x.JavaNs.Api.PlcConnectionFactory.IsBridgeCloseable
+  fullName: Org.Apache.Plc4x.JavaNs.Api.PlcConnectionFactory.IsBridgeCloseable
+  nameWithType: PlcConnectionFactory.IsBridgeCloseable
+- uid: Org.Apache.Plc4x.JavaNs.Api.PlcConnectionFactory.IsBridgeCloseable*
+  name: IsBridgeCloseable
+  href: api/Org.Apache.Plc4x.JavaNs.Api.PlcConnectionFactory.html#Org_Apache_Plc4x_JavaNs_Api_PlcConnectionFactory_IsBridgeCloseable_
+  commentId: Overload:Org.Apache.Plc4x.JavaNs.Api.PlcConnectionFactory.IsBridgeCloseable
+  isSpec: "True"
+  fullName: Org.Apache.Plc4x.JavaNs.Api.PlcConnectionFactory.IsBridgeCloseable
+  nameWithType: PlcConnectionFactory.IsBridgeCloseable
+- uid: Org.Apache.Plc4x.JavaNs.Api.PlcConnectionFactory.IsBridgeInterface
+  name: IsBridgeInterface
+  href: api/Org.Apache.Plc4x.JavaNs.Api.PlcConnectionFactory.html#Org_Apache_Plc4x_JavaNs_Api_PlcConnectionFactory_IsBridgeInterface
+  commentId: P:Org.Apache.Plc4x.JavaNs.Api.PlcConnectionFactory.IsBridgeInterface
+  fullName: Org.Apache.Plc4x.JavaNs.Api.PlcConnectionFactory.IsBridgeInterface
+  nameWithType: PlcConnectionFactory.IsBridgeInterface
+- uid: Org.Apache.Plc4x.JavaNs.Api.PlcConnectionFactory.IsBridgeInterface*
+  name: IsBridgeInterface
+  href: api/Org.Apache.Plc4x.JavaNs.Api.PlcConnectionFactory.html#Org_Apache_Plc4x_JavaNs_Api_PlcConnectionFactory_IsBridgeInterface_
+  commentId: Overload:Org.Apache.Plc4x.JavaNs.Api.PlcConnectionFactory.IsBridgeInterface
+  isSpec: "True"
+  fullName: Org.Apache.Plc4x.JavaNs.Api.PlcConnectionFactory.IsBridgeInterface
+  nameWithType: PlcConnectionFactory.IsBridgeInterface
+- uid: Org.Apache.Plc4x.JavaNs.Api.PlcConnectionFactory.IsBridgeStatic
+  name: IsBridgeStatic
+  href: api/Org.Apache.Plc4x.JavaNs.Api.PlcConnectionFactory.html#Org_Apache_Plc4x_JavaNs_Api_PlcConnectionFactory_IsBridgeStatic
+  commentId: P:Org.Apache.Plc4x.JavaNs.Api.PlcConnectionFactory.IsBridgeStatic
+  fullName: Org.Apache.Plc4x.JavaNs.Api.PlcConnectionFactory.IsBridgeStatic
+  nameWithType: PlcConnectionFactory.IsBridgeStatic
+- uid: Org.Apache.Plc4x.JavaNs.Api.PlcConnectionFactory.IsBridgeStatic*
+  name: IsBridgeStatic
+  href: api/Org.Apache.Plc4x.JavaNs.Api.PlcConnectionFactory.html#Org_Apache_Plc4x_JavaNs_Api_PlcConnectionFactory_IsBridgeStatic_
+  commentId: Overload:Org.Apache.Plc4x.JavaNs.Api.PlcConnectionFactory.IsBridgeStatic
+  isSpec: "True"
+  fullName: Org.Apache.Plc4x.JavaNs.Api.PlcConnectionFactory.IsBridgeStatic
+  nameWithType: PlcConnectionFactory.IsBridgeStatic
 - uid: Org.Apache.Plc4x.JavaNs.Api.PlcConnectionManager
   name: PlcConnectionManager
   href: api/Org.Apache.Plc4x.JavaNs.Api.PlcConnectionManager.html
@@ -11183,25 +11815,19 @@ references:
   isSpec: "True"
   fullName: Org.Apache.Plc4x.JavaNs.Api.PlcConnectionManager.BridgeClassName
   nameWithType: PlcConnectionManager.BridgeClassName
-- uid: Org.Apache.Plc4x.JavaNs.Api.PlcConnectionManager.GetConnection(Java.Lang.String)
-  name: GetConnection(String)
-  href: api/Org.Apache.Plc4x.JavaNs.Api.PlcConnectionManager.html#Org_Apache_Plc4x_JavaNs_Api_PlcConnectionManager_GetConnection_Java_Lang_String_
-  commentId: M:Org.Apache.Plc4x.JavaNs.Api.PlcConnectionManager.GetConnection(Java.Lang.String)
-  fullName: Org.Apache.Plc4x.JavaNs.Api.PlcConnectionManager.GetConnection(Java.Lang.String)
-  nameWithType: PlcConnectionManager.GetConnection(String)
-- uid: Org.Apache.Plc4x.JavaNs.Api.PlcConnectionManager.GetConnection(Java.Lang.String,Org.Apache.Plc4x.JavaNs.Api.Authentication.PlcAuthentication)
-  name: GetConnection(String, PlcAuthentication)
-  href: api/Org.Apache.Plc4x.JavaNs.Api.PlcConnectionManager.html#Org_Apache_Plc4x_JavaNs_Api_PlcConnectionManager_GetConnection_Java_Lang_String_Org_Apache_Plc4x_JavaNs_Api_Authentication_PlcAuthentication_
-  commentId: M:Org.Apache.Plc4x.JavaNs.Api.PlcConnectionManager.GetConnection(Java.Lang.String,Org.Apache.Plc4x.JavaNs.Api.Authentication.PlcAuthentication)
-  fullName: Org.Apache.Plc4x.JavaNs.Api.PlcConnectionManager.GetConnection(Java.Lang.String, Org.Apache.Plc4x.JavaNs.Api.Authentication.PlcAuthentication)
-  nameWithType: PlcConnectionManager.GetConnection(String, PlcAuthentication)
-- uid: Org.Apache.Plc4x.JavaNs.Api.PlcConnectionManager.GetConnection*
-  name: GetConnection
-  href: api/Org.Apache.Plc4x.JavaNs.Api.PlcConnectionManager.html#Org_Apache_Plc4x_JavaNs_Api_PlcConnectionManager_GetConnection_
-  commentId: Overload:Org.Apache.Plc4x.JavaNs.Api.PlcConnectionManager.GetConnection
+- uid: Org.Apache.Plc4x.JavaNs.Api.PlcConnectionManager.Close
+  name: Close()
+  href: api/Org.Apache.Plc4x.JavaNs.Api.PlcConnectionManager.html#Org_Apache_Plc4x_JavaNs_Api_PlcConnectionManager_Close
+  commentId: M:Org.Apache.Plc4x.JavaNs.Api.PlcConnectionManager.Close
+  fullName: Org.Apache.Plc4x.JavaNs.Api.PlcConnectionManager.Close()
+  nameWithType: PlcConnectionManager.Close()
+- uid: Org.Apache.Plc4x.JavaNs.Api.PlcConnectionManager.Close*
+  name: Close
+  href: api/Org.Apache.Plc4x.JavaNs.Api.PlcConnectionManager.html#Org_Apache_Plc4x_JavaNs_Api_PlcConnectionManager_Close_
+  commentId: Overload:Org.Apache.Plc4x.JavaNs.Api.PlcConnectionManager.Close
   isSpec: "True"
-  fullName: Org.Apache.Plc4x.JavaNs.Api.PlcConnectionManager.GetConnection
-  nameWithType: PlcConnectionManager.GetConnection
+  fullName: Org.Apache.Plc4x.JavaNs.Api.PlcConnectionManager.Close
+  nameWithType: PlcConnectionManager.Close
 - uid: Org.Apache.Plc4x.JavaNs.Api.PlcConnectionManager.IsBridgeAbstract
   name: IsBridgeAbstract
   href: api/Org.Apache.Plc4x.JavaNs.Api.PlcConnectionManager.html#Org_Apache_Plc4x_JavaNs_Api_PlcConnectionManager_IsBridgeAbstract
@@ -11254,6 +11880,34 @@ references:
   isSpec: "True"
   fullName: Org.Apache.Plc4x.JavaNs.Api.PlcConnectionManager.IsBridgeStatic
   nameWithType: PlcConnectionManager.IsBridgeStatic
+- uid: Org.Apache.Plc4x.JavaNs.Api.PlcConnectionManager.op_Implicit(Org.Apache.Plc4x.JavaNs.Api.PlcConnectionManager)~Java.Lang.AutoCloseable
+  name: implicit operator AutoCloseable(PlcConnectionManager)
+  href: api/Org.Apache.Plc4x.JavaNs.Api.PlcConnectionManager.html#Org_Apache_Plc4x_JavaNs_Api_PlcConnectionManager_op_Implicit_Org_Apache_Plc4x_JavaNs_Api_PlcConnectionManager__Java_Lang_AutoCloseable
+  commentId: M:Org.Apache.Plc4x.JavaNs.Api.PlcConnectionManager.op_Implicit(Org.Apache.Plc4x.JavaNs.Api.PlcConnectionManager)~Java.Lang.AutoCloseable
+  name.vb: CType(PlcConnectionManager)
+  fullName: Org.Apache.Plc4x.JavaNs.Api.PlcConnectionManager.implicit operator Java.Lang.AutoCloseable(Org.Apache.Plc4x.JavaNs.Api.PlcConnectionManager)
+  fullName.vb: Org.Apache.Plc4x.JavaNs.Api.PlcConnectionManager.CType(Org.Apache.Plc4x.JavaNs.Api.PlcConnectionManager)
+  nameWithType: PlcConnectionManager.implicit operator AutoCloseable(PlcConnectionManager)
+  nameWithType.vb: PlcConnectionManager.CType(PlcConnectionManager)
+- uid: Org.Apache.Plc4x.JavaNs.Api.PlcConnectionManager.op_Implicit(Org.Apache.Plc4x.JavaNs.Api.PlcConnectionManager)~Org.Apache.Plc4x.JavaNs.Api.PlcConnectionFactory
+  name: implicit operator PlcConnectionFactory(PlcConnectionManager)
+  href: api/Org.Apache.Plc4x.JavaNs.Api.PlcConnectionManager.html#Org_Apache_Plc4x_JavaNs_Api_PlcConnectionManager_op_Implicit_Org_Apache_Plc4x_JavaNs_Api_PlcConnectionManager__Org_Apache_Plc4x_JavaNs_Api_PlcConnectionFactory
+  commentId: M:Org.Apache.Plc4x.JavaNs.Api.PlcConnectionManager.op_Implicit(Org.Apache.Plc4x.JavaNs.Api.PlcConnectionManager)~Org.Apache.Plc4x.JavaNs.Api.PlcConnectionFactory
+  name.vb: CType(PlcConnectionManager)
+  fullName: Org.Apache.Plc4x.JavaNs.Api.PlcConnectionManager.implicit operator Org.Apache.Plc4x.JavaNs.Api.PlcConnectionFactory(Org.Apache.Plc4x.JavaNs.Api.PlcConnectionManager)
+  fullName.vb: Org.Apache.Plc4x.JavaNs.Api.PlcConnectionManager.CType(Org.Apache.Plc4x.JavaNs.Api.PlcConnectionManager)
+  nameWithType: PlcConnectionManager.implicit operator PlcConnectionFactory(PlcConnectionManager)
+  nameWithType.vb: PlcConnectionManager.CType(PlcConnectionManager)
+- uid: Org.Apache.Plc4x.JavaNs.Api.PlcConnectionManager.op_Implicit*
+  name: implicit operator
+  href: api/Org.Apache.Plc4x.JavaNs.Api.PlcConnectionManager.html#Org_Apache_Plc4x_JavaNs_Api_PlcConnectionManager_op_Implicit_
+  commentId: Overload:Org.Apache.Plc4x.JavaNs.Api.PlcConnectionManager.op_Implicit
+  isSpec: "True"
+  name.vb: CType
+  fullName: Org.Apache.Plc4x.JavaNs.Api.PlcConnectionManager.implicit operator
+  fullName.vb: Org.Apache.Plc4x.JavaNs.Api.PlcConnectionManager.CType
+  nameWithType: PlcConnectionManager.implicit operator
+  nameWithType.vb: PlcConnectionManager.CType
 - uid: Org.Apache.Plc4x.JavaNs.Api.PlcDriver
   name: PlcDriver
   href: api/Org.Apache.Plc4x.JavaNs.Api.PlcDriver.html
@@ -11466,19 +12120,19 @@ references:
   isSpec: "True"
   fullName: Org.Apache.Plc4x.JavaNs.Api.PlcDriverManager.BridgeClassName
   nameWithType: PlcDriverManager.BridgeClassName
-- uid: Org.Apache.Plc4x.JavaNs.Api.PlcDriverManager.ConnectionManager
-  name: ConnectionManager
-  href: api/Org.Apache.Plc4x.JavaNs.Api.PlcDriverManager.html#Org_Apache_Plc4x_JavaNs_Api_PlcDriverManager_ConnectionManager
-  commentId: P:Org.Apache.Plc4x.JavaNs.Api.PlcDriverManager.ConnectionManager
-  fullName: Org.Apache.Plc4x.JavaNs.Api.PlcDriverManager.ConnectionManager
-  nameWithType: PlcDriverManager.ConnectionManager
-- uid: Org.Apache.Plc4x.JavaNs.Api.PlcDriverManager.ConnectionManager*
-  name: ConnectionManager
-  href: api/Org.Apache.Plc4x.JavaNs.Api.PlcDriverManager.html#Org_Apache_Plc4x_JavaNs_Api_PlcDriverManager_ConnectionManager_
-  commentId: Overload:Org.Apache.Plc4x.JavaNs.Api.PlcDriverManager.ConnectionManager
+- uid: Org.Apache.Plc4x.JavaNs.Api.PlcDriverManager.ConnectionFactory
+  name: ConnectionFactory
+  href: api/Org.Apache.Plc4x.JavaNs.Api.PlcDriverManager.html#Org_Apache_Plc4x_JavaNs_Api_PlcDriverManager_ConnectionFactory
+  commentId: P:Org.Apache.Plc4x.JavaNs.Api.PlcDriverManager.ConnectionFactory
+  fullName: Org.Apache.Plc4x.JavaNs.Api.PlcDriverManager.ConnectionFactory
+  nameWithType: PlcDriverManager.ConnectionFactory
+- uid: Org.Apache.Plc4x.JavaNs.Api.PlcDriverManager.ConnectionFactory*
+  name: ConnectionFactory
+  href: api/Org.Apache.Plc4x.JavaNs.Api.PlcDriverManager.html#Org_Apache_Plc4x_JavaNs_Api_PlcDriverManager_ConnectionFactory_
+  commentId: Overload:Org.Apache.Plc4x.JavaNs.Api.PlcDriverManager.ConnectionFactory
   isSpec: "True"
-  fullName: Org.Apache.Plc4x.JavaNs.Api.PlcDriverManager.ConnectionManager
-  nameWithType: PlcDriverManager.ConnectionManager
+  fullName: Org.Apache.Plc4x.JavaNs.Api.PlcDriverManager.ConnectionFactory
+  nameWithType: PlcDriverManager.ConnectionFactory
 - uid: Org.Apache.Plc4x.JavaNs.Api.PlcDriverManager.Default
   name: Default
   href: api/Org.Apache.Plc4x.JavaNs.Api.PlcDriverManager.html#Org_Apache_Plc4x_JavaNs_Api_PlcDriverManager_Default
@@ -11589,6 +12243,213 @@ references:
   commentId: N:Org.Apache.Plc4x.JavaNs.Api.Types
   fullName: Org.Apache.Plc4x.JavaNs.Api.Types
   nameWithType: Org.Apache.Plc4x.JavaNs.Api.Types
+- uid: Org.Apache.Plc4x.JavaNs.Api.Types.ConnectionStateChangeType
+  name: ConnectionStateChangeType
+  href: api/Org.Apache.Plc4x.JavaNs.Api.Types.ConnectionStateChangeType.html
+  commentId: T:Org.Apache.Plc4x.JavaNs.Api.Types.ConnectionStateChangeType
+  fullName: Org.Apache.Plc4x.JavaNs.Api.Types.ConnectionStateChangeType
+  nameWithType: ConnectionStateChangeType
+- uid: Org.Apache.Plc4x.JavaNs.Api.Types.ConnectionStateChangeType.#ctor(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  name: ConnectionStateChangeType(IJVMBridgeBaseInitializer)
+  href: api/Org.Apache.Plc4x.JavaNs.Api.Types.ConnectionStateChangeType.html#Org_Apache_Plc4x_JavaNs_Api_Types_ConnectionStateChangeType__ctor_MASES_JCOBridge_C2JBridge_IJVMBridgeBaseInitializer_
+  commentId: M:Org.Apache.Plc4x.JavaNs.Api.Types.ConnectionStateChangeType.#ctor(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  name.vb: New(IJVMBridgeBaseInitializer)
+  fullName: Org.Apache.Plc4x.JavaNs.Api.Types.ConnectionStateChangeType.ConnectionStateChangeType(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  fullName.vb: Org.Apache.Plc4x.JavaNs.Api.Types.ConnectionStateChangeType.New(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  nameWithType: ConnectionStateChangeType.ConnectionStateChangeType(IJVMBridgeBaseInitializer)
+  nameWithType.vb: ConnectionStateChangeType.New(IJVMBridgeBaseInitializer)
+- uid: Org.Apache.Plc4x.JavaNs.Api.Types.ConnectionStateChangeType.#ctor*
+  name: ConnectionStateChangeType
+  href: api/Org.Apache.Plc4x.JavaNs.Api.Types.ConnectionStateChangeType.html#Org_Apache_Plc4x_JavaNs_Api_Types_ConnectionStateChangeType__ctor_
+  commentId: Overload:Org.Apache.Plc4x.JavaNs.Api.Types.ConnectionStateChangeType.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: Org.Apache.Plc4x.JavaNs.Api.Types.ConnectionStateChangeType.ConnectionStateChangeType
+  fullName.vb: Org.Apache.Plc4x.JavaNs.Api.Types.ConnectionStateChangeType.New
+  nameWithType: ConnectionStateChangeType.ConnectionStateChangeType
+  nameWithType.vb: ConnectionStateChangeType.New
+- uid: Org.Apache.Plc4x.JavaNs.Api.Types.ConnectionStateChangeType.BridgeClassName
+  name: BridgeClassName
+  href: api/Org.Apache.Plc4x.JavaNs.Api.Types.ConnectionStateChangeType.html#Org_Apache_Plc4x_JavaNs_Api_Types_ConnectionStateChangeType_BridgeClassName
+  commentId: P:Org.Apache.Plc4x.JavaNs.Api.Types.ConnectionStateChangeType.BridgeClassName
+  fullName: Org.Apache.Plc4x.JavaNs.Api.Types.ConnectionStateChangeType.BridgeClassName
+  nameWithType: ConnectionStateChangeType.BridgeClassName
+- uid: Org.Apache.Plc4x.JavaNs.Api.Types.ConnectionStateChangeType.BridgeClassName*
+  name: BridgeClassName
+  href: api/Org.Apache.Plc4x.JavaNs.Api.Types.ConnectionStateChangeType.html#Org_Apache_Plc4x_JavaNs_Api_Types_ConnectionStateChangeType_BridgeClassName_
+  commentId: Overload:Org.Apache.Plc4x.JavaNs.Api.Types.ConnectionStateChangeType.BridgeClassName
+  isSpec: "True"
+  fullName: Org.Apache.Plc4x.JavaNs.Api.Types.ConnectionStateChangeType.BridgeClassName
+  nameWithType: ConnectionStateChangeType.BridgeClassName
+- uid: Org.Apache.Plc4x.JavaNs.Api.Types.ConnectionStateChangeType.CONNECTED
+  name: CONNECTED
+  href: api/Org.Apache.Plc4x.JavaNs.Api.Types.ConnectionStateChangeType.html#Org_Apache_Plc4x_JavaNs_Api_Types_ConnectionStateChangeType_CONNECTED
+  commentId: P:Org.Apache.Plc4x.JavaNs.Api.Types.ConnectionStateChangeType.CONNECTED
+  fullName: Org.Apache.Plc4x.JavaNs.Api.Types.ConnectionStateChangeType.CONNECTED
+  nameWithType: ConnectionStateChangeType.CONNECTED
+- uid: Org.Apache.Plc4x.JavaNs.Api.Types.ConnectionStateChangeType.CONNECTED*
+  name: CONNECTED
+  href: api/Org.Apache.Plc4x.JavaNs.Api.Types.ConnectionStateChangeType.html#Org_Apache_Plc4x_JavaNs_Api_Types_ConnectionStateChangeType_CONNECTED_
+  commentId: Overload:Org.Apache.Plc4x.JavaNs.Api.Types.ConnectionStateChangeType.CONNECTED
+  isSpec: "True"
+  fullName: Org.Apache.Plc4x.JavaNs.Api.Types.ConnectionStateChangeType.CONNECTED
+  nameWithType: ConnectionStateChangeType.CONNECTED
+- uid: Org.Apache.Plc4x.JavaNs.Api.Types.ConnectionStateChangeType.CONNECTION_LOST
+  name: CONNECTION_LOST
+  href: api/Org.Apache.Plc4x.JavaNs.Api.Types.ConnectionStateChangeType.html#Org_Apache_Plc4x_JavaNs_Api_Types_ConnectionStateChangeType_CONNECTION_LOST
+  commentId: P:Org.Apache.Plc4x.JavaNs.Api.Types.ConnectionStateChangeType.CONNECTION_LOST
+  fullName: Org.Apache.Plc4x.JavaNs.Api.Types.ConnectionStateChangeType.CONNECTION_LOST
+  nameWithType: ConnectionStateChangeType.CONNECTION_LOST
+- uid: Org.Apache.Plc4x.JavaNs.Api.Types.ConnectionStateChangeType.CONNECTION_LOST*
+  name: CONNECTION_LOST
+  href: api/Org.Apache.Plc4x.JavaNs.Api.Types.ConnectionStateChangeType.html#Org_Apache_Plc4x_JavaNs_Api_Types_ConnectionStateChangeType_CONNECTION_LOST_
+  commentId: Overload:Org.Apache.Plc4x.JavaNs.Api.Types.ConnectionStateChangeType.CONNECTION_LOST
+  isSpec: "True"
+  fullName: Org.Apache.Plc4x.JavaNs.Api.Types.ConnectionStateChangeType.CONNECTION_LOST
+  nameWithType: ConnectionStateChangeType.CONNECTION_LOST
+- uid: Org.Apache.Plc4x.JavaNs.Api.Types.ConnectionStateChangeType.DISCONNECTED
+  name: DISCONNECTED
+  href: api/Org.Apache.Plc4x.JavaNs.Api.Types.ConnectionStateChangeType.html#Org_Apache_Plc4x_JavaNs_Api_Types_ConnectionStateChangeType_DISCONNECTED
+  commentId: P:Org.Apache.Plc4x.JavaNs.Api.Types.ConnectionStateChangeType.DISCONNECTED
+  fullName: Org.Apache.Plc4x.JavaNs.Api.Types.ConnectionStateChangeType.DISCONNECTED
+  nameWithType: ConnectionStateChangeType.DISCONNECTED
+- uid: Org.Apache.Plc4x.JavaNs.Api.Types.ConnectionStateChangeType.DISCONNECTED*
+  name: DISCONNECTED
+  href: api/Org.Apache.Plc4x.JavaNs.Api.Types.ConnectionStateChangeType.html#Org_Apache_Plc4x_JavaNs_Api_Types_ConnectionStateChangeType_DISCONNECTED_
+  commentId: Overload:Org.Apache.Plc4x.JavaNs.Api.Types.ConnectionStateChangeType.DISCONNECTED
+  isSpec: "True"
+  fullName: Org.Apache.Plc4x.JavaNs.Api.Types.ConnectionStateChangeType.DISCONNECTED
+  nameWithType: ConnectionStateChangeType.DISCONNECTED
+- uid: Org.Apache.Plc4x.JavaNs.Api.Types.ConnectionStateChangeType.IsBridgeAbstract
+  name: IsBridgeAbstract
+  href: api/Org.Apache.Plc4x.JavaNs.Api.Types.ConnectionStateChangeType.html#Org_Apache_Plc4x_JavaNs_Api_Types_ConnectionStateChangeType_IsBridgeAbstract
+  commentId: P:Org.Apache.Plc4x.JavaNs.Api.Types.ConnectionStateChangeType.IsBridgeAbstract
+  fullName: Org.Apache.Plc4x.JavaNs.Api.Types.ConnectionStateChangeType.IsBridgeAbstract
+  nameWithType: ConnectionStateChangeType.IsBridgeAbstract
+- uid: Org.Apache.Plc4x.JavaNs.Api.Types.ConnectionStateChangeType.IsBridgeAbstract*
+  name: IsBridgeAbstract
+  href: api/Org.Apache.Plc4x.JavaNs.Api.Types.ConnectionStateChangeType.html#Org_Apache_Plc4x_JavaNs_Api_Types_ConnectionStateChangeType_IsBridgeAbstract_
+  commentId: Overload:Org.Apache.Plc4x.JavaNs.Api.Types.ConnectionStateChangeType.IsBridgeAbstract
+  isSpec: "True"
+  fullName: Org.Apache.Plc4x.JavaNs.Api.Types.ConnectionStateChangeType.IsBridgeAbstract
+  nameWithType: ConnectionStateChangeType.IsBridgeAbstract
+- uid: Org.Apache.Plc4x.JavaNs.Api.Types.ConnectionStateChangeType.IsBridgeCloseable
+  name: IsBridgeCloseable
+  href: api/Org.Apache.Plc4x.JavaNs.Api.Types.ConnectionStateChangeType.html#Org_Apache_Plc4x_JavaNs_Api_Types_ConnectionStateChangeType_IsBridgeCloseable
+  commentId: P:Org.Apache.Plc4x.JavaNs.Api.Types.ConnectionStateChangeType.IsBridgeCloseable
+  fullName: Org.Apache.Plc4x.JavaNs.Api.Types.ConnectionStateChangeType.IsBridgeCloseable
+  nameWithType: ConnectionStateChangeType.IsBridgeCloseable
+- uid: Org.Apache.Plc4x.JavaNs.Api.Types.ConnectionStateChangeType.IsBridgeCloseable*
+  name: IsBridgeCloseable
+  href: api/Org.Apache.Plc4x.JavaNs.Api.Types.ConnectionStateChangeType.html#Org_Apache_Plc4x_JavaNs_Api_Types_ConnectionStateChangeType_IsBridgeCloseable_
+  commentId: Overload:Org.Apache.Plc4x.JavaNs.Api.Types.ConnectionStateChangeType.IsBridgeCloseable
+  isSpec: "True"
+  fullName: Org.Apache.Plc4x.JavaNs.Api.Types.ConnectionStateChangeType.IsBridgeCloseable
+  nameWithType: ConnectionStateChangeType.IsBridgeCloseable
+- uid: Org.Apache.Plc4x.JavaNs.Api.Types.ConnectionStateChangeType.IsBridgeInterface
+  name: IsBridgeInterface
+  href: api/Org.Apache.Plc4x.JavaNs.Api.Types.ConnectionStateChangeType.html#Org_Apache_Plc4x_JavaNs_Api_Types_ConnectionStateChangeType_IsBridgeInterface
+  commentId: P:Org.Apache.Plc4x.JavaNs.Api.Types.ConnectionStateChangeType.IsBridgeInterface
+  fullName: Org.Apache.Plc4x.JavaNs.Api.Types.ConnectionStateChangeType.IsBridgeInterface
+  nameWithType: ConnectionStateChangeType.IsBridgeInterface
+- uid: Org.Apache.Plc4x.JavaNs.Api.Types.ConnectionStateChangeType.IsBridgeInterface*
+  name: IsBridgeInterface
+  href: api/Org.Apache.Plc4x.JavaNs.Api.Types.ConnectionStateChangeType.html#Org_Apache_Plc4x_JavaNs_Api_Types_ConnectionStateChangeType_IsBridgeInterface_
+  commentId: Overload:Org.Apache.Plc4x.JavaNs.Api.Types.ConnectionStateChangeType.IsBridgeInterface
+  isSpec: "True"
+  fullName: Org.Apache.Plc4x.JavaNs.Api.Types.ConnectionStateChangeType.IsBridgeInterface
+  nameWithType: ConnectionStateChangeType.IsBridgeInterface
+- uid: Org.Apache.Plc4x.JavaNs.Api.Types.ConnectionStateChangeType.IsBridgeStatic
+  name: IsBridgeStatic
+  href: api/Org.Apache.Plc4x.JavaNs.Api.Types.ConnectionStateChangeType.html#Org_Apache_Plc4x_JavaNs_Api_Types_ConnectionStateChangeType_IsBridgeStatic
+  commentId: P:Org.Apache.Plc4x.JavaNs.Api.Types.ConnectionStateChangeType.IsBridgeStatic
+  fullName: Org.Apache.Plc4x.JavaNs.Api.Types.ConnectionStateChangeType.IsBridgeStatic
+  nameWithType: ConnectionStateChangeType.IsBridgeStatic
+- uid: Org.Apache.Plc4x.JavaNs.Api.Types.ConnectionStateChangeType.IsBridgeStatic*
+  name: IsBridgeStatic
+  href: api/Org.Apache.Plc4x.JavaNs.Api.Types.ConnectionStateChangeType.html#Org_Apache_Plc4x_JavaNs_Api_Types_ConnectionStateChangeType_IsBridgeStatic_
+  commentId: Overload:Org.Apache.Plc4x.JavaNs.Api.Types.ConnectionStateChangeType.IsBridgeStatic
+  isSpec: "True"
+  fullName: Org.Apache.Plc4x.JavaNs.Api.Types.ConnectionStateChangeType.IsBridgeStatic
+  nameWithType: ConnectionStateChangeType.IsBridgeStatic
+- uid: Org.Apache.Plc4x.JavaNs.Api.Types.ConnectionStateChangeType.MODE_CONFIG
+  name: MODE_CONFIG
+  href: api/Org.Apache.Plc4x.JavaNs.Api.Types.ConnectionStateChangeType.html#Org_Apache_Plc4x_JavaNs_Api_Types_ConnectionStateChangeType_MODE_CONFIG
+  commentId: P:Org.Apache.Plc4x.JavaNs.Api.Types.ConnectionStateChangeType.MODE_CONFIG
+  fullName: Org.Apache.Plc4x.JavaNs.Api.Types.ConnectionStateChangeType.MODE_CONFIG
+  nameWithType: ConnectionStateChangeType.MODE_CONFIG
+- uid: Org.Apache.Plc4x.JavaNs.Api.Types.ConnectionStateChangeType.MODE_CONFIG*
+  name: MODE_CONFIG
+  href: api/Org.Apache.Plc4x.JavaNs.Api.Types.ConnectionStateChangeType.html#Org_Apache_Plc4x_JavaNs_Api_Types_ConnectionStateChangeType_MODE_CONFIG_
+  commentId: Overload:Org.Apache.Plc4x.JavaNs.Api.Types.ConnectionStateChangeType.MODE_CONFIG
+  isSpec: "True"
+  fullName: Org.Apache.Plc4x.JavaNs.Api.Types.ConnectionStateChangeType.MODE_CONFIG
+  nameWithType: ConnectionStateChangeType.MODE_CONFIG
+- uid: Org.Apache.Plc4x.JavaNs.Api.Types.ConnectionStateChangeType.MODE_RUN
+  name: MODE_RUN
+  href: api/Org.Apache.Plc4x.JavaNs.Api.Types.ConnectionStateChangeType.html#Org_Apache_Plc4x_JavaNs_Api_Types_ConnectionStateChangeType_MODE_RUN
+  commentId: P:Org.Apache.Plc4x.JavaNs.Api.Types.ConnectionStateChangeType.MODE_RUN
+  fullName: Org.Apache.Plc4x.JavaNs.Api.Types.ConnectionStateChangeType.MODE_RUN
+  nameWithType: ConnectionStateChangeType.MODE_RUN
+- uid: Org.Apache.Plc4x.JavaNs.Api.Types.ConnectionStateChangeType.MODE_RUN*
+  name: MODE_RUN
+  href: api/Org.Apache.Plc4x.JavaNs.Api.Types.ConnectionStateChangeType.html#Org_Apache_Plc4x_JavaNs_Api_Types_ConnectionStateChangeType_MODE_RUN_
+  commentId: Overload:Org.Apache.Plc4x.JavaNs.Api.Types.ConnectionStateChangeType.MODE_RUN
+  isSpec: "True"
+  fullName: Org.Apache.Plc4x.JavaNs.Api.Types.ConnectionStateChangeType.MODE_RUN
+  nameWithType: ConnectionStateChangeType.MODE_RUN
+- uid: Org.Apache.Plc4x.JavaNs.Api.Types.ConnectionStateChangeType.MODE_STOP
+  name: MODE_STOP
+  href: api/Org.Apache.Plc4x.JavaNs.Api.Types.ConnectionStateChangeType.html#Org_Apache_Plc4x_JavaNs_Api_Types_ConnectionStateChangeType_MODE_STOP
+  commentId: P:Org.Apache.Plc4x.JavaNs.Api.Types.ConnectionStateChangeType.MODE_STOP
+  fullName: Org.Apache.Plc4x.JavaNs.Api.Types.ConnectionStateChangeType.MODE_STOP
+  nameWithType: ConnectionStateChangeType.MODE_STOP
+- uid: Org.Apache.Plc4x.JavaNs.Api.Types.ConnectionStateChangeType.MODE_STOP*
+  name: MODE_STOP
+  href: api/Org.Apache.Plc4x.JavaNs.Api.Types.ConnectionStateChangeType.html#Org_Apache_Plc4x_JavaNs_Api_Types_ConnectionStateChangeType_MODE_STOP_
+  commentId: Overload:Org.Apache.Plc4x.JavaNs.Api.Types.ConnectionStateChangeType.MODE_STOP
+  isSpec: "True"
+  fullName: Org.Apache.Plc4x.JavaNs.Api.Types.ConnectionStateChangeType.MODE_STOP
+  nameWithType: ConnectionStateChangeType.MODE_STOP
+- uid: Org.Apache.Plc4x.JavaNs.Api.Types.ConnectionStateChangeType.TAGS_CHANGED
+  name: TAGS_CHANGED
+  href: api/Org.Apache.Plc4x.JavaNs.Api.Types.ConnectionStateChangeType.html#Org_Apache_Plc4x_JavaNs_Api_Types_ConnectionStateChangeType_TAGS_CHANGED
+  commentId: P:Org.Apache.Plc4x.JavaNs.Api.Types.ConnectionStateChangeType.TAGS_CHANGED
+  fullName: Org.Apache.Plc4x.JavaNs.Api.Types.ConnectionStateChangeType.TAGS_CHANGED
+  nameWithType: ConnectionStateChangeType.TAGS_CHANGED
+- uid: Org.Apache.Plc4x.JavaNs.Api.Types.ConnectionStateChangeType.TAGS_CHANGED*
+  name: TAGS_CHANGED
+  href: api/Org.Apache.Plc4x.JavaNs.Api.Types.ConnectionStateChangeType.html#Org_Apache_Plc4x_JavaNs_Api_Types_ConnectionStateChangeType_TAGS_CHANGED_
+  commentId: Overload:Org.Apache.Plc4x.JavaNs.Api.Types.ConnectionStateChangeType.TAGS_CHANGED
+  isSpec: "True"
+  fullName: Org.Apache.Plc4x.JavaNs.Api.Types.ConnectionStateChangeType.TAGS_CHANGED
+  nameWithType: ConnectionStateChangeType.TAGS_CHANGED
+- uid: Org.Apache.Plc4x.JavaNs.Api.Types.ConnectionStateChangeType.ValueOf(Java.Lang.String)
+  name: ValueOf(String)
+  href: api/Org.Apache.Plc4x.JavaNs.Api.Types.ConnectionStateChangeType.html#Org_Apache_Plc4x_JavaNs_Api_Types_ConnectionStateChangeType_ValueOf_Java_Lang_String_
+  commentId: M:Org.Apache.Plc4x.JavaNs.Api.Types.ConnectionStateChangeType.ValueOf(Java.Lang.String)
+  fullName: Org.Apache.Plc4x.JavaNs.Api.Types.ConnectionStateChangeType.ValueOf(Java.Lang.String)
+  nameWithType: ConnectionStateChangeType.ValueOf(String)
+- uid: Org.Apache.Plc4x.JavaNs.Api.Types.ConnectionStateChangeType.ValueOf*
+  name: ValueOf
+  href: api/Org.Apache.Plc4x.JavaNs.Api.Types.ConnectionStateChangeType.html#Org_Apache_Plc4x_JavaNs_Api_Types_ConnectionStateChangeType_ValueOf_
+  commentId: Overload:Org.Apache.Plc4x.JavaNs.Api.Types.ConnectionStateChangeType.ValueOf
+  isSpec: "True"
+  fullName: Org.Apache.Plc4x.JavaNs.Api.Types.ConnectionStateChangeType.ValueOf
+  nameWithType: ConnectionStateChangeType.ValueOf
+- uid: Org.Apache.Plc4x.JavaNs.Api.Types.ConnectionStateChangeType.Values
+  name: Values()
+  href: api/Org.Apache.Plc4x.JavaNs.Api.Types.ConnectionStateChangeType.html#Org_Apache_Plc4x_JavaNs_Api_Types_ConnectionStateChangeType_Values
+  commentId: M:Org.Apache.Plc4x.JavaNs.Api.Types.ConnectionStateChangeType.Values
+  fullName: Org.Apache.Plc4x.JavaNs.Api.Types.ConnectionStateChangeType.Values()
+  nameWithType: ConnectionStateChangeType.Values()
+- uid: Org.Apache.Plc4x.JavaNs.Api.Types.ConnectionStateChangeType.Values*
+  name: Values
+  href: api/Org.Apache.Plc4x.JavaNs.Api.Types.ConnectionStateChangeType.html#Org_Apache_Plc4x_JavaNs_Api_Types_ConnectionStateChangeType_Values_
+  commentId: Overload:Org.Apache.Plc4x.JavaNs.Api.Types.ConnectionStateChangeType.Values
+  isSpec: "True"
+  fullName: Org.Apache.Plc4x.JavaNs.Api.Types.ConnectionStateChangeType.Values
+  nameWithType: ConnectionStateChangeType.Values
 - uid: Org.Apache.Plc4x.JavaNs.Api.Types.OptionType
   name: OptionType
   href: api/Org.Apache.Plc4x.JavaNs.Api.Types.OptionType.html
@@ -11653,6 +12514,19 @@ references:
   isSpec: "True"
   fullName: Org.Apache.Plc4x.JavaNs.Api.Types.OptionType.DOUBLE
   nameWithType: OptionType.DOUBLE
+- uid: Org.Apache.Plc4x.JavaNs.Api.Types.OptionType.FILE
+  name: FILE
+  href: api/Org.Apache.Plc4x.JavaNs.Api.Types.OptionType.html#Org_Apache_Plc4x_JavaNs_Api_Types_OptionType_FILE
+  commentId: P:Org.Apache.Plc4x.JavaNs.Api.Types.OptionType.FILE
+  fullName: Org.Apache.Plc4x.JavaNs.Api.Types.OptionType.FILE
+  nameWithType: OptionType.FILE
+- uid: Org.Apache.Plc4x.JavaNs.Api.Types.OptionType.FILE*
+  name: FILE
+  href: api/Org.Apache.Plc4x.JavaNs.Api.Types.OptionType.html#Org_Apache_Plc4x_JavaNs_Api_Types_OptionType_FILE_
+  commentId: Overload:Org.Apache.Plc4x.JavaNs.Api.Types.OptionType.FILE
+  isSpec: "True"
+  fullName: Org.Apache.Plc4x.JavaNs.Api.Types.OptionType.FILE
+  nameWithType: OptionType.FILE
 - uid: Org.Apache.Plc4x.JavaNs.Api.Types.OptionType.FLOAT
   name: FLOAT
   href: api/Org.Apache.Plc4x.JavaNs.Api.Types.OptionType.html#Org_Apache_Plc4x_JavaNs_Api_Types_OptionType_FLOAT
@@ -11996,6 +12870,19 @@ references:
   isSpec: "True"
   fullName: Org.Apache.Plc4x.JavaNs.Api.Types.PlcResponseCode.NOT_FOUND
   nameWithType: PlcResponseCode.NOT_FOUND
+- uid: Org.Apache.Plc4x.JavaNs.Api.Types.PlcResponseCode.NOT_READY
+  name: NOT_READY
+  href: api/Org.Apache.Plc4x.JavaNs.Api.Types.PlcResponseCode.html#Org_Apache_Plc4x_JavaNs_Api_Types_PlcResponseCode_NOT_READY
+  commentId: P:Org.Apache.Plc4x.JavaNs.Api.Types.PlcResponseCode.NOT_READY
+  fullName: Org.Apache.Plc4x.JavaNs.Api.Types.PlcResponseCode.NOT_READY
+  nameWithType: PlcResponseCode.NOT_READY
+- uid: Org.Apache.Plc4x.JavaNs.Api.Types.PlcResponseCode.NOT_READY*
+  name: NOT_READY
+  href: api/Org.Apache.Plc4x.JavaNs.Api.Types.PlcResponseCode.html#Org_Apache_Plc4x_JavaNs_Api_Types_PlcResponseCode_NOT_READY_
+  commentId: Overload:Org.Apache.Plc4x.JavaNs.Api.Types.PlcResponseCode.NOT_READY
+  isSpec: "True"
+  fullName: Org.Apache.Plc4x.JavaNs.Api.Types.PlcResponseCode.NOT_READY
+  nameWithType: PlcResponseCode.NOT_READY
 - uid: Org.Apache.Plc4x.JavaNs.Api.Types.PlcResponseCode.OK
   name: OK
   href: api/Org.Apache.Plc4x.JavaNs.Api.Types.PlcResponseCode.html#Org_Apache_Plc4x_JavaNs_Api_Types_PlcResponseCode_OK
@@ -12009,6 +12896,19 @@ references:
   isSpec: "True"
   fullName: Org.Apache.Plc4x.JavaNs.Api.Types.PlcResponseCode.OK
   nameWithType: PlcResponseCode.OK
+- uid: Org.Apache.Plc4x.JavaNs.Api.Types.PlcResponseCode.OUT_OF_RANGE
+  name: OUT_OF_RANGE
+  href: api/Org.Apache.Plc4x.JavaNs.Api.Types.PlcResponseCode.html#Org_Apache_Plc4x_JavaNs_Api_Types_PlcResponseCode_OUT_OF_RANGE
+  commentId: P:Org.Apache.Plc4x.JavaNs.Api.Types.PlcResponseCode.OUT_OF_RANGE
+  fullName: Org.Apache.Plc4x.JavaNs.Api.Types.PlcResponseCode.OUT_OF_RANGE
+  nameWithType: PlcResponseCode.OUT_OF_RANGE
+- uid: Org.Apache.Plc4x.JavaNs.Api.Types.PlcResponseCode.OUT_OF_RANGE*
+  name: OUT_OF_RANGE
+  href: api/Org.Apache.Plc4x.JavaNs.Api.Types.PlcResponseCode.html#Org_Apache_Plc4x_JavaNs_Api_Types_PlcResponseCode_OUT_OF_RANGE_
+  commentId: Overload:Org.Apache.Plc4x.JavaNs.Api.Types.PlcResponseCode.OUT_OF_RANGE
+  isSpec: "True"
+  fullName: Org.Apache.Plc4x.JavaNs.Api.Types.PlcResponseCode.OUT_OF_RANGE
+  nameWithType: PlcResponseCode.OUT_OF_RANGE
 - uid: Org.Apache.Plc4x.JavaNs.Api.Types.PlcResponseCode.REMOTE_BUSY
   name: REMOTE_BUSY
   href: api/Org.Apache.Plc4x.JavaNs.Api.Types.PlcResponseCode.html#Org_Apache_Plc4x_JavaNs_Api_Types_PlcResponseCode_REMOTE_BUSY
@@ -13704,19 +14604,19 @@ references:
   isSpec: "True"
   fullName: Org.Apache.Plc4x.JavaNs.DefaultPlcDriverManager.BridgeClassName
   nameWithType: DefaultPlcDriverManager.BridgeClassName
-- uid: Org.Apache.Plc4x.JavaNs.DefaultPlcDriverManager.ConnectionManager
-  name: ConnectionManager
-  href: api/Org.Apache.Plc4x.JavaNs.DefaultPlcDriverManager.html#Org_Apache_Plc4x_JavaNs_DefaultPlcDriverManager_ConnectionManager
-  commentId: P:Org.Apache.Plc4x.JavaNs.DefaultPlcDriverManager.ConnectionManager
-  fullName: Org.Apache.Plc4x.JavaNs.DefaultPlcDriverManager.ConnectionManager
-  nameWithType: DefaultPlcDriverManager.ConnectionManager
-- uid: Org.Apache.Plc4x.JavaNs.DefaultPlcDriverManager.ConnectionManager*
-  name: ConnectionManager
-  href: api/Org.Apache.Plc4x.JavaNs.DefaultPlcDriverManager.html#Org_Apache_Plc4x_JavaNs_DefaultPlcDriverManager_ConnectionManager_
-  commentId: Overload:Org.Apache.Plc4x.JavaNs.DefaultPlcDriverManager.ConnectionManager
+- uid: Org.Apache.Plc4x.JavaNs.DefaultPlcDriverManager.ConnectionFactory
+  name: ConnectionFactory
+  href: api/Org.Apache.Plc4x.JavaNs.DefaultPlcDriverManager.html#Org_Apache_Plc4x_JavaNs_DefaultPlcDriverManager_ConnectionFactory
+  commentId: P:Org.Apache.Plc4x.JavaNs.DefaultPlcDriverManager.ConnectionFactory
+  fullName: Org.Apache.Plc4x.JavaNs.DefaultPlcDriverManager.ConnectionFactory
+  nameWithType: DefaultPlcDriverManager.ConnectionFactory
+- uid: Org.Apache.Plc4x.JavaNs.DefaultPlcDriverManager.ConnectionFactory*
+  name: ConnectionFactory
+  href: api/Org.Apache.Plc4x.JavaNs.DefaultPlcDriverManager.html#Org_Apache_Plc4x_JavaNs_DefaultPlcDriverManager_ConnectionFactory_
+  commentId: Overload:Org.Apache.Plc4x.JavaNs.DefaultPlcDriverManager.ConnectionFactory
   isSpec: "True"
-  fullName: Org.Apache.Plc4x.JavaNs.DefaultPlcDriverManager.ConnectionManager
-  nameWithType: DefaultPlcDriverManager.ConnectionManager
+  fullName: Org.Apache.Plc4x.JavaNs.DefaultPlcDriverManager.ConnectionFactory
+  nameWithType: DefaultPlcDriverManager.ConnectionFactory
 - uid: Org.Apache.Plc4x.JavaNs.DefaultPlcDriverManager.CreatePoolableInstance
   name: CreatePoolableInstance()
   href: api/Org.Apache.Plc4x.JavaNs.DefaultPlcDriverManager.html#Org_Apache_Plc4x_JavaNs_DefaultPlcDriverManager_CreatePoolableInstance
@@ -13859,14 +14759,14 @@ references:
   isSpec: "True"
   fullName: Org.Apache.Plc4x.JavaNs.DefaultPlcDriverManager.ProtocolCodes
   nameWithType: DefaultPlcDriverManager.ProtocolCodes
-- uid: Org.Apache.Plc4x.JavaNs.DefaultPlcDriverManager.op_Implicit(Org.Apache.Plc4x.JavaNs.DefaultPlcDriverManager)~Org.Apache.Plc4x.JavaNs.Api.PlcConnectionManager
-  name: implicit operator PlcConnectionManager(DefaultPlcDriverManager)
-  href: api/Org.Apache.Plc4x.JavaNs.DefaultPlcDriverManager.html#Org_Apache_Plc4x_JavaNs_DefaultPlcDriverManager_op_Implicit_Org_Apache_Plc4x_JavaNs_DefaultPlcDriverManager__Org_Apache_Plc4x_JavaNs_Api_PlcConnectionManager
-  commentId: M:Org.Apache.Plc4x.JavaNs.DefaultPlcDriverManager.op_Implicit(Org.Apache.Plc4x.JavaNs.DefaultPlcDriverManager)~Org.Apache.Plc4x.JavaNs.Api.PlcConnectionManager
+- uid: Org.Apache.Plc4x.JavaNs.DefaultPlcDriverManager.op_Implicit(Org.Apache.Plc4x.JavaNs.DefaultPlcDriverManager)~Org.Apache.Plc4x.JavaNs.Api.PlcConnectionFactory
+  name: implicit operator PlcConnectionFactory(DefaultPlcDriverManager)
+  href: api/Org.Apache.Plc4x.JavaNs.DefaultPlcDriverManager.html#Org_Apache_Plc4x_JavaNs_DefaultPlcDriverManager_op_Implicit_Org_Apache_Plc4x_JavaNs_DefaultPlcDriverManager__Org_Apache_Plc4x_JavaNs_Api_PlcConnectionFactory
+  commentId: M:Org.Apache.Plc4x.JavaNs.DefaultPlcDriverManager.op_Implicit(Org.Apache.Plc4x.JavaNs.DefaultPlcDriverManager)~Org.Apache.Plc4x.JavaNs.Api.PlcConnectionFactory
   name.vb: CType(DefaultPlcDriverManager)
-  fullName: Org.Apache.Plc4x.JavaNs.DefaultPlcDriverManager.implicit operator Org.Apache.Plc4x.JavaNs.Api.PlcConnectionManager(Org.Apache.Plc4x.JavaNs.DefaultPlcDriverManager)
+  fullName: Org.Apache.Plc4x.JavaNs.DefaultPlcDriverManager.implicit operator Org.Apache.Plc4x.JavaNs.Api.PlcConnectionFactory(Org.Apache.Plc4x.JavaNs.DefaultPlcDriverManager)
   fullName.vb: Org.Apache.Plc4x.JavaNs.DefaultPlcDriverManager.CType(Org.Apache.Plc4x.JavaNs.DefaultPlcDriverManager)
-  nameWithType: DefaultPlcDriverManager.implicit operator PlcConnectionManager(DefaultPlcDriverManager)
+  nameWithType: DefaultPlcDriverManager.implicit operator PlcConnectionFactory(DefaultPlcDriverManager)
   nameWithType.vb: DefaultPlcDriverManager.CType(DefaultPlcDriverManager)
 - uid: Org.Apache.Plc4x.JavaNs.DefaultPlcDriverManager.op_Implicit(Org.Apache.Plc4x.JavaNs.DefaultPlcDriverManager)~Org.Apache.Plc4x.JavaNs.Api.PlcDriverManager
   name: implicit operator PlcDriverManager(DefaultPlcDriverManager)

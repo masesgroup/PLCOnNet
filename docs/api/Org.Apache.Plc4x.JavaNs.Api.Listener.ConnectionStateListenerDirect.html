@@ -89,7 +89,7 @@
 
 
   <h1 id="Org_Apache_Plc4x_JavaNs_Api_Listener_ConnectionStateListenerDirect" data-uid="Org.Apache.Plc4x.JavaNs.Api.Listener.ConnectionStateListenerDirect" class="text-break">
-Class ConnectionStateListenerDirect  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/PLCOnNet/blob/master/src/net/PLCOnNet/Generated/Org/Apache/Plc4x/JavaNs/Api/Listener/ConnectionStateListener.cs/#L297"><i class="bi bi-code-slash"></i></a>
+Class ConnectionStateListenerDirect  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/PLCOnNet/blob/master/src/net/PLCOnNet/Generated/Org/Apache/Plc4x/JavaNs/Api/Listener/ConnectionStateListener.cs/#L254"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -144,10 +144,7 @@ Class ConnectionStateListenerDirect  <a class="header-action link-secondary" tit
       <a class="xref" href="Org.Apache.Plc4x.JavaNs.Api.Listener.ConnectionStateListener.html#Org_Apache_Plc4x_JavaNs_Api_Listener_ConnectionStateListener_ListenerShallManageEventHandlers_System_Int32_">ConnectionStateListener.ListenerShallManageEventHandlers(int)</a>
     </div>
     <div>
-      <a class="xref" href="Org.Apache.Plc4x.JavaNs.Api.Listener.ConnectionStateListener.html#Org_Apache_Plc4x_JavaNs_Api_Listener_ConnectionStateListener_OnConnected">ConnectionStateListener.OnConnected</a>
-    </div>
-    <div>
-      <a class="xref" href="Org.Apache.Plc4x.JavaNs.Api.Listener.ConnectionStateListener.html#Org_Apache_Plc4x_JavaNs_Api_Listener_ConnectionStateListener_OnDisconnected">ConnectionStateListener.OnDisconnected</a>
+      <a class="xref" href="Org.Apache.Plc4x.JavaNs.Api.Listener.ConnectionStateListener.html#Org_Apache_Plc4x_JavaNs_Api_Listener_ConnectionStateListener_OnOnConnectionStateChanged">ConnectionStateListener.OnOnConnectionStateChanged</a>
     </div>
   </dd></dl>
 
@@ -434,60 +431,6 @@ public ConnectionStateListenerDirect(IJVMBridgeBaseInitializer initializer)</cod
 </h2>
 
 
-  <a id="Org_Apache_Plc4x_JavaNs_Api_Listener_ConnectionStateListenerDirect_Connected_" data-uid="Org.Apache.Plc4x.JavaNs.Api.Listener.ConnectionStateListenerDirect.Connected*"></a>
-
-  <h3 id="Org_Apache_Plc4x_JavaNs_Api_Listener_ConnectionStateListenerDirect_Connected" data-uid="Org.Apache.Plc4x.JavaNs.Api.Listener.ConnectionStateListenerDirect.Connected">
-  Connected()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/PLCOnNet/blob/master/src/net/PLCOnNet/Generated/Org/Apache/Plc4x/JavaNs/Api/Listener/ConnectionStateListener.cs/#L319"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
-  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.13.1/org/apache/plc4x/java/api/listener/ConnectionStateListener.html#connected()">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.13.1/org/apache/plc4x/java/api/listener/ConnectionStateListener.html#connected()</a></p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public override void Connected()</code></pre>
-  </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-  <a id="Org_Apache_Plc4x_JavaNs_Api_Listener_ConnectionStateListenerDirect_Disconnected_" data-uid="Org.Apache.Plc4x.JavaNs.Api.Listener.ConnectionStateListenerDirect.Disconnected*"></a>
-
-  <h3 id="Org_Apache_Plc4x_JavaNs_Api_Listener_ConnectionStateListenerDirect_Disconnected" data-uid="Org.Apache.Plc4x.JavaNs.Api.Listener.ConnectionStateListenerDirect.Disconnected">
-  Disconnected()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/PLCOnNet/blob/master/src/net/PLCOnNet/Generated/Org/Apache/Plc4x/JavaNs/Api/Listener/ConnectionStateListener.cs/#L326"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
-  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.13.1/org/apache/plc4x/java/api/listener/ConnectionStateListener.html#disconnected()">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/0.13.1/org/apache/plc4x/java/api/listener/ConnectionStateListener.html#disconnected()</a></p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public override void Disconnected()</code></pre>
-  </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
   <a id="Org_Apache_Plc4x_JavaNs_Api_Listener_ConnectionStateListenerDirect_InitializeHandlers_" data-uid="Org.Apache.Plc4x.JavaNs.Api.Listener.ConnectionStateListenerDirect.InitializeHandlers*"></a>
 
   <h3 id="Org_Apache_Plc4x_JavaNs_Api_Listener_ConnectionStateListenerDirect_InitializeHandlers_System_Type_" data-uid="Org.Apache.Plc4x.JavaNs.Api.Listener.ConnectionStateListenerDirect.InitializeHandlers(System.Type)">
@@ -567,11 +510,44 @@ By default, this function invokes <a class="xref" href="https://jcobridge-api.ma
 
 
 
+  <a id="Org_Apache_Plc4x_JavaNs_Api_Listener_ConnectionStateListenerDirect_OnConnectionStateChanged_" data-uid="Org.Apache.Plc4x.JavaNs.Api.Listener.ConnectionStateListenerDirect.OnConnectionStateChanged*"></a>
+
+  <h3 id="Org_Apache_Plc4x_JavaNs_Api_Listener_ConnectionStateListenerDirect_OnConnectionStateChanged_Org_Apache_Plc4x_JavaNs_Api_Model_PlcConnectionStateChangedEvent_" data-uid="Org.Apache.Plc4x.JavaNs.Api.Listener.ConnectionStateListenerDirect.OnConnectionStateChanged(Org.Apache.Plc4x.JavaNs.Api.Model.PlcConnectionStateChangedEvent)">
+  OnConnectionStateChanged(PlcConnectionStateChangedEvent)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/PLCOnNet/blob/master/src/net/PLCOnNet/Generated/Org/Apache/Plc4x/JavaNs/Api/Listener/ConnectionStateListener.cs/#L277"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/1.0.0/org/apache/plc4x/java/api/listener/ConnectionStateListener.html#onConnectionStateChanged(org.apache.plc4x.java.api.model.PlcConnectionStateChangedEvent)">https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/1.0.0/org/apache/plc4x/java/api/listener/ConnectionStateListener.html#onConnectionStateChanged(org.apache.plc4x.java.api.model.PlcConnectionStateChangedEvent)</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void OnConnectionStateChanged(PlcConnectionStateChangedEvent _event)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>_event</code> <a class="xref" href="Org.Apache.Plc4x.JavaNs.Api.Model.PlcConnectionStateChangedEvent.html">PlcConnectionStateChangedEvent</a></dt>
+    <dd><p><a class="xref" href="Org.Apache.Plc4x.JavaNs.Api.Model.PlcConnectionStateChangedEvent.html">PlcConnectionStateChangedEvent</a></p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
 
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/masesgroup/PLCOnNet/blob/master/src/net/PLCOnNet/Generated/Org/Apache/Plc4x/JavaNs/Api/Listener/ConnectionStateListener.cs/#L297" class="edit-link">Edit this page</a>
+          <a href="https://github.com/masesgroup/PLCOnNet/blob/master/src/net/PLCOnNet/Generated/Org/Apache/Plc4x/JavaNs/Api/Listener/ConnectionStateListener.cs/#L254" class="edit-link">Edit this page</a>
         </div>
 
 
