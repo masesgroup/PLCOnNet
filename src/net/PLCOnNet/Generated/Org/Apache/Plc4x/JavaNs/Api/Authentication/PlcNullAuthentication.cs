@@ -23,21 +23,21 @@
 
 using MASES.JCOBridge.C2JBridge;
 
-namespace Org.Apache.Plc4x.JavaNs.Api.Messages
+namespace Org.Apache.Plc4x.JavaNs.Api.Authentication
 {
-    #region PlcUnsubscriptionResponse declaration
+    #region PlcNullAuthentication declaration
     /// <summary>
-    /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/1.0.0/org/apache/plc4x/java/api/messages/PlcUnsubscriptionResponse.html"/>
+    /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/1.0.0/org/apache/plc4x/java/api/authentication/PlcNullAuthentication.html"/>
     /// </summary>
-    public partial class PlcUnsubscriptionResponse : Org.Apache.Plc4x.JavaNs.Api.Messages.PlcResponse
+    public partial class PlcNullAuthentication : Org.Apache.Plc4x.JavaNs.Api.Authentication.PlcAuthentication
     {
-        const string _bridgeClassName = "org.apache.plc4x.java.api.messages.PlcUnsubscriptionResponse";
+        const string _bridgeClassName = "org.apache.plc4x.java.api.authentication.PlcNullAuthentication";
 
         /// <summary>
         /// Initializer used internally by JCOBridge. Do not use directly.
         /// </summary>
         [global::System.Obsolete("This public initializer is needed for JCOBridge internal use, other uses can produce unidentible behaviors.")]
-        public PlcUnsubscriptionResponse(IJVMBridgeBaseInitializer initializer) : base(initializer) { }
+        public PlcNullAuthentication(IJVMBridgeBaseInitializer initializer) : base(initializer) { }
 
         private static readonly global::System.Exception _LocalBridgeClazzException = null;
         private static readonly MASES.JCOBridge.C2JBridge.JVMInterop.IJavaType _LocalBridgeClazz = JVMBridgeBase.ClazzOf(_bridgeClassName, out _LocalBridgeClazzException, false);
@@ -46,11 +46,11 @@ namespace Org.Apache.Plc4x.JavaNs.Api.Messages
         /// <inheritdoc/>
         public override string BridgeClassName => _bridgeClassName;
         /// <inheritdoc/>
-        public override bool IsBridgeAbstract => true;
+        public override bool IsBridgeAbstract => false;
         /// <inheritdoc/>
         public override bool IsBridgeCloseable => false;
         /// <inheritdoc/>
-        public override bool IsBridgeInterface => true;
+        public override bool IsBridgeInterface => false;
         /// <inheritdoc/>
         public override bool IsBridgeStatic => false;
 
@@ -59,28 +59,24 @@ namespace Org.Apache.Plc4x.JavaNs.Api.Messages
     }
     #endregion
 
-    #region IPlcUnsubscriptionResponse
-    /// <summary>
-    /// .NET interface skeleton to be manually developed following <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/1.0.0/org/apache/plc4x/java/api/messages/PlcUnsubscriptionResponse.html"/>
-    /// </summary>
-    public partial interface IPlcUnsubscriptionResponse : Org.Apache.Plc4x.JavaNs.Api.Messages.IPlcResponse
-    {
-        #region Instance methods
-
-        #endregion
-
-        #region Nested classes
-
-        #endregion
-
-        // TODO: complete the class
-    }
-    #endregion
-
-    #region PlcUnsubscriptionResponse implementation
-    public partial class PlcUnsubscriptionResponse : Org.Apache.Plc4x.JavaNs.Api.Messages.IPlcUnsubscriptionResponse
+    #region PlcNullAuthentication implementation
+    public partial class PlcNullAuthentication
     {
         #region Constructors
+        /// <summary>
+        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/1.0.0/org/apache/plc4x/java/api/authentication/PlcNullAuthentication.html#%3Cinit%3E()"/>
+        /// </summary>
+        public PlcNullAuthentication() : base(JVMBridgeBase.InitializerInstance)
+        {
+            InvokeInitializer();
+        }
+        /// <summary>
+        /// HPA initializer for PlcNullAuthentication()
+        /// </summary>
+        public static PlcNullAuthentication CreatePoolableInstance()
+        {
+            return JVMBridgeBase.New<PlcNullAuthentication>();
+        }
 
         #endregion
 
@@ -97,13 +93,6 @@ namespace Org.Apache.Plc4x.JavaNs.Api.Messages
         #endregion
 
         #region Instance methods
-        /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/1.0.0/org/apache/plc4x/java/api/messages/PlcUnsubscriptionResponse.html#getRequest()"/> 
-        /// </summary>
-        public Org.Apache.Plc4x.JavaNs.Api.Messages.PlcRequest Request
-        {
-            get { return IExecuteWithSignature<Org.Apache.Plc4x.JavaNs.Api.Messages.PlcRequest>("getRequest", "()Lorg/apache/plc4x/java/api/messages/PlcRequest;"); }
-        }
 
         #endregion
 
