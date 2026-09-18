@@ -116,9 +116,9 @@
 				</executions>
 			</plugin>
 			<plugin>
-				<groupId>org.codehaus.gmaven</groupId>
-				<artifactId>gmaven-plugin</artifactId>
-				<version>1.5</version>
+				<groupId>org.codehaus.gmavenplus</groupId>
+				<artifactId>gmavenplus-plugin</artifactId>
+				<version>5.1.0</version>
 				<executions>
 					<execution>
 						<phase>generate-resources</phase>
@@ -126,13 +126,46 @@
 							<goal>execute</goal>
 						</goals>
 						<configuration>
-							<source>
-								def file = new File(project.properties.classpathfile)
-								project.properties.originalClassPath = file.getText()
-							</source>
+							<scripts>
+								<script>
+									<![CDATA[
+@Grapes([
+  @Grab(group='org.apache.commons', module='commons-lang3', version='3.3.2')
+])
+def file = new File(project.properties.classpathfile)
+project.properties.originalClassPath = file.getText()
+]]>
+								</script>
+							</scripts>
 						</configuration>
 					</execution>
 				</executions>
+				<dependencies>
+					<!-- Add Apache Ant if using AntBuilder -->
+					<!--<dependency>
+						<groupId>org.apache.ant</groupId>
+						<artifactId>ant</artifactId>
+						<version>1.10.15</version>
+					</dependency>-->
+					<!-- Add Apache Ivy if using @Grab -->
+					<dependency>
+						<groupId>org.apache.ivy</groupId>
+						<artifactId>ivy</artifactId>
+						<version>2.6.0</version>
+					</dependency>
+					<!-- Add JLine 2 if using shell with Groovy 2.x/3.x/4.x -->
+					<!--<dependency>
+						<groupId>jline</groupId>
+						<artifactId>jline</artifactId>
+						<version>2.14.6</version>
+					</dependency>-->
+					<!-- Add JAnsi 1.x for terminal colors with JLine 2 -->
+					<!--<dependency>
+						<groupId>org.fusesource.jansi</groupId>
+						<artifactId>jansi</artifactId>
+						<version>1.18</version>
+					</dependency>-->
+				</dependencies>
 			</plugin>
 			<!-- end from stackoverflow -->
 			<plugin>
@@ -204,6 +237,12 @@
 		</plugins>
 	</build>
 	<dependencies>
+		<dependency>
+			<scope>compile</scope>
+			<groupId>org.apache.groovy</groupId>
+			<artifactId>groovy</artifactId>
+			<version>5.1.2</version>
+		</dependency>
 		<dependency>
 			<groupId>org.apache.plc4x</groupId>
 			<artifactId>plc4j-driver-all</artifactId>
