@@ -52,7 +52,7 @@ namespace MASES.PLCOnNet.PowerShell.Cmdlet
         protected override void ProcessCommand()
         {
             var driverManager = PlcDriverManager.Default;
-            var connManager = driverManager.ConnectionManager;
+            var connManager = driverManager.ConnectionFactory;
             var connection = Authentication != null ? connManager.GetConnection(Url, Authentication) : connManager.GetConnection(Url);
 
             WriteObject(connection);
