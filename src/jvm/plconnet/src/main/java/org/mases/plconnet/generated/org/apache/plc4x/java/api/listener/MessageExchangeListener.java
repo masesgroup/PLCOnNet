@@ -159,17 +159,17 @@ public final class MessageExchangeListener implements org.mases.jcobridge.IJCLis
 
     int _receivedIndex = 0;
     //@Override
-    public void received(java.lang.Object arg0) {
+    public void received(java.lang.Object message) {
         org.mases.jnet.developed.JNetEventResult eventDataExchange = new org.mases.jnet.developed.JNetEventResult();
         if (_receivedIndex <= 0) _receivedIndex = getEventIndex("received");
-        raiseEvent(_receivedIndex, eventDataExchange, arg0); if (!eventDataExchange.getHasOverride()) throw new UnsupportedOperationException("The method shall be implemented in .NET side since does not have a default implementation within the JVM");
+        raiseEvent(_receivedIndex, eventDataExchange, message); if (!eventDataExchange.getHasOverride()) throw new UnsupportedOperationException("The method shall be implemented in .NET side since does not have a default implementation within the JVM");
     }
     int _sendingIndex = 0;
     //@Override
-    public void sending(java.lang.Object arg0) {
+    public void sending(java.lang.Object message) {
         org.mases.jnet.developed.JNetEventResult eventDataExchange = new org.mases.jnet.developed.JNetEventResult();
         if (_sendingIndex <= 0) _sendingIndex = getEventIndex("sending");
-        raiseEvent(_sendingIndex, eventDataExchange, arg0); if (!eventDataExchange.getHasOverride()) throw new UnsupportedOperationException("The method shall be implemented in .NET side since does not have a default implementation within the JVM");
+        raiseEvent(_sendingIndex, eventDataExchange, message); if (!eventDataExchange.getHasOverride()) throw new UnsupportedOperationException("The method shall be implemented in .NET side since does not have a default implementation within the JVM");
     }
 
 }

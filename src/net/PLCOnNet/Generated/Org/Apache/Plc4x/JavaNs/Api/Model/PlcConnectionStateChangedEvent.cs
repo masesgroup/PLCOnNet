@@ -23,21 +23,21 @@
 
 using MASES.JCOBridge.C2JBridge;
 
-namespace Org.Apache.Plc4x.JavaNs.Api.Authentication
+namespace Org.Apache.Plc4x.JavaNs.Api.Model
 {
-    #region PlcUsernamePasswordAuthentication declaration
+    #region PlcConnectionStateChangedEvent declaration
     /// <summary>
-    /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/1.0.0/org/apache/plc4x/java/api/authentication/PlcUsernamePasswordAuthentication.html"/>
+    /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/1.0.0/org/apache/plc4x/java/api/model/PlcConnectionStateChangedEvent.html"/>
     /// </summary>
-    public partial class PlcUsernamePasswordAuthentication : Org.Apache.Plc4x.JavaNs.Api.Authentication.PlcAuthentication
+    public partial class PlcConnectionStateChangedEvent : MASES.JCOBridge.C2JBridge.JVMBridgeBase<PlcConnectionStateChangedEvent>
     {
-        const string _bridgeClassName = "org.apache.plc4x.java.api.authentication.PlcUsernamePasswordAuthentication";
+        const string _bridgeClassName = "org.apache.plc4x.java.api.model.PlcConnectionStateChangedEvent";
 
         /// <summary>
         /// Initializer used internally by JCOBridge. Do not use directly.
         /// </summary>
         [global::System.Obsolete("This public initializer is needed for JCOBridge internal use, other uses can produce unidentible behaviors.")]
-        public PlcUsernamePasswordAuthentication(IJVMBridgeBaseInitializer initializer) : base(initializer) { }
+        public PlcConnectionStateChangedEvent(IJVMBridgeBaseInitializer initializer) : base(initializer) { }
 
         private static readonly global::System.Exception _LocalBridgeClazzException = null;
         private static readonly MASES.JCOBridge.C2JBridge.JVMInterop.IJavaType _LocalBridgeClazz = JVMBridgeBase.ClazzOf(_bridgeClassName, out _LocalBridgeClazzException, false);
@@ -59,25 +59,25 @@ namespace Org.Apache.Plc4x.JavaNs.Api.Authentication
     }
     #endregion
 
-    #region PlcUsernamePasswordAuthentication implementation
-    public partial class PlcUsernamePasswordAuthentication
+    #region PlcConnectionStateChangedEvent implementation
+    public partial class PlcConnectionStateChangedEvent
     {
         #region Constructors
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/1.0.0/org/apache/plc4x/java/api/authentication/PlcUsernamePasswordAuthentication.html#%3Cinit%3E(java.lang.String,java.lang.String)"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/1.0.0/org/apache/plc4x/java/api/model/PlcConnectionStateChangedEvent.html#%3Cinit%3E(org.apache.plc4x.java.api.types.ConnectionStateChangeType,java.lang.String)"/>
         /// </summary>
-        /// <param name="username"><see cref="Java.Lang.String"/></param>
-        /// <param name="password"><see cref="Java.Lang.String"/></param>
-        public PlcUsernamePasswordAuthentication(Java.Lang.String username, Java.Lang.String password) : base(JVMBridgeBase.InitializerInstance)
+        /// <param name="changeType"><see cref="Org.Apache.Plc4x.JavaNs.Api.Types.ConnectionStateChangeType"/></param>
+        /// <param name="details"><see cref="Java.Lang.String"/></param>
+        public PlcConnectionStateChangedEvent(Org.Apache.Plc4x.JavaNs.Api.Types.ConnectionStateChangeType changeType, Java.Lang.String details) : base(JVMBridgeBase.InitializerInstance)
         {
-            InvokeInitializer(username, password);
+            InvokeInitializer(changeType, details);
         }
         /// <summary>
-        /// HPA initializer for PlcUsernamePasswordAuthentication(Java.Lang.String username, Java.Lang.String password)
+        /// HPA initializer for PlcConnectionStateChangedEvent(Org.Apache.Plc4x.JavaNs.Api.Types.ConnectionStateChangeType changeType, Java.Lang.String details)
         /// </summary>
-        public static PlcUsernamePasswordAuthentication CreatePoolableInstance(Java.Lang.String username, Java.Lang.String password)
+        public static PlcConnectionStateChangedEvent CreatePoolableInstance(Org.Apache.Plc4x.JavaNs.Api.Types.ConnectionStateChangeType changeType, Java.Lang.String details)
         {
-            return JVMBridgeBase.New<PlcUsernamePasswordAuthentication>(username, password);
+            return JVMBridgeBase.New<PlcConnectionStateChangedEvent>(changeType, details);
         }
 
         #endregion
@@ -96,18 +96,18 @@ namespace Org.Apache.Plc4x.JavaNs.Api.Authentication
 
         #region Instance methods
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/1.0.0/org/apache/plc4x/java/api/authentication/PlcUsernamePasswordAuthentication.html#getPassword()"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/1.0.0/org/apache/plc4x/java/api/model/PlcConnectionStateChangedEvent.html#getChangeType()"/> 
         /// </summary>
-        public Java.Lang.String Password
+        public Org.Apache.Plc4x.JavaNs.Api.Types.ConnectionStateChangeType ChangeType
         {
-            get { return IExecuteWithSignature<Java.Lang.String>("getPassword", "()Ljava/lang/String;"); }
+            get { return IExecuteWithSignature<Org.Apache.Plc4x.JavaNs.Api.Types.ConnectionStateChangeType>("getChangeType", "()Lorg/apache/plc4x/java/api/types/ConnectionStateChangeType;"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/1.0.0/org/apache/plc4x/java/api/authentication/PlcUsernamePasswordAuthentication.html#getUsername()"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/1.0.0/org/apache/plc4x/java/api/model/PlcConnectionStateChangedEvent.html#getDetails()"/> 
         /// </summary>
-        public Java.Lang.String Username
+        public Java.Lang.String Details
         {
-            get { return IExecuteWithSignature<Java.Lang.String>("getUsername", "()Ljava/lang/String;"); }
+            get { return IExecuteWithSignature<Java.Lang.String>("getDetails", "()Ljava/lang/String;"); }
         }
 
         #endregion

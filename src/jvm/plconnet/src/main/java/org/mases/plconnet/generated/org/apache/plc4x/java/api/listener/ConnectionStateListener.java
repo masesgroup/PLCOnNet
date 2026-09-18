@@ -157,19 +157,12 @@ public final class ConnectionStateListener implements org.mases.jcobridge.IJCLis
        _internalListener.setReturnData(retData);
     }
 
-    int _connectedIndex = 0;
+    int _onConnectionStateChangedIndex = 0;
     //@Override
-    public void connected() {
+    public void onConnectionStateChanged(org.apache.plc4x.java.api.model.PlcConnectionStateChangedEvent _event) {
         org.mases.jnet.developed.JNetEventResult eventDataExchange = new org.mases.jnet.developed.JNetEventResult();
-        if (_connectedIndex <= 0) _connectedIndex = getEventIndex("connected");
-        raiseEvent(_connectedIndex, eventDataExchange); if (!eventDataExchange.getHasOverride()) throw new UnsupportedOperationException("The method shall be implemented in .NET side since does not have a default implementation within the JVM");
-    }
-    int _disconnectedIndex = 0;
-    //@Override
-    public void disconnected() {
-        org.mases.jnet.developed.JNetEventResult eventDataExchange = new org.mases.jnet.developed.JNetEventResult();
-        if (_disconnectedIndex <= 0) _disconnectedIndex = getEventIndex("disconnected");
-        raiseEvent(_disconnectedIndex, eventDataExchange); if (!eventDataExchange.getHasOverride()) throw new UnsupportedOperationException("The method shall be implemented in .NET side since does not have a default implementation within the JVM");
+        if (_onConnectionStateChangedIndex <= 0) _onConnectionStateChangedIndex = getEventIndex("onConnectionStateChanged");
+        raiseEvent(_onConnectionStateChangedIndex, eventDataExchange, _event); if (!eventDataExchange.getHasOverride()) throw new UnsupportedOperationException("The method shall be implemented in .NET side since does not have a default implementation within the JVM");
     }
 
 }

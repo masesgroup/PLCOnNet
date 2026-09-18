@@ -23,21 +23,21 @@
 
 using MASES.JCOBridge.C2JBridge;
 
-namespace Org.Apache.Plc4x.JavaNs.Api.Messages
+namespace Org.Apache.Plc4x.JavaNs.Api
 {
-    #region PlcUnsubscriptionResponse declaration
+    #region PlcConnectionFactory declaration
     /// <summary>
-    /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/1.0.0/org/apache/plc4x/java/api/messages/PlcUnsubscriptionResponse.html"/>
+    /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/1.0.0/org/apache/plc4x/java/api/PlcConnectionFactory.html"/>
     /// </summary>
-    public partial class PlcUnsubscriptionResponse : Org.Apache.Plc4x.JavaNs.Api.Messages.PlcResponse
+    public partial class PlcConnectionFactory : MASES.JCOBridge.C2JBridge.JVMBridgeBase<PlcConnectionFactory>
     {
-        const string _bridgeClassName = "org.apache.plc4x.java.api.messages.PlcUnsubscriptionResponse";
+        const string _bridgeClassName = "org.apache.plc4x.java.api.PlcConnectionFactory";
 
         /// <summary>
         /// Initializer used internally by JCOBridge. Do not use directly.
         /// </summary>
         [global::System.Obsolete("This public initializer is needed for JCOBridge internal use, other uses can produce unidentible behaviors.")]
-        public PlcUnsubscriptionResponse(IJVMBridgeBaseInitializer initializer) : base(initializer) { }
+        public PlcConnectionFactory(IJVMBridgeBaseInitializer initializer) : base(initializer) { }
 
         private static readonly global::System.Exception _LocalBridgeClazzException = null;
         private static readonly MASES.JCOBridge.C2JBridge.JVMInterop.IJavaType _LocalBridgeClazz = JVMBridgeBase.ClazzOf(_bridgeClassName, out _LocalBridgeClazzException, false);
@@ -59,11 +59,11 @@ namespace Org.Apache.Plc4x.JavaNs.Api.Messages
     }
     #endregion
 
-    #region IPlcUnsubscriptionResponse
+    #region IPlcConnectionFactory
     /// <summary>
-    /// .NET interface skeleton to be manually developed following <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/1.0.0/org/apache/plc4x/java/api/messages/PlcUnsubscriptionResponse.html"/>
+    /// .NET interface skeleton to be manually developed following <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/1.0.0/org/apache/plc4x/java/api/PlcConnectionFactory.html"/>
     /// </summary>
-    public partial interface IPlcUnsubscriptionResponse : Org.Apache.Plc4x.JavaNs.Api.Messages.IPlcResponse
+    public partial interface IPlcConnectionFactory
     {
         #region Instance methods
 
@@ -77,8 +77,8 @@ namespace Org.Apache.Plc4x.JavaNs.Api.Messages
     }
     #endregion
 
-    #region PlcUnsubscriptionResponse implementation
-    public partial class PlcUnsubscriptionResponse : Org.Apache.Plc4x.JavaNs.Api.Messages.IPlcUnsubscriptionResponse
+    #region PlcConnectionFactory implementation
+    public partial class PlcConnectionFactory : Org.Apache.Plc4x.JavaNs.Api.IPlcConnectionFactory
     {
         #region Constructors
 
@@ -98,11 +98,25 @@ namespace Org.Apache.Plc4x.JavaNs.Api.Messages
 
         #region Instance methods
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/1.0.0/org/apache/plc4x/java/api/messages/PlcUnsubscriptionResponse.html#getRequest()"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/1.0.0/org/apache/plc4x/java/api/PlcConnectionFactory.html#getConnection(java.lang.String,org.apache.plc4x.java.api.authentication.PlcAuthentication)"/>
         /// </summary>
-        public Org.Apache.Plc4x.JavaNs.Api.Messages.PlcRequest Request
+        /// <param name="url"><see cref="Java.Lang.String"/></param>
+        /// <param name="authentication"><see cref="Org.Apache.Plc4x.JavaNs.Api.Authentication.PlcAuthentication"/></param>
+        /// <returns><see cref="Org.Apache.Plc4x.JavaNs.Api.PlcConnection"/></returns>
+        /// <exception cref="Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcConnectionException"/>
+        public Org.Apache.Plc4x.JavaNs.Api.PlcConnection GetConnection(Java.Lang.String url, Org.Apache.Plc4x.JavaNs.Api.Authentication.PlcAuthentication authentication)
         {
-            get { return IExecuteWithSignature<Org.Apache.Plc4x.JavaNs.Api.Messages.PlcRequest>("getRequest", "()Lorg/apache/plc4x/java/api/messages/PlcRequest;"); }
+            return IExecuteWithSignature<Org.Apache.Plc4x.JavaNs.Api.PlcConnection>("getConnection", "(Ljava/lang/String;Lorg/apache/plc4x/java/api/authentication/PlcAuthentication;)Lorg/apache/plc4x/java/api/PlcConnection;", url, authentication);
+        }
+        /// <summary>
+        /// <see href="https://www.javadoc.io/doc/org.apache.plc4x/plc4j-api/1.0.0/org/apache/plc4x/java/api/PlcConnectionFactory.html#getConnection(java.lang.String)"/>
+        /// </summary>
+        /// <param name="url"><see cref="Java.Lang.String"/></param>
+        /// <returns><see cref="Org.Apache.Plc4x.JavaNs.Api.PlcConnection"/></returns>
+        /// <exception cref="Org.Apache.Plc4x.JavaNs.Api.Exceptions.PlcConnectionException"/>
+        public Org.Apache.Plc4x.JavaNs.Api.PlcConnection GetConnection(Java.Lang.String url)
+        {
+            return IExecuteWithSignature<Org.Apache.Plc4x.JavaNs.Api.PlcConnection>("getConnection", "(Ljava/lang/String;)Lorg/apache/plc4x/java/api/PlcConnection;", url);
         }
 
         #endregion
