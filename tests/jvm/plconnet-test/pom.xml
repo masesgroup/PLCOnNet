@@ -39,7 +39,7 @@
 		<maven.compiler.target>11</maven.compiler.target>
 		<classpathfile>${basedir}/classpathfile.classpath</classpathfile>
 		<plconnettestversion>1.0.0.0</plconnettestversion>
-		<jcobridgepath>../../../bin/net8.0/JCOBridge.jar</jcobridgepath>
+		<jcobridgepath>../../../bin/net10.0/JCOBridge.jar</jcobridgepath>
 	</properties>
 	<distributionManagement>
 		<snapshotRepository>

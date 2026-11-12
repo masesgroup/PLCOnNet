@@ -8,12 +8,12 @@
 		<Description>PLCOnNetPS - PLCOnNet (.NET suite for PLC4X) PowerShell command line interface</Description>
 		<Product>PLCOnNetPS</Product>
 		<OutputPath>..\..\..\MASES.PLCOnNetPS\</OutputPath>
-		<TargetFrameworks>net462;net8.0</TargetFrameworks>
+		<TargetFrameworks>net462;net10.0</TargetFrameworks>
 		<RunAnalyzersDuringLiveAnalysis>False</RunAnalyzersDuringLiveAnalysis>
 		<RunAnalyzersDuringBuild>False</RunAnalyzersDuringBuild>
 	</PropertyGroup>
 
-	<PropertyGroup Condition="'$(TargetFramework)' == 'net8.0'">
+	<PropertyGroup Condition="'$(TargetFramework)' == 'net10.0'">
 		<OutputType>Exe</OutputType>
 	</PropertyGroup>
 
@@ -31,7 +31,7 @@
 
 	<ItemGroup>
 		<ProjectReference Include="..\PLCOnNet\PLCOnNet.csproj" />
-		<PackageReference Include="MASES.JNetPSCore" Version="2.6.9" />
+		<PackageReference Include="MASES.JNetPSCore" Version="2.6.10-preview20261111" />
 		<PackageReference Include="PowerShellStandard.Library" Version="5.1.1">
 			<PrivateAssets>All</PrivateAssets>
 		</PackageReference>
@@ -41,7 +41,7 @@
 		<None Update="MASES.PLCOnNetPSFramework.psd1" Condition="'$(TargetFramework)' == 'net462'">
 			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
 		</None>
-		<None Update="MASES.PLCOnNetPSCore.psd1" Condition="'$(TargetFramework)' == 'net8.0'">
+		<None Update="MASES.PLCOnNetPSCore.psd1" Condition="'$(TargetFramework)' == 'net10.0'">
 			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
 		</None>
 	</ItemGroup>

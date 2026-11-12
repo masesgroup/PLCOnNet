@@ -44,12 +44,14 @@
 		<classpathfile>${basedir}/classpathfile.classpath</classpathfile>
 		<mavenSkipMain>false</mavenSkipMain>
 		<!-- set mavenSkipMain to true to avoid source compilation: use directive in command-line -->
-		<jnetVersion>2.6.9.0</jnetVersion>
+		<jnetVersion>2.6.10.0</jnetVersion>
 		<plc4xVersion>1.0.0</plc4xVersion>
 		<plconnetversion>1.0.0.0</plconnetversion>
+		<binFolderName>bin</binFolderName>
+		<runtimeFolderName>net10.0</runtimeFolderName>
 		<rootDir>${basedir}/../../../</rootDir>
-		<jcobridgepath>${rootDir}/bin/net8.0/JCOBridge.jar</jcobridgepath>
-		<jnetpath>${rootDir}/bin/net8.0/jars/jnet-${jnetVersion}.jar</jnetpath>
+		<jcobridgepath>${rootDir}/${binFolderName}/${runtimeFolderName}/JCOBridge.jar</jcobridgepath>
+		<jnetpath>${rootDir}/${binFolderName}/${runtimeFolderName}/jars/jnet-${jnetVersion}.jar</jnetpath>
 		<jarsDestination>${rootDir}/jars/</jarsDestination>
 	</properties>
 	<distributionManagement>

@@ -9,9 +9,17 @@ PLCOnNet is a comprehensive suite of libraries and tools to use [PLC4X™](https
 
 ### Libraries and Tools
 
-|PLCOnNet | PLCOnNet.Templates | PLCOnNetCLI | PLCOnNetPS |
-|:---:	|:---:	|:---:	|:---:	|
-|[![PLCOnNet nuget](https://img.shields.io/nuget/v/MASES.PLCOnNet)](https://www.nuget.org/packages/MASES.PLCOnNet)<br/>[![downloads](https://img.shields.io/nuget/dt/MASES.PLCOnNet)](https://www.nuget.org/packages/MASES.PLCOnNet) | [![PLCOnNet.Templates nuget](https://img.shields.io/nuget/v/MASES.PLCOnNet.Templates)](https://www.nuget.org/packages/MASES.PLCOnNet.Templates)<br/>[![downloads](https://img.shields.io/nuget/dt/MASES.PLCOnNet.Templates)](https://www.nuget.org/packages/MASES.PLCOnNet.Templates)| [![PLCOnNetCLI nuget](https://img.shields.io/nuget/v/MASES.PLCOnNetCLI)](https://www.nuget.org/packages/MASES.PLCOnNetCLI)<br/>[![downloads](https://img.shields.io/nuget/dt/MASES.PLCOnNetCLI)](https://www.nuget.org/packages/MASES.PLCOnNetCLI)|[![PLCOnNetPS](https://img.shields.io/powershellgallery/v/MASES.PLCOnNetPS.svg?style=flat-square&label=MASES.PLCOnNetPS)](https://www.powershellgallery.com/packages/MASES.PLCOnNetPS/)|
+| Package | Version | Downloads |
+|:--|:--:|:--:|
+| **PLCOnNet** | [![PLCOnNet nuget](https://img.shields.io/nuget/v/MASES.PLCOnNet)](https://www.nuget.org/packages/MASES.PLCOnNet) | [![PLCOnNet downloads](https://img.shields.io/nuget/dt/MASES.PLCOnNet)](https://www.nuget.org/packages/MASES.PLCOnNet) |
+| **PLCOnNet.Templates** | [![PLCOnNet.Templates nuget](https://img.shields.io/nuget/v/MASES.PLCOnNet.Templates)](https://www.nuget.org/packages/MASES.PLCOnNet.Templates) | [![PLCOnNet.Templates downloads](https://img.shields.io/nuget/dt/MASES.PLCOnNet.Templates)](https://www.nuget.org/packages/MASES.PLCOnNet.Templates) |
+| **PLCOnNetCLI** | [![PLCOnNetCLI nuget](https://img.shields.io/nuget/v/MASES.PLCOnNetCLI)](https://www.nuget.org/packages/MASES.PLCOnNetCLI) | [![PLCOnNetCLI downloads](https://img.shields.io/nuget/dt/MASES.PLCOnNetCLI)](https://www.nuget.org/packages/MASES.PLCOnNetCLI) |
+| **PLCOnNetPS** | [![PLCOnNetPS PowerShell Gallery](https://img.shields.io/powershellgallery/v/MASES.PLCOnNetPS.svg?label=PowerShell%20Gallery)](https://www.powershellgallery.com/packages/MASES.PLCOnNetPS/) | [![PLCOnNetPS downloads](https://img.shields.io/powershellgallery/dt/MASES.PLCOnNetPS.svg)](https://www.powershellgallery.com/packages/MASES.PLCOnNetPS/) |
+
+> [!NOTE]
+> This project follows the target framework support of **JCOBridge**, which in turn follows the Microsoft .NET support lifecycle. Public releases do not take on the maintenance of runtimes that Microsoft no longer supports: when Microsoft ends support for a .NET version, that target is dropped starting with the next JCOBridge release.
+>
+> Need a build for a legacy or out-of-support target, or expert help with .NET and JVM™ integration? See [Professional Support Options](support.md).
 
 ### Pipelines
 
