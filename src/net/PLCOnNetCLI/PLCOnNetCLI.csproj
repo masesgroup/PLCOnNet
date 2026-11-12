@@ -10,7 +10,7 @@
 		<Description>Command line interface of .NET suite for PLC4X. PLCOnNet is a comprehensive suite of libraries and tools to use PLC4X and .NET side-by-side.</Description>
 		<Product>PLCOnNetCLI</Product>
 		<GeneratePackageOnBuild>false</GeneratePackageOnBuild>
-		<PackageTags>plconnet cli pdf plc4x dotnet clr netcore net8 gateway</PackageTags>
+		<PackageTags>plconnet cli pdf plc4x dotnet clr netcore net10 gateway</PackageTags>
 		<PackageId>MASES.PLCOnNetCLI</PackageId>
 		<PackageReadmeFile>usageCLI.md</PackageReadmeFile>
 		<RunAnalyzersDuringLiveAnalysis>True</RunAnalyzersDuringLiveAnalysis>
@@ -31,7 +31,7 @@
 		<None Include="..\..\documentation\articles\usageCLI.md" Pack="true" PackagePath="\" />
 	</ItemGroup>
 	<ItemGroup>
-		<PackageReference Include="MASES.JNetCLICore" Version="2.6.9" />
+		<PackageReference Include="MASES.JNetCLICore" Version="2.6.10-preview20261111" />
 	</ItemGroup>
 	<ItemGroup>
 		<ProjectReference Include="..\PLCOnNet\PLCOnNet.csproj">
